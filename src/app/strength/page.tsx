@@ -82,10 +82,10 @@ function StrengthPageContent() {
     <div className="pt-28 lg:pt-32 pb-24 bg-white min-h-screen">
       {/* Interactive Switcher & Content Wrapper */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           
           {/* Left Column: Tab Selectors (Desktop Sidebar / Mobile Row) */}
-          <div className="lg:col-span-4 flex flex-col gap-3">
+          <div className="lg:col-span-3 flex flex-col gap-3">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue mb-2 hidden lg:block text-left">
               Corporate Strength
             </span>
@@ -149,7 +149,7 @@ function StrengthPageContent() {
           </div>
 
           {/* Right Column: Dynamic Section Content Rendering */}
-          <div className="lg:col-span-8 bg-white border border-[#eae7e3] p-6 sm:p-10 rounded-sm shadow-sm text-left">
+          <div className="lg:col-span-9 bg-white border border-[#eae7e3] p-6 sm:p-10 rounded-sm shadow-sm text-left">
             <AnimatePresence mode="wait">
               <motion.div
                 key={activeTab}
