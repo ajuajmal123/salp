@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Send, CheckCircle2, AlertCircle, RefreshCw } from "lucide-react";
+import { Send, CheckCircle2, AlertCircle, RefreshCw, ChevronDown } from "lucide-react";
 
 interface FormData {
   name: string;
@@ -86,7 +86,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="w-full bg-white dark:bg-navy-900 border border-slate-200 dark:border-navy-800 p-8 sm:p-10 rounded-sm shadow-xl shadow-navy-950/5 relative overflow-hidden">
+    <div className="w-full bg-white dark:bg-navy-900 border border-[#eae7e3] dark:border-navy-800 p-5 xs:p-6 sm:p-8 md:p-10 rounded-md shadow-xl shadow-navy-950/5 relative overflow-hidden">
       
       {/* Visual Accent top border */}
       <div className="absolute top-0 left-0 right-0 h-[4px] bg-sapl-blue" />
@@ -98,23 +98,23 @@ export default function ContactForm() {
             onSubmit={handleSubmit}
             initial={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="space-y-6"
+            className="space-y-5 sm:space-y-6"
           >
             <div className="text-left">
-              <h3 className="text-xl font-bold tracking-tight text-navy-950 dark:text-white">
+              <h3 className="text-lg sm:text-xl font-bold tracking-tight text-navy-950 dark:text-white uppercase">
                 Submit an Inquiry
               </h3>
-              <p className="text-slate-500 dark:text-navy-400 text-xs mt-1 font-semibold uppercase tracking-wider">
+              <p className="text-slate-500 dark:text-navy-400 text-[10px] sm:text-xs mt-1 font-semibold uppercase tracking-wider">
                 Our estimation & engineering team will respond within 24 hours.
               </p>
             </div>
 
             {/* Row 1: Name & Email */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <div className="flex flex-col gap-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+              <div className="flex flex-col gap-1.5">
                 <label
                   htmlFor="name"
-                  className="text-xs font-bold uppercase tracking-wider text-navy-800 dark:text-navy-300"
+                  className="text-[10px] font-extrabold uppercase tracking-widest text-[#6D675E] dark:text-navy-300 mb-0.5 block text-left"
                 >
                   Full Name
                 </label>
@@ -125,10 +125,10 @@ export default function ContactForm() {
                   value={formData.name}
                   onChange={handleChange}
                   placeholder="e.g. John Doe"
-                  className={`w-full px-4 py-3 rounded-sm border bg-slate-50 dark:bg-navy-950 text-navy-950 dark:text-white text-sm font-semibold tracking-wide focus:outline-none transition-colors duration-300 ${
+                  className={`w-full px-4 py-2.5 sm:py-3 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${
                     errors.name
-                      ? "border-red-500 focus:border-red-500"
-                      : "border-slate-200 dark:border-navy-800 focus:border-sapl-blue"
+                      ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
+                      : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
                   }`}
                 />
                 {errors.name && (
@@ -139,10 +139,10 @@ export default function ContactForm() {
                 )}
               </div>
 
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-1.5">
                 <label
                   htmlFor="email"
-                  className="text-xs font-bold uppercase tracking-wider text-navy-800 dark:text-navy-300"
+                  className="text-[10px] font-extrabold uppercase tracking-widest text-[#6D675E] dark:text-navy-300 mb-0.5 block text-left"
                 >
                   Email Address
                 </label>
@@ -153,10 +153,10 @@ export default function ContactForm() {
                   value={formData.email}
                   onChange={handleChange}
                   placeholder="e.g. john@company.com"
-                  className={`w-full px-4 py-3 rounded-sm border bg-slate-50 dark:bg-navy-950 text-navy-950 dark:text-white text-sm font-semibold tracking-wide focus:outline-none transition-colors duration-300 ${
+                  className={`w-full px-4 py-2.5 sm:py-3 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${
                     errors.email
-                      ? "border-red-500 focus:border-red-500"
-                      : "border-slate-200 dark:border-navy-800 focus:border-sapl-blue"
+                      ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
+                      : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
                   }`}
                 />
                 {errors.email && (
@@ -169,11 +169,11 @@ export default function ContactForm() {
             </div>
 
             {/* Row 2: Phone & Service Sector */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <div className="flex flex-col gap-2">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+              <div className="flex flex-col gap-1.5">
                 <label
                   htmlFor="phone"
-                  className="text-xs font-bold uppercase tracking-wider text-navy-800 dark:text-navy-300"
+                  className="text-[10px] font-extrabold uppercase tracking-widest text-[#6D675E] dark:text-navy-300 mb-0.5 block text-left"
                 >
                   Phone Number
                 </label>
@@ -184,10 +184,10 @@ export default function ContactForm() {
                   value={formData.phone}
                   onChange={handleChange}
                   placeholder="e.g. +91 98422 23015"
-                  className={`w-full px-4 py-3 rounded-sm border bg-slate-50 dark:bg-navy-950 text-navy-950 dark:text-white text-sm font-semibold tracking-wide focus:outline-none transition-colors duration-300 ${
+                  className={`w-full px-4 py-2.5 sm:py-3 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${
                     errors.phone
-                      ? "border-red-500 focus:border-red-500"
-                      : "border-slate-200 dark:border-navy-800 focus:border-sapl-blue"
+                      ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
+                      : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
                   }`}
                 />
                 {errors.phone && (
@@ -198,32 +198,37 @@ export default function ContactForm() {
                 )}
               </div>
 
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-1.5">
                 <label
                   htmlFor="service"
-                  className="text-xs font-bold uppercase tracking-wider text-navy-800 dark:text-navy-300"
+                  className="text-[10px] font-extrabold uppercase tracking-widest text-[#6D675E] dark:text-navy-300 mb-0.5 block text-left"
                 >
                   Inquiry Category
                 </label>
-                <select
-                  id="service"
-                  name="service"
-                  value={formData.service}
-                  onChange={handleChange}
-                  className={`w-full px-4 py-3 rounded-sm border bg-slate-50 dark:bg-navy-950 text-navy-950 dark:text-white text-sm font-semibold tracking-wide focus:outline-none transition-colors duration-300 ${
-                    errors.service
-                      ? "border-red-500 focus:border-red-500"
-                      : "border-slate-200 dark:border-navy-800 focus:border-sapl-blue"
-                  }`}
-                >
-                  <option value="">Select a Category</option>
-                  <option value="Industrial Construction">Industrial Projects</option>
-                  <option value="Healthcare Infrastructure">Healthcare Construction</option>
-                  <option value="Commercial Complexes">Commercial & IT Parks</option>
-                  <option value="Institutional Buildings">Institutional & Academic</option>
-                  <option value="Premium Residential">Luxury Residential</option>
-                  <option value="General Engineering">Turnkey Solutions</option>
-                </select>
+                <div className="relative w-full">
+                  <select
+                    id="service"
+                    name="service"
+                    value={formData.service}
+                    onChange={handleChange}
+                    className={`w-full px-4 py-2.5 sm:py-3 pr-10 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide appearance-none focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 cursor-pointer ${
+                      errors.service
+                        ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
+                        : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
+                    }`}
+                  >
+                    <option value="">Select a Category</option>
+                    <option value="Industrial Construction">Industrial Projects</option>
+                    <option value="Healthcare Infrastructure">Healthcare Construction</option>
+                    <option value="Commercial Complexes">Commercial & IT Parks</option>
+                    <option value="Institutional Buildings">Institutional & Academic</option>
+                    <option value="Premium Residential">Luxury Residential</option>
+                    <option value="General Engineering">Turnkey Solutions</option>
+                  </select>
+                  <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none text-[#afa99e]">
+                    <ChevronDown className="w-4 h-4" />
+                  </div>
+                </div>
                 {errors.service && (
                   <span className="flex items-center gap-1.5 text-xs text-red-500 font-bold mt-1">
                     <AlertCircle className="w-3.5 h-3.5" />
@@ -234,10 +239,10 @@ export default function ContactForm() {
             </div>
 
             {/* Message Details */}
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-1.5">
               <label
                 htmlFor="message"
-                className="text-xs font-bold uppercase tracking-wider text-navy-800 dark:text-navy-300"
+                className="text-[10px] font-extrabold uppercase tracking-widest text-[#6D675E] dark:text-navy-300 mb-0.5 block text-left"
               >
                 Inquiry Details
               </label>
@@ -248,10 +253,10 @@ export default function ContactForm() {
                 value={formData.message}
                 onChange={handleChange}
                 placeholder="Provide a detailed summary of your building requirements, square footage, structural designs, or timelines..."
-                className={`w-full px-4 py-3 rounded-sm border bg-slate-50 dark:bg-navy-950 text-navy-950 dark:text-white text-sm font-semibold tracking-wide focus:outline-none transition-colors duration-300 resize-y min-h-[120px] ${
+                className={`w-full px-4 py-2.5 sm:py-3 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 resize-y min-h-[120px] ${
                   errors.message
-                    ? "border-red-500 focus:border-red-500"
-                    : "border-slate-200 dark:border-navy-800 focus:border-sapl-blue"
+                    ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
+                    : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
                 }`}
               />
               {errors.message && (

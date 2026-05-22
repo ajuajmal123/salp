@@ -44,11 +44,10 @@ export default function Navbar() {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
-          showGlass
+        className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${showGlass
             ? "glass-nav py-3 shadow-lg shadow-navy-950/10"
             : "bg-transparent py-5"
-        }`}
+          }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
@@ -68,19 +67,17 @@ export default function Navbar() {
                     className="relative text-sm font-semibold tracking-wide uppercase group py-2"
                   >
                     <span
-                      className={`transition-colors duration-300 ${
-                        isActive
+                      className={`transition-colors duration-300 ${isActive
                           ? "text-sapl-blue font-extrabold"
                           : "text-white/90 hover:text-sapl-blue"
-                      }`}
+                        }`}
                     >
                       {link.name}
                     </span>
                     {/* Hover animated bar */}
                     <span
-                      className={`absolute bottom-0 left-0 w-full h-[2px] bg-sapl-blue origin-left transition-transform duration-300 ${
-                        isActive ? "scale-x-100" : "scale-x-0 group-hover:scale-x-100"
-                      }`}
+                      className={`absolute bottom-0 left-0 w-full h-[2px] bg-sapl-blue origin-left transition-transform duration-300 ${isActive ? "scale-x-100" : "scale-x-0 group-hover:scale-x-100"
+                        }`}
                     />
                   </Link>
                 );
@@ -144,9 +141,8 @@ export default function Navbar() {
                   >
                     <Link
                       href={link.href}
-                      className={`text-xl font-extrabold tracking-widest uppercase block py-3 ${
-                        isActive ? "text-sapl-blue" : "text-white hover:text-sapl-blue"
-                      }`}
+                      className={`text-xl font-extrabold tracking-widest uppercase block py-3 ${isActive ? "text-sapl-blue" : "text-white hover:text-sapl-blue"
+                        }`}
                     >
                       {link.name}
                     </Link>
@@ -165,7 +161,7 @@ export default function Navbar() {
                   className="inline-flex items-center justify-center w-full max-w-xs px-8 py-4 bg-gradient-to-r from-sapl-blue to-[#4fd1e1] hover:from-sapl-blue-hover hover:to-[#229fae] text-white rounded-full font-extrabold text-xs tracking-widest uppercase shadow-lg shadow-sapl-blue/20 hover:scale-[1.03] active:scale-[0.97] transition-all select-none group"
                 >
                   Contact Us
-                  <ArrowRight className="ml-2 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
+
                 </Link>
               </motion.div>
             </nav>
