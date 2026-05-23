@@ -84,8 +84,14 @@ export default function Navbar() {
               })}
             </nav>
 
-            {/* CTA Button */}
-            <div className="hidden md:flex items-center">
+            {/* CTA Button Group */}
+            <div className="hidden md:flex items-center gap-3">
+              <button
+                onClick={() => window.dispatchEvent(new Event("open-brochure-modal"))}
+                className="inline-flex items-center justify-center px-5 py-2.5 bg-white/5 hover:bg-white/10 text-white font-extrabold text-xs tracking-widest uppercase rounded-full border border-white/15 hover:border-sapl-blue/50 transition-all duration-300 backdrop-blur-sm select-none cursor-pointer hover:scale-[1.03] active:scale-[0.97]"
+              >
+                Brochure
+              </button>
               <Link
                 href="/contact"
                 className="inline-flex items-center justify-center px-6 py-2.5 bg-gradient-to-r from-sapl-blue to-[#4fd1e1] hover:from-sapl-blue-hover hover:to-[#229fae] text-white font-extrabold text-xs tracking-widest uppercase rounded-full transition-all duration-300 shadow-md shadow-sapl-blue/20 hover:shadow-sapl-blue/45 hover:scale-[1.03] active:scale-[0.97] select-none group"
@@ -154,14 +160,22 @@ export default function Navbar() {
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: navLinks.length * 0.05 }}
-                className="mt-8"
+                className="mt-8 flex flex-col gap-4 items-center"
               >
+                <button
+                  onClick={() => {
+                    setIsOpen(false);
+                    window.dispatchEvent(new Event("open-brochure-modal"));
+                  }}
+                  className="inline-flex items-center justify-center w-full max-w-xs px-8 py-4 bg-white/5 hover:bg-white/10 text-white rounded-full font-extrabold text-xs tracking-widest uppercase border border-white/15 hover:scale-[1.03] active:scale-[0.97] transition-all select-none cursor-pointer"
+                >
+                  Download Brochure
+                </button>
                 <Link
                   href="/contact"
                   className="inline-flex items-center justify-center w-full max-w-xs px-8 py-4 bg-gradient-to-r from-sapl-blue to-[#4fd1e1] hover:from-sapl-blue-hover hover:to-[#229fae] text-white rounded-full font-extrabold text-xs tracking-widest uppercase shadow-lg shadow-sapl-blue/20 hover:scale-[1.03] active:scale-[0.97] transition-all select-none group"
                 >
                   Contact Us
-
                 </Link>
               </motion.div>
             </nav>

@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
 import {
@@ -90,16 +92,14 @@ export default function Footer() {
                 </li>
               ))}
               <li>
-                <a
-                  href="https://sapl.in/wp-content/uploads/2025/01/SAPL-compressed.pdf"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="group flex items-center text-sm text-sapl-blue hover:text-white transition-colors duration-300"
+                <button
+                  onClick={() => window.dispatchEvent(new Event("open-brochure-modal"))}
+                  className="group flex items-center text-sm text-sapl-blue hover:text-white transition-colors duration-300 cursor-pointer bg-transparent border-none p-0 outline-none text-left"
                 >
                   <span className="w-1.5 h-1.5 rounded-full bg-sapl-blue mr-3" />
                   Download Brochure
                   <ExternalLink className="ml-1.5 w-3 h-3 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
-                </a>
+                </button>
               </li>
             </ul>
           </div>

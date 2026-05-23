@@ -3,6 +3,7 @@ import { Manrope } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import BrochureModal from "@/components/ui/BrochureModal";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -37,6 +38,9 @@ export default function RootLayout({
 
         {/* Global Detailed Footer */}
         <Footer />
+
+        {/* Global Brochure Modal */}
+        <BrochureModal />
       </body>
     </html>
   );
