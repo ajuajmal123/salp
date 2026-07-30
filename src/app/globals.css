@@ -57,10 +57,9 @@ h1, h2, h3, h4, h5, h6, .heading-font,
 }
 
 /* Ensure headings in dark containers maintain high contrast */
-[class*="bg-navy"] h1, [class*="bg-navy"] h2, [class*="bg-navy"] h3, [class*="bg-navy"] h4,
-[class*="bg-navy"] h5, [class*="bg-navy"] h6,
-.bg-navy-950 h1, .bg-navy-950 h2, .bg-navy-950 h3, .bg-navy-950 h4,
-.bg-navy-900 h1, .bg-navy-900 h2, .bg-navy-900 h3, .bg-navy-900 h4,
+.bg-navy-950 h1, .bg-navy-950 h2, .bg-navy-950 h3, .bg-navy-950 h4, .bg-navy-950 h5, .bg-navy-950 h6,
+.bg-navy-900 h1, .bg-navy-900 h2, .bg-navy-900 h3, .bg-navy-900 h4, .bg-navy-900 h5, .bg-navy-900 h6,
+.bg-navy-800 h1, .bg-navy-800 h2, .bg-navy-800 h3, .bg-navy-800 h4, .bg-navy-800 h5, .bg-navy-800 h6,
 .text-white {
   color: #FFFFFF !important;
 }
@@ -79,7 +78,7 @@ p {
 }
 
 /* Ensure paragraphs inside dark backgrounds are crisp white/light gray */
-[class*="bg-navy"] p, .text-white p, .text-slate-300, .text-navy-300 {
+.bg-navy-950 p, .bg-navy-900 p, .bg-navy-800 p, .text-white p, .text-slate-300, .text-navy-300 {
   color: var(--color-navy-200) !important;
 }
 
@@ -193,6 +192,11 @@ a, button, .btn {
 /* Filter to invert logo text colors on dark backgrounds while preserving corporate cyan hue */
 .filter-logo-light {
   filter: invert(1) hue-rotate(180deg) brightness(1.1) contrast(1.1);
+}
+
+/* Text shadow utility to isolate dark text on slightly bright photographic backgrounds */
+.text-shadow-light {
+  text-shadow: 0 2px 10px rgba(247, 246, 244, 0.95), 0 1px 3px rgba(247, 246, 244, 0.95), 0 0 30px rgba(247, 246, 244, 0.95);
 }
 
 

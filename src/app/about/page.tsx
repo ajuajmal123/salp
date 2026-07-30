@@ -141,6 +141,47 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* 2.5 Founder & Chairman Section (Banding: Pure White Canvas) */}
+      <section className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#eae7e3]">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+          {/* Founder Image (5 columns) */}
+          <div className="lg:col-span-5 relative">
+            <div className="relative aspect-[4/5] w-full max-w-sm mx-auto rounded-sm overflow-hidden shadow-xl border border-[#eae7e3]">
+              <img
+                src="/Srinivasan.jpg.jpeg"
+                alt="Er. G. Srinivasan, Founder & Chairman"
+                className="w-full h-full object-cover object-center animate-[fadeIn_1s_ease-out]"
+              />
+            </div>
+            {/* Soft decorative shadow block behind image */}
+            <div className="absolute -inset-2 bg-sapl-blue/5 -z-10 rounded-sm blur-md" />
+          </div>
+
+          {/* Founder Narrative (7 columns) */}
+          <div className="lg:col-span-7 flex flex-col gap-6 text-left">
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue animate-[fadeIn_1s_ease-out_0.2s]">
+              Founder & Chairman
+            </span>
+            <h2 className="font-sans font-extrabold text-3xl sm:text-4xl tracking-tight uppercase" style={{ color: "#1c1a17" }}>
+              Er. G. Srinivasan
+            </h2>
+            <p className="text-sm font-bold text-sapl-blue uppercase tracking-wider -mt-3">
+              Founder & Chairman, Srinivasan Associates
+            </p>
+            <div className="w-12 h-[2.5px] bg-sapl-blue rounded-full" />
+
+            <div className="space-y-4 text-[#4F4C42] text-sm sm:text-base leading-relaxed mt-2">
+              <p className="font-semibold !text-[#2a2823] italic border-l-2 border-sapl-blue pl-4">
+                "Our journey since 1987 has been defined by a commitment to quality, integrity, and client satisfaction. We believe in engineering structures that stand the test of time, built on a foundation of trust and technical excellence."
+              </p>
+              <p>
+                Under the visionary guidance of Er. G. Srinivasan, SAPL has grown from a local contractor to a leading multi-disciplinary civil engineering firm. His hands-on engineering focus and emphasis on cost-effectiveness, timely delivery, and self-reliance have paved the way for more than three decades of solid construction legacy.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* 3. Leadership & Operational Strengths (Banding: Warm Light Stone Canvas) */}
       <section className="py-24 bg-[#f7f6f4] border-b border-[#eae7e3]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-left">

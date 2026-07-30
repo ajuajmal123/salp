@@ -46,14 +46,14 @@ export default function Navbar() {
       <header
         className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${showGlass
             ? "glass-nav py-3 shadow-lg shadow-navy-950/10"
-            : "bg-transparent py-5"
+            : "bg-navy-100/60 backdrop-blur-md border-b border-navy-200/20 py-4 shadow-sm"
           }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
             {/* Logo */}
             <Link href="/" className="flex items-center">
-              <Logo light={true} />
+              <Logo light={showGlass} />
             </Link>
 
             {/* Desktop Navigation Links */}
@@ -69,7 +69,9 @@ export default function Navbar() {
                     <span
                       className={`transition-colors duration-300 ${isActive
                           ? "text-sapl-blue font-extrabold"
-                          : "text-white/90 hover:text-sapl-blue"
+                          : showGlass
+                            ? "text-white/90 hover:text-sapl-blue"
+                            : "text-navy-800 hover:text-sapl-blue"
                         }`}
                     >
                       {link.name}
@@ -88,7 +90,11 @@ export default function Navbar() {
             <div className="hidden md:flex items-center gap-3">
               <button
                 onClick={() => window.dispatchEvent(new Event("open-brochure-modal"))}
-                className="inline-flex items-center justify-center px-5 py-2.5 bg-white/5 hover:bg-white/10 text-white font-extrabold text-xs tracking-widest uppercase rounded-full border border-white/15 hover:border-sapl-blue/50 transition-all duration-300 backdrop-blur-sm select-none cursor-pointer hover:scale-[1.03] active:scale-[0.97]"
+                className={`inline-flex items-center justify-center px-5 py-2.5 font-extrabold text-xs tracking-widest uppercase rounded-full border transition-all duration-300 backdrop-blur-sm select-none cursor-pointer hover:scale-[1.03] active:scale-[0.97] ${
+                  showGlass
+                    ? "bg-white/5 hover:bg-white/10 text-white border-white/15 hover:border-sapl-blue/50"
+                    : "bg-navy-50/70 hover:bg-navy-100/90 text-navy-800 border-navy-200/80 hover:border-sapl-blue/50"
+                }`}
               >
                 Brochure
               </button>
@@ -104,7 +110,9 @@ export default function Navbar() {
             <div className="flex md:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
-                className="p-2 rounded-sm text-white hover:text-sapl-blue transition-colors duration-300"
+                className={`p-2 rounded-sm transition-colors duration-300 ${
+                  showGlass ? "text-white hover:text-sapl-blue" : "text-navy-800 hover:text-sapl-blue"
+                }`}
                 aria-label="Toggle menu"
               >
                 {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
