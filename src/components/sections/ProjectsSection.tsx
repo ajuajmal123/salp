@@ -3,59 +3,10 @@
 import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
 import ProjectCard from "../ui/ProjectCard";
+import { projectsList } from "@/data/projects";
 
-const featuredProjects = [
-  {
-    name: "SVB Tech Park",
-    category: "Commercial / IT-Park",
-    location: "Coimbatore",
-    imageUrl: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80",
-    status: "Completed" as const,
-    description: "State-of-the-art corporate IT center constructed with sustainable LEED materials and modern glazed facades.",
-  },
-  {
-    name: "Aravind Eye Hospital",
-    category: "Healthcare Infrastructure",
-    location: "Salem",
-    imageUrl: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80",
-    status: "Ongoing" as const,
-    description: "Multi-story specialized medical facility with custom infection-control HVAC layouts and surgical units.",
-  },
-  {
-    name: "LGB Factory Building 2",
-    category: "Industrial Project",
-    location: "Vallam, Chennai",
-    imageUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
-    status: "Completed" as const,
-    description: "Heavy manufacturing plant comprising large-span steel truss setups and high-tonnage concrete floors.",
-  },
-  {
-    name: "Shriram 122",
-    category: "Residential Complex",
-    location: "Chennai",
-    imageUrl: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80",
-    status: "Ongoing" as const,
-    description: "Premium high-density residential towers featuring advanced structural layouts and landscaping frameworks.",
-  },
-  {
-    name: "ELGI Accessories Hub",
-    category: "Industrial & Logistics",
-    location: "Coimbatore",
-    imageUrl: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80",
-    status: "Completed" as const,
-    description: "Advanced automated warehousing facility featuring double-deep racking systems and precision flooring.",
-  },
-  {
-    name: "KCT Science Tower",
-    category: "Institutional Complex",
-    location: "Coimbatore",
-    imageUrl: "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=800&q=80",
-    status: "Upcoming" as const,
-    description: "Multi-discipline institutional laboratory and research center designed for high-density academic occupancy.",
-  },
-];
+const featuredProjects = projectsList;
 
 export default function ProjectsSection() {
   return (
@@ -90,6 +41,7 @@ export default function ProjectsSection() {
               transition={{ duration: 0.7, delay: idx * 0.08, ease: "easeOut" }}
             >
               <ProjectCard
+                slug={project.slug}
                 name={project.name}
                 category={project.category}
                 location={project.location}

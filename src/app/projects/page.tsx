@@ -5,82 +5,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import ProjectCard from "@/components/ui/ProjectCard";
 import { ChevronDown } from "lucide-react";
 
-const projectsList = [
-  {
-    name: "Shriram 122",
-    category: "Residential",
-    location: "Chennai",
-    imageUrl: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80",
-    status: "Ongoing" as const,
-    description: "Premium high-density residential towers featuring advanced structural layouts and landscaping frameworks.",
-  },
-  {
-    name: "Aravind Eye Hospital",
-    category: "Healthcare",
-    location: "Salem",
-    imageUrl: "https://images.unsplash.com/photo-1586773860418-d37222d8fce2?auto=format&fit=crop&w=800&q=80",
-    status: "Ongoing" as const,
-    description: "Multi-story specialized medical facility with custom infection-control HVAC layouts and surgical units.",
-  },
-  {
-    name: "LGB Factory Building 2",
-    category: "Industrial",
-    location: "Vallam, Chennai",
-    imageUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
-    status: "Completed" as const,
-    description: "Heavy manufacturing plant comprising large-span steel truss setups and high-tonnage concrete floors.",
-  },
-  {
-    name: "SVB Tech Park",
-    category: "Commercial / IT-Park",
-    location: "Coimbatore",
-    imageUrl: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80",
-    status: "Completed" as const,
-    description: "State-of-the-art corporate IT center constructed with sustainable LEED materials and modern glazed facades.",
-  },
-  {
-    name: "Sankara Eye Hospital",
-    category: "Healthcare",
-    location: "Guntur, AP",
-    imageUrl: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80",
-    status: "Completed" as const,
-    description: "Large specialized tertiary healthcare hospital featuring standard structural design and diagnostics setups.",
-  },
-  {
-    name: "PSG IMS&R Oncology Block",
-    category: "Healthcare",
-    location: "Coimbatore",
-    imageUrl: "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=800&q=80",
-    status: "Completed" as const,
-    description: "Advanced specialized oncology therapy unit built to strict medical and nuclear shielding codes.",
-  },
-  {
-    name: "Global Tech Park",
-    category: "Commercial / IT-Park",
-    location: "Bangalore",
-    imageUrl: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80",
-    status: "Completed" as const,
-    description: "Massive modern technological office park featuring steel glass frames and sustainable engineering.",
-  },
-  {
-    name: "Cheyyar - SIPCOT Complex",
-    category: "Industrial",
-    location: "Tiruvannamalai",
-    imageUrl: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80",
-    status: "Completed" as const,
-    description: "Heavy manufacturing and chemical processing industrial shed built to custom structural spans.",
-  },
-  {
-    name: "NGP School Academic Block",
-    category: "Institutional",
-    location: "Coimbatore",
-    imageUrl: "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=800&q=80",
-    status: "Completed" as const,
-    description: "Multi-story contemporary academic institution featuring large libraries, labs, and modern auditoriums.",
-  },
-];
+import { projectsList } from "@/data/projects";
 
-const categories = ["All", "Commercial / IT-Park", "Industrial", "Healthcare", "Institutional", "Residential"];
+const categories = ["All", "IT Park", "Industrial", "Healthcare", "Institutional", "Residential"];
 const statuses = ["All", "Completed", "Ongoing"];
 
 export default function ProjectsPage() {
@@ -178,6 +105,7 @@ export default function ProjectsPage() {
                   transition={{ duration: 0.4 }}
                 >
                   <ProjectCard
+                    slug={project.slug}
                     name={project.name}
                     category={project.category}
                     location={project.location}
