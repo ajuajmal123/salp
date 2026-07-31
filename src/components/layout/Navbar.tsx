@@ -57,14 +57,14 @@ export default function Navbar() {
             </Link>
 
             {/* Desktop Navigation Links */}
-            <nav className="hidden md:flex items-center gap-8">
+            <nav className="hidden lg:flex items-center gap-6 xl:gap-8">
               {navLinks.map((link) => {
                 const isActive = pathname === link.href;
                 return (
                   <Link
                     key={link.name}
                     href={link.href}
-                    className="relative text-sm font-semibold tracking-wide uppercase group py-2"
+                    className="relative text-xs xl:text-sm font-bold tracking-wider uppercase group py-2"
                   >
                     <span
                       className={`transition-colors duration-300 ${isActive
@@ -87,7 +87,7 @@ export default function Navbar() {
             </nav>
 
             {/* CTA Button Group */}
-            <div className="hidden md:flex items-center gap-3">
+            <div className="hidden lg:flex items-center gap-3">
               <button
                 onClick={() => window.dispatchEvent(new Event("open-brochure-modal"))}
                 className={`inline-flex items-center justify-center px-5 py-2.5 font-extrabold text-xs tracking-widest uppercase rounded-full border transition-all duration-300 backdrop-blur-sm select-none cursor-pointer hover:scale-[1.03] active:scale-[0.97] ${
@@ -107,7 +107,7 @@ export default function Navbar() {
             </div>
 
             {/* Mobile menu button */}
-            <div className="flex md:hidden">
+            <div className="flex lg:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 className={`p-2 rounded-sm transition-colors duration-300 ${
@@ -130,7 +130,7 @@ export default function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.3 }}
-            className="fixed inset-0 z-40 bg-navy-950/98 backdrop-blur-lg flex flex-col justify-center px-6 py-12 md:hidden"
+            className="fixed inset-0 z-40 bg-navy-950/98 backdrop-blur-lg flex flex-col justify-center px-6 py-12 lg:hidden"
           >
             {/* Safe Header Buffer */}
             <div className="absolute top-5 left-4 right-4 flex justify-between items-center">
