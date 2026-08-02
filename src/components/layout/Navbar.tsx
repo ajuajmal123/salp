@@ -44,12 +44,12 @@ export default function Navbar() {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${showGlass
-            ? "glass-nav py-3 shadow-lg shadow-navy-950/10"
-            : "bg-navy-100/60 backdrop-blur-md border-b border-navy-200/20 py-4 shadow-sm"
+        className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 flex items-center ${showGlass
+            ? "glass-nav h-[72px] md:h-[89px] shadow-lg shadow-navy-950/10"
+            : "bg-navy-100/60 backdrop-blur-md border-b border-navy-200/20 h-[88px] md:h-[105px] shadow-sm"
           }`}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
             {/* Logo */}
             <Link href="/" className="flex items-center">

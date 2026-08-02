@@ -10,15 +10,14 @@ interface LogoProps {
 export default function Logo({ className = "", light = false }: LogoProps) {
   return (
     <div className={`flex items-center select-none ${className}`}>
-      {/* Responsive container with overflow-hidden and scaled image to crop excessive transparent padding */}
-      <div className="relative overflow-hidden h-14 w-52 sm:h-20 sm:w-72 flex items-center justify-center">
+      <div className="relative w-[180px] md:w-[220px] transition-all duration-500">
         <Image
           src={logoImg}
           alt="Srinivasan Associates Logo"
-          fill
+          width={593}
+          height={213}
           priority
-          sizes="(max-width: 768px) 100vw, 288px"
-          className={`object-contain transition-all duration-500 scale-[1.5] hover:scale-[1.55] ${
+          className={`w-full h-auto object-contain transition-all duration-300 hover:scale-[1.03] ${
             light ? "filter-logo-light" : ""
           }`}
         />
