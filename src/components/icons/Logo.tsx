@@ -5,12 +5,23 @@ import logoImg from "../../../public/SRINIVASAN-LOGO-02.png";
 interface LogoProps {
   className?: string;
   light?: boolean;
+  size?: "sm" | "md" | "lg";
 }
 
-export default function Logo({ className = "", light = false }: LogoProps) {
+export default function Logo({
+  className = "",
+  light = false,
+  size = "md",
+}: LogoProps) {
+  const sizeClasses = {
+    sm: "w-[130px] md:w-[150px]",
+    md: "w-[180px] md:w-[220px]",
+    lg: "w-[220px] md:w-[280px]",
+  };
+
   return (
     <div className={`flex items-center select-none ${className}`}>
-      <div className="relative w-[180px] md:w-[220px] transition-all duration-500">
+      <div className={`relative ${sizeClasses[size]} transition-all duration-500`}>
         <Image
           src={logoImg}
           alt="Srinivasan Associates Logo"

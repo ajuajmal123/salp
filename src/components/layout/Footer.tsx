@@ -25,7 +25,7 @@ export default function Footer() {
           
           {/* Column 1: Company Profile */}
           <div className="flex flex-col gap-6">
-            <Logo light={true} />
+            <Logo light={true} size="sm" />
             <p className="text-navy-300 text-sm leading-relaxed">
               SRINIVASAN ASSOCIATES PRIVATE LIMITED (SAPL), established in 1987, has grown dramatically, built its goodwill and gained its reputation over the years as a leader in premium corporate engineering, commercial complexes, healthcare infrastructure, and industrial developments in India.
             </p>
