@@ -97,9 +97,7 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Decorative vertical lines on sides (premium look) */}
-      <div className="absolute inset-y-0 left-[8%] w-[1px] bg-navy-950/[0.05] hidden lg:block pointer-events-none" />
-      <div className="absolute inset-y-0 right-[8%] w-[1px] bg-navy-950/[0.05] hidden lg:block pointer-events-none" />
+
 
     </section>
   );

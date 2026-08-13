@@ -60,8 +60,7 @@ export default function CoreValues() {
   return (
     <section className="relative py-24 bg-[#f7f6f4] text-[#1c1a17] overflow-hidden border-b border-[#eae7e3]">
       
-      {/* Subtle blueprint grid overlay for architectural flavor */}
-      <div className="absolute inset-0 opacity-[0.012] bg-[linear-gradient(to_right,#000000_1px,transparent_1px),linear-gradient(to_bottom,#000000_1px,transparent_1px)] bg-[size:4rem_4rem]" />
+
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         

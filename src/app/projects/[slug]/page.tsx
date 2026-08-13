@@ -387,7 +387,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
 
       {/* 4. Dynamic CTA Block */}
       <section className="py-20 bg-navy-950 text-white relative overflow-hidden">
-        <div className="absolute inset-0 opacity-[0.02] pointer-events-none select-none bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px)] bg-[size:4rem_4rem]" />
+
         
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 flex flex-col items-center gap-6">
           <span className="text-xs font-bold uppercase tracking-[0.25em] text-sapl-blue">

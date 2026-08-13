@@ -119,9 +119,6 @@ export default function BrochureModal() {
               {/* Left Side: Brand Visual Content (4 cols) */}
               <div className="md:col-span-4 bg-gradient-to-br from-navy-950 via-navy-900 to-navy-950 p-6 flex flex-col justify-between text-white border-r border-[#eae7e3]/10 dark:border-navy-800 relative">
                 
-                {/* Visual patterns */}
-                <div className="absolute inset-0 opacity-[0.03] bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px)] bg-[size:2rem_2rem] pointer-events-none" />
-                
                 <div className="relative z-10 space-y-6">
                   <div className="inline-flex items-center gap-2 px-2.5 py-1 bg-sapl-blue/10 border border-sapl-blue/20 rounded-full">
                     <span className="w-1.5 h-1.5 rounded-full bg-sapl-blue animate-pulse" />

@@ -12,8 +12,7 @@ export default function ProjectsSection() {
   return (
     <section className="relative py-24 bg-white overflow-hidden border-b border-[#eae7e3]">
 
-      {/* Subtle background grids */}
-      <div className="absolute inset-0 opacity-[0.01] bg-[linear-gradient(to_right,#000000_1px,transparent_1px),linear-gradient(to_bottom,#000000_1px,transparent_1px)] bg-[size:5rem_5rem]" />
+
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
 

@@ -22,8 +22,7 @@ export default function AboutPage() {
 
       {/* 1. Sub-page Header Hero Section */}
       <section className="relative py-24 bg-navy-950 text-white overflow-hidden">
-        {/* Subtle architectural grid pattern overlay */}
-        <div className="absolute inset-0 opacity-[0.03] pointer-events-none select-none bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px)] bg-[size:4rem_4rem]" />
+
 
         {/* Widescreen background image banner */}
         <div className="absolute inset-0 opacity-20 pointer-events-none select-none">
@@ -260,8 +259,7 @@ export default function AboutPage() {
 
       {/* 4. Full Width Sincere Assurance Banner (Deep Slate/Stone Accent) */}
       <section className="py-20 bg-navy-950 text-white relative overflow-hidden">
-        {/* Subtle grid pattern background */}
-        <div className="absolute inset-0 opacity-[0.02] pointer-events-none select-none bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px)] bg-[size:4rem_4rem]" />
+
 
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <motion.div

@@ -54,16 +54,9 @@ export default function Stats() {
   return (
     <section className="relative py-24 bg-[#f7f6f4] text-[#1c1a17] overflow-hidden border-t border-[#eae7e3] border-b border-[#eae7e3]">
       
-      {/* Subtle Architectural Grid Overlay (Dark fine lines for light stone blueprint canvas) */}
-      <div className="absolute inset-0 opacity-[0.015] bg-[linear-gradient(to_right,#000000_1px,transparent_1px),linear-gradient(to_bottom,#000000_1px,transparent_1px)] bg-[size:4rem_4rem]" />
-      
       {/* Delicate Cyan Gradient Glows for Premium Architectural Contrast */}
       <div className="absolute top-1/4 left-1/4 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-sapl-blue/[0.04] rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-1/4 right-1/4 translate-x-1/2 translate-y-1/2 w-[600px] h-[600px] bg-sapl-blue/[0.04] rounded-full blur-[120px] pointer-events-none" />
-
-      {/* Modernist Geometric Top Border Accent (Connecting the Dark Hero & Light Stats) */}
-      <div className="absolute top-0 inset-x-0 h-[1px] bg-gradient-to-r from-transparent via-[#eae7e3] to-transparent" />
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/3 h-[2px] bg-gradient-to-r from-transparent via-sapl-blue/50 to-transparent" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
