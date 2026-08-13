@@ -41,8 +41,8 @@ export default function Hero() {
         {/* <div className="absolute inset-0 bg-white/20" />
  */}
 
-        {/* Soft white focus around the hero content */}
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.40)_0%,rgba(255,255,255,0.30)_38%,rgba(255,255,255,0.20)_68%,rgba(255,255,255,0.08)_100%)]" />
+        {/* Premium radial focus overlay: soft white center for perfect text legibility, fading to brand cyan */}
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.80)_0%,rgba(255,255,255,0.50)_55%,rgba(42,181,196,0.15)_100%)]" />
 
         {/* Subtle bottom fade */}
         <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-white/50 to-transparent" />
@@ -69,7 +69,7 @@ export default function Hero() {
           >
             Engineering <br />
 
-            <span className="text-[#12828f] font-black">
+            <span className="text-sapl-blue font-black">
               Excellence
             </span>{" "}
 
@@ -87,7 +87,7 @@ export default function Hero() {
               delay: 0.2,
               ease: "easeOut",
             }}
-            className="text-black text-sm sm:text-lg leading-relaxed max-w-2xl mx-auto text-center font-bold drop-shadow-[0_1px_2px_rgba(255,255,255,0.8)]"
+            className="text-black text-sm sm:text-xl leading-relaxed max-w-2xl mx-auto text-center font-extrabold"
           >
             Delivering high-end industrial engineering, state-of-the-art
             healthcare complexes, IT business parks, and modern corporate
