@@ -4,7 +4,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Factory, Hospital, Landmark, Building2, Server, Home } from "lucide-react";
 import AnimatedCounter from "../ui/AnimatedCounter";
-import { projectsList } from "@/data/projects";
+import { projectsList, featuredProjectsList } from "@/data/projects";
 
 // Base stats representing historical volume NOT explicitly detailed in projectsList
 const BASE_STATS = {
@@ -87,8 +87,10 @@ const statsList = [
 ];
 
 export default function Stats() {
+  const allProjects = [...featuredProjectsList, ...projectsList];
+
   const dynamicStatsList = statsList.map((stat) => {
-    const projectSum = projectsList.reduce((sum, project) => {
+    const projectSum = allProjects.reduce((sum, project) => {
       const mappedKey = getStatCategoryKey(project.category);
       if (mappedKey === stat.title) {
         return sum + parseArea(project.details?.area);

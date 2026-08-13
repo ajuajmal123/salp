@@ -27,12 +27,20 @@ export default function ProjectCard({
         
         {/* Background Image Container */}
         <div className="absolute inset-0 z-0 overflow-hidden">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={imageUrl}
-            alt={name}
-            className="w-full h-full object-cover transition-transform duration-750 ease-out group-hover:scale-105"
-          />
+          {imageUrl ? (
+            /* eslint-disable-next-line @next/next/no-img-element */
+            <img
+              src={imageUrl}
+              alt={name}
+              className="w-full h-full object-cover transition-transform duration-750 ease-out group-hover:scale-105"
+            />
+          ) : (
+            <div className="w-full h-full bg-[#1c1a17] flex items-center justify-center border border-white/5 relative">
+              <span className="text-[10px] font-black uppercase tracking-widest text-[#afa99e]/20 absolute inset-0 flex items-center justify-center select-none text-center px-4 leading-normal">
+                no image added
+              </span>
+            </div>
+          )}
           {/* High-Contrast Premium Gradient Overlay for Guaranteed 100% Readability */}
           <div className="absolute inset-0 bg-gradient-to-t from-[#1c1a17] via-[#1c1a17]/85 to-[#1c1a17]/25 opacity-95 group-hover:opacity-98 transition-opacity duration-500" />
         </div>

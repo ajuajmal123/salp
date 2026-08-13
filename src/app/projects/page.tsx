@@ -5,12 +5,12 @@ import { useSearchParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import ProjectCard from "@/components/ui/ProjectCard";
 import { ChevronDown } from "lucide-react";
-import { projectsList } from "@/data/projects";
+import { projectsList, featuredProjectsList } from "@/data/projects";
 
 const sectors = ["IT Park", "Industrial", "Healthcare", "Institutional", "Residential"];
 const statuses = ["All", "Completed", "Ongoing"];
 
-// Extract unique clients and architects dynamically
+// Extract unique clients and architects dynamically from all projects
 const clientsList = Array.from(
   new Set(projectsList.map((p) => p.details?.client).filter(Boolean))
 ).sort() as string[];
@@ -31,6 +31,7 @@ function ProjectsContent() {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedStatus, setSelectedStatus] = useState("All");
   const [sortBy, setSortBy] = useState("default");
+  const [showAll, setShowAll] = useState(false);
 
   const searchParams = useSearchParams();
   const clientQuery = searchParams.get("client");
@@ -44,32 +45,70 @@ function ProjectsContent() {
     }
   }, [clientQuery, architectQuery]);
 
-  const filteredProjects = projectsList.filter((project) => {
-    let categoryMatch = false;
-    if (selectedCategory === "All") {
-      categoryMatch = true;
-    } else if (selectedCategory.startsWith("client:")) {
-      const targetClient = selectedCategory.replace("client:", "");
-      categoryMatch = project.details?.client === targetClient;
-    } else if (selectedCategory.startsWith("architect:")) {
-      const targetArchitect = selectedCategory.replace("architect:", "");
-      categoryMatch = project.details?.consultant === targetArchitect;
-    } else {
-      categoryMatch = project.category === selectedCategory;
-    }
+  // Reset showAll when filters change
+  useEffect(() => {
+    setShowAll(false);
+  }, [selectedCategory, selectedStatus]);
 
-    const statusMatch =
-      selectedStatus === "All" || project.status === selectedStatus;
-    return categoryMatch && statusMatch;
+  const isFilterActive =
+    selectedCategory !== "All" ||
+    selectedStatus !== "All" ||
+    !!clientQuery ||
+    !!architectQuery;
+
+  // Filter helper
+  const filterList = (list: typeof projectsList) => {
+    return list.filter((project) => {
+      let categoryMatch = false;
+      if (selectedCategory === "All") {
+        categoryMatch = true;
+      } else if (selectedCategory.startsWith("client:")) {
+        const targetClient = selectedCategory.replace("client:", "");
+        categoryMatch = project.details?.client === targetClient;
+      } else if (selectedCategory.startsWith("architect:")) {
+        const targetArchitect = selectedCategory.replace("architect:", "");
+        categoryMatch = project.details?.consultant === targetArchitect;
+      } else {
+        categoryMatch = project.category === selectedCategory;
+      }
+
+      const statusMatch =
+        selectedStatus === "All" || project.status === selectedStatus;
+      return categoryMatch && statusMatch;
+    });
+  };
+
+  const filteredFeatured = filterList(featuredProjectsList);
+  const filteredAll = filterList(projectsList);
+
+  // Combine lists with featured projects always guaranteed to be on top and no duplicates
+  const combinedProjects: typeof projectsList = [];
+  const seenSlugs = new Set<string>();
+
+  filteredFeatured.forEach((p) => {
+    combinedProjects.push(p);
+    seenSlugs.add(p.slug);
   });
 
-  const sortedProjects = [...filteredProjects].sort((a, b) => {
+  filteredAll.forEach((p) => {
+    if (!seenSlugs.has(p.slug)) {
+      combinedProjects.push(p);
+      seenSlugs.add(p.slug);
+    }
+  });
+
+  // If a filter is applied, we automatically display all matched projects (with featured ones on top)
+  // If no filter is applied, we show featured list or combine based on showAll
+  const displayProjects = isFilterActive || showAll ? combinedProjects : filteredFeatured;
+
+  const sortedProjects = [...displayProjects].sort((a, b) => {
     if (sortBy === "alphabetical-asc") {
       return a.name.localeCompare(b.name);
     }
     if (sortBy === "alphabetical-desc") {
       return b.name.localeCompare(a.name);
     }
+    // Default sorting maintains insertion order (featured on top)
     return 0;
   });
 
@@ -157,7 +196,7 @@ function ProjectsContent() {
             <AnimatePresence mode="popLayout">
               {sortedProjects.map((project) => (
                 <motion.div
-                  key={project.name}
+                  key={project.slug}
                   layout
                   initial={{ opacity: 0, scale: 0.95 }}
                   animate={{ opacity: 1, scale: 1 }}
@@ -182,6 +221,19 @@ function ProjectsContent() {
             <p className="text-slate-400 dark:text-navy-500 text-lg font-semibold uppercase tracking-wider">
               No projects found matching the selected filters.
             </p>
+          </div>
+        )}
+
+        {/* Modernist minimalist Show All Projects trigger */}
+        {!isFilterActive && !showAll && sortedProjects.length > 0 && (
+          <div className="text-center mt-16 flex justify-center animate-[fadeIn_0.6s_ease-out_0.3s_both]">
+            <button
+              onClick={() => setShowAll(true)}
+              className="group relative px-10 py-4 bg-sapl-blue hover:bg-[#0c8099] text-white text-[10px] font-black uppercase tracking-widest overflow-hidden transition-all duration-300 hover:shadow-lg rounded-sm cursor-pointer"
+            >
+              <span className="relative z-10">Show All Projects</span>
+              <div className="absolute inset-0 bg-[#0d8ca6] transition-transform duration-300 translate-y-full group-hover:translate-y-0" />
+            </button>
           </div>
         )}
       </section>

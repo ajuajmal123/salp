@@ -18,7 +18,7 @@ import {
   ChevronLeft,
   ChevronRight
 } from "lucide-react";
-import { projectsList } from "@/data/projects";
+import { projectsList, featuredProjectsList } from "@/data/projects";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -27,8 +27,8 @@ interface PageProps {
 export default function ProjectDetailsPage({ params }: PageProps) {
   const { slug } = use(params);
   
-  // Find project by slug
-  const project = projectsList.find((p) => p.slug === slug);
+  // Find project by slug in both featured and normal lists
+  const project = featuredProjectsList.find((p) => p.slug === slug) || projectsList.find((p) => p.slug === slug);
   const [activeImgIdx, setActiveImgIdx] = useState<number | null>(null);
 
   if (!project) {
@@ -73,12 +73,16 @@ export default function ProjectDetailsPage({ params }: PageProps) {
       <section className="relative h-[55vh] min-h-[380px] bg-navy-950 text-white overflow-hidden">
         {/* Background Project Image */}
         <div className="absolute inset-0 select-none pointer-events-none">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={project.imageUrl}
-            alt={project.name}
-            className="w-full h-full object-cover object-center scale-[1.02] filter brightness-[0.6] contrast-[1.05]"
-          />
+          {project.imageUrl ? (
+            /* eslint-disable-next-line @next/next/no-img-element */
+            <img
+              src={project.imageUrl}
+              alt={project.name}
+              className="w-full h-full object-cover object-center scale-[1.02] filter brightness-[0.6] contrast-[1.05]"
+            />
+          ) : (
+            <div className="w-full h-full bg-[#1c1a17] bg-[radial-gradient(circle_at_center,rgba(40,40,40,0.15)_0%,transparent_100%)] opacity-40" />
+          )}
           {/* Premium dark architectural mask */}
           <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/60 to-transparent" />
         </div>

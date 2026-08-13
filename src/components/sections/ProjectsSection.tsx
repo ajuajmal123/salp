@@ -4,9 +4,9 @@ import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import ProjectCard from "../ui/ProjectCard";
-import { projectsList } from "@/data/projects";
+import { featuredProjectsList } from "@/data/projects";
 
-const featuredProjects = projectsList;
+const featuredProjects = featuredProjectsList;
 
 export default function ProjectsSection() {
   return (
