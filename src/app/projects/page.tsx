@@ -1,23 +1,63 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect, Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import ProjectCard from "@/components/ui/ProjectCard";
 import { ChevronDown } from "lucide-react";
-
 import { projectsList } from "@/data/projects";
 
-const categories = ["All", "IT Park", "Industrial", "Healthcare", "Institutional", "Residential"];
+const sectors = ["IT Park", "Industrial", "Healthcare", "Institutional", "Residential"];
 const statuses = ["All", "Completed", "Ongoing"];
 
+// Extract unique clients and architects dynamically
+const clientsList = Array.from(
+  new Set(projectsList.map((p) => p.details?.client).filter(Boolean))
+).sort() as string[];
+
+const architectsList = Array.from(
+  new Set(projectsList.map((p) => p.details?.consultant).filter(Boolean))
+).sort() as string[];
+
 export default function ProjectsPage() {
+  return (
+    <Suspense fallback={<div className="text-center py-20 text-slate-400 font-semibold uppercase tracking-wider">Loading Projects...</div>}>
+      <ProjectsContent />
+    </Suspense>
+  );
+}
+
+function ProjectsContent() {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedStatus, setSelectedStatus] = useState("All");
   const [sortBy, setSortBy] = useState("default");
 
+  const searchParams = useSearchParams();
+  const clientQuery = searchParams.get("client");
+  const architectQuery = searchParams.get("architect");
+
+  useEffect(() => {
+    if (clientQuery) {
+      setSelectedCategory(`client:${clientQuery}`);
+    } else if (architectQuery) {
+      setSelectedCategory(`architect:${architectQuery}`);
+    }
+  }, [clientQuery, architectQuery]);
+
   const filteredProjects = projectsList.filter((project) => {
-    const categoryMatch =
-      selectedCategory === "All" || project.category === selectedCategory;
+    let categoryMatch = false;
+    if (selectedCategory === "All") {
+      categoryMatch = true;
+    } else if (selectedCategory.startsWith("client:")) {
+      const targetClient = selectedCategory.replace("client:", "");
+      categoryMatch = project.details?.client === targetClient;
+    } else if (selectedCategory.startsWith("architect:")) {
+      const targetArchitect = selectedCategory.replace("architect:", "");
+      categoryMatch = project.details?.consultant === targetArchitect;
+    } else {
+      categoryMatch = project.category === selectedCategory;
+    }
+
     const statusMatch =
       selectedStatus === "All" || project.status === selectedStatus;
     return categoryMatch && statusMatch;
@@ -48,18 +88,38 @@ export default function ProjectsPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-3">
         <div className="flex flex-row items-center justify-end gap-2">
 
-          {/* Dropdown 1: Category Filter */}
-          <div className="relative w-[135px] sm:w-[170px]">
+          {/* Dropdown 1: Category, Client & Architect Filter */}
+          <div className="relative w-[170px] sm:w-[260px]">
             <select
               value={selectedCategory}
               onChange={(e) => setSelectedCategory(e.target.value)}
               className="w-full bg-white border border-[#eae7e3] hover:border-sapl-blue/50 text-[9px] font-extrabold uppercase tracking-wider text-[#1c1a17] py-1 pl-2 pr-6 rounded-sm appearance-none focus:outline-none focus:border-sapl-blue transition-all cursor-pointer shadow-sm"
             >
-              {categories.map((cat) => (
-                <option key={cat} value={cat}>
-                  {cat === "All" ? "All Categories" : cat}
-                </option>
-              ))}
+              <option value="All">All Categories / Clients / Architects</option>
+              
+              <optgroup label="Sectors" className="font-bold text-navy-400">
+                {sectors.map((cat) => (
+                  <option key={cat} value={cat}>
+                    {cat}
+                  </option>
+                ))}
+              </optgroup>
+
+              <optgroup label="Clients" className="font-bold text-navy-400">
+                {clientsList.map((client) => (
+                  <option key={client} value={`client:${client}`}>
+                    Client: {client}
+                  </option>
+                ))}
+              </optgroup>
+
+              <optgroup label="Architects" className="font-bold text-navy-400">
+                {architectsList.map((arc) => (
+                  <option key={arc} value={`architect:${arc}`}>
+                    Architect: {arc}
+                  </option>
+                ))}
+              </optgroup>
             </select>
             <div className="absolute inset-y-0 right-0 flex items-center pr-1.5 pointer-events-none text-[#afa99e]">
               <ChevronDown className="w-3 h-3" />

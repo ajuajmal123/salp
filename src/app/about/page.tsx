@@ -312,7 +312,7 @@ export default function AboutPage() {
 
             <div className="space-y-6">
               {/* Vision Card 1 */}
-              <div className="p-6 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left relative overflow-hidden group hover:border-sapl-blue/40 transition-colors">
+              <div className="p-6 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left relative overflow-hidden group hover:border-sapl-blue/40 transition-colors min-h-[160px] flex flex-col justify-center">
                 <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
                 <h4 className="text-xs font-bold uppercase tracking-wider text-sapl-blue mb-2">Delighting Customers</h4>
                 <p className="text-sm font-extrabold text-navy-950 !text-[#1c1a17] leading-relaxed">
@@ -321,7 +321,7 @@ export default function AboutPage() {
               </div>
 
               {/* Vision Card 2 */}
-              <div className="p-6 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left relative overflow-hidden group hover:border-sapl-blue/40 transition-colors">
+              <div className="p-6 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left relative overflow-hidden group hover:border-sapl-blue/40 transition-colors min-h-[160px] flex flex-col justify-center">
                 <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
                 <h4 className="text-xs font-bold uppercase tracking-wider text-sapl-blue mb-2">Premier Construction Provider</h4>
                 <p className="text-sm font-extrabold text-navy-950 !text-[#1c1a17] leading-relaxed">
@@ -344,7 +344,7 @@ export default function AboutPage() {
 
             <div className="space-y-6">
               {/* Mission Card 1 */}
-              <div className="p-6 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left relative overflow-hidden group hover:border-sapl-blue/40 transition-colors">
+              <div className="p-6 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left relative overflow-hidden group hover:border-sapl-blue/40 transition-colors min-h-[160px] flex flex-col justify-center">
                 <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
                 <h4 className="text-xs font-bold uppercase tracking-wider text-sapl-blue mb-2">Total Business Solutions</h4>
                 <p className="text-sm font-extrabold text-navy-950 !text-[#1c1a17] leading-relaxed">
@@ -353,7 +353,7 @@ export default function AboutPage() {
               </div>
 
               {/* Mission Card 2 */}
-              <div className="p-6 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left relative overflow-hidden group hover:border-sapl-blue/40 transition-colors">
+              <div className="p-6 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left relative overflow-hidden group hover:border-sapl-blue/40 transition-colors min-h-[160px] flex flex-col justify-center">
                 <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
                 <h4 className="text-xs font-bold uppercase tracking-wider text-sapl-blue mb-2">Self-Reliance in Infrastructure</h4>
                 <p className="text-sm font-extrabold text-navy-950 !text-[#1c1a17] leading-relaxed">

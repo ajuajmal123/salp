@@ -135,19 +135,38 @@ export default function ProjectDetailsPage({ params }: PageProps) {
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4 sm:gap-6">
           
           {/* Spec Card 1: Client */}
-          <div className="p-5 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left flex flex-col justify-between min-h-[140px] hover:shadow-sm transition-shadow">
-            <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm">
-              <User className="w-4.5 h-4.5" />
+          {details.client ? (
+            <Link
+              href={`/projects?client=${encodeURIComponent(details.client)}`}
+              className="p-5 bg-[#f7f6f4] border border-[#eae7e3] hover:border-sapl-blue/50 rounded-sm text-left flex flex-col justify-between min-h-[140px] hover:shadow-md transition-all duration-300 group cursor-pointer"
+            >
+              <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm group-hover:bg-sapl-blue group-hover:text-white group-hover:border-sapl-blue transition-colors duration-300">
+                <User className="w-4.5 h-4.5" />
+              </div>
+              <div>
+                <h4 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">
+                  Client / Sponsor
+                </h4>
+                <p className="text-xs sm:text-sm font-extrabold text-navy-950 mt-1 line-clamp-2 leading-tight group-hover:text-sapl-blue transition-colors duration-300">
+                  {details.client}
+                </p>
+              </div>
+            </Link>
+          ) : (
+            <div className="p-5 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left flex flex-col justify-between min-h-[140px] shadow-sm">
+              <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm">
+                <User className="w-4.5 h-4.5" />
+              </div>
+              <div>
+                <h4 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">
+                  Client / Sponsor
+                </h4>
+                <p className="text-xs sm:text-sm font-extrabold text-navy-950 mt-1 leading-tight">
+                  Srinivasan Associates
+                </p>
+              </div>
             </div>
-            <div>
-              <h4 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">
-                Client / Sponsor
-              </h4>
-              <p className="text-xs sm:text-sm font-extrabold text-navy-950 mt-1 line-clamp-2 leading-tight">
-                {details.client || "Srinivasan Associates"}
-              </p>
-            </div>
-          </div>
+          )}
 
           {/* Spec Card 2: Timeline */}
           <div className="p-5 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left flex flex-col justify-between min-h-[140px] hover:shadow-sm transition-shadow">
@@ -168,20 +187,39 @@ export default function ProjectDetailsPage({ params }: PageProps) {
             </div>
           </div>
 
-          {/* Spec Card 3: Consultant */}
-          <div className="p-5 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left flex flex-col justify-between min-h-[140px] hover:shadow-sm transition-shadow">
-            <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm">
-              <Briefcase className="w-4.5 h-4.5" />
+          {/* Spec Card 3: Consultant (Architect) */}
+          {details.consultant ? (
+            <Link
+              href={`/projects?architect=${encodeURIComponent(details.consultant)}`}
+              className="p-5 bg-[#f7f6f4] border border-[#eae7e3] hover:border-sapl-blue/50 rounded-sm text-left flex flex-col justify-between min-h-[140px] hover:shadow-md transition-all duration-300 group cursor-pointer"
+            >
+              <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm group-hover:bg-sapl-blue group-hover:text-white group-hover:border-sapl-blue transition-colors duration-300">
+                <Briefcase className="w-4.5 h-4.5" />
+              </div>
+              <div>
+                <h4 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">
+                  Architect / Consultant
+                </h4>
+                <p className="text-xs sm:text-sm font-extrabold text-navy-950 mt-1 line-clamp-2 leading-tight group-hover:text-sapl-blue transition-colors duration-300">
+                  {details.consultant}
+                </p>
+              </div>
+            </Link>
+          ) : (
+            <div className="p-5 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left flex flex-col justify-between min-h-[140px] shadow-sm">
+              <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm">
+                <Briefcase className="w-4.5 h-4.5" />
+              </div>
+              <div>
+                <h4 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">
+                  Architect / Consultant
+                </h4>
+                <p className="text-xs sm:text-sm font-extrabold text-navy-950 mt-1 leading-tight">
+                  General Contracting
+                </p>
+              </div>
             </div>
-            <div>
-              <h4 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">
-                Architect / Consultant
-              </h4>
-              <p className="text-xs sm:text-sm font-extrabold text-navy-950 mt-1 line-clamp-2 leading-tight">
-                {details.consultant || "General Contracting"}
-              </p>
-            </div>
-          </div>
+          )}
 
           {/* Spec Card 4: Floors */}
           <div className="p-5 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left flex flex-col justify-between min-h-[140px] hover:shadow-sm transition-shadow">

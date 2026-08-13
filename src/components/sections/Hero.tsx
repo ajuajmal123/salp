@@ -38,10 +38,11 @@ export default function Hero() {
         </video>
 
         {/* Soft white overlay */}
-        <div className="absolute inset-0 bg-white/20" />
+        {/* <div className="absolute inset-0 bg-white/20" />
+ */}
 
         {/* Soft white focus around the hero content */}
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.82)_0%,rgba(255,255,255,0.62)_38%,rgba(255,255,255,0.30)_68%,rgba(255,255,255,0.12)_100%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.40)_0%,rgba(255,255,255,0.30)_38%,rgba(255,255,255,0.20)_68%,rgba(255,255,255,0.08)_100%)]" />
 
         {/* Subtle bottom fade */}
         <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-white/50 to-transparent" />
@@ -64,7 +65,7 @@ export default function Hero() {
               delay: 0.1,
               ease: "easeOut",
             }}
-            className="font-sans font-extrabold text-4xl sm:text-6xl text-black tracking-tight leading-[1.1] uppercase text-center drop-shadow-[0_1px_2px_rgba(27,11,177,0.8)]"
+            className="font-sans font-extrabold text-4xl sm:text-6xl text-black tracking-tight leading-[1.1] uppercase text-center drop-shadow-[0_1px_2px_rgba(27,11,117,0.8)]"
           >
             Engineering <br />
 
