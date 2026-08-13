@@ -4,53 +4,105 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Factory, Hospital, Landmark, Building2, Server, Home } from "lucide-react";
 import AnimatedCounter from "../ui/AnimatedCounter";
+import { projectsList } from "@/data/projects";
+
+// Base stats representing historical volume NOT explicitly detailed in projectsList
+const BASE_STATS = {
+  Industrial: 0,
+  Healthcare: 0,
+  Institutional: 0,
+  Commercial: 0,
+  "IT & ITeS": 0,
+  Residential: 0,
+};
+
+function parseArea(areaStr?: string): number {
+  if (!areaStr) return 0;
+  const clean = areaStr.replace(/,/g, "").toLowerCase().trim();
+  const match = clean.match(/([\d.]+)/);
+  if (!match) return 0;
+  let val = parseFloat(match[1]);
+  if (clean.includes("million")) {
+    val *= 1000000;
+  } else if (clean.includes("lakh")) {
+    val *= 100000;
+  }
+  return val;
+}
+
+function getStatCategoryKey(projectCategory: string): string | null {
+  const norm = projectCategory.toLowerCase().trim();
+  if (norm === "industrial") return "Industrial";
+  if (norm === "healthcare") return "Healthcare";
+  if (norm === "institutional") return "Institutional";
+  if (norm === "commercial") return "Commercial";
+  if (norm === "it park" || norm === "it & ites" || norm === "it") return "IT & ITeS";
+  if (norm === "residential") return "Residential";
+  return null;
+}
 
 const statsList = [
   {
     icon: Factory,
     title: "Industrial",
-    value: 8504240,
+    baseValue: BASE_STATS.Industrial,
     suffix: " Sft",
     description: "Automotive plants, high-spec factories, heavy machinery complexes, and logistics centers.",
   },
   {
     icon: Hospital,
     title: "Healthcare",
-    value: 5299400,
+    baseValue: BASE_STATS.Healthcare,
     suffix: " Sft",
     description: "Advanced super-specialty hospital complexes, research wings, and clinical facilities.",
   },
   {
     icon: Landmark,
     title: "Institutional",
-    value: 4208206,
+    baseValue: BASE_STATS.Institutional,
     suffix: " Sft",
     description: "High-density educational campuses, institutional centers, and administrative offices.",
   },
   {
     icon: Building2,
     title: "Commercial",
-    value: 3229009,
+    baseValue: BASE_STATS.Commercial,
     suffix: " Sft",
     description: "Sleek commercial blocks, high-end retail hubs, and premium corporate towers.",
   },
   {
     icon: Server,
     title: "IT & ITeS",
-    value: 2008300,
+    baseValue: BASE_STATS["IT & ITeS"],
     suffix: " Sft",
     description: "State-of-the-art software technology parks, grade-A hubs, and corporate workspaces.",
   },
   {
     icon: Home,
     title: "Residential",
-    value: 7011200,
+    baseValue: BASE_STATS.Residential,
     suffix: " Sft",
     description: "Premium high-rise apartments, residential complexes, and modern townships.",
   },
 ];
 
 export default function Stats() {
+  const dynamicStatsList = statsList.map((stat) => {
+    const projectSum = projectsList.reduce((sum, project) => {
+      const mappedKey = getStatCategoryKey(project.category);
+      if (mappedKey === stat.title) {
+        return sum + parseArea(project.details?.area);
+      }
+      return sum;
+    }, 0);
+    return {
+      ...stat,
+      value: stat.baseValue + projectSum,
+    };
+  });
+
+  const totalVolume = dynamicStatsList.reduce((acc, stat) => acc + stat.value, 0);
+
   return (
     <section className="relative py-24 bg-[#f7f6f4] text-[#1c1a17] overflow-hidden border-t border-[#eae7e3] border-b border-[#eae7e3]">
       
@@ -71,7 +123,7 @@ export default function Stats() {
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-[#eae7e3] text-[10px] font-bold tracking-widest text-sapl-blue uppercase shadow-[0_2px_10px_rgba(0,0,0,0.02)]"
           >
             <span className="w-1.5 h-1.5 rounded-full bg-sapl-blue animate-pulse" />
-            Total Structural Volume: 30,260,355 Sft
+            Total Structural Volume: {totalVolume.toLocaleString("en-US")} Sft
           </motion.div>
 
           <motion.h2
@@ -98,7 +150,7 @@ export default function Stats() {
 
         {/* 6-Column Responsive Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-          {statsList.map((stat, idx) => {
+          {dynamicStatsList.map((stat, idx) => {
             const Icon = stat.icon;
             return (
               <motion.div

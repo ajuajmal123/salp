@@ -34,7 +34,7 @@ export default function AnimatedCounter({
   useEffect(() => {
     return roundedValue.on("change", (latest) => {
       if (ref.current) {
-        ref.current.textContent = latest.toLocaleString();
+        ref.current.textContent = latest.toLocaleString("en-US");
       }
     });
   }, [roundedValue]);
