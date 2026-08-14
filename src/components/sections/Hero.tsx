@@ -1,6 +1,4 @@
-
 "use client";
-
 
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -10,7 +8,7 @@ export default function Hero() {
     <section className="relative h-screen flex items-center justify-center overflow-hidden bg-navy-100">
 
       {/* =========================================================
-          CINEMATIC BACKGROUND VIDEO
+          CINEMATIC BACKGROUND VIDEO (FULL OPACITY, UNBLURRED, NO OVERLAYS)
       ========================================================== */}
       <div className="absolute inset-0 z-0 select-none pointer-events-none">
         <video
@@ -18,7 +16,7 @@ export default function Hero() {
           loop
           muted
           playsInline
-          className="w-full h-full object-cover opacity-75 blur-[1px]"
+          className="w-full h-full object-cover opacity-100"
           poster="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0"
         >
           <source
@@ -36,27 +34,15 @@ export default function Hero() {
             type="video/mp4"
           />
         </video>
-
-        {/* Soft white overlay */}
-        {/* <div className="absolute inset-0 bg-white/20" />
- */}
-
-        {/* Premium radial focus overlay: soft white center for perfect text legibility, fading to brand cyan */}
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.80)_0%,rgba(255,255,255,0.50)_55%,rgba(42,181,196,0.15)_100%)]" />
-
-        {/* Subtle bottom fade */}
-        <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-white/50 to-transparent" />
       </div>
 
       {/* =========================================================
-          HERO CONTENT
+          HERO CONTENT (WHITE TEXT WITH DEEP SHADOWS, OVERLAY-FREE)
       ========================================================== */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 w-full pt-16">
         <div className="max-w-4xl mx-auto text-center flex flex-col items-center gap-6 sm:gap-7">
 
-          {/* =====================================================
-              HEADING
-          ====================================================== */}
+          {/* HEADING */}
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -65,20 +51,16 @@ export default function Hero() {
               delay: 0.1,
               ease: "easeOut",
             }}
-            className="font-sans font-extrabold text-4xl sm:text-6xl text-black tracking-tight leading-[1.1] uppercase text-center drop-shadow-[0_1px_2px_rgba(27,11,117,0.8)]"
+            className="font-sans font-extrabold text-4xl sm:text-6xl text-white tracking-tight leading-[1.1] uppercase text-center drop-shadow-[0_4px_16px_rgba(0,0,0,0.9)]"
           >
             Engineering <br />
-
-            <span className="text-sapl-blue font-black">
+            <span className="text-sapl-blue font-black drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
               Excellence
             </span>{" "}
-
             for Modern Infrastructure
           </motion.h1>
 
-          {/* =====================================================
-              SUBHEADING
-          ====================================================== */}
+          {/* SUBHEADING */}
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -87,16 +69,14 @@ export default function Hero() {
               delay: 0.2,
               ease: "easeOut",
             }}
-            className="text-black text-sm sm:text-xl leading-relaxed max-w-2xl mx-auto text-center font-extrabold"
+            className="text-white text-sm sm:text-xl leading-relaxed max-w-2xl mx-auto text-center font-extrabold drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]"
           >
             Delivering high-end industrial engineering, state-of-the-art
             healthcare complexes, IT business parks, and modern corporate
             spaces across South India for over 39 years.
           </motion.p>
 
-          {/* =====================================================
-              CTA GROUP
-          ====================================================== */}
+          {/* CTA GROUP */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -140,4 +120,3 @@ export default function Hero() {
     </section>
   );
 }
-
