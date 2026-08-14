@@ -1,4 +1,4 @@
-export interface Project {
+﻿export interface Project {
   slug: string;
   name: string;
   category: string;
@@ -43,9 +43,7 @@ export const featuredProjectsList: Project[] = [
         "Integrated research labs and advanced radiation therapy wards"
       ]
     },
-    "gallery": [
-      "/completed/p3/images.jpg"
-    ]
+    "gallery": [      "/completed/p3/images.jpg"]
   },
   {
     "slug": "lgb-factory-building-2",
@@ -70,9 +68,7 @@ export const featuredProjectsList: Project[] = [
         "Custom high-load loading dock bays and overhead cranes support structures"
       ]
     },
-    "gallery": [
-      "/completed/p1/LGB-CHENNAI-3.jpg"
-    ]
+    "gallery": [      "/completed/p1/LGB-CHENNAI-3.jpg"]
   },
   {
     "slug": "sankara-eye-hospital",
@@ -97,9 +93,7 @@ export const featuredProjectsList: Project[] = [
         "Standard-compliant medical gas distribution grid"
       ]
     },
-    "gallery": [
-      "/completed/p2/Sankara-Eye-Hospital-Guntur.jpg"
-    ]
+    "gallery": [      "/completed/p2/Sankara-Eye-Hospital-Guntur.jpg"]
   },
   {
     "slug": "global-tech-park",
@@ -124,9 +118,7 @@ export const featuredProjectsList: Project[] = [
         "Integrated multi-level basements and massive tech utility grids"
       ]
     },
-    "gallery": [
-      "/completed/p4/GTP-8.jpg"
-    ]
+    "gallery": [      "/completed/p4/GTP-8.jpg"]
   },
   {
     "slug": "shriram-122",
@@ -151,9 +143,7 @@ export const featuredProjectsList: Project[] = [
         "Modern integrated rainwater systems and green campus layout"
       ]
     },
-    "gallery": [
-      "/ongoing/p1/Srivision.jpg"
-    ]
+    "gallery": [      "/ongoing/p1/Srivision.jpg"]
   },
   {
     "slug": "aravind-eye-hospital",
@@ -178,9 +168,7 @@ export const featuredProjectsList: Project[] = [
         "Rigid healthcare-grade safety containment compliance standards"
       ]
     },
-    "gallery": [
-      "/completed/p5/Aravind_Coimbatore-copy.jpg"
-    ]
+    "gallery": [      "/completed/p5/Aravind_Coimbatore-copy.jpg"]
   }
 ];
 
@@ -636,24 +624,6 @@ export const projectsList: Project[] = [
     "gallery": []
   },
   {
-    "slug": "saradha-greens-2",
-    "name": "SARADHA GREENS –",
-    "category": "Commercial",
-    "location": "COIMBATORE",
-    "imageUrl": "",
-    "status": "Completed",
-    "description": "",
-    "details": {
-      "client": "NIVASAN HOMES PVT LTD",
-      "area": "7800 SFT",
-      "floors": "3",
-      "startDate": "NOV’ 2019",
-      "completionDate": "JUL'2022",
-      "consultant": "M/s. ARUN & ASSOCIATES"
-    },
-    "gallery": []
-  },
-  {
     "slug": "bull-machines-pvt-ltd-suvasam-20",
     "name": "BULL MACHINES PVT LTD-SUVASAM 2.0",
     "category": "Industrial",
@@ -686,24 +656,6 @@ export const projectsList: Project[] = [
       "startDate": "AUG’ 2018",
       "completionDate": "OCT’ 2019",
       "consultant": "M/s. SG Structural Engineers"
-    },
-    "gallery": []
-  },
-  {
-    "slug": "lgbalakrishnan-bros-limited-2",
-    "name": "L.G.BALAKRISHNAN & BROS LIMITED",
-    "category": "Industrial",
-    "location": "ANNUR",
-    "imageUrl": "",
-    "status": "Completed",
-    "description": "",
-    "details": {
-      "client": "L.G.BALAKRISHNAN & BROS LIMITED",
-      "area": "15000 SFT",
-      "floors": "GF+1 FLOOR",
-      "startDate": "JUN’ 2018",
-      "completionDate": "OCT’ 2018",
-      "consultant": "Ms/. Vesta Architects"
     },
     "gallery": []
   },
@@ -776,42 +728,6 @@ export const projectsList: Project[] = [
       "startDate": "JUN'2018",
       "completionDate": "OCT'2022",
       "consultant": "M/s. Design Forum India Private Limited"
-    },
-    "gallery": []
-  },
-  {
-    "slug": "psg-institute-of-medical-sciences-research-2",
-    "name": "PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH",
-    "category": "Institutional",
-    "location": "COIMBATORE",
-    "imageUrl": "",
-    "status": "Completed",
-    "description": "",
-    "details": {
-      "client": "PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH",
-      "area": "845000 SFT",
-      "floors": "8+2B+GF",
-      "startDate": "FEB’ 2015",
-      "completionDate": "SEP’ 2019",
-      "consultant": "M/s. S.D.Sharma Associates"
-    },
-    "gallery": []
-  },
-  {
-    "slug": "psg-institute-of-medical-sciences-research-3",
-    "name": "PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH",
-    "category": "Healthcare",
-    "location": "COIMBATORE",
-    "imageUrl": "",
-    "status": "Completed",
-    "description": "",
-    "details": {
-      "client": "PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH",
-      "area": "845000 SFT",
-      "floors": "8+2B+GF",
-      "startDate": "FEB’ 2015",
-      "completionDate": "SEP’ 2019",
-      "consultant": "M/s. S.D.Sharma Associates"
     },
     "gallery": []
   },
@@ -1212,24 +1128,6 @@ export const projectsList: Project[] = [
     "gallery": []
   },
   {
-    "slug": "ms-govel-trust-aravind-eye-hospital-2",
-    "name": "M/s. GOVEL TRUST, ARAVIND EYE HOSPITAL",
-    "category": "Healthcare",
-    "location": "CHENNAI",
-    "imageUrl": "",
-    "status": "Completed",
-    "description": "",
-    "details": {
-      "client": "GROVEL TRUST ARAVIND EYE HOSPITAL",
-      "area": "195000 SFT",
-      "floors": "10",
-      "startDate": "JAN’ 2015",
-      "completionDate": "MAR’ 2017",
-      "consultant": "M/s. Design Collaborative Pvt.Ltd."
-    },
-    "gallery": []
-  },
-  {
     "slug": "nivasan-viveka-enclave",
     "name": "NIVASAN-VIVEKA ENCLAVE",
     "category": "Residential",
@@ -1388,24 +1286,6 @@ export const projectsList: Project[] = [
       "startDate": "Dec’2018",
       "completionDate": "Jun’ 2022",
       "consultant": "M/s. M. Dharmalingam Associates"
-    },
-    "gallery": []
-  },
-  {
-    "slug": "cri-pumps-private-limited-2",
-    "name": "CRI PUMPS PRIVATE LIMITED",
-    "category": "Industrial",
-    "location": "COIMBATORE",
-    "imageUrl": "",
-    "status": "Completed",
-    "description": "",
-    "details": {
-      "client": "CRI PUMPS PRIVATE LIMITED",
-      "area": "34000 SFT",
-      "floors": "GF",
-      "startDate": "Apr’ 2017",
-      "completionDate": "Jun’ 2018",
-      "consultant": "M/s. Design Tech"
     },
     "gallery": []
   },
@@ -1716,24 +1596,6 @@ export const projectsList: Project[] = [
     "gallery": []
   },
   {
-    "slug": "mark-engineering-works-2",
-    "name": "MARK ENGINEERING WORKS",
-    "category": "Industrial",
-    "location": "COIMBATORE",
-    "imageUrl": "",
-    "status": "Completed",
-    "description": "",
-    "details": {
-      "client": "MARK ENGINEERING WORKS",
-      "area": "95000 SFT",
-      "floors": "GF",
-      "startDate": "AUG’ 2020",
-      "completionDate": "JUL’ 2021",
-      "consultant": "Ms/. Vesta Architects"
-    },
-    "gallery": []
-  },
-  {
     "slug": "propel-industries-pvt-ltd",
     "name": "PROPEL INDUSTRIES PVT LTD",
     "category": "Industrial",
@@ -1784,60 +1646,6 @@ export const projectsList: Project[] = [
       "startDate": "FEB’2009",
       "completionDate": "JAN’2010",
       "consultant": "M/s. M. Dharmalingam Associates"
-    },
-    "gallery": []
-  },
-  {
-    "slug": "madras-cements-ltd-2",
-    "name": "MADRAS CEMENTS LTD",
-    "category": "Industrial",
-    "location": "CHENGELPET",
-    "imageUrl": "",
-    "status": "Completed",
-    "description": "",
-    "details": {
-      "client": "MADRAS CEMENTS LTD",
-      "area": "0.7 MTPA",
-      "floors": "GF",
-      "startDate": "JAN’2007",
-      "completionDate": "JAN’2010",
-      "consultant": "M/s. Enexco Technologies (India) Ltd"
-    },
-    "gallery": []
-  },
-  {
-    "slug": "madras-cements-ltd-3",
-    "name": "MADRAS CEMENTS LTD",
-    "category": "Industrial",
-    "location": "HYDERABAD",
-    "imageUrl": "",
-    "status": "Completed",
-    "description": "",
-    "details": {
-      "client": "MADRAS CEMENTS LTD",
-      "area": "500 MTP",
-      "floors": "GF",
-      "startDate": "JAN’2007",
-      "completionDate": "JAN’2010",
-      "consultant": "EEL India Limited"
-    },
-    "gallery": []
-  },
-  {
-    "slug": "aravind-eye-hospital-2",
-    "name": "ARAVIND EYE HOSPITAL",
-    "category": "Healthcare",
-    "location": "COIMBATORE",
-    "imageUrl": "",
-    "status": "Completed",
-    "description": "",
-    "details": {
-      "client": "GROVEL TRUST ARAVIND EYE HOSPITAL",
-      "area": "4,49,000 SFT",
-      "floors": "3&6",
-      "startDate": "MAR’ 2022",
-      "completionDate": "JAN’ 2025",
-      "consultant": "M/s. Design Collaborative充分.Ltd"
     },
     "gallery": []
   },
@@ -2238,24 +2046,6 @@ export const projectsList: Project[] = [
     "gallery": []
   },
   {
-    "slug": "ms-toyota-anamallais-agencies-2",
-    "name": "M/s. TOYOTA ANAMALLAIS AGENCIES",
-    "category": "Commercial",
-    "location": "MADURAI",
-    "imageUrl": "",
-    "status": "Completed",
-    "description": "",
-    "details": {
-      "client": "TOYOTA ANAMALLAIS AGENCIES",
-      "area": "57300 SFT",
-      "floors": "GF",
-      "startDate": "JAN’2010",
-      "completionDate": "DEC’2010",
-      "consultant": "Mr. Arivudai Nambi"
-    },
-    "gallery": []
-  },
-  {
     "slug": "snr-auditorium",
     "name": "SNR AUDITORIUM",
     "category": "Commercial",
@@ -2342,24 +2132,6 @@ export const projectsList: Project[] = [
       "startDate": "DEC’ 2019",
       "completionDate": "DEC’ 2020",
       "consultant": "M/s. Mithran Structures (P) Ltd"
-    },
-    "gallery": []
-  },
-  {
-    "slug": "psg-imsr-kitchen-building-2",
-    "name": "PSG IMSR KITCHEN BUILDING",
-    "category": "Institutional",
-    "location": "COIMBATORE",
-    "imageUrl": "",
-    "status": "Completed",
-    "description": "",
-    "details": {
-      "client": "PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH",
-      "area": "20000 SFT",
-      "floors": "4",
-      "startDate": "DEC’ 2019",
-      "completionDate": "DEC’ 2020",
-      "consultant": "M/s. Mithran Structures (P) Ltd."
     },
     "gallery": []
   },
@@ -2486,24 +2258,6 @@ export const projectsList: Project[] = [
       "startDate": "JUN’ 2004",
       "completionDate": "DEC’ 2005",
       "consultant": "M/s.Design Forum India Private Limited"
-    },
-    "gallery": []
-  },
-  {
-    "slug": "aravind-eye-hospital-3",
-    "name": "ARAVIND EYE HOSPITAL",
-    "category": "Healthcare",
-    "location": "MADURAI",
-    "imageUrl": "",
-    "status": "Completed",
-    "description": "",
-    "details": {
-      "client": "GROVEL TRUST ARAVIND EYE HOSPITAL",
-      "area": "106000 SFT",
-      "floors": "5",
-      "startDate": "APR’2008",
-      "completionDate": "AUG’2009",
-      "consultant": "M/s. Auroservice Consultants Private Limited"
     },
     "gallery": []
   },
@@ -2742,24 +2496,6 @@ export const projectsList: Project[] = [
     "gallery": []
   },
   {
-    "slug": "aravind-eye-hospital-4",
-    "name": "ARAVIND EYE HOSPITAL",
-    "category": "Healthcare",
-    "location": "TIRUNELVELI",
-    "imageUrl": "",
-    "status": "Completed",
-    "description": "",
-    "details": {
-      "client": "GROVEL TRUST ARAVIND EYE HOSPITAL",
-      "area": "137500 SFT",
-      "floors": "6",
-      "startDate": "OCT’ 2020",
-      "completionDate": "APR’ 2023",
-      "consultant": "M/s. Design Collaborative Pvt.Ltd"
-    },
-    "gallery": []
-  },
-  {
     "slug": "centralised-bus-parking",
     "name": "CENTRALISED BUS PARKING",
     "category": "Industrial",
@@ -2861,24 +2597,6 @@ export const projectsList: Project[] = [
       "client": "GROVEL TRUST ARAVIND EYE HOSPITAL",
       "area": "100000 SFT",
       "floors": "2",
-      "startDate": "APR’ 2007",
-      "completionDate": "APR’ 2009",
-      "consultant": "M/s. Auroservice Consultants Private Limited"
-    },
-    "gallery": []
-  },
-  {
-    "slug": "ms-govel-trust-drgvenkatasamy-research-institute-2",
-    "name": "M/s. GOVEL TRUST, DR.G.VENKATASAMY RESEARCH INSTITUTE",
-    "category": "Healthcare",
-    "location": "MADURAI",
-    "imageUrl": "",
-    "status": "Completed",
-    "description": "",
-    "details": {
-      "client": "GROVEL TRUST ARAVIND EYE HOSPITAL",
-      "area": "150000 SFT",
-      "floors": "3",
       "startDate": "APR’ 2007",
       "completionDate": "APR’ 2009",
       "consultant": "M/s. Auroservice Consultants Private Limited"
@@ -3425,24 +3143,6 @@ export const projectsList: Project[] = [
     "gallery": []
   },
   {
-    "slug": "construction-of-factory-building-2",
-    "name": "CONSTRUCTION OF FACTORY BUILDING",
-    "category": "Industrial",
-    "location": "COIMBATORE",
-    "imageUrl": "",
-    "status": "Ongoing",
-    "description": "",
-    "details": {
-      "client": "AUTO DIECASTING COMPANY",
-      "area": "52722SFT",
-      "floors": "FACTORY - GF; OFFICE - GF+FF+SF",
-      "startDate": "May 2025",
-      "completionDate": "OCT' 2026",
-      "consultant": "THE PIDESIGN"
-    },
-    "gallery": []
-  },
-  {
     "slug": "construction-of-sand-reclamation-unit",
     "name": "CONSTRUCTION OF SAND RECLAMATION UNIT",
     "category": "Industrial",
@@ -3493,24 +3193,6 @@ export const projectsList: Project[] = [
       "startDate": "SEP'2025",
       "completionDate": "MAY'2027",
       "consultant": "Ms/. Vesta Architects"
-    },
-    "gallery": []
-  },
-  {
-    "slug": "construction-of-factory-building-3",
-    "name": "CONSTRUCTION OF FACTORY BUILDING",
-    "category": "Industrial",
-    "location": "CHENNAI",
-    "imageUrl": "",
-    "status": "Ongoing",
-    "description": "",
-    "details": {
-      "client": "M/S. SRI DHANALAKSHMI INDUSTRIES",
-      "area": "30000SFT",
-      "floors": "GROUND+FF",
-      "startDate": "Nov 2025",
-      "completionDate": "JAN'2027",
-      "consultant": "FIRM TERRA"
     },
     "gallery": []
   },
@@ -3692,24 +3374,6 @@ export const projectsList: Project[] = [
     "gallery": []
   },
   {
-    "slug": "construction-of-school-building-2",
-    "name": "CONSTRUCTION OF SCHOOL BUILDING",
-    "category": "Institutional",
-    "location": "COIMBATORE",
-    "imageUrl": "",
-    "status": "Ongoing",
-    "description": "",
-    "details": {
-      "client": "M/S. RAKS PALLIKKOODAM",
-      "area": "81,000 SFT",
-      "floors": "GF + 3 Floors",
-      "startDate": "SEP' 2024",
-      "completionDate": "SEP' 2026",
-      "consultant": "M/s.INGENIO"
-    },
-    "gallery": []
-  },
-  {
     "slug": "construction-of-e8-block",
     "name": "CONSTRUCTION OF E8 BLOCK",
     "category": "Institutional",
@@ -3778,24 +3442,6 @@ export const projectsList: Project[] = [
       "startDate": "NOV' 2025",
       "completionDate": "SEP' 2026",
       "consultant": "M/s. Interface Archtecture"
-    },
-    "gallery": []
-  },
-  {
-    "slug": "construction-of-commercial-building-2",
-    "name": "CONSTRUCTION OF COMMERCIAL BUILDING",
-    "category": "Commercial",
-    "location": "COIMBATORE",
-    "imageUrl": "",
-    "status": "Ongoing",
-    "description": "",
-    "details": {
-      "client": "VEEKESY FOOTCARE (INDIA) PVT. LTD.",
-      "area": "7,000SFT",
-      "floors": "GF",
-      "startDate": "JAN' 2025",
-      "completionDate": "AUG' 2026",
-      "consultant": "M/s. Innerspace"
     },
     "gallery": []
   },
@@ -3998,24 +3644,6 @@ export const projectsList: Project[] = [
     "gallery": []
   },
   {
-    "slug": "construction-of-residential-villas-swarnapura-2",
-    "name": "CONSTRUCTION OF RESIDENTIAL VILLAS \"SWARNAPURA\"",
-    "category": "Residential",
-    "location": "COIMBATORE",
-    "imageUrl": "",
-    "status": "Ongoing",
-    "description": "",
-    "details": {
-      "client": "M/S. NIVASAN HOMES PV. LTD.",
-      "area": "93,500 SFT",
-      "floors": "GF + 1 Floors",
-      "startDate": "MAY' 2024",
-      "completionDate": "OCT' 2026",
-      "consultant": "Ms/. Vesta Architects"
-    },
-    "gallery": []
-  },
-  {
     "slug": "construction-of-maharaja-bungalow-at-palayamkottai-tirunelveli-for-ms-tvs-holdings-ltd",
     "name": "CONSTRUCTION OF MAHARAJA BUNGALOW AT PALAYAMKOTTAI, TIRUNELVELI FOR M/S. TVS HOLDINGS LTD.",
     "category": "Residential",
@@ -4142,3 +3770,4 @@ export const projectsList: Project[] = [
     "gallery": []
   }
 ];
+
