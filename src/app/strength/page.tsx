@@ -14,8 +14,15 @@ import {
   Globe2,
   FileText,
   BadgeAlert,
-  ArrowUpRight
+  ArrowUpRight,
+  Search,
+  GraduationCap,
+  Briefcase
 } from "lucide-react";
+import {
+  fullClientsList,
+  fullArchitectsList
+} from "./strengthData";
 
 // Tab definition
 const tabs = [
@@ -64,19 +71,57 @@ function StrengthPageContent() {
   const router = useRouter();
   const initialTab = searchParams.get("tab") || "clients";
   const [activeTab, setActiveTab] = useState(initialTab);
+  
+  // Interactive directories states
+  const [searchQuery, setSearchQuery] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState("all");
+  const [visibleCount, setVisibleCount] = useState(24);
 
-  // Sync state with URL parameter changes
+  // Sync state with URL parameter changes and reset search filters on tab changes
   useEffect(() => {
     const tabFromUrl = searchParams.get("tab");
     if (tabFromUrl && tabs.some(t => t.id === tabFromUrl)) {
       setActiveTab(tabFromUrl);
     }
+    setSearchQuery("");
+    setSelectedCategory("all");
+    setVisibleCount(24);
   }, [searchParams]);
 
   const handleTabChange = (tabId: string) => {
     setActiveTab(tabId);
     router.push(`/strength?tab=${tabId}`);
   };
+
+  const getFilterCategories = () => {
+    if (activeTab === "clients") {
+      return [
+        { id: "all", label: "All Sectors" },
+        { id: "industrial", label: "Industrial & Manufacturing" },
+        { id: "realestate", label: "Real Estate & Infrastructure" },
+        { id: "healthcare", label: "Healthcare & Medical" },
+        { id: "education", label: "Education & Trust" },
+        { id: "corporate", label: "Corporate, Retail & Hospitality" }
+      ];
+    } else {
+      return [
+        { id: "all", label: "All Disciplines" },
+        { id: "design", label: "Architects & Design Studios" },
+        { id: "engineering", label: "Structural & Engineering" },
+        { id: "planning", label: "Project Management & Planning" },
+        { id: "advisory", label: "General Consulting & Advisory" }
+      ];
+    }
+  };
+
+  const currentList = activeTab === "clients" ? fullClientsList : fullArchitectsList;
+
+  const filteredItems = currentList.filter(item => {
+    const matchesSearch = item.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
+                          item.category.toLowerCase().includes(searchQuery.toLowerCase());
+    const matchesCategory = selectedCategory === "all" || item.categoryId === selectedCategory;
+    return matchesSearch && matchesCategory;
+  });
 
   return (
     <div className="pt-28 lg:pt-32 pb-24 bg-white min-h-screen">
@@ -99,7 +144,7 @@ function StrengthPageContent() {
                   <button
                     key={tab.id}
                     onClick={() => handleTabChange(tab.id)}
-                    className={`flex items-center justify-between p-4 rounded-sm border text-left transition-all duration-300 group ${
+                    className={`flex items-center justify-between p-4 rounded-sm border text-left transition-all duration-300 group cursor-pointer ${
                       isActive
                         ? "bg-navy-950 border-navy-950 shadow-md text-white scale-[1.02]"
                         : "bg-[#f7f6f4] border-[#eae7e3] hover:border-sapl-blue/50 text-[#4F4C42] hover:bg-white"
@@ -194,6 +239,114 @@ function StrengthPageContent() {
                         </div>
                       ))}
                     </div>
+
+                    {/* Interactive Directory Section for Clients */}
+                    <div className="border-t border-[#eae7e3] pt-10 mt-8 space-y-6">
+                      <div className="flex flex-col gap-2">
+                        <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue">
+                          Searchable Directory
+                        </span>
+                        <h3 className="font-sans font-extrabold text-lg sm:text-xl tracking-tight uppercase" style={{ color: "#1c1a17" }}>
+                          Full Client Directory
+                        </h3>
+                        <p className="text-[11px] !text-[#6D675E] leading-relaxed">
+                          Browse our extensive client network. Use the search bar and category filters to find specific partners.
+                        </p>
+                      </div>
+
+                      {/* Controls: Search and Filters */}
+                      <div className="flex flex-col md:flex-row gap-4 justify-between items-stretch md:items-center">
+                        {/* Search Input */}
+                        <div className="relative flex-1 max-w-md">
+                          <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[#afa99e]" />
+                          <input
+                            type="text"
+                            placeholder="Search clients or industries..."
+                            value={searchQuery}
+                            onChange={(e) => {
+                              setSearchQuery(e.target.value);
+                              setVisibleCount(24); // Reset pagination on search
+                            }}
+                            className="w-full pl-10 pr-4 py-2.5 text-xs border border-[#eae7e3] rounded-sm focus:outline-none focus:border-sapl-blue/50 focus:ring-1 focus:ring-sapl-blue/20 transition-all text-[#1c1a17] placeholder:text-[#afa99e]"
+                          />
+                        </div>
+
+                        {/* Results Count indicator */}
+                        <span className="text-[10px] font-extrabold uppercase tracking-wider text-[#6D675E] self-center">
+                          {filteredItems.length} {filteredItems.length === 1 ? "Client" : "Clients"} found
+                        </span>
+                      </div>
+
+                      {/* Category Filters */}
+                      <div className="flex gap-2 overflow-x-auto pb-2 -mx-2 px-2 scrollbar-none">
+                        {getFilterCategories().map((cat) => (
+                          <button
+                            key={cat.id}
+                            onClick={() => {
+                              setSelectedCategory(cat.id);
+                              setVisibleCount(24); // Reset pagination
+                            }}
+                            className={`px-3 py-1.5 rounded-full border text-[10px] font-extrabold uppercase tracking-wider shrink-0 transition-all cursor-pointer ${
+                              selectedCategory === cat.id
+                                ? "bg-sapl-blue border-sapl-blue text-white shadow-xs"
+                                : "bg-[#f7f6f4] border-[#eae7e3] hover:border-sapl-blue/50 text-[#4F4C42] hover:bg-white"
+                            }`}
+                          >
+                            {cat.label}
+                          </button>
+                        ))}
+                      </div>
+
+                      {/* Directory Grid */}
+                      {filteredItems.length === 0 ? (
+                        <div className="text-center py-12 border border-dashed border-[#eae7e3] rounded-sm">
+                          <p className="text-xs text-[#6D675E]">No clients found matching your search.</p>
+                        </div>
+                      ) : (
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+                          {filteredItems.slice(0, visibleCount).map((client) => {
+                            let IconComponent = Users2;
+                            if (client.categoryId === "industrial") IconComponent = Layers;
+                            else if (client.categoryId === "realestate") IconComponent = Building2;
+                            else if (client.categoryId === "healthcare") IconComponent = Heart;
+                            else if (client.categoryId === "education") IconComponent = GraduationCap;
+                            else if (client.categoryId === "corporate") IconComponent = Briefcase;
+
+                            return (
+                              <div
+                                key={client.id}
+                                className="flex items-center gap-3 bg-[#f7f6f4] hover:bg-white border border-[#eae7e3] hover:border-sapl-blue/40 p-3.5 rounded-sm hover:shadow-xs transition-all duration-300 group"
+                              >
+                                <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center border border-[#eae7e3] text-[#6D675E] group-hover:text-sapl-blue group-hover:border-sapl-blue/20 transition-all shrink-0">
+                                  <IconComponent className="w-3.5 h-3.5" />
+                                </div>
+                                <div className="min-w-0">
+                                  <h4 className="text-[11px] font-extrabold uppercase tracking-wide text-[#1c1a17] truncate" title={client.name}>
+                                    {client.name}
+                                  </h4>
+                                  <span className="text-[8px] font-bold uppercase tracking-wider text-[#afa99e] group-hover:text-sapl-blue/70 transition-colors">
+                                    {client.category}
+                                  </span>
+                                </div>
+                              </div>
+                            );
+                          })}
+                        </div>
+                      )}
+
+                      {/* Show More Button */}
+                      {filteredItems.length > visibleCount && (
+                        <div className="flex justify-center pt-4">
+                          <button
+                            onClick={() => setVisibleCount(prev => prev + 24)}
+                            className="flex items-center gap-2 px-5 py-2.5 bg-navy-950 text-white border border-navy-950 text-[10px] font-extrabold uppercase tracking-wider rounded-sm hover:bg-sapl-blue hover:border-sapl-blue transition-all cursor-pointer shadow-sm hover:-translate-y-[1px]"
+                          >
+                            Load More Clients
+                            <ChevronRight className="w-3.5 h-3.5" />
+                          </button>
+                        </div>
+                      )}
+                    </div>
                   </div>
                 )}
 
@@ -235,6 +388,113 @@ function StrengthPageContent() {
                           </div>
                         </div>
                       ))}
+                    </div>
+
+                    {/* Interactive Directory Section for Architects */}
+                    <div className="border-t border-[#eae7e3] pt-10 mt-8 space-y-6">
+                      <div className="flex flex-col gap-2">
+                        <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue">
+                          Searchable Directory
+                        </span>
+                        <h3 className="font-sans font-extrabold text-lg sm:text-xl tracking-tight uppercase" style={{ color: "#1c1a17" }}>
+                          Full Architect & Consultant Directory
+                        </h3>
+                        <p className="text-[11px] !text-[#6D675E] leading-relaxed">
+                          Browse our extensive partner network of architects, structural designers, and project managers.
+                        </p>
+                      </div>
+
+                      {/* Controls: Search and Filters */}
+                      <div className="flex flex-col md:flex-row gap-4 justify-between items-stretch md:items-center">
+                        {/* Search Input */}
+                        <div className="relative flex-1 max-w-md">
+                          <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-[#afa99e]" />
+                          <input
+                            type="text"
+                            placeholder="Search architects or disciplines..."
+                            value={searchQuery}
+                            onChange={(e) => {
+                              setSearchQuery(e.target.value);
+                              setVisibleCount(24); // Reset pagination on search
+                            }}
+                            className="w-full pl-10 pr-4 py-2.5 text-xs border border-[#eae7e3] rounded-sm focus:outline-none focus:border-sapl-blue/50 focus:ring-1 focus:ring-sapl-blue/20 transition-all text-[#1c1a17] placeholder:text-[#afa99e]"
+                          />
+                        </div>
+
+                        {/* Results Count indicator */}
+                        <span className="text-[10px] font-extrabold uppercase tracking-wider text-[#6D675E] self-center">
+                          {filteredItems.length} {filteredItems.length === 1 ? "Partner" : "Partners"} found
+                        </span>
+                      </div>
+
+                      {/* Category Filters */}
+                      <div className="flex gap-2 overflow-x-auto pb-2 -mx-2 px-2 scrollbar-none">
+                        {getFilterCategories().map((cat) => (
+                          <button
+                            key={cat.id}
+                            onClick={() => {
+                              setSelectedCategory(cat.id);
+                              setVisibleCount(24); // Reset pagination
+                            }}
+                            className={`px-3 py-1.5 rounded-full border text-[10px] font-extrabold uppercase tracking-wider shrink-0 transition-all cursor-pointer ${
+                              selectedCategory === cat.id
+                                ? "bg-sapl-blue border-sapl-blue text-white shadow-xs"
+                                : "bg-[#f7f6f4] border-[#eae7e3] hover:border-sapl-blue/50 text-[#4F4C42] hover:bg-white"
+                            }`}
+                          >
+                            {cat.label}
+                          </button>
+                        ))}
+                      </div>
+
+                      {/* Directory Grid */}
+                      {filteredItems.length === 0 ? (
+                        <div className="text-center py-12 border border-dashed border-[#eae7e3] rounded-sm">
+                          <p className="text-xs text-[#6D675E]">No partners found matching your search.</p>
+                        </div>
+                      ) : (
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+                          {filteredItems.slice(0, visibleCount).map((item) => {
+                            let IconComponent = Users2;
+                            if (item.categoryId === "design") IconComponent = Compass;
+                            else if (item.categoryId === "engineering") IconComponent = Layers;
+                            else if (item.categoryId === "planning") IconComponent = FileText;
+                            else if (item.categoryId === "advisory") IconComponent = Users2;
+
+                            return (
+                              <div
+                                key={item.id}
+                                className="flex items-center gap-3 bg-[#f7f6f4] hover:bg-white border border-[#eae7e3] hover:border-sapl-blue/40 p-3.5 rounded-sm hover:shadow-xs transition-all duration-300 group"
+                              >
+                                <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center border border-[#eae7e3] text-[#6D675E] group-hover:text-sapl-blue group-hover:border-sapl-blue/20 transition-all shrink-0">
+                                  <IconComponent className="w-3.5 h-3.5" />
+                                </div>
+                                <div className="min-w-0">
+                                  <h4 className="text-[11px] font-extrabold uppercase tracking-wide text-[#1c1a17] truncate" title={item.name}>
+                                    {item.name}
+                                  </h4>
+                                  <span className="text-[8px] font-bold uppercase tracking-wider text-[#afa99e] group-hover:text-sapl-blue/70 transition-colors">
+                                    {item.category}
+                                  </span>
+                                </div>
+                              </div>
+                            );
+                          })}
+                        </div>
+                      )}
+
+                      {/* Show More Button */}
+                      {filteredItems.length > visibleCount && (
+                        <div className="flex justify-center pt-4">
+                          <button
+                            onClick={() => setVisibleCount(prev => prev + 24)}
+                            className="flex items-center gap-2 px-5 py-2.5 bg-navy-950 text-white border border-navy-950 text-[10px] font-extrabold uppercase tracking-wider rounded-sm hover:bg-sapl-blue hover:border-sapl-blue transition-all cursor-pointer shadow-sm hover:-translate-y-[1px]"
+                          >
+                            Load More Partners
+                            <ChevronRight className="w-3.5 h-3.5" />
+                          </button>
+                        </div>
+                      )}
                     </div>
                   </div>
                 )}
