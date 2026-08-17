@@ -2,13 +2,13 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { 
-  Handshake, 
-  Award, 
-  Clock, 
-  Lightbulb, 
-  Users, 
-  ShieldCheck 
+import {
+  Handshake,
+  Award,
+  Clock,
+  Lightbulb,
+  Users,
+  ShieldCheck
 } from "lucide-react";
 
 const valuesList = [
@@ -58,14 +58,14 @@ const valuesList = [
 
 export default function CoreValues() {
   return (
-    <section className="relative py-24 bg-[#f7f6f4] text-[#1c1a17] overflow-hidden border-b border-[#eae7e3]">
-      
+    <section className="relative py-12 md:py-16 bg-[#f7f6f4] text-[#1c1a17] overflow-hidden border-b border-[#eae7e3]">
+
 
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        
+
         {/* Modernist Section Header - Centered */}
-        <div className="text-center max-w-3xl mx-auto mb-20 flex flex-col items-center gap-4">
+        <div className="text-center max-w-3xl mx-auto mb-8 md:mb-12 flex flex-col items-center gap-4">
           <span className="text-xs font-bold uppercase tracking-[0.25em] text-sapl-blue">
             Core Beliefs
           </span>
@@ -78,7 +78,7 @@ export default function CoreValues() {
         </div>
 
         {/* Values Grid (3 Columns on Desktop, 2 on Tablet, 1 on Mobile) */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8 md:gap-y-12">
           {valuesList.map((val, idx) => {
             const Icon = val.icon;
             return (
@@ -88,8 +88,11 @@ export default function CoreValues() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-50px" }}
                 transition={{ duration: 0.6, delay: idx * 0.08, ease: "easeOut" }}
-                className="flex flex-col items-center text-center group max-w-sm mx-auto"
+                className="bg-white rounded-xl p-6 md:p-8 border border-[#eae7e3] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col items-center text-center group w-full relative overflow-hidden"
               >
+                {/* Subtle border top accent corresponding to card color */}
+                <div className={`absolute top-0 left-0 w-full h-[4px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${val.dividerClass}`} />
+
                 {/* Circular Icon (Exactly matches image format, updated for premium feel) */}
                 <div className={`w-20 h-20 rounded-full flex items-center justify-center ${val.colorClass} shadow-lg transition-transform duration-300 group-hover:scale-110 mb-6 shrink-0`}>
                   <Icon className="w-8 h-8" />
@@ -104,7 +107,7 @@ export default function CoreValues() {
                 <div className={`w-8 h-[2px] ${val.dividerClass} opacity-60 my-1 transition-all duration-300 group-hover:w-16 rounded-full`} />
 
                 {/* Description (Maximum contrast and legibility) */}
-                <p className="text-[#6D675E] text-xs leading-relaxed mt-3 !text-[#6D675E] group-hover:!text-[#2a2823] transition-colors">
+                <p className="text-[#6D675E] text-sm leading-relaxed mt-4 !text-[#6D675E] group-hover:!text-[#2a2823] transition-colors">
                   {val.description}
                 </p>
               </motion.div>

@@ -11,51 +11,51 @@ const servicesList: {
   iconName: keyof typeof Icons;
   features: string[];
 }[] = [
-  {
-    title: "Civil Construction",
-    description: "Multi-story commercial structures, institutional blocks, and high-density residential developments built with grade-A structural safety.",
-    iconName: "Building",
-    features: ["Seismic compliant standards", "Premium materials sourcing", "Skilled structural masonry"],
-  },
-  {
-    title: "Infrastructure Works",
-    description: "Comprehensive layout designs, drainage systems, steel structure fabrications, and sub-base roadway foundations engineered to last.",
-    iconName: "Milestone",
-    features: ["Heavy land clearing & leveling", "High-capacity road systems", "Rigid environmental compliance"],
-  },
-  {
-    title: "Industrial Projects",
-    description: "Specialized factories, warehousing spaces, manufacturing sheds, and pharmaceutical processing centers with heavy machinery planning.",
-    iconName: "Factory",
-    features: ["Heavy load foundation design", "Span-roof truss installations", "Specialty floor coatings"],
-  },
-  {
-    title: "Turnkey Solutions",
-    description: "End-to-end design coordination, structural drafting, government sanction approvals, architectural engineering, and final handovers.",
-    iconName: "Hammer",
-    features: ["Single point contact liaison", "Cost estimation accuracy", "Complete material procurement"],
-  },
-  {
-    title: "Project Management",
-    description: "Supervising site logistics, scheduling workflows, managing cost reports, and coordinating contractors to optimize timeline and quality.",
-    iconName: "LineChart",
-    features: ["ERP-backed progress updates", "Daily QC check routines", "Resource planning systems"],
-  },
-  {
-    title: "Design & Build",
-    description: "Seamlessly uniting architectural conceptualization and physical engineering under one contract to minimize cost and time overhead.",
-    iconName: "Layers",
-    features: ["Pre-construction 3D visual review", "Adaptive engineering revisions", "Optimized execution plans"],
-  },
-];
+    {
+      title: "Civil Construction",
+      description: "Multi-story commercial structures, institutional blocks, and high-density residential developments built with grade-A structural safety.",
+      iconName: "Building",
+      features: ["Seismic compliant standards", "Premium materials sourcing", "Skilled structural masonry"],
+    },
+    {
+      title: "Infrastructure Works",
+      description: "Comprehensive layout designs, drainage systems, steel structure fabrications, and sub-base roadway foundations engineered to last.",
+      iconName: "Milestone",
+      features: ["Heavy land clearing & leveling", "High-capacity road systems", "Rigid environmental compliance"],
+    },
+    {
+      title: "Industrial Projects",
+      description: "Specialized factories, warehousing spaces, manufacturing sheds, and pharmaceutical processing centers with heavy machinery planning.",
+      iconName: "Factory",
+      features: ["Heavy load foundation design", "Span-roof truss installations", "Specialty floor coatings"],
+    },
+    {
+      title: "Turnkey Solutions",
+      description: "End-to-end design coordination, structural drafting, government sanction approvals, architectural engineering, and final handovers.",
+      iconName: "Hammer",
+      features: ["Single point contact liaison", "Cost estimation accuracy", "Complete material procurement"],
+    },
+    {
+      title: "Project Management",
+      description: "Supervising site logistics, scheduling workflows, managing cost reports, and coordinating contractors to optimize timeline and quality.",
+      iconName: "LineChart",
+      features: ["ERP-backed progress updates", "Daily QC check routines", "Resource planning systems"],
+    },
+    {
+      title: "Design & Build",
+      description: "Seamlessly uniting architectural conceptualization and physical engineering under one contract to minimize cost and time overhead.",
+      iconName: "Layers",
+      features: ["Pre-construction 3D visual review", "Adaptive engineering revisions", "Optimized execution plans"],
+    },
+  ];
 
 export default function ServicesSection() {
   return (
-    <section className="relative py-24 bg-slate-50 dark:bg-navy-950/60 border-t border-slate-100 dark:border-navy-900 overflow-hidden">
+    <section className="relative py-10 md:py-14 bg-slate-50 dark:bg-navy-950/60 border-t border-slate-100 dark:border-navy-900 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        
+
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16 flex flex-col gap-3">
+        <div className="text-center max-w-3xl mx-auto mb-8 md:mb-10 flex flex-col gap-3">
           <span className="text-xs font-bold uppercase tracking-[0.25em] text-sapl-blue">
             Core Competencies
           </span>
@@ -68,7 +68,7 @@ export default function ServicesSection() {
         </div>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           {servicesList.map((service, idx) => (
             <motion.div
               key={idx}

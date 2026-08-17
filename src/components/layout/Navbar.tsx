@@ -45,8 +45,8 @@ export default function Navbar() {
     <>
       <header
         className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 flex items-center bg-navy-100/60 backdrop-blur-md border-b border-navy-200/20 ${showGlass
-            ? "h-[72px] md:h-[89px] shadow-lg shadow-navy-950/10"
-            : "h-[88px] md:h-[105px] shadow-sm"
+          ? "h-[72px] md:h-[89px] shadow-lg shadow-navy-950/10"
+          : "h-[88px] md:h-[105px] shadow-sm"
           }`}
       >
         <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -68,8 +68,8 @@ export default function Navbar() {
                   >
                     <span
                       className={`transition-colors duration-300 ${isActive
-                          ? "text-sapl-blue font-extrabold"
-                          : "text-navy-800 hover:text-sapl-blue"
+                        ? "text-sapl-blue font-extrabold"
+                        : "text-navy-800 hover:text-sapl-blue"
                         }`}
                     >
                       {link.name}
@@ -122,14 +122,13 @@ export default function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.3 }}
-            className="fixed inset-0 z-40 bg-navy-950/98 backdrop-blur-lg flex flex-col justify-center px-6 py-12 lg:hidden"
+            className="fixed inset-0 z-40 bg-slate-50/98 backdrop-blur-lg flex flex-col justify-center px-6 py-12 lg:hidden"
           >
             {/* Safe Header Buffer */}
-            <div className="absolute top-5 left-4 right-4 flex justify-between items-center">
-              <Logo light={true} />
+            <div className="absolute top-5 right-4 flex justify-end items-center">
               <button
                 onClick={() => setIsOpen(false)}
-                className="p-2 text-white hover:text-sapl-blue"
+                className="p-2 text-navy-800 hover:text-sapl-blue"
               >
                 <X className="w-6 h-6" />
               </button>
@@ -147,7 +146,7 @@ export default function Navbar() {
                   >
                     <Link
                       href={link.href}
-                      className={`text-xl font-extrabold tracking-widest uppercase block py-3 ${isActive ? "text-sapl-blue" : "text-white hover:text-sapl-blue"
+                      className={`text-xl font-extrabold tracking-widest uppercase block py-3 ${isActive ? "text-sapl-blue" : "text-navy-900 hover:text-sapl-blue"
                         }`}
                     >
                       {link.name}
@@ -167,7 +166,7 @@ export default function Navbar() {
                     setIsOpen(false);
                     window.dispatchEvent(new Event("open-brochure-modal"));
                   }}
-                  className="inline-flex items-center justify-center w-full max-w-xs px-8 py-4 bg-white/5 hover:bg-white/10 text-white rounded-full font-extrabold text-xs tracking-widest uppercase border border-white/15 hover:scale-[1.03] active:scale-[0.97] transition-all select-none cursor-pointer"
+                  className="inline-flex items-center justify-center w-full max-w-xs px-8 py-4 bg-navy-100/50 hover:bg-navy-200/50 text-navy-900 rounded-full font-extrabold text-xs tracking-widest uppercase border border-navy-200/50 hover:scale-[1.03] active:scale-[0.97] transition-all select-none cursor-pointer"
                 >
                   Download Brochure
                 </button>
@@ -181,7 +180,7 @@ export default function Navbar() {
             </nav>
 
             {/* Mobile Footer */}
-            <div className="text-center text-navy-400 text-xs tracking-wider border-t border-navy-900 pt-6">
+            <div className="text-center text-navy-500 text-xs tracking-wider border-t border-navy-200 pt-6">
               © {new Date().getFullYear()} Srinivasan Associates. All Rights Reserved.
             </div>
           </motion.div>

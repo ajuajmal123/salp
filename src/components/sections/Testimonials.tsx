@@ -37,11 +37,11 @@ export default function Testimonials() {
   };
 
   return (
-    <section className="relative py-24 bg-white dark:bg-navy-950 overflow-hidden">
+    <section className="relative py-12 md:py-16 bg-white dark:bg-navy-950 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        
+
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16 flex flex-col gap-3">
+        <div className="text-center max-w-3xl mx-auto mb-10 flex flex-col gap-3">
           <span className="text-xs font-bold uppercase tracking-[0.25em] text-sapl-blue">
             Client Endorsements
           </span>
@@ -55,7 +55,7 @@ export default function Testimonials() {
 
         {/* Testimonial Visual Slider */}
         <div className="max-w-4xl mx-auto relative bg-slate-50 dark:bg-navy-900 border border-slate-200 dark:border-navy-800 p-8 sm:p-12 rounded-sm shadow-xl shadow-navy-950/5 overflow-hidden">
-          
+
           {/* Quote Icon */}
           <div className="absolute top-8 right-8 text-sapl-blue/10 dark:text-navy-800 pointer-events-none">
             <Quote className="w-24 h-24 stroke-[4px]" />

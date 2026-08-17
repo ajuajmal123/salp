@@ -40,7 +40,7 @@ export default function BrochureModal() {
   const validate = (): boolean => {
     const tempErrors: FormErrors = {};
     if (!name.trim()) tempErrors.name = "Full name is required";
-    
+
     if (!email.trim()) {
       tempErrors.email = "Email address is required";
     } else if (!/\S+@\S+\.\S+/.test(email)) {
@@ -83,7 +83,7 @@ export default function BrochureModal() {
     <AnimatePresence>
       {isOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
-          
+
           {/* Backdrop Blur Overlay */}
           <motion.div
             initial={{ opacity: 0 }}
@@ -99,9 +99,9 @@ export default function BrochureModal() {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
             transition={{ type: "spring", duration: 0.5 }}
-            className="bg-white dark:bg-navy-900 border border-[#eae7e3] dark:border-navy-800 rounded-md shadow-2xl relative w-full max-w-2xl overflow-hidden z-10 text-navy-950 dark:text-white"
+            className="bg-white dark:bg-navy-900 border border-[#eae7e3] dark:border-navy-800 rounded-md shadow-2xl relative w-full max-w-lg overflow-hidden z-10 text-navy-950 dark:text-white"
           >
-            
+
             {/* Design Accent Top Border */}
             <div className="absolute top-0 left-0 right-0 h-[4px] bg-sapl-blue z-20" />
 
@@ -114,57 +114,10 @@ export default function BrochureModal() {
               <X className="w-5 h-5" />
             </button>
 
-            <div className="grid grid-cols-1 md:grid-cols-12 max-h-[90vh] overflow-y-auto">
-              
-              {/* Left Side: Brand Visual Content (4 cols) */}
-              <div className="md:col-span-4 bg-gradient-to-br from-navy-950 via-navy-900 to-navy-950 p-6 flex flex-col justify-between text-white border-r border-[#eae7e3]/10 dark:border-navy-800 relative">
-                
-                <div className="relative z-10 space-y-6">
-                  <div className="inline-flex items-center gap-2 px-2.5 py-1 bg-sapl-blue/10 border border-sapl-blue/20 rounded-full">
-                    <span className="w-1.5 h-1.5 rounded-full bg-sapl-blue animate-pulse" />
-                    <span className="text-[9px] font-bold tracking-widest uppercase text-sapl-blue">
-                      Engineering PDF
-                    </span>
-                  </div>
-                  <div className="space-y-2 text-left">
-                    <h3 className="text-sm font-extrabold uppercase tracking-wider text-navy-300">
-                      Corporate Portfolio
-                    </h3>
-                    <p className="text-xs text-navy-400 font-semibold leading-relaxed">
-                      Detailed capabilities, equipment logs, landmark project lists, and engineering methodologies.
-                    </p>
-                  </div>
-                </div>
+            <div className="max-h-[90vh] overflow-y-auto">
 
-                {/* Company contact info embedded right inside the brochure info */}
-                <div className="relative z-10 space-y-4 pt-8 md:pt-0 border-t border-navy-800 mt-6 md:mt-0 text-left">
-                  <div className="text-[10px] font-extrabold tracking-widest uppercase text-sapl-blue">
-                    Direct Contact Info
-                  </div>
-                  
-                  <div className="space-y-3">
-                    <div className="flex items-start gap-2 text-[11px] leading-snug text-navy-300">
-                      <MapPin className="w-3.5 h-3.5 text-sapl-blue shrink-0 mt-0.5" />
-                      <span>Peelamedu, Coimbatore - 04</span>
-                    </div>
-                    <div className="flex items-center gap-2 text-[11px] text-navy-300">
-                      <Mail className="w-3.5 h-3.5 text-sapl-blue shrink-0" />
-                      <a href="mailto:info@sapl.in" className="hover:text-sapl-blue transition-colors">
-                        info@sapl.in
-                      </a>
-                    </div>
-                    <div className="flex items-center gap-2 text-[11px] text-navy-300">
-                      <Phone className="w-3.5 h-3.5 text-sapl-blue shrink-0" />
-                      <a href="tel:+914224036666" className="hover:text-sapl-blue transition-colors">
-                        +91 422 4036666
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Right Side: Lead Capture Form (8 cols) */}
-              <div className="md:col-span-8 p-6 xs:p-8 sm:p-10 flex flex-col justify-center">
+              {/* Lead Capture Form */}
+              <div className="p-6 xs:p-8 sm:p-10 flex flex-col justify-center">
                 <AnimatePresence mode="wait">
                   {!isSuccess ? (
                     <motion.form
@@ -199,12 +152,11 @@ export default function BrochureModal() {
                             setName(e.target.value);
                             if (errors.name) setErrors((prev) => ({ ...prev, name: undefined }));
                           }}
-                          placeholder="e.g. John Doe"
-                          className={`w-full px-4 py-2.5 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${
-                            errors.name
-                              ? "border-red-500 focus:border-red-500"
-                              : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
-                          }`}
+                          placeholder="Enter Your name"
+                          className={`w-full px-4 py-2.5 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${errors.name
+                            ? "border-red-500 focus:border-red-500"
+                            : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
+                            }`}
                         />
                         {errors.name && (
                           <span className="flex items-center gap-1.5 text-xs text-red-500 font-bold mt-1 text-left">
@@ -230,12 +182,11 @@ export default function BrochureModal() {
                             setEmail(e.target.value);
                             if (errors.email) setErrors((prev) => ({ ...prev, email: undefined }));
                           }}
-                          placeholder="e.g. john@company.com"
-                          className={`w-full px-4 py-2.5 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${
-                            errors.email
-                              ? "border-red-500 focus:border-red-500"
-                              : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
-                          }`}
+                          placeholder="Enter Your email"
+                          className={`w-full px-4 py-2.5 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${errors.email
+                            ? "border-red-500 focus:border-red-500"
+                            : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
+                            }`}
                         />
                         {errors.email && (
                           <span className="flex items-center gap-1.5 text-xs text-red-500 font-bold mt-1 text-left">
@@ -261,12 +212,11 @@ export default function BrochureModal() {
                             setAddress(e.target.value);
                             if (errors.address) setErrors((prev) => ({ ...prev, address: undefined }));
                           }}
-                          placeholder="e.g. peelamedu, coimbatore"
-                          className={`w-full px-4 py-2.5 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${
-                            errors.address
-                              ? "border-red-500 focus:border-red-500"
-                              : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
-                          }`}
+                          placeholder="Enter Your address"
+                          className={`w-full px-4 py-2.5 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${errors.address
+                            ? "border-red-500 focus:border-red-500"
+                            : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
+                            }`}
                         />
                         {errors.address && (
                           <span className="flex items-center gap-1.5 text-xs text-red-500 font-bold mt-1 text-left">
@@ -316,14 +266,14 @@ export default function BrochureModal() {
                         <div className="text-[10px] font-extrabold text-[#6D675E] dark:text-navy-400 tracking-widest uppercase border-b border-[#eae7e3] dark:border-navy-800 pb-2">
                           Lead Verification Summary
                         </div>
-                        
+
                         <div className="grid grid-cols-3 gap-y-1 text-xs">
                           <span className="text-[#afa99e] font-semibold uppercase text-[10px]">Recipient:</span>
                           <span className="col-span-2 font-bold dark:text-navy-100">{name}</span>
-                          
+
                           <span className="text-[#afa99e] font-semibold uppercase text-[10px]">Email:</span>
                           <span className="col-span-2 font-bold dark:text-navy-100 break-all">{email}</span>
-                          
+
                           <span className="text-[#afa99e] font-semibold uppercase text-[10px]">Location:</span>
                           <span className="col-span-2 font-bold dark:text-navy-100">{address}</span>
                         </div>

@@ -20,17 +20,7 @@ export default function Hero() {
           poster="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0"
         >
           <source
-            src="https://player.vimeo.com/external/383097790.hd.mp4?s=c5a93378921fbbeb25dd71e49033afdd915466eb&profile_id=175"
-            type="video/mp4"
-          />
-
-          <source
-            src="https://player.vimeo.com/external/589168763.hd.mp4?s=af0acaac175542bea252fe3b601b118441db71a1&profile_id=174"
-            type="video/mp4"
-          />
-
-          <source
-            src="https://player.vimeo.com/external/306404345.hd.mp4?s=2de3233cde8f83426711f3241c775c963798e845&profile_id=169"
+            src="/Vesta Work new.mp4"
             type="video/mp4"
           />
         </video>

@@ -21,7 +21,7 @@ export default function AboutPage() {
     <div className="pt-20 bg-white">
 
       {/* 1. Sub-page Header Hero Section */}
-      <section className="relative py-24 bg-navy-950 text-white overflow-hidden">
+      <section className="relative py-16 md:py-24 bg-navy-950 text-white overflow-hidden">
 
 
         {/* Widescreen background image banner */}
@@ -54,7 +54,7 @@ export default function AboutPage() {
       </section>
 
       {/* 2. Core Profile & Corporate Legacy (Banding: Pure White Canvas) */}
-      <section className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#eae7e3]">
+      <section className="py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#eae7e3]">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
 
           {/* Narrative Text Column */}
@@ -141,7 +141,7 @@ export default function AboutPage() {
       </section>
 
       {/* 2.5 Founder & Chairman Section (Banding: Pure White Canvas) */}
-      <section className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#eae7e3]">
+      <section className="py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#eae7e3]">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
           {/* Founder Image (5 columns) */}
           <div className="lg:col-span-5 relative">
@@ -182,7 +182,7 @@ export default function AboutPage() {
       </section>
 
       {/* 3. Leadership & Operational Strengths (Banding: Warm Light Stone Canvas) */}
-      <section className="py-24 bg-[#f7f6f4] border-b border-[#eae7e3]">
+      <section className="py-16 md:py-24 bg-[#f7f6f4] border-b border-[#eae7e3]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-left">
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
@@ -258,7 +258,7 @@ export default function AboutPage() {
       </section>
 
       {/* 4. Full Width Sincere Assurance Banner (Deep Slate/Stone Accent) */}
-      <section className="py-20 bg-navy-950 text-white relative overflow-hidden">
+      <section className="py-16 md:py-20 bg-navy-950 text-white relative overflow-hidden">
 
 
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
@@ -286,7 +286,7 @@ export default function AboutPage() {
       </section>
 
       {/* 5. Strategic Vision & Mission Grid (Banding: Pure White Canvas) */}
-      <section className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-20 flex flex-col items-center gap-4">
           <span className="text-xs font-bold uppercase tracking-[0.25em] text-sapl-blue">
             Our Foundation

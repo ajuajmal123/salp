@@ -36,7 +36,7 @@ export default function ContactForm() {
   const validate = (): boolean => {
     const tempErrors: FormErrors = {};
     if (!formData.name.trim()) tempErrors.name = "Full name is required";
-    
+
     if (!formData.email.trim()) {
       tempErrors.email = "Email address is required";
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
@@ -87,7 +87,7 @@ export default function ContactForm() {
 
   return (
     <div className="w-full bg-white dark:bg-navy-900 border border-[#eae7e3] dark:border-navy-800 p-5 xs:p-6 sm:p-8 md:p-10 rounded-md shadow-xl shadow-navy-950/5 relative overflow-hidden">
-      
+
       {/* Visual Accent top border */}
       <div className="absolute top-0 left-0 right-0 h-[4px] bg-sapl-blue" />
 
@@ -124,12 +124,11 @@ export default function ContactForm() {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  placeholder="e.g. John Doe"
-                  className={`w-full px-4 py-2.5 sm:py-3 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${
-                    errors.name
+                  placeholder="Enter Your Name"
+                  className={`w-full px-4 py-2.5 sm:py-3 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${errors.name
                       ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
                       : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
-                  }`}
+                    }`}
                 />
                 {errors.name && (
                   <span className="flex items-center gap-1.5 text-xs text-red-500 font-bold mt-1">
@@ -152,12 +151,11 @@ export default function ContactForm() {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  placeholder="e.g. john@company.com"
-                  className={`w-full px-4 py-2.5 sm:py-3 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${
-                    errors.email
+                  placeholder="Enter Your Email"
+                  className={`w-full px-4 py-2.5 sm:py-3 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${errors.email
                       ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
                       : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
-                  }`}
+                    }`}
                 />
                 {errors.email && (
                   <span className="flex items-center gap-1.5 text-xs text-red-500 font-bold mt-1">
@@ -183,12 +181,11 @@ export default function ContactForm() {
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
-                  placeholder="e.g. +91 98422 23015"
-                  className={`w-full px-4 py-2.5 sm:py-3 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${
-                    errors.phone
+                  placeholder="Enter Your Phone Number"
+                  className={`w-full px-4 py-2.5 sm:py-3 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${errors.phone
                       ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
                       : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
-                  }`}
+                    }`}
                 />
                 {errors.phone && (
                   <span className="flex items-center gap-1.5 text-xs text-red-500 font-bold mt-1">
@@ -211,11 +208,10 @@ export default function ContactForm() {
                     name="service"
                     value={formData.service}
                     onChange={handleChange}
-                    className={`w-full px-4 py-2.5 sm:py-3 pr-10 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide appearance-none focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 cursor-pointer ${
-                      errors.service
+                    className={`w-full px-4 py-2.5 sm:py-3 pr-10 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide appearance-none focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 cursor-pointer ${errors.service
                         ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
                         : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
-                    }`}
+                      }`}
                   >
                     <option value="">Select a Category</option>
                     <option value="Industrial Construction">Industrial Projects</option>
@@ -253,11 +249,10 @@ export default function ContactForm() {
                 value={formData.message}
                 onChange={handleChange}
                 placeholder="Provide a detailed summary of your building requirements, square footage, structural designs, or timelines..."
-                className={`w-full px-4 py-2.5 sm:py-3 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 resize-y min-h-[120px] ${
-                  errors.message
+                className={`w-full px-4 py-2.5 sm:py-3 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 resize-y min-h-[120px] ${errors.message
                     ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
                     : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
-                }`}
+                  }`}
               />
               {errors.message && (
                 <span className="flex items-center gap-1.5 text-xs text-red-500 font-bold mt-1">

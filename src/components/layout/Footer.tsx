@@ -16,15 +16,15 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="relative bg-navy-950 text-white border-t border-navy-900 pt-12 pb-8">
+    <footer className="relative bg-[#f7f6f4] text-navy-950 border-t border-[#eae7e3] pt-12 pb-8">
       {/* Premium cyan gradient illumination line at the top border */}
       <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-sapl-blue/0 via-sapl-blue/50 to-sapl-blue/0" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Top Grid: Quick Links, 3 Addresses, Central Enquiries (Horizontally aligned) */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 pb-10">
-          
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 pb-2">
+
           {/* Column 1: Quick Links */}
           <div>
             <h3 className="font-sans text-xs font-bold tracking-[0.25em] uppercase mb-4 text-sapl-blue">
@@ -41,9 +41,9 @@ export default function Footer() {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="group flex items-center text-sm text-navy-300 hover:text-sapl-blue transition-all duration-300 transform hover:translate-x-1 font-bold"
+                    className="group flex items-center text-sm text-navy-900 hover:text-sapl-blue transition-all duration-300 transform hover:translate-x-1 font-bold"
                   >
-                    <span className="w-1.5 h-1.5 rounded-full bg-navy-700 group-hover:bg-sapl-blue mr-3 transition-colors duration-300" />
+                    <span className="w-1.5 h-1.5 rounded-full bg-navy-400 group-hover:bg-sapl-blue mr-3 transition-colors duration-300" />
                     {link.name}
                   </Link>
                 </li>
@@ -51,9 +51,9 @@ export default function Footer() {
               <li>
                 <button
                   onClick={() => window.dispatchEvent(new Event("open-brochure-modal"))}
-                  className="group flex items-center text-sm text-sapl-blue hover:text-white transition-colors duration-300 cursor-pointer bg-transparent border-none p-0 outline-none text-left font-bold"
+                  className="group flex items-center text-sm text-sapl-blue hover:text-navy-950 transition-colors duration-300 cursor-pointer bg-transparent border-none p-0 outline-none text-left font-bold"
                 >
-                  <span className="w-1.5 h-1.5 rounded-full bg-sapl-blue mr-3" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-sapl-blue mr-3 group-hover:bg-navy-950 transition-colors" />
                   Download Brochure
                   <ExternalLink className="ml-1.5 w-3 h-3 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                 </button>
@@ -66,7 +66,7 @@ export default function Footer() {
             <h3 className="font-sans text-xs font-bold tracking-[0.25em] uppercase mb-4 text-sapl-blue">
               Coimbatore (HQ)
             </h3>
-            <div className="space-y-3 text-navy-300 text-sm">
+            <div className="space-y-3 text-navy-900 text-sm">
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-sapl-blue shrink-0 mt-0.5" />
                 <span className="leading-relaxed font-semibold">
@@ -97,7 +97,7 @@ export default function Footer() {
             <h3 className="font-sans text-xs font-bold tracking-[0.25em] uppercase mb-4 text-sapl-blue">
               Chennai Office
             </h3>
-            <div className="space-y-3 text-navy-300 text-sm">
+            <div className="space-y-3 text-navy-900 text-sm">
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-sapl-blue shrink-0 mt-0.5" />
                 <span className="leading-relaxed font-semibold">
@@ -120,7 +120,7 @@ export default function Footer() {
             <h3 className="font-sans text-xs font-bold tracking-[0.25em] uppercase mb-4 text-sapl-blue">
               Bengaluru Office
             </h3>
-            <div className="space-y-3 text-navy-300 text-sm">
+            <div className="space-y-3 text-navy-900 text-sm">
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-sapl-blue shrink-0 mt-0.5" />
                 <span className="leading-relaxed font-semibold">
@@ -137,11 +137,11 @@ export default function Footer() {
             <h3 className="font-sans text-xs font-bold tracking-[0.25em] uppercase mb-4 text-sapl-blue">
               Central Enquiries
             </h3>
-            <div className="space-y-4 text-navy-300 text-sm">
+            <div className="space-y-4 text-navy-900 text-sm">
               <div className="flex items-start gap-2.5 group">
                 <Mail className="w-4 h-4 text-sapl-blue shrink-0 mt-0.5" />
                 <div className="flex flex-col">
-                  <span className="text-[10px] text-navy-500 font-semibold uppercase tracking-wider">General</span>
+                  <span className="text-[10px] text-navy-700 font-semibold uppercase tracking-wider">General</span>
                   <a href="mailto:info@sapl.in" className="hover:text-sapl-blue transition-colors font-bold text-[13px]">
                     info@sapl.in
                   </a>
@@ -150,7 +150,7 @@ export default function Footer() {
               <div className="flex items-start gap-2.5 group">
                 <Mail className="w-4 h-4 text-sapl-blue shrink-0 mt-0.5" />
                 <div className="flex flex-col">
-                  <span className="text-[10px] text-navy-500 font-semibold uppercase tracking-wider">Tenders</span>
+                  <span className="text-[10px] text-navy-700 font-semibold uppercase tracking-wider">Tenders</span>
                   <a href="mailto:tender@sapl.in" className="hover:text-sapl-blue transition-colors font-bold text-[13px]">
                     tender@sapl.in
                   </a>
@@ -158,33 +158,32 @@ export default function Footer() {
               </div>
             </div>
           </div>
-
         </div>
 
-        {/* Brand Showcase Section (Left-aligned Logo with content on the same line) */}
-        <div className="pt-10 pb-4 flex flex-col md:flex-row items-start gap-6 md:gap-10 border-t border-navy-900 mt-4">
+        {/* Brand Showcase Section (Full width horizontal alignment as old style) */}
+        <div className="pt-2 flex flex-row items-center gap-4 sm:gap-6 md:gap-10">
           <div className="shrink-0">
-            <Logo light={true} size="sm" />
+            <Logo light={false} size="sm" />
           </div>
           <div className="flex-1">
-            <p className="text-navy-300 text-sm leading-relaxed font-semibold">
+            <p className="text-navy-900 text-xs sm:text-sm leading-relaxed font-semibold text-left">
               SRINIVASAN ASSOCIATES PRIVATE LIMITED (SAPL), established in 1987, has grown dramatically, built its goodwill and gained its reputation over the years as a leader in premium corporate engineering, commercial complexes, healthcare infrastructure, and industrial developments in India.
             </p>
           </div>
         </div>
 
         {/* Centered Social Icons */}
-        <div className="flex items-center justify-center gap-4 pb-8">
+        <div className="flex items-center justify-center gap-4 py-8">
           <a
             href="#"
-            className="w-9 h-9 rounded-full bg-navy-900 border border-navy-800 flex items-center justify-center text-navy-300 hover:text-white hover:bg-sapl-blue hover:border-sapl-blue transition-all duration-300 hover:scale-110 hover:-translate-y-0.5"
+            className="w-9 h-9 rounded-full bg-white border border-[#eae7e3] flex items-center justify-center text-navy-700 hover:text-white hover:bg-sapl-blue hover:border-sapl-blue transition-all duration-300 hover:scale-110 hover:-translate-y-0.5 shadow-sm"
             aria-label="Facebook"
           >
             <Facebook className="w-4 h-4" />
           </a>
           <a
             href="#"
-            className="w-9 h-9 rounded-full bg-navy-900 border border-navy-800 flex items-center justify-center text-navy-300 hover:text-white hover:bg-sapl-blue hover:border-sapl-blue transition-all duration-300 hover:scale-110 hover:-translate-y-0.5"
+            className="w-9 h-9 rounded-full bg-white border border-[#eae7e3] flex items-center justify-center text-navy-700 hover:text-white hover:bg-sapl-blue hover:border-sapl-blue transition-all duration-300 hover:scale-110 hover:-translate-y-0.5 shadow-sm"
             aria-label="Twitter"
           >
             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -195,7 +194,7 @@ export default function Footer() {
             href="https://www.linkedin.com"
             target="_blank"
             rel="noreferrer"
-            className="w-9 h-9 rounded-full bg-navy-900 border border-navy-800 flex items-center justify-center text-navy-300 hover:text-white hover:bg-sapl-blue hover:border-sapl-blue transition-all duration-300 hover:scale-110 hover:-translate-y-0.5"
+            className="w-9 h-9 rounded-full bg-white border border-[#eae7e3] flex items-center justify-center text-navy-700 hover:text-white hover:bg-sapl-blue hover:border-sapl-blue transition-all duration-300 hover:scale-110 hover:-translate-y-0.5 shadow-sm"
             aria-label="LinkedIn"
           >
             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -204,7 +203,7 @@ export default function Footer() {
           </a>
           <a
             href="#"
-            className="w-9 h-9 rounded-full bg-navy-900 border border-navy-800 flex items-center justify-center text-navy-300 hover:text-white hover:bg-sapl-blue hover:border-sapl-blue transition-all duration-300 hover:scale-110 hover:-translate-y-0.5"
+            className="w-9 h-9 rounded-full bg-white border border-[#eae7e3] flex items-center justify-center text-navy-700 hover:text-white hover:bg-sapl-blue hover:border-sapl-blue transition-all duration-300 hover:scale-110 hover:-translate-y-0.5 shadow-sm"
             aria-label="Instagram"
           >
             <Instagram className="w-4 h-4" />
@@ -212,23 +211,23 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 border-t border-navy-900 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-navy-400 font-semibold tracking-wider uppercase">
+        <div className="pt-8 border-t border-[#eae7e3] flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-navy-800 font-semibold tracking-wider uppercase">
           <div>
             © {currentYear} Srinivasan Associates Private Limited. All Rights Reserved.
           </div>
           <div className="flex items-center gap-6">
-            <a href="#" className="hover:text-white transition-colors">
+            <a href="#" className="hover:text-sapl-blue transition-colors">
               Privacy Policy
             </a>
-            <a href="#" className="hover:text-white transition-colors">
+            <a href="#" className="hover:text-sapl-blue transition-colors">
               Terms & Conditions
             </a>
-            <a href="#" className="hover:text-white transition-colors">
+            <a href="#" className="hover:text-sapl-blue transition-colors">
               Sitemap
             </a>
           </div>
         </div>
       </div>
-    </footer>
+    </footer >
   );
 }

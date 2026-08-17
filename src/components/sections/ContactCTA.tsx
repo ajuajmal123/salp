@@ -6,10 +6,10 @@ import ContactForm from "../ui/ContactForm";
 
 export default function ContactCTA() {
   return (
-    <section className="relative py-24 bg-slate-50 dark:bg-navy-950/40 border-t border-slate-100 dark:border-navy-900 overflow-hidden">
+    <section className="relative py-16 md:py-24 bg-slate-50 dark:bg-navy-950/40 border-t border-slate-100 dark:border-navy-900 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
-          
+        <div className="grid grid-cols-1 lg:grid-cols-12 md:gap-16 items-start gap-12">
+
           {/* Left Column: Office Coordinates (5 columns) */}
           <div className="lg:col-span-5 flex flex-col gap-8 text-left">
             <div className="flex flex-col gap-3">
@@ -26,7 +26,7 @@ export default function ContactCTA() {
 
             {/* Support Details */}
             <div className="space-y-6">
-              
+
               {/* Direct Support */}
               <div className="flex gap-4">
                 <div className="w-10 h-10 rounded-full bg-sapl-blue/10 flex items-center justify-center text-sapl-blue shrink-0">
