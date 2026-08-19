@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, Suspense } from "react";
+import Image from "next/image";
 import { useSearchParams, useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import {
@@ -17,8 +18,15 @@ import {
   Truck,
   Heart,
   Globe2,
-  GraduationCap
+  GraduationCap,
+  Package,
+  Mountain,
+  Zap,
+  Hammer,
+  Sparkles,
+  Container
 } from "lucide-react";
+import { equipmentData } from "@/data/equipment";
 
 // Tab definition
 const tabs = [
@@ -27,6 +35,21 @@ const tabs = [
   { id: "our-approach", label: "Our Approach", icon: Compass },
   { id: "awards", label: "Awards & Accomplishments", icon: Award },
   { id: "csr", label: "Corporate Social Responsibility", icon: ShieldCheck },
+];
+
+const awardsImages = [
+  "/Awards/Achievement Award ICI.jpg",
+  "/Awards/Conferred Achievement Award 2008.jpg",
+  "/Awards/Distinguished Well Wisher Award.jpg",
+  "/Awards/Distinguished Well-Wisher Award.jpg",
+  "/Awards/Exemplary Performance Awarded.jpeg",
+  "/Awards/Honoured by Dr. APJ. Abdul Kalam.jpg",
+  "/Awards/Lifetime Achiever Award.jpg",
+  "/Awards/MDsir EXCEL group.jpeg",
+  "/Awards/MDsir1.jpeg",
+  "/Awards/MDsir2.jpeg",
+  "/Awards/MDsir3.jpeg",
+  "/Awards/Vishwakarma Award 2010.jpg"
 ];
 
 function ProfilePageContent() {
@@ -48,55 +71,38 @@ function ProfilePageContent() {
     router.push(`/profile?tab=${tabId}`);
   };
 
+  // Group equipment data by category
+  const equipmentByCategory = equipmentData.reduce((acc, item) => {
+    if (!acc[item.category]) acc[item.category] = [];
+    acc[item.category].push(item);
+    return acc;
+  }, {} as Record<string, typeof equipmentData>);
+
+  const getCategoryIcon = (cat: string) => {
+    if (cat.includes("Concrete")) return <Truck className="w-5 h-5" />;
+    if (cat.includes("Cranes")) return <Layers className="w-5 h-5" />;
+    if (cat.includes("Material Handling")) return <Package className="w-5 h-5" />;
+    if (cat.includes("Earth Moving")) return <Mountain className="w-5 h-5" />;
+    if (cat.includes("Power")) return <Zap className="w-5 h-5" />;
+    if (cat.includes("Steel")) return <Hammer className="w-5 h-5" />;
+    if (cat.includes("Housekeeping")) return <Sparkles className="w-5 h-5" />;
+    if (cat.includes("Precast")) return <Container className="w-5 h-5" />;
+    return <Wrench className="w-5 h-5" />;
+  };
+
   return (
-    <div className="pt-28 lg:pt-32 pb-24 bg-white min-h-screen">
+    <div className="pt-28 lg:pt-32 pb-24 bg-white min-h-screen w-full">
       {/* Interactive Switcher & Content Wrapper */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-          
-          {/* Left Column: Tab Selectors (Desktop Sidebar / Mobile Row) */}
-          <div className="lg:col-span-3 flex flex-col gap-3">
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue mb-2 hidden lg:block text-left">
+      <section className="w-full px-4 sm:px-6 lg:px-12">
+        <div className="flex flex-col gap-10 items-center">
+
+          {/* Top Row: Tab Selectors */}
+          <div className="w-full flex flex-col items-center gap-6">
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue hidden lg:block">
               Corporate Profile
             </span>
-            
-            {/* Desktop Navigation Links */}
-            <div className="hidden lg:flex flex-col gap-2">
-              {tabs.map((tab) => {
-                const IconComponent = tab.icon;
-                const isActive = activeTab === tab.id;
-                return (
-                  <button
-                    key={tab.id}
-                    onClick={() => handleTabChange(tab.id)}
-                    className={`flex items-center justify-between p-4 rounded-sm border text-left transition-all duration-300 group ${
-                      isActive
-                        ? "bg-navy-950 border-navy-950 shadow-md text-white scale-[1.02]"
-                        : "bg-[#f7f6f4] border-[#eae7e3] hover:border-sapl-blue/50 text-[#4F4C42] hover:bg-white"
-                    }`}
-                  >
-                    <div className="flex items-center gap-3.5">
-                      <div className={`w-8 h-8 rounded-full flex items-center justify-center transition-colors ${
-                        isActive ? "bg-sapl-blue text-white" : "bg-white text-[#6D675E] group-hover:text-sapl-blue"
-                      }`}>
-                        <IconComponent className="w-4 h-4" />
-                      </div>
-                      <span className={`text-xs font-extrabold uppercase tracking-wider transition-colors ${
-                        isActive ? "text-white" : "text-[#1c1a17] group-hover:text-sapl-blue"
-                      }`}>
-                        {tab.label}
-                      </span>
-                    </div>
-                    <ChevronRight className={`w-4 h-4 transition-transform duration-300 ${
-                      isActive ? "text-sapl-blue translate-x-1" : "text-[#afa99e] group-hover:translate-x-1"
-                    }`} />
-                  </button>
-                );
-              })}
-            </div>
 
-            {/* Mobile Scrollable Tabs */}
-            <div className="lg:hidden flex gap-2 overflow-x-auto pb-4 -mx-4 px-4 scrollbar-none">
+            <div className="flex flex-nowrap lg:justify-center gap-3 overflow-x-auto w-full pb-4 scrollbar-none snap-x px-2">
               {tabs.map((tab) => {
                 const IconComponent = tab.icon;
                 const isActive = activeTab === tab.id;
@@ -104,22 +110,25 @@ function ProfilePageContent() {
                   <button
                     key={tab.id}
                     onClick={() => handleTabChange(tab.id)}
-                    className={`flex items-center gap-2 px-5 py-3 rounded-full border text-xs font-extrabold uppercase tracking-wider shrink-0 transition-all ${
-                      isActive
-                        ? "bg-navy-950 border-navy-950 text-white shadow-sm"
-                        : "bg-[#f7f6f4] border-[#eae7e3] text-[#4F4C42]"
-                    }`}
+                    className={`flex items-center gap-2 px-4 py-2.5 sm:gap-2.5 sm:px-6 sm:py-3.5 rounded-full border text-[10px] sm:text-xs font-extrabold uppercase tracking-wider shrink-0 transition-all duration-300 snap-start ${isActive
+                      ? "bg-sapl-blue border-sapl-blue text-white shadow-md scale-[1.02]"
+                      : "bg-[#f7f6f4] border-[#eae7e3] hover:bg-white hover:border-sapl-blue/50"
+                      }`}
                   >
-                    <IconComponent className="w-4 h-4" />
-                    {tab.label}
+                    <IconComponent className={`w-4 h-4 transition-colors ${isActive ? "text-white" : "text-[#1c1a17] group-hover:text-sapl-blue"
+                      }`} />
+                    <span className={`transition-colors ${isActive ? "text-white" : "text-[#1c1a17] group-hover:text-sapl-blue"
+                      }`}>
+                      {tab.label}
+                    </span>
                   </button>
                 );
               })}
             </div>
           </div>
 
-          {/* Right Column: Dynamic Section Content Rendering */}
-          <div className="lg:col-span-9 bg-white border border-[#eae7e3] p-6 sm:p-10 rounded-sm shadow-sm text-left">
+          {/* Bottom Row: Dynamic Section Content Rendering (No Big Card) */}
+          <div className="w-full text-left">
             <AnimatePresence mode="wait">
               <motion.div
                 key={activeTab}
@@ -127,27 +136,28 @@ function ProfilePageContent() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -15 }}
                 transition={{ duration: 0.4 }}
+                className="w-full"
               >
-                
+
                 {/* 1. Organization Structure Content */}
                 {activeTab === "organization-structure" && (
-                  <div className="space-y-8">
-                    <div className="flex flex-col gap-2">
+                  <div className="space-y-8 w-full">
+                    <div className="flex flex-col items-center text-center gap-2">
                       <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue">
                         Governance
                       </span>
-                      <h2 className="font-sans font-extrabold text-2xl sm:text-3xl tracking-tight uppercase" style={{ color: "#1c1a17" }}>
+                      <h2 className="font-sans font-extrabold text-2xl sm:text-3xl tracking-tight uppercase text-black">
                         Organization Structure
                       </h2>
-                      <div className="w-12 h-[2px] bg-sapl-blue rounded-full" />
-                      <p className="text-xs !text-[#6D675E] leading-relaxed mt-2">
+                      <div className="w-12 h-[2px] bg-sapl-blue rounded-full mx-auto" />
+                      <p className="text-xs !text-black leading-relaxed mt-2 max-w-3xl mx-auto">
                         SAPL is built on a highly professional, top-down collaborative framework. Our top management remains actively involved in every project from initiation through final delivery.
                       </p>
                     </div>
 
                     {/* Interactive Organizational Tree */}
                     <div className="border-t border-[#eae7e3] pt-8 space-y-6">
-                      
+
                       {/* Node: Chairman */}
                       <div className="flex flex-col items-center">
                         <div className="bg-navy-950 border border-sapl-blue p-5 rounded-sm max-w-sm w-full text-center relative overflow-hidden">
@@ -192,7 +202,7 @@ function ProfilePageContent() {
 
                       {/* Nodes: Department Heads */}
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        
+
                         {/* Dept 1 */}
                         <div className="bg-white border border-[#eae7e3] p-4 rounded-sm relative hover:shadow-sm transition-shadow">
                           <h4 className="text-xs font-extrabold uppercase tracking-wider" style={{ color: "#1c1a17" }}>
@@ -241,74 +251,54 @@ function ProfilePageContent() {
 
                 {/* 2. Infrastructure Content */}
                 {activeTab === "infrastructure" && (
-                  <div className="space-y-8">
-                    <div className="flex flex-col gap-2">
+                  <div className="space-y-8 w-full">
+                    <div className="flex flex-col items-center text-center gap-2">
                       <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue">
                         Physical & Capital Assets
                       </span>
-                      <h2 className="font-sans font-extrabold text-2xl sm:text-3xl tracking-tight uppercase" style={{ color: "#1c1a17" }}>
+                      <h2 className="font-sans font-extrabold text-2xl sm:text-3xl tracking-tight uppercase text-black">
                         Corporate Infrastructure
                       </h2>
-                      <div className="w-12 h-[2px] bg-sapl-blue rounded-full" />
-                      <p className="text-xs !text-[#6D675E] leading-relaxed mt-2">
+                      <div className="w-12 h-[2px] bg-sapl-blue rounded-full mx-auto" />
+                      <p className="text-xs !text-black leading-relaxed mt-2 max-w-3xl mx-auto">
                         SAPL boasts a highly robust, wholly-owned fleet of plant machinery and key material structures. Having physical control of assets keeps our bidding competitive and schedules strictly on-time.
                       </p>
                     </div>
 
-                    {/* Infrastructure Highlights Grid */}
-                    <div className="border-t border-[#eae7e3] pt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
-                      
-                      {/* Box 1: Heavy Equipment Fleet */}
-                      <div className="bg-[#f7f6f4] p-6 border border-[#eae7e3] rounded-sm text-left">
-                        <div className="w-10 h-10 rounded-full bg-sapl-blue/10 flex items-center justify-center text-sapl-blue mb-4">
-                          <Truck className="w-5 h-5" />
-                        </div>
-                        <h3 className="text-sm font-extrabold tracking-wider uppercase" style={{ color: "#1c1a17" }}>
-                          Plant & Machinery Fleet
-                        </h3>
-                        <p className="text-[10px] !text-[#6D675E] leading-relaxed mt-2">
-                          Extensive physical fleet including automatic high-volume concrete batching plants, transit mixers, concrete boom placers, high-capacity tower cranes, heavy excavations rigs, and backup silent generator systems.
-                        </p>
-                      </div>
+                    {/* Infrastructure Highlights Cards */}
+                    <div className="border-t border-[#eae7e3] pt-8 columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-6 w-full space-y-6">
 
-                      {/* Box 2: Quality Testing Labs */}
-                      <div className="bg-[#f7f6f4] p-6 border border-[#eae7e3] rounded-sm text-left">
-                        <div className="w-10 h-10 rounded-full bg-sapl-blue/10 flex items-center justify-center text-sapl-blue mb-4">
-                          <Activity className="w-5 h-5" />
-                        </div>
-                        <h3 className="text-sm font-extrabold tracking-wider uppercase" style={{ color: "#1c1a17" }}>
-                          In-House QC Laboratories
-                        </h3>
-                        <p className="text-[10px] !text-[#6D675E] leading-relaxed mt-2">
-                          Fully-equipped laboratories on active sites with compression testing machines, concrete test cube curing tanks, and sieve analysis equipment to guarantee that all structures conform exactly to structural requirements.
-                        </p>
-                      </div>
+                      {Object.entries(equipmentByCategory).map(([category, items]) => (
+                        <div key={category} className="bg-[#f7f6f4] p-6 border border-[#eae7e3] rounded-sm text-left shadow-sm hover:shadow-md transition-all duration-300 break-inside-avoid relative">
+                          <div className="flex items-center gap-3 mb-5 pb-5 border-b border-[#eae7e3]/60">
+                            <div className="w-10 h-10 rounded-full bg-sapl-blue/10 flex items-center justify-center text-sapl-blue shrink-0">
+                              {getCategoryIcon(category)}
+                            </div>
+                            <h3 className="text-sm font-extrabold tracking-wider uppercase text-black line-clamp-2">
+                              {category}
+                            </h3>
+                            <div className="ml-auto">
+                              <span className="bg-white text-sapl-blue text-[10px] font-extrabold px-2.5 py-1.5 rounded-sm border border-[#eae7e3] shadow-sm whitespace-nowrap">
+                                {items.reduce((sum, eq) => sum + eq.quantity, 0)} Total
+                              </span>
+                            </div>
+                          </div>
 
-                      {/* Box 3: Yards & Precast Hubs */}
-                      <div className="bg-[#f7f6f4] p-6 border border-[#eae7e3] rounded-sm text-left">
-                        <div className="w-10 h-10 rounded-full bg-sapl-blue/10 flex items-center justify-center text-sapl-blue mb-4">
-                          <Building2 className="w-5 h-5" />
+                          <div className="flex flex-wrap gap-2.5 mt-auto">
+                            {items.map((eq, idx) => (
+                              <div key={idx} className="flex items-center gap-2 px-3 py-1.5 bg-white border border-[#eae7e3] rounded-full shadow-sm hover:border-sapl-blue/40 transition-colors group">
+                                <span className="text-[10.5px] font-bold text-[#1c1a17] group-hover:text-sapl-blue transition-colors">
+                                  {eq.equipment}
+                                </span>
+                                <div className="w-[1.5px] h-3 bg-[#eae7e3] group-hover:bg-sapl-blue/30 transition-colors" />
+                                <span className="text-[10px] font-extrabold text-sapl-blue">
+                                  {String(eq.quantity).padStart(2, '0')}
+                                </span>
+                              </div>
+                            ))}
+                          </div>
                         </div>
-                        <h3 className="text-sm font-extrabold tracking-wider uppercase" style={{ color: "#1c1a17" }}>
-                          Fabrication & Storage Yards
-                        </h3>
-                        <p className="text-[10px] !text-[#6D675E] leading-relaxed mt-2">
-                          Centrally managed storage hubs in Coimbatore and Chennai for scaffolding materials, structural steel shuttering, and casting equipment, ensuring fast mobilization.
-                        </p>
-                      </div>
-
-                      {/* Box 4: Design Office Centers */}
-                      <div className="bg-[#f7f6f4] p-6 border border-[#eae7e3] rounded-sm text-left">
-                        <div className="w-10 h-10 rounded-full bg-sapl-blue/10 flex items-center justify-center text-sapl-blue mb-4">
-                          <Layers className="w-5 h-5" />
-                        </div>
-                        <h3 className="text-sm font-extrabold tracking-wider uppercase" style={{ color: "#1c1a17" }}>
-                          Corporate Offices & IT Systems
-                        </h3>
-                        <p className="text-[10px] !text-[#6D675E] leading-relaxed mt-2">
-                          Modern project offices equipped with advanced BIM modeling, engineering software, and secure ERP platforms to keep our scheduling and reporting synchronized.
-                        </p>
-                      </div>
+                      ))}
 
                     </div>
                   </div>
@@ -317,22 +307,22 @@ function ProfilePageContent() {
                 {/* 3. Our Approach Content */}
                 {activeTab === "our-approach" && (
                   <div className="space-y-8">
-                    <div className="flex flex-col gap-2">
+                    <div className="flex flex-col items-center text-center gap-2">
                       <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue">
                         Operating Philosophy
                       </span>
-                      <h2 className="font-sans font-extrabold text-2xl sm:text-3xl tracking-tight uppercase" style={{ color: "#1c1a17" }}>
+                      <h2 className="font-sans font-extrabold text-2xl sm:text-3xl tracking-tight uppercase text-black">
                         Our Strategic Approach
                       </h2>
-                      <div className="w-12 h-[2px] bg-sapl-blue rounded-full" />
-                      <p className="text-xs !text-[#6D675E] leading-relaxed mt-2">
+                      <div className="w-12 h-[2px] bg-sapl-blue rounded-full mx-auto" />
+                      <p className="text-xs !text-black leading-relaxed mt-2 max-w-3xl mx-auto">
                         We blend traditional engineering values with modern technologies to deliver client satisfaction, quality results, and long-term cost optimization.
                       </p>
                     </div>
 
                     {/* Operational Flow Pathway */}
                     <div className="border-t border-[#eae7e3] pt-8 space-y-6">
-                      
+
                       {/* Step 1 */}
                       <div className="flex items-start gap-4">
                         <div className="w-8 h-8 rounded-full bg-navy-950 border border-sapl-blue text-sapl-blue flex items-center justify-center text-xs font-bold shrink-0">
@@ -415,66 +405,41 @@ function ProfilePageContent() {
                 {/* 4. Awards & Accomplishments Content */}
                 {activeTab === "awards" && (
                   <div className="space-y-8">
-                    <div className="flex flex-col gap-2">
+                    <div className="flex flex-col items-center text-center gap-2">
                       <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue">
                         Milestones & Recognition
                       </span>
-                      <h2 className="font-sans font-extrabold text-2xl sm:text-3xl tracking-tight uppercase" style={{ color: "#1c1a17" }}>
+                      <h2 className="font-sans font-extrabold text-2xl sm:text-3xl tracking-tight uppercase text-black">
                         Awards & Accomplishments
                       </h2>
-                      <div className="w-12 h-[2px] bg-sapl-blue rounded-full" />
-                      <p className="text-xs !text-[#6D675E] leading-relaxed mt-2">
+                      <div className="w-12 h-[2px] bg-sapl-blue rounded-full mx-auto" />
+                      <p className="text-xs !text-black leading-relaxed mt-2 max-w-3xl mx-auto">
                         Over the past decades, SAPL has established a strong reputation, backed by certifications, safe project timelines, and long-standing client relationships.
                       </p>
                     </div>
 
                     {/* Milestones Grid */}
-                    <div className="border-t border-[#eae7e3] pt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
-                      
-                      {/* Block 1 */}
-                      <div className="border border-[#eae7e3] p-5 rounded-sm relative overflow-hidden">
-                        <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
-                        <h4 className="text-xs font-extrabold uppercase tracking-wider text-[#1c1a17]">
-                          ISO 9001:2015 Certification
-                        </h4>
-                        <p className="text-[10px] !text-[#6D675E] leading-relaxed mt-1">
-                          Formally certified under international standards for our consistent focus on quality civil design, estimation, and execution services.
-                        </p>
-                      </div>
+                    <div className="border-t border-[#eae7e3] pt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full">
+                      {awardsImages.map((src, idx) => {
+                        const filename = src.split('/').pop()?.split('.')[0] || `Award ${idx + 1}`;
 
-                      {/* Block 2 */}
-                      <div className="border border-[#eae7e3] p-5 rounded-sm relative overflow-hidden">
-                        <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
-                        <h4 className="text-xs font-extrabold uppercase tracking-wider text-[#1c1a17]">
-                          Decades of Safe Hours
-                        </h4>
-                        <p className="text-[10px] !text-[#6D675E] leading-relaxed mt-1">
-                          Proud accomplishment of maintaining clean site operations with zero serious injuries or major asset damages across high-elevation constructions.
-                        </p>
-                      </div>
-
-                      {/* Block 3 */}
-                      <div className="border border-[#eae7e3] p-5 rounded-sm relative overflow-hidden">
-                        <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
-                        <h4 className="text-xs font-extrabold uppercase tracking-wider text-[#1c1a17]">
-                          Industrial Landmark Executions
-                        </h4>
-                        <p className="text-[10px] !text-[#6D675E] leading-relaxed mt-1">
-                          Successfully completed massive manufacturing, corporate, and educational infrastructure landmarks across Coimbatore, Salem, and Chennai.
-                        </p>
-                      </div>
-
-                      {/* Block 4 */}
-                      <div className="border border-[#eae7e3] p-5 rounded-sm relative overflow-hidden">
-                        <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
-                        <h4 className="text-xs font-extrabold uppercase tracking-wider text-[#1c1a17]">
-                          Repeat Business Record
-                        </h4>
-                        <p className="text-[10px] !text-[#6D675E] leading-relaxed mt-1">
-                          More than 75% of our portfolio consists of repeated contracts from satisfied institutional clients who trust our hands-on engineering approach.
-                        </p>
-                      </div>
-
+                        return (
+                          <div key={idx} className="bg-[#f7f6f4] p-3 border border-[#eae7e3] rounded-sm flex flex-col items-center gap-3 shadow-sm hover:shadow-md transition-all group">
+                            <div className="relative aspect-square w-full bg-white rounded-sm overflow-hidden border border-[#eae7e3]/50">
+                              <Image
+                                src={src}
+                                alt={filename}
+                                fill
+                                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                                className="object-contain transition-transform duration-700 group-hover:scale-[1.03]"
+                              />
+                            </div>
+                            <span className="text-[10px] font-extrabold tracking-wider uppercase text-center text-black px-2 mt-auto">
+                              {filename.replace(/-/g, ' ')}
+                            </span>
+                          </div>
+                        );
+                      })}
                     </div>
                   </div>
                 )}
@@ -482,22 +447,22 @@ function ProfilePageContent() {
                 {/* 5. Corporate Social Responsibility Content */}
                 {activeTab === "csr" && (
                   <div className="space-y-8">
-                    <div className="flex flex-col gap-2">
+                    <div className="flex flex-col items-center text-center gap-2">
                       <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue">
                         Giving Back
                       </span>
-                      <h2 className="font-sans font-extrabold text-2xl sm:text-3xl tracking-tight uppercase" style={{ color: "#1c1a17" }}>
+                      <h2 className="font-sans font-extrabold text-2xl sm:text-3xl tracking-tight uppercase text-black">
                         Corporate Social Responsibility
                       </h2>
-                      <div className="w-12 h-[2px] bg-sapl-blue rounded-full" />
-                      <p className="text-xs !text-[#6D675E] leading-relaxed mt-2">
+                      <div className="w-12 h-[2px] bg-sapl-blue rounded-full mx-auto" />
+                      <p className="text-xs !text-black leading-relaxed mt-2 max-w-3xl mx-auto">
                         At SAPL, we are devoted to contributing back to our communities. Our responsibility programs focus on environmental greening, labor welfare, and education.
                       </p>
                     </div>
 
                     {/* CSR Grid */}
                     <div className="border-t border-[#eae7e3] pt-8 grid grid-cols-1 gap-6">
-                      
+
                       {/* Segment 1 */}
                       <div className="flex gap-4 items-start bg-[#f7f6f4] p-5 border border-[#eae7e3] rounded-sm">
                         <div className="w-10 h-10 rounded-full bg-sapl-blue/15 flex items-center justify-center text-sapl-blue shrink-0">

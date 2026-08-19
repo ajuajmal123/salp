@@ -21,7 +21,7 @@ export default function AboutPage() {
     <div className="pt-20 bg-white">
 
       {/* 1. Sub-page Header Hero Section */}
-      <section className="relative py-12 md:py-16 bg-navy-950 text-white overflow-hidden">
+      <section className="relative py-12 md:py-16 bg-sapl-blue text-white overflow-hidden">
 
 
         {/* Widescreen background image banner */}
@@ -31,7 +31,7 @@ export default function AboutPage() {
             alt="SAPL Construction Legacy"
             className="w-full h-full object-cover object-center"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/80 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-sapl-blue via-sapl-blue/80 to-transparent" />
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
@@ -45,8 +45,8 @@ export default function AboutPage() {
             <h1 className="font-sans font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight uppercase" style={{ color: "#ffffff" }}>
               About Us
             </h1>
-            <div className="w-20 h-[3px] bg-sapl-blue rounded-full mt-2" />
-            <p className="text-navy-200 max-w-3xl text-sm sm:text-base leading-relaxed mt-4 !text-[#eae7e3] font-medium">
+            <div className="w-20 h-[3px] bg-white rounded-full mt-2" />
+            <p className="max-w-3xl text-sm sm:text-base leading-relaxed mt-4 !text-white font-medium">
               Established in 1987, Srinivasan Associates Private Limited has grown into one of South India's premier civil engineering and construction organizations, built on quality, on-time delivery, and engineering excellence.
             </p>
           </motion.div>
@@ -258,7 +258,7 @@ export default function AboutPage() {
       </section>
 
       {/* 4. Full Width Sincere Assurance Banner (Deep Slate/Stone Accent) */}
-      <section className="py-12 md:py-16 bg-navy-950 text-white relative overflow-hidden">
+      <section className="py-12 md:py-16 bg-sapl-blue text-white relative overflow-hidden">
 
 
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
@@ -269,7 +269,7 @@ export default function AboutPage() {
             transition={{ duration: 0.6 }}
             className="flex flex-col items-center gap-6"
           >
-            <div className="w-12 h-12 rounded-full bg-sapl-blue/20 flex items-center justify-center text-sapl-blue">
+            <div className="w-12 h-12 rounded-full bg-white/20 flex items-center justify-center text-white">
               <CheckCircle2 className="w-6 h-6" />
             </div>
 
@@ -277,8 +277,8 @@ export default function AboutPage() {
               "SAPL’s staff strive tirelessly for our client’s satisfaction. Our people are our biggest assets. SAPL sincerely assures our existing and potential clients extremely professional construction services with utmost quality and cost optimization. We hope to be your preferred construction partner till the very end."
             </p>
 
-            <div className="w-12 h-[2px] bg-sapl-blue rounded-full mt-2" />
-            <span className="text-xs font-bold uppercase tracking-[0.25em] text-sapl-blue">
+            <div className="w-12 h-[2px] bg-white rounded-full mt-2" />
+            <span className="text-xs font-bold uppercase tracking-[0.25em] text-white">
               Our Promise of Partnership
             </span>
           </motion.div>
@@ -297,11 +297,11 @@ export default function AboutPage() {
           <div className="w-16 h-[3px] bg-sapl-blue rounded-full" />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+        <div className="flex flex-col gap-12 lg:gap-16">
 
-          {/* Vision Column */}
+          {/* Vision Section */}
           <div className="flex flex-col gap-8">
-            <div className="flex items-center gap-4 border-b border-[#eae7e3] pb-4">
+            <div className="flex items-center justify-center gap-4 border-b border-[#eae7e3] pb-4">
               <div className="w-10 h-10 rounded-full bg-sapl-blue/10 flex items-center justify-center text-sapl-blue">
                 <Target className="w-5 h-5" />
               </div>
@@ -310,7 +310,7 @@ export default function AboutPage() {
               </h3>
             </div>
 
-            <div className="space-y-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Vision Card 1 */}
               <div className="p-6 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left relative overflow-hidden group hover:border-sapl-blue/40 transition-colors min-h-[160px] flex flex-col justify-center">
                 <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
@@ -331,9 +331,9 @@ export default function AboutPage() {
             </div>
           </div>
 
-          {/* Mission Column */}
+          {/* Mission Section */}
           <div className="flex flex-col gap-8">
-            <div className="flex items-center gap-4 border-b border-[#eae7e3] pb-4">
+            <div className="flex items-center justify-center gap-4 border-b border-[#eae7e3] pb-4">
               <div className="w-10 h-10 rounded-full bg-sapl-blue/10 flex items-center justify-center text-sapl-blue">
                 <Award className="w-5 h-5" />
               </div>
@@ -342,7 +342,7 @@ export default function AboutPage() {
               </h3>
             </div>
 
-            <div className="space-y-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Mission Card 1 */}
               <div className="p-6 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left relative overflow-hidden group hover:border-sapl-blue/40 transition-colors min-h-[160px] flex flex-col justify-center">
                 <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />

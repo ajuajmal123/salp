@@ -21,7 +21,7 @@ export default function ContactPage() {
 
       {/* Main Grid Contact Coordinates */}
       <section className="pt-4 pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-left">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-stretch">
 
           {/* Left Column: Office branch addresses */}
           <div className="lg:col-span-5 space-y-8">
@@ -146,9 +146,24 @@ export default function ContactPage() {
 
           </div>
 
-          {/* Right Column: Dynamic Form */}
-          <div className="lg:col-span-7">
+          {/* Right Column: Dynamic Form & Map */}
+          <div className="lg:col-span-7 flex flex-col gap-8">
             <ContactForm />
+
+            {/* Interactive Office Locations Map */}
+            <div className="relative w-full h-[380px] lg:h-auto lg:flex-1 rounded-md overflow-hidden shadow-xl shadow-navy-950/5 border border-[#eae7e3] bg-[#fbfbfa] p-2 min-h-[380px]">
+              <iframe
+                src="https://maps.google.com/maps?q=Srinivasan%20Associates%20Private%20Limited%20Coimbatore&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                width="100%"
+                height="100%"
+                style={{ border: 0, borderRadius: '4px' }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="SAPL Coimbatore Headquarters Map"
+                className="w-full h-full"
+              />
+            </div>
           </div>
 
         </div>

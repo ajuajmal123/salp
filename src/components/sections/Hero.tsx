@@ -17,7 +17,6 @@ export default function Hero() {
           muted
           playsInline
           className="w-full h-full object-cover opacity-100"
-          poster="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0"
         >
           <source
             src="/Vesta Work new.mp4"

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -114,7 +114,7 @@ export default function ContactForm() {
               <div className="flex flex-col gap-1.5">
                 <label
                   htmlFor="name"
-                  className="text-[10px] font-extrabold uppercase tracking-widest text-[#6D675E] dark:text-navy-300 mb-0.5 block text-left"
+                  className="text-[10px] font-extrabold uppercase tracking-widest text-black dark:text-navy-300 mb-0.5 block text-left"
                 >
                   Full Name
                 </label>
@@ -126,8 +126,8 @@ export default function ContactForm() {
                   onChange={handleChange}
                   placeholder="Enter Your Name"
                   className={`w-full px-4 py-2.5 sm:py-3 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${errors.name
-                      ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
-                      : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
+                    ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
+                    : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
                     }`}
                 />
                 {errors.name && (
@@ -141,7 +141,7 @@ export default function ContactForm() {
               <div className="flex flex-col gap-1.5">
                 <label
                   htmlFor="email"
-                  className="text-[10px] font-extrabold uppercase tracking-widest text-[#6D675E] dark:text-navy-300 mb-0.5 block text-left"
+                  className="text-[10px] font-extrabold uppercase tracking-widest text-black dark:text-navy-300 mb-0.5 block text-left"
                 >
                   Email Address
                 </label>
@@ -153,8 +153,8 @@ export default function ContactForm() {
                   onChange={handleChange}
                   placeholder="Enter Your Email"
                   className={`w-full px-4 py-2.5 sm:py-3 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${errors.email
-                      ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
-                      : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
+                    ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
+                    : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
                     }`}
                 />
                 {errors.email && (
@@ -171,7 +171,7 @@ export default function ContactForm() {
               <div className="flex flex-col gap-1.5">
                 <label
                   htmlFor="phone"
-                  className="text-[10px] font-extrabold uppercase tracking-widest text-[#6D675E] dark:text-navy-300 mb-0.5 block text-left"
+                  className="text-[10px] font-extrabold uppercase tracking-widest text-black dark:text-navy-300 mb-0.5 block text-left"
                 >
                   Phone Number
                 </label>
@@ -183,8 +183,8 @@ export default function ContactForm() {
                   onChange={handleChange}
                   placeholder="Enter Your Phone Number"
                   className={`w-full px-4 py-2.5 sm:py-3 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${errors.phone
-                      ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
-                      : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
+                    ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
+                    : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
                     }`}
                 />
                 {errors.phone && (
@@ -198,7 +198,7 @@ export default function ContactForm() {
               <div className="flex flex-col gap-1.5">
                 <label
                   htmlFor="service"
-                  className="text-[10px] font-extrabold uppercase tracking-widest text-[#6D675E] dark:text-navy-300 mb-0.5 block text-left"
+                  className="text-[10px] font-extrabold uppercase tracking-widest text-black dark:text-navy-300 mb-0.5 block text-left"
                 >
                   Inquiry Category
                 </label>
@@ -208,9 +208,9 @@ export default function ContactForm() {
                     name="service"
                     value={formData.service}
                     onChange={handleChange}
-                    className={`w-full px-4 py-2.5 sm:py-3 pr-10 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide appearance-none focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 cursor-pointer ${errors.service
-                        ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
-                        : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
+                    className={`w-full px-4 py-2.5 sm:py-3 pr-10 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 ${formData.service ? 'text-black' : 'text-[#afa99e]'} dark:text-white text-xs sm:text-sm font-semibold tracking-wide appearance-none focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 cursor-pointer ${errors.service
+                      ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
+                      : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
                       }`}
                   >
                     <option value="">Select a Category</option>
@@ -238,7 +238,7 @@ export default function ContactForm() {
             <div className="flex flex-col gap-1.5">
               <label
                 htmlFor="message"
-                className="text-[10px] font-extrabold uppercase tracking-widest text-[#6D675E] dark:text-navy-300 mb-0.5 block text-left"
+                className="text-[10px] font-extrabold uppercase tracking-widest text-black dark:text-navy-300 mb-0.5 block text-left"
               >
                 Inquiry Details
               </label>
@@ -250,8 +250,8 @@ export default function ContactForm() {
                 onChange={handleChange}
                 placeholder="Provide a detailed summary of your building requirements, square footage, structural designs, or timelines..."
                 className={`w-full px-4 py-2.5 sm:py-3 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 resize-y min-h-[120px] ${errors.message
-                    ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
-                    : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
+                  ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
+                  : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
                   }`}
               />
               {errors.message && (
@@ -308,3 +308,4 @@ export default function ContactForm() {
     </div>
   );
 }
+

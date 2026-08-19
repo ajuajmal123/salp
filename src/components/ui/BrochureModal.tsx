@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -140,7 +140,7 @@ export default function BrochureModal() {
                       <div className="flex flex-col gap-1.5">
                         <label
                           htmlFor="brochure-name"
-                          className="text-[10px] font-extrabold uppercase tracking-widest text-[#6D675E] dark:text-navy-300 block text-left"
+                          className="text-[10px] font-extrabold uppercase tracking-widest text-black dark:text-navy-300 block text-left"
                         >
                           Full Name
                         </label>
@@ -170,7 +170,7 @@ export default function BrochureModal() {
                       <div className="flex flex-col gap-1.5">
                         <label
                           htmlFor="brochure-email"
-                          className="text-[10px] font-extrabold uppercase tracking-widest text-[#6D675E] dark:text-navy-300 block text-left"
+                          className="text-[10px] font-extrabold uppercase tracking-widest text-black dark:text-navy-300 block text-left"
                         >
                           Email Address
                         </label>
@@ -200,7 +200,7 @@ export default function BrochureModal() {
                       <div className="flex flex-col gap-1.5">
                         <label
                           htmlFor="brochure-address"
-                          className="text-[10px] font-extrabold uppercase tracking-widest text-[#6D675E] dark:text-navy-300 block text-left"
+                          className="text-[10px] font-extrabold uppercase tracking-widest text-black dark:text-navy-300 block text-left"
                         >
                           Physical Address / Location
                         </label>
@@ -263,7 +263,7 @@ export default function BrochureModal() {
 
                       {/* Review details collected & direct contact info card */}
                       <div className="w-full mt-6 bg-[#f7f6f4] dark:bg-navy-950 p-4 rounded-md border border-[#eae7e3] dark:border-navy-800 text-left space-y-3">
-                        <div className="text-[10px] font-extrabold text-[#6D675E] dark:text-navy-400 tracking-widest uppercase border-b border-[#eae7e3] dark:border-navy-800 pb-2">
+                        <div className="text-[10px] font-extrabold text-black dark:text-navy-400 tracking-widest uppercase border-b border-[#eae7e3] dark:border-navy-800 pb-2">
                           Lead Verification Summary
                         </div>
 
@@ -310,3 +310,4 @@ export default function BrochureModal() {
     </AnimatePresence>
   );
 }
+
