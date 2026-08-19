@@ -21,7 +21,7 @@ export default function AboutPage() {
     <div className="pt-20 bg-white">
 
       {/* 1. Sub-page Header Hero Section */}
-      <section className="relative py-16 md:py-24 bg-navy-950 text-white overflow-hidden">
+      <section className="relative py-12 md:py-16 bg-navy-950 text-white overflow-hidden">
 
 
         {/* Widescreen background image banner */}
@@ -54,8 +54,8 @@ export default function AboutPage() {
       </section>
 
       {/* 2. Core Profile & Corporate Legacy (Banding: Pure White Canvas) */}
-      <section className="py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#eae7e3]">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+      <section className="py-12 md:py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#eae7e3]">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
 
           {/* Narrative Text Column */}
           <div className="lg:col-span-7 flex flex-col gap-6 text-left">
@@ -141,8 +141,8 @@ export default function AboutPage() {
       </section>
 
       {/* 2.5 Founder & Chairman Section (Banding: Pure White Canvas) */}
-      <section className="py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#eae7e3]">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+      <section className="py-12 md:py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#eae7e3]">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
           {/* Founder Image (5 columns) */}
           <div className="lg:col-span-5 relative">
             <div className="relative aspect-[4/5] w-full max-w-sm mx-auto rounded-sm overflow-hidden shadow-xl border border-[#eae7e3]">
@@ -182,10 +182,10 @@ export default function AboutPage() {
       </section>
 
       {/* 3. Leadership & Operational Strengths (Banding: Warm Light Stone Canvas) */}
-      <section className="py-16 md:py-24 bg-[#f7f6f4] border-b border-[#eae7e3]">
+      <section className="py-12 md:py-16 bg-[#f7f6f4] border-b border-[#eae7e3]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-left">
 
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
 
             {/* Leadership Overview */}
             <div className="lg:col-span-6 flex flex-col gap-6">
@@ -258,7 +258,7 @@ export default function AboutPage() {
       </section>
 
       {/* 4. Full Width Sincere Assurance Banner (Deep Slate/Stone Accent) */}
-      <section className="py-16 md:py-20 bg-navy-950 text-white relative overflow-hidden">
+      <section className="py-12 md:py-16 bg-navy-950 text-white relative overflow-hidden">
 
 
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
@@ -286,8 +286,8 @@ export default function AboutPage() {
       </section>
 
       {/* 5. Strategic Vision & Mission Grid (Banding: Pure White Canvas) */}
-      <section className="py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center max-w-3xl mx-auto mb-20 flex flex-col items-center gap-4">
+      <section className="py-12 md:py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center max-w-3xl mx-auto mb-12 flex flex-col items-center gap-4">
           <span className="text-xs font-bold uppercase tracking-[0.25em] text-sapl-blue">
             Our Foundation
           </span>
@@ -297,7 +297,7 @@ export default function AboutPage() {
           <div className="w-16 h-[3px] bg-sapl-blue rounded-full" />
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
 
           {/* Vision Column */}
           <div className="flex flex-col gap-8">

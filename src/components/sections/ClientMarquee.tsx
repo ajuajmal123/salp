@@ -5,17 +5,16 @@ import Image from "next/image";
 import InfiniteMarquee from "../ui/InfiniteMarquee";
 
 const clients = [
-  { name: "Adithya Institute of Technology", path: "/Client Logos/Adithya Institute of Technology.jpg" },
-  { name: "Akshaya", path: "/Client Logos/Akshaya.jpg" },
-  { name: "Aravind Eye Care System", path: "/Client Logos/Aravind Eye Care System.jpg" },
-  { name: "Foundation One", path: "/Client Logos/Foundation One.jpg" },
-  { name: "Srivari Developers", path: "/Client Logos/Srivari Developers.jpg" },
-  { name: "ITC Limited", path: "/Client Logos/itc home_logo.jpg" },
-  { name: "Nivasan Homes", path: "/Client Logos/nivasan logo.jpg" },
-  { name: "Ramco Cements", path: "/Client Logos/ramcologo.jpg" },
-  { name: "S.R.I.", path: "/Client Logos/s r i logo.jpg" },
-  { name: "Shoeline", path: "/Client Logos/shoeline-logo.jpg" },
-  { name: "Velammal", path: "/Client Logos/velammal logo1.jpg" },
+  { name: "Aravind Eye Care System", path: "/Client Logos/Aravind.jpg" },
+  { name: "ITC Limited", path: "/Client Logos/ITC.jpg" },
+  { name: "Nivasan Homes", path: "/Client Logos/Nivasan.jpg" },
+  { name: "Ramco Cements", path: "/Client Logos/Ramco.jpg" },
+  { name: "Shoeline", path: "/Client Logos/Shoeline.jpg" },
+  { name: "Velammal", path: "/Client Logos/Velammal.jpg" },
+  { name: "Bannari Amman", path: "/Client Logos/Bannari Amman.jpg" },
+  { name: "Decathlon", path: "/Client Logos/Decathlon.jpg" },
+  { name: "Honeywell", path: "/Client Logos/Honeywell.jpg" },
+  { name: "LGB", path: "/Client Logos/LGB.jpg" },
 ];
 
 export default function ClientMarquee() {
