@@ -11,9 +11,9 @@ import {
   Award,
   ShieldCheck,
   Building2,
-  Calendar,
   Layers,
   ChevronRight,
+  ChevronDown,
   Activity,
   Truck,
   Heart,
@@ -22,9 +22,10 @@ import {
   Package,
   Mountain,
   Zap,
-  Hammer,
   Sparkles,
-  Container
+  Container,
+  CheckCircle2,
+  Hammer
 } from "lucide-react";
 import { equipmentData } from "@/data/equipment";
 
@@ -57,6 +58,7 @@ function ProfilePageContent() {
   const router = useRouter();
   const initialTab = searchParams.get("tab") || "organization-structure";
   const [activeTab, setActiveTab] = useState(initialTab);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   // Sync state with URL parameter changes
   useEffect(() => {
@@ -96,34 +98,62 @@ function ProfilePageContent() {
       <section className="w-full px-4 sm:px-6 lg:px-12">
         <div className="flex flex-col gap-10 items-center">
 
-          {/* Top Row: Tab Selectors */}
-          <div className="w-full flex flex-col items-center gap-6">
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue hidden lg:block">
-              Corporate Profile
+          {/* Top Row: Tab Selectors (Right Aligned Dropdown) */}
+          <div className="w-full flex justify-between items-center border-b border-[#eae7e3] pb-4">
+
+            <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-sapl-blue sm:hidden">
+              Profile
             </span>
 
-            <div className="flex flex-nowrap lg:justify-center gap-3 overflow-x-auto w-full pb-4 scrollbar-none snap-x px-2">
-              {tabs.map((tab) => {
-                const IconComponent = tab.icon;
-                const isActive = activeTab === tab.id;
-                return (
-                  <button
-                    key={tab.id}
-                    onClick={() => handleTabChange(tab.id)}
-                    className={`flex items-center gap-2 px-4 py-2.5 sm:gap-2.5 sm:px-6 sm:py-3.5 rounded-full border text-[10px] sm:text-xs font-extrabold uppercase tracking-wider shrink-0 transition-all duration-300 snap-start ${isActive
-                      ? "bg-sapl-blue border-sapl-blue text-white shadow-md scale-[1.02]"
-                      : "bg-[#f7f6f4] border-[#eae7e3] hover:bg-white hover:border-sapl-blue/50"
-                      }`}
+            <div className="relative z-50">
+              <button
+                onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+                className="flex items-center gap-2 bg-[#f7f6f4] border border-[#eae7e3] px-3.5 py-2 md:px-5 md:py-2.5 rounded-sm hover:bg-white transition-colors group shadow-sm"
+              >
+                {(() => {
+                  const CurrIcon = tabs.find(t => t.id === activeTab)?.icon || Users2;
+                  return <CurrIcon className="w-3.5 h-3.5 text-sapl-blue" />;
+                })()}
+                <span className="text-[10px] md:text-xs font-extrabold text-[#1c1a17] uppercase tracking-wider">
+                  {tabs.find(t => t.id === activeTab)?.label}
+                </span>
+                <ChevronDown className={`w-3.5 h-3.5 text-[#1c1a17] transition-transform ${isDropdownOpen ? 'rotate-180' : ''}`} />
+              </button>
+
+              <AnimatePresence>
+                {isDropdownOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -10 }}
+                    transition={{ duration: 0.15 }}
+                    className="absolute top-full mt-2 right-0 w-64 bg-white border border-[#eae7e3] shadow-xl rounded-sm py-1"
                   >
-                    <IconComponent className={`w-4 h-4 transition-colors ${isActive ? "text-white" : "text-[#1c1a17] group-hover:text-sapl-blue"
-                      }`} />
-                    <span className={`transition-colors ${isActive ? "text-white" : "text-[#1c1a17] group-hover:text-sapl-blue"
-                      }`}>
-                      {tab.label}
-                    </span>
-                  </button>
-                );
-              })}
+                    {tabs.map((tab) => {
+                      const IconComponent = tab.icon;
+                      const isActive = activeTab === tab.id;
+                      return (
+                        <button
+                          key={tab.id}
+                          onClick={() => {
+                            handleTabChange(tab.id);
+                            setIsDropdownOpen(false);
+                          }}
+                          className={`w-full flex items-center gap-3 px-4 py-3 text-left transition-colors border-l-2 ${isActive
+                            ? "bg-sapl-blue/5 border-sapl-blue"
+                            : "border-transparent hover:bg-[#f7f6f4]"
+                            }`}
+                        >
+                          <IconComponent className={`w-4 h-4 ${isActive ? "text-sapl-blue" : "text-[#6D675E]"}`} />
+                          <span className={`text-[10px] font-extrabold uppercase tracking-wider ${isActive ? "text-sapl-blue" : "text-[#1c1a17]"}`}>
+                            {tab.label}
+                          </span>
+                        </button>
+                      );
+                    })}
+                  </motion.div>
+                )}
+              </AnimatePresence>
             </div>
           </div>
 
@@ -141,22 +171,16 @@ function ProfilePageContent() {
 
                 {/* 1. Organization Structure Content */}
                 {activeTab === "organization-structure" && (
-                  <div className="space-y-8 w-full">
-                    <div className="flex flex-col items-center text-center gap-2">
-                      <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue">
-                        Governance
-                      </span>
-                      <h2 className="font-sans font-extrabold text-2xl sm:text-3xl tracking-tight uppercase text-black">
+                  <div className="flex flex-col gap-10 w-full animate-in fade-in slide-in-from-bottom-4 duration-500">
+                    <div className="flex flex-col items-center text-center gap-4">
+                      <h2 className="font-sans font-black text-2xl sm:text-3xl lg:text-4xl tracking-tight uppercase text-[#1c1a17]">
                         Organization Structure
                       </h2>
-                      <div className="w-12 h-[2px] bg-sapl-blue rounded-full mx-auto" />
-                      <p className="text-xs !text-black leading-relaxed mt-2 max-w-3xl mx-auto">
-                        SAPL is built on a highly professional, top-down collaborative framework. Our top management remains actively involved in every project from initiation through final delivery.
-                      </p>
+                      <div className="w-16 h-[3px] bg-sapl-blue rounded-full mx-auto" />
                     </div>
 
                     {/* Interactive Organizational Tree */}
-                    <div className="border-t border-[#eae7e3] pt-8 space-y-6">
+                    <div className="w-full space-y-6">
 
                       {/* Node: Chairman */}
                       <div className="flex flex-col items-center">
@@ -251,22 +275,16 @@ function ProfilePageContent() {
 
                 {/* 2. Infrastructure Content */}
                 {activeTab === "infrastructure" && (
-                  <div className="space-y-8 w-full">
-                    <div className="flex flex-col items-center text-center gap-2">
-                      <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue">
-                        Physical & Capital Assets
-                      </span>
-                      <h2 className="font-sans font-extrabold text-2xl sm:text-3xl tracking-tight uppercase text-black">
+                  <div className="flex flex-col gap-10 w-full animate-in fade-in slide-in-from-bottom-4 duration-500">
+                    <div className="flex flex-col items-center text-center gap-4">
+                      <h2 className="font-sans font-black text-2xl sm:text-3xl lg:text-4xl tracking-tight uppercase text-[#1c1a17]">
                         Corporate Infrastructure
                       </h2>
-                      <div className="w-12 h-[2px] bg-sapl-blue rounded-full mx-auto" />
-                      <p className="text-xs !text-black leading-relaxed mt-2 max-w-3xl mx-auto">
-                        SAPL boasts a highly robust, wholly-owned fleet of plant machinery and key material structures. Having physical control of assets keeps our bidding competitive and schedules strictly on-time.
-                      </p>
+                      <div className="w-16 h-[3px] bg-sapl-blue rounded-full mx-auto" />
                     </div>
 
                     {/* Infrastructure Highlights Cards */}
-                    <div className="border-t border-[#eae7e3] pt-8 columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-6 w-full space-y-6">
+                    <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 gap-6 w-full space-y-6">
 
                       {Object.entries(equipmentByCategory).map(([category, items]) => (
                         <div key={category} className="bg-[#f7f6f4] p-6 border border-[#eae7e3] rounded-sm text-left shadow-sm hover:shadow-md transition-all duration-300 break-inside-avoid relative">
@@ -306,95 +324,86 @@ function ProfilePageContent() {
 
                 {/* 3. Our Approach Content */}
                 {activeTab === "our-approach" && (
-                  <div className="space-y-8">
-                    <div className="flex flex-col items-center text-center gap-2">
-                      <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue">
-                        Operating Philosophy
-                      </span>
-                      <h2 className="font-sans font-extrabold text-2xl sm:text-3xl tracking-tight uppercase text-black">
+                  <div className="flex flex-col gap-10 w-full animate-in fade-in slide-in-from-bottom-4 duration-500">
+                    <div className="flex flex-col items-center text-center gap-4">
+                      <h2 className="font-sans font-black text-2xl sm:text-3xl lg:text-4xl tracking-tight uppercase text-[#1c1a17]">
                         Our Strategic Approach
                       </h2>
-                      <div className="w-12 h-[2px] bg-sapl-blue rounded-full mx-auto" />
-                      <p className="text-xs !text-black leading-relaxed mt-2 max-w-3xl mx-auto">
-                        We blend traditional engineering values with modern technologies to deliver client satisfaction, quality results, and long-term cost optimization.
-                      </p>
+                      <div className="w-16 h-[3px] bg-sapl-blue rounded-full mx-auto" />
                     </div>
 
-                    {/* Operational Flow Pathway */}
-                    <div className="border-t border-[#eae7e3] pt-8 space-y-6">
+                    {/* Content Implementation */}
+                    <div className="space-y-8">
 
-                      {/* Step 1 */}
-                      <div className="flex items-start gap-4">
-                        <div className="w-8 h-8 rounded-full bg-navy-950 border border-sapl-blue text-sapl-blue flex items-center justify-center text-xs font-bold shrink-0">
-                          1
-                        </div>
-                        <div>
-                          <h3 className="text-xs font-extrabold uppercase tracking-wider" style={{ color: "#1c1a17" }}>
-                            Customer Need Analysis
+                      {/* 1. Quality Management */}
+                      <div className="bg-[#f7f6f4] border border-[#eae7e3] p-6 sm:p-8 rounded-sm shadow-sm hover:shadow-md transition-shadow">
+                        <div className="flex items-center gap-4 mb-6">
+                          <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-sapl-blue shadow-sm border border-[#eae7e3] shrink-0">
+                            <Award className="w-6 h-6" />
+                          </div>
+                          <h3 className="text-base sm:text-lg font-extrabold uppercase tracking-wider text-black">
+                            Quality Management
                           </h3>
-                          <p className="text-[10px] !text-[#6D675E] leading-relaxed mt-1">
-                            We work closely with clients to understand specific structural constraints, layout requirements, and aesthetic preferences, matching them with optimized civil planning solutions.
+                        </div>
+                        <div className="text-sm text-[#4F4C42] leading-relaxed space-y-6">
+                          <p>
+                            Quality is of paramount importance to all the members at SAPL. Our reputation for both the quality of our project management and finished projects is achieved through our proven Quality Management System. Our Quality Management System is implemented through a comprehensive set of procedures and controls which are documented in accordance with ISO 9001:2015.
+                          </p>
+                          <div className="bg-white p-5 sm:p-6 border border-[#eae7e3] rounded-sm">
+                            <span className="font-extrabold text-black uppercase tracking-wider text-xs">Six basic Principles of Quality:</span>
+                            <ul className="mt-4 space-y-3">
+                              <li className="flex gap-3 items-start"><CheckCircle2 className="w-4 h-4 text-sapl-blue shrink-0 mt-0.5" /> <span className="text-[13px]">Provides for long-term quality control through established processes and systems.</span></li>
+                              <li className="flex gap-3 items-start"><CheckCircle2 className="w-4 h-4 text-sapl-blue shrink-0 mt-0.5" /> <span className="text-[13px]">Nurtures and guides our Quality Culture through its proven policies and procedures.</span></li>
+                              <li className="flex gap-3 items-start"><CheckCircle2 className="w-4 h-4 text-sapl-blue shrink-0 mt-0.5" /> <span className="text-[13px]">Successfully identifies and controls the quality standard and quality of design as defined by our clients.</span></li>
+                              <li className="flex gap-3 items-start"><CheckCircle2 className="w-4 h-4 text-sapl-blue shrink-0 mt-0.5" /> <span className="text-[13px]">Plans for Quality: Identifying measures of achieving the required quality, including construction methods, equipment, materials and personnel.</span></li>
+                              <li className="flex gap-3 items-start"><CheckCircle2 className="w-4 h-4 text-sapl-blue shrink-0 mt-0.5" /> <span className="text-[13px]">Insures for Quality: Encouraging all parties to “Work Together to Deliver the Best – First Time”.</span></li>
+                              <li className="flex gap-3 items-start"><CheckCircle2 className="w-4 h-4 text-sapl-blue shrink-0 mt-0.5" /> <span className="text-[13px]">Provides for a process of continuous improvement correcting any potential quality deficiencies that may arise.</span></li>
+                            </ul>
+                          </div>
+                          <p className="font-semibold italic !text-[#1c1a17] border-l-2 border-sapl-blue pl-4 py-1">
+                            Our Top Management and staff are committed to providing our clients the satisfaction of knowing that we will deliver exactly what we promise.
                           </p>
                         </div>
                       </div>
 
-                      {/* Step 2 */}
-                      <div className="flex items-start gap-4">
-                        <div className="w-8 h-8 rounded-full bg-navy-950 border border-sapl-blue text-sapl-blue flex items-center justify-center text-xs font-bold shrink-0">
-                          2
-                        </div>
-                        <div>
-                          <h3 className="text-xs font-extrabold uppercase tracking-wider" style={{ color: "#1c1a17" }}>
-                            Value-Engineered Design & Tendering
-                          </h3>
-                          <p className="text-[10px] !text-[#6D675E] leading-relaxed mt-1">
-                            Leveraging three decades of knowledge, we eliminate operational waste and optimize steel/concrete layouts, passing cost-efficiencies directly to our clients.
-                          </p>
-                        </div>
-                      </div>
+                      {/* Grid for Health Safety & Environmental */}
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-                      {/* Step 3 */}
-                      <div className="flex items-start gap-4">
-                        <div className="w-8 h-8 rounded-full bg-navy-950 border border-sapl-blue text-sapl-blue flex items-center justify-center text-xs font-bold shrink-0">
-                          3
-                        </div>
-                        <div>
-                          <h3 className="text-xs font-extrabold uppercase tracking-wider" style={{ color: "#1c1a17" }}>
-                            Rigorous Safety & Quality Control
-                          </h3>
-                          <p className="text-[10px] !text-[#6D675E] leading-relaxed mt-1">
-                            Deploying strict site safety guidelines and performing checks at every concrete pour ensures compliance with high international structural parameters.
+                        {/* 2. Health Safety */}
+                        <div className="bg-[#f7f6f4] border border-[#eae7e3] p-6 sm:p-8 rounded-sm shadow-sm hover:shadow-md transition-shadow relative overflow-hidden flex flex-col">
+                          <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
+                          <div className="flex items-center gap-4 mb-6">
+                            <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-sapl-blue shadow-sm border border-[#eae7e3] shrink-0">
+                              <ShieldCheck className="w-6 h-6" />
+                            </div>
+                            <h3 className="text-base sm:text-lg font-extrabold uppercase tracking-wider text-black">
+                              Health & Safety
+                            </h3>
+                          </div>
+                          <p className="text-sm text-[#4F4C42] leading-relaxed mt-auto">
+                            We committed maintain high standards of the Integrated Management Systems governing our Health, Safety, Environmental and Quality Codes of Practice. These systems are living documents that are continually reviewed and improved in line with industry best practice. We have developed our systems and procedures over many years based on these ethics. They are an integral part of our management activity and are implemented through a comprehensive set of procedures and controls which are documented in accordance with ISO 9001:2008.
                           </p>
                         </div>
-                      </div>
 
-                      {/* Step 4 */}
-                      <div className="flex items-start gap-4">
-                        <div className="w-8 h-8 rounded-full bg-navy-950 border border-sapl-blue text-sapl-blue flex items-center justify-center text-xs font-bold shrink-0">
-                          4
-                        </div>
-                        <div>
-                          <h3 className="text-xs font-extrabold uppercase tracking-wider" style={{ color: "#1c1a17" }}>
-                            Self-Owned Machinery Deployment
-                          </h3>
-                          <p className="text-[10px] !text-[#6D675E] leading-relaxed mt-1">
-                            By utilizing our in-house assets rather than relying on third-party hires, we maintain maximum schedule control and swift project completion.
-                          </p>
-                        </div>
-                      </div>
-
-                      {/* Step 5 */}
-                      <div className="flex items-start gap-4">
-                        <div className="w-8 h-8 rounded-full bg-navy-950 border border-sapl-blue text-sapl-blue flex items-center justify-center text-xs font-bold shrink-0">
-                          5
-                        </div>
-                        <div>
-                          <h3 className="text-xs font-extrabold uppercase tracking-wider" style={{ color: "#1c1a17" }}>
-                            Seamless Handover & Lifelong Partnership
-                          </h3>
-                          <p className="text-[10px] !text-[#6D675E] leading-relaxed mt-1">
-                            We stand firmly behind our structures, ensuring clean handovers and maintaining robust communication, which has earned us repeated engagements from major clients.
-                          </p>
+                        {/* 3. Environmental Management */}
+                        <div className="bg-[#f7f6f4] border border-[#eae7e3] p-6 sm:p-8 rounded-sm shadow-sm hover:shadow-md transition-shadow relative overflow-hidden flex flex-col">
+                          <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
+                          <div className="flex items-center gap-4 mb-6">
+                            <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-sapl-blue shadow-sm border border-[#eae7e3] shrink-0">
+                              <Globe2 className="w-6 h-6" />
+                            </div>
+                            <h3 className="text-base sm:text-lg font-extrabold uppercase tracking-wider text-black">
+                              Environmental Management
+                            </h3>
+                          </div>
+                          <div className="text-sm text-[#4F4C42] leading-relaxed space-y-4">
+                            <p>
+                              We recognise the importance of utilising the most modern and most sustainable materials within the construction process. We are proud to have built quite a number of iconic projects which have broken new grounds in terms of sustainable materials and innovative construction techniques.
+                            </p>
+                            <p>
+                              SAPL continuously strives to perform to sustainable best practice in construction in our mission to lesson our impact on our environment, and every new project for us is a challenge in search of a zero-carbon footprint. The area of the provision of more and more sustainable and renewable buildings is constantly evolving and changing and we are operating in a very exciting and dynamic times. SAPL continues to innovate with every project every day, continues to lead the way in terms of our approach to sustainability. We source our materials responsibly, we audit our supply chain to ensure compliance with our systems and procedures.
+                            </p>
+                          </div>
                         </div>
                       </div>
 
@@ -404,22 +413,16 @@ function ProfilePageContent() {
 
                 {/* 4. Awards & Accomplishments Content */}
                 {activeTab === "awards" && (
-                  <div className="space-y-8">
-                    <div className="flex flex-col items-center text-center gap-2">
-                      <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue">
-                        Milestones & Recognition
-                      </span>
-                      <h2 className="font-sans font-extrabold text-2xl sm:text-3xl tracking-tight uppercase text-black">
+                  <div className="flex flex-col gap-10 w-full animate-in fade-in slide-in-from-bottom-4 duration-500">
+                    <div className="flex flex-col items-center text-center gap-4">
+                      <h2 className="font-sans font-black text-2xl sm:text-3xl lg:text-4xl tracking-tight uppercase text-[#1c1a17]">
                         Awards & Accomplishments
                       </h2>
-                      <div className="w-12 h-[2px] bg-sapl-blue rounded-full mx-auto" />
-                      <p className="text-xs !text-black leading-relaxed mt-2 max-w-3xl mx-auto">
-                        Over the past decades, SAPL has established a strong reputation, backed by certifications, safe project timelines, and long-standing client relationships.
-                      </p>
+                      <div className="w-16 h-[3px] bg-sapl-blue rounded-full mx-auto" />
                     </div>
 
                     {/* Milestones Grid */}
-                    <div className="border-t border-[#eae7e3] pt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full">
                       {awardsImages.map((src, idx) => {
                         const filename = src.split('/').pop()?.split('.')[0] || `Award ${idx + 1}`;
 
@@ -446,66 +449,94 @@ function ProfilePageContent() {
 
                 {/* 5. Corporate Social Responsibility Content */}
                 {activeTab === "csr" && (
-                  <div className="space-y-8">
-                    <div className="flex flex-col items-center text-center gap-2">
-                      <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue">
-                        Giving Back
-                      </span>
-                      <h2 className="font-sans font-extrabold text-2xl sm:text-3xl tracking-tight uppercase text-black">
+                  <div className="flex flex-col gap-10 w-full animate-in fade-in slide-in-from-bottom-4 duration-500">
+                    <div className="flex flex-col items-center text-center gap-4">
+                      <h2 className="font-sans font-black text-2xl sm:text-3xl lg:text-4xl tracking-tight uppercase text-[#1c1a17]">
                         Corporate Social Responsibility
                       </h2>
-                      <div className="w-12 h-[2px] bg-sapl-blue rounded-full mx-auto" />
-                      <p className="text-xs !text-black leading-relaxed mt-2 max-w-3xl mx-auto">
-                        At SAPL, we are devoted to contributing back to our communities. Our responsibility programs focus on environmental greening, labor welfare, and education.
-                      </p>
+                      <div className="w-16 h-[3px] bg-sapl-blue rounded-full mx-auto" />
                     </div>
 
                     {/* CSR Grid */}
-                    <div className="border-t border-[#eae7e3] pt-8 grid grid-cols-1 gap-6">
+                    <div className="space-y-8">
 
-                      {/* Segment 1 */}
-                      <div className="flex gap-4 items-start bg-[#f7f6f4] p-5 border border-[#eae7e3] rounded-sm">
-                        <div className="w-10 h-10 rounded-full bg-sapl-blue/15 flex items-center justify-center text-sapl-blue shrink-0">
-                          <Globe2 className="w-5 h-5" />
-                        </div>
-                        <div>
-                          <h3 className="text-xs font-extrabold uppercase tracking-wider text-[#1c1a17]">
-                            Eco-Conscious Green Construction
+                      {/* Card 1: Core CSR Philosophy & CDBACA */}
+                      <div className="bg-[#f7f6f4] border border-[#eae7e3] p-6 sm:p-8 rounded-sm shadow-sm hover:shadow-md transition-shadow">
+                        <div className="flex items-center gap-4 mb-6">
+                          <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-sapl-blue shadow-sm border border-[#eae7e3] shrink-0">
+                            <Globe2 className="w-6 h-6" />
+                          </div>
+                          <h3 className="text-base sm:text-lg font-extrabold uppercase tracking-wider text-black">
+                            Core Philosophy & Community Integration
                           </h3>
-                          <p className="text-[10px] !text-[#6D675E] leading-relaxed mt-1">
-                            We minimize the carbon footprint of our operations by adopting energy-efficient site management, sourcing materials locally to reduce transit emissions, and recycling structural waste.
+                        </div>
+                        <div className="text-sm text-[#4F4C42] leading-relaxed space-y-4">
+                          <p>
+                            The company is guided by the well defined CSR on the simple bottom line approach, viz Social justice, Environmental quality & Economic prosperity.
+                          </p>
+                          <p>
+                            To be more specific, the company ensures the success of business by inclusion of Social and environmental considerations into company’s operations. It means satisfying the customer’s demands whilst also managing the expectations of other stakeholders such as employees, suppliers and the community around.
+                          </p>
+                          <p className="font-semibold !text-[#1c1a17] border-l-2 border-sapl-blue pl-4">
+                            The Company has participated in all the developmental activities organized under the plank of CDBACA (Coimbatore Builders & Contractors Association) of which the Managing Director is an Advisor.
                           </p>
                         </div>
                       </div>
 
-                      {/* Segment 2 */}
-                      <div className="flex gap-4 items-start bg-[#f7f6f4] p-5 border border-[#eae7e3] rounded-sm">
-                        <div className="w-10 h-10 rounded-full bg-sapl-blue/15 flex items-center justify-center text-sapl-blue shrink-0">
-                          <Heart className="w-5 h-5" />
-                        </div>
-                        <div>
-                          <h3 className="text-xs font-extrabold uppercase tracking-wider text-[#1c1a17]">
-                            Worker Welfare & Community Support
-                          </h3>
-                          <p className="text-[10px] !text-[#6D675E] leading-relaxed mt-1">
-                            We prioritize the welfare of our structural builders. We establish safe labor accommodation, provide routine health camps, and offer safety equipment training for all crew members.
-                          </p>
-                        </div>
-                      </div>
+                      {/* Split Grid row */}
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-                      {/* Segment 3 */}
-                      <div className="flex gap-4 items-start bg-[#f7f6f4] p-5 border border-[#eae7e3] rounded-sm">
-                        <div className="w-10 h-10 rounded-full bg-sapl-blue/15 flex items-center justify-center text-sapl-blue shrink-0">
-                          <GraduationCap className="w-5 h-5" />
+                        {/* Card 2: School of Artisans */}
+                        <div className="bg-[#f7f6f4] border border-[#eae7e3] p-6 sm:p-8 rounded-sm shadow-sm hover:shadow-md transition-shadow relative overflow-hidden flex flex-col">
+                          <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
+                          <div className="flex items-center gap-4 mb-6">
+                            <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-sapl-blue shadow-sm border border-[#eae7e3] shrink-0">
+                              <GraduationCap className="w-6 h-6" />
+                            </div>
+                            <h3 className="text-base sm:text-lg font-extrabold uppercase tracking-wider text-black">
+                              School of Construction Artisans
+                            </h3>
+                          </div>
+                          <div className="text-sm text-[#4F4C42] leading-relaxed mt-auto space-y-4">
+                            <p>
+                              A notable and challenging achievement is the starting of School of Construction Artisans under Builders’ Association of India Coimbatore Centre. The birth of School of Construction Artisans was made possible to serve the twin objectives of promoting trained artisans in construction trade and uplifting the Below Poverty Line / rural poor youth earning his bread through work.
+                            </p>
+                            <p className="font-semibold italic text-sapl-blue">
+                              As a Convenor, our Managing Director still pursues for the cause of the institution, in successfully running it and achieving the results.
+                            </p>
+                          </div>
                         </div>
-                        <div>
-                          <h3 className="text-xs font-extrabold uppercase tracking-wider text-[#1c1a17]">
-                            Technical Talent Incubation
-                          </h3>
-                          <p className="text-[10px] !text-[#6D675E] leading-relaxed mt-1">
-                            We partner with local engineering universities to offer practical internships. Aspiring civil graduates gain valuable experience, helping build robust talent pathways.
-                          </p>
+
+                        {/* Card 3: Internal Policies & Active Contributions */}
+                        <div className="bg-[#f7f6f4] border border-[#eae7e3] p-6 sm:p-8 rounded-sm shadow-sm hover:shadow-md transition-shadow relative overflow-hidden flex flex-col">
+                          <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
+                          <div className="flex items-center gap-4 mb-6">
+                            <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center text-sapl-blue shadow-sm border border-[#eae7e3] shrink-0">
+                              <Heart className="w-6 h-6" />
+                            </div>
+                            <h3 className="text-base sm:text-lg font-extrabold uppercase tracking-wider text-black">
+                              Internal Policies & Contributions
+                            </h3>
+                          </div>
+                          <div className="text-sm text-[#4F4C42] leading-relaxed space-y-4">
+                            <p>
+                              Within the company, well laid policies for <strong>Human Resource Management</strong>, <strong>Health and safety at work</strong>, and <strong>Adaptation to change</strong>, are in place and followed, as an internal dimension of CSR.
+                            </p>
+
+                            <div className="bg-white p-5 border border-[#eae7e3] rounded-sm mt-4">
+                              <span className="font-extrabold text-black uppercase tracking-wider text-[11px]">Significant contributions to CSR</span>
+                              <ul className="mt-3 space-y-3">
+                                <li className="flex gap-3 items-start"><CheckCircle2 className="w-4 h-4 text-sapl-blue shrink-0 mt-0.5" /> <span className="text-[13px]">Organize regularly free medical camps to the workers engaged in the construction activities.</span></li>
+                                <li className="flex gap-3 items-start"><CheckCircle2 className="w-4 h-4 text-sapl-blue shrink-0 mt-0.5" /> <span className="text-[13px]">Sponsoring the QUIZ program conducted by the engineering colleges for the civil engineering students to hone their skill.</span></li>
+                              </ul>
+                            </div>
+
+                            <p className="text-[13px] italic pt-2">
+                              All these activities are carried out as a policy of the company, having concern for the beneficiaries, though not statutorily obligated.
+                            </p>
+                          </div>
                         </div>
+
                       </div>
 
                     </div>
