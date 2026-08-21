@@ -12,6 +12,7 @@ import {
   Layers,
   Heart,
   Globe2,
+  ChevronDown,
   FileText,
   BadgeAlert,
   ArrowUpRight,
@@ -23,6 +24,7 @@ import {
   fullClientsList,
   fullArchitectsList
 } from "./strengthData";
+import ClientMarquee from "@/components/sections/ClientMarquee";
 
 // Tab definition
 const tabs = [
@@ -71,7 +73,8 @@ function StrengthPageContent() {
   const router = useRouter();
   const initialTab = searchParams.get("tab") || "clients";
   const [activeTab, setActiveTab] = useState(initialTab);
-  
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
   // Interactive directories states
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("all");
@@ -117,8 +120,8 @@ function StrengthPageContent() {
   const currentList = activeTab === "clients" ? fullClientsList : fullArchitectsList;
 
   const filteredItems = currentList.filter(item => {
-    const matchesSearch = item.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                          item.category.toLowerCase().includes(searchQuery.toLowerCase());
+    const matchesSearch = item.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      item.category.toLowerCase().includes(searchQuery.toLowerCase());
     const matchesCategory = selectedCategory === "all" || item.categoryId === selectedCategory;
     return matchesSearch && matchesCategory;
   });
@@ -126,75 +129,122 @@ function StrengthPageContent() {
   return (
     <div className="pt-28 lg:pt-32 pb-24 bg-white min-h-screen">
       {/* Interactive Switcher & Content Wrapper */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-          
-          {/* Left Column: Tab Selectors (Desktop Sidebar / Mobile Row) */}
-          <div className="lg:col-span-3 flex flex-col gap-3">
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue mb-2 hidden lg:block text-left">
-              Corporate Strength
-            </span>
-            
-            {/* Desktop Navigation Links */}
-            <div className="hidden lg:flex flex-col gap-2">
-              {tabs.map((tab) => {
-                const IconComponent = tab.icon;
-                const isActive = activeTab === tab.id;
-                return (
-                  <button
-                    key={tab.id}
-                    onClick={() => handleTabChange(tab.id)}
-                    className={`flex items-center justify-between p-4 rounded-sm border text-left transition-all duration-300 group cursor-pointer ${
-                      isActive
-                        ? "bg-navy-950 border-navy-950 shadow-md text-white scale-[1.02]"
-                        : "bg-[#f7f6f4] border-[#eae7e3] hover:border-sapl-blue/50 text-[#4F4C42] hover:bg-white"
-                    }`}
-                  >
-                    <div className="flex items-center gap-3.5">
-                      <div className={`w-8 h-8 rounded-full flex items-center justify-center transition-colors ${
-                        isActive ? "bg-sapl-blue text-white" : "bg-white text-[#6D675E] group-hover:text-sapl-blue"
-                      }`}>
-                        <IconComponent className="w-4 h-4" />
-                      </div>
-                      <span className={`text-xs font-extrabold uppercase tracking-wider transition-colors ${
-                        isActive ? "text-white" : "text-[#1c1a17] group-hover:text-sapl-blue"
-                      }`}>
+      <section className="w-full px-4 sm:px-6 lg:px-12">
+        <div className="flex flex-col gap-8">
+
+          {/* =================================================
+              STRENGTH NAVIGATION
+          ================================================= */}
+          <div className="w-full border-b border-[#eae7e3]">
+            {/* Desktop */}
+            <div className="hidden lg:flex items-center justify-between pb-4">
+              <div className="flex items-center gap-3">
+                <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-sapl-blue">
+                  Corporate Strength
+                </span>
+                <span className="w-1 h-1 rounded-full bg-[#c9c4bc]" />
+                <span className="text-[10px] font-bold uppercase tracking-[0.15em] text-[#8a857d]">
+                  {tabs.find(t => t.id === activeTab)?.label}
+                </span>
+              </div>
+
+              <nav className="flex items-center gap-1">
+                {tabs.map((tab) => {
+                  const isActive = activeTab === tab.id;
+                  const IconComponent = tab.icon;
+                  return (
+                    <button
+                      key={tab.id}
+                      type="button"
+                      onClick={() => handleTabChange(tab.id)}
+                      className={`relative flex items-center gap-2 px-3.5 py-2.5 transition-all ${isActive
+                        ? "text-sapl-blue"
+                        : "text-[#6D675E] hover:text-[#1c1a17]"
+                        }`}
+                    >
+                      <IconComponent className="w-3.5 h-3.5" />
+                      <span className="text-[10px] font-extrabold uppercase tracking-wider">
                         {tab.label}
                       </span>
-                    </div>
-                    <ChevronRight className={`w-4 h-4 transition-transform duration-300 ${
-                      isActive ? "text-sapl-blue translate-x-1" : "text-[#afa99e] group-hover:translate-x-1"
-                    }`} />
-                  </button>
-                );
-              })}
+                      <span
+                        className={`absolute bottom-0 left-3 right-3 h-[2px] bg-sapl-blue transition-transform duration-300 origin-center ${isActive
+                          ? "scale-x-100"
+                          : "scale-x-0"
+                          }`}
+                      />
+                    </button>
+                  );
+                })}
+              </nav>
             </div>
 
-            {/* Mobile Scrollable Tabs */}
-            <div className="lg:hidden flex gap-2 overflow-x-auto pb-4 -mx-4 px-4 scrollbar-none">
-              {tabs.map((tab) => {
-                const IconComponent = tab.icon;
-                const isActive = activeTab === tab.id;
-                return (
-                  <button
-                    key={tab.id}
-                    onClick={() => handleTabChange(tab.id)}
-                    className={`flex items-center gap-2 px-5 py-3 rounded-full border text-xs font-extrabold uppercase tracking-wider shrink-0 transition-all ${
-                      isActive
-                        ? "bg-navy-950 border-navy-950 text-white shadow-sm"
-                        : "bg-[#f7f6f4] border-[#eae7e3] text-[#4F4C42]"
-                    }`}
-                  >
-                    <IconComponent className="w-4 h-4" />
-                    {tab.label}
-                  </button>
-                );
-              })}
+            {/* Mobile */}
+            <div className="flex lg:hidden items-center justify-between pb-4">
+              <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-sapl-blue">
+                Corporate Strength
+              </span>
+
+              {/* Dropdown toggle for mobile/tablet instead of row tabs */}
+              <div className="relative z-50">
+                <button
+                  type="button"
+                  onClick={() => setIsDropdownOpen((prev) => !prev)}
+                  className="flex items-center gap-2 bg-[#f7f6f4] border border-[#eae7e3] px-3.5 py-2 rounded-sm shadow-sm"
+                >
+                  {tabs.map(tab => {
+                    const IconComponent = tab.icon;
+                    return activeTab === tab.id ? <IconComponent key={tab.id} className="w-3.5 h-3.5 text-sapl-blue" /> : null;
+                  })}
+                  <span className="max-w-[180px] truncate text-[10px] font-extrabold uppercase tracking-wider text-[#1c1a17]">
+                    {tabs.find(t => t.id === activeTab)?.label}
+                  </span>
+                  <ChevronDown className={`w-3.5 h-3.5 transition-transform ${isDropdownOpen ? "rotate-180" : ""}`} />
+                </button>
+
+                <AnimatePresence>
+                  {isDropdownOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, y: -8 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      exit={{ opacity: 0, y: -8 }}
+                      className="absolute right-0 top-full mt-2 w-64 bg-white border border-[#eae7e3] shadow-xl rounded-sm overflow-hidden"
+                    >
+                      {tabs.map((tab) => {
+                        const IconComponent = tab.icon;
+                        const isActive = activeTab === tab.id;
+                        return (
+                          <button
+                            key={tab.id}
+                            type="button"
+                            onClick={() => {
+                              handleTabChange(tab.id);
+                              setIsDropdownOpen(false);
+                            }}
+                            className={`w-full flex items-center gap-3 px-4 py-3.5 text-left border-l-2 transition-colors ${isActive
+                              ? "bg-sapl-blue/5 border-sapl-blue"
+                              : "border-transparent hover:bg-[#f7f6f4]"
+                              }`}
+                          >
+                            <IconComponent
+                              className={`w-4 h-4 ${isActive ? "text-sapl-blue" : "text-[#6D675E]"}`}
+                            />
+                            <span className={`text-[10px] font-extrabold uppercase tracking-wider ${isActive ? "text-sapl-blue" : "text-[#1c1a17]"}`}>
+                              {tab.label}
+                            </span>
+                          </button>
+                        );
+                      })}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
             </div>
           </div>
 
-          {/* Right Column: Dynamic Section Content Rendering */}
-          <div className="lg:col-span-9 bg-white border border-[#eae7e3] p-6 sm:p-10 rounded-sm shadow-sm text-left">
+          {/* =================================================
+              CONTENT
+          ================================================= */}
+          <div className="w-full text-left">
             <AnimatePresence mode="wait">
               <motion.div
                 key={activeTab}
@@ -202,22 +252,28 @@ function StrengthPageContent() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -15 }}
                 transition={{ duration: 0.4 }}
+                className="w-full"
               >
-                
+
                 {/* 1. Clients Content */}
                 {activeTab === "clients" && (
-                  <div className="space-y-8">
-                    <div className="flex flex-col gap-2">
-                      <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue">
-                        Partnerships
+                  <div className="space-y-12">
+                    <div className="flex flex-col lg:items-center lg:text-center items-start gap-3 mb-6">
+                      <span className="text-[10px] font-extrabold uppercase tracking-[0.22em] text-sapl-blue">
+                        01 / Partnerships
                       </span>
-                      <h2 className="font-sans font-extrabold text-2xl sm:text-3xl tracking-tight uppercase" style={{ color: "#1c1a17" }}>
-                        Clients
+                      <h2 className="font-sans font-black text-2xl sm:text-3xl lg:text-4xl tracking-tight uppercase text-[#1c1a17]">
+                        Our Clients
                       </h2>
-                      <div className="w-12 h-[2px] bg-sapl-blue rounded-full" />
-                      <p className="text-xs !text-[#6D675E] leading-relaxed mt-2">
+                      <div className="w-16 h-[3px] bg-sapl-blue rounded-full" />
+                      <p className="max-w-2xl text-sm text-[#6D675E] leading-6 mt-2">
                         The pillars of SAPL’s good reputation stem from our employees, client satisfaction, hands-on engineered project approach, quality, on-time delivery, and effective cost optimization for clients. The testament to these qualities is the fact that SAPL receives repeated business and has established long-term relationships with many clients.
                       </p>
+                    </div>
+
+                    {/* Infinite Client Logos Marquee */}
+                    <div className="w-full border-y border-[#eae7e3]">
+                      <ClientMarquee hideTitle={true} />
                     </div>
 
                     {/* High-Fidelity Client Showcase Grid */}
@@ -286,11 +342,10 @@ function StrengthPageContent() {
                               setSelectedCategory(cat.id);
                               setVisibleCount(24); // Reset pagination
                             }}
-                            className={`px-3 py-1.5 rounded-full border text-[10px] font-extrabold uppercase tracking-wider shrink-0 transition-all cursor-pointer ${
-                              selectedCategory === cat.id
-                                ? "bg-sapl-blue border-sapl-blue text-white shadow-xs"
-                                : "bg-[#f7f6f4] border-[#eae7e3] hover:border-sapl-blue/50 text-[#4F4C42] hover:bg-white"
-                            }`}
+                            className={`px-3 py-1.5 rounded-full border text-[10px] font-extrabold uppercase tracking-wider shrink-0 transition-all cursor-pointer ${selectedCategory === cat.id
+                              ? "bg-sapl-blue border-sapl-blue text-white shadow-xs"
+                              : "bg-[#f7f6f4] border-[#eae7e3] hover:border-sapl-blue/50 text-[#4F4C42] hover:bg-white"
+                              }`}
                           >
                             {cat.label}
                           </button>
@@ -352,16 +407,16 @@ function StrengthPageContent() {
 
                 {/* 2. Architects Content */}
                 {activeTab === "architects" && (
-                  <div className="space-y-8">
-                    <div className="flex flex-col gap-2">
-                      <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue">
-                        Design & Engineering Integration
+                  <div className="space-y-12">
+                    <div className="flex flex-col lg:items-center lg:text-center items-start gap-3 mb-6">
+                      <span className="text-[10px] font-extrabold uppercase tracking-[0.22em] text-sapl-blue">
+                        02 / Design & Engineering Integration
                       </span>
-                      <h2 className="font-sans font-extrabold text-2xl sm:text-3xl tracking-tight uppercase" style={{ color: "#1c1a17" }}>
-                        Architects
+                      <h2 className="font-sans font-black text-2xl sm:text-3xl lg:text-4xl tracking-tight uppercase text-[#1c1a17]">
+                        Our Architectural Partners
                       </h2>
-                      <div className="w-12 h-[2px] bg-sapl-blue rounded-full" />
-                      <p className="text-xs !text-[#6D675E] leading-relaxed mt-2">
+                      <div className="w-16 h-[3px] bg-sapl-blue rounded-full" />
+                      <p className="max-w-2xl text-sm text-[#6D675E] leading-6 mt-2">
                         We collaborate seamlessly with leading architectural firms, coordinating drawings and structural details perfectly to translate complex spatial designs into safe, durable engineering realities.
                       </p>
                     </div>
@@ -436,11 +491,10 @@ function StrengthPageContent() {
                               setSelectedCategory(cat.id);
                               setVisibleCount(24); // Reset pagination
                             }}
-                            className={`px-3 py-1.5 rounded-full border text-[10px] font-extrabold uppercase tracking-wider shrink-0 transition-all cursor-pointer ${
-                              selectedCategory === cat.id
-                                ? "bg-sapl-blue border-sapl-blue text-white shadow-xs"
-                                : "bg-[#f7f6f4] border-[#eae7e3] hover:border-sapl-blue/50 text-[#4F4C42] hover:bg-white"
-                            }`}
+                            className={`px-3 py-1.5 rounded-full border text-[10px] font-extrabold uppercase tracking-wider shrink-0 transition-all cursor-pointer ${selectedCategory === cat.id
+                              ? "bg-sapl-blue border-sapl-blue text-white shadow-xs"
+                              : "bg-[#f7f6f4] border-[#eae7e3] hover:border-sapl-blue/50 text-[#4F4C42] hover:bg-white"
+                              }`}
                           >
                             {cat.label}
                           </button>
@@ -498,11 +552,9 @@ function StrengthPageContent() {
                     </div>
                   </div>
                 )}
-
               </motion.div>
             </AnimatePresence>
           </div>
-
         </div>
       </section>
     </div>

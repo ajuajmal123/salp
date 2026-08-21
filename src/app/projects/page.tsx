@@ -1,10 +1,10 @@
 "use client";
 
-import React, { useState, useEffect, Suspense } from "react";
+import React, { useState, useEffect, Suspense, useRef } from "react";
 import { useSearchParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import ProjectCard from "@/components/ui/ProjectCard";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Search } from "lucide-react";
 import { projectsList, featuredProjectsList } from "@/data/projects";
 
 const sectors = ["IT Park", "Industrial", "Healthcare", "Institutional", "Residential"];
@@ -19,6 +19,114 @@ const architectsList = Array.from(
   new Set(projectsList.map((p) => p.details?.consultant).filter(Boolean))
 ).sort() as string[];
 
+type Option = { label: string; value: string; group?: string };
+
+function SearchableCombo({
+  options,
+  value,
+  onChange,
+  placeholder,
+}: {
+  options: Option[];
+  value: string;
+  onChange: (val: string) => void;
+  placeholder: string;
+}) {
+  const [isOpen, setIsOpen] = useState(false);
+  const [search, setSearch] = useState("");
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  const filteredOptions = options.filter(opt =>
+    opt.label.toLowerCase().includes(search.toLowerCase()) ||
+    (opt.group && opt.group.toLowerCase().includes(search.toLowerCase()))
+  );
+
+  const selectedOpt = options.find((o) => o.value === value);
+
+  // Grouping logic for rendering
+  const grouped = filteredOptions.reduce((acc, opt) => {
+    const key = opt.group || "ungrouped";
+    if (!acc[key]) acc[key] = [];
+    acc[key].push(opt);
+    return acc;
+  }, {} as Record<string, Option[]>);
+
+  return (
+    <div className="relative w-full z-50 text-[9px] uppercase tracking-wider text-[#1c1a17]" ref={dropdownRef}>
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="w-full bg-white border border-[#eae7e3] hover:border-sapl-blue/50 font-extrabold py-2 px-3 rounded-sm flex items-center justify-between transition-all cursor-pointer shadow-sm text-left relative z-20"
+      >
+        <span className="truncate">{selectedOpt?.label || placeholder}</span>
+        <ChevronDown className={`w-3 h-3 text-[#afa99e] transition-transform ${isOpen ? "rotate-180" : ""}`} />
+      </button>
+
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            initial={{ opacity: 0, y: -5 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -5 }}
+            transition={{ duration: 0.15 }}
+            className="absolute top-full left-0 right-0 mt-1 bg-white border border-[#eae7e3] shadow-lg rounded-sm overflow-hidden z-50 flex flex-col max-h-64"
+          >
+            <div className="p-2 border-b border-[#eae7e3] shrink-0 sticky top-0 bg-white z-10 flex flex-row items-center gap-2">
+              <Search className="w-3 h-3 text-[#afa99e]" />
+              <input
+                type="text"
+                autoFocus
+                placeholder="search clients, architects..."
+                className="w-full text-[9px] font-bold p-1 bg-transparent focus:outline-none placeholder:text-[#afa99e]"
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+              />
+            </div>
+
+            <div className="overflow-y-auto w-full py-1">
+              {Object.keys(grouped).map((groupKey) => (
+                <div key={groupKey}>
+                  {groupKey !== "ungrouped" && (
+                    <div className="px-3 py-1.5 font-black text-navy-300 bg-[#f7f6f4]/50 border-y border-[#eae7e3]/50">
+                      {groupKey}
+                    </div>
+                  )}
+                  {grouped[groupKey].map((opt) => (
+                    <button
+                      key={opt.value}
+                      onClick={() => {
+                        onChange(opt.value);
+                        setIsOpen(false);
+                      }}
+                      className={`w-full text-left px-3 py-2 font-bold hover:bg-sapl-blue/10 hover:text-sapl-blue transition-colors cursor-pointer ${value === opt.value ? 'bg-sapl-blue text-white' : ''}`}
+                    >
+                      {opt.label}
+                    </button>
+                  ))}
+                </div>
+              ))}
+              {filteredOptions.length === 0 && (
+                <div className="px-3 py-4 text-center text-[#afa99e] font-bold">
+                  No results found
+                </div>
+              )}
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
+  );
+}
+
 export default function ProjectsPage() {
   return (
     <Suspense fallback={<div className="text-center py-20 text-slate-400 font-semibold uppercase tracking-wider">Loading Projects...</div>}>
@@ -30,6 +138,7 @@ export default function ProjectsPage() {
 function ProjectsContent() {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedStatus, setSelectedStatus] = useState("All");
+  const [searchQuery, setSearchQuery] = useState("");
   const [sortBy, setSortBy] = useState("default");
   const [showAll, setShowAll] = useState(false);
 
@@ -48,11 +157,12 @@ function ProjectsContent() {
   // Reset showAll when filters change
   useEffect(() => {
     setShowAll(false);
-  }, [selectedCategory, selectedStatus]);
+  }, [selectedCategory, selectedStatus, searchQuery]);
 
   const isFilterActive =
     selectedCategory !== "All" ||
     selectedStatus !== "All" ||
+    searchQuery.trim() !== "" ||
     !!clientQuery ||
     !!architectQuery;
 
@@ -60,21 +170,33 @@ function ProjectsContent() {
   const filterList = (list: typeof projectsList) => {
     return list.filter((project) => {
       let categoryMatch = false;
+
+      // ... existing category check logic ...
       if (selectedCategory === "All") {
         categoryMatch = true;
       } else if (selectedCategory.startsWith("client:")) {
-        const targetClient = selectedCategory.replace("client:", "");
-        categoryMatch = project.details?.client === targetClient;
+        categoryMatch = project.details?.client === selectedCategory.split(":")[1];
       } else if (selectedCategory.startsWith("architect:")) {
-        const targetArchitect = selectedCategory.replace("architect:", "");
-        categoryMatch = project.details?.consultant === targetArchitect;
+        categoryMatch = project.details?.consultant === selectedCategory.split(":")[1];
       } else {
         categoryMatch = project.category === selectedCategory;
       }
 
-      const statusMatch =
-        selectedStatus === "All" || project.status === selectedStatus;
-      return categoryMatch && statusMatch;
+      let statusMatch = true;
+      if (selectedStatus !== "All") {
+        statusMatch = project.status === selectedStatus;
+      }
+
+      let queryMatch = true;
+      if (searchQuery.trim() !== "") {
+        const query = searchQuery.toLowerCase();
+        queryMatch =
+          project.name.toLowerCase().includes(query) ||
+          project.location.toLowerCase().includes(query) ||
+          project.description.toLowerCase().includes(query);
+      }
+
+      return categoryMatch && statusMatch && queryMatch;
     });
   };
 
@@ -112,6 +234,13 @@ function ProjectsContent() {
     return 0;
   });
 
+  const categoryOptions = [
+    { label: "All Categories / Clients / Architects", value: "All" },
+    ...sectors.map(cat => ({ label: cat, value: cat, group: "Sectors" })),
+    ...clientsList.map(c => ({ label: `Client: ${c}`, value: `client:${c}`, group: "Clients" })),
+    ...architectsList.map(a => ({ label: `Architect: ${a}`, value: `architect:${a}`, group: "Architects" }))
+  ];
+
   return (
     <div className="pt-28 lg:pt-32 pb-24 bg-white min-h-screen">
 
@@ -125,52 +254,36 @@ function ProjectsContent() {
 
       {/* Filter Row - Extremely Compact Dropdowns Aligned to the Right */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-3">
-        <div className="flex flex-row items-center justify-end gap-2">
+        <div className="flex flex-col sm:flex-row items-center justify-end gap-2 w-full">
+
+          {/* Search Input for Project Matches */}
+          <div className="relative w-full sm:w-[220px]">
+            <Search className="absolute left-2 top-1/2 -translate-y-1/2 w-3 h-3 text-[#afa99e]" />
+            <input
+              type="text"
+              placeholder="Search Projects..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full bg-white border border-[#eae7e3] hover:border-sapl-blue/50 text-[9px] font-extrabold uppercase tracking-wider text-[#1c1a17] py-2 pl-6 pr-2 rounded-sm focus:outline-none focus:border-sapl-blue transition-all shadow-sm placeholder:text-[#afa99e]"
+            />
+          </div>
 
           {/* Dropdown 1: Category, Client & Architect Filter */}
-          <div className="relative w-[170px] sm:w-[260px]">
-            <select
+          <div className="relative w-full sm:w-[220px]">
+            <SearchableCombo
+              options={categoryOptions}
               value={selectedCategory}
-              onChange={(e) => setSelectedCategory(e.target.value)}
-              className="w-full bg-white border border-[#eae7e3] hover:border-sapl-blue/50 text-[9px] font-extrabold uppercase tracking-wider text-[#1c1a17] py-1 pl-2 pr-6 rounded-sm appearance-none focus:outline-none focus:border-sapl-blue transition-all cursor-pointer shadow-sm"
-            >
-              <option value="All">All Categories / Clients / Architects</option>
-              
-              <optgroup label="Sectors" className="font-bold text-navy-400">
-                {sectors.map((cat) => (
-                  <option key={cat} value={cat}>
-                    {cat}
-                  </option>
-                ))}
-              </optgroup>
-
-              <optgroup label="Clients" className="font-bold text-navy-400">
-                {clientsList.map((client) => (
-                  <option key={client} value={`client:${client}`}>
-                    Client: {client}
-                  </option>
-                ))}
-              </optgroup>
-
-              <optgroup label="Architects" className="font-bold text-navy-400">
-                {architectsList.map((arc) => (
-                  <option key={arc} value={`architect:${arc}`}>
-                    Architect: {arc}
-                  </option>
-                ))}
-              </optgroup>
-            </select>
-            <div className="absolute inset-y-0 right-0 flex items-center pr-1.5 pointer-events-none text-[#afa99e]">
-              <ChevronDown className="w-3 h-3" />
-            </div>
+              onChange={(val) => setSelectedCategory(val)}
+              placeholder="Select Category / Client"
+            />
           </div>
 
           {/* Dropdown 2: Status Filter */}
-          <div className="relative w-[105px] sm:w-[130px]">
+          <div className="relative w-full sm:w-[220px]">
             <select
               value={selectedStatus}
               onChange={(e) => setSelectedStatus(e.target.value)}
-              className="w-full bg-white border border-[#eae7e3] hover:border-sapl-blue/50 text-[9px] font-extrabold uppercase tracking-wider text-[#1c1a17] py-1 pl-2 pr-6 rounded-sm appearance-none focus:outline-none focus:border-sapl-blue transition-all cursor-pointer shadow-sm"
+              className="w-full bg-white border border-[#eae7e3] hover:border-sapl-blue/50 text-[9px] font-extrabold uppercase tracking-wider text-[#1c1a17] py-2 pl-2 pr-6 rounded-sm appearance-none focus:outline-none focus:border-sapl-blue transition-all cursor-pointer shadow-sm"
             >
               {statuses.map((stat) => (
                 <option key={stat} value={stat}>
@@ -209,6 +322,7 @@ function ProjectsContent() {
                     category={project.category}
                     location={project.location}
                     imageUrl={project.imageUrl}
+                    imageAlt={project.imageAlt}
                     status={project.status}
                     description={project.description}
                   />

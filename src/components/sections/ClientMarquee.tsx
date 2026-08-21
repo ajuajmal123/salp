@@ -17,20 +17,22 @@ const clients = [
   { name: "LGB", path: "/Client Logos/LGB.jpg" },
 ];
 
-export default function ClientMarquee() {
+export default function ClientMarquee({ hideTitle = false }: { hideTitle?: boolean }) {
   return (
-    <section className="relative py-8 md:py-12 bg-white overflow-hidden border-b border-[#eae7e3]">
+    <section className={`relative bg-white overflow-hidden ${hideTitle ? 'py-4' : 'py-8 md:py-12 border-b border-[#eae7e3]'}`}>
       {/* Structural layout to keep design simple, neat, and highly readable */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Modernist Centered Section Header */}
-        <div className="text-center mb-6 md:mb-10 flex flex-col items-center gap-3">
-          <h2 className="font-sans text-3xl sm:text-4xl tracking-tight uppercase" style={{ color: "#1c1a17" }}>
-            Our Clients
-          </h2>
-          {/* Custom Teal/Cyan Underline Accent matching corporate identity */}
-          <div className="w-16 h-[3px] bg-sapl-blue rounded-full" />
-        </div>
+        {!hideTitle && (
+          <div className="text-center mb-6 md:mb-10 flex flex-col items-center gap-3">
+            <h2 className="font-sans text-3xl sm:text-4xl tracking-tight uppercase" style={{ color: "#1c1a17" }}>
+              Our Clients
+            </h2>
+            {/* Custom Teal/Cyan Underline Accent matching corporate identity */}
+            <div className="w-16 h-[3px] bg-sapl-blue rounded-full" />
+          </div>
+        )}
 
         {/* Continuous Infinite Scrolling Loop */}
         <InfiniteMarquee>

@@ -1,4 +1,6 @@
-﻿export interface ClientItem {
+﻿import { projectsList } from "@/data/projects";
+
+export interface ClientItem {
   id: string;
   name: string;
   category: string;
@@ -12,267 +14,60 @@ export interface ArchitectItem {
   categoryId: string;
 }
 
-export const fullClientsList: ClientItem[] = [
-  { id: 'client-1', name: 'GREAT HEIGHTS DEVELOPERS LLP', category: 'Infrastructure & Real Estate', categoryId: 'realestate' },
-  { id: 'client-2', name: 'NIVASAN HOMES PVT LTD', category: 'Infrastructure & Real Estate', categoryId: 'realestate' },
-  { id: 'client-3', name: 'AKSHAYA PVT LTD', category: 'Infrastructure & Real Estate', categoryId: 'realestate' },
-  { id: 'client-4', name: 'FOUNDATION ONE INFRASTRUCTURES PVT LTD', category: 'Infrastructure & Real Estate', categoryId: 'realestate' },
-  { id: 'client-5', name: 'PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH', category: 'Healthcare & Medical', categoryId: 'healthcare' },
-  { id: 'client-6', name: 'ANTARA PRASN GROUPS', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-7', name: 'GOVEL TRUST', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-8', name: 'CRI PUMPS PRIVATE LIMITED', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-9', name: 'SRI SRINIVASA TEXTILES', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-10', name: 'PROPEL INDUSTRIES PRIVATE LIMITED', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-11', name: 'L.G. BALAKRISHNAN & BROS LIMITED', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-12', name: 'M/s. CS SPINNERS PVT LTD', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-13', name: 'M/s. REVANTHA SERVICES LTD', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-14', name: 'THARUN BALAJI SPINNERS', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-15', name: 'BRADKEN INDIA PRIVATE LIMITED', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-16', name: 'SAKTHI GEAR PRODUCTS', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-17', name: 'AKG INDIA PVT LTD', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-18', name: 'CODISSIA INTECH TECHNOLOGY CENTRE', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-19', name: 'TVS INDUSTRIAL & LOGISTICS PARKS PVT LTD', category: 'Infrastructure & Real Estate', categoryId: 'realestate' },
-  { id: 'client-20', name: 'BULL MACHINES PVT LTD-SUVASAM 2.0', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-21', name: 'SNF COMPONENTS PRIVATE LIMITED', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-22', name: 'DECATHLON SPORTS INDIA PVT LTD', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-23', name: 'VASANTH & CO', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-24', name: 'SUPER SPINNING MILLS LIMITED', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-25', name: 'DR. MANOHARAN-HOSPITAL', category: 'Healthcare & Medical', categoryId: 'healthcare' },
-  { id: 'client-26', name: 'THE SCHOOL KRISHNAMURTI', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-27', name: 'SAPTHARISHI PRASANNA', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-28', name: 'ARPUTHAM PILLAI', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-29', name: 'ARJUN COLLEGE OF ENGINEERING', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-30', name: 'PACIFICA AURUM VILLAS', category: 'Infrastructure & Real Estate', categoryId: 'realestate' },
-  { id: 'client-31', name: 'INTERNATIONAL AEROSPACE MANUFACTURING PVT', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-32', name: 'HOTEL RAJPARK (P) LTD', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-33', name: 'SYNCHRON DEVELOPERS PVT LTD', category: 'Infrastructure & Real Estate', categoryId: 'realestate' },
-  { id: 'client-34', name: 'COSMIK INDUSTRY', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-35', name: 'L.G. BALAKRISHNAN & BROS LTD CORPORATE', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-36', name: 'Sri Kanchi Kamakoti Medical Trust', category: 'Healthcare & Medical', categoryId: 'healthcare' },
-  { id: 'client-37', name: 'GROVEL TRUST ARAVIND EYE HOSPITAL', category: 'Healthcare & Medical', categoryId: 'healthcare' },
-  { id: 'client-38', name: 'SECAN ENGINEERING TECHNOLOGY LTD', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-39', name: 'PERFECT ENGINEERS', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-40', name: 'KUMARAGURU COLLEGE OF TECHNOLOGY', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-41', name: 'D.J. ACADEMY FOR MANAGERIAL EXCELLENCE', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-42', name: 'SRM INSTITUTE OF SCIENCE AND TECHNOLOGY', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-43', name: 'CODISSIA INDUSTRIAL PARK LTD', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-44', name: 'BS SURGICARE INDIA PVT LTD', category: 'Healthcare & Medical', categoryId: 'healthcare' },
-  { id: 'client-45', name: 'PRICOL HOLDINGS LTD', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-46', name: 'Mr. MURUHANANDAM', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-47', name: 'VIKRAM HOSPITAL', category: 'Healthcare & Medical', categoryId: 'healthcare' },
-  { id: 'client-48', name: 'PRIME DEVELOPERS', category: 'Infrastructure & Real Estate', categoryId: 'realestate' },
-  { id: 'client-49', name: 'KG FABRIKS LIMITED', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-50', name: 'ADITHYA INSTITUTE OF TECHNOLOGY', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-51', name: 'EXOTIC FRUITS PVT LTD', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-52', name: 'Mr. ANWAR', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-53', name: 'VELMURUGAN HEAVY ENGINEERING PVT LTD', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-54', name: 'SRI RANGANATH INDUSTRY (P) LTD', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-55', name: 'MARK ENGINEERING WORKS', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-56', name: 'PSG & SONS CHARITIES', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-57', name: 'KP MURUGESAN', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-58', name: 'Mr. KISHORE G. LUND SRIVARI PROPERTIES & DEVELOPERS', category: 'Infrastructure & Real Estate', categoryId: 'realestate' },
-  { id: 'client-59', name: 'KPR MILLS LIMITED', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-60', name: 'VELAMMAL EDUCATIONAL TRUST', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-61', name: 'TVH BELICIAA TOWER\'S', category: 'Infrastructure & Real Estate', categoryId: 'realestate' },
-  { id: 'client-62', name: 'NGP SCHOOL KALAPATTI', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-63', name: 'L.G. BALAKRISHNAN & BROS LIMITED - OHT', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-64', name: 'MOTHERSON GROUPS', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-65', name: 'MADRAS CEMENTS LTD', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-66', name: 'GTN EXPORTS LTD', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-67', name: 'ADITYA INTERNATIONAL SCHOOL', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-68', name: 'MEPCO SCHLENK CHARITIES', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-69', name: 'Mr. SUKUMARAN', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-70', name: 'ADITYA EDUCATIONAL TRUST', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-71', name: 'PSG COLLEGE OF ARTS AND SCIENCE HOSTEL\'S', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-72', name: 'LANCOR HOLDINGS LTD', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-73', name: 'HARIHAR DWELLINGS (P) LTD', category: 'Infrastructure & Real Estate', categoryId: 'realestate' },
-  { id: 'client-74', name: 'SCHUF SPECIALITY VALVES INDIA PVT LTD', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-75', name: 'KRISHNAVENI CARBON PRODUCTS PVT LTD', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-76', name: 'S&P FOUNDATION PVT LTD', category: 'Infrastructure & Real Estate', categoryId: 'realestate' },
-  { id: 'client-77', name: 'S&S FOUNDATIONS PVT LTD', category: 'Infrastructure & Real Estate', categoryId: 'realestate' },
-  { id: 'client-78', name: 'EMERALD HAVEN REALTY LTD', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-79', name: 'SRI KRISHNA COLLEGE OF TECHNOLOGY', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-80', name: 'BULL MACHINES PRIVATE LIMITED', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-81', name: 'VELAMMAL MEDICAL COLLEGE & HOSPITAL', category: 'Healthcare & Medical', categoryId: 'healthcare' },
-  { id: 'client-82', name: 'BUSHIDO INFOTECH PRIVATE LIMITED', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-83', name: 'SAROJA VELUSAMY AND THALES TRUST', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-84', name: 'TOYOTA ANAMALLAIS AGENCIES', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-85', name: 'SNR SONS CHARITABLE TRUST', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-86', name: 'GLOBAL TECH PARK PVT LTD', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-87', name: 'Mr. ADITYA', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-88', name: 'SHANTHAMANI SPINNERS', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-89', name: 'AMALGAMATION PVT LTD', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-90', name: 'KG DENIM LIMITED', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-91', name: 'SPINE ARTHOSCOPY AND JOINT REPLACEMENT CENTRE', category: 'Healthcare & Medical', categoryId: 'healthcare' },
-  { id: 'client-92', name: 'Shoeline', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-93', name: 'PARVATHY AGENCIES', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-94', name: 'VADAMALAYAN HOSPITALS PVT LTD', category: 'Healthcare & Medical', categoryId: 'healthcare' },
-  { id: 'client-95', name: 'SAP PROMOTERS LTD', category: 'Infrastructure & Real Estate', categoryId: 'realestate' },
-  { id: 'client-96', name: 'Mr. RAVICHANDRAN', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-97', name: 'SREE SUKTHA REALESTATES PVT LTD', category: 'Infrastructure & Real Estate', categoryId: 'realestate' },
-  { id: 'client-98', name: 'WHITE HOUSE RESIDENCE INDIA PVT LTD', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-99', name: 'GKD CHARITY TRUST', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-100', name: 'ALWARPET PROPERTIES PVT LTD', category: 'Infrastructure & Real Estate', categoryId: 'realestate' },
-  { id: 'client-101', name: 'CHEYYAR SEZ DEVELOPERS PVT LTD', category: 'Infrastructure & Real Estate', categoryId: 'realestate' },
-  { id: 'client-102', name: 'RAMAKRISHNA MISSION VIDYALAYA', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-103', name: 'VENKATALAKSHMI PAPER AND BOARDS', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-104', name: 'HINDUSTHAN EDUCATION AND CHARITABLE TRUST', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-105', name: 'Mr. ANWAR, CLASSIC TOWERS', category: 'Infrastructure & Real Estate', categoryId: 'realestate' },
-  { id: 'client-106', name: 'SRI RAMAKRISHNA DENTAL COLLEGE', category: 'Healthcare & Medical', categoryId: 'healthcare' },
-  { id: 'client-107', name: 'Ms. LAKSHMI PRIYA', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-108', name: 'Velmuruga Enterprises Private Limited', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-109', name: 'PNR Prime Reality Limited', category: 'Infrastructure & Real Estate', categoryId: 'realestate' },
-  { id: 'client-110', name: 'Sri Balaji Vidyapeeth', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-111', name: 'KOVAI MEDICAL CENTER AND HOSPITAL', category: 'Healthcare & Medical', categoryId: 'healthcare' },
-  { id: 'client-112', name: 'INTEGRA AUTOMATION PVT LTD UNITâ€“IV', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-113', name: 'THE PRESIDENT INDIAN COTTON FEDERATION', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-114', name: 'SOMA ENTERPRISES LTD, SOMA MERIT', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-115', name: 'SHREE VELU BUILDERS PVT LTD', category: 'Infrastructure & Real Estate', categoryId: 'realestate' },
-  { id: 'client-116', name: 'MAHATMA MONTESSORI SCHOOL', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-117', name: 'WORLD COMMUNITY SERVICE CENTRE', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-118', name: 'VELMURUGA ENTERPRISES PVT LTD', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-119', name: 'GLOBAL TECH PARK PRIVATE LIMITED', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-120', name: 'RAK\'S Pallikkoodam', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-121', name: 'Mr. C.S. SIDDHARTH', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-122', name: 'Mr. KANAGARATHINAM', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-123', name: 'SHRI VISION ELEVATION PVT LTD', category: 'Infrastructure & Real Estate', categoryId: 'realestate' },
-  { id: 'client-124', name: 'M/S. WALKAROO INDUSTRIES', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-125', name: 'M/S. AMERICAN AUTO SERVICE PRIVATE LIMITED', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-126', name: 'AUTO DIECASTING COMPANY', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-127', name: 'SRI RANGANATHER VALVES & CONTROLS (P) LTD', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-128', name: 'SRI DHANALAKSHMI INDUSTRIES', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-129', name: 'STYLCOVE MODULARS PVT. LIMITED', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-130', name: 'PSG INSTITUTE OF MEDICAL SCIENCE & RESEARCH', category: 'Healthcare & Medical', categoryId: 'healthcare' },
-  { id: 'client-131', name: 'PSG COLLEGE OF ARTS AND SCIENCE', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-132', name: 'AEH', category: 'Healthcare & Medical', categoryId: 'healthcare' },
-  { id: 'client-133', name: 'SAI SARANAGATHI CHARITABLE FOUNDATION', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-134', name: 'DR. NGP RESEARCH AND EDUCATIONAL TRUST', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-135', name: 'PSG INSTITUTE OF TECHNOLOGY AND APPLIED RESEARCH CENTRE', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-136', name: 'MR. & MRS. MANI R. KASTHURI', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-137', name: 'FOCUS 4D CAREER EDUCATION PRIVATE LIMITED', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-138', name: 'VEEKESY FOOTCARE (INDIA) PVT. LTD.', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-139', name: 'BRIGADE HOTEL VENTURES LIMITED', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-140', name: 'MR. K. RAMASAMYSF', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-141', name: 'ANNAMALAI ENTERPRISE PVT. LTD.', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-142', name: 'CODISSIA', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-143', name: 'TANNY SHELTERS PVT. LIMITED', category: 'Infrastructure & Real Estate', categoryId: 'realestate' },
-  { id: 'client-144', name: 'ISHA OUTREACH', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-145', name: 'ADITYA', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-146', name: 'TVS HOLDINGS LTD.', category: 'Industrial & Manufacturing', categoryId: 'industrial' },
-  { id: 'client-147', name: 'SHRIVISION ELEVATION PVT. LTD.', category: 'Infrastructure & Real Estate', categoryId: 'realestate' },
-  { id: 'client-148', name: 'VEE YES CHARITIES FOUNDATION', category: 'Education & Research', categoryId: 'education' },
-  { id: 'client-149', name: 'MYSORE TOYS COMPANY', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-150', name: 'REVANTHA SERVICES PRIVATE LIMITED', category: 'Corporate, Retail & Hospitality', categoryId: 'corporate' },
-  { id: 'client-151', name: 'PSG COLLEGE OF ARTS & SCIENCE', category: 'Education & Research', categoryId: 'education' },
-];
+// Generate clients dynamically
+const clientsMap = new Map<string, ClientItem>();
 
-export const fullArchitectsList: ArchitectItem[] = [
-  { id: 'arch-1', name: 'M/s. Anbu & Faizal', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-2', name: 'M/s. Vesta Architects', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-3', name: 'M/s. Venkataraman Associates', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-4', name: 'M/s. RSP Design Consultants (India) Private Limited', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-5', name: 'M/s. ARUN & ASSOCIATES', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-6', name: 'M/s. Inner Space Architect', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-7', name: 'M/s. Mithran Structures (P) Ltd.', category: 'Structural & Engineering Consultants', categoryId: 'engineering' },
-  { id: 'arch-8', name: 'M/s. Rajeev Shah Associates', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-9', name: 'M/s. Gowtham Architects', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-10', name: 'M/s. KSM Architecture', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-11', name: 'M/s. PTK Architects', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-12', name: 'M/s. Bharath & Associates', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-13', name: 'Client Engineer', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-14', name: 'M/s. M. Dharmalingam Associate', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-15', name: 'M/s. Gayathri and Namith Architects (P) Ltd', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-16', name: 'M/s. Tata Consulting Engineers Pvt Ltd', category: 'Structural & Engineering Consultants', categoryId: 'engineering' },
-  { id: 'arch-17', name: 'M/s. SG Structural Engineers', category: 'Structural & Engineering Consultants', categoryId: 'engineering' },
-  { id: 'arch-18', name: 'M/s. Design Forum India Pvt Ltd.', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-19', name: 'M/s. Yellow Architect', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-20', name: 'M/s. Sankar & Associates', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-21', name: 'M/s. S.D.Sharma Associates', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-22', name: 'M/s. Green Evolution', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-23', name: 'M/s. Vybogam', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-24', name: 'M/s. Prabu', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-25', name: 'M/s. Pacifica Chennai Project Infrastructure CO Pvt Ltd.', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-26', name: 'Besten Engineers & Consultants India Private Limited', category: 'Structural & Engineering Consultants', categoryId: 'engineering' },
-  { id: 'arch-27', name: 'M/s. V.K Thyagarajan & Associates', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-28', name: 'M/s. Aparajithan', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-29', name: 'M/s. Sundar Sundaram Architects', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-30', name: 'M/s. Design Collaborative Pvt. Ltd.', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-31', name: 'M/s. Anusamm Consultants', category: 'Project Management & Planning', categoryId: 'planning' },
-  { id: 'arch-32', name: 'M/s. Taamaesek Engineering', category: 'Structural & Engineering Consultants', categoryId: 'engineering' },
-  { id: 'arch-33', name: 'M/s. FEEL & BARI', category: 'Structural & Engineering Consultants', categoryId: 'engineering' },
-  { id: 'arch-34', name: 'M/s. Comten Consulting', category: 'Project Management & Planning', categoryId: 'planning' },
-  { id: 'arch-35', name: 'M/s. Cuboid Architecture', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-36', name: 'M/s. Mhetras Design', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-37', name: 'M/s. Cos Consultancy Services', category: 'Project Management & Planning', categoryId: 'planning' },
-  { id: 'arch-38', name: 'M/s. Britto Ilango and Associates', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-39', name: 'M/s. Jeyakumar Associates', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-40', name: 'M/s. Edifice', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-41', name: 'M/s. Edifice, Pramod Balakrishnan', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-42', name: 'M/s. Passargard', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-43', name: 'M/s. Keerthi Shah Associates', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-44', name: 'M/s. INGENIO', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-45', name: 'M/s. Innovative Design', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-46', name: 'M/s. Enexco Technologies (India) Ltd', category: 'Structural & Engineering Consultants', categoryId: 'engineering' },
-  { id: 'arch-47', name: 'EEL India Limited', category: 'Structural & Engineering Consultants', categoryId: 'engineering' },
-  { id: 'arch-48', name: 'M/s. White Edge Architects', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-49', name: 'M/s. Trinity Associates', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-50', name: 'M/s. Nataraj & Venkat Associates', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-51', name: 'M/s. Semac Consultant Pvt Ltd', category: 'Project Management & Planning', categoryId: 'planning' },
-  { id: 'arch-52', name: 'R. Chakrapani & Sons', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-53', name: 'M/s. PTK Project Consultants', category: 'Project Management & Planning', categoryId: 'planning' },
-  { id: 'arch-54', name: 'M/s. Bhargao Group Buildpro Technologies', category: 'Project Management & Planning', categoryId: 'planning' },
-  { id: 'arch-55', name: 'Mr. Arivudai Nambi', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-56', name: 'M/s. Perfect Engineers', category: 'Structural & Engineering Consultants', categoryId: 'engineering' },
-  { id: 'arch-57', name: 'M/s. Mind Space', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-58', name: 'C.R. Narayana Rao Consultants Private Limited', category: 'Project Management & Planning', categoryId: 'planning' },
-  { id: 'arch-59', name: 'M/s. Chettinad Design', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-60', name: 'M/s. Sanjith & Vivek Architects', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-61', name: 'M/s. Auroservice Consultants Private Limited', category: 'Project Management & Planning', categoryId: 'planning' },
-  { id: 'arch-62', name: 'M/s. Studio 29', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-63', name: 'M/s. Dhyan Architects and Consultants', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-64', name: 'M/s. Infrabees Management Consultancy Services', category: 'Project Management & Planning', categoryId: 'planning' },
-  { id: 'arch-65', name: 'M/s. Environmental Creations', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-66', name: 'RSP Design Consultants', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-67', name: 'M/s. Pithavadian and Partners Architects', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-68', name: 'M/s. Cheyyar Sez Developers Pvt Ltd', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-69', name: 'Mahesh Architect & Interior Designers', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-70', name: 'M/s. Taamaesek Engineering Consortium (TMA)', category: 'Structural & Engineering Consultants', categoryId: 'engineering' },
-  { id: 'arch-71', name: 'M/s. Inform Architects', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-72', name: 'M/s. Sabarianand M.E', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-73', name: 'M/s. Jeyam Consultants Private Limited', category: 'Project Management & Planning', categoryId: 'planning' },
-  { id: 'arch-74', name: 'M/s. C. Subba Rao Associates', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-75', name: 'M/s. Foarcons', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-76', name: 'M/s. Prasad N Yadav', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-77', name: 'Client Engineers', category: 'Structural & Engineering Consultants', categoryId: 'engineering' },
-  { id: 'arch-78', name: 'M/s. Taamaesek Engineering Consortium', category: 'Structural & Engineering Consultants', categoryId: 'engineering' },
-  { id: 'arch-79', name: 'Mrs. Bharathi Sengottuvel', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-80', name: 'M/s. Design Realm', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-81', name: 'M/s. Senscape Architects Pvt Ltd', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-82', name: 'M/s. PTK Project Consultants LLP', category: 'Project Management & Planning', categoryId: 'planning' },
-  { id: 'arch-83', name: 'M/s. Shri Lakshmi Project Management and Consultancy Services', category: 'Project Management & Planning', categoryId: 'planning' },
-  { id: 'arch-84', name: 'THE PIDESIGN', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-85', name: 'M/s. Sabari Anand', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-86', name: 'FIRM TERRA', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-87', name: 'M/s. Gleeds Consulting (India) Pvt Ltd', category: 'Project Management & Planning', categoryId: 'planning' },
-  { id: 'arch-88', name: 'Design Collaborative Consultant', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-89', name: 'Madurai ES Consultancy Services (P) Ltd', category: 'Project Management & Planning', categoryId: 'planning' },
-  { id: 'arch-90', name: 'M/s. Sankar Associates', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-91', name: 'M/s. Amace Projects (P) Ltd', category: 'Project Management & Planning', categoryId: 'planning' },
-  { id: 'arch-92', name: 'M/s. Senthil Associates, Consultants Architects', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-93', name: 'M/s. Interface Architecture', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-94', name: 'M/s. Innerspace', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-95', name: 'M/s. Rajinder Kumar Associates', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-96', name: 'Infinus Tech Engineering & Architecture', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-97', name: 'Isha Engineering', category: 'Structural & Engineering Consultants', categoryId: 'engineering' },
-  { id: 'arch-98', name: 'M/s. RSB Design Consultants (India) Private Limited', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-99', name: 'M/s. Pragathi Consultants', category: 'Project Management & Planning', categoryId: 'planning' },
-  { id: 'arch-100', name: 'Metras Design', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-101', name: 'Design Realm, Chennai', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-102', name: 'K2LD Architects & Interior Designer', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-103', name: 'M/s. Urban Frame Pvt Ltd', category: 'General Consulting & Advisory', categoryId: 'advisory' },
-  { id: 'arch-104', name: 'Interface Architecture', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-105', name: 'M/s. Mithran Structures Pvt Ltd', category: 'Structural & Engineering Consultants', categoryId: 'engineering' },
-  { id: 'arch-106', name: 'M/s. Design Collaborative Private Limited', category: 'Architects & Design Studios', categoryId: 'design' },
-  { id: 'arch-107', name: 'Design Tech', category: 'Architects & Design Studios', categoryId: 'design' },
-];
+projectsList.forEach((p, idx) => {
+  if (p.details?.client) {
+    if (!clientsMap.has(p.details.client)) {
+      let catId = "corporate"; // default
+      if (p.category === "INDUSTRIAL") catId = "industrial";
+      if (p.category === "RESIDENTIAL") catId = "realestate";
+      if (p.category === "HEALTHCARE") catId = "healthcare";
+      if (p.category === "INSTITUTIONAL") catId = "education";
 
+      clientsMap.set(p.details.client, {
+        id: `client-${idx}`,
+        name: p.details.client,
+        category: p.category || "Corporate, Retail & Hospitality",
+        categoryId: catId
+      });
+    }
+  }
+});
+
+export const fullClientsList: ClientItem[] = Array.from(clientsMap.values()).sort((a, b) => a.name.localeCompare(b.name));
+
+// Generate architects dynamically
+const architectsMap = new Map<string, ArchitectItem>();
+
+projectsList.forEach((p, idx) => {
+  if (p.details?.consultant) {
+    if (!architectsMap.has(p.details.consultant)) {
+      
+      // Typical inferences
+      let catId = "design";
+      let cat = "Architects & Design Studios";
+
+      if (p.details.consultant.includes("ENGINEER") || p.details.consultant.includes("STRUCTURAL")) {
+        catId = "engineering";
+        cat = "Structural & Engineering Consultants";
+      } else if (p.details.consultant.includes("PROJECT MANAGEMENT") || p.details.consultant.includes("CONSULT")) {
+        catId = "planning";
+        cat = "Project Management & Planning";
+      } else if (p.details.consultant.includes("ADVISORY") || p.details.consultant.includes("CONSULTANT")) {
+        catId = "advisory";
+        cat = "General Consulting & Advisory";
+      }
+
+      architectsMap.set(p.details.consultant, {
+        id: `arch-${idx}`,
+        name: p.details.consultant,
+        category: cat,
+        categoryId: catId
+      });
+    }
+  }
+});
+
+export const fullArchitectsList: ArchitectItem[] = Array.from(architectsMap.values()).sort((a, b) => a.name.localeCompare(b.name));

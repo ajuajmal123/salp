@@ -45,6 +45,7 @@ export default function ProjectsSection() {
                 category={project.category}
                 location={project.location}
                 imageUrl={project.imageUrl}
+                imageAlt={project.imageAlt}
                 status={project.status}
                 description={project.description}
               />
