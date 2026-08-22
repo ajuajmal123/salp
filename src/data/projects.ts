@@ -26,7 +26,7 @@ export const projectsList: Project[] = [
     "name": "SINDHOOR PUSHPAVANAM",
     "category": "RESIDENTIAL",
     "location": "CHENNAI",
-    "imageUrl": "MANUAL_MAPPING_REQUIRED",
+    "imageUrl": "/project/SINDHOOR PUSHPAVANAM/10-1-800x803.jpg",
     "status": "Completed",
     "description": "Construction of SINDHOOR PUSHPAVANAM in CHENNAI.",
     "details": {
@@ -37,14 +37,14 @@ export const projectsList: Project[] = [
       "completionDate": "SEP’2019",
       "consultant": "ANBU & FAIZAL"
     },
-    "gallery": []
+    "gallery": ["/project/SINDHOOR PUSHPAVANAM/10-1-800x803.jpg","/project/SINDHOOR PUSHPAVANAM/img-1-30.jpg","/project/SINDHOOR PUSHPAVANAM/img-2-30.jpg","/project/SINDHOOR PUSHPAVANAM/img-3-29.jpg","/project/SINDHOOR PUSHPAVANAM/img-4-26.jpg"]
   },
   {
     "slug": "nivasan-homes-pvt-ltd-nivasan-springs-1",
     "name": "NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”",
     "category": "RESIDENTIAL",
     "location": "COIMBATORE",
-    "imageUrl": "MANUAL_MAPPING_REQUIRED",
+    "imageUrl": "/project/NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/NHSpr-3-800x800.jpg",
     "status": "Completed",
     "description": "Construction of NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1” in COIMBATORE.",
     "details": {
@@ -55,14 +55,14 @@ export const projectsList: Project[] = [
       "completionDate": "SEP' 2021",
       "consultant": "VESTA ARCHITECTS"
     },
-    "gallery": []
+    "gallery": ["/project/NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/NHSpr-3-800x800.jpg","/project/NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/NHSprings-1.jpeg","/project/NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/NHSprings-2-800x600.jpeg","/project/NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/NHSprings-4-800x600.jpeg","/project/NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/springs-800x395.jpg"]
   },
   {
     "slug": "akshaya-tango",
     "name": "AKSHAYA TANGO",
     "category": "RESIDENTIAL",
     "location": "CHENNAI",
-    "imageUrl": "MANUAL_MAPPING_REQUIRED",
+    "imageUrl": "/project/AKSHAYA TANGO/Tango-1-800x413.jpg",
     "status": "Completed",
     "description": "Construction of AKSHAYA TANGO in CHENNAI.",
     "details": {
@@ -73,14 +73,14 @@ export const projectsList: Project[] = [
       "completionDate": "SEP’ 2020",
       "consultant": "VENKATARAMAN ASSOCIATES"
     },
-    "gallery": []
+    "gallery": ["/project/AKSHAYA TANGO/Tango-1-800x413.jpg","/project/AKSHAYA TANGO/Tango-4-800x480.jpg","/project/AKSHAYA TANGO/Tango-5-800x450.jpg","/project/AKSHAYA TANGO/Tango-800x410.jpg"]
   },
   {
     "slug": "foundation-one-shree",
     "name": "FOUNDATION ONE “SHREE”",
     "category": "RESIDENTIAL",
     "location": "COIMBATORE",
-    "imageUrl": "MANUAL_MAPPING_REQUIRED",
+    "imageUrl": "/project/FOUNDATION ONE “SHREE”/F1-2.jpeg",
     "status": "Completed",
     "description": "Construction of FOUNDATION ONE “SHREE” in COIMBATORE.",
     "details": {
@@ -91,14 +91,14 @@ export const projectsList: Project[] = [
       "completionDate": "SEP’ 2017",
       "consultant": "RSP DESIGN CONSULTANTS (INDIA) PRIVATE LIMITED"
     },
-    "gallery": []
+    "gallery": ["/project/FOUNDATION ONE “SHREE”/F1-2.jpeg","/project/FOUNDATION ONE “SHREE”/shree-img-1.jpg","/project/FOUNDATION ONE “SHREE”/shree-img-2.jpg","/project/FOUNDATION ONE “SHREE”/shree-img-3.jpg","/project/FOUNDATION ONE “SHREE”/shree-img-4.jpg"]
   },
   {
     "slug": "saradha-greens",
     "name": "SARADHA GREENS –",
     "category": "RESIDENTIAL",
     "location": "COIMBATORE",
-    "imageUrl": "MANUAL_MAPPING_REQUIRED",
+    "imageUrl": "/project/SARADHA GREENS/NHSG1-800x369.jpg",
     "status": "Completed",
     "description": "Construction of SARADHA GREENS – in COIMBATORE.",
     "details": {
@@ -109,14 +109,14 @@ export const projectsList: Project[] = [
       "completionDate": "MAR’ 2022",
       "consultant": "ARUN & ASSOCIATES"
     },
-    "gallery": []
+    "gallery": ["/project/SARADHA GREENS/NHSG1-800x369.jpg","/project/SARADHA GREENS/NSG-800x450.jpeg","/project/SARADHA GREENS/slide-1-800x395.jpg","/project/SARADHA GREENS/slide-2-800x395.jpg","/project/SARADHA GREENS/slide-3-800x395.jpg"]
   },
   {
     "slug": "sindur-pristine",
     "name": "SINDUR PRISTINE",
     "category": "RESIDENTIAL",
     "location": "CHENNAI",
-    "imageUrl": "MANUAL_MAPPING_REQUIRED",
+    "imageUrl": "/project/SINDUR PRISTINE/1-800x600.jpg",
     "status": "Completed",
     "description": "Construction of SINDUR PRISTINE in CHENNAI.",
     "details": {
@@ -127,14 +127,14 @@ export const projectsList: Project[] = [
       "completionDate": "FEB’ 2022",
       "consultant": "ANBU & FAIZAL"
     },
-    "gallery": []
+    "gallery": ["/project/SINDUR PRISTINE/1-800x600.jpg","/project/SINDUR PRISTINE/4-1-800x316.jpg","/project/SINDUR PRISTINE/banner-pristine-800x365.jpg","/project/SINDUR PRISTINE/Pristine-12-800x1067.jpg","/project/SINDUR PRISTINE/Pristine2.jpg"]
   },
   {
     "slug": "blue-haven-phase-ii",
     "name": "BLUE HAVEN PHASE II",
     "category": "RESIDENTIAL",
     "location": "COIMBATORE",
-    "imageUrl": "MANUAL_MAPPING_REQUIRED",
+    "imageUrl": "/project/BLUE HAVEN PHASE II/BH2-1-800x548.jpg",
     "status": "Completed",
     "description": "Construction of BLUE HAVEN PHASE II in COIMBATORE.",
     "details": {
@@ -145,14 +145,14 @@ export const projectsList: Project[] = [
       "completionDate": "NOV’ 2014",
       "consultant": "INNER SPACE ARCHITECT"
     },
-    "gallery": []
+    "gallery": ["/project/BLUE HAVEN PHASE II/BH2-1-800x548.jpg","/project/BLUE HAVEN PHASE II/BH2-3-800x600.jpg","/project/BLUE HAVEN PHASE II/BH2-5-800x600.jpg","/project/BLUE HAVEN PHASE II/bluehaven (1).jpg","/project/BLUE HAVEN PHASE II/bluehaven.jpg"]
   },
   {
     "slug": "psg-institute-of-medical-sciences-research",
     "name": "PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH",
     "category": "RESIDENTIAL",
     "location": "COIMBATORE",
-    "imageUrl": "MANUAL_MAPPING_REQUIRED",
+    "imageUrl": "/project/PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH/DSC03503-800x534.jpg",
     "status": "Completed",
     "description": "Construction of PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH in COIMBATORE.",
     "details": {
@@ -163,14 +163,14 @@ export const projectsList: Project[] = [
       "completionDate": "NOV’ 2017",
       "consultant": "MITHRAN STRUCTURES (P) LIMITED"
     },
-    "gallery": []
+    "gallery": ["/project/PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH/DSC03503-800x534.jpg","/project/PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH/DSC03511-800x534.jpg","/project/PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH/DSC03514-800x534.jpg","/project/PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH/PSG-IMSR-HOSTEL-800x600.jpg"]
   },
   {
     "slug": "parsn-antara",
     "name": "PARSN ANTARA",
     "category": "RESIDENTIAL",
     "location": "COIMBATORE",
-    "imageUrl": "MANUAL_MAPPING_REQUIRED",
+    "imageUrl": "/project/PARSN ANTARA/Antra-2-800x465.jpg",
     "status": "Completed",
     "description": "Construction of PARSN ANTARA in COIMBATORE.",
     "details": {
@@ -181,14 +181,14 @@ export const projectsList: Project[] = [
       "completionDate": "OCT’2009",
       "consultant": "RAJEEV SHAH ASSOCIATES"
     },
-    "gallery": []
+    "gallery": ["/project/PARSN ANTARA/Antra-2-800x465.jpg","/project/PARSN ANTARA/Antra-3-800x600.jpg","/project/PARSN ANTARA/Antra-4-800x535.jpg","/project/PARSN ANTARA/Antra-9-800x535.jpg","/project/PARSN ANTARA/PARSN-ANTARA-800x402.jpg"]
   },
   {
     "slug": "parsn-keystone",
     "name": "PARSN KEYSTONE",
     "category": "RESIDENTIAL",
     "location": "COIMBATORE",
-    "imageUrl": "MANUAL_MAPPING_REQUIRED",
+    "imageUrl": "/project/PARSN KEYSTONE/APRSN-KEYSTONE-800x531.jpg",
     "status": "Completed",
     "description": "Construction of PARSN KEYSTONE in COIMBATORE.",
     "details": {
@@ -199,7 +199,7 @@ export const projectsList: Project[] = [
       "completionDate": "OCT’2009",
       "consultant": "RAJEEV SHAH ASSOCIATES"
     },
-    "gallery": []
+    "gallery": ["/project/PARSN KEYSTONE/APRSN-KEYSTONE-800x531.jpg","/project/PARSN KEYSTONE/KEYSTONE-1-800x531.jpg","/project/PARSN KEYSTONE/KEYSTONE-3-800x600.jpg","/project/PARSN KEYSTONE/KEYSTONE-4-800x600.jpg","/project/PARSN KEYSTONE/KEYSTONE-7-800x535.jpg"]
   },
   {
     "slug": "apartment-building-govel-trust",

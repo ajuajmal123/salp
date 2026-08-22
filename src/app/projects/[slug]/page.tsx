@@ -3,13 +3,13 @@
 import React, { use, useState } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { 
-  ArrowLeft, 
-  MapPin, 
-  Calendar, 
-  Maximize2, 
-  Briefcase, 
-  User, 
+import {
+  ArrowLeft,
+  MapPin,
+  Calendar,
+  Maximize2,
+  Briefcase,
+  User,
   CheckCircle,
   AlertTriangle,
   Send,
@@ -26,7 +26,7 @@ interface PageProps {
 
 export default function ProjectDetailsPage({ params }: PageProps) {
   const { slug } = use(params);
-  
+
   // Find project by slug in both featured and normal lists
   const project = featuredProjectsList.find((p) => p.slug === slug) || projectsList.find((p) => p.slug === slug);
   const [activeImgIdx, setActiveImgIdx] = useState<number | null>(null);
@@ -68,7 +68,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
 
   return (
     <div className="pt-20 bg-white min-h-screen">
-      
+
       {/* 1. Dynamic Hero Header Section */}
       <section className="relative h-[55vh] min-h-[380px] bg-navy-950 text-white overflow-hidden">
         {/* Background Project Image */}
@@ -89,7 +89,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
 
         {/* Back Link & Info Container */}
         <div className="absolute inset-0 z-10 flex flex-col justify-between max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-          
+
           {/* Back Navigation Button */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -137,17 +137,17 @@ export default function ProjectDetailsPage({ params }: PageProps) {
       {/* 2. Project Specifications Grid (Banding: Pure White Canvas) */}
       <section className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#eae7e3]">
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4 sm:gap-6">
-          
+
           {/* Spec Card 1: Client */}
           {details.client ? (
             <Link
               href={`/projects?client=${encodeURIComponent(details.client)}`}
               className="p-5 bg-[#f7f6f4] border border-[#eae7e3] hover:border-sapl-blue/50 rounded-sm text-left flex flex-col justify-between min-h-[140px] hover:shadow-md transition-all duration-300 group cursor-pointer"
             >
-              <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm group-hover:bg-sapl-blue group-hover:text-white group-hover:border-sapl-blue transition-colors duration-300">
-                <User className="w-4.5 h-4.5" />
+              <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm group-hover:bg-sapl-blue group-hover:text-white group-hover:border-sapl-blue transition-colors duration-300 shrink-0">
+                <User className="w-5 h-5" />
               </div>
-              <div>
+              <div className="mt-auto pt-3">
                 <h4 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">
                   Client / Sponsor
                 </h4>
@@ -158,49 +158,30 @@ export default function ProjectDetailsPage({ params }: PageProps) {
             </Link>
           ) : (
             <div className="p-5 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left flex flex-col justify-between min-h-[140px] shadow-sm">
-              <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm">
-                <User className="w-4.5 h-4.5" />
+              <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm shrink-0">
+                <User className="w-5 h-5" />
               </div>
-              <div>
+              <div className="mt-auto pt-3">
                 <h4 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">
                   Client / Sponsor
                 </h4>
-                <p className="text-xs sm:text-sm font-extrabold text-navy-950 mt-1 leading-tight">
+                <p className="text-xs sm:text-sm font-extrabold text-navy-950 mt-1 line-clamp-2 leading-tight">
                   Srinivasan Associates
                 </p>
               </div>
             </div>
           )}
 
-          {/* Spec Card 2: Timeline */}
-          <div className="p-5 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left flex flex-col justify-between min-h-[140px] hover:shadow-sm transition-shadow">
-            <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm">
-              <Calendar className="w-4.5 h-4.5" />
-            </div>
-            <div>
-              <h4 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">
-                Timeline Duration
-              </h4>
-              <p className="text-xs sm:text-sm font-extrabold text-navy-950 mt-1 leading-tight text-wrap break-words">
-                {details.startDate && details.completionDate 
-                  ? `${details.startDate} - ${details.completionDate}` 
-                  : project.status === "Ongoing" && details.startDate
-                  ? `${details.startDate} - Present`
-                  : project.status}
-              </p>
-            </div>
-          </div>
-
-          {/* Spec Card 3: Consultant (Architect) */}
+          {/* Spec Card 2: Consultant (Architect) */}
           {details.consultant ? (
             <Link
               href={`/projects?architect=${encodeURIComponent(details.consultant)}`}
               className="p-5 bg-[#f7f6f4] border border-[#eae7e3] hover:border-sapl-blue/50 rounded-sm text-left flex flex-col justify-between min-h-[140px] hover:shadow-md transition-all duration-300 group cursor-pointer"
             >
-              <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm group-hover:bg-sapl-blue group-hover:text-white group-hover:border-sapl-blue transition-colors duration-300">
-                <Briefcase className="w-4.5 h-4.5" />
+              <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm group-hover:bg-sapl-blue group-hover:text-white group-hover:border-sapl-blue transition-colors duration-300 shrink-0">
+                <Briefcase className="w-5 h-5" />
               </div>
-              <div>
+              <div className="mt-auto pt-3">
                 <h4 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">
                   Architect / Consultant
                 </h4>
@@ -211,30 +192,49 @@ export default function ProjectDetailsPage({ params }: PageProps) {
             </Link>
           ) : (
             <div className="p-5 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left flex flex-col justify-between min-h-[140px] shadow-sm">
-              <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm">
-                <Briefcase className="w-4.5 h-4.5" />
+              <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm shrink-0">
+                <Briefcase className="w-5 h-5" />
               </div>
-              <div>
+              <div className="mt-auto pt-3">
                 <h4 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">
                   Architect / Consultant
                 </h4>
-                <p className="text-xs sm:text-sm font-extrabold text-navy-950 mt-1 leading-tight">
+                <p className="text-xs sm:text-sm font-extrabold text-navy-950 mt-1 line-clamp-2 leading-tight">
                   General Contracting
                 </p>
               </div>
             </div>
           )}
 
+          {/* Spec Card 3: Timeline */}
+          <div className="p-5 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left flex flex-col justify-between min-h-[140px] hover:shadow-sm transition-shadow">
+            <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm shrink-0">
+              <Calendar className="w-5 h-5" />
+            </div>
+            <div className="mt-auto pt-3">
+              <h4 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">
+                Timeline Duration
+              </h4>
+              <p className="text-xs sm:text-sm font-extrabold text-navy-950 mt-1 line-clamp-2 leading-tight break-words">
+                {details.startDate && details.completionDate
+                  ? `${details.startDate} - ${details.completionDate}`
+                  : project.status === "Ongoing" && details.startDate
+                    ? `${details.startDate} - Present`
+                    : project.status}
+              </p>
+            </div>
+          </div>
+
           {/* Spec Card 4: Floors */}
           <div className="p-5 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left flex flex-col justify-between min-h-[140px] hover:shadow-sm transition-shadow">
-            <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm">
-              <Building2 className="w-4.5 h-4.5" />
+            <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm shrink-0">
+              <Building2 className="w-5 h-5" />
             </div>
-            <div>
+            <div className="mt-auto pt-3">
               <h4 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">
                 Height / Floors
               </h4>
-              <p className="text-xs sm:text-sm font-extrabold text-navy-950 mt-1 leading-tight">
+              <p className="text-xs sm:text-sm font-extrabold text-navy-950 mt-1 line-clamp-2 leading-tight">
                 {details.floors || "1 Block"}
               </p>
             </div>
@@ -242,14 +242,14 @@ export default function ProjectDetailsPage({ params }: PageProps) {
 
           {/* Spec Card 5: Built Area */}
           <div className="p-5 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left flex flex-col justify-between min-h-[140px] hover:shadow-sm transition-shadow">
-            <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm">
-              <Maximize2 className="w-4.5 h-4.5" />
+            <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm shrink-0">
+              <Maximize2 className="w-5 h-5" />
             </div>
-            <div>
+            <div className="mt-auto pt-3">
               <h4 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">
                 Built-up Area
               </h4>
-              <p className="text-xs sm:text-sm font-extrabold text-navy-950 mt-1 leading-tight">
+              <p className="text-xs sm:text-sm font-extrabold text-navy-950 mt-1 line-clamp-2 leading-tight">
                 {details.area || "Custom Layout"}
               </p>
             </div>
@@ -261,7 +261,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
       {/* 3. Deep Analysis & Narrative (Banding: Clean & Spacious Layout) */}
       <section className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#eae7e3]">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
-          
+
           {/* Main Narrative Column (7 columns) */}
           <div className="lg:col-span-7 flex flex-col gap-6 text-left">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue">
@@ -271,7 +271,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
               Engineering Legacy & Development Scope
             </h2>
             <div className="w-12 h-[2.5px] bg-sapl-blue rounded-full" />
-            
+
             <p className="text-slate-600 text-sm sm:text-base leading-relaxed mt-2 font-medium">
               {project.description} We utilized high-grade building techniques to guarantee long-term structure integrity, prioritizing safety standard audits and zero-defect workmanship throughout the construction life-cycle.
             </p>
@@ -306,7 +306,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
                 Engineering Challenges Solved
               </h3>
             </div>
-            
+
             <p className="text-slate-600 text-xs sm:text-sm leading-relaxed font-medium">
               {details.challenges || "Managing complex design coordinates and logistics schedules on tight urban workspaces without interrupting surrounding utilities."}
             </p>
@@ -428,11 +428,11 @@ export default function ProjectDetailsPage({ params }: PageProps) {
       </AnimatePresence>
 
       {/* 4. Dynamic CTA Block */}
-      <section className="py-20 bg-navy-950 text-white relative overflow-hidden">
+      <section className="py-20 bg-sapl-blue text-white relative overflow-hidden">
 
-        
+
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 flex flex-col items-center gap-6">
-          <span className="text-xs font-bold uppercase tracking-[0.25em] text-sapl-blue">
+          <span className="text-xs font-bold uppercase tracking-[0.25em] text-white/80">
             Request Consultation
           </span>
           <h2 className="font-sans font-extrabold text-2xl sm:text-4xl tracking-tight uppercase leading-tight max-w-2xl">
@@ -441,11 +441,11 @@ export default function ProjectDetailsPage({ params }: PageProps) {
           <p className="text-navy-200 text-xs sm:text-sm max-w-xl -mt-2 leading-relaxed">
             Let us partner with you to turn complex designs into premium structural landmarks. Speak with our engineering estimation division today.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 mt-2">
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-sapl-blue hover:bg-sapl-blue-hover text-white font-extrabold text-xs tracking-widest uppercase rounded-full transition-all hover:scale-[1.02] active:scale-[0.98]"
+              className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-navy-950 hover:bg-navy-900 text-white font-extrabold text-xs tracking-widest uppercase rounded-full transition-all hover:scale-[1.02] active:scale-[0.98]"
             >
               <Send className="w-3.5 h-3.5" />
               Connect With Us
