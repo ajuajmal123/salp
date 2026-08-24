@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logoImg from "../../../public/SRINIVASAN-LOGO-02.png";
+import logoImg from "../../../public/Srinivasan-Logo-Final.png";
 
 interface LogoProps {
   className?: string;
@@ -28,9 +28,8 @@ export default function Logo({
           width={593}
           height={213}
           priority
-          className={`w-full h-auto object-contain transition-all duration-300 hover:scale-[1.03] ${
-            light ? "filter-logo-light" : ""
-          }`}
+          className={`w-full h-auto object-contain transition-all duration-300 hover:scale-[1.03] ${light ? "filter-logo-light" : ""
+            }`}
         />
       </div>
     </div>

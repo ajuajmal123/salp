@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden bg-navy-100">
+    <section className="relative min-h-[550px] h-[75vh] sm:h-[85vh] lg:h-screen flex items-center justify-center overflow-hidden bg-navy-100">
 
       {/* =========================================================
           CINEMATIC BACKGROUND VIDEO (FULL OPACITY, UNBLURRED, NO OVERLAYS)
