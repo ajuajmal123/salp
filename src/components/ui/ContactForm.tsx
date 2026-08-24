@@ -287,7 +287,7 @@ export default function ContactForm() {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.4 }}
-            className="flex flex-col items-center justify-center py-16 text-center"
+            className="flex flex-col items-center justify-center py-10 md:py-16 text-center"
           >
             <CheckCircle2 className="w-16 h-16 text-emerald-500 mb-6" />
             <h3 className="text-2xl font-extrabold tracking-tight text-navy-950 dark:text-white">

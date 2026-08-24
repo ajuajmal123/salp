@@ -33,7 +33,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
 
   if (!project) {
     return (
-      <div className="pt-32 pb-24 bg-white min-h-screen flex flex-col items-center justify-center text-center px-4">
+      <div className="pt-20 pb-12 md:pt-32 md:pb-12 md:pb-24 bg-white min-h-screen flex flex-col items-center justify-center text-center px-4">
         <h1 className="text-4xl font-extrabold text-navy-950 uppercase tracking-tight">
           Project Not Found
         </h1>
@@ -67,7 +67,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
   };
 
   return (
-    <div className="pt-20 bg-white min-h-screen">
+    <div className="pt-16 md:pt-20 bg-white min-h-screen">
 
       {/* 1. Dynamic Hero Header Section */}
       <section className="relative h-[55vh] min-h-[380px] bg-navy-950 text-white overflow-hidden">
@@ -135,7 +135,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
       </section>
 
       {/* 2. Project Specifications Grid (Banding: Pure White Canvas) */}
-      <section className="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#eae7e3]">
+      <section className="py-10 md:py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#eae7e3]">
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4 sm:gap-6">
 
           {/* Spec Card 1: Client */}
@@ -259,7 +259,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
       </section>
 
       {/* 3. Deep Analysis & Narrative (Banding: Clean & Spacious Layout) */}
-      <section className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#eae7e3]">
+      <section className="py-12 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#eae7e3]">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
 
           {/* Main Narrative Column (7 columns) */}
@@ -326,7 +326,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
 
       {/* 3.5 Photo Gallery Section */}
       {gallery.length > 0 && (
-        <section className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#eae7e3]">
+        <section className="py-12 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#eae7e3]">
           <div className="text-left mb-12 flex flex-col gap-2">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue">
               Visual Portfolio
@@ -428,7 +428,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
       </AnimatePresence>
 
       {/* 4. Dynamic CTA Block */}
-      <section className="py-20 bg-sapl-blue text-white relative overflow-hidden">
+      <section className="py-12 md:py-20 bg-sapl-blue text-white relative overflow-hidden">
 
 
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 flex flex-col items-center gap-6">

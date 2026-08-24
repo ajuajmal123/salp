@@ -6,7 +6,7 @@ import ContactForm from "@/components/ui/ContactForm";
 
 export default function ContactPage() {
   return (
-    <div className="pt-28 lg:pt-32 bg-white min-h-screen">
+    <div className="pt-24 lg:pt-32 bg-white min-h-screen">
 
       {/* Page Heading */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10 text-center flex flex-col items-center justify-center">
@@ -20,7 +20,7 @@ export default function ContactPage() {
       </section>
 
       {/* Main Grid Contact Coordinates */}
-      <section className="pt-4 pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-left">
+      <section className="pt-4 pb-12 md:pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-left">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-stretch">
 
           {/* Left Column: Office branch addresses */}

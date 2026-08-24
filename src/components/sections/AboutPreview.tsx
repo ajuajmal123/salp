@@ -7,7 +7,7 @@ import { CheckCircle2, ArrowRight } from "lucide-react";
 
 export default function AboutPreview() {
   return (
-    <section className="relative py-24 bg-white dark:bg-navy-950 overflow-hidden">
+    <section className="relative py-12 md:py-24 bg-white dark:bg-navy-950 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
           

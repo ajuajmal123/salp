@@ -127,7 +127,7 @@ function StrengthPageContent() {
   });
 
   return (
-    <div className="pt-28 lg:pt-32 pb-24 bg-white min-h-screen">
+    <div className="pt-24 lg:pt-20 pb-12 md:pt-32 md:pb-12 md:pb-24 bg-white min-h-screen">
       {/* Interactive Switcher & Content Wrapper */}
       <section className="w-full px-4 sm:px-6 lg:px-12">
         <div className="flex flex-col gap-8">
@@ -564,7 +564,7 @@ function StrengthPageContent() {
 export default function StrengthPage() {
   return (
     <Suspense fallback={
-      <div className="pt-32 pb-24 text-center text-navy-500 font-bold uppercase tracking-widest">
+      <div className="pt-20 pb-12 md:pt-32 md:pb-24 text-center text-navy-500 font-bold uppercase tracking-widest">
         Loading Strength Section...
       </div>
     }>

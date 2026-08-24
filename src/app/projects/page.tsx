@@ -129,7 +129,7 @@ function SearchableCombo({
 
 export default function ProjectsPage() {
   return (
-    <Suspense fallback={<div className="text-center py-20 text-slate-400 font-semibold uppercase tracking-wider">Loading Projects...</div>}>
+    <Suspense fallback={<div className="text-center py-12 md:py-20 text-slate-400 font-semibold uppercase tracking-wider">Loading Projects...</div>}>
       <ProjectsContent />
     </Suspense>
   );
@@ -242,7 +242,7 @@ function ProjectsContent() {
   ];
 
   return (
-    <div className="pt-28 lg:pt-32 pb-24 bg-white min-h-screen">
+    <div className="pt-24 lg:pt-20 pb-12 md:pt-32 md:pb-12 md:pb-24 bg-white min-h-screen">
 
       {/* Page Heading */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-5 text-center flex flex-col items-center justify-center">
@@ -331,7 +331,7 @@ function ProjectsContent() {
             </AnimatePresence>
           </motion.div>
         ) : (
-          <div className="text-center py-20">
+          <div className="text-center py-12 md:py-20">
             <p className="text-slate-400 dark:text-navy-500 text-lg font-semibold uppercase tracking-wider">
               No projects found matching the selected filters.
             </p>
