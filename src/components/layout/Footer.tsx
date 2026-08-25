@@ -167,9 +167,9 @@ export default function Footer() {
         <div className="pt-8 border-t border-[#eae7e3] flex flex-col xl:flex-row items-center justify-between gap-6 text-[11px] sm:text-xs text-navy-800 font-semibold tracking-wider uppercase">
 
           {/* Left: Logo and Copyright */}
-          <div className="flex flex-row items-center gap-4 text-left shrink-0 xl:flex-1 xl:justify-start">
-            <Logo light={false} size="sm" className="w-[100px] sm:w-[120px]" />
-            <span className="opacity-80 whitespace-nowrap">
+          <div className="flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left shrink-0 xl:flex-1 xl:justify-start">
+            <Logo light={false} size="sm" className="w-[80px] sm:w-[120px]" />
+            <span className="opacity-80 text-[9px] sm:text-xs leading-relaxed">
               © {currentYear} Srinivasan Associates Private Limited. All Rights Reserved.
             </span>
           </div>
