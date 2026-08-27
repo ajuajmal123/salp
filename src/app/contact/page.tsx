@@ -6,32 +6,32 @@ import ContactForm from "@/components/ui/ContactForm";
 
 export default function ContactPage() {
   return (
-    <div className="pt-24 lg:pt-32 bg-white min-h-screen">
+    <div className="pt-24 lg:pt-24 bg-white min-h-screen">
 
       {/* Page Heading */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10 text-center flex flex-col items-center justify-center">
+      <section className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 mb-8 text-center flex flex-col items-center justify-center">
         <h1 className="font-sans font-extrabold text-2xl sm:text-3xl tracking-tight uppercase mt-2 text-[#1c1a17]">
           Contact Us
         </h1>
         <div className="w-12 h-[2px] bg-sapl-blue rounded-full mt-2" />
-        <p className="text-sm text-[#6D675E] mt-4 max-w-lg mx-auto">
+        <p className="text-sm text-[#6D675E] mt-3 max-w-lg mx-auto">
           Reach out to our centralized administrative team.
         </p>
       </section>
 
       {/* Main Grid Contact Coordinates */}
-      <section className="pt-4 pb-12 md:pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-left">
+      <section className="pt-4 pb-8 md:pb-16 max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 text-left">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-stretch">
 
           {/* Left Column: Office branch addresses */}
           <div className="lg:col-span-5 space-y-8">
 
             {/* Coimbatore Branch Address */}
-            <div className="bg-[#f7f6f4] border border-[#eae7e3] p-8 rounded-sm shadow-sm">
+            <div className="bg-[#f7f6f4] border border-[#eae7e3] p-6 rounded-sm shadow-sm">
               <span className="text-xs font-bold uppercase tracking-widest text-sapl-blue block mb-2">
                 Coimbatore (HQ)
               </span>
-              <h2 className="text-xl font-extrabold uppercase mb-6" style={{ color: "#1c1a17" }}>
+              <h2 className="text-xl font-extrabold uppercase mb-4" style={{ color: "#1c1a17" }}>
                 Peelamedu Main Office
               </h2>
 
@@ -66,11 +66,11 @@ export default function ContactPage() {
             </div>
 
             {/* Chennai Branch Address */}
-            <div className="bg-[#f7f6f4] border border-[#eae7e3] p-8 rounded-sm shadow-sm">
+            <div className="bg-[#f7f6f4] border border-[#eae7e3] p-6 rounded-sm shadow-sm">
               <span className="text-xs font-bold uppercase tracking-widest text-sapl-blue block mb-2">
                 Chennai Office
               </span>
-              <h2 className="text-xl font-extrabold uppercase mb-6" style={{ color: "#1c1a17" }}>
+              <h2 className="text-xl font-extrabold uppercase mb-4" style={{ color: "#1c1a17" }}>
                 Kilpauk Branch Office
               </h2>
 
@@ -93,11 +93,11 @@ export default function ContactPage() {
             </div>
 
             {/* Bengaluru Branch Address */}
-            <div className="bg-[#f7f6f4] border border-[#eae7e3] p-8 rounded-sm shadow-sm">
+            <div className="bg-[#f7f6f4] border border-[#eae7e3] p-6 rounded-sm shadow-sm">
               <span className="text-xs font-bold uppercase tracking-widest text-sapl-blue block mb-2">
                 Bengaluru Office
               </span>
-              <h2 className="text-xl font-extrabold uppercase mb-6" style={{ color: "#1c1a17" }}>
+              <h2 className="text-xl font-extrabold uppercase mb-4" style={{ color: "#1c1a17" }}>
                 Barton Centre Office
               </h2>
 
@@ -114,11 +114,11 @@ export default function ContactPage() {
             </div>
 
             {/* Central Enquiries */}
-            <div className="bg-[#f7f6f4] border border-[#eae7e3] p-8 rounded-sm shadow-sm">
+            <div className="bg-[#f7f6f4] border border-[#eae7e3] p-6 rounded-sm shadow-sm">
               <span className="text-xs font-bold uppercase tracking-widest text-sapl-blue block mb-2">
                 Central Enquiries
               </span>
-              <h2 className="text-xl font-extrabold uppercase mb-6" style={{ color: "#1c1a17" }}>
+              <h2 className="text-xl font-extrabold uppercase mb-4" style={{ color: "#1c1a17" }}>
                 Contact Departments
               </h2>
 

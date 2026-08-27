@@ -19,13 +19,13 @@ const clients = [
 
 export default function ClientMarquee({ hideTitle = false }: { hideTitle?: boolean }) {
   return (
-    <section className={`relative bg-white overflow-hidden ${hideTitle ? 'py-4' : 'py-8 md:py-12 border-b border-[#eae7e3]'}`}>
+    <section className={`relative bg-white overflow-hidden ${hideTitle ? 'py-4' : 'py-8 md:py-8 border-b border-[#eae7e3]'}`}>
       {/* Structural layout to keep design simple, neat, and highly readable */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6">
 
         {/* Modernist Centered Section Header */}
         {!hideTitle && (
-          <div className="text-center mb-6 md:mb-10 flex flex-col items-center gap-3">
+          <div className="text-center mb-4 md:mb-8 flex flex-col items-center gap-3">
             <h2 className="font-sans text-3xl sm:text-4xl tracking-tight uppercase" style={{ color: "#1c1a17" }}>
               Our Clients
             </h2>
@@ -39,7 +39,7 @@ export default function ClientMarquee({ hideTitle = false }: { hideTitle?: boole
           {clients.map((client, idx) => (
             <div
               key={idx}
-              className="px-6 py-3 mx-4 bg-white rounded-md shrink-0 flex items-center justify-center transition-all duration-300 hover:scale-105"
+              className="px-6 py-2 mx-3 bg-white rounded-md shrink-0 flex items-center justify-center transition-all duration-300 hover:scale-105"
             >
               <div className="relative h-12 w-32 flex items-center justify-center">
                 <Image

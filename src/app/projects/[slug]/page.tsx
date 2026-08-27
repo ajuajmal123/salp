@@ -33,16 +33,16 @@ export default function ProjectDetailsPage({ params }: PageProps) {
 
   if (!project) {
     return (
-      <div className="pt-20 pb-12 md:pt-32 md:pb-12 md:pb-24 bg-white min-h-screen flex flex-col items-center justify-center text-center px-4">
+      <div className="pt-20 pb-8 md:pt-24 md:pb-8 md:pb-16 bg-white min-h-screen flex flex-col items-center justify-center text-center px-3">
         <h1 className="text-4xl font-extrabold text-navy-950 uppercase tracking-tight">
           Project Not Found
         </h1>
-        <p className="text-slate-500 mt-4 max-w-md">
+        <p className="text-slate-500 mt-3 max-w-md">
           The project you are looking for does not exist or has been relocated.
         </p>
         <Link
           href="/projects"
-          className="mt-8 inline-flex items-center gap-2 px-6 py-3 bg-sapl-blue hover:bg-sapl-blue-hover text-white font-extrabold text-xs tracking-wider uppercase rounded-full transition-all"
+          className="mt-8 inline-flex items-center gap-2 px-4 py-2 bg-sapl-blue hover:bg-sapl-blue-hover text-white font-extrabold text-xs tracking-wider uppercase rounded-full transition-all"
         >
           <ArrowLeft className="w-4 h-4" />
           Back to Projects
@@ -67,7 +67,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
   };
 
   return (
-    <div className="pt-16 md:pt-20 bg-white min-h-screen">
+    <div className="pt-16 md:pt-16 bg-white min-h-screen">
 
       {/* 1. Dynamic Hero Header Section */}
       <section className="relative h-[55vh] min-h-[380px] bg-navy-950 text-white overflow-hidden">
@@ -88,7 +88,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
         </div>
 
         {/* Back Link & Info Container */}
-        <div className="absolute inset-0 z-10 flex flex-col justify-between max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <div className="absolute inset-0 z-10 flex flex-col justify-between max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 py-8">
 
           {/* Back Navigation Button */}
           <motion.div
@@ -98,7 +98,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
           >
             <Link
               href="/projects"
-              className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-white/80 hover:text-white bg-navy-950/40 hover:bg-navy-950/70 px-4 py-2 rounded-full backdrop-blur-sm transition-all border border-white/10"
+              className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-white/80 hover:text-white bg-navy-950/40 hover:bg-navy-950/70 px-3 py-2 rounded-full backdrop-blur-sm transition-all border border-white/10"
             >
               <ArrowLeft className="w-3.5 h-3.5" />
               Back to Gallery
@@ -135,7 +135,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
       </section>
 
       {/* 2. Project Specifications Grid (Banding: Pure White Canvas) */}
-      <section className="py-10 md:py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#eae7e3]">
+      <section className="py-10 md:py-12 max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 border-b border-[#eae7e3]">
         <div className="grid grid-cols-2 md:grid-cols-5 gap-4 sm:gap-6">
 
           {/* Spec Card 1: Client */}
@@ -147,7 +147,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
               <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm group-hover:bg-sapl-blue group-hover:text-white group-hover:border-sapl-blue transition-colors duration-300 shrink-0">
                 <User className="w-5 h-5" />
               </div>
-              <div className="mt-auto pt-3">
+              <div className="mt-auto pt-2">
                 <h4 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">
                   Client / Sponsor
                 </h4>
@@ -161,7 +161,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
               <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm shrink-0">
                 <User className="w-5 h-5" />
               </div>
-              <div className="mt-auto pt-3">
+              <div className="mt-auto pt-2">
                 <h4 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">
                   Client / Sponsor
                 </h4>
@@ -181,7 +181,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
               <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm group-hover:bg-sapl-blue group-hover:text-white group-hover:border-sapl-blue transition-colors duration-300 shrink-0">
                 <Briefcase className="w-5 h-5" />
               </div>
-              <div className="mt-auto pt-3">
+              <div className="mt-auto pt-2">
                 <h4 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">
                   Architect / Consultant
                 </h4>
@@ -195,7 +195,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
               <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm shrink-0">
                 <Briefcase className="w-5 h-5" />
               </div>
-              <div className="mt-auto pt-3">
+              <div className="mt-auto pt-2">
                 <h4 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">
                   Architect / Consultant
                 </h4>
@@ -211,7 +211,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
             <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm shrink-0">
               <Calendar className="w-5 h-5" />
             </div>
-            <div className="mt-auto pt-3">
+            <div className="mt-auto pt-2">
               <h4 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">
                 Timeline Duration
               </h4>
@@ -230,7 +230,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
             <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm shrink-0">
               <Building2 className="w-5 h-5" />
             </div>
-            <div className="mt-auto pt-3">
+            <div className="mt-auto pt-2">
               <h4 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">
                 Height / Floors
               </h4>
@@ -241,11 +241,11 @@ export default function ProjectDetailsPage({ params }: PageProps) {
           </div>
 
           {/* Spec Card 5: Built Area */}
-          <div className="p-5 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left flex flex-col justify-between min-h-[140px] hover:shadow-sm transition-shadow">
+          <div className="p-5 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left flex flex-col justify-between min-h-[140px] hover:shadow-sm transition-shadow col-span-2 md:col-span-1 justify-self-center md:justify-self-auto w-[calc(50%-8px)] sm:w-[calc(50%-12px)] md:w-full">
             <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shadow-sm shrink-0">
               <Maximize2 className="w-5 h-5" />
             </div>
-            <div className="mt-auto pt-3">
+            <div className="mt-auto pt-2">
               <h4 className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">
                 Built-up Area
               </h4>
@@ -259,7 +259,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
       </section>
 
       {/* 3. Deep Analysis & Narrative (Banding: Clean & Spacious Layout) */}
-      <section className="py-12 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#eae7e3]">
+      <section className="py-12 md:py-16 max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 border-b border-[#eae7e3]">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
 
           {/* Main Narrative Column (7 columns) */}
@@ -278,7 +278,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
 
             {/* Highlights List if present */}
             {details.highlights && details.highlights.length > 0 && (
-              <div className="flex flex-col gap-4 mt-4">
+              <div className="flex flex-col gap-4 mt-3">
                 <h3 className="text-xs font-black uppercase tracking-[0.2em] text-navy-950">
                   Key Technical Features
                 </h3>
@@ -297,8 +297,8 @@ export default function ProjectDetailsPage({ params }: PageProps) {
           </div>
 
           {/* Project Challenges Panel (5 columns) */}
-          <div className="lg:col-span-5 bg-[#f7f6f4] border border-[#eae7e3] p-8 rounded-sm text-left shadow-sm">
-            <div className="flex items-center gap-3 mb-6">
+          <div className="lg:col-span-5 bg-[#f7f6f4] border border-[#eae7e3] p-6 rounded-sm text-left shadow-sm">
+            <div className="flex items-center gap-3 mb-4">
               <div className="w-9 h-9 rounded-sm bg-white border border-[#eae7e3] flex items-center justify-center text-sapl-blue shrink-0">
                 <AlertTriangle className="w-4.5 h-4.5" />
               </div>
@@ -311,7 +311,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
               {details.challenges || "Managing complex design coordinates and logistics schedules on tight urban workspaces without interrupting surrounding utilities."}
             </p>
 
-            <div className="mt-8 pt-6 border-t border-[#eae7e3] flex flex-col gap-4">
+            <div className="mt-8 pt-4 border-t border-[#eae7e3] flex flex-col gap-4">
               <span className="text-[10px] font-black uppercase tracking-wider text-slate-400">
                 Assurance Protocol
               </span>
@@ -326,8 +326,8 @@ export default function ProjectDetailsPage({ params }: PageProps) {
 
       {/* 3.5 Photo Gallery Section */}
       {gallery.length > 0 && (
-        <section className="py-12 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#eae7e3]">
-          <div className="text-left mb-12 flex flex-col gap-2">
+        <section className="py-12 md:py-16 max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 border-b border-[#eae7e3]">
+          <div className="text-left mb-8 flex flex-col gap-2">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue">
               Visual Portfolio
             </span>
@@ -355,7 +355,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-navy-950/20 group-hover:bg-navy-950/40 transition-colors flex items-center justify-center">
-                  <span className="text-white text-xs font-bold tracking-wider uppercase opacity-0 group-hover:opacity-100 scale-95 group-hover:scale-100 transition-all bg-navy-950/60 px-4 py-2 rounded-sm backdrop-blur-sm">
+                  <span className="text-white text-xs font-bold tracking-wider uppercase opacity-0 group-hover:opacity-100 scale-95 group-hover:scale-100 transition-all bg-navy-950/60 px-3 py-2 rounded-sm backdrop-blur-sm">
                     View Photo
                   </span>
                 </div>
@@ -373,7 +373,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             onClick={() => setActiveImgIdx(null)}
-            className="fixed inset-0 z-50 bg-black/95 backdrop-blur-sm flex items-center justify-center p-4 sm:p-12"
+            className="fixed inset-0 z-50 bg-black/95 backdrop-blur-sm flex items-center justify-center p-3 sm:p-8"
           >
             {/* Close Button */}
             <button
@@ -387,7 +387,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
             {/* Prev Button */}
             <button
               onClick={handlePrevImage}
-              className="absolute left-4 sm:left-8 text-white/70 hover:text-white bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors z-50 cursor-pointer"
+              className="absolute left-4 sm:left-8 text-white/70 hover:text-white bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors z-50 cursor-pointer"
               aria-label="Previous Image"
             >
               <ChevronLeft className="w-6 h-6" />
@@ -396,7 +396,7 @@ export default function ProjectDetailsPage({ params }: PageProps) {
             {/* Next Button */}
             <button
               onClick={handleNextImage}
-              className="absolute right-4 sm:right-8 text-white/70 hover:text-white bg-white/10 hover:bg-white/20 p-3 rounded-full transition-colors z-50 cursor-pointer"
+              className="absolute right-4 sm:right-8 text-white/70 hover:text-white bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors z-50 cursor-pointer"
               aria-label="Next Image"
             >
               <ChevronRight className="w-6 h-6" />
@@ -428,10 +428,10 @@ export default function ProjectDetailsPage({ params }: PageProps) {
       </AnimatePresence>
 
       {/* 4. Dynamic CTA Block */}
-      <section className="py-12 md:py-20 bg-sapl-blue text-white relative overflow-hidden">
+      <section className="py-12 md:py-16 bg-sapl-blue text-white relative overflow-hidden">
 
 
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 flex flex-col items-center gap-6">
+        <div className="max-w-4xl mx-auto px-3 sm:px-4 lg:px-6 text-center relative z-10 flex flex-col items-center gap-6">
           <span className="text-xs font-bold uppercase tracking-[0.25em] text-white/80">
             Request Consultation
           </span>
@@ -445,14 +445,14 @@ export default function ProjectDetailsPage({ params }: PageProps) {
           <div className="flex flex-col sm:flex-row gap-4 mt-2">
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-navy-950 hover:bg-navy-900 text-white font-extrabold text-xs tracking-widest uppercase rounded-full transition-all hover:scale-[1.02] active:scale-[0.98]"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-navy-950 hover:bg-navy-900 text-white font-extrabold text-xs tracking-widest uppercase rounded-full transition-all hover:scale-[1.02] active:scale-[0.98]"
             >
               <Send className="w-3.5 h-3.5" />
               Connect With Us
             </Link>
             <Link
               href="/projects"
-              className="inline-flex items-center justify-center px-8 py-3.5 bg-white/10 hover:bg-white/15 text-white border border-white/10 hover:border-white/20 font-extrabold text-xs tracking-widest uppercase rounded-full transition-all"
+              className="inline-flex items-center justify-center px-6 py-3.5 bg-white/10 hover:bg-white/15 text-white border border-white/10 hover:border-white/20 font-extrabold text-xs tracking-widest uppercase rounded-full transition-all"
             >
               Explore Gallery
             </Link>

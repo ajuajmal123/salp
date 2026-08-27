@@ -69,19 +69,15 @@ const tabs = [
    AWARDS
 ========================================================= */
 
-const awardsImages = [
-  "/Awards/Achievement Award ICI.jpg",
-  "/Awards/Conferred Achievement Award 2008.jpg",
-  "/Awards/Distinguished Well Wisher Award.jpg",
-  "/Awards/Distinguished Well-Wisher Award.jpg",
-  "/Awards/Exemplary Performance Awarded.jpeg",
-  "/Awards/Honoured by Dr. APJ. Abdul Kalam.jpg",
-  "/Awards/Lifetime Achiever Award.jpg",
-  "/Awards/MDsir EXCEL group.jpeg",
-  "/Awards/MDsir1.jpeg",
-  "/Awards/MDsir2.jpeg",
-  "/Awards/MDsir3.jpeg",
-  "/Awards/Vishwakarma Award 2010.jpg",
+const awardsData = [
+  { src: "/Awards/mdsirimg1.jpeg", title: "Leadership Address by Our Managing Director" },
+  { src: "/Awards/mdsirimg2.jpeg", title: "SEYAL – EXCEL Award Presented by Excel Group" },
+  { src: "/Awards/mdsirimg3.jpeg", title: "Felicitated by Dr. APJ Abdul Kalam For Early Completion of 1 Lakh Sq. Ft. Project" },
+  { src: "/Awards/mdsirimg4.jpeg", title: "Conferred Achievement Award 2008 by Coimbatore Civil Engineers Association (COCENA)" },
+  { src: "/Awards/mdsirimg5.jpeg", title: "Long Span Portico Slab Using Self Compacting Concrete Indian Concrete Institute & UltraTech" },
+  { src: "/Awards/mdsirimg6.jpeg", title: "Lifetime Achiever Award – Institution of Engineers, Coimbatore" },
+  { src: "/Awards/mdsirimg7.jpeg", title: "Distinguished Well-Wisher Award from Ramakrishna Mission Vidyalaya, Coimbatore" },
+  { src: "/Awards/mdsirimg8.jpeg", title: "Lifetime Achiever Award – Institution of Engineers, Coimbatore" },
 ];
 
 /* =========================================================
@@ -242,8 +238,8 @@ function ProfilePageContent() {
   ========================================================= */
 
   return (
-    <div className="pt-24 lg:pt-32 pb-12 md:pb-20 bg-white min-h-screen w-full">
-      <section className="w-full px-4 sm:px-6 lg:px-12">
+    <div className="pt-24 lg:pt-24 pb-8 md:pb-16 bg-white min-h-screen w-full">
+      <section className="w-full px-3 sm:px-4 lg:px-8">
         <div className="flex flex-col gap-8">
 
           {/* =================================================
@@ -253,7 +249,7 @@ function ProfilePageContent() {
           <div className="w-full border-b border-[#eae7e3]">
 
             {/* Desktop */}
-            <div className="hidden lg:flex items-center justify-between pb-4">
+            <div className="hidden lg:flex items-center justify-between pb-3">
 
               <div className="flex items-center gap-3">
                 <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-sapl-blue">
@@ -278,8 +274,8 @@ function ProfilePageContent() {
                       type="button"
                       onClick={() => handleTabChange(tab.id)}
                       className={`relative flex items-center gap-2 px-3.5 py-2.5 transition-all ${isActive
-                          ? "text-sapl-blue"
-                          : "text-[#6D675E] hover:text-[#1c1a17]"
+                        ? "text-sapl-blue"
+                        : "text-[#6D675E] hover:text-[#1c1a17]"
                         }`}
                     >
                       <Icon className="w-3.5 h-3.5" />
@@ -290,8 +286,8 @@ function ProfilePageContent() {
 
                       <span
                         className={`absolute bottom-0 left-3 right-3 h-[2px] bg-sapl-blue transition-transform duration-300 origin-center ${isActive
-                            ? "scale-x-100"
-                            : "scale-x-0"
+                          ? "scale-x-100"
+                          : "scale-x-0"
                           }`}
                       />
                     </button>
@@ -301,7 +297,7 @@ function ProfilePageContent() {
             </div>
 
             {/* Mobile */}
-            <div className="flex lg:hidden items-center justify-between pb-4">
+            <div className="flex lg:hidden items-center justify-between pb-3">
 
               <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-sapl-blue">
                 Profile
@@ -323,8 +319,8 @@ function ProfilePageContent() {
 
                   <ChevronDown
                     className={`w-3.5 h-3.5 transition-transform ${isDropdownOpen
-                        ? "rotate-180"
-                        : ""
+                      ? "rotate-180"
+                      : ""
                       }`}
                   />
                 </button>
@@ -359,22 +355,22 @@ function ProfilePageContent() {
                               handleTabChange(tab.id);
                               setIsDropdownOpen(false);
                             }}
-                            className={`w-full flex items-center gap-3 px-4 py-3.5 text-left border-l-2 transition-colors ${isActive
-                                ? "bg-sapl-blue/5 border-sapl-blue"
-                                : "border-transparent hover:bg-[#f7f6f4]"
+                            className={`w-full flex items-center gap-3 px-3 py-3.5 text-left border-l-2 transition-colors ${isActive
+                              ? "bg-sapl-blue/5 border-sapl-blue"
+                              : "border-transparent hover:bg-[#f7f6f4]"
                               }`}
                           >
                             <Icon
                               className={`w-4 h-4 ${isActive
-                                  ? "text-sapl-blue"
-                                  : "text-[#6D675E]"
+                                ? "text-sapl-blue"
+                                : "text-[#6D675E]"
                                 }`}
                             />
 
                             <span
                               className={`text-[10px] font-extrabold uppercase tracking-wider ${isActive
-                                  ? "text-sapl-blue"
-                                  : "text-[#1c1a17]"
+                                ? "text-sapl-blue"
+                                : "text-[#1c1a17]"
                                 }`}
                             >
                               {tab.label}
@@ -422,7 +418,7 @@ function ProfilePageContent() {
                 <section className="w-full">
 
                   {/* Heading */}
-                  <div className="flex flex-col items-center text-center gap-3 mb-12">
+                  <div className="flex flex-col items-center text-center gap-3 mb-8">
                     <span className="text-[10px] font-extrabold uppercase tracking-[0.22em] text-sapl-blue">
                       01 / Organization
                     </span>
@@ -445,7 +441,7 @@ function ProfilePageContent() {
 
                     {/* Chairman */}
                     <div className="flex justify-center">
-                      <div className="relative bg-navy-950 border border-sapl-blue p-5 rounded-sm w-full max-w-sm text-center overflow-hidden shadow-sm">
+                      <div className="relative bg-navy-950 border border-sapl-blue p-4 rounded-sm w-full max-w-sm text-center overflow-hidden shadow-sm">
                         <div className="absolute left-0 top-0 bottom-0 w-[4px] bg-sapl-blue" />
 
                         <span className="text-[9px] font-extrabold uppercase tracking-[0.2em] text-sapl-blue">
@@ -460,7 +456,7 @@ function ProfilePageContent() {
                           Founder & Chairman
                         </p>
 
-                        <p className="text-[10px] text-[#d5d1c8] mt-3 leading-relaxed">
+                        <p className="text-[10px] text-[#d5d1c8] mt-2 leading-relaxed">
                           Established SAPL in 1987. Guides long-term
                           strategy, client relationships, and core standards.
                         </p>
@@ -474,7 +470,7 @@ function ProfilePageContent() {
 
                     {/* Board */}
                     <div className="flex justify-center">
-                      <div className="relative bg-[#f7f6f4] border border-[#eae7e3] p-5 rounded-sm w-full max-w-sm text-center overflow-hidden">
+                      <div className="relative bg-[#f7f6f4] border border-[#eae7e3] p-4 rounded-sm w-full max-w-sm text-center overflow-hidden">
                         <div className="absolute left-0 top-0 bottom-0 w-[4px] bg-sapl-blue" />
 
                         <span className="text-[9px] font-extrabold uppercase tracking-[0.2em] text-sapl-blue">
@@ -489,7 +485,7 @@ function ProfilePageContent() {
                           Managing Director & Board Control
                         </p>
 
-                        <p className="text-[10px] text-[#6D675E] mt-3 leading-relaxed">
+                        <p className="text-[10px] text-[#6D675E] mt-2 leading-relaxed">
                           Oversees regional projects, day-to-day
                           administration, cost optimization, and procurement
                           cycles.
@@ -545,7 +541,7 @@ function ProfilePageContent() {
                             transition={{
                               delay: index * 0.07,
                             }}
-                            className="relative bg-white border border-[#eae7e3] p-5 rounded-sm hover:border-sapl-blue/40 hover:shadow-md transition-all duration-300"
+                            className="relative bg-white border border-[#eae7e3] p-4 rounded-sm hover:border-sapl-blue/40 hover:shadow-md transition-all duration-300"
                           >
                             {/* Vertical connector */}
                             <div className="hidden md:block absolute -top-[1px] left-1/2 -translate-x-1/2 w-px h-4 bg-sapl-blue/25" />
@@ -558,7 +554,7 @@ function ProfilePageContent() {
                               {department.title}
                             </h4>
 
-                            <p className="text-[11px] text-[#6D675E] leading-relaxed mt-3">
+                            <p className="text-[11px] text-[#6D675E] leading-relaxed mt-2">
                               {department.text}
                             </p>
                           </motion.div>
@@ -578,7 +574,7 @@ function ProfilePageContent() {
                 <section className="w-full">
 
                   {/* Left aligned heading */}
-                  <div className="max-w-3xl mb-10">
+                  <div className="max-w-3xl mb-8">
                     <span className="text-[10px] font-extrabold uppercase tracking-[0.22em] text-sapl-blue">
                       02 / Infrastructure
                     </span>
@@ -587,7 +583,7 @@ function ProfilePageContent() {
                       Corporate Infrastructure
                     </h2>
 
-                    <div className="w-16 h-[3px] bg-sapl-blue rounded-full mt-4" />
+                    <div className="w-16 h-[3px] bg-sapl-blue rounded-full mt-3" />
 
                     <p className="mt-4 text-sm text-[#6D675E] leading-6 max-w-2xl">
                       Our equipment and operational infrastructure provide the
@@ -625,7 +621,7 @@ function ProfilePageContent() {
                           >
 
                             {/* Category Header */}
-                            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 px-5 py-4 border-b border-[#eae7e3] bg-white">
+                            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 px-4 py-3 border-b border-[#eae7e3] bg-white">
 
                               <div className="flex items-center gap-3">
 
@@ -649,7 +645,7 @@ function ProfilePageContent() {
                                   Total
                                 </span>
 
-                                <span className="bg-sapl-blue/10 border border-sapl-blue/20 text-sapl-blue text-xs font-extrabold px-3 py-1.5 rounded-sm">
+                                <span className="bg-sapl-blue/10 border border-sapl-blue/20 text-sapl-blue text-xs font-extrabold px-2 py-1.5 rounded-sm">
                                   {String(total).padStart(2, "0")}
                                 </span>
                               </div>
@@ -657,14 +653,14 @@ function ProfilePageContent() {
                             </div>
 
                             {/* Equipment rows */}
-                            <div className="p-4 sm:p-5">
+                            <div className="p-4 sm:p-4">
 
                               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5">
 
                                 {items.map((eq, idx) => (
                                   <div
                                     key={`${eq.equipment}-${idx}`}
-                                    className="flex items-center justify-between gap-3 bg-white border border-[#eae7e3] px-3.5 py-3 rounded-sm hover:border-sapl-blue/40 transition-colors"
+                                    className="flex items-center justify-between gap-3 bg-white border border-[#eae7e3] px-3.5 py-2 rounded-sm hover:border-sapl-blue/40 transition-colors"
                                   >
                                     <span className="text-[10.5px] font-bold text-[#1c1a17]">
                                       {eq.equipment}
@@ -699,7 +695,7 @@ function ProfilePageContent() {
                 <section className="w-full">
 
                   {/* Split heading */}
-                  <div className="grid grid-cols-1 lg:grid-cols-[0.8fr_1.2fr] gap-8 lg:gap-16 mb-10">
+                  <div className="grid grid-cols-1 lg:grid-cols-[0.8fr_1.2fr] gap-8 lg:gap-16 mb-8">
 
                     <div>
                       <span className="text-[10px] font-extrabold uppercase tracking-[0.22em] text-sapl-blue">
@@ -710,7 +706,7 @@ function ProfilePageContent() {
                         Our Strategic Approach
                       </h2>
 
-                      <div className="w-16 h-[3px] bg-sapl-blue rounded-full mt-4" />
+                      <div className="w-16 h-[3px] bg-sapl-blue rounded-full mt-3" />
                     </div>
 
                     <div className="lg:pt-5">
@@ -741,15 +737,15 @@ function ProfilePageContent() {
                             onClick={() =>
                               setActiveApproach(section.id)
                             }
-                            className={`w-full flex items-center gap-3 px-5 py-4 text-left border-b last:border-b-0 border-[#eae7e3] transition-colors ${active
-                                ? "bg-white text-sapl-blue"
-                                : "text-[#6D675E] hover:bg-white"
+                            className={`w-full flex items-center gap-3 px-4 py-3 text-left border-b last:border-b-0 border-[#eae7e3] transition-colors ${active
+                              ? "bg-white text-sapl-blue"
+                              : "text-[#6D675E] hover:bg-white"
                               }`}
                           >
                             <span
                               className={`text-[10px] font-extrabold ${active
-                                  ? "text-sapl-blue"
-                                  : "text-[#aaa49a]"
+                                ? "text-sapl-blue"
+                                : "text-[#aaa49a]"
                                 }`}
                             >
                               {section.number}
@@ -767,7 +763,7 @@ function ProfilePageContent() {
                     </div>
 
                     {/* Content */}
-                    <div className="p-6 sm:p-8 lg:p-10 bg-white">
+                    <div className="p-6 sm:p-6 lg:p-8 bg-white">
 
                       <AnimatePresence mode="wait">
                         <motion.div
@@ -821,7 +817,7 @@ function ProfilePageContent() {
                                   Six basic principles of quality
                                 </span>
 
-                                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
+                                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-3">
 
                                   {[
                                     "Provides for long-term quality control through established processes and systems.",
@@ -833,7 +829,7 @@ function ProfilePageContent() {
                                   ].map((item, index) => (
                                     <div
                                       key={index}
-                                      className="flex gap-3 p-4 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm"
+                                      className="flex gap-3 p-3 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm"
                                     >
                                       <span className="text-[10px] font-extrabold text-sapl-blue mt-0.5">
                                         0{index + 1}
@@ -849,7 +845,7 @@ function ProfilePageContent() {
 
                               </div>
 
-                              <p className="mt-7 text-sm font-semibold italic text-[#1c1a17] border-l-2 border-sapl-blue pl-4 py-1">
+                              <p className="mt-7 text-sm font-semibold italic text-[#1c1a17] border-l-2 border-sapl-blue pl-3 py-1">
                                 Our Top Management and staff are committed
                                 to providing our clients the satisfaction
                                 of knowing that we will deliver exactly what
@@ -893,7 +889,7 @@ function ProfilePageContent() {
                                 ].map((item, index) => (
                                   <div
                                     key={index}
-                                    className="flex gap-3 p-4 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm"
+                                    className="flex gap-3 p-3 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm"
                                   >
                                     <CheckCircle2 className="w-4 h-4 text-sapl-blue shrink-0 mt-0.5" />
 
@@ -957,7 +953,7 @@ function ProfilePageContent() {
                                     key={item}
                                     className="p-4 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm"
                                   >
-                                    <CheckCircle2 className="w-4 h-4 text-sapl-blue mb-3" />
+                                    <CheckCircle2 className="w-4 h-4 text-sapl-blue mb-2" />
 
                                     <span className="text-[10px] font-extrabold uppercase tracking-wider text-[#1c1a17]">
                                       {item}
@@ -985,7 +981,7 @@ function ProfilePageContent() {
                 <section className="w-full">
 
                   {/* Left aligned heading */}
-                  <div className="max-w-3xl mb-10">
+                  <div className="max-w-3xl mb-8">
                     <span className="text-[10px] font-extrabold uppercase tracking-[0.22em] text-sapl-blue">
                       04 / Recognition
                     </span>
@@ -994,7 +990,7 @@ function ProfilePageContent() {
                       Awards & Accomplishments
                     </h2>
 
-                    <div className="w-16 h-[3px] bg-sapl-blue rounded-full mt-4" />
+                    <div className="w-16 h-[3px] bg-sapl-blue rounded-full mt-3" />
 
                     <p className="mt-4 text-sm text-[#6D675E] leading-6">
                       Recognition received for achievement, performance and
@@ -1003,29 +999,29 @@ function ProfilePageContent() {
                   </div>
 
                   {/* Featured first award */}
-                  <div className="grid grid-cols-1 lg:grid-cols-[1.15fr_0.85fr] gap-5 mb-6">
+                  <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-[0.9fr_1.1fr] gap-4 lg:gap-6 mb-8 mt-4">
 
                     <button
                       type="button"
                       onClick={() =>
-                        setSelectedAward(awardsImages[0])
+                        setSelectedAward(awardsData[0].src)
                       }
-                      className="group relative bg-[#f7f6f4] border border-[#eae7e3] rounded-sm p-4 text-left overflow-hidden"
+                      className="group relative bg-[#f7f6f4] border border-[#eae7e3] rounded-sm p-3 text-left overflow-hidden"
                     >
-                      <div className="relative aspect-[16/9] bg-white border border-[#eae7e3] overflow-hidden">
+                      <div className="relative aspect-[3/4] sm:aspect-[4/5] lg:aspect-[3/4] bg-white border border-[#eae7e3] overflow-hidden">
 
                         <Image
-                          src={awardsImages[0]}
+                          src={awardsData[0].src}
                           alt="Featured award"
                           fill
                           sizes="(max-width: 1024px) 100vw, 65vw"
-                          className="object-contain transition-transform duration-700 group-hover:scale-[1.025]"
+                          className="object-cover object-top transition-transform duration-700 group-hover:scale-[1.025]"
                         />
 
                         <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/45 to-transparent h-1/2 opacity-0 group-hover:opacity-100 transition-opacity" />
 
                         <div className="absolute bottom-4 left-4 opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all">
-                          <span className="bg-white px-3 py-2 text-[9px] font-extrabold uppercase tracking-wider text-[#1c1a17]">
+                          <span className="bg-white px-2 py-2 text-[9px] font-extrabold uppercase tracking-wider text-[#1c1a17]">
                             View Award
                           </span>
                         </div>
@@ -1038,27 +1034,31 @@ function ProfilePageContent() {
                         </span>
 
                         <h3 className="mt-1 text-sm font-extrabold uppercase tracking-wider text-[#1c1a17]">
-                          Achievement Award
+                          {awardsData[0].title}
                         </h3>
                       </div>
                     </button>
 
-                    <div className="bg-[#f7f6f4] border border-[#eae7e3] rounded-sm p-6 flex flex-col justify-center">
+                    <div className="bg-[#f7f6f4] border border-[#eae7e3] rounded-sm p-6 lg:p-10 flex flex-col justify-center">
 
-                      <Award className="w-8 h-8 text-sapl-blue mb-6" />
+                      <Award className="w-8 h-8 text-sapl-blue mb-4" />
 
-                      <h3 className="text-xl font-extrabold uppercase tracking-wide text-[#1c1a17]">
+                      <h3 className="text-xl lg:text-2xl font-extrabold uppercase tracking-wide text-[#1c1a17]">
                         Recognition through performance
                       </h3>
 
-                      <p className="text-sm text-[#6D675E] leading-6 mt-4">
+                      <p className="text-sm lg:text-base text-[#6D675E] leading-7 mt-4">
                         A collection of awards and accomplishments reflecting
-                        SAPL's history and professional contribution.
+                        SAPL's history and professional contribution. Over the last
+                        three decades, our pursuit of engineering excellence, rapid execution
+                        capabilities, and unwavering commitment to structural quality have been
+                        consistently recognized by esteemed institutions, visionary leaders, and
+                        industry governing bodies across the nation.
                       </p>
 
-                      <div className="mt-6 pt-5 border-t border-[#eae7e3]">
+                      <div className="mt-6 pt-4 border-t border-[#eae7e3]">
                         <span className="text-3xl font-black text-sapl-blue">
-                          {awardsImages.length}
+                          {awardsData.length}
                         </span>
 
                         <span className="ml-2 text-[10px] font-extrabold uppercase tracking-widest text-[#6D675E]">
@@ -1073,15 +1073,8 @@ function ProfilePageContent() {
                   {/* Remaining gallery */}
                   <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
 
-                    {awardsImages.slice(1).map((src, idx) => {
-
-                      const title =
-                        src
-                          .split("/")
-                          .pop()
-                          ?.split(".")[0]
-                          ?.replace(/-/g, " ") ||
-                        `Award ${idx + 2}`;
+                    {awardsData.slice(1).map((award, idx) => {
+                      const { src, title } = award;
 
                       return (
                         <button
@@ -1090,28 +1083,28 @@ function ProfilePageContent() {
                           onClick={() =>
                             setSelectedAward(src)
                           }
-                          className="group bg-[#f7f6f4] border border-[#eae7e3] rounded-sm p-3 text-left hover:shadow-md transition-all"
+                          className="group bg-[#f7f6f4] border border-[#eae7e3] rounded-sm p-2 text-left hover:shadow-md transition-all"
                         >
 
-                          <div className="relative aspect-[4/5] bg-white border border-[#eae7e3] overflow-hidden">
+                          <div className="relative aspect-[3/4] bg-white border border-[#eae7e3] overflow-hidden">
 
                             <Image
                               src={src}
                               alt={title}
                               fill
                               sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
-                              className="object-contain transition-transform duration-700 group-hover:scale-[1.03]"
+                              className="object-cover object-top transition-transform duration-700 group-hover:scale-[1.03]"
                             />
 
                           </div>
 
                           <div className="mt-3 flex gap-2">
 
-                            <span className="text-[9px] font-extrabold text-sapl-blue">
+                            <span className="text-[9px] font-extrabold text-sapl-blue shrink-0">
                               {String(idx + 2).padStart(2, "0")}
                             </span>
 
-                            <span className="text-[9px] font-extrabold uppercase leading-4 tracking-wider text-[#1c1a17] line-clamp-2">
+                            <span className="text-[9px] font-extrabold uppercase leading-4 tracking-wider text-[#1c1a17] line-clamp-2 title-tooltip" title={title}>
                               {title}
                             </span>
 
@@ -1134,7 +1127,7 @@ function ProfilePageContent() {
                 <section className="w-full">
 
                   {/* Split header */}
-                  <div className="grid grid-cols-1 lg:grid-cols-[0.85fr_1.15fr] gap-8 lg:gap-16 mb-10">
+                  <div className="grid grid-cols-1 lg:grid-cols-[0.85fr_1.15fr] gap-8 lg:gap-16 mb-8">
 
                     <div>
                       <span className="text-[10px] font-extrabold uppercase tracking-[0.22em] text-sapl-blue">
@@ -1145,7 +1138,7 @@ function ProfilePageContent() {
                         Corporate Social Responsibility
                       </h2>
 
-                      <div className="w-16 h-[3px] bg-sapl-blue rounded-full mt-4" />
+                      <div className="w-16 h-[3px] bg-sapl-blue rounded-full mt-3" />
                     </div>
 
                     <div className="lg:pt-5">
@@ -1159,11 +1152,11 @@ function ProfilePageContent() {
                   </div>
 
                   {/* Philosophy */}
-                  <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] gap-5 mb-6">
+                  <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] gap-5 mb-4">
 
-                    <div className="bg-[#f7f6f4] border border-[#eae7e3] rounded-sm p-6 sm:p-8">
+                    <div className="bg-[#f7f6f4] border border-[#eae7e3] rounded-sm p-4 sm:p-6">
 
-                      <div className="flex items-center gap-4 mb-6">
+                      <div className="flex items-center gap-4 mb-4">
 
                         <div className="w-11 h-11 bg-white border border-[#eae7e3] rounded-full flex items-center justify-center text-sapl-blue shrink-0">
                           <Globe2 className="w-5 h-5" />
@@ -1196,7 +1189,7 @@ function ProfilePageContent() {
                           surrounding community.
                         </p>
 
-                        <p className="font-semibold text-[#1c1a17] border-l-2 border-sapl-blue pl-4">
+                        <p className="font-semibold text-[#1c1a17] border-l-2 border-sapl-blue pl-3">
                           The Company has participated in developmental
                           activities organized under the plank of CDBACA
                           (Coimbatore Builders & Contractors Association).
@@ -1207,7 +1200,7 @@ function ProfilePageContent() {
                     </div>
 
                     {/* Principles */}
-                    <div className="border border-[#eae7e3] rounded-sm p-6 sm:p-8 bg-white">
+                    <div className="border border-[#eae7e3] rounded-sm p-4 sm:p-6 bg-white">
 
                       <span className="text-[9px] font-extrabold uppercase tracking-widest text-sapl-blue">
                         Three Dimensions
@@ -1222,7 +1215,7 @@ function ProfilePageContent() {
                         ].map((item, index) => (
                           <div
                             key={item}
-                            className="flex items-center gap-4 p-4 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm"
+                            className="flex items-center gap-4 p-3 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm"
                           >
                             <span className="text-[10px] font-extrabold text-sapl-blue">
                               0{index + 1}
@@ -1243,7 +1236,7 @@ function ProfilePageContent() {
                   {/* Initiatives */}
                   <div className="mb-6">
 
-                    <div className="flex items-center gap-3 mb-5">
+                    <div className="flex items-center gap-3 mb-4">
 
                       <span className="text-[10px] font-extrabold uppercase tracking-[0.2em] text-sapl-blue">
                         Community Initiatives
@@ -1256,11 +1249,11 @@ function ProfilePageContent() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
 
                       {/* School */}
-                      <div className="bg-[#f7f6f4] border border-[#eae7e3] p-6 rounded-sm relative overflow-hidden">
+                      <div className="bg-[#f7f6f4] border border-[#eae7e3] p-4 rounded-sm relative overflow-hidden">
 
                         <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
 
-                        <GraduationCap className="w-6 h-6 text-sapl-blue mb-5" />
+                        <GraduationCap className="w-6 h-6 text-sapl-blue mb-4" />
 
                         <span className="text-[9px] font-extrabold uppercase tracking-widest text-[#8a857d]">
                           01
@@ -1270,7 +1263,7 @@ function ProfilePageContent() {
                           School of Construction Artisans
                         </h3>
 
-                        <p className="text-[11px] text-[#6D675E] leading-6 mt-4">
+                        <p className="text-[11px] text-[#6D675E] leading-6 mt-3">
                           A notable initiative promoting trained artisans in
                           construction trades and uplifting rural youth.
                         </p>
@@ -1278,11 +1271,11 @@ function ProfilePageContent() {
                       </div>
 
                       {/* Medical */}
-                      <div className="bg-[#f7f6f4] border border-[#eae7e3] p-6 rounded-sm relative overflow-hidden">
+                      <div className="bg-[#f7f6f4] border border-[#eae7e3] p-4 rounded-sm relative overflow-hidden">
 
                         <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
 
-                        <Heart className="w-6 h-6 text-sapl-blue mb-5" />
+                        <Heart className="w-6 h-6 text-sapl-blue mb-4" />
 
                         <span className="text-[9px] font-extrabold uppercase tracking-widest text-[#8a857d]">
                           02
@@ -1292,7 +1285,7 @@ function ProfilePageContent() {
                           Worker Welfare
                         </h3>
 
-                        <p className="text-[11px] text-[#6D675E] leading-6 mt-4">
+                        <p className="text-[11px] text-[#6D675E] leading-6 mt-3">
                           Regular free medical camps are organized for workers
                           engaged in construction activities.
                         </p>
@@ -1300,11 +1293,11 @@ function ProfilePageContent() {
                       </div>
 
                       {/* Education */}
-                      <div className="bg-[#f7f6f4] border border-[#eae7e3] p-6 rounded-sm relative overflow-hidden">
+                      <div className="bg-[#f7f6f4] border border-[#eae7e3] p-4 rounded-sm relative overflow-hidden">
 
                         <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
 
-                        <GraduationCap className="w-6 h-6 text-sapl-blue mb-5" />
+                        <GraduationCap className="w-6 h-6 text-sapl-blue mb-4" />
 
                         <span className="text-[9px] font-extrabold uppercase tracking-widest text-[#8a857d]">
                           03
@@ -1314,7 +1307,7 @@ function ProfilePageContent() {
                           Engineering Education
                         </h3>
 
-                        <p className="text-[11px] text-[#6D675E] leading-6 mt-4">
+                        <p className="text-[11px] text-[#6D675E] leading-6 mt-3">
                           Sponsoring quiz programmes conducted by engineering
                           colleges for civil engineering students.
                         </p>
@@ -1326,9 +1319,9 @@ function ProfilePageContent() {
                   </div>
 
                   {/* Internal policies */}
-                  <div className="border border-[#eae7e3] bg-white rounded-sm p-6 sm:p-8">
+                  <div className="border border-[#eae7e3] bg-white rounded-sm p-4 sm:p-6">
 
-                    <div className="flex items-center gap-4 mb-6">
+                    <div className="flex items-center gap-4 mb-4">
 
                       <div className="w-11 h-11 bg-[#f7f6f4] border border-[#eae7e3] rounded-full flex items-center justify-center text-sapl-blue">
                         <ShieldCheck className="w-5 h-5" />
@@ -1366,7 +1359,7 @@ function ProfilePageContent() {
               PREVIOUS / NEXT
           ================================================= */}
 
-          <div className="border-t border-[#eae7e3] pt-5">
+          <div className="border-t border-[#eae7e3] pt-4">
 
             <div className="flex items-center justify-between">
 
@@ -1465,7 +1458,7 @@ function ProfilePageContent() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-[100] bg-black/80 backdrop-blur-sm flex items-center justify-center p-4"
+            className="fixed inset-0 z-[100] bg-black/80 backdrop-blur-sm flex items-center justify-center p-3"
             onClick={() => setSelectedAward(null)}
           >
             <motion.div
@@ -1481,7 +1474,7 @@ function ProfilePageContent() {
                 opacity: 0,
                 scale: 0.96,
               }}
-              className="relative w-full max-w-5xl h-[85vh] bg-white p-3 rounded-sm"
+              className="relative w-full max-w-5xl h-[85vh] bg-white p-2 rounded-sm"
               onClick={(event) =>
                 event.stopPropagation()
               }
@@ -1520,7 +1513,7 @@ export default function ProfilePage() {
   return (
     <Suspense
       fallback={
-        <div className="pt-20 pb-12 md:pt-32 md:pb-24 text-center text-navy-500 font-bold uppercase tracking-widest">
+        <div className="pt-20 pb-8 md:pt-24 md:pb-16 text-center text-navy-500 font-bold uppercase tracking-widest">
           Loading Profile...
         </div>
       }

@@ -10,10 +10,10 @@ export default function InfiniteMarquee({
   speedClass = "animate-marquee-infinite",
 }: InfiniteMarqueeProps) {
   return (
-    <div className="w-full overflow-hidden relative py-4">
+    <div className="w-full overflow-hidden relative py-3">
       {/* Absolute fades on edges for premium gradient blending */}
-      <div className="absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none dark:from-navy-950" />
-      <div className="absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none dark:from-navy-950" />
+      <div className="hidden md:block absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none dark:from-navy-950" />
+      <div className="hidden md:block absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none dark:from-navy-950" />
 
       {/* Marquee Wrapper */}
       <div className="flex w-full">

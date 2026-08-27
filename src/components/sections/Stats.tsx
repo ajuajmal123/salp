@@ -106,23 +106,23 @@ export default function Stats() {
   const totalVolume = dynamicStatsList.reduce((acc, stat) => acc + stat.value, 0);
 
   return (
-    <section className="relative py-12 md:py-16 bg-[#f7f6f4] text-[#1c1a17] overflow-hidden border-t border-[#eae7e3] border-b border-[#eae7e3]">
+    <section className="relative py-8 md:py-12 bg-[#f7f6f4] text-[#1c1a17] overflow-hidden border-t border-[#eae7e3] border-b border-[#eae7e3]">
 
       {/* Delicate Cyan Gradient Glows for Premium Architectural Contrast */}
       <div className="absolute top-1/4 left-1/4 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-sapl-blue/[0.04] rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-1/4 right-1/4 translate-x-1/2 translate-y-1/2 w-[600px] h-[600px] bg-sapl-blue/[0.04] rounded-full blur-[120px] pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 relative z-10">
 
         {/* Modernist Header */}
-        <div className="text-center max-w-3xl mx-auto mb-10 flex flex-col items-center gap-4">
+        <div className="text-center max-w-3xl mx-auto mb-8 flex flex-col items-center gap-4">
 
           <motion.div
             initial={{ opacity: 0, y: 15 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-[#eae7e3] text-[10px] font-bold tracking-widest text-sapl-blue uppercase shadow-[0_2px_10px_rgba(0,0,0,0.02)]"
+            className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white border border-[#eae7e3] text-[10px] font-bold tracking-widest text-sapl-blue uppercase shadow-[0_2px_10px_rgba(0,0,0,0.02)]"
           >
             <span className="w-1.5 h-1.5 rounded-full bg-sapl-blue animate-pulse" />
             Total Structural Volume: {totalVolume.toLocaleString("en-US")} Sft
@@ -161,13 +161,13 @@ export default function Stats() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-50px" }}
                 transition={{ duration: 0.7, delay: idx * 0.08, ease: "easeOut" }}
-                className="relative bg-white border border-[#eae7e3] p-6 md:p-8 rounded-xl shadow-[0_4px_20px_-4px_rgba(0,0,0,0.02),0_2px_4px_rgba(0,0,0,0.01)] hover:shadow-xl hover:border-sapl-blue/40 transition-all duration-500 flex flex-col items-start text-left group overflow-hidden"
+                className="relative bg-white border border-[#eae7e3] p-4 md:p-6 rounded-xl shadow-[0_4px_20px_-4px_rgba(0,0,0,0.02),0_2px_4px_rgba(0,0,0,0.01)] hover:shadow-xl hover:border-sapl-blue/40 transition-all duration-500 flex flex-col items-start text-left group overflow-hidden"
               >
                 {/* Glow Backdrop Spot */}
                 <div className="absolute -right-12 -bottom-12 w-32 h-32 rounded-full bg-sapl-blue/0 blur-2xl group-hover:bg-sapl-blue/[0.04] transition-all duration-500 pointer-events-none" />
 
                 {/* Header Icon Row */}
-                <div className="flex items-center justify-between w-full mb-6">
+                <div className="flex items-center justify-between w-full mb-4">
                   <div className="w-14 h-14 rounded-xl bg-[#f7f6f4] flex items-center justify-center border border-[#eae7e3] text-sapl-blue group-hover:bg-sapl-blue group-hover:text-white group-hover:border-sapl-blue group-hover:shadow-lg group-hover:shadow-sapl-blue/20 transition-all duration-500">
                     <Icon className="w-6 h-6 transition-transform duration-500 group-hover:scale-110" />
                   </div>
@@ -183,7 +183,7 @@ export default function Stats() {
                   <AnimatedCounter value={stat.value} suffix="" />
                 </div>
 
-                <div className="text-[9px] font-bold text-sapl-blue uppercase tracking-[0.2em] mb-4">
+                <div className="text-[9px] font-bold text-sapl-blue uppercase tracking-[0.2em] mb-3">
                   Square Feet Delivered
                 </div>
 

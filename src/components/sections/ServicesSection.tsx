@@ -51,11 +51,11 @@ const servicesList: {
 
 export default function ServicesSection() {
   return (
-    <section className="relative py-10 md:py-14 bg-slate-50 dark:bg-navy-950/60 border-t border-slate-100 dark:border-navy-900 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <section className="relative py-8 md:py-14 bg-slate-50 dark:bg-navy-950/60 border-t border-slate-100 dark:border-navy-900 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 relative z-10">
 
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-8 md:mb-10 flex flex-col gap-3">
+        <div className="text-center max-w-3xl mx-auto mb-6 md:mb-8 flex flex-col gap-3">
           <span className="text-xs font-bold uppercase tracking-[0.25em] text-sapl-blue">
             Core Competencies
           </span>

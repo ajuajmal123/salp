@@ -38,7 +38,7 @@ export default function ProjectCard({
             />
           ) : (
             <div className="w-full h-full bg-[#1c1a17] flex items-center justify-center border border-white/5 relative">
-              <span className="text-[10px] font-black uppercase tracking-widest text-[#afa99e]/20 absolute inset-0 flex items-center justify-center select-none text-center px-4 leading-normal">
+              <span className="text-[10px] font-black uppercase tracking-widest text-[#afa99e]/20 absolute inset-0 flex items-center justify-center select-none text-center px-3 leading-normal">
                 no image added
               </span>
             </div>
@@ -69,7 +69,7 @@ export default function ProjectCard({
         </div>
 
         {/* Details Container */}
-        <div className="relative z-10 p-6 flex flex-col gap-3 transition-transform duration-500 group-hover:translate-y-[-4px]">
+        <div className="relative z-10 p-4 flex flex-col gap-3 transition-transform duration-500 group-hover:translate-y-[-4px]">
           {/* Location & Category Header */}
           <div className="flex items-center justify-between text-[10px] font-bold tracking-widest uppercase text-navy-200 gap-2">
             <span className="flex items-center gap-1 text-[#d5d1c8] flex-1 min-w-0">

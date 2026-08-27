@@ -21,10 +21,11 @@ projectsList.forEach((p, idx) => {
   if (p.details?.client) {
     if (!clientsMap.has(p.details.client)) {
       let catId = "corporate"; // default
-      if (p.category === "INDUSTRIAL") catId = "industrial";
-      if (p.category === "RESIDENTIAL") catId = "realestate";
-      if (p.category === "HEALTHCARE") catId = "healthcare";
-      if (p.category === "INSTITUTIONAL") catId = "education";
+      const pCat = p.category ? p.category.toLowerCase().trim() : "";
+      if (pCat === "industrial") catId = "industrial";
+      if (pCat === "residential") catId = "realestate";
+      if (pCat === "healthcare") catId = "healthcare";
+      if (pCat === "institutional") catId = "education";
 
       clientsMap.set(p.details.client, {
         id: `client-${idx}`,
@@ -49,13 +50,14 @@ projectsList.forEach((p, idx) => {
       let catId = "design";
       let cat = "Architects & Design Studios";
 
-      if (p.details.consultant.includes("ENGINEER") || p.details.consultant.includes("STRUCTURAL")) {
+      const cons = p.details.consultant.toLowerCase();
+      if (cons.includes("engineer") || cons.includes("structural")) {
         catId = "engineering";
         cat = "Structural & Engineering Consultants";
-      } else if (p.details.consultant.includes("PROJECT MANAGEMENT") || p.details.consultant.includes("CONSULT")) {
+      } else if (cons.includes("project management") || cons.includes("consult")) {
         catId = "planning";
         cat = "Project Management & Planning";
-      } else if (p.details.consultant.includes("ADVISORY") || p.details.consultant.includes("CONSULTANT")) {
+      } else if (cons.includes("advisory") || cons.includes("consultant")) {
         catId = "advisory";
         cat = "General Consulting & Advisory";
       }

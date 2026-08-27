@@ -6,8 +6,8 @@ import ContactForm from "../ui/ContactForm";
 
 export default function ContactCTA() {
   return (
-    <section className="relative py-16 md:py-24 bg-slate-50 dark:bg-navy-950/40 border-t border-slate-100 dark:border-navy-900 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <section className="relative py-12 md:py-16 bg-slate-50 dark:bg-navy-950/40 border-t border-slate-100 dark:border-navy-900 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 md:gap-16 items-start gap-12">
 
           {/* Left Column: Office Coordinates (5 columns) */}
@@ -87,7 +87,7 @@ export default function ContactCTA() {
                   href="https://wa.me/919842223015"
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#128C7E] text-white text-xs font-extrabold uppercase tracking-widest px-6 py-3.5 rounded-sm transition-all duration-300 shadow-md shadow-emerald-500/10"
+                  className="inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#128C7E] text-white text-xs font-extrabold uppercase tracking-widest px-4 py-3.5 rounded-sm transition-all duration-300 shadow-md shadow-emerald-500/10"
                 >
                   <MessageCircle className="w-4 h-4 fill-white" />
                   Initiate WhatsApp Inquiry
@@ -97,7 +97,7 @@ export default function ContactCTA() {
             </div>
 
             {/* Geographical Coverage */}
-            <div className="border-t border-slate-200 dark:border-navy-850 pt-6">
+            <div className="border-t border-slate-200 dark:border-navy-850 pt-4">
               <span className="text-[10px] font-bold uppercase tracking-wider text-navy-450 dark:text-navy-400">
                 Operating Across South India
               </span>

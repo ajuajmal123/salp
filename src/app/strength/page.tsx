@@ -120,16 +120,17 @@ function StrengthPageContent() {
   const currentList = activeTab === "clients" ? fullClientsList : fullArchitectsList;
 
   const filteredItems = currentList.filter(item => {
-    const matchesSearch = item.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      item.category.toLowerCase().includes(searchQuery.toLowerCase());
+    const query = searchQuery.toLowerCase().trim();
+    const matchesSearch = item.name.toLowerCase().includes(query) ||
+      item.category.toLowerCase().includes(query);
     const matchesCategory = selectedCategory === "all" || item.categoryId === selectedCategory;
     return matchesSearch && matchesCategory;
   });
 
   return (
-    <div className="pt-24 lg:pt-20 pb-12 md:pt-32 md:pb-12 md:pb-24 bg-white min-h-screen">
+    <div className="pt-24 lg:pt-16 pb-8 md:pt-24 md:pb-8 md:pb-16 bg-white min-h-screen">
       {/* Interactive Switcher & Content Wrapper */}
-      <section className="w-full px-4 sm:px-6 lg:px-12">
+      <section className="w-full px-3 sm:px-4 lg:px-8">
         <div className="flex flex-col gap-8">
 
           {/* =================================================
@@ -137,7 +138,7 @@ function StrengthPageContent() {
           ================================================= */}
           <div className="w-full border-b border-[#eae7e3]">
             {/* Desktop */}
-            <div className="hidden lg:flex items-center justify-between pb-4">
+            <div className="hidden lg:flex items-center justify-between pb-3">
               <div className="flex items-center gap-3">
                 <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-sapl-blue">
                   Corporate Strength
@@ -179,7 +180,7 @@ function StrengthPageContent() {
             </div>
 
             {/* Mobile */}
-            <div className="flex lg:hidden items-center justify-between pb-4">
+            <div className="flex lg:hidden items-center justify-between pb-3">
               <span className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-sapl-blue">
                 Corporate Strength
               </span>
@@ -220,7 +221,7 @@ function StrengthPageContent() {
                               handleTabChange(tab.id);
                               setIsDropdownOpen(false);
                             }}
-                            className={`w-full flex items-center gap-3 px-4 py-3.5 text-left border-l-2 transition-colors ${isActive
+                            className={`w-full flex items-center gap-3 px-3 py-3.5 text-left border-l-2 transition-colors ${isActive
                               ? "bg-sapl-blue/5 border-sapl-blue"
                               : "border-transparent hover:bg-[#f7f6f4]"
                               }`}
@@ -258,7 +259,7 @@ function StrengthPageContent() {
                 {/* 1. Clients Content */}
                 {activeTab === "clients" && (
                   <div className="space-y-12">
-                    <div className="flex flex-col lg:items-center lg:text-center items-start gap-3 mb-6">
+                    <div className="flex flex-col lg:items-center lg:text-center items-start gap-3 mb-4">
                       <span className="text-[10px] font-extrabold uppercase tracking-[0.22em] text-sapl-blue">
                         01 / Partnerships
                       </span>
@@ -276,28 +277,30 @@ function StrengthPageContent() {
                       <ClientMarquee hideTitle={true} />
                     </div>
 
-                    {/* High-Fidelity Client Showcase Grid */}
-                    <div className="border-t border-[#eae7e3] pt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      {clientsList.map((client, idx) => (
-                        <div key={idx} className="border border-[#eae7e3] p-5 rounded-sm relative overflow-hidden bg-[#f7f6f4] hover:bg-white hover:shadow-sm transition-all group">
-                          <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
-                          <div className="flex justify-between items-start">
-                            <h4 className="text-xs font-extrabold uppercase tracking-wider text-[#1c1a17]">
-                              {client.name}
-                            </h4>
-                            <span className="inline-flex items-center text-[9px] font-extrabold uppercase tracking-wider text-sapl-blue bg-white border border-[#eae7e3] px-2 py-0.5 rounded-full">
-                              {client.industry}
-                            </span>
+                    {/* High-Fidelity Client Showcase Grid (Shows only when not searching) */}
+                    {searchQuery.trim() === "" && selectedCategory === "all" && (
+                      <div className="border-t border-[#eae7e3] pt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 animate-[fadeIn_0.5s_ease-out]">
+                        {clientsList.map((client, idx) => (
+                          <div key={idx} className="border border-[#eae7e3] p-4 rounded-sm relative overflow-hidden bg-[#f7f6f4] hover:bg-white hover:shadow-sm transition-all group">
+                            <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
+                            <div className="flex justify-between items-start">
+                              <h4 className="text-xs font-extrabold uppercase tracking-wider text-[#1c1a17]">
+                                {client.name}
+                              </h4>
+                              <span className="inline-flex items-center text-[9px] font-extrabold uppercase tracking-wider text-sapl-blue bg-white border border-[#eae7e3] px-2 py-0.5 rounded-full">
+                                {client.industry}
+                              </span>
+                            </div>
+                            <p className="text-[10px] !text-[#6D675E] leading-relaxed mt-2">
+                              {client.desc}
+                            </p>
                           </div>
-                          <p className="text-[10px] !text-[#6D675E] leading-relaxed mt-3">
-                            {client.desc}
-                          </p>
-                        </div>
-                      ))}
-                    </div>
+                        ))}
+                      </div>
+                    )}
 
                     {/* Interactive Directory Section for Clients */}
-                    <div className="border-t border-[#eae7e3] pt-10 mt-8 space-y-6">
+                    <div className="border-t border-[#eae7e3] pt-8 mt-6 space-y-6">
                       <div className="flex flex-col gap-2">
                         <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue">
                           Searchable Directory
@@ -323,7 +326,7 @@ function StrengthPageContent() {
                               setSearchQuery(e.target.value);
                               setVisibleCount(24); // Reset pagination on search
                             }}
-                            className="w-full pl-10 pr-4 py-2.5 text-xs border border-[#eae7e3] rounded-sm focus:outline-none focus:border-sapl-blue/50 focus:ring-1 focus:ring-sapl-blue/20 transition-all text-[#1c1a17] placeholder:text-[#afa99e]"
+                            className="w-full pl-8 pr-3 py-2.5 text-xs border border-[#eae7e3] rounded-sm focus:outline-none focus:border-sapl-blue/50 focus:ring-1 focus:ring-sapl-blue/20 transition-all text-[#1c1a17] placeholder:text-[#afa99e]"
                           />
                         </div>
 
@@ -354,7 +357,7 @@ function StrengthPageContent() {
 
                       {/* Directory Grid */}
                       {filteredItems.length === 0 ? (
-                        <div className="text-center py-12 border border-dashed border-[#eae7e3] rounded-sm">
+                        <div className="text-center py-8 border border-dashed border-[#eae7e3] rounded-sm">
                           <p className="text-xs text-[#6D675E]">No clients found matching your search.</p>
                         </div>
                       ) : (
@@ -391,10 +394,10 @@ function StrengthPageContent() {
 
                       {/* Show More Button */}
                       {filteredItems.length > visibleCount && (
-                        <div className="flex justify-center pt-4">
+                        <div className="flex justify-center pt-3">
                           <button
                             onClick={() => setVisibleCount(prev => prev + 24)}
-                            className="flex items-center gap-2 px-5 py-2.5 bg-navy-950 text-white border border-navy-950 text-[10px] font-extrabold uppercase tracking-wider rounded-sm hover:bg-sapl-blue hover:border-sapl-blue transition-all cursor-pointer shadow-sm hover:-translate-y-[1px]"
+                            className="flex items-center gap-2 px-4 py-2.5 bg-navy-950 text-white border border-navy-950 text-[10px] font-extrabold uppercase tracking-wider rounded-sm hover:bg-sapl-blue hover:border-sapl-blue transition-all cursor-pointer shadow-sm hover:-translate-y-[1px]"
                           >
                             Load More Clients
                             <ChevronRight className="w-3.5 h-3.5" />
@@ -408,7 +411,7 @@ function StrengthPageContent() {
                 {/* 2. Architects Content */}
                 {activeTab === "architects" && (
                   <div className="space-y-12">
-                    <div className="flex flex-col lg:items-center lg:text-center items-start gap-3 mb-6">
+                    <div className="flex flex-col lg:items-center lg:text-center items-start gap-3 mb-4">
                       <span className="text-[10px] font-extrabold uppercase tracking-[0.22em] text-sapl-blue">
                         02 / Design & Engineering Integration
                       </span>
@@ -421,32 +424,34 @@ function StrengthPageContent() {
                       </p>
                     </div>
 
-                    {/* Collaboration Parameters Grid */}
-                    <div className="border-t border-[#eae7e3] pt-8 grid grid-cols-1 gap-6">
-                      {collaborations.map((collab, idx) => (
-                        <div key={idx} className="flex gap-4 items-start bg-[#f7f6f4] p-5 border border-[#eae7e3] rounded-sm">
-                          <div className="w-10 h-10 rounded-full bg-sapl-blue/15 flex items-center justify-center text-sapl-blue shrink-0">
-                            <CheckCircle className="w-5 h-5" />
-                          </div>
-                          <div className="w-full">
-                            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
-                              <h3 className="text-xs font-extrabold uppercase tracking-wider text-[#1c1a17]">
-                                {collab.title}
-                              </h3>
-                              <span className="inline-flex items-center gap-1 text-[9px] font-extrabold uppercase tracking-wider text-sapl-blue shrink-0">
-                                {collab.metric}
-                              </span>
+                    {/* Collaboration Parameters Grid (Shows only when not searching) */}
+                    {searchQuery.trim() === "" && selectedCategory === "all" && (
+                      <div className="border-t border-[#eae7e3] pt-6 grid grid-cols-1 gap-6 animate-[fadeIn_0.5s_ease-out]">
+                        {collaborations.map((collab, idx) => (
+                          <div key={idx} className="flex gap-4 items-start bg-[#f7f6f4] p-4 border border-[#eae7e3] rounded-sm">
+                            <div className="w-10 h-10 rounded-full bg-sapl-blue/15 flex items-center justify-center text-sapl-blue shrink-0">
+                              <CheckCircle className="w-5 h-5" />
                             </div>
-                            <p className="text-[10px] !text-[#6D675E] leading-relaxed mt-2">
-                              {collab.desc}
-                            </p>
+                            <div className="w-full">
+                              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+                                <h3 className="text-xs font-extrabold uppercase tracking-wider text-[#1c1a17]">
+                                  {collab.title}
+                                </h3>
+                                <span className="inline-flex items-center gap-1 text-[9px] font-extrabold uppercase tracking-wider text-sapl-blue shrink-0">
+                                  {collab.metric}
+                                </span>
+                              </div>
+                              <p className="text-[10px] !text-[#6D675E] leading-relaxed mt-2">
+                                {collab.desc}
+                              </p>
+                            </div>
                           </div>
-                        </div>
-                      ))}
-                    </div>
+                        ))}
+                      </div>
+                    )}
 
                     {/* Interactive Directory Section for Architects */}
-                    <div className="border-t border-[#eae7e3] pt-10 mt-8 space-y-6">
+                    <div className="border-t border-[#eae7e3] pt-8 mt-6 space-y-6">
                       <div className="flex flex-col gap-2">
                         <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue">
                           Searchable Directory
@@ -472,7 +477,7 @@ function StrengthPageContent() {
                               setSearchQuery(e.target.value);
                               setVisibleCount(24); // Reset pagination on search
                             }}
-                            className="w-full pl-10 pr-4 py-2.5 text-xs border border-[#eae7e3] rounded-sm focus:outline-none focus:border-sapl-blue/50 focus:ring-1 focus:ring-sapl-blue/20 transition-all text-[#1c1a17] placeholder:text-[#afa99e]"
+                            className="w-full pl-8 pr-3 py-2.5 text-xs border border-[#eae7e3] rounded-sm focus:outline-none focus:border-sapl-blue/50 focus:ring-1 focus:ring-sapl-blue/20 transition-all text-[#1c1a17] placeholder:text-[#afa99e]"
                           />
                         </div>
 
@@ -503,7 +508,7 @@ function StrengthPageContent() {
 
                       {/* Directory Grid */}
                       {filteredItems.length === 0 ? (
-                        <div className="text-center py-12 border border-dashed border-[#eae7e3] rounded-sm">
+                        <div className="text-center py-8 border border-dashed border-[#eae7e3] rounded-sm">
                           <p className="text-xs text-[#6D675E]">No partners found matching your search.</p>
                         </div>
                       ) : (
@@ -539,10 +544,10 @@ function StrengthPageContent() {
 
                       {/* Show More Button */}
                       {filteredItems.length > visibleCount && (
-                        <div className="flex justify-center pt-4">
+                        <div className="flex justify-center pt-3">
                           <button
                             onClick={() => setVisibleCount(prev => prev + 24)}
-                            className="flex items-center gap-2 px-5 py-2.5 bg-navy-950 text-white border border-navy-950 text-[10px] font-extrabold uppercase tracking-wider rounded-sm hover:bg-sapl-blue hover:border-sapl-blue transition-all cursor-pointer shadow-sm hover:-translate-y-[1px]"
+                            className="flex items-center gap-2 px-4 py-2.5 bg-navy-950 text-white border border-navy-950 text-[10px] font-extrabold uppercase tracking-wider rounded-sm hover:bg-sapl-blue hover:border-sapl-blue transition-all cursor-pointer shadow-sm hover:-translate-y-[1px]"
                           >
                             Load More Partners
                             <ChevronRight className="w-3.5 h-3.5" />
@@ -564,7 +569,7 @@ function StrengthPageContent() {
 export default function StrengthPage() {
   return (
     <Suspense fallback={
-      <div className="pt-20 pb-12 md:pt-32 md:pb-24 text-center text-navy-500 font-bold uppercase tracking-widest">
+      <div className="pt-20 pb-8 md:pt-24 md:pb-16 text-center text-navy-500 font-bold uppercase tracking-widest">
         Loading Strength Section...
       </div>
     }>

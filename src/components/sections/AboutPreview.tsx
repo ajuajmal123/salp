@@ -7,8 +7,8 @@ import { CheckCircle2, ArrowRight } from "lucide-react";
 
 export default function AboutPreview() {
   return (
-    <section className="relative py-12 md:py-24 bg-white dark:bg-navy-950 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <section className="relative py-8 md:py-16 bg-white dark:bg-navy-950 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
           
           {/* Left Column: Visual asymmetric layout (5 columns) */}
@@ -36,7 +36,7 @@ export default function AboutPreview() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="absolute -bottom-8 -right-4 md:-right-8 bg-sapl-blue text-white p-6 rounded-sm shadow-xl shadow-sapl-blue/30 max-w-[200px]"
+              className="absolute -bottom-8 -right-4 md:-right-8 bg-sapl-blue text-white p-4 rounded-sm shadow-xl shadow-sapl-blue/30 max-w-[200px]"
             >
               <span className="block text-3xl font-extrabold tracking-tight">35+</span>
               <span className="block text-[10px] font-bold uppercase tracking-wider mt-1 text-blue-100">
@@ -90,7 +90,7 @@ export default function AboutPreview() {
             <div className="mt-4">
               <Link
                 href="/about"
-                className="inline-flex items-center justify-center px-6 py-3.5 bg-navy-950 hover:bg-sapl-blue dark:bg-white dark:hover:bg-sapl-blue text-white dark:text-navy-950 dark:hover:text-white font-bold text-xs tracking-wider uppercase rounded-sm transition-all duration-300 select-none group"
+                className="inline-flex items-center justify-center px-4 py-3.5 bg-navy-950 hover:bg-sapl-blue dark:bg-white dark:hover:bg-sapl-blue text-white dark:text-navy-950 dark:hover:text-white font-bold text-xs tracking-wider uppercase rounded-sm transition-all duration-300 select-none group"
               >
                 Learn More About Us
                 <ArrowRight className="ml-2 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />

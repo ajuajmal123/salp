@@ -52,11 +52,11 @@ const industries = [
 
 export default function IndustriesSection() {
   return (
-    <section className="relative py-10 md:py-14 bg-slate-50 dark:bg-navy-950/40 border-y border-slate-100 dark:border-navy-900 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <section className="relative py-8 md:py-14 bg-slate-50 dark:bg-navy-950/40 border-y border-slate-100 dark:border-navy-900 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 relative z-10">
 
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-8 md:mb-10 flex flex-col gap-3">
+        <div className="text-center max-w-3xl mx-auto mb-6 md:mb-8 flex flex-col gap-3">
           <span className="text-xs font-bold uppercase tracking-[0.25em] text-sapl-blue">
             Sectors Covered
           </span>
@@ -94,7 +94,7 @@ export default function IndustriesSection() {
                 </div>
 
                 {/* Industry Card Content */}
-                <div className="relative z-10 p-6 md:p-8 h-full flex flex-col justify-between items-start text-left">
+                <div className="relative z-10 p-4 md:p-6 h-full flex flex-col justify-between items-start text-left">
                   {/* Icon */}
                   <div className="w-12 h-12 rounded-full bg-sapl-blue/10 border border-sapl-blue/20 flex items-center justify-center text-sapl-blue group-hover:bg-sapl-blue group-hover:text-white transition-colors duration-500">
                     <Icon className="w-5 h-5" />

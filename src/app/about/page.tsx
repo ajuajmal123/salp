@@ -21,7 +21,7 @@ export default function AboutPage() {
     <div className="pt-20 bg-white">
 
       {/* 1. Sub-page Header Hero Section */}
-      <section className="relative py-12 md:py-16 bg-sapl-blue text-white overflow-hidden">
+      <section className="relative py-8 md:py-12 bg-sapl-blue text-white overflow-hidden">
 
 
         {/* Widescreen background image banner */}
@@ -34,7 +34,7 @@ export default function AboutPage() {
           <div className="absolute inset-0 bg-gradient-to-t from-sapl-blue via-sapl-blue/80 to-transparent" />
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 relative z-10 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -46,7 +46,7 @@ export default function AboutPage() {
               About Us
             </h1>
             <div className="w-20 h-[3px] bg-white rounded-full mt-2" />
-            <p className="max-w-3xl text-sm sm:text-base leading-relaxed mt-4 !text-white font-medium">
+            <p className="max-w-3xl text-sm sm:text-base leading-relaxed mt-3 !text-white font-medium">
               Established in 1987, Srinivasan Associates Private Limited has grown into one of South India's premier civil engineering and construction organizations, built on quality, on-time delivery, and engineering excellence.
             </p>
           </motion.div>
@@ -54,21 +54,24 @@ export default function AboutPage() {
       </section>
 
       {/* 2. Core Profile & Corporate Legacy (Banding: Pure White Canvas) */}
-      <section className="py-12 md:py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#eae7e3]">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
+      <section className="py-12 md:py-12 max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 border-b border-[#eae7e3]">
+        {/* Full Width Heading */}
+        <div className="flex flex-col gap-5 text-left mb-6 w-full">
+          <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue">
+            Our Journey & Reach
+          </span>
+          <h2 className="font-sans font-extrabold text-3xl sm:text-4xl lg:text-5xl tracking-tight uppercase" style={{ color: "#1c1a17" }}>
+            Over Three Decades of Civil Excellence
+          </h2>
+          <div className="w-16 h-[2.5px] bg-sapl-blue rounded-full" />
+        </div>
 
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
           {/* Narrative Text Column */}
           <div className="lg:col-span-7 flex flex-col gap-6 text-left">
-            <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue">
-              Our Journey & Reach
-            </span>
-            <h2 className="font-sans font-extrabold text-3xl sm:text-4xl tracking-tight uppercase" style={{ color: "#1c1a17" }}>
-              Over Three Decades of Civil Excellence
-            </h2>
-            <div className="w-12 h-[2.5px] bg-sapl-blue rounded-full" />
 
-            <div className="space-y-6 text-[#4F4C42] text-sm sm:text-base leading-relaxed mt-4">
-              <p className="font-semibold !text-[#2a2823] text-base border-l-2 border-sapl-blue pl-4">
+            <div className="space-y-6 text-[#4F4C42] text-sm sm:text-base leading-relaxed">
+              <p className="font-semibold !text-[#2a2823] text-base border-l-2 border-sapl-blue pl-3">
                 Founded in 1987 by Er. G. Srinivasan, Srinivasan Associates Private Limited (referred as SAPL) is headquartered in Coimbatore, Tamilnadu. From humble beginnings, SAPL has experienced an exponential growth in size and reputation over the last decades and is now a renowned civil engineering and construction organization.
               </p>
               <p>
@@ -84,8 +87,8 @@ export default function AboutPage() {
           </div>
 
           {/* Quick Metrics Visual Panel */}
-          <div className="lg:col-span-5 bg-[#f7f6f4] border border-[#eae7e3] p-8 rounded-sm text-left shadow-sm">
-            <h3 className="text-xs font-extrabold uppercase tracking-[0.2em] text-sapl-blue mb-8">
+          <div className="lg:col-span-5 bg-[#f7f6f4] border border-[#eae7e3] p-6 rounded-sm text-left shadow-sm">
+            <h3 className="text-xs font-extrabold uppercase tracking-[0.2em] text-sapl-blue mb-6">
               Corporate Snapshot
             </h3>
             <div className="space-y-8">
@@ -141,7 +144,7 @@ export default function AboutPage() {
       </section>
 
       {/* 2.5 Founder & Chairman Section (Banding: Pure White Canvas) */}
-      <section className="py-12 md:py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-b border-[#eae7e3]">
+      <section className="py-12 md:py-12 max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 border-b border-[#eae7e3]">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
           {/* Founder Image (5 columns) */}
           <div className="lg:col-span-5 relative">
@@ -170,7 +173,7 @@ export default function AboutPage() {
             <div className="w-12 h-[2.5px] bg-sapl-blue rounded-full" />
 
             <div className="space-y-4 text-[#4F4C42] text-sm sm:text-base leading-relaxed mt-2">
-              <p className="font-semibold !text-[#2a2823] italic border-l-2 border-sapl-blue pl-4">
+              <p className="font-semibold !text-[#2a2823] italic border-l-2 border-sapl-blue pl-3">
                 "Our journey since 1987 has been defined by a commitment to quality, integrity, and client satisfaction. We believe in engineering structures that stand the test of time, built on a foundation of trust and technical excellence."
               </p>
               <p>
@@ -182,8 +185,8 @@ export default function AboutPage() {
       </section>
 
       {/* 3. Leadership & Operational Strengths (Banding: Warm Light Stone Canvas) */}
-      <section className="py-12 md:py-16 bg-[#f7f6f4] border-b border-[#eae7e3]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-left">
+      <section className="py-12 md:py-12 bg-[#f7f6f4] border-b border-[#eae7e3]">
+        <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 text-left">
 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
 
@@ -197,7 +200,7 @@ export default function AboutPage() {
               </h2>
               <div className="w-12 h-[2.5px] bg-sapl-blue rounded-full" />
 
-              <div className="space-y-6 text-[#4F4C42] text-sm sm:text-base leading-relaxed mt-4">
+              <div className="space-y-6 text-[#4F4C42] text-sm sm:text-base leading-relaxed mt-3">
                 <p>
                   SAPL’s senior leadership and project teams give relentless attention to details and to understand customer requirements across various segments while consistently adapting to industrial advancements and technological upgradation in the civil field.
                 </p>
@@ -214,9 +217,9 @@ export default function AboutPage() {
             <div className="lg:col-span-6 flex flex-col gap-8">
 
               {/* Pillar 1: Top-Down Focus */}
-              <div className="bg-white border border-[#eae7e3] p-8 rounded-sm shadow-sm relative overflow-hidden group hover:shadow-md transition-shadow">
+              <div className="bg-white border border-[#eae7e3] p-6 rounded-sm shadow-sm relative overflow-hidden group hover:shadow-md transition-shadow">
                 <div className="absolute top-0 left-0 w-full h-[3px] bg-sapl-blue" />
-                <div className="flex items-center gap-4 mb-4">
+                <div className="flex items-center gap-4 mb-3">
                   <div className="w-10 h-10 rounded-full bg-sapl-blue/10 flex items-center justify-center text-sapl-blue">
                     <Users2 className="w-5 h-5" />
                   </div>
@@ -230,9 +233,9 @@ export default function AboutPage() {
               </div>
 
               {/* Pillar 2: Robust Fleet of Plant & Machinery */}
-              <div className="bg-white border border-[#eae7e3] p-8 rounded-sm shadow-sm relative overflow-hidden group hover:shadow-md transition-shadow">
+              <div className="bg-white border border-[#eae7e3] p-6 rounded-sm shadow-sm relative overflow-hidden group hover:shadow-md transition-shadow">
                 <div className="absolute top-0 left-0 w-full h-[3px] bg-sapl-blue" />
-                <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center justify-between mb-3">
                   <div className="flex items-center gap-4">
                     <div className="w-10 h-10 rounded-full bg-sapl-blue/10 flex items-center justify-center text-sapl-blue">
                       <Wrench className="w-5 h-5" />
@@ -258,10 +261,10 @@ export default function AboutPage() {
       </section>
 
       {/* 4. Full Width Sincere Assurance Banner (Deep Slate/Stone Accent) */}
-      <section className="py-12 md:py-16 bg-sapl-blue text-white relative overflow-hidden">
+      <section className="py-12 md:py-12 bg-sapl-blue text-white relative overflow-hidden">
 
 
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+        <div className="max-w-5xl mx-auto px-3 sm:px-4 lg:px-6 text-center relative z-10">
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -286,8 +289,8 @@ export default function AboutPage() {
       </section>
 
       {/* 5. Strategic Vision & Mission Grid (Banding: Pure White Canvas) */}
-      <section className="py-12 md:py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center max-w-3xl mx-auto mb-12 flex flex-col items-center gap-4">
+      <section className="py-12 md:py-12 max-w-7xl mx-auto px-3 sm:px-4 lg:px-6">
+        <div className="text-center max-w-3xl mx-auto mb-8 flex flex-col items-center gap-4">
           <span className="text-xs font-bold uppercase tracking-[0.25em] text-sapl-blue">
             Our Foundation
           </span>
@@ -301,7 +304,7 @@ export default function AboutPage() {
 
           {/* Vision Section */}
           <div className="flex flex-col gap-8">
-            <div className="flex items-center justify-center gap-4 border-b border-[#eae7e3] pb-4">
+            <div className="flex items-center justify-center gap-4 border-b border-[#eae7e3] pb-3">
               <div className="w-10 h-10 rounded-full bg-sapl-blue/10 flex items-center justify-center text-sapl-blue">
                 <Target className="w-5 h-5" />
               </div>
@@ -333,7 +336,7 @@ export default function AboutPage() {
 
           {/* Mission Section */}
           <div className="flex flex-col gap-8">
-            <div className="flex items-center justify-center gap-4 border-b border-[#eae7e3] pb-4">
+            <div className="flex items-center justify-center gap-4 border-b border-[#eae7e3] pb-3">
               <div className="w-10 h-10 rounded-full bg-sapl-blue/10 flex items-center justify-center text-sapl-blue">
                 <Award className="w-5 h-5" />
               </div>

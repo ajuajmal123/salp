@@ -86,7 +86,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="w-full bg-white dark:bg-navy-900 border border-[#eae7e3] dark:border-navy-800 p-5 xs:p-6 sm:p-8 md:p-10 rounded-md shadow-xl shadow-navy-950/5 relative overflow-hidden">
+    <div className="w-full bg-white dark:bg-navy-900 border border-[#eae7e3] dark:border-navy-800 p-4 xs:p-6 sm:p-6 md:p-8 rounded-md shadow-xl shadow-navy-950/5 relative overflow-hidden">
 
       {/* Visual Accent top border */}
       <div className="absolute top-0 left-0 right-0 h-[4px] bg-sapl-blue" />
@@ -125,7 +125,7 @@ export default function ContactForm() {
                   value={formData.name}
                   onChange={handleChange}
                   placeholder="Enter Your Name"
-                  className={`w-full px-4 py-2.5 sm:py-3 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${errors.name
+                  className={`w-full px-3 py-2.5 sm:py-2 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${errors.name
                     ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
                     : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
                     }`}
@@ -152,7 +152,7 @@ export default function ContactForm() {
                   value={formData.email}
                   onChange={handleChange}
                   placeholder="Enter Your Email"
-                  className={`w-full px-4 py-2.5 sm:py-3 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${errors.email
+                  className={`w-full px-3 py-2.5 sm:py-2 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${errors.email
                     ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
                     : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
                     }`}
@@ -182,7 +182,7 @@ export default function ContactForm() {
                   value={formData.phone}
                   onChange={handleChange}
                   placeholder="Enter Your Phone Number"
-                  className={`w-full px-4 py-2.5 sm:py-3 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${errors.phone
+                  className={`w-full px-3 py-2.5 sm:py-2 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${errors.phone
                     ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
                     : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
                     }`}
@@ -208,7 +208,7 @@ export default function ContactForm() {
                     name="service"
                     value={formData.service}
                     onChange={handleChange}
-                    className={`w-full px-4 py-2.5 sm:py-3 pr-10 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 ${formData.service ? 'text-black' : 'text-[#afa99e]'} dark:text-white text-xs sm:text-sm font-semibold tracking-wide appearance-none focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 cursor-pointer ${errors.service
+                    className={`w-full px-3 py-2.5 sm:py-2 pr-8 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 ${formData.service ? 'text-black' : 'text-[#afa99e]'} dark:text-white text-xs sm:text-sm font-semibold tracking-wide appearance-none focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 cursor-pointer ${errors.service
                       ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
                       : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
                       }`}
@@ -221,7 +221,7 @@ export default function ContactForm() {
                     <option value="Premium Residential">Luxury Residential</option>
                     <option value="General Engineering">Turnkey Solutions</option>
                   </select>
-                  <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none text-[#afa99e]">
+                  <div className="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none text-[#afa99e]">
                     <ChevronDown className="w-4 h-4" />
                   </div>
                 </div>
@@ -249,7 +249,7 @@ export default function ContactForm() {
                 value={formData.message}
                 onChange={handleChange}
                 placeholder="Provide a detailed summary of your building requirements, square footage, structural designs, or timelines..."
-                className={`w-full px-4 py-2.5 sm:py-3 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 resize-y min-h-[120px] ${errors.message
+                className={`w-full px-3 py-2.5 sm:py-2 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 resize-y min-h-[120px] ${errors.message
                   ? "border-red-500 focus:border-red-500 focus:ring-red-500/15"
                   : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
                   }`}
@@ -266,7 +266,7 @@ export default function ContactForm() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="inline-flex items-center justify-center gap-2.5 px-6 py-2.5 bg-gradient-to-r from-sapl-blue to-[#4fd1e1] hover:from-sapl-blue-hover hover:to-[#229fae] text-white rounded-full font-extrabold text-xs tracking-widest uppercase transition-all duration-300 shadow-md shadow-sapl-blue/20 hover:shadow-sapl-blue/45 hover:scale-[1.03] active:scale-[0.97] disabled:opacity-70 disabled:cursor-not-allowed select-none w-fit cursor-pointer"
+              className="inline-flex items-center justify-center gap-2.5 px-4 py-2.5 bg-gradient-to-r from-sapl-blue to-[#4fd1e1] hover:from-sapl-blue-hover hover:to-[#229fae] text-white rounded-full font-extrabold text-xs tracking-widest uppercase transition-all duration-300 shadow-md shadow-sapl-blue/20 hover:shadow-sapl-blue/45 hover:scale-[1.03] active:scale-[0.97] disabled:opacity-70 disabled:cursor-not-allowed select-none w-fit cursor-pointer"
             >
               {isSubmitting ? (
                 <>
@@ -287,18 +287,18 @@ export default function ContactForm() {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.4 }}
-            className="flex flex-col items-center justify-center py-10 md:py-16 text-center"
+            className="flex flex-col items-center justify-center py-8 md:py-12 text-center"
           >
-            <CheckCircle2 className="w-16 h-16 text-emerald-500 mb-6" />
+            <CheckCircle2 className="w-16 h-16 text-emerald-500 mb-4" />
             <h3 className="text-2xl font-extrabold tracking-tight text-navy-950 dark:text-white">
               Proposal Transmitted Successfully
             </h3>
-            <p className="text-slate-500 dark:text-navy-300 max-w-md text-sm mt-3 leading-relaxed">
+            <p className="text-slate-500 dark:text-navy-300 max-w-md text-sm mt-2 leading-relaxed">
               Thank you for initiating contact with Srinivasan Associates. Your technical request has been routed directly to our Peelamedu estimation office. An engineer will follow up shortly.
             </p>
             <button
               onClick={() => setIsSuccess(false)}
-              className="mt-8 inline-flex items-center justify-center gap-2 px-6 py-2.5 bg-gradient-to-r from-sapl-blue to-[#4fd1e1] hover:from-sapl-blue-hover hover:to-[#229fae] text-white rounded-full font-extrabold text-xs tracking-widest uppercase transition-all duration-300 shadow-md shadow-sapl-blue/20 hover:shadow-sapl-blue/45 hover:scale-[1.03] active:scale-[0.97] cursor-pointer"
+              className="mt-8 inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-gradient-to-r from-sapl-blue to-[#4fd1e1] hover:from-sapl-blue-hover hover:to-[#229fae] text-white rounded-full font-extrabold text-xs tracking-widest uppercase transition-all duration-300 shadow-md shadow-sapl-blue/20 hover:shadow-sapl-blue/45 hover:scale-[1.03] active:scale-[0.97] cursor-pointer"
             >
               Submit Another Inquiry
             </button>

@@ -65,7 +65,7 @@ function SearchableCombo({
     <div className="relative w-full z-50 text-[9px] uppercase tracking-wider text-[#1c1a17]" ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-full bg-white border border-[#eae7e3] hover:border-sapl-blue/50 font-extrabold py-2 px-3 rounded-sm flex items-center justify-between transition-all cursor-pointer shadow-sm text-left relative z-20"
+        className="w-full bg-white border border-[#eae7e3] hover:border-sapl-blue/50 font-extrabold py-2 px-2 rounded-sm flex items-center justify-between transition-all cursor-pointer shadow-sm text-left relative z-20"
       >
         <span className="truncate">{selectedOpt?.label || placeholder}</span>
         <ChevronDown className={`w-3 h-3 text-[#afa99e] transition-transform ${isOpen ? "rotate-180" : ""}`} />
@@ -107,7 +107,7 @@ function SearchableCombo({
                         onChange(opt.value);
                         setIsOpen(false);
                       }}
-                      className={`w-full text-left px-3 py-2 font-bold hover:bg-sapl-blue/10 hover:text-sapl-blue transition-colors cursor-pointer ${value === opt.value ? 'bg-sapl-blue text-white' : ''}`}
+                      className={`w-full text-left px-2 py-2 font-bold hover:bg-sapl-blue/10 hover:text-sapl-blue transition-colors cursor-pointer ${value === opt.value ? 'bg-sapl-blue text-white' : ''}`}
                     >
                       {opt.label}
                     </button>
@@ -115,7 +115,7 @@ function SearchableCombo({
                 </div>
               ))}
               {filteredOptions.length === 0 && (
-                <div className="px-3 py-4 text-center text-[#afa99e] font-bold">
+                <div className="px-3 py-3 text-center text-[#afa99e] font-bold">
                   No results found
                 </div>
               )}
@@ -129,7 +129,7 @@ function SearchableCombo({
 
 export default function ProjectsPage() {
   return (
-    <Suspense fallback={<div className="text-center py-12 md:py-20 text-slate-400 font-semibold uppercase tracking-wider">Loading Projects...</div>}>
+    <Suspense fallback={<div className="text-center py-8 md:py-16 text-slate-400 font-semibold uppercase tracking-wider">Loading Projects...</div>}>
       <ProjectsContent />
     </Suspense>
   );
@@ -175,11 +175,13 @@ function ProjectsContent() {
       if (selectedCategory === "All") {
         categoryMatch = true;
       } else if (selectedCategory.startsWith("client:")) {
-        categoryMatch = project.details?.client === selectedCategory.split(":")[1];
+        const clientVal = selectedCategory.split(":")[1];
+        categoryMatch = project.details?.client?.toLowerCase().trim() === clientVal.toLowerCase().trim();
       } else if (selectedCategory.startsWith("architect:")) {
-        categoryMatch = project.details?.consultant === selectedCategory.split(":")[1];
+        const archVal = selectedCategory.split(":")[1];
+        categoryMatch = project.details?.consultant?.toLowerCase().trim() === archVal.toLowerCase().trim();
       } else {
-        categoryMatch = project.category === selectedCategory;
+        categoryMatch = project.category?.toLowerCase().trim() === selectedCategory.toLowerCase().trim();
       }
 
       let statusMatch = true;
@@ -242,10 +244,10 @@ function ProjectsContent() {
   ];
 
   return (
-    <div className="pt-24 lg:pt-20 pb-12 md:pt-32 md:pb-12 md:pb-24 bg-white min-h-screen">
+    <div className="pt-28 md:pt-32 lg:pt-36 pb-4 bg-white min-h-screen">
 
       {/* Page Heading */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-5 text-center flex flex-col items-center justify-center">
+      <section className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 mb-4 text-center flex flex-col items-center justify-center">
         <h1 className="font-sans font-extrabold text-2xl sm:text-3xl tracking-tight uppercase mt-2 text-[#1c1a17]">
           Our Projects Gallery
         </h1>
@@ -253,7 +255,7 @@ function ProjectsContent() {
       </section>
 
       {/* Filter Row - Extremely Compact Dropdowns Aligned to the Right */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-3">
+      <section className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 mb-2">
         <div className="flex flex-col sm:flex-row items-center justify-end gap-2 w-full">
 
           {/* Search Input for Project Matches */}
@@ -264,7 +266,7 @@ function ProjectsContent() {
               placeholder="Search Projects..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full bg-white border border-[#eae7e3] hover:border-sapl-blue/50 text-[9px] font-extrabold uppercase tracking-wider text-[#1c1a17] py-2 pl-6 pr-2 rounded-sm focus:outline-none focus:border-sapl-blue transition-all shadow-sm placeholder:text-[#afa99e]"
+              className="w-full bg-white border border-[#eae7e3] hover:border-sapl-blue/50 text-[9px] font-extrabold uppercase tracking-wider text-[#1c1a17] py-2 pl-4 pr-2 rounded-sm focus:outline-none focus:border-sapl-blue transition-all shadow-sm placeholder:text-[#afa99e]"
             />
           </div>
 
@@ -283,7 +285,7 @@ function ProjectsContent() {
             <select
               value={selectedStatus}
               onChange={(e) => setSelectedStatus(e.target.value)}
-              className="w-full bg-white border border-[#eae7e3] hover:border-sapl-blue/50 text-[9px] font-extrabold uppercase tracking-wider text-[#1c1a17] py-2 pl-2 pr-6 rounded-sm appearance-none focus:outline-none focus:border-sapl-blue transition-all cursor-pointer shadow-sm"
+              className="w-full bg-white border border-[#eae7e3] hover:border-sapl-blue/50 text-[9px] font-extrabold uppercase tracking-wider text-[#1c1a17] py-2 pl-2 pr-4 rounded-sm appearance-none focus:outline-none focus:border-sapl-blue transition-all cursor-pointer shadow-sm"
             >
               {statuses.map((stat) => (
                 <option key={stat} value={stat}>
@@ -300,7 +302,7 @@ function ProjectsContent() {
       </section>
 
       {/* Projects Grid */}
-      <section className="pt-2 pb-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="pt-2 pb-4 max-w-7xl mx-auto px-3 sm:px-4 lg:px-6">
         {sortedProjects.length > 0 ? (
           <motion.div
             layout
@@ -331,7 +333,7 @@ function ProjectsContent() {
             </AnimatePresence>
           </motion.div>
         ) : (
-          <div className="text-center py-12 md:py-20">
+          <div className="text-center py-8 md:py-16">
             <p className="text-slate-400 dark:text-navy-500 text-lg font-semibold uppercase tracking-wider">
               No projects found matching the selected filters.
             </p>
@@ -340,10 +342,10 @@ function ProjectsContent() {
 
         {/* Modernist minimalist Show All Projects trigger */}
         {!isFilterActive && !showAll && sortedProjects.length > 0 && (
-          <div className="text-center mt-16 flex justify-center animate-[fadeIn_0.6s_ease-out_0.3s_both]">
+          <div className="text-center mt-6 flex justify-center animate-[fadeIn_0.6s_ease-out_0.3s_both]">
             <button
               onClick={() => setShowAll(true)}
-              className="group relative px-10 py-4 bg-sapl-blue hover:bg-[#0c8099] text-white text-[10px] font-black uppercase tracking-widest overflow-hidden transition-all duration-300 hover:shadow-lg rounded-sm cursor-pointer"
+              className="group relative px-8 py-3 bg-sapl-blue hover:bg-[#0c8099] text-white text-[10px] font-black uppercase tracking-widest overflow-hidden transition-all duration-300 hover:shadow-lg rounded-sm cursor-pointer"
             >
               <span className="relative z-10">Show All Projects</span>
               <div className="absolute inset-0 bg-[#0d8ca6] transition-transform duration-300 translate-y-full group-hover:translate-y-0" />

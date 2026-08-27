@@ -49,7 +49,7 @@ export default function Navbar() {
           : "h-[88px] md:h-[105px] shadow-sm"
           }`}
       >
-        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-full max-w-7xl mx-auto px-3 sm:px-4 lg:px-6">
           <div className="flex items-center justify-between">
             {/* Logo */}
             <Link href="/" className="flex items-center">
@@ -88,13 +88,13 @@ export default function Navbar() {
             <div className="hidden lg:flex items-center gap-3">
               <button
                 onClick={() => window.dispatchEvent(new Event("open-brochure-modal"))}
-                className="inline-flex items-center justify-center px-5 py-2.5 font-extrabold text-xs tracking-widest uppercase rounded-full border transition-all duration-300 backdrop-blur-sm select-none cursor-pointer hover:scale-[1.03] active:scale-[0.97] bg-navy-50/70 hover:bg-navy-100/90 text-navy-800 border-navy-200/80 hover:border-sapl-blue/50"
+                className="inline-flex items-center justify-center px-4 py-2.5 font-extrabold text-xs tracking-widest uppercase rounded-full border transition-all duration-300 backdrop-blur-sm select-none cursor-pointer hover:scale-[1.03] active:scale-[0.97] bg-navy-50/70 hover:bg-navy-100/90 text-navy-800 border-navy-200/80 hover:border-sapl-blue/50"
               >
                 Brochure
               </button>
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center px-6 py-2.5 bg-gradient-to-r from-sapl-blue to-[#4fd1e1] hover:from-sapl-blue-hover hover:to-[#229fae] text-white font-extrabold text-xs tracking-widest uppercase rounded-full transition-all duration-300 shadow-md shadow-sapl-blue/20 hover:shadow-sapl-blue/45 hover:scale-[1.03] active:scale-[0.97] select-none group"
+                className="inline-flex items-center justify-center px-4 py-2.5 bg-gradient-to-r from-sapl-blue to-[#4fd1e1] hover:from-sapl-blue-hover hover:to-[#229fae] text-white font-extrabold text-xs tracking-widest uppercase rounded-full transition-all duration-300 shadow-md shadow-sapl-blue/20 hover:shadow-sapl-blue/45 hover:scale-[1.03] active:scale-[0.97] select-none group"
               >
                 Inquire Now
               </Link>
@@ -122,7 +122,7 @@ export default function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.3 }}
-            className="fixed inset-0 z-40 bg-slate-50/98 backdrop-blur-lg flex flex-col justify-center px-6 py-12 lg:hidden"
+            className="fixed inset-0 z-40 bg-slate-50/98 backdrop-blur-lg flex flex-col justify-center px-4 py-8 lg:hidden"
           >
             {/* Safe Header Buffer */}
             <div className="absolute top-5 right-4 flex justify-end items-center">
@@ -134,7 +134,7 @@ export default function Navbar() {
               </button>
             </div>
 
-            <nav className="flex flex-col gap-6 text-center my-auto">
+            <nav className="flex flex-col gap-3 text-center my-auto">
               {navLinks.map((link, idx) => {
                 const isActive = pathname === link.href;
                 return (
@@ -146,7 +146,7 @@ export default function Navbar() {
                   >
                     <Link
                       href={link.href}
-                      className={`text-xl font-extrabold tracking-widest uppercase block py-3 ${isActive ? "text-sapl-blue" : "text-navy-900 hover:text-sapl-blue"
+                      className={`text-xl font-extrabold tracking-widest uppercase block py-2 ${isActive ? "text-sapl-blue" : "text-navy-900 hover:text-sapl-blue"
                         }`}
                     >
                       {link.name}
@@ -159,20 +159,20 @@ export default function Navbar() {
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: navLinks.length * 0.05 }}
-                className="mt-8 flex flex-col gap-4 items-center"
+                className="mt-6 flex flex-col gap-3 items-center"
               >
                 <button
                   onClick={() => {
                     setIsOpen(false);
                     window.dispatchEvent(new Event("open-brochure-modal"));
                   }}
-                  className="inline-flex items-center justify-center w-full max-w-xs px-8 py-4 bg-navy-100/50 hover:bg-navy-200/50 text-navy-900 rounded-full font-extrabold text-xs tracking-widest uppercase border border-navy-200/50 hover:scale-[1.03] active:scale-[0.97] transition-all select-none cursor-pointer"
+                  className="inline-flex items-center justify-center w-full max-w-xs px-6 py-3 bg-navy-100/50 hover:bg-navy-200/50 text-navy-900 rounded-full font-extrabold text-xs tracking-widest uppercase border border-navy-200/50 hover:scale-[1.03] active:scale-[0.97] transition-all select-none cursor-pointer"
                 >
                   Download Brochure
                 </button>
                 <Link
                   href="/contact"
-                  className="inline-flex items-center justify-center w-full max-w-xs px-8 py-4 bg-gradient-to-r from-sapl-blue to-[#4fd1e1] hover:from-sapl-blue-hover hover:to-[#229fae] text-white rounded-full font-extrabold text-xs tracking-widest uppercase shadow-lg shadow-sapl-blue/20 hover:scale-[1.03] active:scale-[0.97] transition-all select-none group"
+                  className="inline-flex items-center justify-center w-full max-w-xs px-6 py-3 bg-gradient-to-r from-sapl-blue to-[#4fd1e1] hover:from-sapl-blue-hover hover:to-[#229fae] text-white rounded-full font-extrabold text-xs tracking-widest uppercase shadow-lg shadow-sapl-blue/20 hover:scale-[1.03] active:scale-[0.97] transition-all select-none group"
                 >
                   Contact Us
                 </Link>
@@ -180,7 +180,7 @@ export default function Navbar() {
             </nav>
 
             {/* Mobile Footer */}
-            <div className="text-center text-navy-500 text-xs tracking-wider border-t border-navy-200 pt-6">
+            <div className="text-center text-navy-500 text-xs tracking-wider border-t border-navy-200 pt-4">
               © {new Date().getFullYear()} Srinivasan Associates. All Rights Reserved.
             </div>
           </motion.div>

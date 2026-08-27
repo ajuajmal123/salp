@@ -28,7 +28,7 @@ export default function Hero() {
       {/* =========================================================
           HERO CONTENT (WHITE TEXT WITH DEEP SHADOWS, OVERLAY-FREE)
       ========================================================== */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 w-full pt-16">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 relative z-20 w-full pt-12">
         <div className="max-w-4xl mx-auto text-center flex flex-col items-center gap-6 sm:gap-7">
 
           {/* HEADING */}
@@ -74,12 +74,12 @@ export default function Hero() {
               delay: 0.3,
               ease: "easeOut",
             }}
-            className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-5 mt-4 w-full sm:w-auto z-30"
+            className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-5 mt-3 w-full sm:w-auto z-30"
           >
             {/* Explore Projects */}
             <Link
               href="/projects"
-              className="inline-flex items-center justify-center px-8 py-4 bg-sapl-blue hover:bg-sapl-blue-hover text-white font-extrabold text-xs tracking-widest uppercase rounded-full transition-all duration-300 shadow-lg shadow-sapl-blue/20 hover:shadow-sapl-blue/40 hover:scale-[1.03] active:scale-[0.97] select-none w-full sm:w-auto text-center cursor-pointer"
+              className="inline-flex items-center justify-center px-6 py-3 bg-sapl-blue hover:bg-sapl-blue-hover text-white font-extrabold text-xs tracking-widest uppercase rounded-full transition-all duration-300 shadow-lg shadow-sapl-blue/20 hover:shadow-sapl-blue/40 hover:scale-[1.03] active:scale-[0.97] select-none w-full sm:w-auto text-center cursor-pointer"
             >
               Explore Projects
             </Link>
@@ -89,7 +89,7 @@ export default function Hero() {
               onClick={() =>
                 window.dispatchEvent(new Event("open-brochure-modal"))
               }
-              className="inline-flex items-center justify-center px-8 py-4 bg-white/80 hover:bg-white text-navy-800 font-extrabold text-xs tracking-widest uppercase rounded-full border border-white/80 hover:border-sapl-blue/50 transition-all duration-300 select-none cursor-pointer hover:scale-[1.03] active:scale-[0.97] w-full sm:w-auto text-center shadow-sm backdrop-blur-sm"
+              className="inline-flex items-center justify-center px-6 py-3 bg-white/80 hover:bg-white text-navy-800 font-extrabold text-xs tracking-widest uppercase rounded-full border border-white/80 hover:border-sapl-blue/50 transition-all duration-300 select-none cursor-pointer hover:scale-[1.03] active:scale-[0.97] w-full sm:w-auto text-center shadow-sm backdrop-blur-sm"
             >
               Download Brochure
             </button>
@@ -97,7 +97,7 @@ export default function Hero() {
             {/* Contact Us */}
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center px-8 py-4 bg-sapl-blue hover:bg-sapl-blue-hover text-white font-extrabold text-xs tracking-widest uppercase rounded-full transition-all duration-300 shadow-lg shadow-sapl-blue/20 hover:shadow-sapl-blue/40 hover:scale-[1.03] active:scale-[0.97] select-none w-full sm:w-auto text-center cursor-pointer"
+              className="inline-flex items-center justify-center px-6 py-3 bg-sapl-blue hover:bg-sapl-blue-hover text-white font-extrabold text-xs tracking-widest uppercase rounded-full transition-all duration-300 shadow-lg shadow-sapl-blue/20 hover:shadow-sapl-blue/40 hover:scale-[1.03] active:scale-[0.97] select-none w-full sm:w-auto text-center cursor-pointer"
             >
               Contact Us
             </Link>

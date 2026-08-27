@@ -58,14 +58,14 @@ const valuesList = [
 
 export default function CoreValues() {
   return (
-    <section className="relative py-12 md:py-16 bg-[#f7f6f4] text-[#1c1a17] overflow-hidden border-b border-[#eae7e3]">
+    <section className="relative py-8 md:py-12 bg-[#f7f6f4] text-[#1c1a17] overflow-hidden border-b border-[#eae7e3]">
 
 
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 relative z-10">
 
         {/* Modernist Section Header - Centered */}
-        <div className="text-center max-w-3xl mx-auto mb-8 md:mb-12 flex flex-col items-center gap-4">
+        <div className="text-center max-w-3xl mx-auto mb-6 md:mb-8 flex flex-col items-center gap-4">
           <span className="text-xs font-bold uppercase tracking-[0.25em] text-sapl-blue">
             Core Beliefs
           </span>
@@ -88,26 +88,26 @@ export default function CoreValues() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-50px" }}
                 transition={{ duration: 0.6, delay: idx * 0.08, ease: "easeOut" }}
-                className="bg-white rounded-xl p-6 md:p-8 border border-[#eae7e3] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col items-center text-center group w-full relative overflow-hidden"
+                className="bg-white rounded-xl p-4 md:p-6 border border-[#eae7e3] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col items-center text-center group w-full relative overflow-hidden"
               >
                 {/* Subtle border top accent corresponding to card color */}
-                <div className={`absolute top-0 left-0 w-full h-[4px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${val.dividerClass}`} />
+                <div className={`absolute top-0 left-0 w-full h-[4px] opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-300 ${val.dividerClass}`} />
 
                 {/* Circular Icon (Exactly matches image format, updated for premium feel) */}
-                <div className={`w-20 h-20 rounded-full flex items-center justify-center ${val.colorClass} shadow-lg transition-transform duration-300 group-hover:scale-110 mb-6 shrink-0`}>
+                <div className={`w-20 h-20 rounded-full flex items-center justify-center ${val.colorClass} shadow-lg transition-transform duration-300 md:group-hover:scale-110 mb-4 shrink-0`}>
                   <Icon className="w-8 h-8" />
                 </div>
 
                 {/* Value Title */}
-                <h3 className="font-sans text-base font-extrabold tracking-wider uppercase mb-3 text-[#1c1a17]" style={{ color: "#1c1a17" }}>
+                <h3 className="font-sans text-base font-extrabold tracking-wider uppercase mb-2 text-[#1c1a17]" style={{ color: "#1c1a17" }}>
                   {val.title}
                 </h3>
 
                 {/* Subtle Divider (Expands on hover) */}
-                <div className={`w-8 h-[2px] ${val.dividerClass} opacity-60 my-1 transition-all duration-300 group-hover:w-16 rounded-full`} />
+                <div className={`h-[2px] ${val.dividerClass} opacity-60 my-1 transition-all duration-300 w-16 md:w-8 md:group-hover:w-16 rounded-full`} />
 
                 {/* Description (Maximum contrast and legibility) */}
-                <p className="text-[#6D675E] text-sm leading-relaxed mt-4 !text-[#6D675E] group-hover:!text-[#2a2823] transition-colors">
+                <p className="text-sm leading-relaxed mt-3 transition-colors !text-[#2a2823] md:!text-[#6D675E] md:group-hover:!text-[#2a2823]">
                   {val.description}
                 </p>
               </motion.div>

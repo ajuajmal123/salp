@@ -82,7 +82,7 @@ export default function BrochureModal() {
   return (
     <AnimatePresence>
       {isOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-3">
 
           {/* Backdrop Blur Overlay */}
           <motion.div
@@ -117,7 +117,7 @@ export default function BrochureModal() {
             <div className="max-h-[90vh] overflow-y-auto">
 
               {/* Lead Capture Form */}
-              <div className="p-6 xs:p-8 sm:p-10 flex flex-col justify-center">
+              <div className="p-6 xs:p-8 sm:p-8 flex flex-col justify-center">
                 <AnimatePresence mode="wait">
                   {!isSuccess ? (
                     <motion.form
@@ -153,7 +153,7 @@ export default function BrochureModal() {
                             if (errors.name) setErrors((prev) => ({ ...prev, name: undefined }));
                           }}
                           placeholder="Enter Your name"
-                          className={`w-full px-4 py-2.5 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${errors.name
+                          className={`w-full px-3 py-2.5 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${errors.name
                             ? "border-red-500 focus:border-red-500"
                             : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
                             }`}
@@ -183,7 +183,7 @@ export default function BrochureModal() {
                             if (errors.email) setErrors((prev) => ({ ...prev, email: undefined }));
                           }}
                           placeholder="Enter Your email"
-                          className={`w-full px-4 py-2.5 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${errors.email
+                          className={`w-full px-3 py-2.5 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${errors.email
                             ? "border-red-500 focus:border-red-500"
                             : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
                             }`}
@@ -213,7 +213,7 @@ export default function BrochureModal() {
                             if (errors.address) setErrors((prev) => ({ ...prev, address: undefined }));
                           }}
                           placeholder="Enter Your address"
-                          className={`w-full px-4 py-2.5 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${errors.address
+                          className={`w-full px-3 py-2.5 rounded-md border bg-[#fbfbfa] dark:bg-navy-950 text-navy-950 dark:text-white text-xs sm:text-sm font-semibold tracking-wide placeholder-[#afa99e] focus:outline-none focus:bg-white focus:ring-4 focus:ring-sapl-blue/15 transition-all duration-300 ${errors.address
                             ? "border-red-500 focus:border-red-500"
                             : "border-[#eae7e3] dark:border-navy-800 focus:border-sapl-blue"
                             }`}
@@ -230,7 +230,7 @@ export default function BrochureModal() {
                       <button
                         type="submit"
                         disabled={isSubmitting}
-                        className="inline-flex items-center justify-center gap-2.5 px-6 py-3 bg-gradient-to-r from-sapl-blue to-[#4fd1e1] hover:from-sapl-blue-hover hover:to-[#229fae] text-white rounded-full font-extrabold text-xs tracking-widest uppercase transition-all duration-300 shadow-md shadow-sapl-blue/20 hover:shadow-sapl-blue/45 hover:scale-[1.03] active:scale-[0.97] disabled:opacity-70 disabled:cursor-not-allowed select-none w-fit cursor-pointer mt-2"
+                        className="inline-flex items-center justify-center gap-2.5 px-4 py-2 bg-gradient-to-r from-sapl-blue to-[#4fd1e1] hover:from-sapl-blue-hover hover:to-[#229fae] text-white rounded-full font-extrabold text-xs tracking-widest uppercase transition-all duration-300 shadow-md shadow-sapl-blue/20 hover:shadow-sapl-blue/45 hover:scale-[1.03] active:scale-[0.97] disabled:opacity-70 disabled:cursor-not-allowed select-none w-fit cursor-pointer mt-2"
                       >
                         {isSubmitting ? (
                           <>
@@ -251,18 +251,18 @@ export default function BrochureModal() {
                       initial={{ opacity: 0, scale: 0.95 }}
                       animate={{ opacity: 1, scale: 1 }}
                       transition={{ duration: 0.4 }}
-                      className="flex flex-col items-center justify-center text-center py-6"
+                      className="flex flex-col items-center justify-center text-center py-4"
                     >
-                      <CheckCircle2 className="w-14 h-14 text-emerald-500 mb-5" />
+                      <CheckCircle2 className="w-14 h-14 text-emerald-500 mb-4" />
                       <h3 className="text-xl font-extrabold tracking-tight text-navy-950 dark:text-white uppercase leading-tight">
                         Download Initialized!
                       </h3>
-                      <p className="text-slate-500 dark:text-navy-300 max-w-sm text-xs sm:text-sm mt-3 leading-relaxed">
+                      <p className="text-slate-500 dark:text-navy-300 max-w-sm text-xs sm:text-sm mt-2 leading-relaxed">
                         Thank you! The compressed corporate brochure has been requested. It should begin downloading in your browser automatically.
                       </p>
 
                       {/* Review details collected & direct contact info card */}
-                      <div className="w-full mt-6 bg-[#f7f6f4] dark:bg-navy-950 p-4 rounded-md border border-[#eae7e3] dark:border-navy-800 text-left space-y-3">
+                      <div className="w-full mt-4 bg-[#f7f6f4] dark:bg-navy-950 p-3 rounded-md border border-[#eae7e3] dark:border-navy-800 text-left space-y-3">
                         <div className="text-[10px] font-extrabold text-black dark:text-navy-400 tracking-widest uppercase border-b border-[#eae7e3] dark:border-navy-800 pb-2">
                           Lead Verification Summary
                         </div>
@@ -293,7 +293,7 @@ export default function BrochureModal() {
 
                       <button
                         onClick={() => setIsOpen(false)}
-                        className="mt-6 inline-flex items-center justify-center px-6 py-2.5 bg-gradient-to-r from-sapl-blue to-[#4fd1e1] hover:from-sapl-blue-hover hover:to-[#229fae] text-white rounded-full font-extrabold text-xs tracking-widest uppercase transition-all duration-300 shadow-md shadow-sapl-blue/20 hover:shadow-sapl-blue/45 hover:scale-[1.03] active:scale-[0.97] cursor-pointer"
+                        className="mt-6 inline-flex items-center justify-center px-4 py-2.5 bg-gradient-to-r from-sapl-blue to-[#4fd1e1] hover:from-sapl-blue-hover hover:to-[#229fae] text-white rounded-full font-extrabold text-xs tracking-widest uppercase transition-all duration-300 shadow-md shadow-sapl-blue/20 hover:shadow-sapl-blue/45 hover:scale-[1.03] active:scale-[0.97] cursor-pointer"
                       >
                         Close Window
                       </button>

@@ -16,18 +16,18 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="relative bg-[#f7f6f4] text-navy-950 border-t border-[#eae7e3] pt-12 pb-8">
+    <footer className="relative bg-[#f7f6f4] text-navy-950 border-t border-[#eae7e3] pt-8 pb-6">
       {/* Premium cyan gradient illumination line at the top border */}
       <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-sapl-blue/0 via-sapl-blue/50 to-sapl-blue/0" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6">
 
         {/* Top Grid: Quick Links, 3 Addresses, Central Enquiries (Horizontally aligned) */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 pb-2">
 
           {/* Column 1: Quick Links */}
           <div>
-            <h3 className="font-sans text-xs font-bold tracking-[0.25em] uppercase mb-4 text-sapl-blue">
+            <h3 className="font-sans text-xs font-bold tracking-[0.25em] uppercase mb-3 text-sapl-blue">
               Quick Links
             </h3>
             <ul className="space-y-3">
@@ -43,7 +43,7 @@ export default function Footer() {
                     href={link.href}
                     className="group flex items-center text-sm text-navy-900 hover:text-sapl-blue transition-all duration-300 transform hover:translate-x-1 font-bold"
                   >
-                    <span className="w-1.5 h-1.5 rounded-full bg-navy-400 group-hover:bg-sapl-blue mr-3 transition-colors duration-300" />
+                    <span className="w-1.5 h-1.5 rounded-full bg-navy-400 group-hover:bg-sapl-blue mr-2 transition-colors duration-300" />
                     {link.name}
                   </Link>
                 </li>
@@ -53,7 +53,7 @@ export default function Footer() {
                   onClick={() => window.dispatchEvent(new Event("open-brochure-modal"))}
                   className="group flex items-center text-sm text-sapl-blue hover:text-navy-950 transition-colors duration-300 cursor-pointer bg-transparent border-none p-0 outline-none text-left font-bold"
                 >
-                  <span className="w-1.5 h-1.5 rounded-full bg-sapl-blue mr-3 group-hover:bg-navy-950 transition-colors" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-sapl-blue mr-2 group-hover:bg-navy-950 transition-colors" />
                   Download Brochure
                   <ExternalLink className="ml-1.5 w-3 h-3 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                 </button>
@@ -63,7 +63,7 @@ export default function Footer() {
 
           {/* Column 2: Coimbatore (HQ) */}
           <div>
-            <h3 className="font-sans text-xs font-bold tracking-[0.25em] uppercase mb-4 text-sapl-blue">
+            <h3 className="font-sans text-xs font-bold tracking-[0.25em] uppercase mb-3 text-sapl-blue">
               Coimbatore (HQ)
             </h3>
             <div className="space-y-3 text-navy-900 text-sm">
@@ -94,7 +94,7 @@ export default function Footer() {
 
           {/* Column 3: Chennai Office */}
           <div>
-            <h3 className="font-sans text-xs font-bold tracking-[0.25em] uppercase mb-4 text-sapl-blue">
+            <h3 className="font-sans text-xs font-bold tracking-[0.25em] uppercase mb-3 text-sapl-blue">
               Chennai Office
             </h3>
             <div className="space-y-3 text-navy-900 text-sm">
@@ -117,7 +117,7 @@ export default function Footer() {
 
           {/* Column 4: Bengaluru Office */}
           <div>
-            <h3 className="font-sans text-xs font-bold tracking-[0.25em] uppercase mb-4 text-sapl-blue">
+            <h3 className="font-sans text-xs font-bold tracking-[0.25em] uppercase mb-3 text-sapl-blue">
               Bengaluru Office
             </h3>
             <div className="space-y-3 text-navy-900 text-sm">
@@ -134,7 +134,7 @@ export default function Footer() {
 
           {/* Column 5: Central Enquiries */}
           <div>
-            <h3 className="font-sans text-xs font-bold tracking-[0.25em] uppercase mb-4 text-sapl-blue">
+            <h3 className="font-sans text-xs font-bold tracking-[0.25em] uppercase mb-3 text-sapl-blue">
               Central Enquiries
             </h3>
             <div className="space-y-4 text-navy-900 text-sm">
@@ -177,21 +177,15 @@ export default function Footer() {
           {/* Center: Social Icons */}
           <div className="flex items-center justify-center gap-3 shrink-0">
             <a
-              href="#"
+              href="https://www.facebook.com/share/1JnmtX1HQZ/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-8 h-8 rounded-full bg-white border border-[#eae7e3] flex items-center justify-center text-navy-700 hover:text-white hover:bg-sapl-blue hover:border-sapl-blue transition-all duration-300 hover:scale-110 shadow-sm"
               aria-label="Facebook"
             >
               <Facebook className="w-3.5 h-3.5" />
             </a>
-            <a
-              href="#"
-              className="w-8 h-8 rounded-full bg-white border border-[#eae7e3] flex items-center justify-center text-navy-700 hover:text-white hover:bg-sapl-blue hover:border-sapl-blue transition-all duration-300 hover:scale-110 shadow-sm"
-              aria-label="Twitter"
-            >
-              <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-              </svg>
-            </a>
+
             <a
               href="https://www.linkedin.com"
               target="_blank"
@@ -204,7 +198,9 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/saplofficial?igsi=OXZ4OHBqY2F4aHhr"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-8 h-8 rounded-full bg-white border border-[#eae7e3] flex items-center justify-center text-navy-700 hover:text-white hover:bg-sapl-blue hover:border-sapl-blue transition-all duration-300 hover:scale-110 shadow-sm"
               aria-label="Instagram"
             >
@@ -212,7 +208,7 @@ export default function Footer() {
             </a>
           </div>
 
-          {/* Right: Policy Links */}
+          {/* Right: Policy Links and Credits */}
           <div className="flex items-center flex-wrap justify-center xl:justify-end gap-6 shrink-0 xl:flex-1">
             <a href="#" className="hover:text-sapl-blue transition-colors">
               Privacy Policy
@@ -220,12 +216,32 @@ export default function Footer() {
             <a href="#" className="hover:text-sapl-blue transition-colors">
               Terms & Conditions
             </a>
-            <a href="#" className="hover:text-sapl-blue transition-colors">
-              Sitemap
-            </a>
+            <small className="copyright__content font-normal text-navy-800 tracking-wider flex items-center gap-1">
+              <span className="opacity-70">Designed by</span>
+              <a href="https://www.instagram.com/nashcreations.in" target="_blank" rel="noopener noreferrer" className="blinking-text hover:opacity-80 transition-opacity">Creations</a>
+            </small>
           </div>
         </div>
       </div>
+
+      <style dangerouslySetInnerHTML={{
+        __html: `
+          @keyframes blinkColors {
+            0%   { color: #ffd431; }
+            20%  { color: #03ff75; }
+            40%  { color: #cd76ea; }
+            60%  { color: #ffb444; }
+            80%  { color: #ff5e5e; }
+            100% { color: #38dbff; }
+          }
+          .blinking-text {
+            font-weight: bold;
+            font-size: 13px;
+            animation: blinkColors 3s infinite;
+            text-decoration: none;
+          }
+        `
+      }} />
     </footer>
   );
 }
