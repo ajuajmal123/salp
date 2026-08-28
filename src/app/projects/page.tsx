@@ -266,7 +266,7 @@ function ProjectsContent() {
               placeholder="Search Projects..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full bg-white border border-[#eae7e3] hover:border-sapl-blue/50 text-[9px] font-extrabold uppercase tracking-wider text-[#1c1a17] py-2 pl-4 pr-2 rounded-sm focus:outline-none focus:border-sapl-blue transition-all shadow-sm placeholder:text-[#afa99e]"
+              className="w-full bg-white border border-[#eae7e3] hover:border-sapl-blue/50 text-[9px] font-extrabold uppercase tracking-wider text-[#1c1a17] py-2 pl-7 pr-2 rounded-sm focus:outline-none focus:border-sapl-blue transition-all shadow-sm placeholder:text-[#afa99e]"
             />
           </div>
 

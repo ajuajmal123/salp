@@ -125,8 +125,8 @@ export default function Footer() {
                 <MapPin className="w-4 h-4 text-sapl-blue shrink-0 mt-0.5" />
                 <span className="leading-relaxed font-semibold">
                   7th Floor, Unit No. 713,<br />
-                  Barton Centre, No. 84, MG Road,<br />
-                  Bengaluru, Karnataka – 560001
+                  Barton Centre, No. 84,<br /> MG Road, Bengaluru,
+                  Karnataka – 560001
                 </span>
               </div>
             </div>

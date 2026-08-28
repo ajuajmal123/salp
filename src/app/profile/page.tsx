@@ -77,7 +77,6 @@ const awardsData = [
   { src: "/Awards/mdsirimg5.jpeg", title: "Long Span Portico Slab Using Self Compacting Concrete Indian Concrete Institute & UltraTech" },
   { src: "/Awards/mdsirimg6.jpeg", title: "Lifetime Achiever Award – Institution of Engineers, Coimbatore" },
   { src: "/Awards/mdsirimg7.jpeg", title: "Distinguished Well-Wisher Award from Ramakrishna Mission Vidyalaya, Coimbatore" },
-  { src: "/Awards/mdsirimg8.jpeg", title: "Lifetime Achiever Award – Institution of Engineers, Coimbatore" },
 ];
 
 /* =========================================================
@@ -1033,7 +1032,7 @@ function ProfilePageContent() {
                           Featured Recognition
                         </span>
 
-                        <h3 className="mt-1 text-sm font-extrabold uppercase tracking-wider text-[#1c1a17]">
+                        <h3 className="mt-1 text-base font-extrabold uppercase tracking-wider text-[#1c1a17]">
                           {awardsData[0].title}
                         </h3>
                       </div>
@@ -1071,7 +1070,7 @@ function ProfilePageContent() {
                   </div>
 
                   {/* Remaining gallery */}
-                  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-5 lg:gap-6">
 
                     {awardsData.slice(1).map((award, idx) => {
                       const { src, title } = award;
@@ -1104,7 +1103,7 @@ function ProfilePageContent() {
                               {String(idx + 2).padStart(2, "0")}
                             </span>
 
-                            <span className="text-[9px] font-extrabold uppercase leading-4 tracking-wider text-[#1c1a17] line-clamp-2 title-tooltip" title={title}>
+                            <span className="text-[12px] font-extrabold uppercase leading-[1.1rem] tracking-wider text-[#1c1a17] line-clamp-2 title-tooltip" title={title}>
                               {title}
                             </span>
 
