@@ -10,6 +10,7 @@ interface FormData {
   phone: string;
   service: string;
   message: string;
+  consentAccepted: boolean;
 }
 
 interface FormErrors {
@@ -18,6 +19,7 @@ interface FormErrors {
   phone?: string;
   service?: string;
   message?: string;
+  consentAccepted?: string;
 }
 
 export default function ContactForm() {
@@ -27,6 +29,7 @@ export default function ContactForm() {
     phone: "",
     service: "",
     message: "",
+    consentAccepted: false,
   });
 
   const [errors, setErrors] = useState<FormErrors>({});
@@ -51,6 +54,10 @@ export default function ContactForm() {
 
     if (!formData.service) tempErrors.service = "Please select a service sector";
     if (!formData.message.trim()) tempErrors.message = "Message details are required";
+
+    if (!formData.consentAccepted) {
+      tempErrors.consentAccepted = "Please accept the Privacy Policy & Terms to continue.";
+    }
 
     setErrors(tempErrors);
     return Object.keys(tempErrors).length === 0;
@@ -82,6 +89,7 @@ export default function ContactForm() {
       phone: "",
       service: "",
       message: "",
+      consentAccepted: false,
     });
   };
 
@@ -258,6 +266,38 @@ export default function ContactForm() {
                 <span className="flex items-center gap-1.5 text-xs text-red-500 font-bold mt-1">
                   <AlertCircle className="w-3.5 h-3.5" />
                   {errors.message}
+                </span>
+              )}
+            </div>
+
+            {/* Privacy Consent Checkbox */}
+            <div className="flex flex-col gap-1.5 mt-2">
+              <label className="flex items-start gap-3 cursor-pointer group w-fit">
+                <div className="relative flex items-start mt-[1px]">
+                  <input
+                    type="checkbox"
+                    name="consentAccepted"
+                    checked={formData.consentAccepted}
+                    onChange={(e) => {
+                      setFormData(prev => ({ ...prev, [e.target.name]: e.target.checked }));
+                      if (errors.consentAccepted && e.target.checked) {
+                        setErrors(prev => ({ ...prev, consentAccepted: undefined }));
+                      }
+                    }}
+                    className="peer appearance-none w-4 h-4 border border-slate-300 dark:border-navy-600 rounded bg-[#fbfbfa] dark:bg-navy-950 checked:bg-sapl-blue checked:border-sapl-blue focus:outline-none focus:ring-2 focus:ring-sapl-blue/50 transition-all cursor-pointer shrink-0"
+                  />
+                  <svg className="w-3 h-3 text-white absolute left-0.5 top-0.5 opacity-0 peer-checked:opacity-100 pointer-events-none transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <span className="text-[11px] sm:text-xs text-[#6D675E] dark:text-navy-300 leading-relaxed select-none max-w-[95%]">
+                  I have read and understood the <a href="/SAPLPrivacy%20Policy.pdf" className="text-sapl-blue hover:underline font-bold focus:outline-none focus-visible:ring-2 focus-visible:ring-sapl-blue/50 rounded-sm" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/SAPLTerms%20%26%20Conditions.pdf" className="text-sapl-blue hover:underline font-bold focus:outline-none focus-visible:ring-2 focus-visible:ring-sapl-blue/50 rounded-sm" target="_blank" rel="noopener noreferrer">Terms & Conditions</a> and consent to SAPL processing the personal information I submit through this form for the purpose of responding to my enquiry.
+                </span>
+              </label>
+              {errors.consentAccepted && (
+                <span className="flex items-center gap-1.5 text-xs text-red-500 font-bold mt-1">
+                  <AlertCircle className="w-3.5 h-3.5 shrink-0" />
+                  {errors.consentAccepted}
                 </span>
               )}
             </div>

@@ -127,8 +127,8 @@ export default function ContactPage() {
                   <Mail className="w-5 h-5 text-sapl-blue shrink-0" />
                   <div className="flex flex-col">
                     <span className="text-[10px] font-bold uppercase tracking-wider text-[#6D675E]">General Enquiries</span>
-                    <a href="mailto:info@sapl.in" className="font-bold hover:text-sapl-blue transition-colors">
-                      info@sapl.in
+                    <a href="mailto:tender@sapl.in" className="font-bold hover:text-sapl-blue transition-colors">
+                      tender@sapl.in
                     </a>
                   </div>
                 </div>

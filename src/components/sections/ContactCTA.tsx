@@ -73,10 +73,10 @@ export default function ContactCTA() {
                     Corporate Email
                   </h4>
                   <a
-                    href="mailto:info@sapl.in"
+                    href="mailto:tender@sapl.in"
                     className="text-slate-650 dark:text-navy-300 text-sm font-bold mt-1 hover:text-sapl-blue block transition-colors"
                   >
-                    info@sapl.in
+                    tender@sapl.in
                   </a>
                 </div>
               </div>

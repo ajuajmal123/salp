@@ -120,7 +120,7 @@ export default function Footer() {
             <h3 className="font-sans text-xs font-bold tracking-[0.25em] uppercase mb-3 text-sapl-blue">
               Bengaluru Office
             </h3>
-            <div className="space-y-3 text-navy-900 text-sm">
+            <div className="space-y-3 text-navy-900 text-sm ">
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-sapl-blue shrink-0 mt-0.5" />
                 <span className="leading-relaxed font-semibold">
@@ -210,10 +210,10 @@ export default function Footer() {
 
           {/* Right: Policy Links and Credits */}
           <div className="flex items-center flex-wrap justify-center xl:justify-end gap-6 shrink-0 xl:flex-1">
-            <a href="#" className="hover:text-sapl-blue transition-colors">
+            <a href="/SAPLPrivacy%20Policy.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-sapl-blue transition-colors">
               Privacy Policy
             </a>
-            <a href="#" className="hover:text-sapl-blue transition-colors">
+            <a href="/SAPLTerms%20%26%20Conditions.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-sapl-blue transition-colors">
               Terms & Conditions
             </a>
             <small className="copyright__content font-normal text-navy-800 tracking-wider flex items-center gap-1">

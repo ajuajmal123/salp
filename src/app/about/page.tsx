@@ -188,10 +188,10 @@ export default function AboutPage() {
       <section className="py-12 md:py-12 bg-[#f7f6f4] border-b border-[#eae7e3]">
         <div className="max-w-7xl mx-auto px-3 sm:px-4 lg:px-6 text-left">
 
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
+          <div className="flex flex-col gap-10 text-left">
 
             {/* Leadership Overview */}
-            <div className="lg:col-span-6 flex flex-col gap-6">
+            <div className="flex flex-col gap-6 w-full">
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-sapl-blue">
                 Leadership Core
               </span>
@@ -214,7 +214,7 @@ export default function AboutPage() {
             </div>
 
             {/* Strategic Pillars Cards */}
-            <div className="lg:col-span-6 flex flex-col gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
 
               {/* Pillar 1: Top-Down Focus */}
               <div className="bg-white border border-[#eae7e3] p-6 rounded-sm shadow-sm relative overflow-hidden group hover:shadow-md transition-shadow">
@@ -300,11 +300,11 @@ export default function AboutPage() {
           <div className="w-16 h-[3px] bg-sapl-blue rounded-full" />
         </div>
 
-        <div className="flex flex-col gap-12 lg:gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
 
-          {/* Vision Section */}
-          <div className="flex flex-col gap-8">
-            <div className="flex items-center justify-center gap-4 border-b border-[#eae7e3] pb-3">
+          {/* Vision Card */}
+          <div className="flex flex-col gap-6">
+            <div className="flex items-center gap-4 border-b border-[#eae7e3] pb-3">
               <div className="w-10 h-10 rounded-full bg-sapl-blue/10 flex items-center justify-center text-sapl-blue">
                 <Target className="w-5 h-5" />
               </div>
@@ -313,30 +313,17 @@ export default function AboutPage() {
               </h3>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {/* Vision Card 1 */}
-              <div className="p-6 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left relative overflow-hidden group hover:border-sapl-blue/40 transition-colors min-h-[160px] flex flex-col justify-center">
-                <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
-                <h4 className="text-xs font-bold uppercase tracking-wider text-sapl-blue mb-2">Delighting Customers</h4>
-                <p className="text-sm font-extrabold text-navy-950 !text-[#1c1a17] leading-relaxed">
-                  "To create a culture within our company that will in turn create quality-minded employees and then top-quality performance. We will seek to DELIGHT our customers!"
-                </p>
-              </div>
-
-              {/* Vision Card 2 */}
-              <div className="p-6 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left relative overflow-hidden group hover:border-sapl-blue/40 transition-colors min-h-[160px] flex flex-col justify-center">
-                <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
-                <h4 className="text-xs font-bold uppercase tracking-wider text-sapl-blue mb-2">Premier Construction Provider</h4>
-                <p className="text-sm font-extrabold text-navy-950 !text-[#1c1a17] leading-relaxed">
-                  "By integrating our total quality process throughout our firm, we will become the premier provider of construction services, and our customers will be astounded."
-                </p>
-              </div>
+            <div className="p-6 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left relative overflow-hidden group hover:border-sapl-blue/40 transition-colors h-full">
+              <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
+              <p className="text-sm font-extrabold text-navy-950 !text-[#1c1a17] leading-relaxed">
+                To create a culture within our company that will in turn create quality-minded employees and then top-quality performance. We will seek to DELIGHT our customers! By integrating our total quality process throughout our firm, we will become the premier provider of construction services, and our customers will be astounded.
+              </p>
             </div>
           </div>
 
-          {/* Mission Section */}
-          <div className="flex flex-col gap-8">
-            <div className="flex items-center justify-center gap-4 border-b border-[#eae7e3] pb-3">
+          {/* Mission Card */}
+          <div className="flex flex-col gap-6">
+            <div className="flex items-center gap-4 border-b border-[#eae7e3] pb-3">
               <div className="w-10 h-10 rounded-full bg-sapl-blue/10 flex items-center justify-center text-sapl-blue">
                 <Award className="w-5 h-5" />
               </div>
@@ -345,24 +332,11 @@ export default function AboutPage() {
               </h3>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {/* Mission Card 1 */}
-              <div className="p-6 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left relative overflow-hidden group hover:border-sapl-blue/40 transition-colors min-h-[160px] flex flex-col justify-center">
-                <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
-                <h4 className="text-xs font-bold uppercase tracking-wider text-sapl-blue mb-2">Total Business Solutions</h4>
-                <p className="text-sm font-extrabold text-navy-950 !text-[#1c1a17] leading-relaxed">
-                  "To excel as a global-standard CONSTRUCTION ENGINEERING COMPANY providing Total Business Solutions through Quality Products, Systems and Services in the Construction industry,"
-                </p>
-              </div>
-
-              {/* Mission Card 2 */}
-              <div className="p-6 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left relative overflow-hidden group hover:border-sapl-blue/40 transition-colors min-h-[160px] flex flex-col justify-center">
-                <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
-                <h4 className="text-xs font-bold uppercase tracking-wider text-sapl-blue mb-2">Self-Reliance in Infrastructure</h4>
-                <p className="text-sm font-extrabold text-navy-950 !text-[#1c1a17] leading-relaxed">
-                  "by achieving self-reliance in Construction of Residential, Commercial, Industrial and Institutional buildings."
-                </p>
-              </div>
+            <div className="p-6 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left relative overflow-hidden group hover:border-sapl-blue/40 transition-colors h-full">
+              <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
+              <p className="text-sm font-extrabold text-navy-950 !text-[#1c1a17] leading-relaxed">
+                To excel as a global-standard CONSTRUCTION ENGINEERING COMPANY providing Total Business Solutions through Quality Products, Systems and Services in the Construction industry, by achieving self-reliance in Construction of Residential, Commercial, Industrial and Institutional buildings.
+              </p>
             </div>
           </div>
 
