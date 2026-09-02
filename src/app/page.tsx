@@ -4,6 +4,7 @@ import Stats from "@/components/sections/Stats";
 import ProjectsSection from "@/components/sections/ProjectsSection";
 import CoreValues from "@/components/sections/CoreValues";
 import ClientMarquee from "@/components/sections/ClientMarquee";
+import LegacySection from "@/components/sections/LegacySection/LegacySection";
 
 export default function Home() {
   return (
@@ -19,6 +20,9 @@ export default function Home() {
 
       {/* 4. Core Corporate Values Grid */}
       <CoreValues />
+
+      {/* NEW: 4.5 Scroll-driven SAPL Corporate Legacy Timeline */}
+      <LegacySection />
 
       {/* 5. Moving Partner Infinite Marquee */}
       <ClientMarquee />

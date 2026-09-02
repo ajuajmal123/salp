@@ -75,7 +75,7 @@ const awardsData = [
   { src: "/Awards/mdsirimg3.jpeg", title: "Felicitated by Dr. APJ Abdul Kalam For Early Completion of 1 Lakh Sq. Ft. Project" },
   { src: "/Awards/mdsirimg4.jpeg", title: "Conferred Achievement Award 2008 by Coimbatore Civil Engineers Association (COCENA)" },
   { src: "/Awards/mdsirimg5.jpeg", title: "Long Span Portico Slab Using Self Compacting Concrete Indian Concrete Institute & UltraTech" },
-  { src: "/Awards/mdsirimg6.jpeg", title: "Lifetime Achiever Award – Institution of Engineers, Coimbatore" },
+  { src: "/Awards/mdsirimg6_updated.jpeg", title: "Lifetime Achiever Award – Institution of Engineers, Coimbatore" },
   { src: "/Awards/mdsirimg7.jpeg", title: "Distinguished Well-Wisher Award from Ramakrishna Mission Vidyalaya, Coimbatore" },
 ];
 
@@ -1013,6 +1013,7 @@ function ProfilePageContent() {
                           src={awardsData[0].src}
                           alt="Featured award"
                           fill
+                          priority
                           sizes="(max-width: 1024px) 100vw, 65vw"
                           className="object-cover object-top transition-transform duration-700 group-hover:scale-[1.025]"
                         />

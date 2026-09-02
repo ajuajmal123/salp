@@ -33,29 +33,29 @@ export const projectsList: Project[] = [
       "client": "GREAT HEIGHTS DEVELOPERS LLP",
       "area": "87500 SFT",
       "floors": "9 + STILT",
-      "startDate": "NOV’ 2017",
-      "completionDate": "SEP’2019",
+      "startDate": "NOV' 2017",
+      "completionDate": "SEP'2019",
       "consultant": "ANBU & FAIZAL"
     },
     "gallery": ["/project/SINDHOOR PUSHPAVANAM/10-1-800x803.jpg","/project/SINDHOOR PUSHPAVANAM/img-1-30.jpg","/project/SINDHOOR PUSHPAVANAM/img-2-30.jpg","/project/SINDHOOR PUSHPAVANAM/img-3-29.jpg","/project/SINDHOOR PUSHPAVANAM/img-4-26.jpg"]
   },
   {
     "slug": "nivasan-homes-pvt-ltd-nivasan-springs-1",
-    "name": "NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”",
+    "name": "NIVASAN HOMES PVT LTD 'NIVASAN SPRINGS 1'",
     "category": "RESIDENTIAL",
     "location": "COIMBATORE",
-    "imageUrl": "/project/NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/NHSpr-3-800x800.jpg",
+    "imageUrl": "/project/NIVASAN HOMES PVT LTD 'NIVASAN SPRINGS 1'/NHSpr-3-800x800.jpg",
     "status": "Completed",
-    "description": "Construction of NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1” in COIMBATORE.",
+    "description": "Construction of NIVASAN HOMES PVT LTD 'NIVASAN SPRINGS 1' in COIMBATORE.",
     "details": {
       "client": "NIVASAN HOMES PRIVATE LIMITED",
       "area": "27000 SFT",
       "floors": "4 fLOOER & STILT",
-      "startDate": "Dec’ 2019",
+      "startDate": "Dec' 2019",
       "completionDate": "SEP' 2021",
       "consultant": "VESTA ARCHITECTS"
     },
-    "gallery": ["/project/NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/NHSpr-3-800x800.jpg","/project/NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/NHSprings-1.jpeg","/project/NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/NHSprings-2-800x600.jpeg","/project/NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/NHSprings-4-800x600.jpeg","/project/NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/springs-800x395.jpg"]
+    "gallery": ["/project/NIVASAN HOMES PVT LTD 'NIVASAN SPRINGS 1'/NHSpr-3-800x800.jpg","/project/NIVASAN HOMES PVT LTD 'NIVASAN SPRINGS 1'/NHSprings-1.jpeg","/project/NIVASAN HOMES PVT LTD 'NIVASAN SPRINGS 1'/NHSprings-2-800x600.jpeg","/project/NIVASAN HOMES PVT LTD 'NIVASAN SPRINGS 1'/NHSprings-4-800x600.jpeg","/project/NIVASAN HOMES PVT LTD 'NIVASAN SPRINGS 1'/springs-800x395.jpg"]
   },
   {
     "slug": "akshaya-tango",
@@ -69,29 +69,29 @@ export const projectsList: Project[] = [
       "client": "AKSHAYA PRIVATE LIMITED",
       "area": "552000 SFT",
       "floors": "13",
-      "startDate": "APR’ 2014",
-      "completionDate": "SEP’ 2020",
+      "startDate": "APR' 2014",
+      "completionDate": "SEP' 2020",
       "consultant": "VENKATARAMAN ASSOCIATES"
     },
     "gallery": ["/project/AKSHAYA TANGO/Tango-1-800x413.jpg","/project/AKSHAYA TANGO/Tango-4-800x480.jpg","/project/AKSHAYA TANGO/Tango-5-800x450.jpg","/project/AKSHAYA TANGO/Tango-800x410.jpg"]
   },
   {
     "slug": "foundation-one-shree",
-    "name": "FOUNDATION ONE “SHREE”",
+    "name": "FOUNDATION ONE 'SHREE'",
     "category": "RESIDENTIAL",
     "location": "COIMBATORE",
-    "imageUrl": "/project/FOUNDATION ONE “SHREE”/F1-2.jpeg",
+    "imageUrl": "/project/FOUNDATION ONE 'SHREE'/F1-2.jpeg",
     "status": "Completed",
-    "description": "Construction of FOUNDATION ONE “SHREE” in COIMBATORE.",
+    "description": "Construction of FOUNDATION ONE 'SHREE' in COIMBATORE.",
     "details": {
       "client": "FOUNDATION ONE INFRASTRUCTURES PRIVATE LIMITED",
       "area": "134000 SFT",
       "floors": "11 + B + STILT",
-      "startDate": "APR’ 2014",
-      "completionDate": "SEP’ 2017",
+      "startDate": "APR' 2014",
+      "completionDate": "SEP' 2017",
       "consultant": "RSP DESIGN CONSULTANTS (INDIA) PRIVATE LIMITED"
     },
-    "gallery": ["/project/FOUNDATION ONE “SHREE”/F1-2.jpeg","/project/FOUNDATION ONE “SHREE”/shree-img-1.jpg","/project/FOUNDATION ONE “SHREE”/shree-img-2.jpg","/project/FOUNDATION ONE “SHREE”/shree-img-3.jpg","/project/FOUNDATION ONE “SHREE”/shree-img-4.jpg"]
+    "gallery": ["/project/FOUNDATION ONE 'SHREE'/F1-2.jpeg","/project/FOUNDATION ONE 'SHREE'/shree-img-1.jpg","/project/FOUNDATION ONE 'SHREE'/shree-img-2.jpg","/project/FOUNDATION ONE 'SHREE'/shree-img-3.jpg","/project/FOUNDATION ONE 'SHREE'/shree-img-4.jpg"]
   },
   {
     "slug": "saradha-greens",
@@ -105,8 +105,8 @@ export const projectsList: Project[] = [
       "client": "NIVASAN HOMES PRIVATE LIMITED",
       "area": "39000 SFT",
       "floors": "2",
-      "startDate": "Nov’ 2019",
-      "completionDate": "MAR’ 2022",
+      "startDate": "Nov' 2019",
+      "completionDate": "MAR' 2022",
       "consultant": "ARUN & ASSOCIATES"
     },
     "gallery": ["/project/SARADHA GREENS/NHSG1-800x369.jpg","/project/SARADHA GREENS/NSG-800x450.jpeg","/project/SARADHA GREENS/slide-1-800x395.jpg","/project/SARADHA GREENS/slide-2-800x395.jpg","/project/SARADHA GREENS/slide-3-800x395.jpg"]
@@ -123,8 +123,8 @@ export const projectsList: Project[] = [
       "client": "GREAT HIGHTS DEVELOPERS LLP",
       "area": "55500 SFT",
       "floors": "4",
-      "startDate": "Oct’ 2019",
-      "completionDate": "FEB’ 2022",
+      "startDate": "Oct' 2019",
+      "completionDate": "FEB' 2022",
       "consultant": "ANBU & FAIZAL"
     },
     "gallery": ["/project/SINDUR PRISTINE/1-800x600.jpg","/project/SINDUR PRISTINE/4-1-800x316.jpg","/project/SINDUR PRISTINE/banner-pristine-800x365.jpg","/project/SINDUR PRISTINE/Pristine-12-800x1067.jpg","/project/SINDUR PRISTINE/Pristine2.jpg"]
@@ -141,8 +141,8 @@ export const projectsList: Project[] = [
       "client": "NIVASAN HOMES PRIVATE LIMITED",
       "area": "20000 SFT",
       "floors": "4 + GROUND",
-      "startDate": "DEC’ 2012",
-      "completionDate": "NOV’ 2014",
+      "startDate": "DEC' 2012",
+      "completionDate": "NOV' 2014",
       "consultant": "INNER SPACE ARCHITECT"
     },
     "gallery": ["/project/BLUE HAVEN PHASE II/BH2-1-800x548.jpg","/project/BLUE HAVEN PHASE II/BH2-3-800x600.jpg","/project/BLUE HAVEN PHASE II/BH2-5-800x600.jpg","/project/BLUE HAVEN PHASE II/bluehaven (1).jpg","/project/BLUE HAVEN PHASE II/bluehaven.jpg"]
@@ -159,8 +159,8 @@ export const projectsList: Project[] = [
       "client": "PSG & SONS CHARITIES",
       "area": "285600 SFT",
       "floors": "8 +GROUND",
-      "startDate": "MAR’ 2016",
-      "completionDate": "NOV’ 2017",
+      "startDate": "MAR' 2016",
+      "completionDate": "NOV' 2017",
       "consultant": "MITHRAN STRUCTURES (P) LIMITED"
     },
     "gallery": ["/project/PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH/DSC03503-800x534.jpg","/project/PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH/DSC03511-800x534.jpg","/project/PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH/DSC03514-800x534.jpg","/project/PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH/PSG-IMSR-HOSTEL-800x600.jpg"]
@@ -177,8 +177,8 @@ export const projectsList: Project[] = [
       "client": "ANTARA PRASN GROUPS",
       "area": "211000 SFT",
       "floors": "4 + GF",
-      "startDate": "OCT’2007",
-      "completionDate": "OCT’2009",
+      "startDate": "OCT'2007",
+      "completionDate": "OCT'2009",
       "consultant": "RAJEEV SHAH ASSOCIATES"
     },
     "gallery": ["/project/PARSN ANTARA/Antra-2-800x465.jpg","/project/PARSN ANTARA/Antra-3-800x600.jpg","/project/PARSN ANTARA/Antra-4-800x535.jpg","/project/PARSN ANTARA/Antra-9-800x535.jpg","/project/PARSN ANTARA/PARSN-ANTARA-800x402.jpg"]
@@ -195,8 +195,8 @@ export const projectsList: Project[] = [
       "client": "ANTARA PRASN GROUPS",
       "area": "211000 SFT",
       "floors": "4",
-      "startDate": "OCT’2007",
-      "completionDate": "OCT’2009",
+      "startDate": "OCT'2007",
+      "completionDate": "OCT'2009",
       "consultant": "RAJEEV SHAH ASSOCIATES"
     },
     "gallery": ["/project/PARSN KEYSTONE/APRSN-KEYSTONE-800x531.jpg","/project/PARSN KEYSTONE/KEYSTONE-1-800x531.jpg","/project/PARSN KEYSTONE/KEYSTONE-3-800x600.jpg","/project/PARSN KEYSTONE/KEYSTONE-4-800x600.jpg","/project/PARSN KEYSTONE/KEYSTONE-7-800x535.jpg"]
@@ -213,8 +213,8 @@ export const projectsList: Project[] = [
       "client": "GOVEL TRUST ARAVIND EYE HOSPITAL",
       "area": "25000 SFT",
       "floors": "2 + GROUND",
-      "startDate": "SEP’2008",
-      "completionDate": "OCT’2009",
+      "startDate": "SEP'2008",
+      "completionDate": "OCT'2009",
       "consultant": "GOWTHAM ARCHITECTS"
     },
     "gallery": []
@@ -231,7 +231,7 @@ export const projectsList: Project[] = [
       "client": "CRI PUMPS PRIVATE LIMITED",
       "area": "44200 SFT",
       "floors": "GF",
-      "startDate": "DEC’ 2018",
+      "startDate": "DEC' 2018",
       "completionDate": "SEP'2019",
       "consultant": "MITHRAN STRUCTURES (P) LIMITED"
     },
@@ -249,8 +249,8 @@ export const projectsList: Project[] = [
       "client": "SRI SRINIVASA TEXTILES",
       "area": "24000 SFT",
       "floors": "GF",
-      "startDate": "Aug’ 2019",
-      "completionDate": "SEP’ 2020",
+      "startDate": "Aug' 2019",
+      "completionDate": "SEP' 2020",
       "consultant": "VESTA ARCHITECTS"
     },
     "gallery": []
@@ -267,8 +267,8 @@ export const projectsList: Project[] = [
       "client": "PROPEL INDUSTRIES PRIVATE LIMITED",
       "area": "25800 SFT",
       "floors": "GF + 1 FLOOR",
-      "startDate": "AUG’ 2017",
-      "completionDate": "SEP’ 2020",
+      "startDate": "AUG' 2017",
+      "completionDate": "SEP' 2020",
       "consultant": "KSM ARCHITECTURE"
     },
     "gallery": []
@@ -285,8 +285,8 @@ export const projectsList: Project[] = [
       "client": "L G BALAKRISHNAN & BROS LIMITED",
       "area": "125000 SFT",
       "floors": "GF",
-      "startDate": "FEB’ 2018",
-      "completionDate": "SEP’ 2019",
+      "startDate": "FEB' 2018",
+      "completionDate": "SEP' 2019",
       "consultant": "PTK ARCHITECTS"
     },
     "gallery": []
@@ -303,8 +303,8 @@ export const projectsList: Project[] = [
       "client": "CS SPINNERS PRIVATE LIMITED",
       "area": "126000 SFT",
       "floors": "GF",
-      "startDate": "NOV’ 2017",
-      "completionDate": "SEP’ 2019",
+      "startDate": "NOV' 2017",
+      "completionDate": "SEP' 2019",
       "consultant": "VESTA ARCHITECTS"
     },
     "gallery": []
@@ -321,26 +321,26 @@ export const projectsList: Project[] = [
       "client": "REVANTHA SERVICES LIMITED",
       "area": "85500 SFT",
       "floors": "GF",
-      "startDate": "AUG’ 2017",
-      "completionDate": "SEP’ 2018",
+      "startDate": "AUG' 2017",
+      "completionDate": "SEP' 2018",
       "consultant": "BHARATH & ASSOCIATES"
     },
     "gallery": []
   },
   {
     "slug": "l-g-balakrishnan-bro-s-ltd",
-    "name": "L G BALAKRISHNAN & BRO’s LTD",
+    "name": "L G BALAKRISHNAN & BRO's LTD",
     "category": "INDUSTRIAL",
     "location": "COIMBATORE",
     "imageUrl": "MANUAL_MAPPING_REQUIRED",
     "status": "Completed",
-    "description": "Construction of L G BALAKRISHNAN & BRO’s LTD in COIMBATORE.",
+    "description": "Construction of L G BALAKRISHNAN & BRO's LTD in COIMBATORE.",
     "details": {
-      "client": "L G BALAKRISHNAN & BRO’S LIMITED",
+      "client": "L G BALAKRISHNAN & BRO'S LIMITED",
       "area": "97000 SFT",
       "floors": "GF",
-      "startDate": "MAR’ 2018",
-      "completionDate": "NOV’ 2018",
+      "startDate": "MAR' 2018",
+      "completionDate": "NOV' 2018",
       "consultant": "CLIENT ENGINEER"
     },
     "gallery": []
@@ -357,8 +357,8 @@ export const projectsList: Project[] = [
       "client": "THARUN BALAJI SPINNERS",
       "area": "82000 SFT",
       "floors": "GF",
-      "startDate": "OCT’ 2016",
-      "completionDate": "SEP’ 2017",
+      "startDate": "OCT' 2016",
+      "completionDate": "SEP' 2017",
       "consultant": "VESTA ARCHITECTS"
     },
     "gallery": []
@@ -375,7 +375,7 @@ export const projectsList: Project[] = [
       "client": "BRADKEN INDIA PRIVATE LIMITED",
       "area": "12700 SFT",
       "floors": "GF",
-      "startDate": "AUG’ 2016",
+      "startDate": "AUG' 2016",
       "completionDate": "NOV '2017",
       "consultant": "M DHARMALINGAM ASSOCIATE"
     },
@@ -393,8 +393,8 @@ export const projectsList: Project[] = [
       "client": "SAKTHI GEAR PRODUCTS",
       "area": "34700 SFT",
       "floors": "GF",
-      "startDate": "SEP’2015",
-      "completionDate": "SEP’ 2016",
+      "startDate": "SEP'2015",
+      "completionDate": "SEP' 2016",
       "consultant": "VESTA ARCHITECTS"
     },
     "gallery": []
@@ -411,7 +411,7 @@ export const projectsList: Project[] = [
       "client": "NIVASAN HOMES PRIVATE LIMITED",
       "area": "89000 SFT",
       "floors": "5",
-      "startDate": "JAN’ 2019",
+      "startDate": "JAN' 2019",
       "completionDate": "MAR' 2022",
       "consultant": "VESTA ARCHITECTS"
     },
@@ -429,8 +429,8 @@ export const projectsList: Project[] = [
       "client": "AKG INDIA PRIVATE LIMITED",
       "area": "61000 SFT",
       "floors": "GF",
-      "startDate": "MAY’2011",
-      "completionDate": "OCT’2012",
+      "startDate": "MAY'2011",
+      "completionDate": "OCT'2012",
       "consultant": "M DHARMALINGAM ASSOCIATE"
     },
     "gallery": []
@@ -447,8 +447,8 @@ export const projectsList: Project[] = [
       "client": "CODISSIA INTECH TECHNOLOGY CENTRE",
       "area": "81000 SFT",
       "floors": "GF",
-      "startDate": "JUN’2007",
-      "completionDate": "OCT’2008",
+      "startDate": "JUN'2007",
+      "completionDate": "OCT'2008",
       "consultant": "GAYATHRI AND NAMITH ARCHITECTS (P) LIMITED"
     },
     "gallery": []
@@ -465,8 +465,8 @@ export const projectsList: Project[] = [
       "client": "TVS INDUSTRIAL & LOGISTICS PARKS PRIVATE LIMITED",
       "area": "384500 SFT",
       "floors": "GF",
-      "startDate": "DEC’ 2019",
-      "completionDate": "OCT’ 2021",
+      "startDate": "DEC' 2019",
+      "completionDate": "OCT' 2021",
       "consultant": "TATA CONSULTING ENGINEERS PRIVATE LIMITED"
     },
     "gallery": []
@@ -483,7 +483,7 @@ export const projectsList: Project[] = [
       "client": "NIVASAN HOMES PRIVATE LIMITED",
       "area": "7800 SFT",
       "floors": "3",
-      "startDate": "NOV’ 2019",
+      "startDate": "NOV' 2019",
       "completionDate": "JUL'2022",
       "consultant": "ARUN & ASSOCIATES"
     },
@@ -501,7 +501,7 @@ export const projectsList: Project[] = [
       "client": "BULL MACHINES PRIVATE LIMITED-SUVASAM 2 0",
       "area": "44000 SFT",
       "floors": "GF",
-      "startDate": "MAR’ 2019",
+      "startDate": "MAR' 2019",
       "completionDate": "JUN '2020",
       "consultant": "SG STRUCTURAL ENGINEERS"
     },
@@ -519,8 +519,8 @@ export const projectsList: Project[] = [
       "client": "SNF COMPONENTS PRIVATE LIMITED",
       "area": "58000 SFT",
       "floors": "GF",
-      "startDate": "AUG’ 2018",
-      "completionDate": "OCT’ 2019",
+      "startDate": "AUG' 2018",
+      "completionDate": "OCT' 2019",
       "consultant": "SG STRUCTURAL ENGINEERS"
     },
     "gallery": []
@@ -537,8 +537,8 @@ export const projectsList: Project[] = [
       "client": "L G BALAKRISHNAN & BROS LIMITED",
       "area": "15000 SFT",
       "floors": "GF+1 FLOOR",
-      "startDate": "JUN’ 2018",
-      "completionDate": "OCT’ 2018",
+      "startDate": "JUN' 2018",
+      "completionDate": "OCT' 2018",
       "consultant": "VESTA ARCHITECTS"
     },
     "gallery": []
@@ -555,8 +555,8 @@ export const projectsList: Project[] = [
       "client": "DECATHLON SPORTS INDIA PRIVATE LIMITED",
       "area": "23000 SFT",
       "floors": "GF",
-      "startDate": "APR’2014",
-      "completionDate": "OCT’ 2014",
+      "startDate": "APR'2014",
+      "completionDate": "OCT' 2014",
       "consultant": "DESIGN FORUM INDIA PRIVATE LIMITED"
     },
     "gallery": []
@@ -573,8 +573,8 @@ export const projectsList: Project[] = [
       "client": "VASANTH & CO",
       "area": "21000 SFT",
       "floors": "3",
-      "startDate": "JUN’ 2013",
-      "completionDate": "OCT’ 2014",
+      "startDate": "JUN' 2013",
+      "completionDate": "OCT' 2014",
       "consultant": "YELLOW ARCHITECT"
     },
     "gallery": []
@@ -591,8 +591,8 @@ export const projectsList: Project[] = [
       "client": "SUPER SPINNING MILLS LIMITED",
       "area": "225000 SFT",
       "floors": "GF",
-      "startDate": "APR’ 2006",
-      "completionDate": "OCT’ 2007",
+      "startDate": "APR' 2006",
+      "completionDate": "OCT' 2007",
       "consultant": "SANKAR & ASSOCIATES"
     },
     "gallery": []
@@ -627,8 +627,8 @@ export const projectsList: Project[] = [
       "client": "PSG & SONS CHARITIES",
       "area": "845000 SFT",
       "floors": "8+2B+GF",
-      "startDate": "FEB’ 2015",
-      "completionDate": "SEP’ 2019",
+      "startDate": "FEB' 2015",
+      "completionDate": "SEP' 2019",
       "consultant": "S D SHARMA ASSOCIATES"
     },
     "gallery": []
@@ -645,8 +645,8 @@ export const projectsList: Project[] = [
       "client": "PSG & SONS CHARITIES",
       "area": "845000 SFT",
       "floors": "8+2B+GF",
-      "startDate": "FEB’ 2015",
-      "completionDate": "SEP’ 2019",
+      "startDate": "FEB' 2015",
+      "completionDate": "SEP' 2019",
       "consultant": "S D SHARMA ASSOCIATES"
     },
     "gallery": []
@@ -663,8 +663,8 @@ export const projectsList: Project[] = [
       "client": "PSG & SONS CHARITIES",
       "area": "285600 SFT",
       "floors": "8",
-      "startDate": "MAR’ 2016",
-      "completionDate": "NOV’ 2017",
+      "startDate": "MAR' 2016",
+      "completionDate": "NOV' 2017",
       "consultant": "MITHRAN STRUCTURES (P) LIMITED"
     },
     "gallery": []
@@ -681,8 +681,8 @@ export const projectsList: Project[] = [
       "client": "THE SCHOOL KRISHNAMURTI",
       "area": "55500 SFT",
       "floors": "2",
-      "startDate": "JUN’ 2017",
-      "completionDate": "SEP’ 2018",
+      "startDate": "JUN' 2017",
+      "completionDate": "SEP' 2018",
       "consultant": "GREEN EVOLUTION"
     },
     "gallery": []
@@ -699,8 +699,8 @@ export const projectsList: Project[] = [
       "client": "SAPTHARISHI PRASANNA",
       "area": "30000 SFT",
       "floors": "4",
-      "startDate": "MAR’ 2013",
-      "completionDate": "NOV’ 2014",
+      "startDate": "MAR' 2013",
+      "completionDate": "NOV' 2014",
       "consultant": "VYBOGAM"
     },
     "gallery": []
@@ -717,8 +717,8 @@ export const projectsList: Project[] = [
       "client": "ARPUTHAM PILLAI",
       "area": "16000 SFT",
       "floors": "4",
-      "startDate": "MAY’ 2013",
-      "completionDate": "NOV’ 2014",
+      "startDate": "MAY' 2013",
+      "completionDate": "NOV' 2014",
       "consultant": "PRABU"
     },
     "gallery": []
@@ -735,8 +735,8 @@ export const projectsList: Project[] = [
       "client": "ARJUN COLLEGE OF ENGINEERING",
       "area": "100000 SFT",
       "floors": "3",
-      "startDate": "OCT’2012",
-      "completionDate": "NOV’ 2014",
+      "startDate": "OCT'2012",
+      "completionDate": "NOV' 2014",
       "consultant": "CLIENT ENGINEER"
     },
     "gallery": []
@@ -753,8 +753,8 @@ export const projectsList: Project[] = [
       "client": "PACIFICA AURUM VILLAS",
       "area": "688000 SFT",
       "floors": "2",
-      "startDate": "MAY’ 2013",
-      "completionDate": "Nov’ 2014",
+      "startDate": "MAY' 2013",
+      "completionDate": "Nov' 2014",
       "consultant": "PACIFICA CHENNAI PROJECT INFRASTRUCTURE CO PRIVATE LIMITED"
     },
     "gallery": []
@@ -771,9 +771,9 @@ export const projectsList: Project[] = [
       "client": "INTERNATIONAL AEROSPACE MANUFACTURING PRIVATE",
       "area": "73,000 SFT",
       "floors": "GF + MEZZANINE FLOORS",
-      "startDate": "JUN’ 2023",
-      "completionDate": "MAY’ 2024",
-      "consultant": "‘BESTEN ENGINEERS & CONSULTANTS INDIA PRIVATE LIMITED"
+      "startDate": "JUN' 2023",
+      "completionDate": "MAY' 2024",
+      "consultant": "'BESTEN ENGINEERS & CONSULTANTS INDIA PRIVATE LIMITED"
     },
     "gallery": []
   },
@@ -790,7 +790,7 @@ export const projectsList: Project[] = [
       "area": "320000 SFT",
       "floors": "8+2B+GF",
       "startDate": "MAY'2019",
-      "completionDate": "FEB’ 2023",
+      "completionDate": "FEB' 2023",
       "consultant": "V K THYAGARAJAN & ASSOCIATES"
     },
     "gallery": []
@@ -807,8 +807,8 @@ export const projectsList: Project[] = [
       "client": "SYNCHRON DEVELOPERS PRIVATE LIMITED",
       "area": "88000 SFT",
       "floors": "9 + B +STILT",
-      "startDate": "OCT’ 2016",
-      "completionDate": "MAY’ 2019",
+      "startDate": "OCT' 2016",
+      "completionDate": "MAY' 2019",
       "consultant": "APARAJITHAN"
     },
     "gallery": []
@@ -825,8 +825,8 @@ export const projectsList: Project[] = [
       "client": "COSMIK INDUSTRY",
       "area": "57000 SFT",
       "floors": "GF",
-      "startDate": "FEB’ 2014",
-      "completionDate": "MAY’ 2015",
+      "startDate": "FEB' 2014",
+      "completionDate": "MAY' 2015",
       "consultant": "SUNDAR SUNDARAM ARCHITECTS"
     },
     "gallery": []
@@ -861,7 +861,7 @@ export const projectsList: Project[] = [
       "client": "SRI KANCHI KAMAKOTI MEDICAL TRUST",
       "area": "1,03,000 SFT",
       "floors": "GF+3",
-      "startDate": "DEC’ 2023",
+      "startDate": "DEC' 2023",
       "completionDate": "MAR'2025",
       "consultant": "SANKAR & ASSOCIATES"
     },
@@ -879,7 +879,7 @@ export const projectsList: Project[] = [
       "client": "GOVEL TRUST ARAVIND EYE HOSPITAL",
       "area": "1,40,700 SFT",
       "floors": "8",
-      "startDate": "FEB’ 2024",
+      "startDate": "FEB' 2024",
       "completionDate": "MAR'2025",
       "consultant": "DESIGN COLLABORATIVE PRIVATE LIMITED"
     },
@@ -897,7 +897,7 @@ export const projectsList: Project[] = [
       "client": "SECAN ENGINEERING TECHNOLOGY LIMITED",
       "area": "44,000 SFT",
       "floors": "GF + MEZZANINE FLOORS",
-      "startDate": "NOV’ 2023",
+      "startDate": "NOV' 2023",
       "completionDate": "MAR'2025",
       "consultant": "ANUSAMM CONSULTANTS"
     },
@@ -915,7 +915,7 @@ export const projectsList: Project[] = [
       "client": "L G BALAKRISHNAN & BROS LIMITED CORPORATE",
       "area": "8000+97000 SFT",
       "floors": "2+1 +TERRACE GF",
-      "startDate": "DEC’ 2023",
+      "startDate": "DEC' 2023",
       "completionDate": "MAR'2025",
       "consultant": "VESTA ARCHITECTS"
     },
@@ -933,8 +933,8 @@ export const projectsList: Project[] = [
       "client": "PERFECT ENGINEERS",
       "area": "103200 SFT",
       "floors": "GF",
-      "startDate": "AUG’2016",
-      "completionDate": "MAR’2018",
+      "startDate": "AUG'2016",
+      "completionDate": "MAR'2018",
       "consultant": "TAAMAESEK ENGINEERING"
     },
     "gallery": []
@@ -951,8 +951,8 @@ export const projectsList: Project[] = [
       "client": "KUMARAGURU COLLEGE OF TECHNOLOGY",
       "area": "97000 SFT",
       "floors": "3",
-      "startDate": "NOV’2011",
-      "completionDate": "MAR’2013",
+      "startDate": "NOV'2011",
+      "completionDate": "MAR'2013",
       "consultant": "PTK ARCHITECTS"
     },
     "gallery": []
@@ -969,8 +969,8 @@ export const projectsList: Project[] = [
       "client": "D J ACADEMY FOR MANAGERIAL EXCELLENCE",
       "area": "21000 SFT",
       "floors": "2 & 3",
-      "startDate": "MAR’ 2006",
-      "completionDate": "MAR’2007",
+      "startDate": "MAR' 2006",
+      "completionDate": "MAR'2007",
       "consultant": "CLIENT ENGINEER"
     },
     "gallery": []
@@ -987,8 +987,8 @@ export const projectsList: Project[] = [
       "client": "SRM INSTITUTE OF SCIENCE AND TECHNOLOGY",
       "area": "150,000 SFT",
       "floors": "5 + TERRACE+GF",
-      "startDate": "DEC’ 2022",
-      "completionDate": "MAR’ 2024",
+      "startDate": "DEC' 2022",
+      "completionDate": "MAR' 2024",
       "consultant": "FEEL & BARI"
     },
     "gallery": []
@@ -1005,8 +1005,8 @@ export const projectsList: Project[] = [
       "client": "CODISSIA INDUSTRIAL PARK LIMITED",
       "area": "53940 SFT",
       "floors": "GF",
-      "startDate": "FEB’ 2021",
-      "completionDate": "MAR’ 2022",
+      "startDate": "FEB' 2021",
+      "completionDate": "MAR' 2022",
       "consultant": "COMTEN CONSULTING"
     },
     "gallery": []
@@ -1023,8 +1023,8 @@ export const projectsList: Project[] = [
       "client": "BS SURGICARE INDIA PRIVATE LIMITED",
       "area": "31000 SFT",
       "floors": "2+GF",
-      "startDate": "Feb’ 2019",
-      "completionDate": "Mar’ 2021",
+      "startDate": "Feb' 2019",
+      "completionDate": "Mar' 2021",
       "consultant": "CUBOID ARCHITECTURE"
     },
     "gallery": []
@@ -1041,7 +1041,7 @@ export const projectsList: Project[] = [
       "client": "PRICOL HOLDINGS LIMITED",
       "area": "20000 SFT",
       "floors": "1",
-      "startDate": "MAY’ 2018",
+      "startDate": "MAY' 2018",
       "completionDate": "MAR' 2021",
       "consultant": "MHETRAS DESIGN"
     },
@@ -1059,8 +1059,8 @@ export const projectsList: Project[] = [
       "client": "MR MURUHANANDAM",
       "area": "42800 SFT",
       "floors": "3",
-      "startDate": "OCT’ 2018",
-      "completionDate": "MAR’ 2020",
+      "startDate": "OCT' 2018",
+      "completionDate": "MAR' 2020",
       "consultant": "ARUN & ASSOCIATES"
     },
     "gallery": []
@@ -1077,8 +1077,8 @@ export const projectsList: Project[] = [
       "client": "GOVEL TRUST ARAVIND EYE HOSPITAL",
       "area": "195000 SFT",
       "floors": "8",
-      "startDate": "JAN’ 2015",
-      "completionDate": "MAR’ 2017",
+      "startDate": "JAN' 2015",
+      "completionDate": "MAR' 2017",
       "consultant": "DESIGN COLLABORATIVE PRIVATE LIMITED"
     },
     "gallery": []
@@ -1095,8 +1095,8 @@ export const projectsList: Project[] = [
       "client": "GOVEL TRUST ARAVIND EYE HOSPITAL",
       "area": "195000 SFT",
       "floors": "10",
-      "startDate": "JAN’ 2015",
-      "completionDate": "MAR’ 2017",
+      "startDate": "JAN' 2015",
+      "completionDate": "MAR' 2017",
       "consultant": "DESIGN COLLABORATIVE PRIVATE LIMITED"
     },
     "gallery": []
@@ -1113,8 +1113,8 @@ export const projectsList: Project[] = [
       "client": "NIVASAN HOMES PRIVATE LIMITED",
       "area": "117000 SFT",
       "floors": "1 + GROUND",
-      "startDate": "MAR’ 2015",
-      "completionDate": "MAR’ 2017",
+      "startDate": "MAR' 2015",
+      "completionDate": "MAR' 2017",
       "consultant": "SUNDAR SUNDARAM ARCHITECTS"
     },
     "gallery": []
@@ -1131,8 +1131,8 @@ export const projectsList: Project[] = [
       "client": "VIKRAM HOSPITAL",
       "area": "90000 SFT",
       "floors": "5+G",
-      "startDate": "MAR’ 2009",
-      "completionDate": "MAR’ 2011",
+      "startDate": "MAR' 2009",
+      "completionDate": "MAR' 2011",
       "consultant": "COS CONSULTANCY SERVICES"
     },
     "gallery": []
@@ -1149,8 +1149,8 @@ export const projectsList: Project[] = [
       "client": "PRIME DEVELOPERS",
       "area": "180000 SFT",
       "floors": "8+G",
-      "startDate": "MAR’ 2006",
-      "completionDate": "MAR’ 2008",
+      "startDate": "MAR' 2006",
+      "completionDate": "MAR' 2008",
       "consultant": "SANKAR & ASSOCIATES"
     },
     "gallery": []
@@ -1167,8 +1167,8 @@ export const projectsList: Project[] = [
       "client": "KG FABRIKS LIMITED SRI KANNAPIRAN MILLS LIMITED",
       "area": "225000 SFT",
       "floors": "GF",
-      "startDate": "JUL’ 2005",
-      "completionDate": "MAR’ 2007",
+      "startDate": "JUL' 2005",
+      "completionDate": "MAR' 2007",
       "consultant": "DESIGN FORUM INDIA PRIVATE LIMITED"
     },
     "gallery": []
@@ -1185,7 +1185,7 @@ export const projectsList: Project[] = [
       "client": "MR SUKUMARAN & M/S ADITYA EDUCATIONAL TRUST",
       "area": "37900 SFT",
       "floors": "2+GF",
-      "startDate": "JUL’ 2023",
+      "startDate": "JUL' 2023",
       "completionDate": "MAR'2025",
       "consultant": "VESTA ARCHITECTS"
     },
@@ -1203,8 +1203,8 @@ export const projectsList: Project[] = [
       "client": "EXOTIC FRUITS PRIVATE LIMITED",
       "area": "203900 SFT + 35000 SFT",
       "floors": "GF",
-      "startDate": "NOV’2010",
-      "completionDate": "JUN’2014",
+      "startDate": "NOV'2010",
+      "completionDate": "JUN'2014",
       "consultant": "DESIGN FORUM INDIA PRIVATE LIMITED"
     },
     "gallery": []
@@ -1221,8 +1221,8 @@ export const projectsList: Project[] = [
       "client": "MR ANWAR",
       "area": "38000 SFT",
       "floors": "9+GF",
-      "startDate": "JUN’2006",
-      "completionDate": "JUN’2008",
+      "startDate": "JUN'2006",
+      "completionDate": "JUN'2008",
       "consultant": "BRITTO ILANGO AND ASSOCIATES"
     },
     "gallery": []
@@ -1239,8 +1239,8 @@ export const projectsList: Project[] = [
       "client": "VELMURUGAN HEAVY ENGINEERING PRIVATE LIMITED",
       "area": "33,000 SFT",
       "floors": "GF",
-      "startDate": "MAY’ 2023",
-      "completionDate": "JUN’ 2024",
+      "startDate": "MAY' 2023",
+      "completionDate": "JUN' 2024",
       "consultant": "CLIENT ENGINEER"
     },
     "gallery": []
@@ -1257,8 +1257,8 @@ export const projectsList: Project[] = [
       "client": "SRI RANGANATH INDUSTRY (P) LIMITED",
       "area": "172700SFT",
       "floors": "GF",
-      "startDate": "Dec’2018",
-      "completionDate": "Jun’ 2022",
+      "startDate": "Dec'2018",
+      "completionDate": "Jun' 2022",
       "consultant": "M DHARMALINGAM ASSOCIATES"
     },
     "gallery": []
@@ -1275,8 +1275,8 @@ export const projectsList: Project[] = [
       "client": "CRI PUMPS PRIVATE LIMITED",
       "area": "34000 SFT",
       "floors": "GF",
-      "startDate": "Apr’ 2017",
-      "completionDate": "Jun’ 2018",
+      "startDate": "Apr' 2017",
+      "completionDate": "Jun' 2018",
       "consultant": "DESIGN TECH"
     },
     "gallery": []
@@ -1293,8 +1293,8 @@ export const projectsList: Project[] = [
       "client": "PSG & SONS CHARITIES",
       "area": "51000 SFT",
       "floors": "1&2",
-      "startDate": "FEB’ 2016",
-      "completionDate": "JUN’ 2017",
+      "startDate": "FEB' 2016",
+      "completionDate": "JUN' 2017",
       "consultant": "S D SHARMA ASSOCIATES"
     },
     "gallery": []
@@ -1311,8 +1311,8 @@ export const projectsList: Project[] = [
       "client": "MARK ENGINEERING WORKS",
       "area": "161000 SFT",
       "floors": "GF",
-      "startDate": "APR’ 2016",
-      "completionDate": "JUN’ 2017",
+      "startDate": "APR' 2016",
+      "completionDate": "JUN' 2017",
       "consultant": "VESTA ARCHITECTS"
     },
     "gallery": []
@@ -1329,8 +1329,8 @@ export const projectsList: Project[] = [
       "client": "PSG & SONS CHARITIES",
       "area": "75000 SFT",
       "floors": "GROUND FLOOR",
-      "startDate": "JUN’ 2015",
-      "completionDate": "JUN’ 2017",
+      "startDate": "JUN' 2015",
+      "completionDate": "JUN' 2017",
       "consultant": "S D SHARMA ASSOCIATES"
     },
     "gallery": []
@@ -1347,8 +1347,8 @@ export const projectsList: Project[] = [
       "client": "PSG & SONS CHARITIES",
       "area": "51000 SFT",
       "floors": "8+ GROUND",
-      "startDate": "FEB’ 2016",
-      "completionDate": "JUN’ 2017",
+      "startDate": "FEB' 2016",
+      "completionDate": "JUN' 2017",
       "consultant": "S D SHARMA ASSOCIATES"
     },
     "gallery": []
@@ -1365,8 +1365,8 @@ export const projectsList: Project[] = [
       "client": "KP MURUGESAN",
       "area": "14200 SFT",
       "floors": "3+GF",
-      "startDate": "FEB’ 2015",
-      "completionDate": "JUN’ 2016",
+      "startDate": "FEB' 2015",
+      "completionDate": "JUN' 2016",
       "consultant": "S G STRUCTURAL ENGINEERS"
     },
     "gallery": []
@@ -1383,8 +1383,8 @@ export const projectsList: Project[] = [
       "client": "NIVASAN HOMES PRIVATE LIMITED",
       "area": "14000 SFT",
       "floors": "4 +GROUND",
-      "startDate": "FEB’ 2015",
-      "completionDate": "JUN’ 2016",
+      "startDate": "FEB' 2015",
+      "completionDate": "JUN' 2016",
       "consultant": "JEYAKUMAR ASSOCIATES"
     },
     "gallery": []
@@ -1401,8 +1401,8 @@ export const projectsList: Project[] = [
       "client": "NIVASAN HOMES PRIVATE LIMITED",
       "area": "116000 SFT",
       "floors": "4 + GROUND",
-      "startDate": "MAR’ 2010",
-      "completionDate": "JUN’ 2011",
+      "startDate": "MAR' 2010",
+      "completionDate": "JUN' 2011",
       "consultant": "JEYAKUMAR ASSOCIATES"
     },
     "gallery": []
@@ -1419,8 +1419,8 @@ export const projectsList: Project[] = [
       "client": "MR KISHORE G LUND SRIVARI PROPERTIES & DEVELOPERS",
       "area": "156000 SFT",
       "floors": "4 +GROUND",
-      "startDate": "APR’ 2007",
-      "completionDate": "JUN’ 2009",
+      "startDate": "APR' 2007",
+      "completionDate": "JUN' 2009",
       "consultant": "EDIFICE PRAMOD BALAKRISHNAN"
     },
     "gallery": []
@@ -1437,8 +1437,8 @@ export const projectsList: Project[] = [
       "client": "MR KISHORE G LUND SRIVARI PROPERTIES & DEVELOPERS",
       "area": "156000 SFT",
       "floors": "4+GROUND",
-      "startDate": "APR’ 2007",
-      "completionDate": "JUN’ 2009",
+      "startDate": "APR' 2007",
+      "completionDate": "JUN' 2009",
       "consultant": "EDIFICE"
     },
     "gallery": []
@@ -1455,8 +1455,8 @@ export const projectsList: Project[] = [
       "client": "MR KISHORE G LUND SRIVARI PROPERTIES & DEVELOPERS",
       "area": "156000 SFT",
       "floors": "4",
-      "startDate": "APR’ 2007",
-      "completionDate": "JUN’ 2009",
+      "startDate": "APR' 2007",
+      "completionDate": "JUN' 2009",
       "consultant": "EDIFICE"
     },
     "gallery": []
@@ -1473,8 +1473,8 @@ export const projectsList: Project[] = [
       "client": "KPR MILLS LIMITED",
       "area": "691000 SFT",
       "floors": "GF",
-      "startDate": "OCT ‘2010",
-      "completionDate": "JUN ‘2011",
+      "startDate": "OCT '2010",
+      "completionDate": "JUN '2011",
       "consultant": "DESIGN FORUM INDIA PRIVATE LIMITED"
     },
     "gallery": []
@@ -1491,8 +1491,8 @@ export const projectsList: Project[] = [
       "client": "VELAMMAL EDUCATIONAL TRUST",
       "area": "203000 SFT",
       "floors": "3+GF",
-      "startDate": "SEP’ 2010",
-      "completionDate": "JUL’2013",
+      "startDate": "SEP' 2010",
+      "completionDate": "JUL'2013",
       "consultant": "CLIENT ENGINEER"
     },
     "gallery": []
@@ -1509,8 +1509,8 @@ export const projectsList: Project[] = [
       "client": "AKSHAYA PRIVATE LIMITED",
       "area": "117000 SFT",
       "floors": "10 + GROUND",
-      "startDate": "JAN’2011",
-      "completionDate": "JUL’2013",
+      "startDate": "JAN'2011",
+      "completionDate": "JUL'2013",
       "consultant": "PASSARGARD"
     },
     "gallery": []
@@ -1527,8 +1527,8 @@ export const projectsList: Project[] = [
       "client": "TVH BELICIAA TOWER'S",
       "area": "144000 SFT",
       "floors": "4 + GROUND",
-      "startDate": "MAY’2007",
-      "completionDate": "JUL’2009",
+      "startDate": "MAY'2007",
+      "completionDate": "JUL'2009",
       "consultant": "KEERTHI SHAH ASSOCIATES"
     },
     "gallery": []
@@ -1545,8 +1545,8 @@ export const projectsList: Project[] = [
       "client": "DR NGP RESEARCH AND EDUCATIONAL TRUST",
       "area": "81000 SFT",
       "floors": "2+GF",
-      "startDate": "JUL’ 2023",
-      "completionDate": "JUL’ 2025",
+      "startDate": "JUL' 2023",
+      "completionDate": "JUL' 2025",
       "consultant": "INGENIO"
     },
     "gallery": []
@@ -1563,8 +1563,8 @@ export const projectsList: Project[] = [
       "client": "L G BALAKRISHNAN & BRO LIMITED -OHT",
       "area": "215000 Ltr",
       "floors": "GF",
-      "startDate": "MAY’ 2022",
-      "completionDate": "JUL’ 2023",
+      "startDate": "MAY' 2022",
+      "completionDate": "JUL' 2023",
       "consultant": "INNOVATIVE DESIGN"
     },
     "gallery": []
@@ -1581,8 +1581,8 @@ export const projectsList: Project[] = [
       "client": "MOTHERSON GROUPS",
       "area": "1,832 Mtr",
       "floors": "GF",
-      "startDate": "AUG’ 2021",
-      "completionDate": "JUL’ 2022",
+      "startDate": "AUG' 2021",
+      "completionDate": "JUL' 2022",
       "consultant": "VESTA ARCHITECTS"
     },
     "gallery": []
@@ -1599,8 +1599,8 @@ export const projectsList: Project[] = [
       "client": "MARK ENGINEERING WORKS",
       "area": "95000 SFT",
       "floors": "GF",
-      "startDate": "AUG’ 2020",
-      "completionDate": "JUL’ 2021",
+      "startDate": "AUG' 2020",
+      "completionDate": "JUL' 2021",
       "consultant": "VESTA ARCHITECTS"
     },
     "gallery": []
@@ -1617,8 +1617,8 @@ export const projectsList: Project[] = [
       "client": "PROPEL INDUSTRIES PRIVATE LIMITED",
       "area": "36400 SFT",
       "floors": "GF",
-      "startDate": "SEP’2017",
-      "completionDate": "JUL’ 2018",
+      "startDate": "SEP'2017",
+      "completionDate": "JUL' 2018",
       "consultant": "S G STRUCTURAL ENGINEERS"
     },
     "gallery": []
@@ -1635,7 +1635,7 @@ export const projectsList: Project[] = [
       "client": "L G BALAKRISHNAN & BROS LIMITED CORPORATE",
       "area": "103,000 SFT",
       "floors": "GF",
-      "startDate": "APR’ 2024",
+      "startDate": "APR' 2024",
       "completionDate": "JAN'2026",
       "consultant": "VESTA ARCHITECTS"
     },
@@ -1653,8 +1653,8 @@ export const projectsList: Project[] = [
       "client": "MADRAS CEMENTS LIMITED",
       "area": "5.1 MW",
       "floors": "GF",
-      "startDate": "SEP’2010",
-      "completionDate": "JAN’2012",
+      "startDate": "SEP'2010",
+      "completionDate": "JAN'2012",
       "consultant": "CLIENT ENGINEER"
     },
     "gallery": []
@@ -1671,8 +1671,8 @@ export const projectsList: Project[] = [
       "client": "GTN EXPORTS LIMITED",
       "area": "152000 SFT",
       "floors": "GF",
-      "startDate": "FEB’2009",
-      "completionDate": "JAN’2010",
+      "startDate": "FEB'2009",
+      "completionDate": "JAN'2010",
       "consultant": "M DHARMALINGAM ASSOCIATES"
     },
     "gallery": []
@@ -1689,26 +1689,26 @@ export const projectsList: Project[] = [
       "client": "MADRAS CEMENTS LIMITED",
       "area": "0.7 MTPA",
       "floors": "GF",
-      "startDate": "JAN’2007",
-      "completionDate": "JAN’2010",
+      "startDate": "JAN'2007",
+      "completionDate": "JAN'2010",
       "consultant": "ENEXCO TECHNOLOGIES (INDIA) LIMITED"
     },
     "gallery": []
   },
   {
     "slug": "abode-valley-phase-i-ii-iii",
-    "name": "“ABODE VALLEY” – PHASE I, II & III",
+    "name": "'ABODE VALLEY' – PHASE I, II & III",
     "category": "INDUSTRIAL",
     "location": "HYDERABAD",
     "imageUrl": "MANUAL_MAPPING_REQUIRED",
     "status": "Completed",
-    "description": "Construction of “ABODE VALLEY” – PHASE I, II & III in HYDERABAD.",
+    "description": "Construction of 'ABODE VALLEY' – PHASE I, II & III in HYDERABAD.",
     "details": {
       "client": "MADRAS CEMENTS LIMITED",
       "area": "500 MTP",
       "floors": "GF",
-      "startDate": "JAN’2007",
-      "completionDate": "JAN’2010",
+      "startDate": "JAN'2007",
+      "completionDate": "JAN'2010",
       "consultant": "EEL INDIA LIMITED"
     },
     "gallery": []
@@ -1725,8 +1725,8 @@ export const projectsList: Project[] = [
       "client": "GOVEL TRUST ARAVIND EYE HOSPITAL",
       "area": "4,49,000 SFT",
       "floors": "3&6",
-      "startDate": "MAR’ 2022",
-      "completionDate": "JAN’ 2025",
+      "startDate": "MAR' 2022",
+      "completionDate": "JAN' 2025",
       "consultant": "DESIGN COLLABORATIVE PRIVATE LIMITED"
     },
     "gallery": []
@@ -1743,8 +1743,8 @@ export const projectsList: Project[] = [
       "client": "VADAMALAYAN HOSPITALS PRIVATE LIMITED",
       "area": "14,100 SFT",
       "floors": "3+GF",
-      "startDate": "AUG’ 2022",
-      "completionDate": "JAN’ 2024",
+      "startDate": "AUG' 2022",
+      "completionDate": "JAN' 2024",
       "consultant": "WHITE EDGE ARCHITECTS"
     },
     "gallery": []
@@ -1761,8 +1761,8 @@ export const projectsList: Project[] = [
       "client": "MR SUKUMARAN & M/S ADITYA EDUCATIONAL TRUST",
       "area": "34000 SFT",
       "floors": "2",
-      "startDate": "DEC’ 2019",
-      "completionDate": "JAN’ 2021",
+      "startDate": "DEC' 2019",
+      "completionDate": "JAN' 2021",
       "consultant": "VESTA ARCHITECTS"
     },
     "gallery": []
@@ -1779,26 +1779,26 @@ export const projectsList: Project[] = [
       "client": "MEPCO SCHLENK CHARITIES",
       "area": "204400 SFT",
       "floors": "2",
-      "startDate": "FEB’ 2018",
-      "completionDate": "JAN’ 2020",
+      "startDate": "FEB' 2018",
+      "completionDate": "JAN' 2020",
       "consultant": "TRINITY ASSOCIATES"
     },
     "gallery": []
   },
   {
     "slug": "s-p-foundation-pvt-ltd-essense-apartments",
-    "name": "S&P FOUNDATION PVT LTD “ESSENSE APARTMENTS”",
+    "name": "S&P FOUNDATION PVT LTD 'ESSENSE APARTMENTS'",
     "category": "COMMERCIAL",
     "location": "COIMBATORE",
     "imageUrl": "MANUAL_MAPPING_REQUIRED",
     "status": "Completed",
-    "description": "Construction of S&P FOUNDATION PVT LTD “ESSENSE APARTMENTS” in COIMBATORE.",
+    "description": "Construction of S&P FOUNDATION PVT LTD 'ESSENSE APARTMENTS' in COIMBATORE.",
     "details": {
       "client": "MR SUKUMARAN & M/S ADITYA EDUCATIONAL TRUST",
       "area": "140000 SFT",
       "floors": "1",
-      "startDate": "JAN’ 2016",
-      "completionDate": "JAN’ 2018",
+      "startDate": "JAN' 2016",
+      "completionDate": "JAN' 2018",
       "consultant": "SUNDAR SUNDARAM ARCHITECTS"
     },
     "gallery": []
@@ -1815,8 +1815,8 @@ export const projectsList: Project[] = [
       "client": "MR SUKUMAN & M/S ADITYA EDUCATIONAL TRUST",
       "area": "100000 SFT",
       "floors": "2",
-      "startDate": "MAR’2014",
-      "completionDate": "JAN’ 2015",
+      "startDate": "MAR'2014",
+      "completionDate": "JAN' 2015",
       "consultant": "SUNDAR SUNDARAM ARCHITECTS"
     },
     "gallery": []
@@ -1833,8 +1833,8 @@ export const projectsList: Project[] = [
       "client": "MR SUKUMAN & M/S ADITYA EDUCATIONAL TRUST",
       "area": "141000 SFT",
       "floors": "2",
-      "startDate": "MAR’2014",
-      "completionDate": "JAN’ 2015",
+      "startDate": "MAR'2014",
+      "completionDate": "JAN' 2015",
       "consultant": "SUNDAR SUNDARAM ARCHITECTS"
     },
     "gallery": []
@@ -1851,7 +1851,7 @@ export const projectsList: Project[] = [
       "client": "PSG & SONS CHARITIES",
       "area": "117000 SFT",
       "floors": "4+STILT",
-      "startDate": "SEP’ 2019",
+      "startDate": "SEP' 2019",
       "completionDate": "FEB'2021",
       "consultant": "MITHRAN STRUCTURES (P) LIMITED"
     },
@@ -1869,26 +1869,26 @@ export const projectsList: Project[] = [
       "client": "LANCOR HOLDINGS LIMITED",
       "area": "570000 SFT",
       "floors": "4",
-      "startDate": "APR ‘2010",
-      "completionDate": "FEB’2012",
+      "startDate": "APR '2010",
+      "completionDate": "FEB'2012",
       "consultant": "NATARAJ & VENKAT ASSOCIATES"
     },
     "gallery": []
   },
   {
     "slug": "nivasan-homes-pvt-ltd-the-echo-point-aavaas",
-    "name": "NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS",
+    "name": "NIVASAN HOMES PVT LTD 'THE ECHO POINT – AAVAAS",
     "category": "RESIDENTIAL",
     "location": "COIMBATORE",
     "imageUrl": "MANUAL_MAPPING_REQUIRED",
     "status": "Completed",
-    "description": "Construction of NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS in COIMBATORE.",
+    "description": "Construction of NIVASAN HOMES PVT LTD 'THE ECHO POINT – AAVAAS in COIMBATORE.",
     "details": {
       "client": "HARIHAR DWELLINGS (P) LIMITED",
       "area": "125000 SFT",
       "floors": "4",
-      "startDate": "AUG’2009",
-      "completionDate": "FEB’2011",
+      "startDate": "AUG'2009",
+      "completionDate": "FEB'2011",
       "consultant": "BRITTO ILANGO AND ASSOCIATES"
     },
     "gallery": []
@@ -1905,8 +1905,8 @@ export const projectsList: Project[] = [
       "client": "SCHUF SPECIALITY VALVES INDIA PRIVATE LIMITED",
       "area": "37000 SFT",
       "floors": "GF",
-      "startDate": "OCT’2006",
-      "completionDate": "FEB’2008",
+      "startDate": "OCT'2006",
+      "completionDate": "FEB'2008",
       "consultant": "SANKAR & ASSOCIATES"
     },
     "gallery": []
@@ -1923,8 +1923,8 @@ export const projectsList: Project[] = [
       "client": "PSG & SONS CHARITIES",
       "area": "220000 SFT",
       "floors": "8",
-      "startDate": "AUG’ 2020",
-      "completionDate": "FEB’ 2024",
+      "startDate": "AUG' 2020",
+      "completionDate": "FEB' 2024",
       "consultant": "MITHRAN STRUCTURES (P) LIMITED"
     },
     "gallery": []
@@ -1941,8 +1941,8 @@ export const projectsList: Project[] = [
       "client": "KRISHNAVENI CARBON PRODUCTS PRIVATE LIMITED",
       "area": "95000 SFT",
       "floors": "GF",
-      "startDate": "Jun’ 2019",
-      "completionDate": "FEB’ 2022",
+      "startDate": "Jun' 2019",
+      "completionDate": "FEB' 2022",
       "consultant": "M DHARMALINGAM ASSOCIATES"
     },
     "gallery": []
@@ -1959,8 +1959,8 @@ export const projectsList: Project[] = [
       "client": "S&P FOUNDATION PRIVATE LIMITED",
       "area": "265000 SFT",
       "floors": "4 + STILT",
-      "startDate": "DEC’ 2015",
-      "completionDate": "FEB’ 2018",
+      "startDate": "DEC' 2015",
+      "completionDate": "FEB' 2018",
       "consultant": "SEMAC CONSULTANT PRIVATE LIMITED"
     },
     "gallery": []
@@ -1977,8 +1977,8 @@ export const projectsList: Project[] = [
       "client": "S & S FOUNDATIONS PRIVATE LIMITED",
       "area": "17000 SFT",
       "floors": "4 +GROUND",
-      "startDate": "JUN’ 2015",
-      "completionDate": "FEB’ 2017",
+      "startDate": "JUN' 2015",
+      "completionDate": "FEB' 2017",
       "consultant": "NATARAJ & VENKAT ASSOCIATES"
     },
     "gallery": []
@@ -1995,7 +1995,7 @@ export const projectsList: Project[] = [
       "client": "EMERALD HAVEN REALTY LIMITED",
       "area": "425000 SFT",
       "floors": "14",
-      "startDate": "FEB’ 2018",
+      "startDate": "FEB' 2018",
       "completionDate": "FEB '2022",
       "consultant": "R CHAKRAPANI & SONS"
     },
@@ -2013,7 +2013,7 @@ export const projectsList: Project[] = [
       "client": "EMERALD HAVEN REALTY LIMITED",
       "area": "425000 SFT",
       "floors": "14",
-      "startDate": "FEB’ 2018",
+      "startDate": "FEB' 2018",
       "completionDate": "FEB '2022",
       "consultant": "R CHAKRAPANI & SONS"
     },
@@ -2049,8 +2049,8 @@ export const projectsList: Project[] = [
       "client": "SRI KRISHNA COLLEGE OF TECHNOLOGY",
       "area": "106100 SFT",
       "floors": "3",
-      "startDate": "JAN’ 2022",
-      "completionDate": "DEC’2022",
+      "startDate": "JAN' 2022",
+      "completionDate": "DEC'2022",
       "consultant": "PTK PROJECT CONSULTANTS"
     },
     "gallery": []
@@ -2067,8 +2067,8 @@ export const projectsList: Project[] = [
       "client": "NIVASAN HOMES PRIVATE LIMITED",
       "area": "115000 SFT",
       "floors": "6",
-      "startDate": "JUN’ 2018",
-      "completionDate": "DEC’2020",
+      "startDate": "JUN' 2018",
+      "completionDate": "DEC'2020",
       "consultant": "VESTA ARCHITECTS"
     },
     "gallery": []
@@ -2085,8 +2085,8 @@ export const projectsList: Project[] = [
       "client": "BULL MACHINES PRIVATE LIMITED",
       "area": "57000 SFT",
       "floors": "GF",
-      "startDate": "JUN’2015",
-      "completionDate": "DEC’2015",
+      "startDate": "JUN'2015",
+      "completionDate": "DEC'2015",
       "consultant": "S G STRUCTURAL ENGINEERS"
     },
     "gallery": []
@@ -2103,8 +2103,8 @@ export const projectsList: Project[] = [
       "client": "VELAMMAL EDUCATIONAL TRUST",
       "area": "714000 SFT",
       "floors": "5",
-      "startDate": "NOV’2011",
-      "completionDate": "DEC’2013",
+      "startDate": "NOV'2011",
+      "completionDate": "DEC'2013",
       "consultant": "BHARGAO GROUP BUILDPRO TECHNOLOGIES"
     },
     "gallery": []
@@ -2121,8 +2121,8 @@ export const projectsList: Project[] = [
       "client": "BUSHIDO INFOTECH PRIVATE LIMITED",
       "area": "36000 SFT",
       "floors": "4",
-      "startDate": "NOV’2011",
-      "completionDate": "DEC’2013",
+      "startDate": "NOV'2011",
+      "completionDate": "DEC'2013",
       "consultant": "M DHARMALINGAM ASSOCIATES"
     },
     "gallery": []
@@ -2139,8 +2139,8 @@ export const projectsList: Project[] = [
       "client": "SAROJA VELUSAMY AND THALES TRUST",
       "area": "25000 SFT",
       "floors": "3",
-      "startDate": "JUN’2011",
-      "completionDate": "DEC’2012",
+      "startDate": "JUN'2011",
+      "completionDate": "DEC'2012",
       "consultant": "ARUN & ASSOCIATES"
     },
     "gallery": []
@@ -2157,26 +2157,26 @@ export const projectsList: Project[] = [
       "client": "TOYOTA ANAMALLAIS AGENCIES",
       "area": "57300 SFT",
       "floors": "GF",
-      "startDate": "JAN’2010",
-      "completionDate": "DEC’2010",
+      "startDate": "JAN'2010",
+      "completionDate": "DEC'2010",
       "consultant": "MR ARIVUDAI NAMBI"
     },
     "gallery": []
   },
   {
     "slug": "s-s-foundations-pvt-ltd-ishan-apartments",
-    "name": "S&S FOUNDATIONS PVT LTD “ISHAN APARTMENTS”",
+    "name": "S&S FOUNDATIONS PVT LTD 'ISHAN APARTMENTS'",
     "category": "COMMERCIAL",
     "location": "MADURAI",
     "imageUrl": "MANUAL_MAPPING_REQUIRED",
     "status": "Completed",
-    "description": "Construction of S&S FOUNDATIONS PVT LTD “ISHAN APARTMENTS” in MADURAI.",
+    "description": "Construction of S&S FOUNDATIONS PVT LTD 'ISHAN APARTMENTS' in MADURAI.",
     "details": {
       "client": "TOYOTA ANAMALLAIS AGENCIES",
       "area": "57300 SFT",
       "floors": "GF",
-      "startDate": "JAN’2010",
-      "completionDate": "DEC’2010",
+      "startDate": "JAN'2010",
+      "completionDate": "DEC'2010",
       "consultant": "MR ARIVUDAI NAMBI"
     },
     "gallery": []
@@ -2229,8 +2229,8 @@ export const projectsList: Project[] = [
       "client": "PSG & SONS CHARITIES",
       "area": "204,000 SFT",
       "floors": "8",
-      "startDate": "DEC’ 2022",
-      "completionDate": "DEC’ 2024",
+      "startDate": "DEC' 2022",
+      "completionDate": "DEC' 2024",
       "consultant": "MITHRAN STRUCTURES (P) LIMITED"
     },
     "gallery": []
@@ -2247,8 +2247,8 @@ export const projectsList: Project[] = [
       "client": "PERFECT ENGINEERS",
       "area": "100000 SFT",
       "floors": "GF",
-      "startDate": "Mar’ 2020",
-      "completionDate": "DEC’ 2021",
+      "startDate": "Mar' 2020",
+      "completionDate": "DEC' 2021",
       "consultant": "PERFECT ENGINEERS"
     },
     "gallery": []
@@ -2265,8 +2265,8 @@ export const projectsList: Project[] = [
       "client": "PSG & SONS CHARITIES",
       "area": "20000 SFT",
       "floors": "4",
-      "startDate": "DEC’ 2019",
-      "completionDate": "DEC’ 2020",
+      "startDate": "DEC' 2019",
+      "completionDate": "DEC' 2020",
       "consultant": "MITHRAN STRUCTURES (P) LIMITED"
     },
     "gallery": []
@@ -2283,8 +2283,8 @@ export const projectsList: Project[] = [
       "client": "PSG & SONS CHARITIES",
       "area": "20000 SFT",
       "floors": "4",
-      "startDate": "DEC’ 2019",
-      "completionDate": "DEC’ 2020",
+      "startDate": "DEC' 2019",
+      "completionDate": "DEC' 2020",
       "consultant": "MITHRAN STRUCTURES (P) LIMITED"
     },
     "gallery": []
@@ -2301,8 +2301,8 @@ export const projectsList: Project[] = [
       "client": "GLOBAL TECH PARK PRIVATE LIMITED",
       "area": "233300 SFT",
       "floors": "3",
-      "startDate": "DEC’ 2018",
-      "completionDate": "DEC’ 2019",
+      "startDate": "DEC' 2018",
+      "completionDate": "DEC' 2019",
       "consultant": "MIND SPACE"
     },
     "gallery": []
@@ -2319,8 +2319,8 @@ export const projectsList: Project[] = [
       "client": "MR SUKUMAN & M/S ADITYA EDUCATIONAL TRUST",
       "area": "37000 SFT",
       "floors": "2",
-      "startDate": "NOV’ 2017",
-      "completionDate": "DEC’ 2018",
+      "startDate": "NOV' 2017",
+      "completionDate": "DEC' 2018",
       "consultant": "VESTA ARCHITECTS"
     },
     "gallery": []
@@ -2337,8 +2337,8 @@ export const projectsList: Project[] = [
       "client": "SHANTHAMANI SPINNERS",
       "area": "76400 SFT",
       "floors": "GF",
-      "startDate": "JAN’ 2016",
-      "completionDate": "DEC’ 2017",
+      "startDate": "JAN' 2016",
+      "completionDate": "DEC' 2017",
       "consultant": "CLIENT ENGINEER"
     },
     "gallery": []
@@ -2355,8 +2355,8 @@ export const projectsList: Project[] = [
       "client": "AMALGAMATION PRIVATE LIMITED",
       "area": "5200 SFT",
       "floors": "1",
-      "startDate": "MAY’ 2016",
-      "completionDate": "DEC’ 2017",
+      "startDate": "MAY' 2016",
+      "completionDate": "DEC' 2017",
       "consultant": "C R NARAYANA RAO CONSULTANTS PRIVATE LIMITED"
     },
     "gallery": []
@@ -2373,8 +2373,8 @@ export const projectsList: Project[] = [
       "client": "S&S FOUNDATIONS PRIVATE LIMITED",
       "area": "165500 SFT",
       "floors": "11 +STILT",
-      "startDate": "JUN’ 2012",
-      "completionDate": "DEC’ 2014",
+      "startDate": "JUN' 2012",
+      "completionDate": "DEC' 2014",
       "consultant": "CHETTINAD DESIGN"
     },
     "gallery": []
@@ -2391,8 +2391,8 @@ export const projectsList: Project[] = [
       "client": "S&S FOUNDATIONS PRIVATE LIMITED",
       "area": "80,000 SFT",
       "floors": "11 + GROUND + B",
-      "startDate": "MAY’ 2013",
-      "completionDate": "DEC’ 2014",
+      "startDate": "MAY' 2013",
+      "completionDate": "DEC' 2014",
       "consultant": "SANJITH & VIVEK ARCHITECTS"
     },
     "gallery": []
@@ -2409,8 +2409,8 @@ export const projectsList: Project[] = [
       "client": "KG DENIM LIMITED",
       "area": "166000 SFT",
       "floors": "GF",
-      "startDate": "JUN’ 2004",
-      "completionDate": "DEC’ 2005",
+      "startDate": "JUN' 2004",
+      "completionDate": "DEC' 2005",
       "consultant": "DESIGN FORUM INDIA PRIVATE LIMITED"
     },
     "gallery": []
@@ -2427,8 +2427,8 @@ export const projectsList: Project[] = [
       "client": "GOVEL TRUST ARAVIND EYE HOSPITAL",
       "area": "106000 SFT",
       "floors": "5",
-      "startDate": "APR’2008",
-      "completionDate": "AUG’2009",
+      "startDate": "APR'2008",
+      "completionDate": "AUG'2009",
       "consultant": "AUROSERVICE CONSULTANTS PRIVATE LIMITED"
     },
     "gallery": []
@@ -2445,8 +2445,8 @@ export const projectsList: Project[] = [
       "client": "SPINE ARTHOSCOPY AND JOINT REPLACEMENT CENTRE",
       "area": "40000 SFT",
       "floors": "3",
-      "startDate": "AUG’2008",
-      "completionDate": "AUG’2009",
+      "startDate": "AUG'2008",
+      "completionDate": "AUG'2009",
       "consultant": "STUDIO 29"
     },
     "gallery": []
@@ -2463,8 +2463,8 @@ export const projectsList: Project[] = [
       "client": "MR SUKUMAN & M/S ADITYA EDUCATIONAL TRUST",
       "area": "325000 SFT",
       "floors": "4",
-      "startDate": "FEB’ 2008",
-      "completionDate": "AUG’2009",
+      "startDate": "FEB' 2008",
+      "completionDate": "AUG'2009",
       "consultant": "JEYAKUMAR ASSOCIATES"
     },
     "gallery": []
@@ -2481,8 +2481,8 @@ export const projectsList: Project[] = [
       "client": "SHOELINE",
       "area": "26000 SFT",
       "floors": "4",
-      "startDate": "Oct’ 2019",
-      "completionDate": "Aug’ 2020",
+      "startDate": "Oct' 2019",
+      "completionDate": "Aug' 2020",
       "consultant": "GREEN EVOLUTION"
     },
     "gallery": []
@@ -2499,8 +2499,8 @@ export const projectsList: Project[] = [
       "client": "PARVATHY AGENCIES",
       "area": "27500 SFT",
       "floors": "4",
-      "startDate": "Nov’ 2018",
-      "completionDate": "Aug’ 2020",
+      "startDate": "Nov' 2018",
+      "completionDate": "Aug' 2020",
       "consultant": "VESTA ARCHITECTS"
     },
     "gallery": []
@@ -2517,8 +2517,8 @@ export const projectsList: Project[] = [
       "client": "VADAMALAYAN HOSPITAL (P) LIMITED",
       "area": "118000 SFT",
       "floors": "7",
-      "startDate": "FEB’ 2018",
-      "completionDate": "AUG’ 2020",
+      "startDate": "FEB' 2018",
+      "completionDate": "AUG' 2020",
       "consultant": "DHYAN ARCHITECTS AND CONSULTANTS"
     },
     "gallery": []
@@ -2535,8 +2535,8 @@ export const projectsList: Project[] = [
       "client": "SAP PROMOTERS LIMITED",
       "area": "12000 SFT",
       "floors": "3",
-      "startDate": "JUN’ 2014",
-      "completionDate": "AUG’ 2016",
+      "startDate": "JUN' 2014",
+      "completionDate": "AUG' 2016",
       "consultant": "GOWTHAM ARCHITECTS"
     },
     "gallery": []
@@ -2553,8 +2553,8 @@ export const projectsList: Project[] = [
       "client": "NIVASAN HOMES PRIVATE LIMITED",
       "area": "20720 SFT",
       "floors": "4",
-      "startDate": "MAR’ 2014",
-      "completionDate": "AUG’ 2016",
+      "startDate": "MAR' 2014",
+      "completionDate": "AUG' 2016",
       "consultant": "JEYAKUMAR ASSOCIATES"
     },
     "gallery": []
@@ -2571,8 +2571,8 @@ export const projectsList: Project[] = [
       "client": "MR RAVICHANDRAN",
       "area": "15000 SFT",
       "floors": "4 + GROUND",
-      "startDate": "MAY’ 2014",
-      "completionDate": "AUG’ 2015",
+      "startDate": "MAY' 2014",
+      "completionDate": "AUG' 2015",
       "consultant": "GOWTHAM ARCHITECTS"
     },
     "gallery": []
@@ -2589,8 +2589,8 @@ export const projectsList: Project[] = [
       "client": "SREE SUKTHA REALESTATES PRIVATE LIMITED",
       "area": "55000 SFT",
       "floors": "4 + GROUND",
-      "startDate": "AUG’ 2009",
-      "completionDate": "AUG’ 2011",
+      "startDate": "AUG' 2009",
+      "completionDate": "AUG' 2011",
       "consultant": "SANKAR & ASSOCIATES"
     },
     "gallery": []
@@ -2607,8 +2607,8 @@ export const projectsList: Project[] = [
       "client": "VADAMALAYAN HOSPITALS",
       "area": "65000 & 20000 SFT",
       "floors": "3",
-      "startDate": "SEP’2007 & DEC’ 2014",
-      "completionDate": "AUG’ 2009 & DEC’ 2015",
+      "startDate": "SEP'2007 & DEC' 2014",
+      "completionDate": "AUG' 2009 & DEC' 2015",
       "consultant": "INFRABEES MANAGEMENT CONSULTANCY SERVICES"
     },
     "gallery": []
@@ -2625,43 +2625,43 @@ export const projectsList: Project[] = [
       "client": "WHITE HOUSE RESIDENCE INDIA PRIVATE LIMITED",
       "area": "45000 SFT",
       "floors": "4+ GROUND",
-      "startDate": "AUG’ 2007",
-      "completionDate": "AUG’ 2009",
+      "startDate": "AUG' 2007",
+      "completionDate": "AUG' 2009",
       "consultant": "SANKAR & ASSOCIATES"
     },
     "gallery": []
   },
   {
     "slug": "velmuruga-enterprises-private-limited-svb-mlcp",
-    "name": "Velmuruga Enterprises Private Limited “SVB MLCP”",
+    "name": "Velmuruga Enterprises Private Limited 'SVB MLCP'",
     "category": "INSTITUTIONAL",
     "location": "COIMBATORE",
     "imageUrl": "MANUAL_MAPPING_REQUIRED",
     "status": "Completed",
-    "description": "Construction of Velmuruga Enterprises Private Limited “SVB MLCP” in COIMBATORE.",
+    "description": "Construction of Velmuruga Enterprises Private Limited 'SVB MLCP' in COIMBATORE.",
     "details": {
       "client": "GKD CHARITY TRUST",
       "area": "52500 SFT",
       "floors": "2",
-      "startDate": "MAY’ 2004",
-      "completionDate": "AUG’ 2005",
+      "startDate": "MAY' 2004",
+      "completionDate": "AUG' 2005",
       "consultant": "ENVIRONMENTAL CREATIONS"
     },
     "gallery": []
   },
   {
     "slug": "pnr-prime-reality-limited-pnr-edifice",
-    "name": "PNR Prime Reality Limited “PNR EDIFICE”",
+    "name": "PNR Prime Reality Limited 'PNR EDIFICE'",
     "category": "IT PARK",
     "location": "CHENNAI",
     "imageUrl": "MANUAL_MAPPING_REQUIRED",
     "status": "Completed",
-    "description": "Construction of PNR Prime Reality Limited “PNR EDIFICE” in CHENNAI.",
+    "description": "Construction of PNR Prime Reality Limited 'PNR EDIFICE' in CHENNAI.",
     "details": {
       "client": "ALWARPET PROPERTIES PRIVATE LIMITED",
       "area": "2,16,000 SFT",
       "floors": "10",
-      "startDate": "Aug’ 2021",
+      "startDate": "Aug' 2021",
       "completionDate": "Apr 2024",
       "consultant": "RSP DESIGN CONSULTANTS"
     },
@@ -2679,8 +2679,8 @@ export const projectsList: Project[] = [
       "client": "GOVEL TRUST ARAVIND EYE HOSPITAL",
       "area": "137500 SFT",
       "floors": "6",
-      "startDate": "OCT’ 2020",
-      "completionDate": "APR’ 2023",
+      "startDate": "OCT' 2020",
+      "completionDate": "APR' 2023",
       "consultant": "DESIGN COLLABORATIVE PRIVATE LIMITED"
     },
     "gallery": []
@@ -2697,8 +2697,8 @@ export const projectsList: Project[] = [
       "client": "CHEYYAR SEZ DEVELOPERS PRIVATE LIMITED",
       "area": "3,10,000 SFT",
       "floors": "GF",
-      "startDate": "JAN’ 2022",
-      "completionDate": "APR’ 2023",
+      "startDate": "JAN' 2022",
+      "completionDate": "APR' 2023",
       "consultant": "PITHAVADIAN AND PARTNERS ARCHITECTS"
     },
     "gallery": []
@@ -2715,8 +2715,8 @@ export const projectsList: Project[] = [
       "client": "CHEYYAR SEZ DEVELOPERS PRIVATE LIMITED",
       "area": "2,85,000 SFT",
       "floors": "GF",
-      "startDate": "OCT’ 2021",
-      "completionDate": "APR’ 2023",
+      "startDate": "OCT' 2021",
+      "completionDate": "APR' 2023",
       "consultant": "CHEYYAR SEZ DEVELOPERS PRIVATE LIMITED"
     },
     "gallery": []
@@ -2733,7 +2733,7 @@ export const projectsList: Project[] = [
       "client": "RAMAKRISHNA MISSION VIDYALAYA",
       "area": "10500 SFT",
       "floors": "GF",
-      "startDate": "Jan’ 2020",
+      "startDate": "Jan' 2020",
       "completionDate": "Apr 2022",
       "consultant": "VESTA ARCHITECTS"
     },
@@ -2751,8 +2751,8 @@ export const projectsList: Project[] = [
       "client": "VENKATALAKSHMI PAPER AND BOARDS",
       "area": "9000 SFT",
       "floors": "GF",
-      "startDate": "APR’ 2019",
-      "completionDate": "APR’ 2021",
+      "startDate": "APR' 2019",
+      "completionDate": "APR' 2021",
       "consultant": "M DHARMALINGAM ASSOCIATES"
     },
     "gallery": []
@@ -2769,8 +2769,8 @@ export const projectsList: Project[] = [
       "client": "HINDUSTHAN EDUCATION AND CHARITABLE TRUST",
       "area": "28000 SFT",
       "floors": "5",
-      "startDate": "MAR’ 2016",
-      "completionDate": "APR’ 2019",
+      "startDate": "MAR' 2016",
+      "completionDate": "APR' 2019",
       "consultant": "SUNDAR SUNDARAM ARCHITECTS"
     },
     "gallery": []
@@ -2787,8 +2787,8 @@ export const projectsList: Project[] = [
       "client": "GOVEL TRUST ARAVIND EYE HOSPITAL",
       "area": "100000 SFT",
       "floors": "2",
-      "startDate": "APR’ 2007",
-      "completionDate": "APR’ 2009",
+      "startDate": "APR' 2007",
+      "completionDate": "APR' 2009",
       "consultant": "AUROSERVICE CONSULTANTS PRIVATE LIMITED"
     },
     "gallery": []
@@ -2805,8 +2805,8 @@ export const projectsList: Project[] = [
       "client": "GOVEL TRUST ARAVIND EYE HOSPITAL",
       "area": "150000 SFT",
       "floors": "3",
-      "startDate": "APR’ 2007",
-      "completionDate": "APR’ 2009",
+      "startDate": "APR' 2007",
+      "completionDate": "APR' 2009",
       "consultant": "AUROSERVICE CONSULTANTS PRIVATE LIMITED"
     },
     "gallery": []
@@ -2823,8 +2823,8 @@ export const projectsList: Project[] = [
       "client": "MR ANWAR CLASSIC TOWERS",
       "area": "30000 SFT",
       "floors": "4 + GROUND",
-      "startDate": "APR’ 2006",
-      "completionDate": "APR’ 2008",
+      "startDate": "APR' 2006",
+      "completionDate": "APR' 2008",
       "consultant": "CLIENT ENGINEER"
     },
     "gallery": []
@@ -2841,8 +2841,8 @@ export const projectsList: Project[] = [
       "client": "SRI RAMAKRISHNA DENTAL COLLEGE",
       "area": "133000 SFT",
       "floors": "3",
-      "startDate": "APR’ 2005",
-      "completionDate": "APR’ 2006",
+      "startDate": "APR' 2005",
+      "completionDate": "APR' 2006",
       "consultant": "BRITTO ILANGO ASSOCIATES"
     },
     "gallery": []
@@ -2859,8 +2859,8 @@ export const projectsList: Project[] = [
       "client": "SRI RAMAKRISHNA DENTAL COLLEGE",
       "area": "133000 SFT",
       "floors": "3",
-      "startDate": "APR’ 2005",
-      "completionDate": "APR’ 2006",
+      "startDate": "APR' 2005",
+      "completionDate": "APR' 2006",
       "consultant": "BRITTO ILANGO ASSOCIATES"
     },
     "gallery": []
@@ -2877,7 +2877,7 @@ export const projectsList: Project[] = [
       "client": "LAKSHMI PRIYA",
       "area": "27,024 SFT",
       "floors": "4",
-      "startDate": "DEC’ 2022",
+      "startDate": "DEC' 2022",
       "completionDate": "Jan 2026",
       "consultant": "MAHESH ARCHITECT & INTERIOR DESIGNERS"
     },
@@ -2895,7 +2895,7 @@ export const projectsList: Project[] = [
       "client": "VELMURUGA ENTERPRISES PRIVATE LIMITED",
       "area": "204,700 SFT",
       "floors": "6",
-      "startDate": "JUL’ 2023",
+      "startDate": "JUL' 2023",
       "completionDate": "Jan2025",
       "consultant": "TAAMAESEK ENGINEERING CONSORTIUM (TMA)"
     },
@@ -2913,7 +2913,7 @@ export const projectsList: Project[] = [
       "client": "PNR PRIME REALITY LIMITED",
       "area": "31,700 SFT",
       "floors": "4",
-      "startDate": "JAN’ 2022",
+      "startDate": "JAN' 2022",
       "completionDate": "Jan2025",
       "consultant": "INFORM ARCHTECTS"
     },
@@ -2931,7 +2931,7 @@ export const projectsList: Project[] = [
       "client": "SPINE ARTHOSCOPIC & JOINT REPLACEMENT CENTRE",
       "area": "6,700 SFT",
       "floors": "4",
-      "startDate": "DEC’ 2022",
+      "startDate": "DEC' 2022",
       "completionDate": "Nov 2024",
       "consultant": "SUNDAR SUNDARAM ARCHTECTS"
     },
@@ -2949,7 +2949,7 @@ export const projectsList: Project[] = [
       "client": "SRI BALAJI VIDYAPEETH",
       "area": "2,37,000 SFT",
       "floors": "9",
-      "startDate": "SEP’ 2022",
+      "startDate": "SEP' 2022",
       "completionDate": "Aug 2024",
       "consultant": "SANKAR & ASSOCIATES"
     },
@@ -2967,7 +2967,7 @@ export const projectsList: Project[] = [
       "client": "KOVAI MEDICAL CENTER AND HOSPITAL",
       "area": "93,000 SFT",
       "floors": "6",
-      "startDate": "SEP’ 2022",
+      "startDate": "SEP' 2022",
       "completionDate": "July 2024",
       "consultant": "SANKAR & ASSOCIATES"
     },
@@ -2975,12 +2975,12 @@ export const projectsList: Project[] = [
   },
   {
     "slug": "rak-s-pallikkoodam",
-    "name": "RAK’S Pallikkoodam",
+    "name": "RAK'S Pallikkoodam",
     "category": "INDUSTRIAL",
     "location": "COIMBATORE",
     "imageUrl": "MANUAL_MAPPING_REQUIRED",
     "status": "Completed",
-    "description": "Construction of RAK’S Pallikkoodam in COIMBATORE.",
+    "description": "Construction of RAK'S Pallikkoodam in COIMBATORE.",
     "details": {
       "client": "INTEGRA AUTOMATION PRIVATE LIMITED UNIT–IV",
       "area": "82000 SFT",
@@ -3075,7 +3075,7 @@ export const projectsList: Project[] = [
       "client": "NIVASAN HOMES PRIVATE LIMITED",
       "area": "33,000 SFT",
       "floors": "5",
-      "startDate": "DEC’ 2022",
+      "startDate": "DEC' 2022",
       "completionDate": "MAY '2025",
       "consultant": "VESTA ARCHITECTS"
     },
@@ -3165,7 +3165,7 @@ export const projectsList: Project[] = [
       "client": "WORLD COMMUNITY SERVICE CENTRE",
       "area": "10,400 SFT",
       "floors": "3",
-      "startDate": "MAR’ 2022",
+      "startDate": "MAR' 2022",
       "completionDate": "JUL '2023",
       "consultant": "M DHARMALINGAM ASSOCIATE"
     },
@@ -3183,7 +3183,7 @@ export const projectsList: Project[] = [
       "client": "SRI KRISHNA COLLEGE OF TECHNOLOGY",
       "area": "84200 SFT",
       "floors": "4 +GF+TERACE",
-      "startDate": "JAN’ 2023",
+      "startDate": "JAN' 2023",
       "completionDate": "SEP'2025",
       "consultant": "PTK PROJECT CONSULTANTS"
     },
@@ -3201,7 +3201,7 @@ export const projectsList: Project[] = [
       "client": "VELMURUGA ENTERPRISES PRIVATE LIMITED",
       "area": "240000 SFT",
       "floors": "10",
-      "startDate": "Nov’ 2019",
+      "startDate": "Nov' 2019",
       "completionDate": "Dec 2022",
       "consultant": "TAAMAESEK ENGINEERING CONSORTIUM"
     },
@@ -3219,7 +3219,7 @@ export const projectsList: Project[] = [
       "client": "GLOBAL TECH PARK PRIVATE LIMITED",
       "area": "1013000 SFT",
       "floors": "9 +2B+G",
-      "startDate": "OCT’ 2021",
+      "startDate": "OCT' 2021",
       "completionDate": "Jan 2026",
       "consultant": "MIND SPACE"
     },
@@ -3237,7 +3237,7 @@ export const projectsList: Project[] = [
       "client": "SWETHA KRISHNAMURTHY",
       "area": "81000 SFT",
       "floors": "GF+3",
-      "startDate": "SEP’ 2024",
+      "startDate": "SEP' 2024",
       "completionDate": "SEP' 2026",
       "consultant": "INGENIO"
     },
@@ -3255,7 +3255,7 @@ export const projectsList: Project[] = [
       "client": "MR C S SIDDHARTH",
       "area": "11,400 SFT",
       "floors": "1",
-      "startDate": "MAR’ 2024",
+      "startDate": "MAR' 2024",
       "completionDate": "JUY'2027",
       "consultant": "MRS BHARATHI SENGOTTUVEL"
     },
@@ -3273,7 +3273,7 @@ export const projectsList: Project[] = [
       "client": "MR KANAGARATHINAM",
       "area": "9,500 SFT",
       "floors": "2",
-      "startDate": "AUG’ 2024",
+      "startDate": "AUG' 2024",
       "completionDate": "OCT' 2026",
       "consultant": "SANKAR & ASSOCIATES"
     },
@@ -3291,7 +3291,7 @@ export const projectsList: Project[] = [
       "client": "NIVASAN HOMES PRIVATE LIMITED",
       "area": "93,500 SFT",
       "floors": "1",
-      "startDate": "MAY’ 2024",
+      "startDate": "MAY' 2024",
       "completionDate": "OCT' 2026",
       "consultant": "VESTA ARCHITECTS"
     },
@@ -3309,7 +3309,7 @@ export const projectsList: Project[] = [
       "client": "SHRI VISION ELEVATION PRIVATE LIMITED",
       "area": "13,40,200 SFT",
       "floors": "19",
-      "startDate": "JUN ’ 2025",
+      "startDate": "JUN ' 2025",
       "completionDate": "JUN '2028",
       "consultant": "/ DESIGN REALM"
     },
@@ -3327,7 +3327,7 @@ export const projectsList: Project[] = [
       "client": "NIVASAN HOMES PRIVATE LIMITED",
       "area": "331,314 SFT",
       "floors": "VB+GF +2 , RHB +GF+1, B+GF,3",
-      "startDate": "JAN’ 2021",
+      "startDate": "JAN' 2021",
       "completionDate": "---",
       "consultant": "SENSCAPE ARCHITECTS PRIVATE LIMITED"
     },
