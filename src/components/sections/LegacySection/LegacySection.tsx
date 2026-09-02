@@ -13,6 +13,7 @@ export default function LegacySection() {
     const containerRef = useRef<HTMLDivElement>(null);
     const scrollWrapperRef = useRef<HTMLDivElement>(null);
     const timelineRef = useRef<HTMLDivElement>(null);
+    const isFirstRender = useRef(true);
 
     const GOLD = "#D4AF37";
     const NAVY = "#1B3A5A";
@@ -48,6 +49,7 @@ export default function LegacySection() {
     // Desktop slider animation linked natively to `activeIndex`
     useLayoutEffect(() => {
         let ctx = gsap.context(() => {
+            const immediate = isFirstRender.current;
 
             // Animate items natively within their stationary wrappers to simulate 3D vanishing perspective
             legacyMilestones.forEach((_, i) => {
@@ -82,9 +84,10 @@ export default function LegacySection() {
                 gsap.to(`.legacy-wrapper-${i}`, {
                     y,
                     scale,
-                    autoAlpha: opacity > 0 ? opacity : 0,
+                    opacity: opacity,
+                    display: opacity > 0 ? "flex" : "none",
                     zIndex,
-                    duration: 0.8,
+                    duration: immediate ? 0 : 0.8,
                     ease: "power3.inOut"
                 });
 
@@ -92,8 +95,9 @@ export default function LegacySection() {
                 const isCentered = rel === 0;
 
                 gsap.to(`.legacy-branch-${i}`, {
-                    opacity: isCentered ? 1 : (rel > 0 ? 0.6 : 0),
-                    duration: 0.8,
+                    opacity: isCentered ? 1 : (rel > 0 && Math.abs(rel) <= 3 ? 0.6 : 0),
+                    display: isCentered || (rel > 0 && Math.abs(rel) <= 3) ? "block" : "none",
+                    duration: immediate ? 0 : 0.8,
                     ease: "power3.inOut"
                 });
 
@@ -105,6 +109,9 @@ export default function LegacySection() {
                     ease: "power3.inOut"
                 });
             });
+
+            if (immediate) isFirstRender.current = false;
+
         }, containerRef);
 
         return () => ctx.revert();

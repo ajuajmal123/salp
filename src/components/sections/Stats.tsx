@@ -159,7 +159,7 @@ export default function Stats() {
                 key={idx}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-50px" }}
+                viewport={{ once: true }}
                 transition={{ duration: 0.7, delay: idx * 0.08, ease: "easeOut" }}
                 className="relative bg-white border border-[#eae7e3] p-4 md:p-6 rounded-xl shadow-[0_4px_20px_-4px_rgba(0,0,0,0.02),0_2px_4px_rgba(0,0,0,0.01)] hover:shadow-xl hover:border-sapl-blue/40 transition-all duration-500 flex flex-col items-start text-left group overflow-hidden"
               >
