@@ -15,8 +15,8 @@ export default function LegacySection() {
     const timelineRef = useRef<HTMLDivElement>(null);
     const isFirstRender = useRef(true);
 
-    const GOLD = "#D4AF37";
-    const NAVY = "#1B3A5A";
+    const GOLD = "#2AB5C4";
+    const NAVY = "#1c1a17";
     const ITEM_HEIGHT = 380;
 
     // React state controls the exact timeline frame for desktop
@@ -102,9 +102,10 @@ export default function LegacySection() {
                 });
 
                 gsap.to(`.legacy-node-${i}`, {
-                    backgroundColor: isCentered ? GOLD : NAVY,
-                    borderColor: GOLD,
-                    color: isCentered ? NAVY : "#fff",
+                    backgroundColor: NAVY,
+                    borderColor: isCentered ? GOLD : "rgba(42,181,196,0.3)",
+                    color: "#fff",
+                    scale: isCentered ? 1.15 : 1,
                     duration: 0.8,
                     ease: "power3.inOut"
                 });
@@ -153,7 +154,7 @@ export default function LegacySection() {
                 >
                     <button
                         onClick={scrollMilestoneUp}
-                        className={`p-2 hover:scale-125 transition-transform duration-300 ${activeIndex === 0 ? "opacity-30 cursor-not-allowed" : "opacity-100 cursor-pointer text-[#D4AF37]"}`}
+                        className={`p-2 hover:scale-125 transition-transform duration-300 ${activeIndex === 0 ? "opacity-30 cursor-not-allowed" : "opacity-100 cursor-pointer text-navy-950"}`}
                         aria-label="Scroll Up Timeline"
                         disabled={activeIndex === 0}
                     >
@@ -175,7 +176,7 @@ export default function LegacySection() {
 
                     {/* Main Vertical Timeline Axis Base */}
                     <div
-                        className="absolute left-1/2 -translate-x-1/2 w-[2px] bg-[#D4AF37] top-[-400px] bottom-[-200px] h-[700px] opacity-60 z-0 shadow-lg"
+                        className="absolute left-1/2 -translate-x-1/2 w-[2px] bg-[#2AB5C4] top-[-400px] bottom-[-200px] h-[700px] opacity-60 z-0 shadow-lg"
                     />
 
                     {legacyMilestones.map((milestone, i) => {
@@ -194,7 +195,7 @@ export default function LegacySection() {
 
                                 {/* Horizontal Connecting Branch */}
                                 <div
-                                    className={`legacy-branch-${i} absolute top-1/2 -translate-y-1/2 h-[3px] bg-[#D4AF37] z-10 
+                                    className={`legacy-branch-${i} absolute top-1/2 -translate-y-1/2 h-[3px] bg-[#2AB5C4] z-10 
                                     w-[90px] sm:w-[120px] lg:w-[220px] 
                                     ${isLeft ? 'right-1/2 origin-right' : 'left-1/2 origin-left'}`}
                                 />
@@ -206,17 +207,17 @@ export default function LegacySection() {
                                             ? 'right-[calc(50%+90px)] sm:right-[calc(50%+120px)] lg:right-[calc(50%+220px)] translate-x-1/2'
                                             : 'left-[calc(50%+90px)] sm:left-[calc(50%+120px)] lg:left-[calc(50%+220px)] -translate-x-1/2'}`}
                                 >
-                                    <div className="w-[140px] sm:w-[220px] lg:w-[280px] xl:w-[350px] shadow-2xl relative flex flex-col group border border-white/5">
-                                        <div className="relative w-full h-[75px] sm:h-[120px] lg:h-[155px] xl:h-[195px] bg-slate-200 overflow-hidden border-t-[3px] border-l-[3px] border-r-[3px] border-white/20">
+                                    <div className="w-[160px] sm:w-[260px] lg:w-[340px] xl:w-[420px] shadow-2xl relative flex flex-col group">
+                                        <div className="relative w-full h-[88px] sm:h-[145px] lg:h-[190px] xl:h-[235px] bg-slate-200 overflow-hidden">
                                             <Image
                                                 src={milestone.image}
                                                 alt={milestone.title}
                                                 fill
-                                                sizes="(max-width: 640px) 140px, (max-width: 1024px) 220px, (max-width: 1280px) 280px, 350px"
+                                                sizes="(max-width: 640px) 160px, (max-width: 1024px) 260px, (max-width: 1280px) 340px, 420px"
                                                 className="object-cover"
                                             />
                                         </div>
-                                        <div className="bg-[#D4AF37] p-1.5 sm:p-2 lg:p-3 xl:p-4 text-center border-b-[3px] border-x-[3px] border-white/20 min-h-[40px] sm:min-h-[50px] lg:min-h-[60px] flex items-center justify-center">
+                                        <div className="bg-white p-1.5 sm:p-2 lg:p-3 xl:p-4 text-center min-h-[40px] sm:min-h-[50px] lg:min-h-[60px] flex items-center justify-center">
                                             <h4 className="text-[9px] sm:text-[11px] lg:text-[12px] xl:text-[14px] font-bold text-navy-950 uppercase leading-[1.1] drop-shadow-sm">
                                                 {milestone.title}
                                             </h4>
@@ -226,9 +227,9 @@ export default function LegacySection() {
                                         </div>
 
                                         {/* Downward pointing triangle securely linking the body title to the floor */}
-                                        <div className="absolute -bottom-[8px] sm:-bottom-[12px] left-1/2 -translate-x-1/2 w-0 h-0 border-l-[8px] sm:border-l-[12px] border-l-transparent border-t-[8px] sm:border-t-[12px] border-t-[#D4AF37] border-r-[8px] sm:border-r-[12px] border-r-transparent drop-shadow-lg"></div>
+                                        <div className="absolute -bottom-[8px] sm:-bottom-[12px] left-1/2 -translate-x-1/2 w-0 h-0 border-l-[8px] sm:border-l-[12px] border-l-transparent border-t-[8px] sm:border-t-[12px] border-t-white border-r-[8px] sm:border-r-[12px] border-r-transparent drop-shadow-lg"></div>
                                     </div>
-                                    <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-[10px] h-[10px] sm:w-[14px] sm:h-[14px] bg-navy-950 border-[2.5px] sm:border-[3.5px] border-[#D4AF37] rounded-full z-10 shadow-[0_0_8px_rgba(212,175,55,0.8)]"></div>
+                                    <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-[10px] h-[10px] sm:w-[14px] sm:h-[14px] bg-navy-950 border-[2.5px] sm:border-[3.5px] border-[#2AB5C4] rounded-full z-10 shadow-[0_0_8px_rgba(42,181,196,0.8)]"></div>
                                 </div>
                             </div>
                         );
