@@ -254,7 +254,7 @@ export default function BrochureModal() {
                             </svg>
                           </div>
                           <span className="text-[11px] sm:text-xs text-[#6D675E] dark:text-navy-300 leading-relaxed select-none max-w-[95%] text-left">
-                            I have read and understood the <a href="/SAPLPrivacy%20Policy.pdf" className="text-sapl-blue hover:underline font-bold focus:outline-none focus-visible:ring-2 focus-visible:ring-sapl-blue/50 rounded-sm" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/SAPLTerms%20%26%20Conditions.pdf" className="text-sapl-blue hover:underline font-bold focus:outline-none focus-visible:ring-2 focus-visible:ring-sapl-blue/50 rounded-sm" target="_blank" rel="noopener noreferrer">Terms & Conditions</a> and consent to SAPL processing the personal information I submit through this form for the purpose of responding to my enquiry.
+                            I have read and understood the <a href="/SAPLPrivacy%20Policy.pdf" className="text-sapl-blue hover:underline font-bold focus:outline-none focus-visible:ring-2 focus-visible:ring-sapl-blue/50 rounded-sm" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and <a href="/Terms%20%26%20Conditions%20(1).pdf" className="text-sapl-blue hover:underline font-bold focus:outline-none focus-visible:ring-2 focus-visible:ring-sapl-blue/50 rounded-sm" target="_blank" rel="noopener noreferrer">Terms & Conditions</a> and consent to SAPL processing the personal information I submit through this form for the purpose of responding to my enquiry.
                           </span>
                         </label>
                         {errors.consentAccepted && (

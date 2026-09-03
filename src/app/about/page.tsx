@@ -316,7 +316,7 @@ export default function AboutPage() {
             <div className="p-6 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left relative overflow-hidden group hover:border-sapl-blue/40 transition-colors h-full">
               <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
               <p className="text-sm font-extrabold text-navy-950 !text-[#1c1a17] leading-relaxed">
-                To create a culture within our company that will in turn create quality-minded employees and then top-quality performance. We will seek to DELIGHT our customers! By integrating our total quality process throughout our firm, we will become the premier provider of construction services, and our customers will be astounded.
+                To build a quality-driven culture that empowers our people to deliver exceptional performance. By integrating quality into every stage of our operations, we aim to delight our clients and be recognized as a trusted and preferred construction partner.
               </p>
             </div>
           </div>
@@ -335,7 +335,7 @@ export default function AboutPage() {
             <div className="p-6 bg-[#f7f6f4] border border-[#eae7e3] rounded-sm text-left relative overflow-hidden group hover:border-sapl-blue/40 transition-colors h-full">
               <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
               <p className="text-sm font-extrabold text-navy-950 !text-[#1c1a17] leading-relaxed">
-                To excel as a global-standard CONSTRUCTION ENGINEERING COMPANY providing Total Business Solutions through Quality Products, Systems and Services in the Construction industry, by achieving self-reliance in Construction of Residential, Commercial, Industrial and Institutional buildings.
+                To excel as a construction engineering company guided by global standards, delivering comprehensive construction and engineering solutions through quality workmanship, efficient systems, and professional service. We are committed to strengthening our capabilities across residential, commercial, industrial, institutional, healthcare facilities, IT parks, and other specialized construction projects.
               </p>
             </div>
           </div>

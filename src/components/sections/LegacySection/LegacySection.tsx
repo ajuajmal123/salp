@@ -212,6 +212,7 @@ export default function LegacySection() {
                                                 src={milestone.image}
                                                 alt={milestone.title}
                                                 fill
+                                                sizes="(max-width: 640px) 140px, (max-width: 1024px) 220px, (max-width: 1280px) 280px, 350px"
                                                 className="object-cover"
                                             />
                                         </div>

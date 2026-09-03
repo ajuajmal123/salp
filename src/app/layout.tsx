@@ -15,6 +15,9 @@ export const metadata: Metadata = {
   description: "Established in 1987, SAPL is a renowned premier construction and infrastructure engineering firm specializing in Commercial, Industrial, Healthcare, and IT Park landmarks.",
   keywords: "SAPL, Srinivasan Associates, Construction company Tamil Nadu, Infrastructure engineering, Industrial builders Coimbatore, Commercial contractors Chennai, Healthcare infrastructure",
   authors: [{ name: "SAPL Engineering Team" }],
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export const viewport: Viewport = {

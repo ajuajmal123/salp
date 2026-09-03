@@ -213,7 +213,7 @@ export default function Footer() {
             <a href="/SAPLPrivacy%20Policy.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-sapl-blue transition-colors">
               Privacy Policy
             </a>
-            <a href="/SAPLTerms%20%26%20Conditions.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-sapl-blue transition-colors">
+            <a href="/Terms%20%26%20Conditions%20(1).pdf" target="_blank" rel="noopener noreferrer" className="hover:text-sapl-blue transition-colors">
               Terms & Conditions
             </a>
             <small className="copyright__content font-normal text-navy-800 tracking-wider flex items-center gap-1">
