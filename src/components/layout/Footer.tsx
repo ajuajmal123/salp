@@ -216,10 +216,10 @@ export default function Footer() {
             <a href="/Terms%20%26%20Conditions%20(1).pdf" target="_blank" rel="noopener noreferrer" className="hover:text-sapl-blue transition-colors">
               Terms & Conditions
             </a>
-            <small className="copyright__content font-normal text-navy-800 tracking-wider flex items-center gap-1">
+            <div className="copyright__content font-semibold text-navy-800 tracking-wider flex items-center gap-1 uppercase">
               <span className="opacity-70">Designed by</span>
-              <a href="https://www.instagram.com/nashcreations.in" target="_blank" rel="noopener noreferrer" className="blinking-text hover:opacity-80 transition-opacity">Creations</a>
-            </small>
+              <a href="https://www.instagram.com/nashcreations.in" target="_blank" rel="noopener noreferrer" className="blinking-text hover:opacity-80 transition-opacity uppercase">Creations</a>
+            </div>
           </div>
         </div>
       </div>
@@ -235,8 +235,7 @@ export default function Footer() {
             100% { color: #38dbff; }
           }
           .blinking-text {
-            font-weight: bold;
-            font-size: 13px;
+            font-weight: 800;
             animation: blinkColors 3s infinite;
             text-decoration: none;
           }

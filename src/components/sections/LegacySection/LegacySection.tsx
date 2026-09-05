@@ -1,5 +1,6 @@
 "use client";
 
+
 import React, { useRef, useState, useLayoutEffect } from "react";
 import Image from "next/image";
 import { legacyMilestones } from "./legacyData";
