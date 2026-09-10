@@ -60,19 +60,19 @@ export default function LegacySection() {
                 // Optical Perspective Mapping Reversed (Camera travels forwards)
                 if (rel === 0) { // ACTIVE FOREGROUND
                     y = 0; scale = 1; opacity = 1; zIndex = 50;
-                } else if (rel > 0) { // FUTURE (waiting ahead at the vanishing point)
+                } else if (rel > 0) { // FUTURE
                     const abs = Math.abs(rel);
-                    // Compress scale heavily towards the horizon
                     scale = Math.pow(0.72, abs);
-                    // Fade into the distance fog
-                    opacity = Math.pow(0.4, abs);
-                    // Move upwards logarithmically towards vanishing point
+
+                    // Show exactly TWO cards as requested: rel === 0 and rel === 1
+                    // Any card beyond rel === 1 is hidden
+                    opacity = abs === 1 ? 0.6 : 0;
+
                     if (abs === 1) y = -140;
                     else if (abs === 2) y = -230;
                     else if (abs === 3) y = -290;
                     else {
                         y = -320 - (abs * 10);
-                        opacity = 0;
                     }
                     zIndex = 50 - abs;
                 } else { // PAST (dropped behind the camera abruptly)
@@ -94,15 +94,18 @@ export default function LegacySection() {
 
                 // Toggling the center nodes and branches dynamically
                 const isCentered = rel === 0;
+                const isNext = rel === 1;
 
                 gsap.to(`.legacy-branch-${i}`, {
-                    opacity: isCentered ? 1 : (rel > 0 && Math.abs(rel) <= 3 ? 0.6 : 0),
-                    display: isCentered || (rel > 0 && Math.abs(rel) <= 3) ? "block" : "none",
+                    opacity: isCentered ? 1 : (isNext ? 0.6 : 0),
+                    display: isCentered || isNext ? "block" : "none",
                     duration: immediate ? 0 : 0.8,
                     ease: "power3.inOut"
                 });
 
                 gsap.to(`.legacy-node-${i}`, {
+                    opacity: isCentered ? 1 : (isNext ? 0.6 : 0),
+                    display: isCentered || isNext ? "flex" : "none",
                     backgroundColor: NAVY,
                     borderColor: isCentered ? GOLD : "rgba(42,181,196,0.3)",
                     color: "#fff",

@@ -41,8 +41,7 @@ export const projectsList: Project[] = [
       "/project/it-park/BUSHIDO INFOTECH PRIVATE LIMITED/bushido-1.jpg",
       "/project/it-park/BUSHIDO INFOTECH PRIVATE LIMITED/bushido-2.jpg"
     ]
-  },
-  {
+  },  {
     slug: "global-tech-park-pvt-ltd",
     name: "GLOBAL TECH PARK PVT LTD",
     category: "IT Park",
@@ -77,8 +76,7 @@ export const projectsList: Project[] = [
       "/project/it-park/GLOBAL TECH PARK PVT LTD/img-8-9-800x450.jpg",
       "/project/it-park/GLOBAL TECH PARK PVT LTD/img-9-8-800x600.jpg"
     ]
-  },
-  {
+  },  {
     slug: "olympia-pinnacle",
     name: "OLYMPIA PINNACLE",
     category: "IT Park",
@@ -104,8 +102,7 @@ export const projectsList: Project[] = [
       "/project/it-park/OLYMPIA PINNACLE/Olympia-5.jpeg",
       "/project/it-park/OLYMPIA PINNACLE/WA0004-800x451.jpg"
     ]
-  },
-  {
+  },  {
     slug: "svb-tech-park",
     name: "SVB TECH PARK",
     category: "IT Park",
@@ -143,8 +140,7 @@ export const projectsList: Project[] = [
       "/project/it-park/SVB TECH PARK/SVB2-800x450.jpeg",
       "/project/it-park/SVB TECH PARK/WhatsApp-Image-2019-11-09-at-15.27.07-800x569.jpeg"
     ]
-  },
-  {
+  },  {
     slug: "global-tech-park-private-limited-think-campus",
     name: "GLOBAL TECH PARK PRIVATE LIMITED (THINK CAMPUS)",
     category: "IT Park",
@@ -172,170 +168,7 @@ export const projectsList: Project[] = [
       "/project/it-park/GLOBAL TECH PARK PRIVATE LIMITED (THINK CAMPUS)/gtpblr-2-800x360.jpeg",
       "/project/it-park/GLOBAL TECH PARK PRIVATE LIMITED (THINK CAMPUS)/gtpblr-3-800x360.jpeg"
     ]
-  },
-  {
-    slug: "construction-of-school-building",
-    name: "CONSTRUCTION OF SCHOOL BUILDING",
-    category: "INDUSTRIES",
-    location: "MYSORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
-    status: "Ongoing",
-    description: "Construction of CONSTRUCTION OF SCHOOL BUILDING in MYSORE.",
-    details: {
-      client: "WALKAROO INDUSTRIES",
-      area: "72000SFT",
-      floors: "GF",
-      startDate: "AUG' 2024",
-      completionDate: "JUN '2026",
-      consultant: "PTK PROJECT CONSULTANTS LLP"
-    },
-    gallery: []
-  },
-  {
-    slug: "construction-of-allied-health-science-building",
-    name: "CONSTRUCTION OF ALLIED HEALTH SCIENCE BUILDING",
-    category: "INDUSTRIES",
-    location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
-    status: "Ongoing",
-    description: "Construction of CONSTRUCTION OF ALLIED HEALTH SCIENCE BUILDING in COIMBATORE.",
-    details: {
-      client: "AMERICAN AUTO SERVICE PRIVATE LIMITED",
-      area: "27000SFT",
-      floors: "GF + 1 FLOOR",
-      startDate: "DEC' 2024",
-      completionDate: "Oct 2026",
-      consultant: "SHRI LAKSHMI PROJECT MANAGEMENT AND CONSULTANCY SERVICE"
-    },
-    gallery: []
-  },
-  {
-    slug: "construction-of-e8-block",
-    name: "CONSTRUCTION OF E8 BLOCK",
-    category: "INDUSTRIES",
-    location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
-    status: "Ongoing",
-    description: "Construction of CONSTRUCTION OF E8 BLOCK in COIMBATORE.",
-    details: {
-      client: "L G BALAKRISHNAN & BROS LIMITED CORPORATE",
-      area: "71300SFT",
-      floors: "GF + MEZZANINE FLOOR",
-      startDate: "FEB' 2025",
-      completionDate: "SEP' 2026",
-      consultant: "VESTA ARCHITECTS"
-    },
-    gallery: []
-  },
-  {
-    slug: "construction-of-commercial-building",
-    name: "CONSTRUCTION OF COMMERCIAL BUILDING",
-    category: "INDUSTRIES",
-    location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
-    status: "Ongoing",
-    description: "Construction of CONSTRUCTION OF COMMERCIAL BUILDING in COIMBATORE.",
-    details: {
-      client: "AUTO DIECASTING COMPANY",
-      area: "52722SFT",
-      floors: "FACTORY - GF; OFFICE - GF+FF+SF",
-      startDate: "May 2025",
-      completionDate: "OCT' 2026",
-      consultant: "THE PIDESIGN"
-    },
-    gallery: []
-  },
-  {
-    slug: "construction-of-it-building-olympia-elite",
-    name: "CONSTRUCTION OF IT BUILDING \"OLYMPIA ELITE\"",
-    category: "INDUSTRIES",
-    location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
-    status: "Ongoing",
-    description: "Construction of CONSTRUCTION OF IT BUILDING \"OLYMPIA ELITE\" in COIMBATORE.",
-    details: {
-      client: "SRI RANGANATHER VALVES & CONTROLS (P)LIMITED",
-      area: "16000 SFT",
-      floors: "GROUND FLOOR",
-      startDate: "Jun 2025",
-      completionDate: "OCT''2026",
-      consultant: "M DHARMALINGAM ASSOCIATES"
-    },
-    gallery: []
-  },
-  {
-    slug: "construction-of-office-building",
-    name: "CONSTRUCTION OF OFFICE BUILDING",
-    category: "INDUSTRIES",
-    location: "MADATHUKKULAM",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
-    status: "Ongoing",
-    description: "Construction of CONSTRUCTION OF OFFICE BUILDING in MADATHUKKULAM.",
-    details: {
-      client: "VENKATALAKSHMI PAPER AND BOARDS LIMITED",
-      area: "1590SFT",
-      floors: "GROUND FLOOR",
-      startDate: "SEP'2025",
-      completionDate: "NOV'2026",
-      consultant: "SABARI ANAND"
-    },
-    gallery: []
-  },
-  {
-    slug: "civil-structure-and-finishes-works-for-proposed-hotel-development-brigade-fairfield",
-    name: "CIVIL STRUCTURE AND FINISHES WORKS FOR PROPOSED HOTEL DEVELOPMENT - BRIGADE FAIRFIELD",
-    category: "INDUSTRIES",
-    location: "HOSUR",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
-    status: "Ongoing",
-    description: "Construction of CIVIL STRUCTURE AND FINISHES WORKS FOR PROPOSED HOTEL DEVELOPMENT - BRIGADE FAIRFIELD in HOSUR.",
-    details: {
-      client: "L G BALAKRISHNAN & BROS LIMITED CORPORATE",
-      area: "273155.38SFT",
-      floors: "GROUND FLOOR",
-      startDate: "SEP'2025",
-      completionDate: "MAY'2027",
-      consultant: "VESTA ARCHITECTS"
-    },
-    gallery: []
-  },
-  {
-    slug: "civil-structural-finishing-external-and-plumbing-works-construction-of-commercial-building",
-    name: "CIVIL, STRUCTURAL, FINISHING, EXTERNAL AND PLUMBING WORKS - CONSTRUCTION OF COMMERCIAL BUILDING",
-    category: "INDUSTRIES",
-    location: "CHENNAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
-    status: "Ongoing",
-    description: "Construction of CIVIL, STRUCTURAL, FINISHING, EXTERNAL AND PLUMBING WORKS - CONSTRUCTION OF COMMERCIAL BUILDING in CHENNAI.",
-    details: {
-      client: "SRI DHANALAKSHMI INDUSTRIES",
-      area: "30000SFT",
-      floors: "GROUND+FF",
-      startDate: "Nov 2025",
-      completionDate: "JAN'2027",
-      consultant: "FIRM TERRA"
-    },
-    gallery: []
-  },
-  {
-    slug: "civil-structural-architectural-finishing-including-plumbing-works-for-commercial-building",
-    name: "CIVIL, STRUCTURAL, ARCHITECTURAL, FINISHING INCLUDING PLUMBING WORKS FOR COMMERCIAL BUILDING",
-    category: "INDUSTRIES",
-    location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
-    status: "Ongoing",
-    description: "Construction of CIVIL, STRUCTURAL, ARCHITECTURAL, FINISHING INCLUDING PLUMBING WORKS FOR COMMERCIAL BUILDING in COIMBATORE.",
-    details: {
-      client: "STYLCOVE MODULARS PRIVATE LIMITED",
-      area: "550000SFT",
-      floors: "---",
-      startDate: "JAN' 2026",
-      completionDate: "DEC'2026",
-      consultant: "GLEEDS CONSULTING (INDIA) PRIVATE LIMITED"
-    },
-    gallery: []
-  },
-  {
+  },  {
     slug: "aravind-eye-hospital-1",
     name: "ARAVIND EYE HOSPITAL",
     category: "Healthcare",
@@ -367,8 +200,7 @@ export const projectsList: Project[] = [
       "/project/healthcare/ARAVIND EYE HOSPITAL COIMBATORE/Aeh4-800x549.jpg",
       "/project/healthcare/ARAVIND EYE HOSPITAL COIMBATORE/Aeh6-800x551.jpg"
     ]
-  },
-  {
+  },  {
     slug: "aravind-eye-hospital-2",
     name: "ARAVIND EYE HOSPITAL",
     category: "Healthcare",
@@ -403,8 +235,7 @@ export const projectsList: Project[] = [
       "/project/healthcare/ARAVIND EYE HOSPITAL TIRUNELVELI/Hospital-Ramp-800x360 (1).jpg",
       "/project/healthcare/ARAVIND EYE HOSPITAL TIRUNELVELI/Hospital-Ramp-800x360.jpg"
     ]
-  },
-  {
+  },  {
     slug: "aravind-eye-hospital-3",
     name: "ARAVIND EYE HOSPITAL",
     category: "Healthcare",
@@ -427,8 +258,7 @@ export const projectsList: Project[] = [
       "/project/healthcare/ARAVIND EYE HOSPITAL MADURAI/AEH-MDU-3-800x600.jpg",
       "/project/healthcare/ARAVIND EYE HOSPITAL MADURAI/AEH-MDU-4-800x600.jpg"
     ]
-  },
-  {
+  },  {
     slug: "aravind-eye-hospital-4",
     name: "ARAVIND EYE HOSPITAL",
     category: "Healthcare",
@@ -455,8 +285,7 @@ export const projectsList: Project[] = [
       "/project/healthcare/ARAVIND EYE HOSPITAL SALEM/4-800x554.jpg",
       "/project/healthcare/ARAVIND EYE HOSPITAL SALEM/AEH-SALEM-ELEVATION-IMAGE-800x561.jpeg"
     ]
-  },
-  {
+  },  {
     slug: "bs-surgicare-india-pvt-ltd-5",
     name: "BS SURGICARE INDIA PVT LTD",
     category: "Healthcare",
@@ -489,8 +318,7 @@ export const projectsList: Project[] = [
       "/project/healthcare/BS SURGICARE INDIA PVT LTD/img-7-14-800x450.jpg",
       "/project/healthcare/BS SURGICARE INDIA PVT LTD/img-9-11-800x600.jpg"
     ]
-  },
-  {
+  },  {
     slug: "construction-of-c-wing-extension-building-6",
     name: "Construction of \"C\" wing extension Building",
     category: "Healthcare",
@@ -507,8 +335,7 @@ export const projectsList: Project[] = [
       consultant: "Client Engineer"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-clinic-building-7",
     name: "Construction of Clinic Building",
     category: "Healthcare",
@@ -525,8 +352,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Infrabees Management Consultancy services, Ashok Nagar, Chennai."
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-hospital-building-and-staff-quarters-8",
     name: "Construction of Hospital building and staff quarters",
     category: "Healthcare",
@@ -543,8 +369,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Gowtham Architects, 95-A, Vyshnav Complex, Race Course, Coimbatore - 641 018"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-out-patient-block-9",
     name: "Construction of Out patient block",
     category: "Healthcare",
@@ -561,8 +386,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. SANKAR & ASSOCIATES 27, Sengupta Street, Ramnagar Coimbatore - 641 009"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "dr-manoharan-hospital-10",
     name: "DR.MANOHARAN-HOSPITAL",
     category: "Healthcare",
@@ -601,8 +425,7 @@ export const projectsList: Project[] = [
       "/project/healthcare/DR.MANOHARAN-HOSPITAL/img-5-12.jpg",
       "/project/healthcare/DR.MANOHARAN-HOSPITAL/img-6-11.jpg"
     ]
-  },
-  {
+  },  {
     slug: "kovai-medical-center-and-hospital-11",
     name: "KOVAI MEDICAL CENTER AND HOSPITAL",
     category: "Healthcare",
@@ -624,8 +447,7 @@ export const projectsList: Project[] = [
       "/project/healthcare/KOVAI MEDICAL CENTER AND HOSPITAL/IMG-20230106-WA0148-800x602.jpg",
       "/project/healthcare/KOVAI MEDICAL CENTER AND HOSPITAL/Page-10-Image-13-800x470.jpg"
     ]
-  },
-  {
+  },  {
     slug: "m-s-govel-trust-aravind-eye-hospital-12",
     name: "M/s. GOVEL TRUST, ARAVIND EYE HOSPITAL",
     category: "Healthcare",
@@ -652,8 +474,7 @@ export const projectsList: Project[] = [
       "/project/healthcare/M-s. GOVEL TRUST, ARAVIND EYE HOSPITAL/AEH-7-800x450.jpg",
       "/project/healthcare/M-s. GOVEL TRUST, ARAVIND EYE HOSPITAL/AEH-8-800x451.jpg"
     ]
-  },
-  {
+  },  {
     slug: "m-s-govel-trust-dr-g-venkatasamy-research-institute-13",
     name: "M/s. GOVEL TRUST, DR.G.VENKATASAMY RESEARCH INSTITUTE",
     category: "Healthcare",
@@ -670,8 +491,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Auroservice Consultants Private Limited"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "m-s-govel-trust-dr-g-venkatasamy-research-institute-14",
     name: "M/s. GOVEL TRUST, DR.G.VENKATASAMY RESEARCH INSTITUTE",
     category: "Healthcare",
@@ -691,8 +511,7 @@ export const projectsList: Project[] = [
       "/project/healthcare/M-s. GOVEL TRUST, DR.G.VENKATASAMY RESEARCH INSTITUTE 2/DSC_229.jpg",
       "/project/healthcare/M-s. GOVEL TRUST, DR.G.VENKATASAMY RESEARCH INSTITUTE 2/DSC_232-scaled.jpg"
     ]
-  },
-  {
+  },  {
     slug: "ortho-one-spine-arthoscopic-joint-replacement-centre-15",
     name: "Ortho One SPINE ARTHOSCOPIC & JOINT REPLACEMENT CENTRE",
     category: "Healthcare",
@@ -717,8 +536,7 @@ export const projectsList: Project[] = [
       "/project/healthcare/Ortho One SPINE ARTHOSCOPIC & JOINT REPLACEMENT CENTRE 1/Ortho-5-800x600.jpg",
       "/project/healthcare/Ortho One SPINE ARTHOSCOPIC & JOINT REPLACEMENT CENTRE 1/Ortho-6-800x600.jpg"
     ]
-  },
-  {
+  },  {
     slug: "ortho-one-spine-arthoscopic-joint-replacement-centre-16",
     name: "Ortho One SPINE ARTHOSCOPIC & JOINT REPLACEMENT CENTRE",
     category: "Healthcare",
@@ -742,8 +560,7 @@ export const projectsList: Project[] = [
       "/project/healthcare/Ortho One SPINE ARTHOSCOPIC & JOINT REPLACEMENT CENTRE 2/Ortho16.jpg",
       "/project/healthcare/Ortho One SPINE ARTHOSCOPIC & JOINT REPLACEMENT CENTRE 2/Ortho17.jpg"
     ]
-  },
-  {
+  },  {
     slug: "m-s-sri-balaji-vidyapeeth-at-mahatma-gandhi-medical-college-and-research-institute-campus-17",
     name: "M/s. Sri Balaji Vidyapeeth at Mahatma Gandhi Medical College And Research Institute Campus",
     category: "Healthcare",
@@ -771,8 +588,7 @@ export const projectsList: Project[] = [
       "/project/healthcare/M-s. Sri Balaji Vidyapeeth at Mahatma Gandhi Medical College And Research Institute Campus/MGMP-6-800x358.jpg",
       "/project/healthcare/M-s. Sri Balaji Vidyapeeth at Mahatma Gandhi Medical College And Research Institute Campus/MGMP-7-800x1023.jpg"
     ]
-  },
-  {
+  },  {
     slug: "m-s-vadamalayan-hospitals-pvt-ltd-18",
     name: "M/s. VADAMALAYAN HOSPITALS PVT LTD",
     category: "Healthcare",
@@ -793,8 +609,7 @@ export const projectsList: Project[] = [
       "/project/healthcare/M-s. VADAMALAYAN HOSPITALS PVT LTD/IMG-20160909-WA0007.jpg",
       "/project/healthcare/M-s. VADAMALAYAN HOSPITALS PVT LTD/VADAMALAIYN1.jpg"
     ]
-  },
-  {
+  },  {
     slug: "psg-ims-r-a-block-extension-19",
     name: "PSG IMS&R A-Block Extension",
     category: "Healthcare",
@@ -817,8 +632,7 @@ export const projectsList: Project[] = [
       "/project/healthcare/PSG IMS&R A-Block Extension/A4-800x477.jpg",
       "/project/healthcare/PSG IMS&R A-Block Extension/A5-800x501.jpg"
     ]
-  },
-  {
+  },  {
     slug: "psg-imsr-kitchen-building-20",
     name: "PSG IMSR KITCHEN BUILDING",
     category: "Healthcare",
@@ -847,8 +661,7 @@ export const projectsList: Project[] = [
       "/project/healthcare/PSG IMSR KITCHEN BUILDING/psgk-1-800x518.jpg",
       "/project/healthcare/PSG IMSR KITCHEN BUILDING/psgk-2-800x452.jpg"
     ]
-  },
-  {
+  },  {
     slug: "psg-institute-of-medical-sciences-research-21",
     name: "PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH",
     category: "Healthcare",
@@ -900,8 +713,7 @@ export const projectsList: Project[] = [
       "/project/healthcare/PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH/PSG-FAC-7-800x600.jpg",
       "/project/healthcare/PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH/PSG-IMSR-HOSPITAL-800x600.jpg"
     ]
-  },
-  {
+  },  {
     slug: "psg-staff-quarters-22",
     name: "PSG STAFF QUARTERS",
     category: "Healthcare",
@@ -922,8 +734,7 @@ export const projectsList: Project[] = [
       "/project/healthcare/PSG STAFF QUARTERS/IMG-0072-800x600.jpg",
       "/project/healthcare/PSG STAFF QUARTERS/IMG-0073-1.jpg"
     ]
-  },
-  {
+  },  {
     slug: "sankara-eye-hospital-23",
     name: "SANKARA EYE HOSPITAL",
     category: "Healthcare",
@@ -946,8 +757,7 @@ export const projectsList: Project[] = [
       "/project/healthcare/SANKARA EYE HOSPITAL/SEH4-800x403.jpg",
       "/project/healthcare/SANKARA EYE HOSPITAL/SEH5-800x434.jpg"
     ]
-  },
-  {
+  },  {
     slug: "sri-ramakrishna-dental-college-24",
     name: "SRI RAMAKRISHNA DENTAL COLLEGE,",
     category: "Healthcare",
@@ -971,8 +781,7 @@ export const projectsList: Project[] = [
       "/project/healthcare/SRI RAMAKRISHNA DENTAL COLLEGE,/SRDC-5-800x531.jpg",
       "/project/healthcare/SRI RAMAKRISHNA DENTAL COLLEGE,/SRDC-6-800x535.jpg"
     ]
-  },
-  {
+  },  {
     slug: "vadamalayan-hospital-25",
     name: "VADAMALAYAN HOSPITAL",
     category: "Healthcare",
@@ -1006,8 +815,7 @@ export const projectsList: Project[] = [
       "/project/healthcare/VADAMALAYAN HOSPITAL/Vadam-3-800x985.jpeg",
       "/project/healthcare/VADAMALAYAN HOSPITAL/Vadamalayan-1-800x577.jpeg"
     ]
-  },
-  {
+  },  {
     slug: "vadamalayan-hospitals-pvt-ltd-26",
     name: "VADAMALAYAN HOSPITALS PVT LTD",
     category: "Healthcare",
@@ -1029,8 +837,7 @@ export const projectsList: Project[] = [
       "/project/healthcare/VADAMALAYAN HOSPITALS PVT LTD/3-800x627.jpg",
       "/project/healthcare/VADAMALAYAN HOSPITALS PVT LTD/4-800x602.jpg"
     ]
-  },
-  {
+  },  {
     slug: "velammal-medical-college-hospital-27",
     name: "VELAMMAL MEDICAL COLLEGE & HOSPITAL",
     category: "Healthcare",
@@ -1055,8 +862,7 @@ export const projectsList: Project[] = [
       "/project/healthcare/VELAMMAL MEDICAL COLLEGE & HOSPITAL/vmch-5.jpg",
       "/project/healthcare/VELAMMAL MEDICAL COLLEGE & HOSPITAL/vmch-6.jpg"
     ]
-  },
-  {
+  },  {
     slug: "vikram-hospital-28",
     name: "VIKRAM HOSPITAL",
     category: "Healthcare",
@@ -1075,8 +881,7 @@ export const projectsList: Project[] = [
     gallery: [
       "/project/healthcare/VIKRAM HOSPITAL/VIKRAM-2.jpg"
     ]
-  },
-  {
+  },  {
     slug: "aeh-existing-hospital-renovation-work-29",
     name: "AEH - Existing Hospital Renovation work",
     category: "Healthcare",
@@ -1091,8 +896,7 @@ export const projectsList: Project[] = [
       consultant: "Design collaborative Consultant, Pondichery"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "alteration-works-in-the-hospital-building-physiotherapy-30",
     name: "Alteration works in the Hospital Building (Physiotherapy)",
     category: "Healthcare",
@@ -1109,8 +913,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. SANKAR & ASSOCIATES 27, Sengupta Street, Ramnagar Coimbatore - 641 009"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-compound-wall-31",
     name: "Construction of Compound Wall",
     category: "Healthcare",
@@ -1127,8 +930,7 @@ export const projectsList: Project[] = [
       consultant: "Madurai ES consultancy services (P) Ltd"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-eye-hospital-building-for-addition-and-alteration-works-32",
     name: "Construction of Eye Hospital Building for Addition and Alteration works",
     category: "Healthcare",
@@ -1145,8 +947,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. SANKAR & ASSOCIATES 27, Sengupta Street, Ramnagar Coimbatore - 641 009"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-toilet-block-33",
     name: "Construction of Toilet Block",
     category: "Healthcare",
@@ -1163,8 +964,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Mithran Structures (P) Ltd., Dr. L.S Jayagopal. No:1, Jawahar nagar, S.A.H.S (POST) Coimbatore - 641 043"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "multilevel-car-parking-nalla-drain-power-house-external-road-development-34",
     name: "Multilevel Car Parking, Nalla Drain, Power House, External Road Development",
     category: "Healthcare",
@@ -1181,8 +981,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. SANKAR & ASSOCIATES 27, Sengupta Street, Ramnagar Coimbatore - 641 009"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "the-construction-of-proposed-pediatric-hospital-k-block-alteration-additional-work-in-the-existing-hospital-premises-at-coimbatore-for-m-s-kovai-medical-center-and-hospital-coimbatore-35",
     name: "The Construction Of Proposed Pediatric Hospital ‘K’ Block & Alteration, Additional Work In The Existing Hospital Premises At Coimbatore For M/S.Kovai Medical Center And Hospital, Coimbatore",
     category: "Healthcare",
@@ -1198,8 +997,7 @@ export const projectsList: Project[] = [
       consultant: "M/s.Sankar Associates"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "adithya-convention-center-marriage-hall-1",
     name: "ADITHYA   CONVENTION CENTER & MARRIAGE HALL",
     category: "Commercial",
@@ -1215,8 +1013,7 @@ export const projectsList: Project[] = [
       completionDate: "JAN’   2018"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "arputham-pillai-complex-2",
     name: "ARPUTHAM PILLAI COMPLEX",
     category: "Commercial",
@@ -1232,8 +1029,7 @@ export const projectsList: Project[] = [
       completionDate: "NOV’ 2014"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "civil-works-for-c04a-package-sub-structure-of-main-building-superstructure-internal-external-process-drain-and-plumbing-works-internal-external-sanitary-plumbing-works-3",
     name: "Civil works for C04A Package - Sub structure of Main Building, Superstructure, internal & External Process drain and plumbing works, internal & external sanitary & Plumbing works",
     category: "Commercial",
@@ -1249,8 +1045,7 @@ export const projectsList: Project[] = [
       completionDate: "SEP'2011"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "classic-towers-4",
     name: "CLASSIC TOWERS",
     category: "Commercial",
@@ -1266,8 +1061,7 @@ export const projectsList: Project[] = [
       completionDate: "JUN’2008"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-canteen-building-5",
     name: "Construction of Canteen Building",
     category: "Commercial",
@@ -1283,8 +1077,7 @@ export const projectsList: Project[] = [
       completionDate: "JAN' 2024"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-canteen-building-6",
     name: "Construction of Canteen Building",
     category: "Commercial",
@@ -1300,8 +1093,7 @@ export const projectsList: Project[] = [
       completionDate: "SEP' 2024"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-commer-cial-cum-lodging-complex-building-rathna-residency-7",
     name: "Construction of Commer-cial cum lodging complex building \"Rathna Residency\"",
     category: "Commercial",
@@ -1317,8 +1109,7 @@ export const projectsList: Project[] = [
       completionDate: "APR'2005"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-commercial-building-8",
     name: "Construction of Commercial Building",
     category: "Commercial",
@@ -1334,8 +1125,7 @@ export const projectsList: Project[] = [
       completionDate: "NOV' 2021"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-commercial-building-9",
     name: "Construction of Commercial Building",
     category: "Commercial",
@@ -1351,8 +1141,7 @@ export const projectsList: Project[] = [
       completionDate: "JUN' 2023"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-commercial-complex-10",
     name: "Construction of Commercial Complex",
     category: "Commercial",
@@ -1368,8 +1157,7 @@ export const projectsList: Project[] = [
       completionDate: "FEB' 2018"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-commercial-complex-building-11",
     name: "Construction of Commercial Complex building",
     category: "Commercial",
@@ -1385,8 +1173,7 @@ export const projectsList: Project[] = [
       completionDate: "MAR'2014"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-commercial-complex-building-aditya-tech-park-12",
     name: "Construction of Commercial complex Building \"Aditya Tech Park\"",
     category: "Commercial",
@@ -1402,8 +1189,7 @@ export const projectsList: Project[] = [
       completionDate: "APR' 2024"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-commercial-complex-buildings-raja-tower-13",
     name: "Construction of commercial complex buildings \"Raja Tower\"",
     category: "Commercial",
@@ -1419,8 +1205,7 @@ export const projectsList: Project[] = [
       completionDate: "APR'2006"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-faculty-building-external-ramp-power-house-trench-connecting-corridor-14",
     name: "Construction of Faculty Building, External Ramp, Power house, Trench, Connecting corridor",
     category: "Commercial",
@@ -1436,8 +1221,7 @@ export const projectsList: Project[] = [
       completionDate: "NOV' 2019"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-finishing-and-plumbing-work-in-additional-office-commercial-building-at-svb-tech-park-phase-2-15",
     name: "Construction of Finishing and Plumbing work in Additional Office Commercial Building at SVB TECH PARK PHASE 2",
     category: "Commercial",
@@ -1453,8 +1237,7 @@ export const projectsList: Project[] = [
       completionDate: "JAN' 2025"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-hostel-building-and-staff-quarters-16",
     name: "Construction of Hostel building and Staff Quarters",
     category: "Commercial",
@@ -1470,8 +1253,7 @@ export const projectsList: Project[] = [
       completionDate: "MAY'2012"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-hotel-cum-lodging-complex-17",
     name: "Construction of hotel cum lodging complex",
     category: "Commercial",
@@ -1487,8 +1269,7 @@ export const projectsList: Project[] = [
       completionDate: "SEP'2005"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-institute-of-engineers-18",
     name: "Construction of Institute of Engineers",
     category: "Commercial",
@@ -1504,8 +1285,7 @@ export const projectsList: Project[] = [
       completionDate: "JUL' 2016"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-mens-hostel-19",
     name: "Construction of Mens Hostel",
     category: "Commercial",
@@ -1521,8 +1301,7 @@ export const projectsList: Project[] = [
       completionDate: "JAN' 2024"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-multi-pur-pose-commercial-complex-deesena-entertainments-20",
     name: "Construction of multi pur-pose commercial complex \"Deesena entertainments\"",
     category: "Commercial",
@@ -1538,8 +1317,7 @@ export const projectsList: Project[] = [
       completionDate: "SEP'2005"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-parish-hall-buidling-21",
     name: "Construction of \"Parish Hall\" Buidling",
     category: "Commercial",
@@ -1555,8 +1333,7 @@ export const projectsList: Project[] = [
       completionDate: "SEP'2009"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-r-d-block-and-office-block-22",
     name: "Construction of R & D Block and Office block",
     category: "Commercial",
@@ -1572,8 +1349,7 @@ export const projectsList: Project[] = [
       completionDate: "JAN' 2024"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-shop-building-at-kammavar-kalayana-hall-23",
     name: "Construction of shop Building at Kammavar kalayana Hall",
     category: "Commercial",
@@ -1589,8 +1365,7 @@ export const projectsList: Project[] = [
       completionDate: "JULY' 2022"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "decathlon-sports-india-pvt-ltd-24",
     name: "DECATHLON SPORTS INDIA PVT LTD",
     category: "Commercial",
@@ -1606,8 +1381,7 @@ export const projectsList: Project[] = [
       completionDate: "OCT’ 2014"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "hotel-rajpark-p-ltd-25",
     name: "HOTEL RAJPARK (P) LTD",
     category: "Commercial",
@@ -1623,8 +1397,7 @@ export const projectsList: Project[] = [
       completionDate: "May’ 2023"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "indian-cotton-federation-26",
     name: "INDIAN COTTON FEDERATION",
     category: "Commercial",
@@ -1640,8 +1413,7 @@ export const projectsList: Project[] = [
       completionDate: "2020-07-09"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "kpm-commercial-centre-27",
     name: "KPM COMMERCIAL CENTRE",
     category: "Commercial",
@@ -1657,8 +1429,7 @@ export const projectsList: Project[] = [
       completionDate: "JUN’ 2016"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "layout-development-work-at-psg-v-enclave-by-psg-co-op-house-building-society-ltd-28",
     name: "Layout Development work at PSG V Enclave by PSG Co op House Building society Ltd",
     category: "Commercial",
@@ -1673,8 +1444,7 @@ export const projectsList: Project[] = [
       completionDate: "MAR' 2022"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "lgb-corporate-office-building-29",
     name: "LGB CORPORATE OFFICE BUILDING,",
     category: "Commercial",
@@ -1690,8 +1460,7 @@ export const projectsList: Project[] = [
       completionDate: "MAR'2025"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "m-s-codissia-intech-technology-centre-30",
     name: "M/s.CODISSIA INTECH TECHNOLOGY CENTRE",
     category: "Commercial",
@@ -1707,8 +1476,7 @@ export const projectsList: Project[] = [
       completionDate: "OCT’2008"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "m-s-parvathy-agencies-31",
     name: "M/S. PARVATHY AGENCIES",
     category: "Commercial",
@@ -1724,8 +1492,7 @@ export const projectsList: Project[] = [
       completionDate: "Aug’ 2020"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "m-s-pnr-prime-reality-limited-pnr-edifice-32",
     name: "M/s. PNR Prime Reality Limited “PNR EDIFICE”",
     category: "Commercial",
@@ -1741,8 +1508,7 @@ export const projectsList: Project[] = [
       completionDate: "2025-01-01"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "m-s-sap-promoters-ltd-33",
     name: "M/s. SAP PROMOTERS LTD",
     category: "Commercial",
@@ -1758,8 +1524,7 @@ export const projectsList: Project[] = [
       completionDate: "AUG’ 2016"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "m-s-saroja-velusamy-and-thales-trust-34",
     name: "M/s. SAROJA VELUSAMY AND THALES TRUST",
     category: "Commercial",
@@ -1775,8 +1540,7 @@ export const projectsList: Project[] = [
       completionDate: "DEC’2012"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "m-s-toyota-anamallais-agencies-35",
     name: "M/s. TOYOTA ANAMALLAIS AGENCIES",
     category: "Commercial",
@@ -1792,8 +1556,7 @@ export const projectsList: Project[] = [
       completionDate: "DEC’2010"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "m-s-toyota-anamallais-agencies-36",
     name: "M/s. TOYOTA ANAMALLAIS AGENCIES",
     category: "Commercial",
@@ -1809,8 +1572,7 @@ export const projectsList: Project[] = [
       completionDate: "DEC’2010"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "m-s-velmuruga-enterprises-private-limited-svb-mlcp-37",
     name: "M/s. Velmuruga Enterprises Private Limited “SVB MLCP”",
     category: "Commercial",
@@ -1826,8 +1588,7 @@ export const projectsList: Project[] = [
       completionDate: "2025-01-01"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "muruhanandam-complex-38",
     name: "MURUHANANDAM COMPLEX",
     category: "Commercial",
@@ -1843,8 +1604,7 @@ export const projectsList: Project[] = [
       completionDate: "MAR’ 2020"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "s-malarvizhi-sri-krishna-institution-coimbatore-39",
     name: "S. Malarvizhi, Sri Krishna Institution, Coimbatore",
     category: "Commercial",
@@ -1860,8 +1620,7 @@ export const projectsList: Project[] = [
       completionDate: "APR' 2024"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "saptharishi-prasanna-complex-40",
     name: "SAPTHARISHI PRASANNA COMPLEX",
     category: "Commercial",
@@ -1877,8 +1636,7 @@ export const projectsList: Project[] = [
       completionDate: "NOV’ 2014"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "saradha-greens-41",
     name: "SARADHA GREENS –",
     category: "Commercial",
@@ -1894,8 +1652,7 @@ export const projectsList: Project[] = [
       completionDate: "Oct’ 2020"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "shoeline-palmyra-42",
     name: "Shoeline – PALMYRA",
     category: "Commercial",
@@ -1911,8 +1668,7 @@ export const projectsList: Project[] = [
       completionDate: "Aug’ 2020"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "snr-auditorium-43",
     name: "SNR AUDITORIUM",
     category: "Commercial",
@@ -1928,8 +1684,7 @@ export const projectsList: Project[] = [
       completionDate: "DEC'2005"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "snr-hall-44",
     name: "SNR HALL",
     category: "Commercial",
@@ -1945,8 +1700,7 @@ export const projectsList: Project[] = [
       completionDate: "DEC'2005"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "sree-switch-gears-45",
     name: "SREE SWITCH GEARS",
     category: "Commercial",
@@ -1962,8 +1716,7 @@ export const projectsList: Project[] = [
       completionDate: "2026-01-01"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "sri-kumaran-hall-46",
     name: "SRI KUMARAN HALL",
     category: "Commercial",
@@ -1979,8 +1732,7 @@ export const projectsList: Project[] = [
       completionDate: "Deccember 2018"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "the-echo-point-plaza-47",
     name: "THE ECHO POINT – PLAZA",
     category: "Commercial",
@@ -1996,8 +1748,7 @@ export const projectsList: Project[] = [
       completionDate: "Sep ‘2021"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "vasanth-co-48",
     name: "VASANTH & CO",
     category: "Commercial",
@@ -2013,8 +1764,7 @@ export const projectsList: Project[] = [
       completionDate: "OCT’ 2014"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "civil-structural-finishing-works-and-external-development-excl-earthwork-49",
     name: "Civil, Structural & Finishing works and External development (Excl Earthwork)",
     category: "Commercial",
@@ -2030,8 +1780,7 @@ export const projectsList: Project[] = [
       completionDate: "OCT'2028"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "civil-structural-architectural-finishing-including-plumbing-works-for-commercial-building-50",
     name: "Civil, Structural, Architectural, Finishing including Plumbing works for Commercial Building",
     category: "Commercial",
@@ -2047,8 +1796,7 @@ export const projectsList: Project[] = [
       completionDate: "APR'2027"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "civil-structure-and-finishes-works-for-proposed-hotel-development-brigade-fairfield-51",
     name: "Civil Structure and Finishes Works for Proposed Hotel Development - Brigade Fairfield",
     category: "Commercial",
@@ -2064,8 +1812,7 @@ export const projectsList: Project[] = [
       completionDate: "MAY' 2027"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "civil-strurctural-finishing-external-and-plumbing-works-construction-of-commercial-building-52",
     name: "Civil, Strurctural, Finishing, External and Plumbing works - Construction of Commercial Building",
     category: "Commercial",
@@ -2081,8 +1828,7 @@ export const projectsList: Project[] = [
       completionDate: "JAN' 2027"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-commercial-building-53",
     name: "Construction of Commercial Building",
     category: "Commercial",
@@ -2098,8 +1844,7 @@ export const projectsList: Project[] = [
       completionDate: "SEPT' 2026"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-commercial-complex-54",
     name: "Construction of Commercial Complex",
     category: "Commercial",
@@ -2115,8 +1860,7 @@ export const projectsList: Project[] = [
       completionDate: "AUG' 2026"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-commercial-complex-svb-sphere-55",
     name: "Construction of Commercial Complex \"SVB SPHERE\"",
     category: "Commercial",
@@ -2132,8 +1876,7 @@ export const projectsList: Project[] = [
       completionDate: "JAN' 2026"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-it-building-olympia-elite-56",
     name: "Construction of IT building \"OLYMPIA ELITE\"",
     category: "Commercial",
@@ -2149,8 +1892,7 @@ export const projectsList: Project[] = [
       completionDate: "SEPT 2026"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-office-building-57",
     name: "Construction of Office Building",
     category: "Commercial",
@@ -2166,8 +1908,7 @@ export const projectsList: Project[] = [
       completionDate: "SEP' 2026"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-precast-building-58",
     name: "Construction of Precast Building",
     category: "Commercial",
@@ -2183,8 +1924,7 @@ export const projectsList: Project[] = [
       completionDate: "DEC'2026"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "constructon-of-commercial-building-59",
     name: "Constructon of Commercial Building",
     category: "Commercial",
@@ -2200,8 +1940,7 @@ export const projectsList: Project[] = [
       completionDate: "AUG' 2026"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "modification-to-the-existing-building-60",
     name: "Modification to the Existing Building",
     category: "Commercial",
@@ -2217,8 +1956,7 @@ export const projectsList: Project[] = [
       completionDate: "FEB'2026"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "proposed-commercial-for-aditya-office-spaces-at-coimbatore-61",
     name: "Proposed Commercial For Aditya Office Spaces At Coimbatore",
     category: "Commercial",
@@ -2234,8 +1972,7 @@ export const projectsList: Project[] = [
       completionDate: "MAY'2028"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "proposed-construction-of-it-building-cast-in-situ-precast-building-olympia-vidagara-at-porur-chennai-for-m-s-alwarpet-properties-pvt-ltd-62",
     name: "Proposed Construction Of It Building (Cast In Situ) & Precast Building \"Olympia Vidagara” At Porur, Chennai For M/S. Alwarpet Properties Pvt Ltd",
     category: "Commercial",
@@ -2251,8 +1988,7 @@ export const projectsList: Project[] = [
       completionDate: "JULY'2027"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "proposed-construction-of-precast-it-building-olympia-at-porur-chennai-for-m-s-alwarpet-properties-pvt-ltd-reg-63",
     name: "Proposed Construction of Precast IT Building “Olympia” at porur, Chennai for M/s. Alwarpet Properties Pvt Ltd – reg.",
     category: "Commercial",
@@ -2268,8 +2004,7 @@ export const projectsList: Project[] = [
       completionDate: "APR'2026"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "remodeling-of-hall-f-at-coddisia-64",
     name: "Remodeling of Hall F at Coddisia",
     category: "Commercial",
@@ -2285,8 +2020,7 @@ export const projectsList: Project[] = [
       completionDate: "SEP'2026"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "adithya-cbse-school-1",
     name: "ADITHYA   CBSE SCHOOL",
     category: "Institutional",
@@ -2302,8 +2036,7 @@ export const projectsList: Project[] = [
       completionDate: "JAN’   2015"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "adithya-institute-of-technology-2",
     name: "ADITHYA INSTITUTE OF TECHNOLOGY",
     category: "Institutional",
@@ -2319,8 +2052,7 @@ export const projectsList: Project[] = [
       completionDate: "AUG’2009"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "adithya-institute-of-technology-academic-building-3",
     name: "ADITHYA INSTITUTE OF TECHNOLOGY- ACADEMIC   BUILDING",
     category: "Institutional",
@@ -2336,8 +2068,7 @@ export const projectsList: Project[] = [
       completionDate: "MAR;2025"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "adithya-matriculation-school-4",
     name: "ADITHYA MATRICULATION SCHOOL",
     category: "Institutional",
@@ -2353,8 +2084,7 @@ export const projectsList: Project[] = [
       completionDate: "JAN’ 2015"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "aditya-school-hostel-building-5",
     name: "ADITYA SCHOOL HOSTEL BUILDING",
     category: "Institutional",
@@ -2370,8 +2100,7 @@ export const projectsList: Project[] = [
       completionDate: "DEC’ 2018"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "aditya-school-hostel-building-phase-ii-6",
     name: "ADITYA SCHOOL HOSTEL BUILDING PHASE II",
     category: "Institutional",
@@ -2387,8 +2116,7 @@ export const projectsList: Project[] = [
       completionDate: "JAN’ 2021"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "arjun-college-of-technology-7",
     name: "ARJUN COLLEGE OF TECHNOLOGY",
     category: "Institutional",
@@ -2404,8 +2132,7 @@ export const projectsList: Project[] = [
       completionDate: "NOV’ 2014"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "civil-and-allied-works-8",
     name: "Civil and allied works",
     category: "Institutional",
@@ -2421,8 +2148,7 @@ export const projectsList: Project[] = [
       completionDate: "MAR' 2025"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-additional-buildings-9",
     name: "Construction of Additional Buildings",
     category: "Institutional",
@@ -2438,8 +2164,7 @@ export const projectsList: Project[] = [
       completionDate: "MAR'2011"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-admin-block-extension-miscellaneous-10",
     name: "Construction of Admin Block Extension &miscellaneous",
     category: "Institutional",
@@ -2455,8 +2180,7 @@ export const projectsList: Project[] = [
       completionDate: "MAR' 2025"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-arjun-college-of-technology-academic-block-b-block-sf-girls-hostel-11",
     name: "Construction of Arjun College of Technology, Academic Block-\"B\" Block SF, Girls Hostel",
     category: "Institutional",
@@ -2472,8 +2196,7 @@ export const projectsList: Project[] = [
       completionDate: "AUG' 2015"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-girls-hostel-12",
     name: "Construction of Girls Hostel",
     category: "Institutional",
@@ -2489,8 +2212,7 @@ export const projectsList: Project[] = [
       completionDate: "MAR' 2025"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-girls-hostel-at-arjun-college-of-technology-13",
     name: "Construction of Girls Hostel at Arjun college of Technology",
     category: "Institutional",
@@ -2506,8 +2228,7 @@ export const projectsList: Project[] = [
       completionDate: "DEC' 2021"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-government-tribal-residential-high-school-14",
     name: "Construction of Government Tribal Residential High School",
     category: "Institutional",
@@ -2523,8 +2244,7 @@ export const projectsList: Project[] = [
       completionDate: "DEC2024"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-mba-mca-block-buliding-at-coimbatore-15",
     name: "Construction of MBA/ MCA Block buliding at Coimbatore",
     category: "Institutional",
@@ -2540,8 +2260,7 @@ export const projectsList: Project[] = [
       completionDate: "MAY' 2018"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-school-building-16",
     name: "Construction of School Building",
     category: "Institutional",
@@ -2557,8 +2276,7 @@ export const projectsList: Project[] = [
       completionDate: "APR' 2008"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-siddha-and-yoga-building-17",
     name: "Construction of Siddha and yoga building",
     category: "Institutional",
@@ -2574,8 +2292,7 @@ export const projectsList: Project[] = [
       completionDate: "MAR' 2025"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-visiting-staff-quarters-building-and-staff-quarters-commercial-block-18",
     name: "Construction of Visiting Staff Quarters Building and Staff quarters (Commercial Block)",
     category: "Institutional",
@@ -2591,8 +2308,7 @@ export const projectsList: Project[] = [
       completionDate: "MAR' 2018"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "hindusthan-college-of-arts-science-19",
     name: "HINDUSTHAN COLLEGE OF ARTS & SCIENCE",
     category: "Institutional",
@@ -2608,8 +2324,7 @@ export const projectsList: Project[] = [
       completionDate: "APR’ 2019"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "kfi-the-school-20",
     name: "KFI-THE SCHOOL",
     category: "Institutional",
@@ -2625,8 +2340,7 @@ export const projectsList: Project[] = [
       completionDate: "SEP’ 2018"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "kumaraguru-college-of-technology-21",
     name: "KUMARAGURU COLLEGE OF TECHNOLOGY",
     category: "Institutional",
@@ -2642,8 +2356,7 @@ export const projectsList: Project[] = [
       completionDate: "MAR’2013"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "m-s-d-j-academy-for-managerial-excellence-22",
     name: "M/s.D.J. ACADEMY FOR MANAGERIAL EXCELLENCE",
     category: "Institutional",
@@ -2659,8 +2372,7 @@ export const projectsList: Project[] = [
       completionDate: "MAR’2007"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "m-s-gkd-charity-trust-23",
     name: "M/s. GKD CHARITY TRUST",
     category: "Institutional",
@@ -2676,8 +2388,7 @@ export const projectsList: Project[] = [
       completionDate: "AUG’ 2005"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "mahatma-montessori-school-24",
     name: "MAHATMA MONTESSORI SCHOOL",
     category: "Institutional",
@@ -2693,8 +2404,7 @@ export const projectsList: Project[] = [
       completionDate: "2012-07-01"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "mepco-schlenk-engineering-college-25",
     name: "MEPCO SCHLENK ENGINEERING COLLEGE",
     category: "Institutional",
@@ -2710,8 +2420,7 @@ export const projectsList: Project[] = [
       completionDate: "JAN’ 2020"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "proposed-toilet-modification-work-gf-sf-gents-toilet-and-ff-ladies-toilet-26",
     name: "Proposed Toilet Modification work - GF & SF Gents Toilet and FF Ladies Toilet",
     category: "Institutional",
@@ -2725,8 +2434,7 @@ export const projectsList: Project[] = [
       completionDate: "Dec' 2022"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "psg-ims-r-oncology-block-27",
     name: "PSG IMS&R ONCOLOGY BLOCK",
     category: "Institutional",
@@ -2742,8 +2450,7 @@ export const projectsList: Project[] = [
       completionDate: "FEB’ 2024"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "psg-institute-of-medical-sciences-research-ladies-and-gents-hostel-28",
     name: "PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH (LADIES AND GENTS HOSTEL)",
     category: "Institutional",
@@ -2759,8 +2466,7 @@ export const projectsList: Project[] = [
       completionDate: "NOV’ 2017"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "psg-institute-of-technology-applied-research-29",
     name: "PSG INSTITUTE OF TECHNOLOGY & APPLIED RESEARCH",
     category: "Institutional",
@@ -2776,8 +2482,7 @@ export const projectsList: Project[] = [
       completionDate: "JUN’ 2017"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "ramakrishna-mission-vidyalaya-30",
     name: "RAMAKRISHNA MISSION VIDYALAYA",
     category: "Institutional",
@@ -2793,8 +2498,7 @@ export const projectsList: Project[] = [
       completionDate: "Apr’ 2022"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "renovation-work-in-d-block-and-boys-hostel-2-31",
     name: "Renovation work in \"D\" Block and Boys Hostel -2",
     category: "Institutional",
@@ -2810,8 +2514,7 @@ export const projectsList: Project[] = [
       completionDate: "OCT'2013"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "sri-krishna-college-of-technology-boys-hostel-2-32",
     name: "SRI KRISHNA COLLEGE OF TECHNOLOGY- BOYS HOSTEL 2",
     category: "Institutional",
@@ -2827,8 +2530,7 @@ export const projectsList: Project[] = [
       completionDate: "DEC’2022"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "sri-ramakrishna-engineering-college-33",
     name: "SRI RAMAKRISHNA ENGINEERING COLLEGE",
     category: "Institutional",
@@ -2844,8 +2546,7 @@ export const projectsList: Project[] = [
       completionDate: "1998"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "sri-ramakrishna-institute-of-technology-34",
     name: "SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY",
     category: "Institutional",
@@ -2861,8 +2562,7 @@ export const projectsList: Project[] = [
       completionDate: "2002"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "sri-ramakrishna-polytechnic-35",
     name: "SRI RAMAKRISHNA POLYTECHNIC",
     category: "Institutional",
@@ -2878,8 +2578,7 @@ export const projectsList: Project[] = [
       completionDate: "1997"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "srm-institute-of-science-and-technology-36",
     name: "SRM INSTITUTE OF SCIENCE AND TECHNOLOGY",
     category: "Institutional",
@@ -2895,8 +2594,7 @@ export const projectsList: Project[] = [
       completionDate: "MAR’ 2024"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "velammal-cbse-matriculation-school-37",
     name: "VELAMMAL CBSE & MATRICULATION SCHOOL",
     category: "Institutional",
@@ -2912,8 +2610,7 @@ export const projectsList: Project[] = [
       completionDate: "JUL’2013"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-allied-health-science-building-38",
     name: "Construction of Allied Health Science Building",
     category: "Institutional",
@@ -2929,8 +2626,7 @@ export const projectsList: Project[] = [
       completionDate: "JAN' 2027"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-e8-block-39",
     name: "Construction of E8 Block",
     category: "Institutional",
@@ -2946,8 +2642,7 @@ export const projectsList: Project[] = [
       completionDate: "SEP '2026"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-school-building-40",
     name: "Construction of school building",
     category: "Institutional",
@@ -2963,8 +2658,7 @@ export const projectsList: Project[] = [
       completionDate: "NOV' 2026"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "rak-s-pallikkoodam-41",
     name: "RAK’S Pallikkoodam",
     category: "Institutional",
@@ -2980,8 +2674,7 @@ export const projectsList: Project[] = [
       completionDate: "SEP' 2026"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "sri-krishna-college-of-technology-girls-hostel-42",
     name: "SRI KRISHNA COLLEGE OF TECHNOLOGY- GIRLS HOSTEL",
     category: "Institutional",
@@ -2997,8 +2690,7 @@ export const projectsList: Project[] = [
       completionDate: "SEP '2025"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "the-ngp-school-43",
     name: "The NGP School",
     category: "Institutional",
@@ -3014,8 +2706,7 @@ export const projectsList: Project[] = [
       completionDate: "JUL’ 2025"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "world-community-service-centre-44",
     name: "WORLD COMMUNITY SERVICE CENTRE",
     category: "Institutional",
@@ -3031,8 +2722,7 @@ export const projectsList: Project[] = [
       completionDate: "JUL' 2023"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "adithya-warehouse-1",
     name: "ADITHYA   WAREHOUSE",
     category: "Industrial",
@@ -3049,8 +2739,7 @@ export const projectsList: Project[] = [
       consultant: "M/s.   Jeyam Consultants Private Limited,"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "akg-india-pvt-ltd-2",
     name: "AKG INDIA PVT LTD",
     category: "Industrial",
@@ -3067,8 +2756,7 @@ export const projectsList: Project[] = [
       consultant: "M/s.M.Dharmalingam Associate"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "aqua-flow-3",
     name: "AQUA FLOW",
     category: "Industrial",
@@ -3085,8 +2773,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Comten Consulting"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "bradken-india-private-limited-4",
     name: "BRADKEN INDIA PRIVATE LIMITED",
     category: "Industrial",
@@ -3103,8 +2790,7 @@ export const projectsList: Project[] = [
       consultant: "M.Dharmalingam Associate,"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "bull-machines-private-limited-5",
     name: "BULL MACHINES PRIVATE LIMITED",
     category: "Industrial",
@@ -3121,8 +2807,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. S.G.Structural Engineers."
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "bull-machines-pvt-ltd-suvasam-2-0-6",
     name: "BULL MACHINES PVT LTD-SUVASAM 2.0",
     category: "Industrial",
@@ -3139,8 +2824,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. SG Structural Engineers"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "centralised-bus-parking-7",
     name: "CENTRALISED BUS PARKING",
     category: "Industrial",
@@ -3157,8 +2841,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Pithavadian and Partners Architects"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "cheyyar-sipcot-industrial-complex-8",
     name: "CHEYYAR – SIPCOT INDUSTRIAL COMPLEX",
     category: "Industrial",
@@ -3175,8 +2858,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Cheyyar Sez Developers Pvt Ltd"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "civil-works-excl-cost-of-cement-and-steel-for-proposed-expansion-of-fruit-processing-unit-9",
     name: "Civil works (Excl Cost of Cement and Steel) for   Proposed Expansion of Fruit Processing Unit",
     category: "Industrial",
@@ -3193,8 +2875,7 @@ export const projectsList: Project[] = [
       consultant: "Client Engineer"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "civil-works-for-cogen-power-plant-and-sugar-modernization-a-c-tneb-10",
     name: "Civil works for COGEN- Power Plant and Sugar   Modernization A/C TNEB",
     category: "Industrial",
@@ -3211,8 +2892,7 @@ export const projectsList: Project[] = [
       consultant: "Client Engineer"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "constrction-of-extenal-development-work-in-factory-building-vcb-tranformer-11",
     name: "Constrction of Extenal Development work in   Factory Building, VCB tranformer",
     category: "Industrial",
@@ -3227,8 +2907,7 @@ export const projectsList: Project[] = [
       consultant: "Ms/. Vesta Architects, No: 252, Avinashi road,   Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-and-alteration-works-in-roof-and-allied-works-12",
     name: "Construction and Alteration works in Roof and   allied works",
     category: "Industrial",
@@ -3245,8 +2924,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. C.R Narayana Rao (Consultants) Pvt Ltd,   No: 10, Karpagambal Nagar, Mylapore, Chennai - 600 014"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-10mw-biomass-power-plant-13",
     name: "Construction of 10MW biomass power plant",
     category: "Industrial",
@@ -3263,8 +2941,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Swaminathan Associates, 740, Trichy road,   Ramanathapuram, Coimbatore - 641 045"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-box-culvert-and-road-work-14",
     name: "Construction of Box Culvert and Road work",
     category: "Industrial",
@@ -3280,8 +2957,7 @@ export const projectsList: Project[] = [
       consultant: "Design Collaborative India Private Limited,   179, III Floor SV complex Eswaran koil street, Puducherry - 605 001"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-bull-dormitory-building-15",
     name: "Construction of Bull Dormitory Building",
     category: "Industrial",
@@ -3297,8 +2973,7 @@ export const projectsList: Project[] = [
       consultant: "Studio 2 Fortune, Coimbatore"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-canteen-building-16",
     name: "Construction of Canteen Building",
     category: "Industrial",
@@ -3315,8 +2990,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Dream Home, Simya Bakes first floor, Arjun   complex, Pappampatti Pirivu, Trichy road, Coimbatore - 103"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-disc-filter-17",
     name: "Construction of Disc Filter",
     category: "Industrial",
@@ -3332,8 +3006,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. SPB Projects Consultancy Ltd, Esvin House,   Old No. 144, New No. 13, Tirumala Nagar Annexe, Old Mahabalipuram Road,   Perungudi, Chennai - 600 096"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-etp-work-18",
     name: "Construction of ETP WORK",
     category: "Industrial",
@@ -3349,8 +3022,7 @@ export const projectsList: Project[] = [
       consultant: "M/s.Design Forum India Private Limited,'Swathi   Courts',112,Kattor road,P.N.Palayam,Coimbatore - 641 037"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-expansion-of-assembly-shop-r-d-block-canteen-security-csd-building-33kl-tank-argon-tank-north-compound-wall-fbo-west-side-east-side-compound-wall-19",
     name: "Construction of Expansion of Assembly shop, R   & D Block, Canteen, Security CSD building, 33KL Tank, Argon Tank, North   Compound wall, FBO West side, East side compound wall",
     category: "Industrial",
@@ -3367,8 +3039,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. SG structural Engineers, 53 M.A Palanisamy   street, K.K Pudur, Coimbatore - 38"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-external-development-work-20",
     name: "Construction of External Development work",
     category: "Industrial",
@@ -3385,8 +3056,7 @@ export const projectsList: Project[] = [
       consultant: "M/s.Edifice Consultants Pvt Ltd., No;1,   Saravanan street, off south boag road., T.Nagar, Chennai - 600 017"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-factory-other-ancillary-buildings-for-oe-projects-21",
     name: "Construction of Factory & other ancillary   buildings for OE projects",
     category: "Industrial",
@@ -3403,8 +3073,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Mukesh & Associates, 5/3, Raghavan   street,Swarnapuri,Salem - 636 004"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-factory-other-ancillary-buildings-for-oe-projects-22",
     name: "Construction of Factory & other ancillary   buildings for OE projects",
     category: "Industrial",
@@ -3421,8 +3090,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Mukesh & Associates, 5/3, Raghavan   street,Swarnapuri,Salem - 636 004"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-factory-other-ancillary-buildings-for-oe-projects-23",
     name: "Construction of Factory & other ancillary   buildings for OE projects",
     category: "Industrial",
@@ -3439,8 +3107,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Mukesh & Associates, 5/3, Raghavan   street,Swarnapuri,Salem - 636 004"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-factory-building-24",
     name: "Construction of Factory Building",
     category: "Industrial",
@@ -3457,8 +3124,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Swaminathan Associates,740,Trichy   road,Ramanathapuram, Coimbatore - 641 005"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-factory-building-25",
     name: "Construction of Factory Building",
     category: "Industrial",
@@ -3475,8 +3141,7 @@ export const projectsList: Project[] = [
       consultant: "Studio 29, No. 6, Old Damu Nagar, Puliakulam,   Coimbatore - 641 045."
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-factory-building-26",
     name: "Construction of Factory Building",
     category: "Industrial",
@@ -3493,8 +3158,7 @@ export const projectsList: Project[] = [
       consultant: "Client Engineer"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-factory-building-27",
     name: "Construction of Factory Building",
     category: "Industrial",
@@ -3511,8 +3175,7 @@ export const projectsList: Project[] = [
       consultant: "M/s.SGS Consultants, Coimbatore"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-factory-building-28",
     name: "Construction of Factory Building",
     category: "Industrial",
@@ -3529,8 +3192,7 @@ export const projectsList: Project[] = [
       consultant: "Client Engineer"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-factory-building-29",
     name: "Construction of Factory Building",
     category: "Industrial",
@@ -3547,8 +3209,7 @@ export const projectsList: Project[] = [
       consultant: "Client Engineer"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-foundry-building-power-house-utility-storage-md-panel-room-compressor-room-office-canteen-30",
     name: "Construction of Foundry Building, Power house,   Utility storage, MD panel room, Compressor room, Office, Canteen",
     category: "Industrial",
@@ -3565,8 +3226,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Vesta Architect, Old no: 1514, New no:   252, Avinashi road, Peelamedu Coimbatore - 641 004"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-fruit-processing-unit-and-road-work-31",
     name: "Construction of Fruit Processing Unit and ROAD   WORK",
     category: "Industrial",
@@ -3583,8 +3243,7 @@ export const projectsList: Project[] = [
       consultant: "M/s.Design Forum India Private Limited,'Swathi   Courts',112,Kattor road,P.N.Palayam,Coimbatore - 641 037"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-industrial-building-32",
     name: "Construction of Industrial Building",
     category: "Industrial",
@@ -3601,8 +3260,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Vesta Architect, 252, Avinashi road,   Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-industrial-building-33",
     name: "Construction of Industrial Building",
     category: "Industrial",
@@ -3619,8 +3277,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. M. Dharmalingam Associates, 6 Syrian   church road, No:1, Coimbatore - 641 001"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-industrial-building-34",
     name: "Construction of Industrial Building",
     category: "Industrial",
@@ -3636,8 +3293,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. SG Structural Engineers, No. 53, M.A   Palanisamy Street, K.K Pudur (PO). Saibaba colony Coimbatore - 641038"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-industrial-building-and-labour-quarters-35",
     name: "Construction of Industrial Building and Labour   Quarters",
     category: "Industrial",
@@ -3654,8 +3310,7 @@ export const projectsList: Project[] = [
       consultant: "ANUSAMM CONSULTANTS M.SABARIANAND ME.,      No: 5/153/9, Dheivanai, Annur Road, East Arasur, Arasur(POST),      COIMBATORE - 641 407."
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-industrial-building-and-office-building-first-floor-36",
     name: "Construction of Industrial Building and Office   Building First floor",
     category: "Industrial",
@@ -3672,8 +3327,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. SG Structural Engineers 53, M.S Palanisamy   street, K.K Pudur, Coimbatore - 68"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-linac-expansion-37",
     name: "Construction of LINAC Expansion",
     category: "Industrial",
@@ -3690,8 +3344,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. M. Dharmalingam Associates, 6 Syrian   church road, No:1, Coimbatore - 641 001"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-machine-shop-and-allied-buildings-38",
     name: "Construction of Machine shop and Allied   buildings",
     category: "Industrial",
@@ -3708,8 +3361,7 @@ export const projectsList: Project[] = [
       consultant: "Mr. Lakshmanan, 51/9, M.R.Complex, DB Road,   R.S.Puram, Coimbatore - 641 002"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-machine-shop-and-store-maintenance-buildings-39",
     name: "Construction of Machine shop and Store   Maintenance buildings",
     category: "Industrial",
@@ -3726,8 +3378,7 @@ export const projectsList: Project[] = [
       consultant: "M/s.M.Dharmalingam Associate, Raka   complex,First floor,162-H,East Ponnurangam road,Coimbatore - 641 002"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-machine-shop-building-40",
     name: "Construction of Machine shop Building",
     category: "Industrial",
@@ -3744,8 +3395,7 @@ export const projectsList: Project[] = [
       consultant: "Ms/. Vesta Architects, No: 252, Avinashi road,   Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-main-shed-and-canteen-building-41",
     name: "Construction of Main shed and Canteen Building",
     category: "Industrial",
@@ -3762,8 +3412,7 @@ export const projectsList: Project[] = [
       consultant: "Asian consulting Engineers, New Dehli"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-paper-machine-and-paper-bags-machine-buildings-42",
     name: "Construction of Paper machine and Paper bags   machine buildings",
     category: "Industrial",
@@ -3780,8 +3429,7 @@ export const projectsList: Project[] = [
       consultant: "M/S. Sankar & Associates,27,Senguptha   street,Ramnagar,Coimbatore - 641 009"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-precast-boundry-wall-43",
     name: "Construction of Precast Boundry wall",
     category: "Industrial",
@@ -3798,8 +3446,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Possibuild Building Technologies,   Hyderabad"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-precast-compound-wall-44",
     name: "Construction of Precast compound wall",
     category: "Industrial",
@@ -3816,8 +3463,7 @@ export const projectsList: Project[] = [
       consultant: "Client Engineer"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-process-house-building-45",
     name: "Construction of Process House building",
     category: "Industrial",
@@ -3834,8 +3480,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Mukesh & Associates, 5/3, Raghavan   street, Swarnapuri, Salem - 636 004"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-proposed-garment-manufacturing-unit-46",
     name: "Construction of Proposed Garment manufacturing   unit",
     category: "Industrial",
@@ -3852,8 +3497,7 @@ export const projectsList: Project[] = [
       consultant: "M/S. Sankar & Associates, 27, Senguptha   street, Ramnagar, Coimbatore - 641 009"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-road-work-in-phase-iv-temporary-ecrc-flooring-fruit-waste-drying-yard-47",
     name: "Construction of Road work in phase IV temporary   ECRC Flooring, Fruit waste drying yard",
     category: "Industrial",
@@ -3869,8 +3513,7 @@ export const projectsList: Project[] = [
       consultant: "Client Engineer"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-rt-enclosure-office-and-lab-building-48",
     name: "Construction of RT enclosure, Office and Lab   Building",
     category: "Industrial",
@@ -3887,8 +3530,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. M. Dharmalingam Associates, 6 Syrian   church road, No:1, Coimbatore - 641 001"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-rt-enclosure-office-and-lab-building-49",
     name: "Construction of RT enclosure, Office and Lab   Building",
     category: "Industrial",
@@ -3905,8 +3547,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. M. Dharmalingam Associates, 6 Syrian   church road, No:1, Coimbatore - 641 001"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-shot-blast-machine-shop-at-coimbatore-50",
     name: "Construction of shot blast Machine shop at   Coimbatore",
     category: "Industrial",
@@ -3923,8 +3564,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. SG Structural Engineers, 53 M.A Palanisamy   Street, K.K Pudur, Coimbatore - 36"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-spinning-unit-51",
     name: "Construction of spinning unit",
     category: "Industrial",
@@ -3941,8 +3581,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. G.K.Consultants, Coimbatore"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-texile-building-at-sengathurai-kadampadi-village-sulur-taluk-coimbatore-52",
     name: "Construction of Texile Building at sengathurai   kadampadi village, sulur taluk, Coimbatore",
     category: "Industrial",
@@ -3959,8 +3598,7 @@ export const projectsList: Project[] = [
       consultant: "Client Engineer"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-toilet-block-53",
     name: "Construction of Toilet block",
     category: "Industrial",
@@ -3977,8 +3615,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. SG Structural Engineers, 53 M.A Palanisamy   street, K.K Pudur, Coimbatore - 38"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-warehouse-building-54",
     name: "Construction of Warehouse Building",
     category: "Industrial",
@@ -3995,8 +3632,7 @@ export const projectsList: Project[] = [
       consultant: "NMH Design, Chennai"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-warehouse-building-55",
     name: "Construction of Warehouse Building",
     category: "Industrial",
@@ -4012,8 +3648,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Vesta Architect, 252, Avinashi road,   Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "cosmik-industry-56",
     name: "COSMIK INDUSTRY",
     category: "Industrial",
@@ -4030,8 +3665,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Sundar Sundaram Architects"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "cri-pumps-private-limited-57",
     name: "CRI PUMPS PRIVATE LIMITED",
     category: "Industrial",
@@ -4048,8 +3682,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Mithran Structures (P) Ltd.,"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "cri-pumps-private-limited-58",
     name: "CRI PUMPS PRIVATE LIMITED",
     category: "Industrial",
@@ -4066,8 +3699,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Design Tech"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "exotic-fruits-pvt-ltd-59",
     name: "EXOTIC FRUITS PVT LTD",
     category: "Industrial",
@@ -4084,8 +3716,7 @@ export const projectsList: Project[] = [
       consultant: "M/s.Design Forum India Private Limited"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "extention-of-factory-building-60",
     name: "Extention of Factory Building",
     category: "Industrial",
@@ -4102,8 +3733,7 @@ export const projectsList: Project[] = [
       consultant: "Ms/. Vesta Architects, No: 252, Avinashi road,   Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "gtn-exports-ltd-61",
     name: "GTN EXPORTS LTD",
     category: "Industrial",
@@ -4120,8 +3750,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. M. Dharmalingam Associates,"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "integra-automation-pvt-ltd-unit-iv-62",
     name: "INTEGRA AUTOMATION PVT LTD UNIT–IV",
     category: "Industrial",
@@ -4138,8 +3767,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Sabarianand M.E"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "international-aerospace-manufacturing-63",
     name: "INTERNATIONAL AEROSPACE MANUFACTURING",
     category: "Industrial",
@@ -4156,8 +3784,7 @@ export const projectsList: Project[] = [
       consultant: "‘Besten Engineers & Consultants India   Private Limited"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "kg-denim-limited-64",
     name: "KG DENIM LIMITED",
     category: "Industrial",
@@ -4174,8 +3801,7 @@ export const projectsList: Project[] = [
       consultant: "M/s.Design Forum India Private Limited"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "kg-fabriks-limited-65",
     name: "KG FABRIKS LIMITED",
     category: "Industrial",
@@ -4192,8 +3818,7 @@ export const projectsList: Project[] = [
       consultant: "M/s.Design Forum India Private Limited"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "kpr-mills-limited-66",
     name: "KPR MILLS LIMITED",
     category: "Industrial",
@@ -4210,8 +3835,7 @@ export const projectsList: Project[] = [
       consultant: "M/s.Design Forum India Private Limited"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "krishnaveni-carbon-67",
     name: "KRISHNAVENI CARBON",
     category: "Industrial",
@@ -4228,8 +3852,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. M. Dharmalingam Associates"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "l-g-balakrishnan-bro-s-ltd-68",
     name: "L G BALAKRISHNAN & BRO’s LTD",
     category: "Industrial",
@@ -4246,8 +3869,7 @@ export const projectsList: Project[] = [
       consultant: "Client Engineer"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "l-g-balakrishnan-bros-limited-69",
     name: "L.G.BALAKRISHNAN & BROS LIMITED",
     category: "Industrial",
@@ -4264,8 +3886,7 @@ export const projectsList: Project[] = [
       consultant: "Ms/. Vesta Architects"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "l-g-balakrishnan-bros-limited-70",
     name: "L.G.BALAKRISHNAN & BROS LIMITED",
     category: "Industrial",
@@ -4282,8 +3903,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. PTK Architects"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "l-g-balakrishnan-bros-limited-oht-71",
     name: "L.G.Balakrishnan & Bros Limited – OHT",
     category: "Industrial",
@@ -4300,8 +3920,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Innovative Design"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "lgb-canteen-block-and-factory-building-3-72",
     name: "LGB CANTEEN BLOCK AND FACTORY BUILDING 3",
     category: "Industrial",
@@ -4318,8 +3937,7 @@ export const projectsList: Project[] = [
       consultant: "Ms/. Vesta Architects"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "lgb-factory-building-2-vallam-73",
     name: "LGB FACTORY BUILDING 2      VALLAM",
     category: "Industrial",
@@ -4336,8 +3954,7 @@ export const projectsList: Project[] = [
       consultant: "Ms/. Vesta Architects"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "m-s-cs-spinners-pvt-ltd-74",
     name: "M/s. CS SPINNERS PVT LTD",
     category: "Industrial",
@@ -4354,8 +3971,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Vesta Architect"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "m-s-revantha-services-ltd-75",
     name: "M/s. REVANTHA SERVICES LTD",
     category: "Industrial",
@@ -4372,8 +3988,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Bharath & Associates"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "madras-cements-ltd-76",
     name: "MADRAS CEMENTS LTD",
     category: "Industrial",
@@ -4390,8 +4005,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Enexco Technologies (India) Ltd"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "madras-cements-ltd-77",
     name: "MADRAS CEMENTS LTD",
     category: "Industrial",
@@ -4408,8 +4022,7 @@ export const projectsList: Project[] = [
       consultant: "Client Engineer"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "madras-cements-ltd-78",
     name: "MADRAS CEMENTS LTD",
     category: "Industrial",
@@ -4426,8 +4039,7 @@ export const projectsList: Project[] = [
       consultant: "EEL India Limited"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "mark-engineering-works-79",
     name: "MARK ENGINEERING WORKS",
     category: "Industrial",
@@ -4444,8 +4056,7 @@ export const projectsList: Project[] = [
       consultant: "Ms/. Vesta Architects"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "mark-engineering-works-80",
     name: "MARK ENGINEERING WORKS",
     category: "Industrial",
@@ -4462,8 +4073,7 @@ export const projectsList: Project[] = [
       consultant: "Ms/. Vesta Architects"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "marudhamalai-industrial-logistics-park-coimbatore-by-81",
     name: "Marudhamalai Industrial & Logistics Park,   Coimbatore (by)",
     category: "Industrial",
@@ -4480,8 +4090,7 @@ export const projectsList: Project[] = [
       consultant: "M/ s Tata Consulting Engineers Pvt Ltd,"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "motherson-group-of-companies-82",
     name: "MOTHERSON GROUP OF COMPANIES",
     category: "Industrial",
@@ -4498,8 +4107,7 @@ export const projectsList: Project[] = [
       consultant: "Ms/. Vesta Architects"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "perfect-engineers-83",
     name: "PERFECT ENGINEERS",
     category: "Industrial",
@@ -4516,8 +4124,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Taamaesek Engineering"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "perfect-engineers-phase-ii-84",
     name: "PERFECT ENGINEERS PHASE-II",
     category: "Industrial",
@@ -4534,8 +4141,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Perfect Engineers"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "propel-industries-private-limited-85",
     name: "PROPEL INDUSTRIES PRIVATE LIMITED",
     category: "Industrial",
@@ -4552,8 +4158,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. KSM Architecture"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "propel-industries-pvt-ltd-86",
     name: "PROPEL INDUSTRIES PVT LTD",
     category: "Industrial",
@@ -4570,8 +4175,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. S.G.Structural Engineers,"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "proposed-expansion-of-power-house-87",
     name: "Proposed Expansion of Power house",
     category: "Industrial",
@@ -4588,8 +4192,7 @@ export const projectsList: Project[] = [
       consultant: "M/s.M.Dharmalingam Associate, Raka   complex,First floor,162-H,East Ponnurangam road,Coimbatore - 641 002"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "proposed-extension-of-fcatory-building-88",
     name: "Proposed Extension of Fcatory Building",
     category: "Industrial",
@@ -4606,8 +4209,7 @@ export const projectsList: Project[] = [
       consultant: "Client Engineer"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "sakthi-gear-products-89",
     name: "SAKTHI GEAR PRODUCTS",
     category: "Industrial",
@@ -4624,8 +4226,7 @@ export const projectsList: Project[] = [
       consultant: "Ms/. Vesta Architects"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "schuf-speciality-valves-india-pvt-ltd-90",
     name: "SCHUF SPECIALITY VALVES INDIA PVT LTD",
     category: "Industrial",
@@ -4642,8 +4243,7 @@ export const projectsList: Project[] = [
       consultant: "M/S. Sankar & Associates"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "secan-engineering-91",
     name: "SECAN ENGINEERING",
     category: "Industrial",
@@ -4660,8 +4260,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Anusamm Consultants,"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "shanthamani-spinners-92",
     name: "SHANTHAMANI SPINNERS",
     category: "Industrial",
@@ -4678,8 +4277,7 @@ export const projectsList: Project[] = [
       consultant: "Client Engineer"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "snf-components-private-limited-93",
     name: "SNF COMPONENTS PRIVATE LIMITED",
     category: "Industrial",
@@ -4696,8 +4294,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. SG Structural Engineers"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "sri-ranganather-valves-controls-p-ltd-unit-ii-94",
     name: "Sri Ranganather Valves & Controls(P)Ltd   Unit II",
     category: "Industrial",
@@ -4714,8 +4311,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. M. Dharmalingam Associates,"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "sri-srinivasa-textiles-95",
     name: "SRI SRINIVASA TEXTILES",
     category: "Industrial",
@@ -4732,8 +4328,7 @@ export const projectsList: Project[] = [
       consultant: "Ms/. Vesta Architects"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "sri-unit-2-knock-out-pattern-storage-and-machine-foundation-96",
     name: "SRI Unit - 2 Knock out, Pattern storage and   Machine foundation",
     category: "Industrial",
@@ -4748,8 +4343,7 @@ export const projectsList: Project[] = [
       consultant: "Ms/. Vesta Architects, No: 252, Avinashi road,   Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "super-spinning-mills-limited-97",
     name: "SUPER SPINNING MILLS LIMITED",
     category: "Industrial",
@@ -4766,8 +4360,7 @@ export const projectsList: Project[] = [
       consultant: "M/S. Sankar & Associates,"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "tharun-balaji-spinners-98",
     name: "THARUN BALAJI SPINNERS",
     category: "Industrial",
@@ -4784,8 +4377,7 @@ export const projectsList: Project[] = [
       consultant: "Ms/. Vesta Architects"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "velmurugan-heavy-engineering-industries-99",
     name: "VELMURUGAN HEAVY ENGINEERING INDUSTRIES",
     category: "Industrial",
@@ -4802,8 +4394,7 @@ export const projectsList: Project[] = [
       consultant: "Client Engineer"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "venkatalakshmi-paper-and-boards-100",
     name: "VENKATALAKSHMI PAPER AND BOARDS",
     category: "Industrial",
@@ -4820,8 +4411,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. M. Dharmalingam Associates"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-a-factory-building-101",
     name: "Construction of a Factory Building",
     category: "Industrial",
@@ -4838,8 +4428,7 @@ export const projectsList: Project[] = [
       consultant: "Ms/. Vesta Architects, No: 252, Avinashi road,   Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-a-factory-building-102",
     name: "Construction of a Factory Building",
     category: "Industrial",
@@ -4856,8 +4445,7 @@ export const projectsList: Project[] = [
       consultant: "THE PIDESIGN 'NO.4A, Sathya Gardens, 3rd   Street,      Shakthi Nagar, West Tambaram, Chennai – 600045.      Tamilnadu, India."
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-factory-building-103",
     name: "Construction of Factory Building",
     category: "Industrial",
@@ -4874,8 +4462,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. PTK Project Consultants LLP, 19/1, Haddows   Road, Chennai - 600 006"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-factory-building-104",
     name: "Construction of Factory Building",
     category: "Industrial",
@@ -4892,8 +4479,7 @@ export const projectsList: Project[] = [
       consultant: "'FIRM TERRA '#7-7/2, 2nd Main Road,   Chandavarkar Layout, Palace Cross Road, Bangalore 560020."
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-factory-building-and-allied-buildings-including-land-development-works-105",
     name: "Construction of Factory Building and Allied   Buildings including Land Development works",
     category: "Industrial",
@@ -4910,8 +4496,7 @@ export const projectsList: Project[] = [
       consultant: "Ms/. Vesta Architects, No: 252, Avinashi road,   Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-industry-building-106",
     name: "Construction of Industry Building",
     category: "Industrial",
@@ -4928,8 +4513,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Shri Lakshmi Project Management and   Consultancy service, Flat no: AS4, Royal Exotic Apartment, Sathy Main road,   Ganapathy, Coimbatore - 641 006"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-new-expansion-building-107",
     name: "Construction of New Expansion Building",
     category: "Industrial",
@@ -4946,8 +4530,7 @@ export const projectsList: Project[] = [
       consultant: "M/s.Sabari Anand, Coimbatore"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-proposed-manufacturing-facility-108",
     name: "Construction of Proposed Manufacturing Facility",
     category: "Industrial",
@@ -4963,8 +4546,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Gleeds Consulting (India) Pvt Ltd,   Bangalore"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-sand-reclamaition-unit-109",
     name: "Construction of Sand Reclamaition Unit",
     category: "Industrial",
@@ -4981,8 +4563,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. M. Dharmalingam Associates, 6 Syrian   church road, No:1, Coimbatore - 641 001"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "proposed-industriall-building-coimbaotre-110",
     name: "Proposed Industriall Building, Coimbaotre",
     category: "Industrial",
@@ -4999,13 +4580,12 @@ export const projectsList: Project[] = [
       consultant: "Ms/. Vesta Architects, No: 252, Avinashi road,   Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "abode-valley-phase-i-ii-iii-1",
     name: "“ABODE   VALLEY” – PHASE I, II & III",
     category: "Residential",
     location: "CHENNAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/“ABODE VALLEY” – PHASE I, II & III/DSC_0619-800x531.jpg",
     status: "Completed",
     description: "Construction of “ABODE   VALLEY” – PHASE I, II & III in CHENNAI.",
     details: {
@@ -5016,14 +4596,24 @@ export const projectsList: Project[] = [
       completionDate: "FEB’2012",
       consultant: "M/s.   Nataraj & Venkat Associates"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/“ABODE VALLEY” – PHASE I, II & III/DSC_0619-800x531.jpg",
+      "/project/residential/“ABODE VALLEY” – PHASE I, II & III/LA-1-800x531.jpg",
+      "/project/residential/“ABODE VALLEY” – PHASE I, II & III/LA-2-800x600.jpg",
+      "/project/residential/“ABODE VALLEY” – PHASE I, II & III/LA-3-800x600.jpg",
+      "/project/residential/“ABODE VALLEY” – PHASE I, II & III/LA-4-800x600.jpg",
+      "/project/residential/“ABODE VALLEY” – PHASE I, II & III/LA-5-800x600.jpg",
+      "/project/residential/“ABODE VALLEY” – PHASE I, II & III/LA-6-800x450.jpg",
+      "/project/residential/“ABODE VALLEY” – PHASE I, II & III/lancor-1.jpg",
+      "/project/residential/“ABODE VALLEY” – PHASE I, II & III/lancor-2.jpg",
+      "/project/residential/“ABODE VALLEY” – PHASE I, II & III/lancor-3.jpg"
+    ]
+  },  {
     slug: "akshaya-36-carat-2",
     name: "AKSHAYA 36 CARAT",
     category: "Residential",
     location: "CHENNAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/AKSHAYA 36 CARAT/36-CARAT-800x600.jpg",
     status: "Completed",
     description: "Construction of AKSHAYA 36 CARAT in CHENNAI.",
     details: {
@@ -5034,14 +4624,24 @@ export const projectsList: Project[] = [
       completionDate: "JUL’2013",
       consultant: "M/s. Passargard,"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/AKSHAYA 36 CARAT/36-CARAT-800x600.jpg",
+      "/project/residential/AKSHAYA 36 CARAT/36-carat1.jpg",
+      "/project/residential/AKSHAYA 36 CARAT/DSC00069-800x600.jpg",
+      "/project/residential/AKSHAYA 36 CARAT/DSC00072-800x600.jpg",
+      "/project/residential/AKSHAYA 36 CARAT/DSCF0756-800x534.jpg",
+      "/project/residential/AKSHAYA 36 CARAT/DSCF0786-800x534.jpg",
+      "/project/residential/AKSHAYA 36 CARAT/DSCF0810-800x534.jpg",
+      "/project/residential/AKSHAYA 36 CARAT/DSCF0820-800x534.jpg",
+      "/project/residential/AKSHAYA 36 CARAT/DSCN0198-800x600.jpg",
+      "/project/residential/AKSHAYA 36 CARAT/DSC_0627-800x531.jpg"
+    ]
+  },  {
     slug: "akshaya-tango-3",
     name: "AKSHAYA TANGO",
     category: "Residential",
     location: "CHENNAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/AKSHAYA TANGO/20190912_174704-800x600.jpg",
     status: "Completed",
     description: "Construction of AKSHAYA TANGO in CHENNAI.",
     details: {
@@ -5052,14 +4652,27 @@ export const projectsList: Project[] = [
       completionDate: "SEP’ 2020",
       consultant: "M/s. Venkataraman Associates"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/AKSHAYA TANGO/20190912_174704-800x600.jpg",
+      "/project/residential/AKSHAYA TANGO/DSC_0493-800x531.jpg",
+      "/project/residential/AKSHAYA TANGO/Tango-1-800x413.jpg",
+      "/project/residential/AKSHAYA TANGO/Tango-1-800x600.jpeg",
+      "/project/residential/AKSHAYA TANGO/Tango-1.jpg",
+      "/project/residential/AKSHAYA TANGO/Tango-13.jpg",
+      "/project/residential/AKSHAYA TANGO/Tango-2-800x600.jpeg",
+      "/project/residential/AKSHAYA TANGO/Tango-4-800x480.jpg",
+      "/project/residential/AKSHAYA TANGO/Tango-4-800x548.jpeg",
+      "/project/residential/AKSHAYA TANGO/Tango-5-800x450.jpg",
+      "/project/residential/AKSHAYA TANGO/Tango-5-800x600.jpeg",
+      "/project/residential/AKSHAYA TANGO/Tango-6-800x600.jpeg",
+      "/project/residential/AKSHAYA TANGO/Tango-800x410.jpg"
+    ]
+  },  {
     slug: "alaka-palazzo-4",
     name: "ALAKA PALAZZO",
     category: "Residential",
     location: "CHENNAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/ALAKA PALAZZO/Alaka-1-800x600.jpg",
     status: "Completed",
     description: "Construction of ALAKA PALAZZO in CHENNAI.",
     details: {
@@ -5070,14 +4683,30 @@ export const projectsList: Project[] = [
       completionDate: "2013-07-01",
       consultant: "M/s. Foarcons"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/ALAKA PALAZZO/Alaka-1-800x600.jpg",
+      "/project/residential/ALAKA PALAZZO/Alaka-10.jpg",
+      "/project/residential/ALAKA PALAZZO/Alaka-11.jpg",
+      "/project/residential/ALAKA PALAZZO/Alaka-12-800x600.jpg",
+      "/project/residential/ALAKA PALAZZO/Alaka-2-800x531.jpg",
+      "/project/residential/ALAKA PALAZZO/Alaka-3-800x531.jpg",
+      "/project/residential/ALAKA PALAZZO/Alaka-4-800x600.jpg",
+      "/project/residential/ALAKA PALAZZO/Alaka-5-800x600.jpg",
+      "/project/residential/ALAKA PALAZZO/Alaka-6.jpg",
+      "/project/residential/ALAKA PALAZZO/Alaka-7.jpg",
+      "/project/residential/ALAKA PALAZZO/Alaka-8-800x600.jpg",
+      "/project/residential/ALAKA PALAZZO/Alaka-9-800x600.jpg",
+      "/project/residential/ALAKA PALAZZO/IMG-20191116-WA0021-800x417.jpg",
+      "/project/residential/ALAKA PALAZZO/IMG-20191116-WA0022-800x600.jpg",
+      "/project/residential/ALAKA PALAZZO/img-1-5.jpg",
+      "/project/residential/ALAKA PALAZZO/img-2-4.jpg"
+    ]
+  },  {
     slug: "apartment-building-govel-trust-5",
     name: "APARTMENT BUILDING – GOVEL TRUST",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/APARTMENT BUILDING – GOVEL TRUST/img-1-7.jpg",
     status: "Completed",
     description: "Construction of APARTMENT BUILDING – GOVEL TRUST in COIMBATORE.",
     details: {
@@ -5088,14 +4717,22 @@ export const projectsList: Project[] = [
       completionDate: "OCT’2009",
       consultant: "M/s. Gowtham Architects,"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/APARTMENT BUILDING – GOVEL TRUST/img-1-7.jpg",
+      "/project/residential/APARTMENT BUILDING – GOVEL TRUST/img-2-6.jpg",
+      "/project/residential/APARTMENT BUILDING – GOVEL TRUST/img-3-5.jpg",
+      "/project/residential/APARTMENT BUILDING – GOVEL TRUST/img-4-4.jpg",
+      "/project/residential/APARTMENT BUILDING – GOVEL TRUST/img-5-4.jpg",
+      "/project/residential/APARTMENT BUILDING – GOVEL TRUST/img-6-3.jpg",
+      "/project/residential/APARTMENT BUILDING – GOVEL TRUST/img-7-1.jpg",
+      "/project/residential/APARTMENT BUILDING – GOVEL TRUST/img-8.jpg"
+    ]
+  },  {
     slug: "blue-haven-phase-ii-6",
     name: "BLUE HAVEN PHASE II",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/BLUE HAVEN PHASE II/BH2-1-800x548.jpg",
     status: "Completed",
     description: "Construction of BLUE HAVEN PHASE II in COIMBATORE.",
     details: {
@@ -5106,9 +4743,15 @@ export const projectsList: Project[] = [
       completionDate: "NOV’ 2014",
       consultant: "M/s.Inner Space Architect,"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/BLUE HAVEN PHASE II/BH2-1-800x548.jpg",
+      "/project/residential/BLUE HAVEN PHASE II/BH2-2-800x600.jpg",
+      "/project/residential/BLUE HAVEN PHASE II/BH2-3-800x600.jpg",
+      "/project/residential/BLUE HAVEN PHASE II/BH2-4.jpg",
+      "/project/residential/BLUE HAVEN PHASE II/BH2-5-800x600.jpg",
+      "/project/residential/BLUE HAVEN PHASE II/bluehaven.jpg"
+    ]
+  },  {
     slug: "civil-and-allied-works-7",
     name: "Civil and allied works",
     category: "Residential",
@@ -5123,13 +4766,12 @@ export const projectsList: Project[] = [
       completionDate: "AUG' 2025"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "classic-enclave-8",
     name: "CLASSIC ENCLAVE",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/CLASSIC ENCLAVE/DSC_0176-CLASSIC-ENCLAVE-scaled.jpg",
     status: "Completed",
     description: "Construction of CLASSIC ENCLAVE in COIMBATORE.",
     details: {
@@ -5140,9 +4782,11 @@ export const projectsList: Project[] = [
       completionDate: "APR’ 2008",
       consultant: "Client Engineer"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/CLASSIC ENCLAVE/DSC_0176-CLASSIC-ENCLAVE-scaled.jpg",
+      "/project/residential/CLASSIC ENCLAVE/DSC_0179-CLASSIC-ENCLAVE.jpg"
+    ]
+  },  {
     slug: "construction-of-apartment-building-utopia-9",
     name: "Construction of Apartment Building   \"UTOPIA\"",
     category: "Residential",
@@ -5159,8 +4803,7 @@ export const projectsList: Project[] = [
       consultant: "M/s.C.Subba Rao Associates, B-2, No 1, Ground   floor, B. Kences Enclave Ramakrishna Street, T.Nagar, Chennai - 600 017"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-guest-house-for-mr-g-srinivasan-mr-raja-duraisamy-and-mr-murali-10",
     name: "Construction of Guest House for   Mr.G.Srinivasan, Mr.Raja Duraisamy, and Mr.Murali",
     category: "Residential",
@@ -5177,8 +4820,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Senscape Architects, No. 5/1, 1st Floor,   2nd Main Road, N R Colony, Basavanagudi, Bangalore, Karnataka - 560 004"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-guest-house-for-mr-manohar-mr-mohanraj-mr-premnath-mr-venkatesan-11",
     name: "Construction of Guest House for Mr.Manohar, Mr.   Mohanraj, Mr, Premnath, Mr. Venkatesan",
     category: "Residential",
@@ -5195,8 +4837,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Senscape Architects, No. 5/1, 1st Floor,   2nd Main Road, N R Colony, Basavanagudi, Bangalore, Karnataka - 560 004"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-holiday-home-propel-farm-house-12",
     name: "Construction of Holiday Home (Propel Farm   house),",
     category: "Residential",
@@ -5213,8 +4854,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. ICON Design studio, 87 -A, First floor,   Muiappa koil thottam, sathy road, Ganapathy, Coimbatore - 641 006"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-indiviual-luxury-villas-the-address-13",
     name: "Construction of Indiviual Luxury villas   \"THE ADDRESS\"",
     category: "Residential",
@@ -5231,8 +4871,7 @@ export const projectsList: Project[] = [
       consultant: "Design Qube Architects, #40, MGR Salai,   Kandachavadi, Perungudi, Chennai – 600 096"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-indra-prastham-residential-apartment-building-14",
     name: "Construction of \"INDRA PRASTHAM\"   Residential Apartment Building",
     category: "Residential",
@@ -5249,8 +4888,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. S.G.Structural Engineers. No. 53, M.A   Palanisamy Street, K.K Pudur (PO). Saibabacolony Coimbatore - 641038"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-residence-15",
     name: "Construction of Residence",
     category: "Residential",
@@ -5267,8 +4905,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Jawahar Associates, 11th street, Madurai -   652 002"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-residential-apartment-16",
     name: "Construction of Residential Apartment",
     category: "Residential",
@@ -5285,8 +4922,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Vesta Architect, 252, Avinashi road,   Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-residential-apartment-commercial-complex-building-nivasan-ramaas-17",
     name: "Construction of Residential Apartment &   Commercial Complex Building \"Nivasan Ramaas\"",
     category: "Residential",
@@ -5303,8 +4939,7 @@ export const projectsList: Project[] = [
       consultant: "Ms/. Vesta Architects, No: 252, Avinashi road,   Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-residential-apartments-block-v-18",
     name: "Construction of Residential Apartments Block-V",
     category: "Residential",
@@ -5321,8 +4956,7 @@ export const projectsList: Project[] = [
       consultant: "M/s.Britto Ilango and Associates, 167, West   Sambandam Road, R.S.Puram, Coimbatore - 641 002"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-residential-apartments-freedom-square-19",
     name: "Construction of Residential Apartments   \"FREEDOM SQUARE\"",
     category: "Residential",
@@ -5339,8 +4973,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Anbu & Faizal, No.43, S3, Amar sindur   2nd Floor, Near Children Hospital, Panteon Street, Chennai - 600 008"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-residential-apartments-sree-rosh-meadows-20",
     name: "Construction of Residential Apartments   \"SREE ROSH MEADOWS\"",
     category: "Residential",
@@ -5357,8 +4990,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Anbu & Faizal, No.43, S3, Amar sindur   2nd Floor, Near Children Hospital, Panteon Street, Chennai - 600 008"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-residential-building-21",
     name: "Construction of Residential Building",
     category: "Residential",
@@ -5374,8 +5006,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Maya Praxis, 27/1, 2nd Block, 7th Main   Road, 8th Cross, Jaya Nagar, Bangalore - 560 004"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-residential-building-22",
     name: "Construction of Residential Building",
     category: "Residential",
@@ -5392,8 +5023,7 @@ export const projectsList: Project[] = [
       consultant: "M/s.Akshaya Pvt Ltd., G square no:46, Rajiv   Gandhi Salai (OMR, Kandanchavadi, Chennai 600 096"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-residential-building-23",
     name: "Construction of Residential Building",
     category: "Residential",
@@ -5410,8 +5040,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Arun & Associates Architects &   Planners, 1289, Trichy road, Coimbatore - 641 018"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-residential-building-24",
     name: "Construction of Residential Building",
     category: "Residential",
@@ -5428,8 +5057,7 @@ export const projectsList: Project[] = [
       consultant: "Benny Kuriakose and Associates      Flat 3F, Springwood Apartments,      No. 6, Ranjith Road,      Kotturpuram, Chennai - 600085"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-residential-building-sindur-lotus-25",
     name: "Construction of Residential Building   \"SINDUR LOTUS\"",
     category: "Residential",
@@ -5446,8 +5074,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Anbu & Faizal, No.43, S3, Amar sindur   2nd Floor, Near Children Hospital, Panteon Street, Chennai - 600 008"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-residential-building-villa-compound-wall-office-building-26",
     name: "Construction of Residential Building (VILLA),   Compound wall, Office Building",
     category: "Residential",
@@ -5464,8 +5091,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. SANKAR & ASSOCIATES 27, Sengupta   Street, Ramnagar Coimbatore - 641 009"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-residential-villa-27",
     name: "Construction of Residential Villa",
     category: "Residential",
@@ -5482,8 +5108,7 @@ export const projectsList: Project[] = [
       consultant: "Design Collaborative India Private Limited,   179, III Floor SV complex Eswaran koil street, Puducherry - 605 001"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-workers-hostel-28",
     name: "Construction of Workers Hostel",
     category: "Residential",
@@ -5500,13 +5125,12 @@ export const projectsList: Project[] = [
       consultant: "Ms/. Vesta Architects, No: 252, Avinashi road,   Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "foundation-one-shree-29",
     name: "FOUNDATION ONE “SHREE”",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/FOUNDATION ONE “SHREE”/F1-1-800x600.jpg",
     status: "Completed",
     description: "Construction of FOUNDATION ONE “SHREE” in COIMBATORE.",
     details: {
@@ -5517,14 +5141,24 @@ export const projectsList: Project[] = [
       completionDate: "SEP’ 2017",
       consultant: "M/s.RSP Design Consultants (India) Private   Limited"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/FOUNDATION ONE “SHREE”/F1-1-800x600.jpg",
+      "/project/residential/FOUNDATION ONE “SHREE”/F1-1.jpeg",
+      "/project/residential/FOUNDATION ONE “SHREE”/F1-1.png",
+      "/project/residential/FOUNDATION ONE “SHREE”/F1-2.jpeg",
+      "/project/residential/FOUNDATION ONE “SHREE”/shree-img-1.jpg",
+      "/project/residential/FOUNDATION ONE “SHREE”/shree-img-2.jpg",
+      "/project/residential/FOUNDATION ONE “SHREE”/shree-img-3.jpg",
+      "/project/residential/FOUNDATION ONE “SHREE”/shree-img-4.jpg",
+      "/project/residential/FOUNDATION ONE “SHREE”/shree-img-5.jpg",
+      "/project/residential/FOUNDATION ONE “SHREE”/shree-img-6.jpg"
+    ]
+  },  {
     slug: "ganpath-apartments-30",
     name: "GANPATH APARTMENTS",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/GANPATH APARTMENTS/ganpath-1.jpg",
     status: "Completed",
     description: "Construction of GANPATH APARTMENTS in COIMBATORE.",
     details: {
@@ -5535,14 +5169,15 @@ export const projectsList: Project[] = [
       completionDate: "AUG’ 2015",
       consultant: "M/s. Gowtham Architects,"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/GANPATH APARTMENTS/ganpath-1.jpg"
+    ]
+  },  {
     slug: "harihar-paradise-31",
     name: "HARIHAR PARADISE",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/HARIHAR PARADISE/harihar.jpg",
     status: "Completed",
     description: "Construction of HARIHAR PARADISE in COIMBATORE.",
     details: {
@@ -5553,14 +5188,18 @@ export const projectsList: Project[] = [
       completionDate: "FEB’2011",
       consultant: "M/s.Britto Ilango and Associates"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/HARIHAR PARADISE/harihar.jpg",
+      "/project/residential/HARIHAR PARADISE/web1DSCN5667.jpg",
+      "/project/residential/HARIHAR PARADISE/web2DSCN5674.jpg",
+      "/project/residential/HARIHAR PARADISE/web3SAM_1651.jpg"
+    ]
+  },  {
     slug: "icon-apartments-32",
     name: "ICON APARTMENTS",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/ICON APARTMENTS/IMG_2916-800x600.jpg",
     status: "Completed",
     description: "Construction of ICON APARTMENTS in COIMBATORE.",
     details: {
@@ -5571,14 +5210,27 @@ export const projectsList: Project[] = [
       completionDate: "MAY’ 2019",
       consultant: "M/s. Aparajithan,"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/ICON APARTMENTS/IMG_2916-800x600.jpg",
+      "/project/residential/ICON APARTMENTS/img-1-14.jpg",
+      "/project/residential/ICON APARTMENTS/img-10-5.jpg",
+      "/project/residential/ICON APARTMENTS/img-2-14.jpg",
+      "/project/residential/ICON APARTMENTS/img-3-13.jpg",
+      "/project/residential/ICON APARTMENTS/img-4-11.jpg",
+      "/project/residential/ICON APARTMENTS/img-5-11.jpg",
+      "/project/residential/ICON APARTMENTS/img-6-10.jpg",
+      "/project/residential/ICON APARTMENTS/img-7-8.jpg",
+      "/project/residential/ICON APARTMENTS/img-8-6.jpg",
+      "/project/residential/ICON APARTMENTS/img-9-5.jpg",
+      "/project/residential/ICON APARTMENTS/picture2-800x875.jpg",
+      "/project/residential/ICON APARTMENTS/picture3-800x831.jpg"
+    ]
+  },  {
     slug: "lakshmi-narayana-amalgamation-33",
     name: "LAKSHMI NARAYANA AMALGAMATION",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/LAKSHMI NARAYANA AMALGAMATION/10-800x1035.jpg",
     status: "Completed",
     description: "Construction of LAKSHMI NARAYANA AMALGAMATION in COIMBATORE.",
     details: {
@@ -5589,14 +5241,15 @@ export const projectsList: Project[] = [
       completionDate: "DEC’ 2017",
       consultant: "C.R. Narayana Rao Consultants Private Limited"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/LAKSHMI NARAYANA AMALGAMATION/10-800x1035.jpg"
+    ]
+  },  {
     slug: "m-s-nivasan-homes-pvt-ltd-nivasan-springs-1-34",
     name: "M/s. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/NHSpr-2-800x800.jpg",
     status: "Completed",
     description: "Construction of M/s. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1” in COIMBATORE.",
     details: {
@@ -5607,14 +5260,38 @@ export const projectsList: Project[] = [
       completionDate: "SEP' 2021",
       consultant: "M/s.. Vesta Architects"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/NHSpr-2-800x800.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/NHSpr-3-800x800.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/NHSpr-4-800x600 (1).jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/NHSpr-4-800x600.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/NHSpr-5-800x600.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/NHSpr-7-800x600.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/NHSprings-1.jpeg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/NHSprings-2-800x600.jpeg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/NHSprings-3-800x600.jpeg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/NHSprings-4-800x600.jpeg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/NS1-800x547.jpeg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/Spring-1-800x600.jpeg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/Springs-14-800x600.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/Springs-29-800x451.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/Springs-4-800x600.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/Springs-9-800x598.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/nsprings-1-800x544.jpeg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/nsprings-2-800x599.jpeg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/nsprings-4-800x541.jpeg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/nsprings-5-800x599.jpeg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/nsprings-6-800x599.jpeg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/nsprings-7-800x1069.jpeg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/nsprings-8-800x546.jpeg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “NIVASAN SPRINGS 1”/springs-800x395.jpg"
+    ]
+  },  {
     slug: "m-s-nivasan-homes-pvt-ltd-the-echo-point-aavaas-35",
     name: "M/s. NIVASAN HOMES PVT LTD “THE ECHO POINT –   AAVAAS",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/AAWAS1-800x600.jpeg",
     status: "Completed",
     description: "Construction of M/s. NIVASAN HOMES PVT LTD “THE ECHO POINT –   AAVAAS in COIMBATORE.",
     details: {
@@ -5625,14 +5302,45 @@ export const projectsList: Project[] = [
       completionDate: "DEC’2020",
       consultant: "M/s.. Vesta Architects"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/AAWAS1-800x600.jpeg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/AAWAS10-800x600.jpeg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/AAWAS3-800x600.jpeg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/AAWAS4-800x600.jpeg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/AAWAS5-800x600.jpeg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/AAWAS6-800x600.jpeg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/AAWAS7-800x600.jpeg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/AAWAS8-800x600.jpeg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/AAWAS9-800x600.jpeg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/DSC03451-800x534.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/DSC03463-800x534.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/DSC03470-800x534.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/DSC03475-800x534.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/E-14-800x1067.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/E-17-800x1067.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/E-21-800x1067.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/ECO-7-800x1067.jpeg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/Echo-aa-1-800x600.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/Echo-aa-2-800x600.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/NHEPP-1-800x450.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/NHEPP-2-800x450.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/NHEPP-3-800x450.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/echo-1.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/echo-8.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/echo-9-800x400.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/echo-point-img-4.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/echo-point-img-5.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/img-1-10.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/img-12.png",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/img-2-10.jpg",
+      "/project/residential/Ms. NIVASAN HOMES PVT LTD “THE ECHO POINT – AAVAAS/img-3-9-e1591169624253.jpg"
+    ]
+  },  {
     slug: "m-s-s-p-foundation-pvt-ltd-essense-apartments-36",
     name: "M/s. S&P FOUNDATION PVT LTD “ESSENSE   APARTMENTS”",
     category: "Residential",
     location: "CHENNAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/Ms. S&P FOUNDATION PVT LTD “ESSENSE APARTMENTS”/E-1-800x600.jpg",
     status: "Completed",
     description: "Construction of M/s. S&P FOUNDATION PVT LTD “ESSENSE   APARTMENTS” in CHENNAI.",
     details: {
@@ -5643,14 +5351,26 @@ export const projectsList: Project[] = [
       completionDate: "FEB’ 2018",
       consultant: "M/s. Semac Consultant Pvt Ltd"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/Ms. S&P FOUNDATION PVT LTD “ESSENSE APARTMENTS”/E-1-800x600.jpg",
+      "/project/residential/Ms. S&P FOUNDATION PVT LTD “ESSENSE APARTMENTS”/E-11.jpg",
+      "/project/residential/Ms. S&P FOUNDATION PVT LTD “ESSENSE APARTMENTS”/E-12.jpg",
+      "/project/residential/Ms. S&P FOUNDATION PVT LTD “ESSENSE APARTMENTS”/E-13.jpg",
+      "/project/residential/Ms. S&P FOUNDATION PVT LTD “ESSENSE APARTMENTS”/E-14-800x460.jpg",
+      "/project/residential/Ms. S&P FOUNDATION PVT LTD “ESSENSE APARTMENTS”/E-2-800x600.jpg",
+      "/project/residential/Ms. S&P FOUNDATION PVT LTD “ESSENSE APARTMENTS”/E-3-800x600.jpg",
+      "/project/residential/Ms. S&P FOUNDATION PVT LTD “ESSENSE APARTMENTS”/E-4-800x600.jpg",
+      "/project/residential/Ms. S&P FOUNDATION PVT LTD “ESSENSE APARTMENTS”/E-5-800x600.jpg",
+      "/project/residential/Ms. S&P FOUNDATION PVT LTD “ESSENSE APARTMENTS”/E-7-800x450.jpg",
+      "/project/residential/Ms. S&P FOUNDATION PVT LTD “ESSENSE APARTMENTS”/E-8-800x450.jpg",
+      "/project/residential/Ms. S&P FOUNDATION PVT LTD “ESSENSE APARTMENTS”/E-9-800x446.jpg"
+    ]
+  },  {
     slug: "m-s-s-s-foundations-pavilion-37",
     name: "M/s. S & S FOUNDATIONS – PAVILION",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/Ms. S & S FOUNDATIONS – PAVILION/1-7.jpg",
     status: "Completed",
     description: "Construction of M/s. S & S FOUNDATIONS – PAVILION in COIMBATORE.",
     details: {
@@ -5661,14 +5381,18 @@ export const projectsList: Project[] = [
       completionDate: "FEB’ 2017",
       consultant: "M/s. Nataraj & Venkat Associates"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/Ms. S & S FOUNDATIONS – PAVILION/1-7.jpg",
+      "/project/residential/Ms. S & S FOUNDATIONS – PAVILION/ss-pavilion-1-800x584.jpg",
+      "/project/residential/Ms. S & S FOUNDATIONS – PAVILION/ss-pavilion-2-800x567.jpg",
+      "/project/residential/Ms. S & S FOUNDATIONS – PAVILION/ss.jpg"
+    ]
+  },  {
     slug: "m-s-s-s-foundations-ishan-apartments-38",
     name: "M/s. S&S FOUNDATIONS - “ISHAN APARTMENTS”",
     category: "Residential",
     location: "CHENNAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/Ms. S&S FOUNDATIONS - “ISHAN APARTMENTS”/DSC_7610.jpg",
     status: "Completed",
     description: "Construction of M/s. S&S FOUNDATIONS - “ISHAN APARTMENTS” in CHENNAI.",
     details: {
@@ -5679,14 +5403,20 @@ export const projectsList: Project[] = [
       completionDate: "DEC’ 2014",
       consultant: "M/s. Sanjith & Vivek Architects"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/Ms. S&S FOUNDATIONS - “ISHAN APARTMENTS”/DSC_7610.jpg",
+      "/project/residential/Ms. S&S FOUNDATIONS - “ISHAN APARTMENTS”/Ishan-1-1.jpg",
+      "/project/residential/Ms. S&S FOUNDATIONS - “ISHAN APARTMENTS”/Ishan-1-800x562.jpg",
+      "/project/residential/Ms. S&S FOUNDATIONS - “ISHAN APARTMENTS”/Ishan-2-800x597.jpg",
+      "/project/residential/Ms. S&S FOUNDATIONS - “ISHAN APARTMENTS”/Ishan-3.jpg",
+      "/project/residential/Ms. S&S FOUNDATIONS - “ISHAN APARTMENTS”/Ishan-4.jpg"
+    ]
+  },  {
     slug: "meadows-apartments-39",
     name: "MEADOWS APARTMENTS",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/MEADOWS APARTMENTS/Meadows-1-800x600.jpg",
     status: "Completed",
     description: "Construction of MEADOWS APARTMENTS in COIMBATORE.",
     details: {
@@ -5697,14 +5427,28 @@ export const projectsList: Project[] = [
       completionDate: "JUN’ 2011",
       consultant: "M/s. Jeyakumar Associates"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/MEADOWS APARTMENTS/Meadows-1-800x600.jpg",
+      "/project/residential/MEADOWS APARTMENTS/Meadows-10-800x600.jpg",
+      "/project/residential/MEADOWS APARTMENTS/Meadows-11-800x600.jpg",
+      "/project/residential/MEADOWS APARTMENTS/Meadows-12-800x600.jpg",
+      "/project/residential/MEADOWS APARTMENTS/Meadows-2-800x600.jpg",
+      "/project/residential/MEADOWS APARTMENTS/Meadows-3.jpg",
+      "/project/residential/MEADOWS APARTMENTS/Meadows-4-800x600.jpg",
+      "/project/residential/MEADOWS APARTMENTS/Meadows-5-800x600.jpg",
+      "/project/residential/MEADOWS APARTMENTS/Meadows-6-800x600.jpg",
+      "/project/residential/MEADOWS APARTMENTS/Meadows-7-800x600.jpg",
+      "/project/residential/MEADOWS APARTMENTS/Meadows-8-800x818.jpg",
+      "/project/residential/MEADOWS APARTMENTS/Meadows-9-800x405.jpg",
+      "/project/residential/MEADOWS APARTMENTS/Medow-800x450.jpeg",
+      "/project/residential/MEADOWS APARTMENTS/meadows-800x600.jpg"
+    ]
+  },  {
     slug: "new-megala-hostel-at-psg-college-of-arts-and-science-40",
     name: "NEW MEGALA HOSTEL AT      PSG COLLEGE OF ARTS AND SCIENCE",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/NEW MEGALA HOSTEL AT PSG COLLEGE OF ARTS AND SCIENCE/CASH-1.jpg",
     status: "Completed",
     description: "Construction of NEW MEGALA HOSTEL AT      PSG COLLEGE OF ARTS AND SCIENCE in COIMBATORE.",
     details: {
@@ -5715,14 +5459,21 @@ export const projectsList: Project[] = [
       completionDate: "FEB'2021",
       consultant: "M/s. Mithran Structures (P) Ltd."
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/NEW MEGALA HOSTEL AT PSG COLLEGE OF ARTS AND SCIENCE/CASH-1.jpg",
+      "/project/residential/NEW MEGALA HOSTEL AT PSG COLLEGE OF ARTS AND SCIENCE/CASH-2.jpg",
+      "/project/residential/NEW MEGALA HOSTEL AT PSG COLLEGE OF ARTS AND SCIENCE/CASH-3.jpg",
+      "/project/residential/NEW MEGALA HOSTEL AT PSG COLLEGE OF ARTS AND SCIENCE/PSGMH-1.jpg",
+      "/project/residential/NEW MEGALA HOSTEL AT PSG COLLEGE OF ARTS AND SCIENCE/PSGMH-4.jpg",
+      "/project/residential/NEW MEGALA HOSTEL AT PSG COLLEGE OF ARTS AND SCIENCE/PSGMH-6.jpg",
+      "/project/residential/NEW MEGALA HOSTEL AT PSG COLLEGE OF ARTS AND SCIENCE/PSGMH-7-800x369.jpg"
+    ]
+  },  {
     slug: "nivasan-meenakshi-vishranth-41",
     name: "NIVASAN-MEENAKSHI VISHRANTH",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/NIVASAN-MEENAKSHI VISHRANTH/meenakshi-vishranth-1.jpg",
     status: "Completed",
     description: "Construction of NIVASAN-MEENAKSHI VISHRANTH in COIMBATORE.",
     details: {
@@ -5733,14 +5484,16 @@ export const projectsList: Project[] = [
       completionDate: "AUG’ 2016",
       consultant: "M/s. Jeyakumar Associates,"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/NIVASAN-MEENAKSHI VISHRANTH/meenakshi-vishranth-1.jpg",
+      "/project/residential/NIVASAN-MEENAKSHI VISHRANTH/meenakshi-vishranth-2.jpg"
+    ]
+  },  {
     slug: "nivasan-nivasana-apartment-42",
     name: "NIVASAN-NIVASANA APARTMENT",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/NIVASAN-NIVASANA APARTMENT/nivasana.jpg",
     status: "Completed",
     description: "Construction of NIVASAN-NIVASANA APARTMENT in COIMBATORE.",
     details: {
@@ -5751,14 +5504,15 @@ export const projectsList: Project[] = [
       completionDate: "JUN’ 2016",
       consultant: "M/s. Jeyakumar Associates"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/NIVASAN-NIVASANA APARTMENT/nivasana.jpg"
+    ]
+  },  {
     slug: "nivasan-udhyana-43",
     name: "NIVASAN UDHYANA",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/NIVASAN UDHYANA/1.jpg",
     status: "Completed",
     description: "Construction of NIVASAN UDHYANA in COIMBATORE.",
     details: {
@@ -5769,14 +5523,30 @@ export const projectsList: Project[] = [
       completionDate: "JAN' 2025",
       consultant: "M/s.. Senscape Architects Pvt Ltd,"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/NIVASAN UDHYANA/1.jpg",
+      "/project/residential/NIVASAN UDHYANA/2-800x444.jpg",
+      "/project/residential/NIVASAN UDHYANA/5.jpg",
+      "/project/residential/NIVASAN UDHYANA/6.jpg",
+      "/project/residential/NIVASAN UDHYANA/U1.jpg",
+      "/project/residential/NIVASAN UDHYANA/U2.jpg",
+      "/project/residential/NIVASAN UDHYANA/U3.jpg",
+      "/project/residential/NIVASAN UDHYANA/U4.jpg",
+      "/project/residential/NIVASAN UDHYANA/U5.jpg",
+      "/project/residential/NIVASAN UDHYANA/U6.jpg",
+      "/project/residential/NIVASAN UDHYANA/U8.jpg",
+      "/project/residential/NIVASAN UDHYANA/U9.jpg",
+      "/project/residential/NIVASAN UDHYANA/UDHYANA1-800x474.jpg",
+      "/project/residential/NIVASAN UDHYANA/UDHYANA2-800x469.jpg",
+      "/project/residential/NIVASAN UDHYANA/UDHYANA3-800x498.jpg",
+      "/project/residential/NIVASAN UDHYANA/slide-2-800x395.jpg"
+    ]
+  },  {
     slug: "nivasan-viveka-enclave-44",
     name: "NIVASAN-VIVEKA ENCLAVE",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/NIVASAN-VIVEKA ENCLAVE/V-1-800x1067.jpeg",
     status: "Completed",
     description: "Construction of NIVASAN-VIVEKA ENCLAVE in COIMBATORE.",
     details: {
@@ -5787,14 +5557,35 @@ export const projectsList: Project[] = [
       completionDate: "MAR’ 2017",
       consultant: "M/s. Sundar Sundaram Architects,"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/V-1-800x1067.jpeg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/V-2.jpeg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/V-3-800x531.jpeg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/V-4-800x531.jpeg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/V-5.jpeg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/Viveka-1-1-800x534.jpg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/Viveka-10-800x531.jpg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/Viveka-11-800x531.jpg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/Viveka-13-800x534.jpg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/Viveka-14-800x529.jpg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/Viveka-2-1-800x588.jpg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/Viveka-3-1-800x534.jpg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/Viveka-5-1-800x534.jpg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/Viveka-6-1-800x436.jpg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/Viveka-9-800x531.jpg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/viveka-1.jpg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/viveka-2.jpg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/viveka-3.jpg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/viveka-4.jpg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/viveka-5.jpg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/viveka-6.jpg"
+    ]
+  },  {
     slug: "pacifica-aurum-villas-45",
     name: "PACIFICA AURUM VILLAS",
     category: "Residential",
     location: "CHENNAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/PACIFICA AURUM VILLAS/pacifica-1-800x552.jpg",
     status: "Completed",
     description: "Construction of PACIFICA AURUM VILLAS in CHENNAI.",
     details: {
@@ -5805,14 +5596,20 @@ export const projectsList: Project[] = [
       completionDate: "Nov’ 2014",
       consultant: "M/s.Pacifica Chennai Project Infrastructure CO   pvt Ltd.,"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/PACIFICA AURUM VILLAS/pacifica-1-800x552.jpg",
+      "/project/residential/PACIFICA AURUM VILLAS/pacifica-2-800x450.jpg",
+      "/project/residential/PACIFICA AURUM VILLAS/pacifica-3-800x446.jpg",
+      "/project/residential/PACIFICA AURUM VILLAS/pacifica-4.jpg",
+      "/project/residential/PACIFICA AURUM VILLAS/pacifica-5-800x600.jpg",
+      "/project/residential/PACIFICA AURUM VILLAS/pacifica.jpg"
+    ]
+  },  {
     slug: "parsn-antara-46",
     name: "PARSN ANTARA",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/PARSN ANTARA/Antra-1-800x600.jpg",
     status: "Completed",
     description: "Construction of PARSN ANTARA in COIMBATORE.",
     details: {
@@ -5823,14 +5620,24 @@ export const projectsList: Project[] = [
       completionDate: "OCT’2009",
       consultant: "M/s.Rajeev Shah Associates"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/PARSN ANTARA/Antra-1-800x600.jpg",
+      "/project/residential/PARSN ANTARA/Antra-2-800x465.jpg",
+      "/project/residential/PARSN ANTARA/Antra-3-800x600.jpg",
+      "/project/residential/PARSN ANTARA/Antra-4-800x535.jpg",
+      "/project/residential/PARSN ANTARA/Antra-5-800x535.jpg",
+      "/project/residential/PARSN ANTARA/Antra-6-800x535.jpg",
+      "/project/residential/PARSN ANTARA/Antra-7-rotated.jpg",
+      "/project/residential/PARSN ANTARA/Antra-8-rotated.jpg",
+      "/project/residential/PARSN ANTARA/Antra-9-800x535.jpg",
+      "/project/residential/PARSN ANTARA/PARSN-ANTARA-800x402.jpg"
+    ]
+  },  {
     slug: "parsn-keystone-47",
     name: "PARSN KEYSTONE",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/PARSN KEYSTONE/APRSN-KEYSTONE-800x531.jpg",
     status: "Completed",
     description: "Construction of PARSN KEYSTONE in COIMBATORE.",
     details: {
@@ -5841,14 +5648,23 @@ export const projectsList: Project[] = [
       completionDate: "OCT’2009",
       consultant: "M/s.Rajeev Shah Associates,"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/PARSN KEYSTONE/APRSN-KEYSTONE-800x531.jpg",
+      "/project/residential/PARSN KEYSTONE/KEYSTONE-1-800x531.jpg",
+      "/project/residential/PARSN KEYSTONE/KEYSTONE-2-800x531.jpg",
+      "/project/residential/PARSN KEYSTONE/KEYSTONE-3-800x600.jpg",
+      "/project/residential/PARSN KEYSTONE/KEYSTONE-4-800x600.jpg",
+      "/project/residential/PARSN KEYSTONE/KEYSTONE-5-800x535.jpg",
+      "/project/residential/PARSN KEYSTONE/KEYSTONE-6-800x535.jpg",
+      "/project/residential/PARSN KEYSTONE/KEYSTONE-7-800x535.jpg",
+      "/project/residential/PARSN KEYSTONE/KEYSTONE-8-800x535.jpg"
+    ]
+  },  {
     slug: "pricol-holdings-ltd-48",
     name: "PRICOL HOLDINGS LTD",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/PRICOL HOLDINGS LTD/img-1-27.jpg",
     status: "Completed",
     description: "Construction of PRICOL HOLDINGS LTD in COIMBATORE.",
     details: {
@@ -5859,14 +5675,21 @@ export const projectsList: Project[] = [
       completionDate: "MAR' 2021",
       consultant: "M/s. Mhetras Design,"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/PRICOL HOLDINGS LTD/img-1-27.jpg",
+      "/project/residential/PRICOL HOLDINGS LTD/img-2-27.jpg",
+      "/project/residential/PRICOL HOLDINGS LTD/img-3-25-800x379.jpg",
+      "/project/residential/PRICOL HOLDINGS LTD/img-3-26.jpg",
+      "/project/residential/PRICOL HOLDINGS LTD/img-4-23-800x1067.jpg",
+      "/project/residential/PRICOL HOLDINGS LTD/img-5-22-800x1067.jpg",
+      "/project/residential/PRICOL HOLDINGS LTD/img-6-18-800x1067.jpg"
+    ]
+  },  {
     slug: "prime-enclave-49",
     name: "PRIME ENCLAVE",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/PRIME ENCLAVE/PRIME-1-600x399.jpg",
     status: "Completed",
     description: "Construction of PRIME ENCLAVE in COIMBATORE.",
     details: {
@@ -5877,9 +5700,25 @@ export const projectsList: Project[] = [
       completionDate: "MAR’ 2008",
       consultant: "M/S. Sankar & Associates,"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/PRIME ENCLAVE/PRIME-1-600x399.jpg",
+      "/project/residential/PRIME ENCLAVE/PRIME-10-600x399.jpg",
+      "/project/residential/PRIME ENCLAVE/PRIME-11-600x399.jpg",
+      "/project/residential/PRIME ENCLAVE/PRIME-12-600x800.jpg",
+      "/project/residential/PRIME ENCLAVE/PRIME-14-600x450.jpg",
+      "/project/residential/PRIME ENCLAVE/PRIME-15-600x800.jpg",
+      "/project/residential/PRIME ENCLAVE/PRIME-16-600x800.jpg",
+      "/project/residential/PRIME ENCLAVE/PRIME-17-600x800.jpg",
+      "/project/residential/PRIME ENCLAVE/PRIME-18-600x800.jpg",
+      "/project/residential/PRIME ENCLAVE/PRIME-19-600x450.jpg",
+      "/project/residential/PRIME ENCLAVE/PRIME-2-600x399.jpg",
+      "/project/residential/PRIME ENCLAVE/PRIME-3-600x399.jpg",
+      "/project/residential/PRIME ENCLAVE/PRIME-4-600x399.jpg",
+      "/project/residential/PRIME ENCLAVE/PRIME-5-600x399.jpg",
+      "/project/residential/PRIME ENCLAVE/PRIME-6-600x399.jpg",
+      "/project/residential/PRIME ENCLAVE/PRIME-7-600x399.jpg"
+    ]
+  },  {
     slug: "proposed-construiction-of-individual-villa-50",
     name: "Proposed Construiction of Individual Villa",
     category: "Residential",
@@ -5896,8 +5735,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Vesta Architect, 252, Avinashi road,   Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "proposed-working-women-hostel-51",
     name: "Proposed WORKING WOMEN HOSTEL",
     category: "Residential",
@@ -5914,13 +5752,12 @@ export const projectsList: Project[] = [
       consultant: "M/s. Mithran Structures (P) Ltd., Dr. L.S   Jayagopal. No:1, Jawahar nagar, S.A.H.S (POST) Coimbatore - 641 043"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "saradha-greens-52",
     name: "SARADHA GREENS –",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/SARADHA GREENS –/NHSG1-800x369.jpg",
     status: "Completed",
     description: "Construction of SARADHA GREENS – in COIMBATORE.",
     details: {
@@ -5931,14 +5768,30 @@ export const projectsList: Project[] = [
       completionDate: "Oct’ 2020",
       consultant: "M/s. ARUN & ASSOCIATES,"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/SARADHA GREENS –/NHSG1-800x369.jpg",
+      "/project/residential/SARADHA GREENS –/NHSG3-800x474.jpg",
+      "/project/residential/SARADHA GREENS –/NHSG4.jpg",
+      "/project/residential/SARADHA GREENS –/NHSG5-800x542.jpg",
+      "/project/residential/SARADHA GREENS –/NHSG6.jpg",
+      "/project/residential/SARADHA GREENS –/NHSG7-800x600.jpg",
+      "/project/residential/SARADHA GREENS –/NSG-800x450.jpeg",
+      "/project/residential/SARADHA GREENS –/SG-10-800x534.jpg",
+      "/project/residential/SARADHA GREENS –/SG-2-800x600.jpeg",
+      "/project/residential/SARADHA GREENS –/SG-6-800x534.jpg",
+      "/project/residential/SARADHA GREENS –/SG-7-800x534.jpg",
+      "/project/residential/SARADHA GREENS –/SG-8-800x534.jpg",
+      "/project/residential/SARADHA GREENS –/SG-9-800x534.jpg",
+      "/project/residential/SARADHA GREENS –/slide-1-800x395.jpg",
+      "/project/residential/SARADHA GREENS –/slide-2-800x395.jpg",
+      "/project/residential/SARADHA GREENS –/slide-3-800x395.jpg"
+    ]
+  },  {
     slug: "sindhoor-pushpavanam-53",
     name: "SINDHOOR PUSHPAVANAM",
     category: "Residential",
     location: "CHENNAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/SINDHOOR PUSHPAVANAM/10-1-800x803.jpg",
     status: "Completed",
     description: "Construction of SINDHOOR PUSHPAVANAM in CHENNAI.",
     details: {
@@ -5949,14 +5802,19 @@ export const projectsList: Project[] = [
       completionDate: "SEP’2019",
       consultant: "M/s. Anbu & Faizal"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/SINDHOOR PUSHPAVANAM/10-1-800x803.jpg",
+      "/project/residential/SINDHOOR PUSHPAVANAM/img-1-30.jpg",
+      "/project/residential/SINDHOOR PUSHPAVANAM/img-2-30.jpg",
+      "/project/residential/SINDHOOR PUSHPAVANAM/img-3-29.jpg",
+      "/project/residential/SINDHOOR PUSHPAVANAM/img-4-26.jpg"
+    ]
+  },  {
     slug: "sindur-pristine-54",
     name: "SINDUR PRISTINE",
     category: "Residential",
     location: "CHENNAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/SINDUR PRISTINE/1-800x600.jpg",
     status: "Completed",
     description: "Construction of SINDUR PRISTINE in CHENNAI.",
     details: {
@@ -5967,14 +5825,34 @@ export const projectsList: Project[] = [
       completionDate: "Oct’ 2020",
       consultant: "M/s. Anbu & Faizal"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/SINDUR PRISTINE/1-800x600.jpg",
+      "/project/residential/SINDUR PRISTINE/4-1-800x316.jpg",
+      "/project/residential/SINDUR PRISTINE/5-1-800x450.jpg",
+      "/project/residential/SINDUR PRISTINE/Pristine-1-800x1067.jpg",
+      "/project/residential/SINDUR PRISTINE/Pristine-1-800x600.jpg",
+      "/project/residential/SINDUR PRISTINE/Pristine-12-800x1067.jpg",
+      "/project/residential/SINDUR PRISTINE/Pristine-14-800x1067.jpg",
+      "/project/residential/SINDUR PRISTINE/Pristine-15-800x600.jpg",
+      "/project/residential/SINDUR PRISTINE/Pristine-3-800x600.jpg",
+      "/project/residential/SINDUR PRISTINE/Pristine-4-800x368.jpg",
+      "/project/residential/SINDUR PRISTINE/Pristine-4-800x600.jpg",
+      "/project/residential/SINDUR PRISTINE/Pristine-5-1-800x600.jpg",
+      "/project/residential/SINDUR PRISTINE/Pristine-6-800x1067.jpg",
+      "/project/residential/SINDUR PRISTINE/Pristine-7-800x600.jpg",
+      "/project/residential/SINDUR PRISTINE/Pristine-8-800x600 (1).jpg",
+      "/project/residential/SINDUR PRISTINE/Pristine-8-800x600.jpg",
+      "/project/residential/SINDUR PRISTINE/Pristine2.jpg",
+      "/project/residential/SINDUR PRISTINE/banner-pristine-800x365.jpg",
+      "/project/residential/SINDUR PRISTINE/sp-1-800x600.jpeg",
+      "/project/residential/SINDUR PRISTINE/sp-2-800x1067.jpeg"
+    ]
+  },  {
     slug: "solitaire-apartments-55",
     name: "SOLITAIRE APARTMENTS",
     category: "Residential",
     location: "CHENNAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/SOLITAIRE APARTMENTS/solitaire.jpg",
     status: "Completed",
     description: "Construction of SOLITAIRE APARTMENTS in CHENNAI.",
     details: {
@@ -5985,14 +5863,15 @@ export const projectsList: Project[] = [
       completionDate: "DEC’ 2014",
       consultant: "M/s. Chettinad Design"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/SOLITAIRE APARTMENTS/solitaire.jpg"
+    ]
+  },  {
     slug: "soma-apartments-56",
     name: "SOMA APARTMENTS",
     category: "Residential",
     location: "CHENNAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/SOMA APARTMENTS/soma-1.jpg",
     status: "Completed",
     description: "Construction of SOMA APARTMENTS in CHENNAI.",
     details: {
@@ -6003,14 +5882,15 @@ export const projectsList: Project[] = [
       completionDate: "2015-08-01",
       consultant: "M/s.C.Subba Rao Associates"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/SOMA APARTMENTS/soma-1.jpg"
+    ]
+  },  {
     slug: "srivari-anikait-57",
     name: "SRIVARI ANIKAIT",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/SRIVARI ANIKAIT/Pic-4.jpg",
     status: "Completed",
     description: "Construction of SRIVARI ANIKAIT in COIMBATORE.",
     details: {
@@ -6021,14 +5901,16 @@ export const projectsList: Project[] = [
       completionDate: "JUN’ 2009",
       consultant: "M/s. Edifice"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/SRIVARI ANIKAIT/Pic-4.jpg",
+      "/project/residential/SRIVARI ANIKAIT/Pic-5.jpg"
+    ]
+  },  {
     slug: "srivari-pranav-58",
     name: "SRIVARI PRANAV",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/SRIVARI PRANAV/32-800x600.jpg",
     status: "Completed",
     description: "Construction of SRIVARI PRANAV in COIMBATORE.",
     details: {
@@ -6039,14 +5921,18 @@ export const projectsList: Project[] = [
       completionDate: "JUN’ 2009",
       consultant: "M/s. Edifice,"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/SRIVARI PRANAV/32-800x600.jpg",
+      "/project/residential/SRIVARI PRANAV/35-800x600.jpg",
+      "/project/residential/SRIVARI PRANAV/DSC_0170-SRIVARI-PRANAV-800x531.jpg",
+      "/project/residential/SRIVARI PRANAV/DSC_0171-SRIVARI-PRANAV-800x531.jpg"
+    ]
+  },  {
     slug: "srivari-prathisht-59",
     name: "SRIVARI PRATHISHT",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/SRIVARI PRATHISHT/1-1-800x532.jpg",
     status: "Completed",
     description: "Construction of SRIVARI PRATHISHT in COIMBATORE.",
     details: {
@@ -6057,14 +5943,27 @@ export const projectsList: Project[] = [
       completionDate: "JUN’ 2009",
       consultant: "M/s. Edifice, Pramod Balakrishnan"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/SRIVARI PRATHISHT/1-1-800x532.jpg",
+      "/project/residential/SRIVARI PRATHISHT/1-2-800x532.jpg",
+      "/project/residential/SRIVARI PRATHISHT/1-3-800x600.jpg",
+      "/project/residential/SRIVARI PRATHISHT/1-4-800x600.jpg",
+      "/project/residential/SRIVARI PRATHISHT/1-5-800x600.jpg",
+      "/project/residential/SRIVARI PRATHISHT/1-6-800x600.jpg",
+      "/project/residential/SRIVARI PRATHISHT/21-800x600.jpg",
+      "/project/residential/SRIVARI PRATHISHT/36-800x600.jpg",
+      "/project/residential/SRIVARI PRATHISHT/37-800x600.jpg",
+      "/project/residential/SRIVARI PRATHISHT/DSC_0164-SRIVARI-PRATHISHT-800x531.jpg",
+      "/project/residential/SRIVARI PRATHISHT/DSC_0168-SRIVARI-PRATHISHT-800x531.jpg",
+      "/project/residential/SRIVARI PRATHISHT/Pic-2-800x531.jpg",
+      "/project/residential/SRIVARI PRATHISHT/Pic-3-800x531.jpg"
+    ]
+  },  {
     slug: "suktha-nakshatra-60",
     name: "SUKTHA NAKSHATRA",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/SUKTHA NAKSHATRA/10-800x236.jpg",
     status: "Completed",
     description: "Construction of SUKTHA NAKSHATRA in COIMBATORE.",
     details: {
@@ -6075,14 +5974,23 @@ export const projectsList: Project[] = [
       completionDate: "AUG’ 2011",
       consultant: "M/S. Sankar & Associates"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/SUKTHA NAKSHATRA/10-800x236.jpg",
+      "/project/residential/SUKTHA NAKSHATRA/DSC_1737-800x531.jpg",
+      "/project/residential/SUKTHA NAKSHATRA/DSC_1738-800x531.jpg",
+      "/project/residential/SUKTHA NAKSHATRA/DSC_1740-2-800x531 (1).jpg",
+      "/project/residential/SUKTHA NAKSHATRA/DSC_1740-2-800x531.jpg",
+      "/project/residential/SUKTHA NAKSHATRA/DSC_1742-2-800x531.jpg",
+      "/project/residential/SUKTHA NAKSHATRA/DSC_1746-rotated.jpg",
+      "/project/residential/SUKTHA NAKSHATRA/DSC_1747-2-800x531.jpg",
+      "/project/residential/SUKTHA NAKSHATRA/sukthaveda-800x531.jpg"
+    ]
+  },  {
     slug: "tvh-ekanta-61",
     name: "TVH EKANTA",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/TVH EKANTA/TVH-1-800x436.jpg",
     status: "Completed",
     description: "Construction of TVH EKANTA in COIMBATORE.",
     details: {
@@ -6093,14 +6001,22 @@ export const projectsList: Project[] = [
       completionDate: "JUL’2009",
       consultant: "M/s. Keerthi Shah Associates"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/TVH EKANTA/TVH-1-800x436.jpg",
+      "/project/residential/TVH EKANTA/TVH-2-800x600.jpg",
+      "/project/residential/TVH EKANTA/TVH-3-800x531.jpg",
+      "/project/residential/TVH EKANTA/TVH-4-800x535.jpg",
+      "/project/residential/TVH EKANTA/TVH-5-800x535.jpg",
+      "/project/residential/TVH EKANTA/TVH-6-800x535.jpg",
+      "/project/residential/TVH EKANTA/TVH-7-800x531.jpg",
+      "/project/residential/TVH EKANTA/TVH-EKANTA-800x531.jpg"
+    ]
+  },  {
     slug: "tvs-emerald-light-house-62",
     name: "TVS EMERALD – LIGHT HOUSE",
     category: "Residential",
     location: "CHENNAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/TVS EMERALD – LIGHT HOUSE/DSC_5597-800x534.jpg",
     status: "Completed",
     description: "Construction of TVS EMERALD – LIGHT HOUSE in CHENNAI.",
     details: {
@@ -6111,14 +6027,34 @@ export const projectsList: Project[] = [
       completionDate: "FEB '2022",
       consultant: "R. Chakrapani & Sons"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/DSC_5597-800x534.jpg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/DSC_5599-800x534.jpg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/DSC_5601-800x534.jpg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/TVS-1-800x600.jpg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/TVS-5-800x369.jpeg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/TVS-7-800x369.jpeg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/TVS-8-800x369.jpeg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/TVSE-3-800x600.jpeg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/TVSE-6-800x600.jpeg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/TVSE-7-800x600.jpeg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/TVSE-8-800x600.jpeg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/TVSELH-10-800x452.jpeg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/TVSELH-2.jpeg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/TVSELH-3-800x452.jpeg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/img-1-17.jpg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/img-4-14.jpg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/img-5-14.jpg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/img-6-13.jpg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/img-8-8-800x389.jpg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/tvs-emerald-lighthouse-pallavaram-chennai-tvs-emerald.jpg"
+    ]
+  },  {
     slug: "white-house-sri-hari-63",
     name: "WHITE HOUSE – SRI HARI",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/WHITE HOUSE – SRI HARI/DSC_0229-WHITEHOUSE.jpg",
     status: "Completed",
     description: "Construction of WHITE HOUSE – SRI HARI in COIMBATORE.",
     details: {
@@ -6129,9 +6065,11 @@ export const projectsList: Project[] = [
       completionDate: "AUG’ 2009",
       consultant: "M/S. Sankar & Associates"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/WHITE HOUSE – SRI HARI/DSC_0229-WHITEHOUSE.jpg",
+      "/project/residential/WHITE HOUSE – SRI HARI/Pic-2-1.jpg"
+    ]
+  },  {
     slug: "all-civil-works-roads-and-culverts-water-and-sewer-works-including-treatment-tanks-and-structures-landscape-works-and-all-other-auxiliary-works-housing-hostel-block-at-madurai-for-m-s-aravind-eye-hospital-64",
     name: "All Civil Works, Roads And Culverts,Water And   Sewer Works Including Treatment Tanks And Structures, Landscape Works And All   Other Auxiliary Works - Housing & Hostel Block At Madurai For M/S.   Aravind Eye Hospital",
     category: "Residential",
@@ -6148,8 +6086,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Design Collaborative Private Limited,   Pondicherry"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "civil-external-development-plumbing-peb-works-for-the-proposed-construction-of-warehouse-at-schneider-electric-india-private-limited-coimbatore-campus-65",
     name: "Civil, External Development ,Plumbing & PEB   Works for the Proposed Construction of Warehouse at Schneider Electric India   Private Limited, Coimbatore Campus -",
     category: "Residential",
@@ -6166,8 +6103,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Kailash Consultants, Salem"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-ashram-66",
     name: "Construction of Ashram",
     category: "Residential",
@@ -6184,8 +6120,7 @@ export const projectsList: Project[] = [
       consultant: "K2LD Architects & Interior Designer,   Singapore"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-compound-wall-67",
     name: "Construction of Compound wall",
     category: "Residential",
@@ -6199,8 +6134,7 @@ export const projectsList: Project[] = [
       consultant: "Client Engineer"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-external-development-around-new-boys-hostel-68",
     name: "Construction of External Development around New   Boys Hostel",
     category: "Residential",
@@ -6215,8 +6149,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. PTK Project Consultants LLP, 19/1, Haddows   Road, Chennai - 600 006"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-ganga-hostel-for-m-s-psg-college-of-arts-science-coimbatore-69",
     name: "Construction of Ganga Hostel for M/s. PSG   College of Arts & Science, Coimbatore.",
     category: "Residential",
@@ -6233,8 +6166,7 @@ export const projectsList: Project[] = [
       consultant: "M/s. Mithran Structures Pvt Ltd, Coimbatore"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-maharaja-bungalow-at-palayamkottai-tirunelveli-for-m-s-tvs-holdings-ltd-70",
     name: "Construction of Maharaja Bungalow at   Palayamkottai, Tirunelveli for M/s. TVS Holdings Ltd",
     category: "Residential",
@@ -6251,8 +6183,7 @@ export const projectsList: Project[] = [
       consultant: "Metras Design , 4, 1st Floor, 3rd Avenue,   Harington Road, Chetpet, Chennai 31"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "construction-of-residential-apartment-revantha-skyden-at-kongu-nagar-kalapatti-for-m-s-revantha-services-private-limited-71",
     name: "Construction of Residential Apartment   \"Revantha Skyden\" at Kongu Nagar, Kalapatti for M/s. Revantha   Services Private Limited",
     category: "Residential",
@@ -6269,13 +6200,12 @@ export const projectsList: Project[] = [
       consultant: "Interface Architecture, Coimbatore"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "mr-c-s-siddharth-72",
     name: "Mr.C.S.SIDDHARTH",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/Mr.C.S.SIDDHARTH/Siddarth1-800x431.jpg",
     status: "Ongoing",
     description: "Construction of Mr.C.S.SIDDHARTH in COIMBATORE.",
     details: {
@@ -6286,14 +6216,18 @@ export const projectsList: Project[] = [
       completionDate: "JULY' 2027",
       consultant: "Mrs. Bharathi Sengottuvel"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/Mr.C.S.SIDDHARTH/Siddarth1-800x431.jpg",
+      "/project/residential/Mr.C.S.SIDDHARTH/Siddarth2-800x396.jpg",
+      "/project/residential/Mr.C.S.SIDDHARTH/Siddarth3-800x446.jpg",
+      "/project/residential/Mr.C.S.SIDDHARTH/Siddarth4-800x397.jpg"
+    ]
+  },  {
     slug: "mrs-kanagarathinam-73",
     name: "MRS KANAGARATHINAM",
     category: "Residential",
     location: "PALANI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/MRS KANAGARATHINAM/Kanagarathinam1-800x398.jpg",
     status: "Ongoing",
     description: "Construction of MRS KANAGARATHINAM in PALANI.",
     details: {
@@ -6304,14 +6238,16 @@ export const projectsList: Project[] = [
       completionDate: "OCT' 2026",
       consultant: "M/s. SANKAR & ASSOCIATES"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/MRS KANAGARATHINAM/Kanagarathinam1-800x398.jpg",
+      "/project/residential/MRS KANAGARATHINAM/Kanagarathinam2-800x392.jpg"
+    ]
+  },  {
     slug: "nivasan-bliss-74",
     name: "NIVASAN BLISS",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/NIVASAN BLISS/BLISS2.jpg",
     status: "Ongoing",
     description: "Construction of NIVASAN BLISS in COIMBATORE.",
     details: {
@@ -6322,14 +6258,21 @@ export const projectsList: Project[] = [
       completionDate: "MAY' 2025",
       consultant: "Ms/. Vesta Architects"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/NIVASAN BLISS/BLISS2.jpg",
+      "/project/residential/NIVASAN BLISS/BLISS3.jpg",
+      "/project/residential/NIVASAN BLISS/BLISS5.jpg",
+      "/project/residential/NIVASAN BLISS/BLISS6.jpg",
+      "/project/residential/NIVASAN BLISS/BLISS7.jpg",
+      "/project/residential/NIVASAN BLISS/BLISS8.jpg",
+      "/project/residential/NIVASAN BLISS/BLISS9.jpg"
+    ]
+  },  {
     slug: "nivasan-swarnapuraa-75",
     name: "NIVASAN SWARNAPURAA",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/NIVASAN SWARNAPURAA/Swarnapuraa1-800x400.jpg",
     status: "Ongoing",
     description: "Construction of NIVASAN SWARNAPURAA in COIMBATORE.",
     details: {
@@ -6340,9 +6283,13 @@ export const projectsList: Project[] = [
       completionDate: "OCT' 2026",
       consultant: "Ms/. Vesta Architects"
     },
-    gallery: []
-  },
-  {
+    gallery: [
+      "/project/residential/NIVASAN SWARNAPURAA/Swarnapuraa1-800x400.jpg",
+      "/project/residential/NIVASAN SWARNAPURAA/Swarnapuraa2-800x389.jpg",
+      "/project/residential/NIVASAN SWARNAPURAA/Swarnapuraa3.jpg",
+      "/project/residential/NIVASAN SWARNAPURAA/Swarnapuraa4.jpg"
+    ]
+  },  {
     slug: "residential-apartment-nivasan-vakulam-at-coimbatore-76",
     name: "Residential Apartment \"Nivasan   Vakulam\" at Coimbatore",
     category: "Residential",
@@ -6359,8 +6306,7 @@ export const projectsList: Project[] = [
       consultant: "M/s.Vesta Architects, Coimbatore"
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "residential-development-mysore-toys-at-kalidasar-road-mysore-77",
     name: "Residential development \" Mysore Toys at   Kalidasar road,Mysore",
     category: "Residential",
@@ -6377,13 +6323,12 @@ export const projectsList: Project[] = [
       consultant: "M/s.Urban Frame Pvt Ltd, No. 27/9,   \"Sankalpa\", CunninghamRoad, Vasanth Nagar, Bangalore - 560 052."
     },
     gallery: []
-  },
-  {
+  },  {
     slug: "shriram-122-78",
     name: "SHRIRAM 122",
     category: "Residential",
     location: "CHENNAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/residential/SHRIRAM 122/Srivision-800x410.jpg",
     status: "Ongoing",
     description: "Construction of SHRIRAM 122 in CHENNAI.",
     details: {
@@ -6394,9 +6339,35 @@ export const projectsList: Project[] = [
       completionDate: "JUN '2028",
       consultant: "Ms/. Design Realm,"
     },
-    gallery: []
+    gallery: [
+      "/project/residential/SHRIRAM 122/Srivision-800x410.jpg",
+      "/project/residential/SHRIRAM 122/Srivision1-800x408.jpg",
+      "/project/residential/SHRIRAM 122/Srivision2-800x404.jpg"
+    ]
   }
+
 ];
 
-
-export const featuredProjectsList = projectsList.slice(0, 6);
+export const featuredProjectsList = (() => {
+  const selected: typeof projectsList = [];
+  const seenCategories = new Set<string>();
+  
+  for (const p of projectsList) {
+    if (p.imageUrl && p.imageUrl !== "MANUAL_MAPPING_REQUIRED" && !seenCategories.has(p.category)) {
+      selected.push(p);
+      seenCategories.add(p.category);
+    }
+    if (selected.length === 6) break;
+  }
+  
+  // fallback if somehow there are fewer than 6 categories with valid images
+  if (selected.length < 6) {
+      for (const p of projectsList) {
+          if (p.imageUrl && p.imageUrl !== "MANUAL_MAPPING_REQUIRED" && !selected.some(s => s.slug === p.slug)) {
+              selected.push(p);
+          }
+          if (selected.length === 6) break;
+      }
+  }
+  return selected;
+})();
