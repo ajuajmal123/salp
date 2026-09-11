@@ -1349,6 +1349,45 @@ function ProfilePageContent() {
 
                   </div>
 
+                  {/* Tree Replantation Event Gallery */}
+                  <div className="mt-8">
+                    <div className="flex items-center gap-3 mb-4">
+                      <span className="text-[10px] font-extrabold uppercase tracking-[0.2em] text-sapl-blue">
+                        Environmental Action
+                      </span>
+                      <div className="h-px bg-[#eae7e3] flex-1" />
+                    </div>
+
+                    <div className="bg-[#f7f6f4] border border-[#eae7e3] rounded-sm p-4 sm:p-6 mb-6">
+                      <h3 className="text-base sm:text-lg font-extrabold uppercase tracking-wider text-[#1c1a17] mb-2">
+                        Tree Replantation Event
+                      </h3>
+                      <p className="text-sm text-[#4F4C42] leading-7 mb-6">
+                        As part of our commitment to Environmental Quality and Community Integration, SAPL organized a widespread Tree Replantation event to restore green spaces and foster a sustainable ecosystem.
+                      </p>
+
+                      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+                        {[
+                          "IMG_9704.jpg", "IMG_9731.jpg", "IMG_9738.jpg", "IMG_9774.jpg", "IMG_9829.jpg",
+                          "IMG_9830.jpg", "IMG_9832.jpg", "IMG_9851.jpg", "IMG_9873.jpg", "IMG_9875.jpg",
+                          "IMG_9876.jpg", "IMG_9877.jpg", "IMG_9879.jpg", "IMG_9881.jpg", "IMG_9894.jpg",
+                          "IMG_9895.jpg", "IMG_9896.jpg", "IMG_9897.jpg", "IMG_9903.jpg", "IMG_9938.jpg",
+                          "IMG_9939.jpg", "IMG_9941.jpg", "IMG_9995.jpg"
+                        ].map((img, idx) => (
+                          <div key={idx} className="relative aspect-[1/1] min-h-[150px] w-full border border-[#eae7e3] overflow-hidden rounded-sm group bg-white shadow-sm hover:shadow-md transition-shadow">
+                            <Image
+                              src={`/treeplantation/${img}`}
+                              alt={`Tree plantation event activity ${idx + 1}`}
+                              fill
+                              className="object-cover transition-transform duration-500 group-hover:scale-105"
+                              sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
+                            />
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+
                 </section>
               )}
 

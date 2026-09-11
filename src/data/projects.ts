@@ -3046,7 +3046,7 @@ export const projectsList: Project[] = [
     name: "ADITHYA   WAREHOUSE",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/ADITHYA WAREHOUSE/AWH-1-800x600.jpeg",
     status: "Completed",
     description: "Construction of ADITHYA   WAREHOUSE in COIMBATORE.",
     details: {
@@ -3057,13 +3057,25 @@ export const projectsList: Project[] = [
       completionDate: "2020-07-01",
       consultant: "M/s.   Jeyam Consultants Private Limited,"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/ADITHYA WAREHOUSE/AWH-1-800x600.jpeg",
+      "/project/industrial/ADITHYA WAREHOUSE/AWH-2-800x600.jpeg",
+      "/project/industrial/ADITHYA WAREHOUSE/AWH-3-800x600.jpeg",
+      "/project/industrial/ADITHYA WAREHOUSE/AWH-4-800x600.jpeg",
+      "/project/industrial/ADITHYA WAREHOUSE/DSC03521-800x534.jpg",
+      "/project/industrial/ADITHYA WAREHOUSE/DSC03522-800x534.jpg",
+      "/project/industrial/ADITHYA WAREHOUSE/DSC03524-800x534.jpg",
+      "/project/industrial/ADITHYA WAREHOUSE/DSC03525-800x534.jpg",
+      "/project/industrial/ADITHYA WAREHOUSE/DSC03528-800x534.jpg",
+      "/project/industrial/ADITHYA WAREHOUSE/DSC03530-800x534.jpg",
+      "/project/industrial/ADITHYA WAREHOUSE/DSC03534-800x534.jpg"
+    ]
   },  {
     slug: "akg-india-pvt-ltd-2",
     name: "AKG INDIA PVT LTD",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/AKG INDIA PVT LTD/AKG-1-1-800x534.jpg",
     status: "Completed",
     description: "Construction of AKG INDIA PVT LTD in COIMBATORE.",
     details: {
@@ -3074,13 +3086,25 @@ export const projectsList: Project[] = [
       completionDate: "OCT’2012",
       consultant: "M/s.M.Dharmalingam Associate"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/AKG INDIA PVT LTD/AKG-1-1-800x534.jpg",
+      "/project/industrial/AKG INDIA PVT LTD/AKG-2-800x534.jpg",
+      "/project/industrial/AKG INDIA PVT LTD/AKG-3-800x534.jpg",
+      "/project/industrial/AKG INDIA PVT LTD/AKG-4-800x535.jpg",
+      "/project/industrial/AKG INDIA PVT LTD/AKG-5-800x600.jpg",
+      "/project/industrial/AKG INDIA PVT LTD/AKG-6-800x600.jpg",
+      "/project/industrial/AKG INDIA PVT LTD/AKG-7-800x600.jpg",
+      "/project/industrial/AKG INDIA PVT LTD/akg-1.jpg",
+      "/project/industrial/AKG INDIA PVT LTD/akg-2.jpg",
+      "/project/industrial/AKG INDIA PVT LTD/akg-3.jpg",
+      "/project/industrial/AKG INDIA PVT LTD/akg-4.jpg"
+    ]
   },  {
     slug: "aqua-flow-3",
     name: "AQUA FLOW",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/AQUA FLOW/2-800x369 (1).jpeg",
     status: "Completed",
     description: "Construction of AQUA FLOW in COIMBATORE.",
     details: {
@@ -3091,13 +3115,38 @@ export const projectsList: Project[] = [
       completionDate: "MAR’ 2022",
       consultant: "M/s. Comten Consulting"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/AQUA FLOW/2-800x369 (1).jpeg",
+      "/project/industrial/AQUA FLOW/2-800x369.jpeg",
+      "/project/industrial/AQUA FLOW/AQUA-FLOW-1-800x600.jpeg",
+      "/project/industrial/AQUA FLOW/AQUA-FLOW-10-800x600.jpeg",
+      "/project/industrial/AQUA FLOW/AQUA-FLOW-11-800x600.jpeg",
+      "/project/industrial/AQUA FLOW/AQUA-FLOW-12-800x600.jpeg",
+      "/project/industrial/AQUA FLOW/AQUA-FLOW-13-800x600.jpeg",
+      "/project/industrial/AQUA FLOW/AQUA-FLOW-14-800x600.jpeg",
+      "/project/industrial/AQUA FLOW/AQUA-FLOW-15-800x600.jpeg",
+      "/project/industrial/AQUA FLOW/AQUA-FLOW-2-800x600.jpeg",
+      "/project/industrial/AQUA FLOW/AQUA-FLOW-3-800x600.jpeg",
+      "/project/industrial/AQUA FLOW/AQUA-FLOW-5-800x600.jpeg",
+      "/project/industrial/AQUA FLOW/AQUA-FLOW-6-800x1067.jpeg",
+      "/project/industrial/AQUA FLOW/AQUA-FLOW-7-800x600.jpeg",
+      "/project/industrial/AQUA FLOW/AQUA-FLOW-8-800x600.jpeg",
+      "/project/industrial/AQUA FLOW/AQUA-FLOW-9-800x600.jpeg",
+      "/project/industrial/AQUA FLOW/Aqflo-10-800x600.jpeg",
+      "/project/industrial/AQUA FLOW/Aqflo-14-800x600.jpeg",
+      "/project/industrial/AQUA FLOW/Aqflo-2-800x600.jpeg",
+      "/project/industrial/AQUA FLOW/Aqflo-3-800x600.jpeg",
+      "/project/industrial/AQUA FLOW/Aqflo-8-800x600.jpeg",
+      "/project/industrial/AQUA FLOW/Aquaflow-1-800x600.jpg",
+      "/project/industrial/AQUA FLOW/Aquaflow-2-800x600.jpg",
+      "/project/industrial/AQUA FLOW/Aquaflow-3-800x600.jpg"
+    ]
   },  {
     slug: "bradken-india-private-limited-4",
     name: "BRADKEN INDIA PRIVATE LIMITED",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/BRADKEN INDIA PRIVATE LIMITED/Bradken-800x428.jpg",
     status: "Completed",
     description: "Construction of BRADKEN INDIA PRIVATE LIMITED in COIMBATORE.",
     details: {
@@ -3108,13 +3157,15 @@ export const projectsList: Project[] = [
       completionDate: "Sep’ 2016",
       consultant: "M.Dharmalingam Associate,"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/BRADKEN INDIA PRIVATE LIMITED/Bradken-800x428.jpg"
+    ]
   },  {
     slug: "bull-machines-private-limited-5",
     name: "BULL MACHINES PRIVATE LIMITED",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/BULL MACHINES PRIVATE LIMITED/IMG-20161107-WA0008-800x600.jpg",
     status: "Completed",
     description: "Construction of BULL MACHINES PRIVATE LIMITED in COIMBATORE.",
     details: {
@@ -3125,13 +3176,20 @@ export const projectsList: Project[] = [
       completionDate: "DEC’2015",
       consultant: "M/s. S.G.Structural Engineers."
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/BULL MACHINES PRIVATE LIMITED/IMG-20161107-WA0008-800x600.jpg",
+      "/project/industrial/BULL MACHINES PRIVATE LIMITED/IMG-20161107-WA0010-800x600.jpg",
+      "/project/industrial/BULL MACHINES PRIVATE LIMITED/IMG-20171208-WA0013-800x600.jpg",
+      "/project/industrial/BULL MACHINES PRIVATE LIMITED/IMG-20171208-WA0014-800x600.jpg",
+      "/project/industrial/BULL MACHINES PRIVATE LIMITED/propel-1.jpg",
+      "/project/industrial/BULL MACHINES PRIVATE LIMITED/propel-2.jpg"
+    ]
   },  {
     slug: "bull-machines-pvt-ltd-suvasam-2-0-6",
     name: "BULL MACHINES PVT LTD-SUVASAM 2.0",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/BULL MACHINES PVT LTD-SUVASAM 2.0/DSC02580.jpg",
     status: "Completed",
     description: "Construction of BULL MACHINES PVT LTD-SUVASAM 2.0 in COIMBATORE.",
     details: {
@@ -3142,13 +3200,16 @@ export const projectsList: Project[] = [
       completionDate: "OCT’ 2019",
       consultant: "M/s. SG Structural Engineers"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/BULL MACHINES PVT LTD-SUVASAM 2.0/DSC02580.jpg",
+      "/project/industrial/BULL MACHINES PVT LTD-SUVASAM 2.0/DSC02581.jpg"
+    ]
   },  {
     slug: "centralised-bus-parking-7",
     name: "CENTRALISED BUS PARKING",
     category: "Industrial",
     location: "KRISHNAGIRI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/CENTRALISED BUS PARKING/AEH-10-1-800x450.jpeg",
     status: "Completed",
     description: "Construction of CENTRALISED BUS PARKING in KRISHNAGIRI.",
     details: {
@@ -3159,13 +3220,34 @@ export const projectsList: Project[] = [
       completionDate: "APR’ 2023",
       consultant: "M/s. Pithavadian and Partners Architects"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/CENTRALISED BUS PARKING/AEH-10-1-800x450.jpeg",
+      "/project/industrial/CENTRALISED BUS PARKING/AEH-11-800x450.jpeg",
+      "/project/industrial/CENTRALISED BUS PARKING/Bargur-1.jpeg",
+      "/project/industrial/CENTRALISED BUS PARKING/Bargur-10.jpeg",
+      "/project/industrial/CENTRALISED BUS PARKING/Bargur-11.jpeg",
+      "/project/industrial/CENTRALISED BUS PARKING/Bargur-16.jpeg",
+      "/project/industrial/CENTRALISED BUS PARKING/Bargur-37-800x450.jpeg",
+      "/project/industrial/CENTRALISED BUS PARKING/Bargur-38-800x450.jpeg",
+      "/project/industrial/CENTRALISED BUS PARKING/Bargur-39-800x450.jpeg",
+      "/project/industrial/CENTRALISED BUS PARKING/Bargur-53-800x450.jpeg",
+      "/project/industrial/CENTRALISED BUS PARKING/Bargur-57-800x1422.jpeg",
+      "/project/industrial/CENTRALISED BUS PARKING/Bargur-58-800x450.jpeg",
+      "/project/industrial/CENTRALISED BUS PARKING/Burgur-15.jpeg",
+      "/project/industrial/CENTRALISED BUS PARKING/Burgur-21.jpeg",
+      "/project/industrial/CENTRALISED BUS PARKING/Burgur-28-800x1422.jpeg",
+      "/project/industrial/CENTRALISED BUS PARKING/Burgur-42-800x450.jpeg",
+      "/project/industrial/CENTRALISED BUS PARKING/Burgur-55-800x1422.jpeg",
+      "/project/industrial/CENTRALISED BUS PARKING/Burgur-79-800x600.jpeg",
+      "/project/industrial/CENTRALISED BUS PARKING/Burgur-88-800x450.jpeg",
+      "/project/industrial/CENTRALISED BUS PARKING/Burgur-90-800x450.jpeg"
+    ]
   },  {
     slug: "cheyyar-sipcot-industrial-complex-8",
     name: "CHEYYAR – SIPCOT INDUSTRIAL COMPLEX",
     category: "Industrial",
     location: "CHENNAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/CHEYYAR – SIPCOT INDUSTRIAL COMPLEX/Cheyyar-1-800x368.jpeg",
     status: "Completed",
     description: "Construction of CHEYYAR – SIPCOT INDUSTRIAL COMPLEX in CHENNAI.",
     details: {
@@ -3176,7 +3258,18 @@ export const projectsList: Project[] = [
       completionDate: "APR’ 2023",
       consultant: "M/s. Cheyyar Sez Developers Pvt Ltd"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/CHEYYAR – SIPCOT INDUSTRIAL COMPLEX/Cheyyar-1-800x368.jpeg",
+      "/project/industrial/CHEYYAR – SIPCOT INDUSTRIAL COMPLEX/Cheyyar-12-800x368.jpeg",
+      "/project/industrial/CHEYYAR – SIPCOT INDUSTRIAL COMPLEX/Cheyyar-21-800x450.jpeg",
+      "/project/industrial/CHEYYAR – SIPCOT INDUSTRIAL COMPLEX/Cheyyar-36-800x450.jpeg",
+      "/project/industrial/CHEYYAR – SIPCOT INDUSTRIAL COMPLEX/Cheyyar-49-800x450.jpeg",
+      "/project/industrial/CHEYYAR – SIPCOT INDUSTRIAL COMPLEX/Cheyyar-52-800x450.jpeg",
+      "/project/industrial/CHEYYAR – SIPCOT INDUSTRIAL COMPLEX/Cheyyar-56-800x450.jpeg",
+      "/project/industrial/CHEYYAR – SIPCOT INDUSTRIAL COMPLEX/Cheyyar-6-800x368.jpeg",
+      "/project/industrial/CHEYYAR – SIPCOT INDUSTRIAL COMPLEX/Cheyyar-8-800x370.jpeg",
+      "/project/industrial/CHEYYAR – SIPCOT INDUSTRIAL COMPLEX/Cheyyar-SEZ-pooja-800x375.jpeg"
+    ]
   },  {
     slug: "civil-works-excl-cost-of-cement-and-steel-for-proposed-expansion-of-fruit-processing-unit-9",
     name: "Civil works (Excl Cost of Cement and Steel) for   Proposed Expansion of Fruit Processing Unit",
@@ -3972,7 +4065,7 @@ export const projectsList: Project[] = [
     name: "COSMIK INDUSTRY",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/COSMIK INDUSTRY/COSM-1-1.jpg",
     status: "Completed",
     description: "Construction of COSMIK INDUSTRY in COIMBATORE.",
     details: {
@@ -3983,13 +4076,25 @@ export const projectsList: Project[] = [
       completionDate: "MAY’ 2015",
       consultant: "M/s. Sundar Sundaram Architects"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/COSMIK INDUSTRY/COSM-1-1.jpg",
+      "/project/industrial/COSMIK INDUSTRY/COSM-2-800x600.jpg",
+      "/project/industrial/COSMIK INDUSTRY/COSM-3-800x600.jpg",
+      "/project/industrial/COSMIK INDUSTRY/COSM-4-800x600.jpg",
+      "/project/industrial/COSMIK INDUSTRY/COSMIK-1-1-800x600.jpg",
+      "/project/industrial/COSMIK INDUSTRY/COSMIK-2-800x600.jpg",
+      "/project/industrial/COSMIK INDUSTRY/COSMIK-3-800x600.jpg",
+      "/project/industrial/COSMIK INDUSTRY/COSMIK-4-800x600.jpg",
+      "/project/industrial/COSMIK INDUSTRY/COSMIK-5-800x600.jpg",
+      "/project/industrial/COSMIK INDUSTRY/COSMIK-6-800x600.jpg",
+      "/project/industrial/COSMIK INDUSTRY/cosmik-1.jpg"
+    ]
   },  {
     slug: "cri-pumps-private-limited-57",
     name: "CRI PUMPS PRIVATE LIMITED",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/CRI PUMPS PRIVATE LIMITED/DSC02517-800x534.jpg",
     status: "Completed",
     description: "Construction of CRI PUMPS PRIVATE LIMITED in COIMBATORE.",
     details: {
@@ -4000,13 +4105,21 @@ export const projectsList: Project[] = [
       completionDate: "SEP'2019",
       consultant: "M/s. Mithran Structures (P) Ltd.,"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/CRI PUMPS PRIVATE LIMITED/DSC02517-800x534.jpg",
+      "/project/industrial/CRI PUMPS PRIVATE LIMITED/DSC02519-800x534.jpg",
+      "/project/industrial/CRI PUMPS PRIVATE LIMITED/DSC02520-800x534.jpg",
+      "/project/industrial/CRI PUMPS PRIVATE LIMITED/WhatsApp-Image-2019-01-21-at-15.20.08-800x400.jpeg",
+      "/project/industrial/CRI PUMPS PRIVATE LIMITED/img-1-35-800x400.jpg",
+      "/project/industrial/CRI PUMPS PRIVATE LIMITED/img-2-35-800x400.jpg",
+      "/project/industrial/CRI PUMPS PRIVATE LIMITED/img-3-34-800x400.jpg"
+    ]
   },  {
     slug: "cri-pumps-private-limited-58",
     name: "CRI PUMPS PRIVATE LIMITED",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/CRI PUMPS PRIVATE LIMITED 2/CRI-1-800x399.jpg",
     status: "Completed",
     description: "Construction of CRI PUMPS PRIVATE LIMITED in COIMBATORE.",
     details: {
@@ -4017,13 +4130,20 @@ export const projectsList: Project[] = [
       completionDate: "Jun’ 2018",
       consultant: "M/s. Design Tech"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/CRI PUMPS PRIVATE LIMITED 2/CRI-1-800x399.jpg",
+      "/project/industrial/CRI PUMPS PRIVATE LIMITED 2/CRI-2-800x600.jpg",
+      "/project/industrial/CRI PUMPS PRIVATE LIMITED 2/CRI-3-800x452.jpg",
+      "/project/industrial/CRI PUMPS PRIVATE LIMITED 2/CRI-4-800x400.jpg",
+      "/project/industrial/CRI PUMPS PRIVATE LIMITED 2/CRI-5-800x400.jpg",
+      "/project/industrial/CRI PUMPS PRIVATE LIMITED 2/CRI-800x399.jpg"
+    ]
   },  {
     slug: "exotic-fruits-pvt-ltd-59",
     name: "EXOTIC FRUITS PVT LTD",
     category: "Industrial",
     location: "KRISHNAGIRI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-1-1-800x600.jpg",
     status: "Completed",
     description: "Construction of EXOTIC FRUITS PVT LTD in KRISHNAGIRI.",
     details: {
@@ -4034,7 +4154,36 @@ export const projectsList: Project[] = [
       completionDate: "JUN’2014",
       consultant: "M/s.Design Forum India Private Limited"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-1-1-800x600.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-10-800x600.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-11-800x600.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-12-800x600.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-13-800x600.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-14-800x600.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-15-800x600.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-16-800x600.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-17-800x600.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-18-800x600.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-19-800x450.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-2-800x600.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-20-800x450.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-21-800x450.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-22-800x450.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-23-800x450.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-24-800x600.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-3-800x600.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-4-800x600.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-5-800x600.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-6-800x600.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-7-1.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-8-800x600.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/exotic-1-800x450.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/exotic-2.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/exotic-3.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/exotic-4.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/exotic-5.jpg"
+    ]
   },  {
     slug: "extention-of-factory-building-60",
     name: "Extention of Factory Building",
@@ -4057,7 +4206,7 @@ export const projectsList: Project[] = [
     name: "GTN EXPORTS LTD",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/GTN EXPORTS LTD/GTN-1-1-800x529.jpg",
     status: "Completed",
     description: "Construction of GTN EXPORTS LTD in COIMBATORE.",
     details: {
@@ -4068,13 +4217,25 @@ export const projectsList: Project[] = [
       completionDate: "JAN’2010",
       consultant: "M/s. M. Dharmalingam Associates,"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/GTN EXPORTS LTD/GTN-1-1-800x529.jpg",
+      "/project/industrial/GTN EXPORTS LTD/GTN-10-800x535.jpg",
+      "/project/industrial/GTN EXPORTS LTD/GTN-11-800x535.jpg",
+      "/project/industrial/GTN EXPORTS LTD/GTN-12-800x338.jpg",
+      "/project/industrial/GTN EXPORTS LTD/GTN-5-800x533.jpg",
+      "/project/industrial/GTN EXPORTS LTD/GTN-6-800x535.jpg",
+      "/project/industrial/GTN EXPORTS LTD/GTN-7-800x535.jpg",
+      "/project/industrial/GTN EXPORTS LTD/GTN-8-800x535.jpg",
+      "/project/industrial/GTN EXPORTS LTD/GTN-9-800x535.jpg",
+      "/project/industrial/GTN EXPORTS LTD/gtn-1.jpg",
+      "/project/industrial/GTN EXPORTS LTD/gtn-2.jpg"
+    ]
   },  {
     slug: "integra-automation-pvt-ltd-unit-iv-62",
     name: "INTEGRA AUTOMATION PVT LTD UNIT–IV",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/DSC02320-800x534.jpg",
     status: "Completed",
     description: "Construction of INTEGRA AUTOMATION PVT LTD UNIT–IV in COIMBATORE.",
     details: {
@@ -4085,13 +4246,41 @@ export const projectsList: Project[] = [
       completionDate: "2021-03-01",
       consultant: "M/s. Sabarianand M.E"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/DSC02320-800x534.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/DSC02321-800x534.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/DSC02334-800x534.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/DSC03538-800x534.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/DSC03542-800x534.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/DSC03544-800x534.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/DSC03545-800x534.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/DSC03555-800x534.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/DSC03557-800x534.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/DSC03558-800x534.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/DSC03561-800x534.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/DSC03563-800x534.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/DSC03564-800x534.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/DSC03565-800x534.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/DSC03566-800x534.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/DSC03574-800x534.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/IMG-20190603-WA0045-800x450.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/IMG_20210624_153653-800x351.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/img-1-25-800x405.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/img-2-25-800x388.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/img-3-24-800x388.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/img-4-21-800x388.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/img-5-20-800x388.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/img-6-17-800x388.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/img-7-13-800x388.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/img-8-11-800x388.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/img-9-10-800x388.jpg"
+    ]
   },  {
     slug: "international-aerospace-manufacturing-63",
     name: "INTERNATIONAL AEROSPACE MANUFACTURING",
     category: "Industrial",
     location: "HOSUR",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/INTERNATIONAL AEROSPACE MANUFACTURING/1-1-800x370.jpg",
     status: "Completed",
     description: "Construction of INTERNATIONAL AEROSPACE MANUFACTURING in HOSUR.",
     details: {
@@ -4102,13 +4291,27 @@ export const projectsList: Project[] = [
       completionDate: "MAY’ 2024",
       consultant: "‘Besten Engineers & Consultants India   Private Limited"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/INTERNATIONAL AEROSPACE MANUFACTURING/1-1-800x370.jpg",
+      "/project/industrial/INTERNATIONAL AEROSPACE MANUFACTURING/10-800x445.jpg",
+      "/project/industrial/INTERNATIONAL AEROSPACE MANUFACTURING/11-800x453.jpg",
+      "/project/industrial/INTERNATIONAL AEROSPACE MANUFACTURING/12-800x486.jpg",
+      "/project/industrial/INTERNATIONAL AEROSPACE MANUFACTURING/13-800x412.jpg",
+      "/project/industrial/INTERNATIONAL AEROSPACE MANUFACTURING/2-1-800x370.jpg",
+      "/project/industrial/INTERNATIONAL AEROSPACE MANUFACTURING/3-1-800x370.jpg",
+      "/project/industrial/INTERNATIONAL AEROSPACE MANUFACTURING/4-1-800x370.jpg",
+      "/project/industrial/INTERNATIONAL AEROSPACE MANUFACTURING/5-800x370.jpg",
+      "/project/industrial/INTERNATIONAL AEROSPACE MANUFACTURING/6-800x370.jpg",
+      "/project/industrial/INTERNATIONAL AEROSPACE MANUFACTURING/7-800x370.jpg",
+      "/project/industrial/INTERNATIONAL AEROSPACE MANUFACTURING/8-800x370.jpg",
+      "/project/industrial/INTERNATIONAL AEROSPACE MANUFACTURING/9-800x446.jpg"
+    ]
   },  {
     slug: "kg-denim-limited-64",
     name: "KG DENIM LIMITED",
     category: "Industrial",
     location: "METTUPALAYAM",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/KG DENIM LIMITED/Copy-of-17-post-800x484.jpg",
     status: "Completed",
     description: "Construction of KG DENIM LIMITED in METTUPALAYAM.",
     details: {
@@ -4119,13 +4322,22 @@ export const projectsList: Project[] = [
       completionDate: "DEC’ 2005",
       consultant: "M/s.Design Forum India Private Limited"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/KG DENIM LIMITED/Copy-of-17-post-800x484.jpg",
+      "/project/industrial/KG DENIM LIMITED/KGD-1-800x537.jpg",
+      "/project/industrial/KG DENIM LIMITED/KGD-2-800x537.jpg",
+      "/project/industrial/KG DENIM LIMITED/KGD-4-800x537.jpg",
+      "/project/industrial/KG DENIM LIMITED/KGD-5-800x537.jpg",
+      "/project/industrial/KG DENIM LIMITED/KGD-6-800x537.jpg",
+      "/project/industrial/KG DENIM LIMITED/KGD-7-800x537.jpg",
+      "/project/industrial/KG DENIM LIMITED/KGD-8-800x537.jpg"
+    ]
   },  {
     slug: "kg-fabriks-limited-65",
     name: "KG FABRIKS LIMITED",
     category: "Industrial",
     location: "ERODE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/KG FABRIKS LIMITED/DSC_0041-800x537.jpg",
     status: "Completed",
     description: "Construction of KG FABRIKS LIMITED in ERODE.",
     details: {
@@ -4136,13 +4348,31 @@ export const projectsList: Project[] = [
       completionDate: "MAR’ 2007",
       consultant: "M/s.Design Forum India Private Limited"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/KG FABRIKS LIMITED/DSC_0041-800x537.jpg",
+      "/project/industrial/KG FABRIKS LIMITED/KG-Fab.jpg",
+      "/project/industrial/KG FABRIKS LIMITED/KGF-1-800x537.jpg",
+      "/project/industrial/KG FABRIKS LIMITED/KGF-10-800x537.jpg",
+      "/project/industrial/KG FABRIKS LIMITED/KGF-11-800x537.jpg",
+      "/project/industrial/KG FABRIKS LIMITED/KGF-12-800x537.jpg",
+      "/project/industrial/KG FABRIKS LIMITED/KGF-13-800x537.jpg",
+      "/project/industrial/KG FABRIKS LIMITED/KGF-14-800x600.jpg",
+      "/project/industrial/KG FABRIKS LIMITED/KGF-15-800x600.jpg",
+      "/project/industrial/KG FABRIKS LIMITED/KGF-2-800x537.jpg",
+      "/project/industrial/KG FABRIKS LIMITED/KGF-3-800x537.jpg",
+      "/project/industrial/KG FABRIKS LIMITED/KGF-4-800x537.jpg",
+      "/project/industrial/KG FABRIKS LIMITED/KGF-5-800x537.jpg",
+      "/project/industrial/KG FABRIKS LIMITED/KGF-6-800x537.jpg",
+      "/project/industrial/KG FABRIKS LIMITED/KGF-7-800x537.jpg",
+      "/project/industrial/KG FABRIKS LIMITED/KGF-8-800x537.jpg",
+      "/project/industrial/KG FABRIKS LIMITED/KGF-9-800x537.jpg"
+    ]
   },  {
     slug: "kpr-mills-limited-66",
     name: "KPR MILLS LIMITED",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/KPR MILLS LIMITED/DSCN0924-2-800x600.jpg",
     status: "Completed",
     description: "Construction of KPR MILLS LIMITED in COIMBATORE.",
     details: {
@@ -4153,13 +4383,24 @@ export const projectsList: Project[] = [
       completionDate: "JUN ‘2011",
       consultant: "M/s.Design Forum India Private Limited"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/KPR MILLS LIMITED/DSCN0924-2-800x600.jpg",
+      "/project/industrial/KPR MILLS LIMITED/KPR-1-800x600.jpg",
+      "/project/industrial/KPR MILLS LIMITED/KPR-2-800x600.jpg",
+      "/project/industrial/KPR MILLS LIMITED/KPR-3-800x600.jpg",
+      "/project/industrial/KPR MILLS LIMITED/KPR-4-800x600.jpg",
+      "/project/industrial/KPR MILLS LIMITED/KPR-5-800x600.jpg",
+      "/project/industrial/KPR MILLS LIMITED/KPR-6-800x600.jpg",
+      "/project/industrial/KPR MILLS LIMITED/WhatsApp-Image-2019-01-28-at-16.01.48-800x496.jpeg",
+      "/project/industrial/KPR MILLS LIMITED/WhatsApp-Image-2019-01-28-at-16.01.49-800x561 (1).jpeg",
+      "/project/industrial/KPR MILLS LIMITED/WhatsApp-Image-2019-01-28-at-16.01.49-800x561.jpeg"
+    ]
   },  {
     slug: "krishnaveni-carbon-67",
     name: "KRISHNAVENI CARBON",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/KRISHNAVENI CARBON/KV-1-800x369.jpeg",
     status: "Completed",
     description: "Construction of KRISHNAVENI CARBON in COIMBATORE.",
     details: {
@@ -4170,13 +4411,28 @@ export const projectsList: Project[] = [
       completionDate: "FEB’ 2022",
       consultant: "M/s. M. Dharmalingam Associates"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/KRISHNAVENI CARBON/KV-1-800x369.jpeg",
+      "/project/industrial/KRISHNAVENI CARBON/KV-10-800x369.jpeg",
+      "/project/industrial/KRISHNAVENI CARBON/KV-2-800x369.jpeg",
+      "/project/industrial/KRISHNAVENI CARBON/KV-3-800x369.jpeg",
+      "/project/industrial/KRISHNAVENI CARBON/KV-4-800x369.jpeg",
+      "/project/industrial/KRISHNAVENI CARBON/KV-5-800x369.jpeg",
+      "/project/industrial/KRISHNAVENI CARBON/KV-6-800x369.jpeg",
+      "/project/industrial/KRISHNAVENI CARBON/KV-7-800x400.jpeg",
+      "/project/industrial/KRISHNAVENI CARBON/KV-8-800x369.jpeg",
+      "/project/industrial/KRISHNAVENI CARBON/KV-9-800x369 (1).jpeg",
+      "/project/industrial/KRISHNAVENI CARBON/KV-9-800x369.jpeg",
+      "/project/industrial/KRISHNAVENI CARBON/Krish-11-800x370.jpg",
+      "/project/industrial/KRISHNAVENI CARBON/KrishCar-33-800x371.jpg",
+      "/project/industrial/KRISHNAVENI CARBON/Krishnaveni-800x450.jpg"
+    ]
   },  {
     slug: "l-g-balakrishnan-bro-s-ltd-68",
     name: "L G BALAKRISHNAN & BRO’s LTD",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/Untitled.jpg",
     status: "Completed",
     description: "Construction of L G BALAKRISHNAN & BRO’s LTD in COIMBATORE.",
     details: {
@@ -4187,13 +4443,26 @@ export const projectsList: Project[] = [
       completionDate: "NOV’ 2018",
       consultant: "Client Engineer"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/Untitled.jpg",
+      "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/WhatsApp-Image-2019-05-28-at-11.51.59-1-800x450.jpeg",
+      "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/WhatsApp-Image-2019-05-28-at-12.28.15-1-800x600.jpeg",
+      "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/WhatsApp-Image-2019-05-28-at-12.28.15-3-800x600.jpeg",
+      "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/img-1-2.jpg",
+      "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/img-2-2.jpg",
+      "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/img-3-2.jpg",
+      "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/img-4-2.jpg",
+      "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/img-5-2.jpg",
+      "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/img-6-1.jpg",
+      "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/img-7.jpg",
+      "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/production-vdf-2-800x450.jpg"
+    ]
   },  {
     slug: "l-g-balakrishnan-bros-limited-69",
     name: "L.G.BALAKRISHNAN & BROS LIMITED",
     category: "Industrial",
     location: "ANNUR",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED/img-4-29-800x450.jpg",
     status: "Completed",
     description: "Construction of L.G.BALAKRISHNAN & BROS LIMITED in ANNUR.",
     details: {
@@ -4204,13 +4473,20 @@ export const projectsList: Project[] = [
       completionDate: "OCT’ 2018",
       consultant: "Ms/. Vesta Architects"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED/img-4-29-800x450.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED/img-5-27-800x450.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED/img-6-22-800x450.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED/img-7-17-800x450.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED/img-8-15-800x450.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED/img-9-14-800x450.jpg"
+    ]
   },  {
     slug: "l-g-balakrishnan-bros-limited-70",
     name: "L.G.BALAKRISHNAN & BROS LIMITED",
     category: "Industrial",
     location: "CHENNAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/Che-1-800x534.jpg",
     status: "Completed",
     description: "Construction of L.G.BALAKRISHNAN & BROS LIMITED in CHENNAI.",
     details: {
@@ -4221,13 +4497,33 @@ export const projectsList: Project[] = [
       completionDate: "SEP’ 2019",
       consultant: "M/s. PTK Architects"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/Che-1-800x534.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/Che-2-800x534.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/Che-3-800x450.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/Che-4-800x450.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/Che-5-800x450.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/LGB-CHENNAI-2-800x534.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/LGB-CHENNAI-3-800x450.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/LGB-CHENNAI-800x534.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/WhatsApp-Image-2019-05-28-at-16.38.47-800x600.jpeg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/WhatsApp-Image-2019-05-28-at-16.38.58-800x600.jpeg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/img-1-34-800x600.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/img-2-34-800x600.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/img-3-33-800x600.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/img-4-30-800x600.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/img-5-28-800x600.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/img-6-23-800x600.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/img-7-18-800x600.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/img-8-16-800x600.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/img-9-15-800x600.jpg"
+    ]
   },  {
     slug: "l-g-balakrishnan-bros-limited-oht-71",
     name: "L.G.Balakrishnan & Bros Limited – OHT",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/L.G.Balakrishnan & Bros Limited – OHT/IMGWA0010-800x1063.jpg",
     status: "Completed",
     description: "Construction of L.G.Balakrishnan & Bros Limited – OHT in COIMBATORE.",
     details: {
@@ -4238,13 +4534,15 @@ export const projectsList: Project[] = [
       completionDate: "JUL’ 2023",
       consultant: "M/s. Innovative Design"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/L.G.Balakrishnan & Bros Limited – OHT/IMGWA0010-800x1063.jpg"
+    ]
   },  {
     slug: "lgb-canteen-block-and-factory-building-3-72",
     name: "LGB CANTEEN BLOCK AND FACTORY BUILDING 3",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/LGB CANTEEN BLOCK AND FACTORY BUILDING 3/LGBCF1-800x471.jpg",
     status: "Completed",
     description: "Construction of LGB CANTEEN BLOCK AND FACTORY BUILDING 3 in COIMBATORE.",
     details: {
@@ -4255,13 +4553,19 @@ export const projectsList: Project[] = [
       completionDate: "MAR'2025",
       consultant: "Ms/. Vesta Architects"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/LGB CANTEEN BLOCK AND FACTORY BUILDING 3/LGBCF1-800x471.jpg",
+      "/project/industrial/LGB CANTEEN BLOCK AND FACTORY BUILDING 3/LGBCF2-800x380.jpg",
+      "/project/industrial/LGB CANTEEN BLOCK AND FACTORY BUILDING 3/LGBCF3-800x424.jpg",
+      "/project/industrial/LGB CANTEEN BLOCK AND FACTORY BUILDING 3/LGBCF4-800x464.jpg",
+      "/project/industrial/LGB CANTEEN BLOCK AND FACTORY BUILDING 3/LGBCF5-800x443.jpg"
+    ]
   },  {
     slug: "lgb-factory-building-2-vallam-73",
     name: "LGB FACTORY BUILDING 2      VALLAM",
     category: "Industrial",
     location: "CHENNAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/LGB FACTORY BUILDING 2 VALLAM/LGBVV1-800x441.jpg",
     status: "Completed",
     description: "Construction of LGB FACTORY BUILDING 2      VALLAM in CHENNAI.",
     details: {
@@ -4272,13 +4576,19 @@ export const projectsList: Project[] = [
       completionDate: "JAN'2026",
       consultant: "Ms/. Vesta Architects"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/LGB FACTORY BUILDING 2 VALLAM/LGBVV1-800x441.jpg",
+      "/project/industrial/LGB FACTORY BUILDING 2 VALLAM/LGBVV2.jpg",
+      "/project/industrial/LGB FACTORY BUILDING 2 VALLAM/LGBVV3.jpg",
+      "/project/industrial/LGB FACTORY BUILDING 2 VALLAM/LGBVV4.jpg",
+      "/project/industrial/LGB FACTORY BUILDING 2 VALLAM/LGBVV5-1.jpg"
+    ]
   },  {
     slug: "m-s-cs-spinners-pvt-ltd-74",
     name: "M/s. CS SPINNERS PVT LTD",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/Ms. CS SPINNERS PVT LTD/CS-1-800x509.jpg",
     status: "Completed",
     description: "Construction of M/s. CS SPINNERS PVT LTD in COIMBATORE.",
     details: {
@@ -4289,13 +4599,27 @@ export const projectsList: Project[] = [
       completionDate: "SEP’ 2019",
       consultant: "M/s. Vesta Architect"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/Ms. CS SPINNERS PVT LTD/CS-1-800x509.jpg",
+      "/project/industrial/Ms. CS SPINNERS PVT LTD/CS-10-800x600.jpg",
+      "/project/industrial/Ms. CS SPINNERS PVT LTD/CS-2-800x600.jpg",
+      "/project/industrial/Ms. CS SPINNERS PVT LTD/CS-3-800x696.jpg",
+      "/project/industrial/Ms. CS SPINNERS PVT LTD/CS-4-800x600.jpg",
+      "/project/industrial/Ms. CS SPINNERS PVT LTD/CS-5-800x502.jpg",
+      "/project/industrial/Ms. CS SPINNERS PVT LTD/CS-6-800x538.jpg",
+      "/project/industrial/Ms. CS SPINNERS PVT LTD/CS-7-800x600.jpg",
+      "/project/industrial/Ms. CS SPINNERS PVT LTD/CS-8-800x473.jpg",
+      "/project/industrial/Ms. CS SPINNERS PVT LTD/DSC02438-800x534.jpg",
+      "/project/industrial/Ms. CS SPINNERS PVT LTD/DSC02448-800x534.jpg",
+      "/project/industrial/Ms. CS SPINNERS PVT LTD/img-1-9.jpg",
+      "/project/industrial/Ms. CS SPINNERS PVT LTD/img-2-9.jpg"
+    ]
   },  {
     slug: "m-s-revantha-services-ltd-75",
     name: "M/s. REVANTHA SERVICES LTD",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/Ms. REVANTHA SERVICES LTD/1-800x348.jpg",
     status: "Completed",
     description: "Construction of M/s. REVANTHA SERVICES LTD in COIMBATORE.",
     details: {
@@ -4306,13 +4630,19 @@ export const projectsList: Project[] = [
       completionDate: "SEP’ 2018",
       consultant: "M/s. Bharath & Associates"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/Ms. REVANTHA SERVICES LTD/1-800x348.jpg",
+      "/project/industrial/Ms. REVANTHA SERVICES LTD/2-800x480.jpg",
+      "/project/industrial/Ms. REVANTHA SERVICES LTD/4-800x480.jpg",
+      "/project/industrial/Ms. REVANTHA SERVICES LTD/5-800x480.jpg",
+      "/project/industrial/Ms. REVANTHA SERVICES LTD/6-800x480.jpg"
+    ]
   },  {
     slug: "madras-cements-ltd-76",
     name: "MADRAS CEMENTS LTD",
     category: "Industrial",
     location: "CHENGELPET",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/MADRAS CEMENTS LTD/MCL-1-800x600.jpg",
     status: "Completed",
     description: "Construction of MADRAS CEMENTS LTD in CHENGELPET.",
     details: {
@@ -4323,13 +4653,28 @@ export const projectsList: Project[] = [
       completionDate: "JAN’2010",
       consultant: "M/s. Enexco Technologies (India) Ltd"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/MADRAS CEMENTS LTD/MCL-1-800x600.jpg",
+      "/project/industrial/MADRAS CEMENTS LTD/MCL-10-800x600.jpg",
+      "/project/industrial/MADRAS CEMENTS LTD/MCL-11-800x600.jpg",
+      "/project/industrial/MADRAS CEMENTS LTD/MCL-13-800x533.jpg",
+      "/project/industrial/MADRAS CEMENTS LTD/MCL-14-800x600.jpg",
+      "/project/industrial/MADRAS CEMENTS LTD/MCL-2-800x600.jpg",
+      "/project/industrial/MADRAS CEMENTS LTD/MCL-3.jpg",
+      "/project/industrial/MADRAS CEMENTS LTD/MCL-4-800x600.jpg",
+      "/project/industrial/MADRAS CEMENTS LTD/MCL-5-800x600.jpg",
+      "/project/industrial/MADRAS CEMENTS LTD/MCL-6-800x600.jpg",
+      "/project/industrial/MADRAS CEMENTS LTD/MCL-7-800x600.jpg",
+      "/project/industrial/MADRAS CEMENTS LTD/MCL-8-800x600.jpg",
+      "/project/industrial/MADRAS CEMENTS LTD/MCL-9-800x600.jpg",
+      "/project/industrial/MADRAS CEMENTS LTD/MCL-Chennai.jpg"
+    ]
   },  {
     slug: "madras-cements-ltd-77",
     name: "MADRAS CEMENTS LTD",
     category: "Industrial",
     location: "SALEM",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/MADRAS CEMENTS LTD 2/MCL-1-1-800x600.jpg",
     status: "Completed",
     description: "Construction of MADRAS CEMENTS LTD in SALEM.",
     details: {
@@ -4340,13 +4685,21 @@ export const projectsList: Project[] = [
       completionDate: "JAN’2012",
       consultant: "Client Engineer"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/MADRAS CEMENTS LTD 2/MCL-1-1-800x600.jpg",
+      "/project/industrial/MADRAS CEMENTS LTD 2/MCL-2-1-800x600.jpg",
+      "/project/industrial/MADRAS CEMENTS LTD 2/MCL-3-1-800x600.jpg",
+      "/project/industrial/MADRAS CEMENTS LTD 2/MCL-4-1-800x600.jpg",
+      "/project/industrial/MADRAS CEMENTS LTD 2/MCL-5-1-800x600.jpg",
+      "/project/industrial/MADRAS CEMENTS LTD 2/MCL-800x600.jpg",
+      "/project/industrial/MADRAS CEMENTS LTD 2/MCL-Salem.jpg"
+    ]
   },  {
     slug: "madras-cements-ltd-78",
     name: "MADRAS CEMENTS LTD",
     category: "Industrial",
     location: "HYDERABAD",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/MADRAS CEMENTS LTD 3/MCL-Hyd.jpg",
     status: "Completed",
     description: "Construction of MADRAS CEMENTS LTD in HYDERABAD.",
     details: {
@@ -4357,13 +4710,15 @@ export const projectsList: Project[] = [
       completionDate: "JAN’2010",
       consultant: "EEL India Limited"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/MADRAS CEMENTS LTD 3/MCL-Hyd.jpg"
+    ]
   },  {
     slug: "mark-engineering-works-79",
     name: "MARK ENGINEERING WORKS",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/MARK ENGINEERING WORKS/1WhatsApp-Image-2020-07-08-at-13.25.51.jpeg",
     status: "Completed",
     description: "Construction of MARK ENGINEERING WORKS in COIMBATORE.",
     details: {
@@ -4374,13 +4729,27 @@ export const projectsList: Project[] = [
       completionDate: "JUN’ 2017",
       consultant: "Ms/. Vesta Architects"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/MARK ENGINEERING WORKS/1WhatsApp-Image-2020-07-08-at-13.25.51.jpeg",
+      "/project/industrial/MARK ENGINEERING WORKS/2WhatsApp-Image-2020-07-08-at-13.25.52-800x521.jpeg",
+      "/project/industrial/MARK ENGINEERING WORKS/MARK-1-800x534.jpg",
+      "/project/industrial/MARK ENGINEERING WORKS/MARK-2-800x524.jpg",
+      "/project/industrial/MARK ENGINEERING WORKS/MARK-3-800x534.jpg",
+      "/project/industrial/MARK ENGINEERING WORKS/MARK-4-800x600.jpg",
+      "/project/industrial/MARK ENGINEERING WORKS/MARK-5-800x600.jpg",
+      "/project/industrial/MARK ENGINEERING WORKS/WhatsApp-Image-2020-07-08-at-13.25.51.jpeg",
+      "/project/industrial/MARK ENGINEERING WORKS/img-1.jpg",
+      "/project/industrial/MARK ENGINEERING WORKS/img-2.jpg",
+      "/project/industrial/MARK ENGINEERING WORKS/img-3.jpg",
+      "/project/industrial/MARK ENGINEERING WORKS/img-4.jpg",
+      "/project/industrial/MARK ENGINEERING WORKS/img-5.jpg"
+    ]
   },  {
     slug: "mark-engineering-works-80",
     name: "MARK ENGINEERING WORKS",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/MARK ENGINEERING WORKS 2/MarksNew-1-800x600.jpeg",
     status: "Completed",
     description: "Construction of MARK ENGINEERING WORKS in COIMBATORE.",
     details: {
@@ -4391,13 +4760,32 @@ export const projectsList: Project[] = [
       completionDate: "JUL’ 2021",
       consultant: "Ms/. Vesta Architects"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/MARK ENGINEERING WORKS 2/MarksNew-1-800x600.jpeg",
+      "/project/industrial/MARK ENGINEERING WORKS 2/MarksNew-2-800x600.jpeg",
+      "/project/industrial/MARK ENGINEERING WORKS 2/MarksNew-4-800x600.jpeg",
+      "/project/industrial/MARK ENGINEERING WORKS 2/MarksNew-5-800x600.jpeg",
+      "/project/industrial/MARK ENGINEERING WORKS 2/MarksNew-6-800x600.jpeg",
+      "/project/industrial/MARK ENGINEERING WORKS 2/mar-1-800x389.jpeg",
+      "/project/industrial/MARK ENGINEERING WORKS 2/mar-2-800x600.jpeg",
+      "/project/industrial/MARK ENGINEERING WORKS 2/mar-3-800x1067.jpeg",
+      "/project/industrial/MARK ENGINEERING WORKS 2/mar-4.jpeg",
+      "/project/industrial/MARK ENGINEERING WORKS 2/mrk-1-800x370.jpg",
+      "/project/industrial/MARK ENGINEERING WORKS 2/mrk-2-800x370.jpg",
+      "/project/industrial/MARK ENGINEERING WORKS 2/mrk-3-1-800x370.jpg",
+      "/project/industrial/MARK ENGINEERING WORKS 2/mrk-3-800x600.jpg",
+      "/project/industrial/MARK ENGINEERING WORKS 2/mrk-4-1.jpg",
+      "/project/industrial/MARK ENGINEERING WORKS 2/mrk-4-2-800x370.jpg",
+      "/project/industrial/MARK ENGINEERING WORKS 2/mrk-5-1-800x370.jpg",
+      "/project/industrial/MARK ENGINEERING WORKS 2/mrk-5-800x600.jpg",
+      "/project/industrial/MARK ENGINEERING WORKS 2/mrk-6-800x370.jpg"
+    ]
   },  {
     slug: "marudhamalai-industrial-logistics-park-coimbatore-by-81",
     name: "Marudhamalai Industrial & Logistics Park,   Coimbatore (by)",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/Marudhamalai Industrial & Logistics Park, Coimbatore (by)/ILP-2-800x363.jpeg",
     status: "Completed",
     description: "Construction of Marudhamalai Industrial & Logistics Park,   Coimbatore (by) in COIMBATORE.",
     details: {
@@ -4408,13 +4796,37 @@ export const projectsList: Project[] = [
       completionDate: "OCT’ 2021",
       consultant: "M/ s Tata Consulting Engineers Pvt Ltd,"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/Marudhamalai Industrial & Logistics Park, Coimbatore (by)/ILP-2-800x363.jpeg",
+      "/project/industrial/Marudhamalai Industrial & Logistics Park, Coimbatore (by)/MAILP-1-4-800x450.jpeg",
+      "/project/industrial/Marudhamalai Industrial & Logistics Park, Coimbatore (by)/MAILP-11-800x600.jpg",
+      "/project/industrial/Marudhamalai Industrial & Logistics Park, Coimbatore (by)/MAILP-2-3-800x450.jpeg",
+      "/project/industrial/Marudhamalai Industrial & Logistics Park, Coimbatore (by)/MAILP-3-3-800x600.jpeg",
+      "/project/industrial/Marudhamalai Industrial & Logistics Park, Coimbatore (by)/MAILP-3-800x450.jpeg",
+      "/project/industrial/Marudhamalai Industrial & Logistics Park, Coimbatore (by)/MAILP-7-3-800x450.jpeg",
+      "/project/industrial/Marudhamalai Industrial & Logistics Park, Coimbatore (by)/MAILP-8-800x450.jpeg",
+      "/project/industrial/Marudhamalai Industrial & Logistics Park, Coimbatore (by)/MAILP-8-800x600.jpg",
+      "/project/industrial/Marudhamalai Industrial & Logistics Park, Coimbatore (by)/Mailp-10-800x370.jpeg",
+      "/project/industrial/Marudhamalai Industrial & Logistics Park, Coimbatore (by)/Mailp-3-1-800x600.jpeg",
+      "/project/industrial/Marudhamalai Industrial & Logistics Park, Coimbatore (by)/Mailp-5-1.jpeg",
+      "/project/industrial/Marudhamalai Industrial & Logistics Park, Coimbatore (by)/Mailp-9-800x600.jpeg",
+      "/project/industrial/Marudhamalai Industrial & Logistics Park, Coimbatore (by)/aerial2-800x450.jpg",
+      "/project/industrial/Marudhamalai Industrial & Logistics Park, Coimbatore (by)/arial-800x450.jpg",
+      "/project/industrial/Marudhamalai Industrial & Logistics Park, Coimbatore (by)/exit-800x450.jpg",
+      "/project/industrial/Marudhamalai Industrial & Logistics Park, Coimbatore (by)/front-aerial-800x450.jpg",
+      "/project/industrial/Marudhamalai Industrial & Logistics Park, Coimbatore (by)/main-entry-800x450.jpg",
+      "/project/industrial/Marudhamalai Industrial & Logistics Park, Coimbatore (by)/mp-2-800x450.jpeg",
+      "/project/industrial/Marudhamalai Industrial & Logistics Park, Coimbatore (by)/north-east-800x448.jpg",
+      "/project/industrial/Marudhamalai Industrial & Logistics Park, Coimbatore (by)/north-east-view-800x450.jpg",
+      "/project/industrial/Marudhamalai Industrial & Logistics Park, Coimbatore (by)/north-west-800x450.jpg",
+      "/project/industrial/Marudhamalai Industrial & Logistics Park, Coimbatore (by)/northwest-800x448.jpg"
+    ]
   },  {
     slug: "motherson-group-of-companies-82",
     name: "MOTHERSON GROUP OF COMPANIES",
     category: "Industrial",
     location: "CHENNAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/MOTHERSON GROUP OF COMPANIES/1.png",
     status: "Completed",
     description: "Construction of MOTHERSON GROUP OF COMPANIES in CHENNAI.",
     details: {
@@ -4425,13 +4837,17 @@ export const projectsList: Project[] = [
       completionDate: "JUL’ 2022",
       consultant: "Ms/. Vesta Architects"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/MOTHERSON GROUP OF COMPANIES/1.png",
+      "/project/industrial/MOTHERSON GROUP OF COMPANIES/2.jpg",
+      "/project/industrial/MOTHERSON GROUP OF COMPANIES/3.jpeg"
+    ]
   },  {
     slug: "perfect-engineers-83",
     name: "PERFECT ENGINEERS",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/PERFECT ENGINEERS/IMG20180303092922-800x600.jpg",
     status: "Completed",
     description: "Construction of PERFECT ENGINEERS in COIMBATORE.",
     details: {
@@ -4442,13 +4858,23 @@ export const projectsList: Project[] = [
       completionDate: "MAR’2018",
       consultant: "M/s. Taamaesek Engineering"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/PERFECT ENGINEERS/IMG20180303092922-800x600.jpg",
+      "/project/industrial/PERFECT ENGINEERS/PERFECT-1-800x449.jpg",
+      "/project/industrial/PERFECT ENGINEERS/PERFECT-2-800x600.jpg",
+      "/project/industrial/PERFECT ENGINEERS/PERFECT-3-800x450.jpg",
+      "/project/industrial/PERFECT ENGINEERS/PERFECT-4-800x450.jpg",
+      "/project/industrial/PERFECT ENGINEERS/PERFECT-5-800x450.jpg",
+      "/project/industrial/PERFECT ENGINEERS/PERFECT-6-800x450.jpg",
+      "/project/industrial/PERFECT ENGINEERS/PERFECT-7-800x450.jpg",
+      "/project/industrial/PERFECT ENGINEERS/PERFECT-8-800x450.jpg"
+    ]
   },  {
     slug: "perfect-engineers-phase-ii-84",
     name: "PERFECT ENGINEERS PHASE-II",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/PERFECT ENGINEERS PHASE-II/IMG20200702093848-800x400.jpg",
     status: "Completed",
     description: "Construction of PERFECT ENGINEERS PHASE-II in COIMBATORE.",
     details: {
@@ -4459,13 +4885,31 @@ export const projectsList: Project[] = [
       completionDate: "DEC’ 2021",
       consultant: "M/s. Perfect Engineers"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/PERFECT ENGINEERS PHASE-II/IMG20200702093848-800x400.jpg",
+      "/project/industrial/PERFECT ENGINEERS PHASE-II/IMG20200702093909-800x400.jpg",
+      "/project/industrial/PERFECT ENGINEERS PHASE-II/IMG20200702093918.jpg",
+      "/project/industrial/PERFECT ENGINEERS PHASE-II/IMG_20210831_161157-rotated-e1630575947386-800x385 (1).jpg",
+      "/project/industrial/PERFECT ENGINEERS PHASE-II/IMG_20210831_161157-rotated-e1630575947386-800x385.jpg",
+      "/project/industrial/PERFECT ENGINEERS PHASE-II/IMG_20210831_161424-rotated.jpg",
+      "/project/industrial/PERFECT ENGINEERS PHASE-II/IMG_20210831_161428-800x391.jpg",
+      "/project/industrial/PERFECT ENGINEERS PHASE-II/IMG_20210831_162414-800x362.jpg",
+      "/project/industrial/PERFECT ENGINEERS PHASE-II/IMG_20210831_162417-800x362.jpg",
+      "/project/industrial/PERFECT ENGINEERS PHASE-II/IMG_20210831_162528-800x362.jpg",
+      "/project/industrial/PERFECT ENGINEERS PHASE-II/IMG_20210831_162536-800x362.jpg",
+      "/project/industrial/PERFECT ENGINEERS PHASE-II/IMG_20210831_162545-800x362.jpg",
+      "/project/industrial/PERFECT ENGINEERS PHASE-II/Perfect-2-800x400.jpg",
+      "/project/industrial/PERFECT ENGINEERS PHASE-II/Perfect-3-800x400.jpg",
+      "/project/industrial/PERFECT ENGINEERS PHASE-II/pp3-1-800x600.jpeg",
+      "/project/industrial/PERFECT ENGINEERS PHASE-II/pp3-2-800x600.jpeg",
+      "/project/industrial/PERFECT ENGINEERS PHASE-II/pp3-3-800x600.jpeg"
+    ]
   },  {
     slug: "propel-industries-private-limited-85",
     name: "PROPEL INDUSTRIES PRIVATE LIMITED",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/10_PROPEL-INDUSTRIES-800x600.jpg",
     status: "Completed",
     description: "Construction of PROPEL INDUSTRIES PRIVATE LIMITED in COIMBATORE.",
     details: {
@@ -4476,13 +4920,30 @@ export const projectsList: Project[] = [
       completionDate: "SEP’ 2020",
       consultant: "M/s. KSM Architecture"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/10_PROPEL-INDUSTRIES-800x600.jpg",
+      "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/DSC02556-800x533.jpg",
+      "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/DSC02566-800x533.jpg",
+      "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/DSC02572-800x533.jpg",
+      "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/DSC02574-800x533.jpg",
+      "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/IMG-20171208-WA0009-800x600.jpg",
+      "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/IMG-20190524-WA0013-800x450.jpg",
+      "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/IMG_20190511_171437-800x600.jpg",
+      "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/img-1-32-800x600.jpg",
+      "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/img-2-32-800x600.jpg",
+      "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/img-3-31-800x600.jpg",
+      "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/img-4-28-800x600.jpg",
+      "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/img-5-26-800x600.jpg",
+      "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/img-6-21-800x598.jpg",
+      "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/img-7-16-800x598.jpg",
+      "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/img-9-13-800x598.jpg"
+    ]
   },  {
     slug: "propel-industries-pvt-ltd-86",
     name: "PROPEL INDUSTRIES PVT LTD",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/PROPEL INDUSTRIES PVT LTD/DSC02662-800x533.jpg",
     status: "Completed",
     description: "Construction of PROPEL INDUSTRIES PVT LTD in COIMBATORE.",
     details: {
@@ -4493,7 +4954,11 @@ export const projectsList: Project[] = [
       completionDate: "JUL’ 2018",
       consultant: "M/s. S.G.Structural Engineers,"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/PROPEL INDUSTRIES PVT LTD/DSC02662-800x533.jpg",
+      "/project/industrial/PROPEL INDUSTRIES PVT LTD/DSC02664-800x533.jpg",
+      "/project/industrial/PROPEL INDUSTRIES PVT LTD/DSC02667-800x533.jpg"
+    ]
   },  {
     slug: "proposed-expansion-of-power-house-87",
     name: "Proposed Expansion of Power house",
@@ -4533,7 +4998,7 @@ export const projectsList: Project[] = [
     name: "SAKTHI GEAR PRODUCTS",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/SAKTHI GEAR PRODUCTS/sakthi-1.jpg",
     status: "Completed",
     description: "Construction of SAKTHI GEAR PRODUCTS in COIMBATORE.",
     details: {
@@ -4544,13 +5009,16 @@ export const projectsList: Project[] = [
       completionDate: "SEP’ 2016",
       consultant: "Ms/. Vesta Architects"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/SAKTHI GEAR PRODUCTS/sakthi-1.jpg",
+      "/project/industrial/SAKTHI GEAR PRODUCTS/sakthi-2.jpg"
+    ]
   },  {
     slug: "schuf-speciality-valves-india-pvt-ltd-90",
     name: "SCHUF SPECIALITY VALVES INDIA PVT LTD",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/SCHUF SPECIALITY VALVES INDIA PVT LTD/90-800x600.jpg",
     status: "Completed",
     description: "Construction of SCHUF SPECIALITY VALVES INDIA PVT LTD in COIMBATORE.",
     details: {
@@ -4561,13 +5029,19 @@ export const projectsList: Project[] = [
       completionDate: "FEB’2008",
       consultant: "M/S. Sankar & Associates"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/SCHUF SPECIALITY VALVES INDIA PVT LTD/90-800x600.jpg",
+      "/project/industrial/SCHUF SPECIALITY VALVES INDIA PVT LTD/Schuf-1-800x600.jpg",
+      "/project/industrial/SCHUF SPECIALITY VALVES INDIA PVT LTD/Schuf-2-800x600.jpg",
+      "/project/industrial/SCHUF SPECIALITY VALVES INDIA PVT LTD/Schuf-3-800x535.jpg",
+      "/project/industrial/SCHUF SPECIALITY VALVES INDIA PVT LTD/Schuf-4-800x600.jpg"
+    ]
   },  {
     slug: "secan-engineering-91",
     name: "SECAN ENGINEERING",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/SECAN ENGINEERING/SECAN-800x450.png",
     status: "Completed",
     description: "Construction of SECAN ENGINEERING in COIMBATORE.",
     details: {
@@ -4578,13 +5052,17 @@ export const projectsList: Project[] = [
       completionDate: "MAR'2025",
       consultant: "M/s. Anusamm Consultants,"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/SECAN ENGINEERING/SECAN-800x450.png",
+      "/project/industrial/SECAN ENGINEERING/SECAN1-800x493.jpg",
+      "/project/industrial/SECAN ENGINEERING/SECAN2-800x599.jpg"
+    ]
   },  {
     slug: "shanthamani-spinners-92",
     name: "SHANTHAMANI SPINNERS",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/SHANTHAMANI SPINNERS/img-1-1.jpg",
     status: "Completed",
     description: "Construction of SHANTHAMANI SPINNERS in COIMBATORE.",
     details: {
@@ -4595,13 +5073,20 @@ export const projectsList: Project[] = [
       completionDate: "DEC’ 2017",
       consultant: "Client Engineer"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/SHANTHAMANI SPINNERS/img-1-1.jpg",
+      "/project/industrial/SHANTHAMANI SPINNERS/img-2-1.jpg",
+      "/project/industrial/SHANTHAMANI SPINNERS/img-3-1.jpg",
+      "/project/industrial/SHANTHAMANI SPINNERS/img-4-1.jpg",
+      "/project/industrial/SHANTHAMANI SPINNERS/img-5-1.jpg",
+      "/project/industrial/SHANTHAMANI SPINNERS/img-6.jpg"
+    ]
   },  {
     slug: "snf-components-private-limited-93",
     name: "SNF COMPONENTS PRIVATE LIMITED",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/DSC02668-800x534.jpg",
     status: "Completed",
     description: "Construction of SNF COMPONENTS PRIVATE LIMITED in COIMBATORE.",
     details: {
@@ -4612,13 +5097,27 @@ export const projectsList: Project[] = [
       completionDate: "OCT’ 2019",
       consultant: "M/s. SG Structural Engineers"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/DSC02668-800x534.jpg",
+      "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/DSC02669-800x534.jpg",
+      "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/DSC02671-800x534.jpg",
+      "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/DSC02672-800x534.jpg",
+      "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/WhatsApp-Image-2019-05-30-at-13.06.58-800x389.jpeg",
+      "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/WhatsApp-Image-2019-05-30-at-13.07.01-800x389.jpeg",
+      "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/WhatsApp-Image-2019-05-30-at-13.08.20-800x389.jpeg",
+      "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/WhatsApp-Image-2019-05-30-at-13.26.10-800x389.jpeg",
+      "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/img-1-36-800x389.jpg",
+      "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/img-2-36-800x389.jpg",
+      "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/img-3-35-800x389.jpg",
+      "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/img-4-31-800x389.jpg",
+      "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/img-5-29-800x389.jpg"
+    ]
   },  {
     slug: "sri-ranganather-valves-controls-p-ltd-unit-ii-94",
     name: "Sri Ranganather Valves & Controls(P)Ltd   Unit II",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/DSC02531-800x534.jpg",
     status: "Completed",
     description: "Construction of Sri Ranganather Valves & Controls(P)Ltd   Unit II in COIMBATORE.",
     details: {
@@ -4629,13 +5128,42 @@ export const projectsList: Project[] = [
       completionDate: "Jun’ 2022",
       consultant: "M/s. M. Dharmalingam Associates,"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/DSC02531-800x534.jpg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/DSC02533-800x534.jpg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/DSC02539-800x534.jpg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/DSC02542-800x534.jpg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/RI-1-800x450.jpg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/RI-10-800x450.jpg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/RI-12-800x450.jpg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/RI-13-800x450.jpg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/RI-2-800x450.jpg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/RI-3-800x450.jpg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/RI-4-800x450.jpg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/RI-5-800x450.jpg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/RI-7-800x450.jpg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/RI-8-800x450.jpg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/SRI-1-800x400.jpg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/Sri-1-800x400.jpeg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/Sri-10-800x400.jpeg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/Sri-11-800x400.jpeg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/Sri-12-800x400.jpeg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/Sri-13-800x400.jpeg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/Sri-4-800x400.jpeg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/Sri-5-800x400.jpeg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/Sri-7-800x400.jpeg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/Sri-8-800x400.jpeg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/Sri-9-800x400.jpeg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/img-1-37-800x388.jpg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/img-6-24-800x388.jpg",
+      "/project/industrial/Sri Ranganather Valves & Controls(P)Ltd Unit II/img-7-19-800x599.jpg"
+    ]
   },  {
     slug: "sri-srinivasa-textiles-95",
     name: "SRI SRINIVASA TEXTILES",
     category: "Industrial",
     location: "TIRPUR",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/SRI SRINIVASA TEXTILES/SST-1-800x600.jpg",
     status: "Completed",
     description: "Construction of SRI SRINIVASA TEXTILES in TIRPUR.",
     details: {
@@ -4646,7 +5174,28 @@ export const projectsList: Project[] = [
       completionDate: "Sep’ 2020",
       consultant: "Ms/. Vesta Architects"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/SRI SRINIVASA TEXTILES/SST-1-800x600.jpg",
+      "/project/industrial/SRI SRINIVASA TEXTILES/SST-10-800x600.jpg",
+      "/project/industrial/SRI SRINIVASA TEXTILES/SST-11-800x600.jpg",
+      "/project/industrial/SRI SRINIVASA TEXTILES/SST-12-800x600.jpg",
+      "/project/industrial/SRI SRINIVASA TEXTILES/SST-2-800x600.jpg",
+      "/project/industrial/SRI SRINIVASA TEXTILES/SST-3-800x369.jpeg",
+      "/project/industrial/SRI SRINIVASA TEXTILES/SST-3-800x600.jpg",
+      "/project/industrial/SRI SRINIVASA TEXTILES/SST-4-800x369.jpeg",
+      "/project/industrial/SRI SRINIVASA TEXTILES/SST-5-800x369.jpeg",
+      "/project/industrial/SRI SRINIVASA TEXTILES/SST-5-800x600.jpg",
+      "/project/industrial/SRI SRINIVASA TEXTILES/SST-6-800x369.jpeg",
+      "/project/industrial/SRI SRINIVASA TEXTILES/SST-7-800x369.jpeg",
+      "/project/industrial/SRI SRINIVASA TEXTILES/SST-7-800x600.jpg",
+      "/project/industrial/SRI SRINIVASA TEXTILES/SST-8-800x600.jpg",
+      "/project/industrial/SRI SRINIVASA TEXTILES/SST-9-800x600.jpg",
+      "/project/industrial/SRI SRINIVASA TEXTILES/ST-3-800x369.jpeg",
+      "/project/industrial/SRI SRINIVASA TEXTILES/Srinivasa-1-800x375.jpg",
+      "/project/industrial/SRI SRINIVASA TEXTILES/Srinivasa-14-800x375.jpg",
+      "/project/industrial/SRI SRINIVASA TEXTILES/Srinivasa-6-800x375.jpg",
+      "/project/industrial/SRI SRINIVASA TEXTILES/Srinivasa-9-800x375.jpg"
+    ]
   },  {
     slug: "sri-unit-2-knock-out-pattern-storage-and-machine-foundation-96",
     name: "SRI Unit - 2 Knock out, Pattern storage and   Machine foundation",
@@ -4667,7 +5216,7 @@ export const projectsList: Project[] = [
     name: "SUPER SPINNING MILLS LIMITED",
     category: "Industrial",
     location: "HINDUPUR",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/SUPER SPINNING MILLS LIMITED/SSM-1-800x532.jpg",
     status: "Completed",
     description: "Construction of SUPER SPINNING MILLS LIMITED in HINDUPUR.",
     details: {
@@ -4678,13 +5227,26 @@ export const projectsList: Project[] = [
       completionDate: "OCT’ 2007",
       consultant: "M/S. Sankar & Associates,"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/SUPER SPINNING MILLS LIMITED/SSM-1-800x532.jpg",
+      "/project/industrial/SUPER SPINNING MILLS LIMITED/SSM-10.jpg",
+      "/project/industrial/SUPER SPINNING MILLS LIMITED/SSM-11-800x598.jpg",
+      "/project/industrial/SUPER SPINNING MILLS LIMITED/SSM-12-800x598.jpg",
+      "/project/industrial/SUPER SPINNING MILLS LIMITED/SSM-13-800x598.jpg",
+      "/project/industrial/SUPER SPINNING MILLS LIMITED/SSM-2-800x530.jpg",
+      "/project/industrial/SUPER SPINNING MILLS LIMITED/SSM-3-800x530.jpg",
+      "/project/industrial/SUPER SPINNING MILLS LIMITED/SSM-4-800x530.jpg",
+      "/project/industrial/SUPER SPINNING MILLS LIMITED/SSM-6.jpg",
+      "/project/industrial/SUPER SPINNING MILLS LIMITED/SSM-7.jpg",
+      "/project/industrial/SUPER SPINNING MILLS LIMITED/SSM-8.jpg",
+      "/project/industrial/SUPER SPINNING MILLS LIMITED/SSM-9.jpg"
+    ]
   },  {
     slug: "tharun-balaji-spinners-98",
     name: "THARUN BALAJI SPINNERS",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/THARUN BALAJI SPINNERS/TB-1.jpg",
     status: "Completed",
     description: "Construction of THARUN BALAJI SPINNERS in COIMBATORE.",
     details: {
@@ -4695,13 +5257,20 @@ export const projectsList: Project[] = [
       completionDate: "SEP’ 2017",
       consultant: "Ms/. Vesta Architects"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/THARUN BALAJI SPINNERS/TB-1.jpg",
+      "/project/industrial/THARUN BALAJI SPINNERS/TB-2-800x468.jpg",
+      "/project/industrial/THARUN BALAJI SPINNERS/TB-3-800x600.jpg",
+      "/project/industrial/THARUN BALAJI SPINNERS/TB-4-800x600.jpg",
+      "/project/industrial/THARUN BALAJI SPINNERS/img-1-6.jpg",
+      "/project/industrial/THARUN BALAJI SPINNERS/img-2-5.jpg"
+    ]
   },  {
     slug: "velmurugan-heavy-engineering-industries-99",
     name: "VELMURUGAN HEAVY ENGINEERING INDUSTRIES",
     category: "Industrial",
     location: "THANJAVUR",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/VELMURUGAN HEAVY ENGINEERING INDUSTRIES/VHEI-1-800x600.jpeg",
     status: "Completed",
     description: "Construction of VELMURUGAN HEAVY ENGINEERING INDUSTRIES in THANJAVUR.",
     details: {
@@ -4712,13 +5281,23 @@ export const projectsList: Project[] = [
       completionDate: "JUN’ 2024",
       consultant: "Client Engineer"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/VELMURUGAN HEAVY ENGINEERING INDUSTRIES/VHEI-1-800x600.jpeg",
+      "/project/industrial/VELMURUGAN HEAVY ENGINEERING INDUSTRIES/VHEI-2-800x600.jpeg",
+      "/project/industrial/VELMURUGAN HEAVY ENGINEERING INDUSTRIES/VHEI-3-800x600.jpeg",
+      "/project/industrial/VELMURUGAN HEAVY ENGINEERING INDUSTRIES/VHEI-4-800x600.jpeg",
+      "/project/industrial/VELMURUGAN HEAVY ENGINEERING INDUSTRIES/VHEI-5-800x600.jpeg",
+      "/project/industrial/VELMURUGAN HEAVY ENGINEERING INDUSTRIES/VHEI-6-800x600.jpeg",
+      "/project/industrial/VELMURUGAN HEAVY ENGINEERING INDUSTRIES/VHEI-7-800x600.jpeg",
+      "/project/industrial/VELMURUGAN HEAVY ENGINEERING INDUSTRIES/VHEI-8-800x600.jpeg",
+      "/project/industrial/VELMURUGAN HEAVY ENGINEERING INDUSTRIES/VHEI-9-800x600.jpeg"
+    ]
   },  {
     slug: "venkatalakshmi-paper-and-boards-100",
     name: "VENKATALAKSHMI PAPER AND BOARDS",
     category: "Industrial",
     location: "UDUMALPET",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLM-14-800x600.jpg",
     status: "Completed",
     description: "Construction of VENKATALAKSHMI PAPER AND BOARDS in UDUMALPET.",
     details: {
@@ -4729,7 +5308,22 @@ export const projectsList: Project[] = [
       completionDate: "APR’ 2021",
       consultant: "M/s. M. Dharmalingam Associates"
     },
-    gallery: []
+    gallery: [
+      "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLM-14-800x600.jpg",
+      "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLM-20-800x600.jpg",
+      "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLM-32-800x600.jpg",
+      "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLM-9-800x600.jpg",
+      "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLP-3-800x600.jpg",
+      "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLP-5-800x600.jpg",
+      "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLPM-2-800x600.jpg",
+      "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLPM-3-800x600.jpg",
+      "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLPM-4-800x600.jpg",
+      "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLPM-5-800x600.jpg",
+      "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLPM-7-800x600.jpg",
+      "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLPM-8-800x600.jpg",
+      "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/Ven-1-800x600.jpg",
+      "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VlP-3-1-800x600.jpg"
+    ]
   },  {
     slug: "construction-of-a-factory-building-101",
     name: "Construction of a Factory Building",

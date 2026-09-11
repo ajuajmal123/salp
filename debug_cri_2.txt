@@ -1,0 +1,42 @@
+cri-pumps-private-limited-57",
+    name: "CRI PUMPS PRIVATE LIMITED",
+    category: "Industrial",
+    location: "COIMBATORE",
+    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    status: "Completed",
+    description: "Construction of CRI PUMPS PRIVATE LIMITED in COIMBATORE.",
+    details: {
+      client: "CRI PUMPS PRIVATE LIMITED",
+      area: "44200 SFT",
+      floors: "GF",
+      startDate: "DEC’ 2018",
+      completionDate: "SEP'2019",
+      consultant: "M/s. Mithran Structures (P) Ltd.,"
+    },
+    gallery: []
+  },  {
+    slug: "cri-pumps-private-limited-58",
+    name: "CRI PUMPS PRIVATE LIMITED",
+    category: "Industrial",
+    location: "COIMBATORE",
+    imageUrl: "/project/industrial/CRI PUMPS PRIVATE LIMITED 2/CRI-1-800x399.jpg",
+    status: "Completed",
+    description: "Construction of CRI PUMPS PRIVATE LIMITED in COIMBATORE.",
+    details: {
+      client: "CRI PUMPS PRIVATE LIMITED",
+      area: "34000 SFT",
+      floors: "GF",
+      startDate: "Apr’ 2017",
+      completionDate: "Jun’ 2018",
+      consultant: "M/s. Design Tech"
+    },
+    gallery: [
+      "/project/industrial/CRI PUMPS PRIVATE LIMITED 2/CRI-1-800x399.jpg",
+      "/project/industrial/CRI PUMPS PRIVATE LIMITED 2/CRI-2-800x600.jpg",
+      "/project/industrial/CRI PUMPS PRIVATE LIMITED 2/CRI-3-800x452.jpg",
+      "/project/industrial/CRI PUMPS PRIVATE LIMITED 2/CRI-4-800x400.jpg",
+      "/project/industrial/CRI PUMPS PRIVATE LIMITED 2/CRI-5-800x400.jpg",
+      "/project/industrial/CRI PUMPS PRIVATE LIMITED 2/CRI-800x399.jpg"
+    ]
+  },  {
+    slug: "
