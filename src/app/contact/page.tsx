@@ -105,10 +105,18 @@ export default function ContactPage() {
                 <div className="flex items-start gap-3">
                   <MapPin className="w-5 h-5 text-sapl-blue shrink-0 mt-0.5" />
                   <span>
-                    7th Floor, Unit No. 713,<br />
-                    Barton Centre, No. 84, MG Road,<br />
-                    Bengaluru, Karnataka – 560001
+                    7th Floor, No. 84,<br />
+                    Unit No. 713,<br />
+                    Barton Centre, MG Road,<br />
+                    Bengaluru Urban,<br />
+                    Karnataka – 560001
                   </span>
+                </div>
+                <div className="flex items-center gap-3">
+                  <Phone className="w-5 h-5 text-sapl-blue shrink-0" />
+                  <a href="tel:+919842223012" className="font-bold hover:text-sapl-blue transition-colors">
+                    +91 98422 23012
+                  </a>
                 </div>
               </div>
             </div>

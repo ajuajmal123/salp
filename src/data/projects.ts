@@ -2025,7 +2025,7 @@ export const projectsList: Project[] = [
     name: "ADITHYA   CBSE SCHOOL",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/ADITHYA CBSE SCHOOL/Adithya-Idikarai-800x412.jpg",
     status: "Completed",
     description: "Construction of ADITHYA   CBSE SCHOOL in COIMBATORE.",
     details: {
@@ -2035,13 +2035,19 @@ export const projectsList: Project[] = [
       startDate: "MAR’2014",
       completionDate: "JAN’   2015"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/ADITHYA CBSE SCHOOL/Adithya-Idikarai-800x412.jpg",
+      "/project/institutional/ADITHYA CBSE SCHOOL/DSCN1188-800x600.jpg",
+      "/project/institutional/ADITHYA CBSE SCHOOL/adithya-international-school-coimbatore-638916226-800x209.jpg",
+      "/project/institutional/ADITHYA CBSE SCHOOL/aditya-1-1.jpg",
+      "/project/institutional/ADITHYA CBSE SCHOOL/aditya-2-1.jpg"
+    ]
   },  {
     slug: "adithya-institute-of-technology-2",
     name: "ADITHYA INSTITUTE OF TECHNOLOGY",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/ADD_00381-800x534.jpg",
     status: "Completed",
     description: "Construction of ADITHYA INSTITUTE OF TECHNOLOGY in COIMBATORE.",
     details: {
@@ -2051,13 +2057,24 @@ export const projectsList: Project[] = [
       startDate: "FEB’ 2008",
       completionDate: "AUG’2009"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/ADD_00381-800x534.jpg",
+      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/ADD_0191-800x534.jpg",
+      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/ADD_0233-800x534.jpg",
+      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/AIT-1-800x531.jpg",
+      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/AIT-2-800x531.jpg",
+      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/AIT-4-800x531.jpg",
+      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/AIT-5-800x531.jpg",
+      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/AIT-6-800x531.jpg",
+      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/DSC_0210-800x531.jpg",
+      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/DSC_0214-800x531.jpg"
+    ]
   },  {
     slug: "adithya-institute-of-technology-academic-building-3",
     name: "ADITHYA INSTITUTE OF TECHNOLOGY- ACADEMIC   BUILDING",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY- ACADEMIC BUILDING/AIT1-800x479.jpg",
     status: "Completed",
     description: "Construction of ADITHYA INSTITUTE OF TECHNOLOGY- ACADEMIC   BUILDING in COIMBATORE.",
     details: {
@@ -2067,13 +2084,18 @@ export const projectsList: Project[] = [
       startDate: "JUL’ 2023",
       completionDate: "MAR;2025"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY- ACADEMIC BUILDING/AIT1-800x479.jpg",
+      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY- ACADEMIC BUILDING/AIT2-800x515.jpg",
+      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY- ACADEMIC BUILDING/AIT3-800x489.jpg",
+      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY- ACADEMIC BUILDING/AIT4-800x580.jpg"
+    ]
   },  {
     slug: "adithya-matriculation-school-4",
     name: "ADITHYA MATRICULATION SCHOOL",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/ADITHYA MATRICULATION SCHOOL/aditya-1.jpg",
     status: "Completed",
     description: "Construction of ADITHYA MATRICULATION SCHOOL in COIMBATORE.",
     details: {
@@ -2083,13 +2105,18 @@ export const projectsList: Project[] = [
       startDate: "MAR’2014",
       completionDate: "JAN’ 2015"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/ADITHYA MATRICULATION SCHOOL/aditya-1.jpg",
+      "/project/institutional/ADITHYA MATRICULATION SCHOOL/aditya-2.jpg",
+      "/project/institutional/ADITHYA MATRICULATION SCHOOL/aditya-3.jpg",
+      "/project/institutional/ADITHYA MATRICULATION SCHOOL/unnamed.jpg"
+    ]
   },  {
     slug: "aditya-school-hostel-building-5",
     name: "ADITYA SCHOOL HOSTEL BUILDING",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/IMG_20190531_152035-800x600.jpg",
     status: "Completed",
     description: "Construction of ADITYA SCHOOL HOSTEL BUILDING in COIMBATORE.",
     details: {
@@ -2099,13 +2126,25 @@ export const projectsList: Project[] = [
       startDate: "NOV’ 2017",
       completionDate: "DEC’ 2018"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/IMG_20190531_152035-800x600.jpg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/img-1-12.jpg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/img-10-4-800x600.jpg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/img-2-12.jpg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/img-3-11.jpg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/img-4-9.jpg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/img-5-9.jpg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/img-6-8.jpg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/img-7-6-800x600.jpg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/img-8-5-800x600.jpg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/img-9-4-800x600.jpg"
+    ]
   },  {
     slug: "aditya-school-hostel-building-phase-ii-6",
     name: "ADITYA SCHOOL HOSTEL BUILDING PHASE II",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING PHASE II/AH-1-800x600.jpeg",
     status: "Completed",
     description: "Construction of ADITYA SCHOOL HOSTEL BUILDING PHASE II in COIMBATORE.",
     details: {
@@ -2115,13 +2154,29 @@ export const projectsList: Project[] = [
       startDate: "DEC’ 2019",
       completionDate: "JAN’ 2021"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING PHASE II/AH-1-800x600.jpeg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING PHASE II/AH-10-800x600.jpeg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING PHASE II/AH-11-800x600.jpeg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING PHASE II/AH-12-800x600.jpeg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING PHASE II/AH-2-800x360.jpg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING PHASE II/AH-2-800x600.jpeg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING PHASE II/AH-3-800x360.jpg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING PHASE II/AH-3-800x600.jpeg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING PHASE II/AH-4-800x600.jpeg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING PHASE II/AH-5-800x600.jpeg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING PHASE II/AH-6-800x600.jpeg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING PHASE II/AH-7-800x600.jpeg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING PHASE II/AH-8-800x600.jpeg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING PHASE II/AH-9-800x600.jpeg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING PHASE II/AH-9-800x600.jpg"
+    ]
   },  {
     slug: "arjun-college-of-technology-7",
     name: "ARJUN COLLEGE OF TECHNOLOGY",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/ARJUN COLLEGE OF TECHNOLOGY/Arjun-1-800x384.jpeg",
     status: "Completed",
     description: "Construction of ARJUN COLLEGE OF TECHNOLOGY in COIMBATORE.",
     details: {
@@ -2131,7 +2186,25 @@ export const projectsList: Project[] = [
       startDate: "OCT’2012",
       completionDate: "NOV’ 2014"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/ARJUN COLLEGE OF TECHNOLOGY/Arjun-1-800x384.jpeg",
+      "/project/institutional/ARJUN COLLEGE OF TECHNOLOGY/Arjun-10-800x384.jpeg",
+      "/project/institutional/ARJUN COLLEGE OF TECHNOLOGY/Arjun-2-1-800x384.jpeg",
+      "/project/institutional/ARJUN COLLEGE OF TECHNOLOGY/Arjun-2-800x207.jpeg",
+      "/project/institutional/ARJUN COLLEGE OF TECHNOLOGY/Arjun-3-1-800x384.jpeg",
+      "/project/institutional/ARJUN COLLEGE OF TECHNOLOGY/Arjun-3-800x533.jpeg",
+      "/project/institutional/ARJUN COLLEGE OF TECHNOLOGY/Arjun-4-1-800x384.jpeg",
+      "/project/institutional/ARJUN COLLEGE OF TECHNOLOGY/Arjun-4-800x533.jpeg",
+      "/project/institutional/ARJUN COLLEGE OF TECHNOLOGY/Arjun-5-800x384.jpeg",
+      "/project/institutional/ARJUN COLLEGE OF TECHNOLOGY/Arjun-6-1-800x384.jpeg",
+      "/project/institutional/ARJUN COLLEGE OF TECHNOLOGY/Arjun-6-800x533.jpeg",
+      "/project/institutional/ARJUN COLLEGE OF TECHNOLOGY/Arjun-7-1-800x384.jpeg",
+      "/project/institutional/ARJUN COLLEGE OF TECHNOLOGY/Arjun-7-800x399.jpeg",
+      "/project/institutional/ARJUN COLLEGE OF TECHNOLOGY/Arjun-8-1-800x384.jpeg",
+      "/project/institutional/ARJUN COLLEGE OF TECHNOLOGY/Arjun-8-800x450.jpeg",
+      "/project/institutional/ARJUN COLLEGE OF TECHNOLOGY/Arjun-9-800x426.jpeg",
+      "/project/institutional/ARJUN COLLEGE OF TECHNOLOGY/SAPL-Diary-Final-6B-800x315.jpg"
+    ]
   },  {
     slug: "civil-and-allied-works-8",
     name: "Civil and allied works",
@@ -2313,7 +2386,7 @@ export const projectsList: Project[] = [
     name: "HINDUSTHAN COLLEGE OF ARTS & SCIENCE",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/HINDUSTHAN COLLEGE OF ARTS & SCIENCE/1-1-800x1318.jpg",
     status: "Completed",
     description: "Construction of HINDUSTHAN COLLEGE OF ARTS & SCIENCE in COIMBATORE.",
     details: {
@@ -2323,13 +2396,21 @@ export const projectsList: Project[] = [
       startDate: "MAR’ 2016",
       completionDate: "APR’ 2019"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/HINDUSTHAN COLLEGE OF ARTS & SCIENCE/1-1-800x1318.jpg",
+      "/project/institutional/HINDUSTHAN COLLEGE OF ARTS & SCIENCE/Hin-1.jpg",
+      "/project/institutional/HINDUSTHAN COLLEGE OF ARTS & SCIENCE/Hin-2-800x534.jpg",
+      "/project/institutional/HINDUSTHAN COLLEGE OF ARTS & SCIENCE/Hin-3-800x600.jpg",
+      "/project/institutional/HINDUSTHAN COLLEGE OF ARTS & SCIENCE/Hin-4-800x600.jpg",
+      "/project/institutional/HINDUSTHAN COLLEGE OF ARTS & SCIENCE/Hin-5-800x451.jpg",
+      "/project/institutional/HINDUSTHAN COLLEGE OF ARTS & SCIENCE/hindusthan-800x600.jpg"
+    ]
   },  {
     slug: "kfi-the-school-20",
     name: "KFI-THE SCHOOL",
     category: "Institutional",
     location: "CHENNAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/KFI-THE SCHOOL/01-1.jpg",
     status: "Completed",
     description: "Construction of KFI-THE SCHOOL in CHENNAI.",
     details: {
@@ -2339,13 +2420,32 @@ export const projectsList: Project[] = [
       startDate: "JUN’ 2017",
       completionDate: "SEP’ 2018"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/KFI-THE SCHOOL/01-1.jpg",
+      "/project/institutional/KFI-THE SCHOOL/01-2.jpg",
+      "/project/institutional/KFI-THE SCHOOL/01-800x543.jpg",
+      "/project/institutional/KFI-THE SCHOOL/02-800x543.jpg",
+      "/project/institutional/KFI-THE SCHOOL/03-1.jpg",
+      "/project/institutional/KFI-THE SCHOOL/03-2.jpg",
+      "/project/institutional/KFI-THE SCHOOL/03.jpg",
+      "/project/institutional/KFI-THE SCHOOL/04.jpg",
+      "/project/institutional/KFI-THE SCHOOL/07-1.jpg",
+      "/project/institutional/KFI-THE SCHOOL/07.jpg",
+      "/project/institutional/KFI-THE SCHOOL/3-800x409.jpg",
+      "/project/institutional/KFI-THE SCHOOL/5-800x423.jpg",
+      "/project/institutional/KFI-THE SCHOOL/img-1-3.jpg",
+      "/project/institutional/KFI-THE SCHOOL/img-2-3.jpg",
+      "/project/institutional/KFI-THE SCHOOL/img-3-3.jpg",
+      "/project/institutional/KFI-THE SCHOOL/img-4-3.jpg",
+      "/project/institutional/KFI-THE SCHOOL/img-5-3.jpg",
+      "/project/institutional/KFI-THE SCHOOL/img-6-2.jpg"
+    ]
   },  {
     slug: "kumaraguru-college-of-technology-21",
     name: "KUMARAGURU COLLEGE OF TECHNOLOGY",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-1-800x236.jpg",
     status: "Completed",
     description: "Construction of KUMARAGURU COLLEGE OF TECHNOLOGY in COIMBATORE.",
     details: {
@@ -2355,13 +2455,31 @@ export const projectsList: Project[] = [
       startDate: "NOV’2011",
       completionDate: "MAR’2013"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-1-800x236.jpg",
+      "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-10-800x450.jpg",
+      "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-11-800x450.jpg",
+      "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-12-800x450.jpg",
+      "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-13-800x600.jpg",
+      "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-14-800x600.jpg",
+      "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-15-800x600.jpg",
+      "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-16-800x600.jpg",
+      "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-17-800x600.jpg",
+      "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-3-800x600.jpg",
+      "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-4-800x600.jpg",
+      "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-6-800x600.jpg",
+      "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-7-800x600.jpg",
+      "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-8-800x600.jpg",
+      "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-9-800x450.jpg",
+      "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/kct-1.jpg",
+      "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/kct-3.jpg"
+    ]
   },  {
     slug: "m-s-d-j-academy-for-managerial-excellence-22",
     name: "M/s.D.J. ACADEMY FOR MANAGERIAL EXCELLENCE",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/Ms.D.J. ACADEMY FOR MANAGERIAL EXCELLENCE/DJ-1-800x446.jpeg",
     status: "Completed",
     description: "Construction of M/s.D.J. ACADEMY FOR MANAGERIAL EXCELLENCE in COIMBATORE.",
     details: {
@@ -2371,13 +2489,26 @@ export const projectsList: Project[] = [
       startDate: "MAR’ 2006",
       completionDate: "MAR’2007"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/Ms.D.J. ACADEMY FOR MANAGERIAL EXCELLENCE/DJ-1-800x446.jpeg",
+      "/project/institutional/Ms.D.J. ACADEMY FOR MANAGERIAL EXCELLENCE/DJ-1-800x600.jpg",
+      "/project/institutional/Ms.D.J. ACADEMY FOR MANAGERIAL EXCELLENCE/DJ-10-800x600.jpg",
+      "/project/institutional/Ms.D.J. ACADEMY FOR MANAGERIAL EXCELLENCE/DJ-2-800x600.jpg",
+      "/project/institutional/Ms.D.J. ACADEMY FOR MANAGERIAL EXCELLENCE/DJ-3-800x494.jpeg",
+      "/project/institutional/Ms.D.J. ACADEMY FOR MANAGERIAL EXCELLENCE/DJ-3-800x600.jpg",
+      "/project/institutional/Ms.D.J. ACADEMY FOR MANAGERIAL EXCELLENCE/DJ-4-800x600.jpg",
+      "/project/institutional/Ms.D.J. ACADEMY FOR MANAGERIAL EXCELLENCE/DJ-5-800x600.jpg",
+      "/project/institutional/Ms.D.J. ACADEMY FOR MANAGERIAL EXCELLENCE/DJ-6-800x600.jpg",
+      "/project/institutional/Ms.D.J. ACADEMY FOR MANAGERIAL EXCELLENCE/DJ-7-800x600.jpg",
+      "/project/institutional/Ms.D.J. ACADEMY FOR MANAGERIAL EXCELLENCE/DJ-8-800x600.jpg",
+      "/project/institutional/Ms.D.J. ACADEMY FOR MANAGERIAL EXCELLENCE/DJ-9-800x600.jpg"
+    ]
   },  {
     slug: "m-s-gkd-charity-trust-23",
     name: "M/s. GKD CHARITY TRUST",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/Ms. GKD CHARITY TRUST/DSCN0073-800x600.jpg",
     status: "Completed",
     description: "Construction of M/s. GKD CHARITY TRUST in COIMBATORE.",
     details: {
@@ -2387,13 +2518,19 @@ export const projectsList: Project[] = [
       startDate: "MAY’ 2004",
       completionDate: "AUG’ 2005"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/Ms. GKD CHARITY TRUST/DSCN0073-800x600.jpg",
+      "/project/institutional/Ms. GKD CHARITY TRUST/DSC_0016-800x537.jpg",
+      "/project/institutional/Ms. GKD CHARITY TRUST/DSC_0018-800x537.jpg",
+      "/project/institutional/Ms. GKD CHARITY TRUST/DSC_0021-800x537.jpg",
+      "/project/institutional/Ms. GKD CHARITY TRUST/DSC_0023-800x537.jpg"
+    ]
   },  {
     slug: "mahatma-montessori-school-24",
     name: "MAHATMA MONTESSORI SCHOOL",
     category: "Institutional",
     location: "MADURAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/MAHATMA MONTESSORI SCHOOL/Maha-1-800x534.jpg",
     status: "Completed",
     description: "Construction of MAHATMA MONTESSORI SCHOOL in MADURAI.",
     details: {
@@ -2403,13 +2540,20 @@ export const projectsList: Project[] = [
       startDate: "2010-08-01",
       completionDate: "2012-07-01"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/MAHATMA MONTESSORI SCHOOL/Maha-1-800x534.jpg",
+      "/project/institutional/MAHATMA MONTESSORI SCHOOL/Maha-2-800x531.jpg",
+      "/project/institutional/MAHATMA MONTESSORI SCHOOL/Maha-3-800x531.jpg",
+      "/project/institutional/MAHATMA MONTESSORI SCHOOL/Maha-4-800x531.jpg",
+      "/project/institutional/MAHATMA MONTESSORI SCHOOL/Maha-5-800x531.jpg",
+      "/project/institutional/MAHATMA MONTESSORI SCHOOL/Mahatma-Gandhi-School-800x485.jpg"
+    ]
   },  {
     slug: "mepco-schlenk-engineering-college-25",
     name: "MEPCO SCHLENK ENGINEERING COLLEGE",
     category: "Institutional",
     location: "SIVAKASI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/IMG-20221231-WA0000-800x600.jpg",
     status: "Completed",
     description: "Construction of MEPCO SCHLENK ENGINEERING COLLEGE in SIVAKASI.",
     details: {
@@ -2419,7 +2563,38 @@ export const projectsList: Project[] = [
       startDate: "FEB’ 2018",
       completionDate: "JAN’ 2020"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/IMG-20221231-WA0000-800x600.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/IMG-20221231-WA0001.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/IMG-20221231-WA0002-800x600.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/IMG-20221231-WA0003-800x600.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/IMG-20221231-WA0004-800x600.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/Mepco-1-800x450.jpeg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/Mepco-13-800x450.jpeg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/Mepco-14-800x450.jpeg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/Mepco-15-800x450.jpeg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/Mepco-16-800x450.jpeg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/Mepco-17-800x450.jpeg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/Mepco-2-800x450.jpeg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/Mepco-3-800x450.jpeg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/Mepco-4-800x450.jpeg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/Mepco-5-800x450.jpeg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/Mepco-6-800x450.jpeg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/Mepco-7-800x450.jpeg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/Mepco-8-800x450.jpeg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-1-23-800x450.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-10-9-800x450.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-2-23-800x450.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-3-21-800x600.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-3-22-800x450.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-4-20-800x450.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-5-19-800x450.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-6-16-800x450.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-7-12-800x450.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-8-10-800x450.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-9-9-800x450.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/mepco-800x600.jpeg"
+    ]
   },  {
     slug: "proposed-toilet-modification-work-gf-sf-gents-toilet-and-ff-ladies-toilet-26",
     name: "Proposed Toilet Modification work - GF & SF Gents Toilet and FF Ladies Toilet",
@@ -2439,7 +2614,7 @@ export const projectsList: Project[] = [
     name: "PSG IMS&R ONCOLOGY BLOCK",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/22e7ed7a-0812-4a79-9a00-efa2ffa64989.jpeg",
     status: "Completed",
     description: "Construction of PSG IMS&R ONCOLOGY BLOCK in COIMBATORE.",
     details: {
@@ -2449,13 +2624,33 @@ export const projectsList: Project[] = [
       startDate: "AUG’ 2020",
       completionDate: "FEB’ 2024"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/22e7ed7a-0812-4a79-9a00-efa2ffa64989.jpeg",
+      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/983e34be-b413-4852-a8f7-31182adc27d2-800x600.jpeg",
+      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/Onco-1-800x534.jpg",
+      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/Oncolo-3-800x361.jpeg",
+      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/Oncology-800x451.jpg",
+      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/Oncology1-800x517.jpg",
+      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/Oncology2-800x511.jpg",
+      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/Oncology3-800x497.jpg",
+      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/Oncology4-800x468.jpg",
+      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/Oncology5-800x510.jpg",
+      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/Oncology6-800x502.jpg",
+      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/Oncology7-800x489.jpg",
+      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/PSGOncology-4-800x452.jpg",
+      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/onc-7-800x389.jpeg",
+      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/oncb2-800x523.jpg",
+      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/oncology-800x450.jpeg",
+      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/psgo-1-800x452.jpg",
+      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/psgo-2-800x452.jpg",
+      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/psgo-3-800x452.jpg"
+    ]
   },  {
     slug: "psg-institute-of-medical-sciences-research-ladies-and-gents-hostel-28",
     name: "PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH (LADIES AND GENTS HOSTEL)",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH (LADIES AND GENTS HOSTEL)/DSC03503-800x534.jpg",
     status: "Completed",
     description: "Construction of PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH (LADIES AND GENTS HOSTEL) in COIMBATORE.",
     details: {
@@ -2465,13 +2660,21 @@ export const projectsList: Project[] = [
       startDate: "MAR’ 2016",
       completionDate: "NOV’ 2017"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH (LADIES AND GENTS HOSTEL)/DSC03503-800x534.jpg",
+      "/project/institutional/PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH (LADIES AND GENTS HOSTEL)/DSC03506-800x534.jpg",
+      "/project/institutional/PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH (LADIES AND GENTS HOSTEL)/DSC03511-800x534.jpg",
+      "/project/institutional/PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH (LADIES AND GENTS HOSTEL)/DSC03514-800x534.jpg",
+      "/project/institutional/PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH (LADIES AND GENTS HOSTEL)/PICTURE01-800x552.jpg",
+      "/project/institutional/PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH (LADIES AND GENTS HOSTEL)/PICTURE07-800x454.jpg",
+      "/project/institutional/PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH (LADIES AND GENTS HOSTEL)/PSG-IMSR-HOSTEL-800x600.jpg"
+    ]
   },  {
     slug: "psg-institute-of-technology-applied-research-29",
     name: "PSG INSTITUTE OF TECHNOLOGY & APPLIED RESEARCH",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/PSG INSTITUTE OF TECHNOLOGY & APPLIED RESEARCH/DSCF9105-800x600.jpg",
     status: "Completed",
     description: "Construction of PSG INSTITUTE OF TECHNOLOGY & APPLIED RESEARCH in COIMBATORE.",
     details: {
@@ -2481,13 +2684,22 @@ export const projectsList: Project[] = [
       startDate: "JUN’ 2015",
       completionDate: "JUN’ 2017"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/PSG INSTITUTE OF TECHNOLOGY & APPLIED RESEARCH/DSCF9105-800x600.jpg",
+      "/project/institutional/PSG INSTITUTE OF TECHNOLOGY & APPLIED RESEARCH/IMG_20160430_101710-800x450.jpg",
+      "/project/institutional/PSG INSTITUTE OF TECHNOLOGY & APPLIED RESEARCH/IMG_9784-ok-800x534.jpg",
+      "/project/institutional/PSG INSTITUTE OF TECHNOLOGY & APPLIED RESEARCH/IMG_9791-ko-800x534.jpg",
+      "/project/institutional/PSG INSTITUTE OF TECHNOLOGY & APPLIED RESEARCH/psg-itar-1.jpg",
+      "/project/institutional/PSG INSTITUTE OF TECHNOLOGY & APPLIED RESEARCH/psg-itar-2.jpg",
+      "/project/institutional/PSG INSTITUTE OF TECHNOLOGY & APPLIED RESEARCH/psg-itar-3.jpg",
+      "/project/institutional/PSG INSTITUTE OF TECHNOLOGY & APPLIED RESEARCH/psg-itar-4.jpg"
+    ]
   },  {
     slug: "ramakrishna-mission-vidyalaya-30",
     name: "RAMAKRISHNA MISSION VIDYALAYA",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/20200808_105443-800x370.jpg",
     status: "Completed",
     description: "Construction of RAMAKRISHNA MISSION VIDYALAYA in COIMBATORE.",
     details: {
@@ -2497,7 +2709,24 @@ export const projectsList: Project[] = [
       startDate: "Jan’ 2020",
       completionDate: "Apr’ 2022"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/20200808_105443-800x370.jpg",
+      "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/RMV-1-rotated.jpg",
+      "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/RMV-13-800x370.jpg",
+      "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/RMV-3-rotated.jpg",
+      "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/RMV-7-800x370.jpg",
+      "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/RMV-8-800x370.jpg",
+      "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/SRKV-1-1-800x400.jpg",
+      "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/SRKV-2-1-800x400.jpg",
+      "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/SRKV-3-1-800x400.jpg",
+      "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/SRKV-4-1-800x400.jpg",
+      "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/SRMV-1-800x448.jpg",
+      "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/SRMV-2-800x448.jpg",
+      "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/SRMV-4-800x459.jpg",
+      "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/srkv-2-800x361.jpg",
+      "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/srkv-4-800x400.jpg",
+      "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/srkv-5-800x400.jpg"
+    ]
   },  {
     slug: "renovation-work-in-d-block-and-boys-hostel-2-31",
     name: "Renovation work in \"D\" Block and Boys Hostel -2",
@@ -2519,7 +2748,7 @@ export const projectsList: Project[] = [
     name: "SRI KRISHNA COLLEGE OF TECHNOLOGY- BOYS HOSTEL 2",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/SRI KRISHNA COLLEGE OF TECHNOLOGY- BOYS HOSTEL 2/Krishna-1-800x450.jpeg",
     status: "Completed",
     description: "Construction of SRI KRISHNA COLLEGE OF TECHNOLOGY- BOYS HOSTEL 2 in COIMBATORE.",
     details: {
@@ -2529,13 +2758,26 @@ export const projectsList: Project[] = [
       startDate: "JAN’ 2022",
       completionDate: "DEC’2022"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/SRI KRISHNA COLLEGE OF TECHNOLOGY- BOYS HOSTEL 2/Krishna-1-800x450.jpeg",
+      "/project/institutional/SRI KRISHNA COLLEGE OF TECHNOLOGY- BOYS HOSTEL 2/Krishna-10-800x450.jpeg",
+      "/project/institutional/SRI KRISHNA COLLEGE OF TECHNOLOGY- BOYS HOSTEL 2/Krishna-11-800x600.jpeg",
+      "/project/institutional/SRI KRISHNA COLLEGE OF TECHNOLOGY- BOYS HOSTEL 2/Krishna-12-800x450.jpeg",
+      "/project/institutional/SRI KRISHNA COLLEGE OF TECHNOLOGY- BOYS HOSTEL 2/Krishna-2-800x361.jpeg",
+      "/project/institutional/SRI KRISHNA COLLEGE OF TECHNOLOGY- BOYS HOSTEL 2/Krishna-3-800x450.jpeg",
+      "/project/institutional/SRI KRISHNA COLLEGE OF TECHNOLOGY- BOYS HOSTEL 2/Krishna-4-800x361.jpeg",
+      "/project/institutional/SRI KRISHNA COLLEGE OF TECHNOLOGY- BOYS HOSTEL 2/Krishna-5-800x450.jpeg",
+      "/project/institutional/SRI KRISHNA COLLEGE OF TECHNOLOGY- BOYS HOSTEL 2/Krishna-6-800x450.jpeg",
+      "/project/institutional/SRI KRISHNA COLLEGE OF TECHNOLOGY- BOYS HOSTEL 2/Krishna-7-800x450.jpeg",
+      "/project/institutional/SRI KRISHNA COLLEGE OF TECHNOLOGY- BOYS HOSTEL 2/Krishna-8-800x450.jpeg",
+      "/project/institutional/SRI KRISHNA COLLEGE OF TECHNOLOGY- BOYS HOSTEL 2/Krishna-9-800x450.jpeg"
+    ]
   },  {
     slug: "sri-ramakrishna-engineering-college-33",
     name: "SRI RAMAKRISHNA ENGINEERING COLLEGE",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/SRI RAMAKRISHNA ENGINEERING COLLEGE/SREC1.jpg",
     status: "Completed",
     description: "Construction of SRI RAMAKRISHNA ENGINEERING COLLEGE in COIMBATORE.",
     details: {
@@ -2545,13 +2787,19 @@ export const projectsList: Project[] = [
       startDate: "1996",
       completionDate: "1998"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/SRI RAMAKRISHNA ENGINEERING COLLEGE/SREC1.jpg",
+      "/project/institutional/SRI RAMAKRISHNA ENGINEERING COLLEGE/SREC2.jpg",
+      "/project/institutional/SRI RAMAKRISHNA ENGINEERING COLLEGE/SREC3.jpg",
+      "/project/institutional/SRI RAMAKRISHNA ENGINEERING COLLEGE/SREC4.jpg",
+      "/project/institutional/SRI RAMAKRISHNA ENGINEERING COLLEGE/Sri-Ramakrishna-Engineering-College.jpg"
+    ]
   },  {
     slug: "sri-ramakrishna-institute-of-technology-34",
     name: "SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/SRIT-1-800x600.jpg",
     status: "Completed",
     description: "Construction of SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY in COIMBATORE.",
     details: {
@@ -2561,13 +2809,25 @@ export const projectsList: Project[] = [
       startDate: "2000",
       completionDate: "2002"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/SRIT-1-800x600.jpg",
+      "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/SRIT-10-800x600.jpg",
+      "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/SRIT-2-800x600.jpg",
+      "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/SRIT-3-800x600.jpg",
+      "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/SRIT-4-800x600.jpg",
+      "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/SRIT-5-800x600.jpg",
+      "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/SRIT-6-800x600.jpg",
+      "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/SRIT-7-800x600.jpg",
+      "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/SRIT-8-800x600.jpg",
+      "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/SRIT-9-800x600.jpg",
+      "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/Sri-Ramakrishna-Institute-of-Technology-800x600.jpg"
+    ]
   },  {
     slug: "sri-ramakrishna-polytechnic-35",
     name: "SRI RAMAKRISHNA POLYTECHNIC",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/SRI RAMAKRISHNA POLYTECHNIC/Sri-Ramakrishna-Polytechnic-College.jpg",
     status: "Completed",
     description: "Construction of SRI RAMAKRISHNA POLYTECHNIC in COIMBATORE.",
     details: {
@@ -2577,13 +2837,15 @@ export const projectsList: Project[] = [
       startDate: "1996",
       completionDate: "1997"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/SRI RAMAKRISHNA POLYTECHNIC/Sri-Ramakrishna-Polytechnic-College.jpg"
+    ]
   },  {
     slug: "srm-institute-of-science-and-technology-36",
     name: "SRM INSTITUTE OF SCIENCE AND TECHNOLOGY",
     category: "Institutional",
     location: "CHENNAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/SRM INSTITUTE OF SCIENCE AND TECHNOLOGY/SRM-10-800x452.jpeg",
     status: "Completed",
     description: "Construction of SRM INSTITUTE OF SCIENCE AND TECHNOLOGY in CHENNAI.",
     details: {
@@ -2593,13 +2855,22 @@ export const projectsList: Project[] = [
       startDate: "DEC’ 2022",
       completionDate: "MAR’ 2024"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/SRM INSTITUTE OF SCIENCE AND TECHNOLOGY/SRM-10-800x452.jpeg",
+      "/project/institutional/SRM INSTITUTE OF SCIENCE AND TECHNOLOGY/SRM-13-800x452.jpeg",
+      "/project/institutional/SRM INSTITUTE OF SCIENCE AND TECHNOLOGY/SRM-14-800x452.jpeg",
+      "/project/institutional/SRM INSTITUTE OF SCIENCE AND TECHNOLOGY/SRM-4-800x452.jpeg",
+      "/project/institutional/SRM INSTITUTE OF SCIENCE AND TECHNOLOGY/SRM-7-800x452.jpeg",
+      "/project/institutional/SRM INSTITUTE OF SCIENCE AND TECHNOLOGY/SRM-8-800x452.jpeg",
+      "/project/institutional/SRM INSTITUTE OF SCIENCE AND TECHNOLOGY/SRM4.jpg",
+      "/project/institutional/SRM INSTITUTE OF SCIENCE AND TECHNOLOGY/WhatsApp-Image-2024-07-03-at-3.15.28-PM-800x452.jpeg"
+    ]
   },  {
     slug: "velammal-cbse-matriculation-school-37",
     name: "VELAMMAL CBSE & MATRICULATION SCHOOL",
     category: "Institutional",
     location: "KARUR",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/VELAMMAL CBSE & MATRICULATION SCHOOL/velammal-1.jpg",
     status: "Completed",
     description: "Construction of VELAMMAL CBSE & MATRICULATION SCHOOL in KARUR.",
     details: {
@@ -2609,7 +2880,13 @@ export const projectsList: Project[] = [
       startDate: "SEP’ 2010",
       completionDate: "JUL’2013"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/VELAMMAL CBSE & MATRICULATION SCHOOL/velammal-1.jpg",
+      "/project/institutional/VELAMMAL CBSE & MATRICULATION SCHOOL/velammal-2.jpg",
+      "/project/institutional/VELAMMAL CBSE & MATRICULATION SCHOOL/velammal-3.jpg",
+      "/project/institutional/VELAMMAL CBSE & MATRICULATION SCHOOL/velammal-4.jpg",
+      "/project/institutional/VELAMMAL CBSE & MATRICULATION SCHOOL/velammal-5.jpg"
+    ]
   },  {
     slug: "construction-of-allied-health-science-building-38",
     name: "Construction of Allied Health Science Building",
@@ -2663,7 +2940,7 @@ export const projectsList: Project[] = [
     name: "RAK’S Pallikkoodam",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/RAK’S Pallikkoodam/Raks-1.png",
     status: "Ongoing",
     description: "Construction of RAK’S Pallikkoodam in COIMBATORE.",
     details: {
@@ -2673,13 +2950,24 @@ export const projectsList: Project[] = [
       startDate: "SEP’ 2024",
       completionDate: "SEP' 2026"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/RAK’S Pallikkoodam/Raks-1.png",
+      "/project/institutional/RAK’S Pallikkoodam/Raks-10.png",
+      "/project/institutional/RAK’S Pallikkoodam/Raks-2.png",
+      "/project/institutional/RAK’S Pallikkoodam/Raks-3.png",
+      "/project/institutional/RAK’S Pallikkoodam/Raks-4.png",
+      "/project/institutional/RAK’S Pallikkoodam/Raks-5.png",
+      "/project/institutional/RAK’S Pallikkoodam/Raks-6.png",
+      "/project/institutional/RAK’S Pallikkoodam/Raks-8.png",
+      "/project/institutional/RAK’S Pallikkoodam/Raks-9.png",
+      "/project/institutional/RAK’S Pallikkoodam/Raks-Phase-02.png"
+    ]
   },  {
     slug: "sri-krishna-college-of-technology-girls-hostel-42",
     name: "SRI KRISHNA COLLEGE OF TECHNOLOGY- GIRLS HOSTEL",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/SRI KRISHNA COLLEGE OF TECHNOLOGY- GIRLS HOSTEL/SKCET-2-800x523.jpg",
     status: "Ongoing",
     description: "Construction of SRI KRISHNA COLLEGE OF TECHNOLOGY- GIRLS HOSTEL in COIMBATORE.",
     details: {
@@ -2689,13 +2977,19 @@ export const projectsList: Project[] = [
       startDate: "JAN’ 2023",
       completionDate: "SEP '2025"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/SRI KRISHNA COLLEGE OF TECHNOLOGY- GIRLS HOSTEL/SKCET-2-800x523.jpg",
+      "/project/institutional/SRI KRISHNA COLLEGE OF TECHNOLOGY- GIRLS HOSTEL/SKCET-3-800x459.jpg",
+      "/project/institutional/SRI KRISHNA COLLEGE OF TECHNOLOGY- GIRLS HOSTEL/SKCET-4-800x555.jpg",
+      "/project/institutional/SRI KRISHNA COLLEGE OF TECHNOLOGY- GIRLS HOSTEL/SKCET-5-800x563.jpg",
+      "/project/institutional/SRI KRISHNA COLLEGE OF TECHNOLOGY- GIRLS HOSTEL/SKCET-800x552.jpg"
+    ]
   },  {
     slug: "the-ngp-school-43",
     name: "The NGP School",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/The NGP School/Ngp1-800x468.png",
     status: "Ongoing",
     description: "Construction of The NGP School in COIMBATORE.",
     details: {
@@ -2705,13 +2999,26 @@ export const projectsList: Project[] = [
       startDate: "JUL’ 2023",
       completionDate: "JUL’ 2025"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/The NGP School/Ngp1-800x468.png",
+      "/project/institutional/The NGP School/Ngp10-800x423.png",
+      "/project/institutional/The NGP School/Ngp11-800x424.png",
+      "/project/institutional/The NGP School/Ngp2-800x453.png",
+      "/project/institutional/The NGP School/Ngp3-800x447.png",
+      "/project/institutional/The NGP School/Ngp4-800x472.png",
+      "/project/institutional/The NGP School/Ngp5-800x452.png",
+      "/project/institutional/The NGP School/Ngp6-800x449.png",
+      "/project/institutional/The NGP School/Ngp7-800x445.png",
+      "/project/institutional/The NGP School/Ngp8-800x425.jpg",
+      "/project/institutional/The NGP School/Ngp9-800x431.png",
+      "/project/institutional/The NGP School/Page-7-Image-11-800x450.jpg"
+    ]
   },  {
     slug: "world-community-service-centre-44",
     name: "WORLD COMMUNITY SERVICE CENTRE",
     category: "Institutional",
     location: "CHENNAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/institutional/WORLD COMMUNITY SERVICE CENTRE/WCS-1.jpg",
     status: "Ongoing",
     description: "Construction of WORLD COMMUNITY SERVICE CENTRE in CHENNAI.",
     details: {
@@ -2721,7 +3028,19 @@ export const projectsList: Project[] = [
       startDate: "JUN’ 2023",
       completionDate: "JUL' 2023"
     },
-    gallery: []
+    gallery: [
+      "/project/institutional/WORLD COMMUNITY SERVICE CENTRE/WCS-1.jpg",
+      "/project/institutional/WORLD COMMUNITY SERVICE CENTRE/WCS-2-800x600.jpg",
+      "/project/institutional/WORLD COMMUNITY SERVICE CENTRE/WCS-3.jpg",
+      "/project/institutional/WORLD COMMUNITY SERVICE CENTRE/WCS-4.jpg",
+      "/project/institutional/WORLD COMMUNITY SERVICE CENTRE/WCSC1-Copy.jpg",
+      "/project/institutional/WORLD COMMUNITY SERVICE CENTRE/WCSC1.jpg",
+      "/project/institutional/WORLD COMMUNITY SERVICE CENTRE/WCSC2.jpg",
+      "/project/institutional/WORLD COMMUNITY SERVICE CENTRE/WCSC3.jpg",
+      "/project/institutional/WORLD COMMUNITY SERVICE CENTRE/WCSC4.jpg",
+      "/project/institutional/WORLD COMMUNITY SERVICE CENTRE/WCSC5.jpg",
+      "/project/institutional/WORLD COMMUNITY SERVICE CENTRE/WCSC6.jpg"
+    ]
   },  {
     slug: "adithya-warehouse-1",
     name: "ADITHYA   WAREHOUSE",

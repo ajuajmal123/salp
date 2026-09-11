@@ -124,10 +124,18 @@ export default function Footer() {
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-sapl-blue shrink-0 mt-0.5" />
                 <span className="leading-relaxed font-semibold">
-                  7th Floor, Unit No. 713,<br />
-                  Barton Centre, No. 84,<br /> MG Road, Bengaluru,
+                  7th Floor, No. 84,<br />
+                  Unit No. 713,<br />
+                  Barton Centre, MG Road,<br />
+                  Bengaluru Urban,<br />
                   Karnataka – 560001
                 </span>
+              </div>
+              <div className="flex items-center gap-2.5 pt-1 text-[13px] font-semibold">
+                <Phone className="w-4 h-4 text-sapl-blue shrink-0" />
+                <a href="tel:+919842223012" className="hover:text-sapl-blue transition-colors">
+                  +91 98422 23012
+                </a>
               </div>
             </div>
           </div>
@@ -210,7 +218,7 @@ export default function Footer() {
 
           {/* Right: Policy Links and Credits */}
           <div className="flex items-center flex-wrap justify-center xl:justify-end gap-6 shrink-0 xl:flex-1">
-            <a href="/SAPLPrivacy%20Policy.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-sapl-blue transition-colors">
+            <a href="/Privacy%20Policy.pdf" target="_blank" rel="noopener noreferrer" className="hover:text-sapl-blue transition-colors">
               Privacy Policy
             </a>
             <a href="/Terms%20%26%20Conditions%20(1).pdf" target="_blank" rel="noopener noreferrer" className="hover:text-sapl-blue transition-colors">
