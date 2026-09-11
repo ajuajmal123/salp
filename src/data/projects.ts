@@ -1018,7 +1018,7 @@ export const projectsList: Project[] = [
     name: "ARPUTHAM PILLAI COMPLEX",
     category: "Commercial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/ARPUTHAM PILLAI COMPLEX/arputham-pillai.jpg",
     status: "Completed",
     description: "Construction of ARPUTHAM PILLAI COMPLEX in COIMBATORE.",
     details: {
@@ -1028,7 +1028,9 @@ export const projectsList: Project[] = [
       startDate: "MAY’ 2013",
       completionDate: "NOV’ 2014"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/ARPUTHAM PILLAI COMPLEX/arputham-pillai.jpg"
+    ]
   },  {
     slug: "civil-works-for-c04a-package-sub-structure-of-main-building-superstructure-internal-external-process-drain-and-plumbing-works-internal-external-sanitary-plumbing-works-3",
     name: "Civil works for C04A Package - Sub structure of Main Building, Superstructure, internal & External Process drain and plumbing works, internal & external sanitary & Plumbing works",
@@ -1050,7 +1052,7 @@ export const projectsList: Project[] = [
     name: "CLASSIC TOWERS",
     category: "Commercial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/CLASSIC TOWERS/Classic-1.jpg",
     status: "Completed",
     description: "Construction of CLASSIC TOWERS in COIMBATORE.",
     details: {
@@ -1060,7 +1062,12 @@ export const projectsList: Project[] = [
       startDate: "JUN’2006",
       completionDate: "JUN’2008"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/CLASSIC TOWERS/Classic-1.jpg",
+      "/project/commercial/CLASSIC TOWERS/Classic-2.jpg",
+      "/project/commercial/CLASSIC TOWERS/Classic-3-800x531.jpg",
+      "/project/commercial/CLASSIC TOWERS/Classic-4-800x532.jpg"
+    ]
   },  {
     slug: "construction-of-canteen-building-5",
     name: "Construction of Canteen Building",
@@ -1370,7 +1377,7 @@ export const projectsList: Project[] = [
     name: "DECATHLON SPORTS INDIA PVT LTD",
     category: "Commercial",
     location: "BANGALORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/DECATHLON SPORTS INDIA PVT LTD/decathlon-1.jpg",
     status: "Completed",
     description: "Construction of DECATHLON SPORTS INDIA PVT LTD in BANGALORE.",
     details: {
@@ -1380,13 +1387,15 @@ export const projectsList: Project[] = [
       startDate: "APR’2014",
       completionDate: "OCT’ 2014"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/DECATHLON SPORTS INDIA PVT LTD/decathlon-1.jpg"
+    ]
   },  {
     slug: "hotel-rajpark-p-ltd-25",
     name: "HOTEL RAJPARK (P) LTD",
     category: "Commercial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/HOTEL RAJPARK (P) LTD/DSC02279-800x534.jpg",
     status: "Completed",
     description: "Construction of HOTEL RAJPARK (P) LTD in COIMBATORE.",
     details: {
@@ -1396,13 +1405,52 @@ export const projectsList: Project[] = [
       startDate: "Mar’ 2019",
       completionDate: "May’ 2023"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/HOTEL RAJPARK (P) LTD/DSC02279-800x534.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/DSC02284-800x534.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/HRP-1-800x450.jpeg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/HRP-1-800x600.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/HRP-2-800x600.jpeg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/HRP-2-800x600.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/HRP-3-800x600.jpeg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/HRP-5-800x600.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/IMG_20210206_091559-800x325.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/IMG_20210212_091852-800x352.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/IMG_20210405_164745-800x377.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/RP-2-800x360.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/RP-3-800x360.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/RP-6-800x378.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/RP-7-800x378.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/RP-8-800x378.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/RPH-2-800x600.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/RPH-3-800x1067.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/RPH-4-800x600.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/RPH-5-800x600.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/RPH-6-800x600.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/RPH-7-800x593.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/RPH-8-800x600.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/RPH-800x600.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/Rajpark-3-800x378.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/Rajpark-5-800x378.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/SHEET-1-800x566.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/img-1-38-800x600.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/img-3-37-800x600.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-1-800x600.jpeg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-11-800x600.jpeg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-12.jpeg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-3-800x600.jpeg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-4-800x600.jpeg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-5-800x600.jpeg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-6-800x600.jpeg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-7-800x600.jpeg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-9-800x600.jpeg"
+    ]
   },  {
     slug: "indian-cotton-federation-26",
     name: "INDIAN COTTON FEDERATION",
     category: "Commercial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/INDIAN COTTON FEDERATION/DSC02705-800x534.jpg",
     status: "Completed",
     description: "Construction of INDIAN COTTON FEDERATION in COIMBATORE.",
     details: {
@@ -1412,13 +1460,22 @@ export const projectsList: Project[] = [
       startDate: "2017-12-01",
       completionDate: "2020-07-09"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/INDIAN COTTON FEDERATION/DSC02705-800x534.jpg",
+      "/project/commercial/INDIAN COTTON FEDERATION/img-1-13.jpg",
+      "/project/commercial/INDIAN COTTON FEDERATION/img-2-13.jpg",
+      "/project/commercial/INDIAN COTTON FEDERATION/img-3-12.jpg",
+      "/project/commercial/INDIAN COTTON FEDERATION/img-4-10.jpg",
+      "/project/commercial/INDIAN COTTON FEDERATION/img-5-10-800x600.jpg",
+      "/project/commercial/INDIAN COTTON FEDERATION/img-6-9-800x600.jpg",
+      "/project/commercial/INDIAN COTTON FEDERATION/img-7-7-800x600.jpg"
+    ]
   },  {
     slug: "kpm-commercial-centre-27",
     name: "KPM COMMERCIAL CENTRE",
     category: "Commercial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/KPM COMMERCIAL CENTRE/04SGSE_KPMtowersPRINT-800x495.jpg",
     status: "Completed",
     description: "Construction of KPM COMMERCIAL CENTRE in COIMBATORE.",
     details: {
@@ -1428,7 +1485,11 @@ export const projectsList: Project[] = [
       startDate: "FEB’ 2015",
       completionDate: "JUN’ 2016"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/KPM COMMERCIAL CENTRE/04SGSE_KPMtowersPRINT-800x495.jpg",
+      "/project/commercial/KPM COMMERCIAL CENTRE/IMG_9891-ok.jpg",
+      "/project/commercial/KPM COMMERCIAL CENTRE/kpm.jpg"
+    ]
   },  {
     slug: "layout-development-work-at-psg-v-enclave-by-psg-co-op-house-building-society-ltd-28",
     name: "Layout Development work at PSG V Enclave by PSG Co op House Building society Ltd",
@@ -1449,7 +1510,7 @@ export const projectsList: Project[] = [
     name: "LGB CORPORATE OFFICE BUILDING,",
     category: "Commercial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/LGB CORPORATE OFFICE BUILDING/LGBCO1.jpg",
     status: "Completed",
     description: "Construction of LGB CORPORATE OFFICE BUILDING, in COIMBATORE.",
     details: {
@@ -1459,13 +1520,21 @@ export const projectsList: Project[] = [
       startDate: "MAR'2023",
       completionDate: "MAR'2025"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/LGB CORPORATE OFFICE BUILDING/LGBCO1.jpg",
+      "/project/commercial/LGB CORPORATE OFFICE BUILDING/LGBCO2.jpg",
+      "/project/commercial/LGB CORPORATE OFFICE BUILDING/LGBCO3-800x340.jpg",
+      "/project/commercial/LGB CORPORATE OFFICE BUILDING/LGBCO4-800x428.jpg",
+      "/project/commercial/LGB CORPORATE OFFICE BUILDING/LGBCO5-800x415.jpg",
+      "/project/commercial/LGB CORPORATE OFFICE BUILDING/LGBCO6-800x408.jpg",
+      "/project/commercial/LGB CORPORATE OFFICE BUILDING/LGBCO7-800x349.jpg"
+    ]
   },  {
     slug: "m-s-codissia-intech-technology-centre-30",
     name: "M/s.CODISSIA INTECH TECHNOLOGY CENTRE",
     category: "Commercial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/Ms.CODISSIA INTECH TECHNOLOGY CENTRE/Codi-1-800x353.jpg",
     status: "Completed",
     description: "Construction of M/s.CODISSIA INTECH TECHNOLOGY CENTRE in COIMBATORE.",
     details: {
@@ -1475,13 +1544,26 @@ export const projectsList: Project[] = [
       startDate: "JUN’2007",
       completionDate: "OCT’2008"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/Ms.CODISSIA INTECH TECHNOLOGY CENTRE/Codi-1-800x353.jpg",
+      "/project/commercial/Ms.CODISSIA INTECH TECHNOLOGY CENTRE/Codi-10-800x531.jpg",
+      "/project/commercial/Ms.CODISSIA INTECH TECHNOLOGY CENTRE/Codi-11-800x531.jpg",
+      "/project/commercial/Ms.CODISSIA INTECH TECHNOLOGY CENTRE/Codi-12-800x531.jpg",
+      "/project/commercial/Ms.CODISSIA INTECH TECHNOLOGY CENTRE/Codi-2-800x600.jpg",
+      "/project/commercial/Ms.CODISSIA INTECH TECHNOLOGY CENTRE/Codi-3-800x600.jpg",
+      "/project/commercial/Ms.CODISSIA INTECH TECHNOLOGY CENTRE/Codi-4-800x600.jpg",
+      "/project/commercial/Ms.CODISSIA INTECH TECHNOLOGY CENTRE/Codi-5-800x600.jpg",
+      "/project/commercial/Ms.CODISSIA INTECH TECHNOLOGY CENTRE/Codi-6-800x600.jpg",
+      "/project/commercial/Ms.CODISSIA INTECH TECHNOLOGY CENTRE/Codi-7-800x600.jpg",
+      "/project/commercial/Ms.CODISSIA INTECH TECHNOLOGY CENTRE/Codi-8-800x531.jpg",
+      "/project/commercial/Ms.CODISSIA INTECH TECHNOLOGY CENTRE/Codi-9-800x531.jpg"
+    ]
   },  {
     slug: "m-s-parvathy-agencies-31",
     name: "M/S. PARVATHY AGENCIES",
     category: "Commercial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/MS. PARVATHY AGENCIES/DSC02478-800x534.jpg",
     status: "Completed",
     description: "Construction of M/S. PARVATHY AGENCIES in COIMBATORE.",
     details: {
@@ -1491,13 +1573,32 @@ export const projectsList: Project[] = [
       startDate: "Nov’ 2018",
       completionDate: "Aug’ 2020"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/MS. PARVATHY AGENCIES/DSC02478-800x534.jpg",
+      "/project/commercial/MS. PARVATHY AGENCIES/DSC02481-800x534.jpg",
+      "/project/commercial/MS. PARVATHY AGENCIES/IMG-20190528-WA0004-800x379.jpg",
+      "/project/commercial/MS. PARVATHY AGENCIES/IMG-20190528-WA0005-800x379.jpg",
+      "/project/commercial/MS. PARVATHY AGENCIES/P-1.jpg",
+      "/project/commercial/MS. PARVATHY AGENCIES/P-2.jpg",
+      "/project/commercial/MS. PARVATHY AGENCIES/P-3.jpg",
+      "/project/commercial/MS. PARVATHY AGENCIES/PAR-1-800x600.jpeg",
+      "/project/commercial/MS. PARVATHY AGENCIES/PARVATHY-AGENCIES-1-800x600.jpg",
+      "/project/commercial/MS. PARVATHY AGENCIES/PARVATHY-AGENCIES-2-800x634.jpg",
+      "/project/commercial/MS. PARVATHY AGENCIES/PARVATHY-AGENCIES-3-800x671.jpg",
+      "/project/commercial/MS. PARVATHY AGENCIES/Parvathy-1-800x369.jpeg",
+      "/project/commercial/MS. PARVATHY AGENCIES/Parvathy-2-800x369.jpeg",
+      "/project/commercial/MS. PARVATHY AGENCIES/img-1-26-800x379.jpg",
+      "/project/commercial/MS. PARVATHY AGENCIES/img-2-26-800x379.jpg",
+      "/project/commercial/MS. PARVATHY AGENCIES/img-3-25-800x379.jpg",
+      "/project/commercial/MS. PARVATHY AGENCIES/img-4-22-800x379.jpg",
+      "/project/commercial/MS. PARVATHY AGENCIES/img-5-21-800x379.jpg"
+    ]
   },  {
     slug: "m-s-pnr-prime-reality-limited-pnr-edifice-32",
     name: "M/s. PNR Prime Reality Limited “PNR EDIFICE”",
     category: "Commercial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/Ms. PNR Prime Reality Limited “PNR EDIFICE”/PNR-EDIFICE-1-800x601.jpg",
     status: "Completed",
     description: "Construction of M/s. PNR Prime Reality Limited “PNR EDIFICE” in COIMBATORE.",
     details: {
@@ -1507,13 +1608,18 @@ export const projectsList: Project[] = [
       startDate: "JAN’ 2022",
       completionDate: "2025-01-01"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/Ms. PNR Prime Reality Limited “PNR EDIFICE”/PNR-EDIFICE-1-800x601.jpg",
+      "/project/commercial/Ms. PNR Prime Reality Limited “PNR EDIFICE”/PNR-EDIFICE-2-800x490.jpg",
+      "/project/commercial/Ms. PNR Prime Reality Limited “PNR EDIFICE”/PNR-EDIFICE-3-800x600.jpg",
+      "/project/commercial/Ms. PNR Prime Reality Limited “PNR EDIFICE”/PNR-EDIFICE-4-800x403.jpg"
+    ]
   },  {
     slug: "m-s-sap-promoters-ltd-33",
     name: "M/s. SAP PROMOTERS LTD",
     category: "Commercial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/Ms. SAP PROMOTERS LTD/IMG-20170524-WA0045.jpg",
     status: "Completed",
     description: "Construction of M/s. SAP PROMOTERS LTD in COIMBATORE.",
     details: {
@@ -1523,13 +1629,17 @@ export const projectsList: Project[] = [
       startDate: "JUN’ 2014",
       completionDate: "AUG’ 2016"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/Ms. SAP PROMOTERS LTD/IMG-20170524-WA0045.jpg",
+      "/project/commercial/Ms. SAP PROMOTERS LTD/IMG-20170524-WA0048.jpg",
+      "/project/commercial/Ms. SAP PROMOTERS LTD/IMG_9926-ok.jpg"
+    ]
   },  {
     slug: "m-s-saroja-velusamy-and-thales-trust-34",
     name: "M/s. SAROJA VELUSAMY AND THALES TRUST",
     category: "Commercial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/Ms. SAROJA VELUSAMY AND THALES TRUST/thales-1.png",
     status: "Completed",
     description: "Construction of M/s. SAROJA VELUSAMY AND THALES TRUST in COIMBATORE.",
     details: {
@@ -1539,13 +1649,17 @@ export const projectsList: Project[] = [
       startDate: "JUN’2011",
       completionDate: "DEC’2012"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/Ms. SAROJA VELUSAMY AND THALES TRUST/thales-1.png",
+      "/project/commercial/Ms. SAROJA VELUSAMY AND THALES TRUST/thales-2.png",
+      "/project/commercial/Ms. SAROJA VELUSAMY AND THALES TRUST/thales-3.png"
+    ]
   },  {
     slug: "m-s-toyota-anamallais-agencies-35",
     name: "M/s. TOYOTA ANAMALLAIS AGENCIES",
     category: "Commercial",
     location: "TIRUNELVELI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/Ms. TOYOTA ANAMALLAIS AGENCIES/DSC_0024-800x532.jpg",
     status: "Completed",
     description: "Construction of M/s. TOYOTA ANAMALLAIS AGENCIES in TIRUNELVELI.",
     details: {
@@ -1555,7 +1669,23 @@ export const projectsList: Project[] = [
       startDate: "JAN’2010",
       completionDate: "DEC’2010"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/Ms. TOYOTA ANAMALLAIS AGENCIES/DSC_0024-800x532.jpg",
+      "/project/commercial/Ms. TOYOTA ANAMALLAIS AGENCIES/DSC_0026-800x532.jpg",
+      "/project/commercial/Ms. TOYOTA ANAMALLAIS AGENCIES/TN-1-800x533.jpg",
+      "/project/commercial/Ms. TOYOTA ANAMALLAIS AGENCIES/TN-10-800x532.jpg",
+      "/project/commercial/Ms. TOYOTA ANAMALLAIS AGENCIES/TN-11-800x532.jpg",
+      "/project/commercial/Ms. TOYOTA ANAMALLAIS AGENCIES/TN-12-800x532.jpg",
+      "/project/commercial/Ms. TOYOTA ANAMALLAIS AGENCIES/TN-13-800x532.jpg",
+      "/project/commercial/Ms. TOYOTA ANAMALLAIS AGENCIES/TN-2-800x532.jpg",
+      "/project/commercial/Ms. TOYOTA ANAMALLAIS AGENCIES/TN-3-800x532.jpg",
+      "/project/commercial/Ms. TOYOTA ANAMALLAIS AGENCIES/TN-4-800x532.jpg",
+      "/project/commercial/Ms. TOYOTA ANAMALLAIS AGENCIES/TN-5-800x532.jpg",
+      "/project/commercial/Ms. TOYOTA ANAMALLAIS AGENCIES/TN-6-800x532.jpg",
+      "/project/commercial/Ms. TOYOTA ANAMALLAIS AGENCIES/TN-7-800x532.jpg",
+      "/project/commercial/Ms. TOYOTA ANAMALLAIS AGENCIES/TN-8-800x532.jpg",
+      "/project/commercial/Ms. TOYOTA ANAMALLAIS AGENCIES/TN-9-800x532.jpg"
+    ]
   },  {
     slug: "m-s-toyota-anamallais-agencies-36",
     name: "M/s. TOYOTA ANAMALLAIS AGENCIES",
@@ -1577,7 +1707,7 @@ export const projectsList: Project[] = [
     name: "M/s. Velmuruga Enterprises Private Limited “SVB MLCP”",
     category: "Commercial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/Ms. Velmuruga Enterprises Private Limited “SVB MLCP”/SVB-MLCP-800x600.jpg",
     status: "Completed",
     description: "Construction of M/s. Velmuruga Enterprises Private Limited “SVB MLCP” in COIMBATORE.",
     details: {
@@ -1587,13 +1717,19 @@ export const projectsList: Project[] = [
       startDate: "JUL’ 2023",
       completionDate: "2025-01-01"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/Ms. Velmuruga Enterprises Private Limited “SVB MLCP”/SVB-MLCP-800x600.jpg",
+      "/project/commercial/Ms. Velmuruga Enterprises Private Limited “SVB MLCP”/SVB-MLCP1-800x600.jpg",
+      "/project/commercial/Ms. Velmuruga Enterprises Private Limited “SVB MLCP”/SVB-MLCP2-800x600.jpg",
+      "/project/commercial/Ms. Velmuruga Enterprises Private Limited “SVB MLCP”/SVB-MLCP3-800x600.jpg",
+      "/project/commercial/Ms. Velmuruga Enterprises Private Limited “SVB MLCP”/SVB-MLCP4-Copy.jpg"
+    ]
   },  {
     slug: "muruhanandam-complex-38",
     name: "MURUHANANDAM COMPLEX",
     category: "Commercial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/MURUHANANDAM COMPLEX/Anand-1-800x600.jpg",
     status: "Completed",
     description: "Construction of MURUHANANDAM COMPLEX in COIMBATORE.",
     details: {
@@ -1603,13 +1739,28 @@ export const projectsList: Project[] = [
       startDate: "OCT’ 2018",
       completionDate: "MAR’ 2020"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/MURUHANANDAM COMPLEX/Anand-1-800x600.jpg",
+      "/project/commercial/MURUHANANDAM COMPLEX/Anand-11-800x600.jpg",
+      "/project/commercial/MURUHANANDAM COMPLEX/Anand-13-800x600.jpg",
+      "/project/commercial/MURUHANANDAM COMPLEX/Anand-15-800x600.jpg",
+      "/project/commercial/MURUHANANDAM COMPLEX/Anand-3-800x600.jpg",
+      "/project/commercial/MURUHANANDAM COMPLEX/Anand-5-800x600.jpg",
+      "/project/commercial/MURUHANANDAM COMPLEX/Anand-7-800x600.jpg",
+      "/project/commercial/MURUHANANDAM COMPLEX/DSC02501-1-800x533.jpg",
+      "/project/commercial/MURUHANANDAM COMPLEX/DSC02508-800x533.jpg",
+      "/project/commercial/MURUHANANDAM COMPLEX/img-1-24-800x600.jpg",
+      "/project/commercial/MURUHANANDAM COMPLEX/img-2-24-800x450.jpg",
+      "/project/commercial/MURUHANANDAM COMPLEX/img-3-23-800x600.jpg",
+      "/project/commercial/MURUHANANDAM COMPLEX/rev-17-800x635.jpg",
+      "/project/commercial/MURUHANANDAM COMPLEX/rev-18-800x660.jpg"
+    ]
   },  {
     slug: "s-malarvizhi-sri-krishna-institution-coimbatore-39",
     name: "S. Malarvizhi, Sri Krishna Institution, Coimbatore",
     category: "Commercial",
     location: "Cross cut road, Coimbatore",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/Ms. Velmuruga Enterprises Private Limited “SVB MLCP”/SVB-MLCP-800x600.jpg",
     status: "Completed",
     description: "Construction of S. Malarvizhi, Sri Krishna Institution, Coimbatore in Cross cut road, Coimbatore.",
     details: {
@@ -1619,13 +1770,19 @@ export const projectsList: Project[] = [
       startDate: "OCT' 2021",
       completionDate: "APR' 2024"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/Ms. Velmuruga Enterprises Private Limited “SVB MLCP”/SVB-MLCP-800x600.jpg",
+      "/project/commercial/Ms. Velmuruga Enterprises Private Limited “SVB MLCP”/SVB-MLCP1-800x600.jpg",
+      "/project/commercial/Ms. Velmuruga Enterprises Private Limited “SVB MLCP”/SVB-MLCP2-800x600.jpg",
+      "/project/commercial/Ms. Velmuruga Enterprises Private Limited “SVB MLCP”/SVB-MLCP3-800x600.jpg",
+      "/project/commercial/Ms. Velmuruga Enterprises Private Limited “SVB MLCP”/SVB-MLCP4-Copy.jpg"
+    ]
   },  {
     slug: "saptharishi-prasanna-complex-40",
     name: "SAPTHARISHI PRASANNA COMPLEX",
     category: "Commercial",
     location: "CHENNAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/SAPTHARISHI PRASANNA COMPLEX/DSC_7597.jpg",
     status: "Completed",
     description: "Construction of SAPTHARISHI PRASANNA COMPLEX in CHENNAI.",
     details: {
@@ -1635,7 +1792,11 @@ export const projectsList: Project[] = [
       startDate: "MAR’ 2013",
       completionDate: "NOV’ 2014"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/SAPTHARISHI PRASANNA COMPLEX/DSC_7597.jpg",
+      "/project/commercial/SAPTHARISHI PRASANNA COMPLEX/prasanna.jpg",
+      "/project/commercial/SAPTHARISHI PRASANNA COMPLEX/prasanna2.jpg"
+    ]
   },  {
     slug: "saradha-greens-41",
     name: "SARADHA GREENS –",
@@ -1657,7 +1818,7 @@ export const projectsList: Project[] = [
     name: "Shoeline – PALMYRA",
     category: "Commercial",
     location: "CHENNAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/Shoeline – PALMYRA/Pal-1-800x369.jpeg",
     status: "Completed",
     description: "Construction of Shoeline – PALMYRA in CHENNAI.",
     details: {
@@ -1667,13 +1828,32 @@ export const projectsList: Project[] = [
       startDate: "Oct’ 2019",
       completionDate: "Aug’ 2020"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/Shoeline – PALMYRA/Pal-1-800x369.jpeg",
+      "/project/commercial/Shoeline – PALMYRA/Pal-2-800x484.jpeg",
+      "/project/commercial/Shoeline – PALMYRA/Pal-3.jpeg",
+      "/project/commercial/Shoeline – PALMYRA/Pal-4-800x374.jpeg",
+      "/project/commercial/Shoeline – PALMYRA/Palmyra-10-800x451.jpg",
+      "/project/commercial/Shoeline – PALMYRA/Palmyra-2-800x451.jpeg",
+      "/project/commercial/Shoeline – PALMYRA/Palmyra-24-800x451.jpg",
+      "/project/commercial/Shoeline – PALMYRA/Palmyra-3-800x451.jpeg",
+      "/project/commercial/Shoeline – PALMYRA/Palmyra-37-800x451.jpg",
+      "/project/commercial/Shoeline – PALMYRA/Palmyra-9-800x451.jpg",
+      "/project/commercial/Shoeline – PALMYRA/Palmyra-Mar27-001-800x600.jpg",
+      "/project/commercial/Shoeline – PALMYRA/Palmyra-Mar27-002-800x600.jpg",
+      "/project/commercial/Shoeline – PALMYRA/Palmyra-May11-001-800x600.jpg",
+      "/project/commercial/Shoeline – PALMYRA/Plamy-2-800x601.jpg",
+      "/project/commercial/Shoeline – PALMYRA/Plamy-3-800x601.jpg",
+      "/project/commercial/Shoeline – PALMYRA/Plamy-4-800x601.jpg",
+      "/project/commercial/Shoeline – PALMYRA/Plamy-7-800x601.jpg",
+      "/project/commercial/Shoeline – PALMYRA/pal-1-1-800x600.jpeg"
+    ]
   },  {
     slug: "snr-auditorium-43",
     name: "SNR AUDITORIUM",
     category: "Commercial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/SNR AUDITORIUM/3.jpg",
     status: "Completed",
     description: "Construction of SNR AUDITORIUM in COIMBATORE.",
     details: {
@@ -1683,13 +1863,15 @@ export const projectsList: Project[] = [
       startDate: "AUG '2003",
       completionDate: "DEC'2005"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/SNR AUDITORIUM/3.jpg"
+    ]
   },  {
     slug: "snr-hall-44",
     name: "SNR HALL",
     category: "Commercial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/SNR HALL/DSC_0086-SNR.jpg",
     status: "Completed",
     description: "Construction of SNR HALL in COIMBATORE.",
     details: {
@@ -1699,13 +1881,15 @@ export const projectsList: Project[] = [
       startDate: "AUG '2003",
       completionDate: "DEC'2005"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/SNR HALL/DSC_0086-SNR.jpg"
+    ]
   },  {
     slug: "sree-switch-gears-45",
     name: "SREE SWITCH GEARS",
     category: "Commercial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/SREE SWITCH GEARS/SSG1.jpg",
     status: "Completed",
     description: "Construction of SREE SWITCH GEARS in COIMBATORE.",
     details: {
@@ -1715,13 +1899,21 @@ export const projectsList: Project[] = [
       startDate: "DEC’ 2022",
       completionDate: "2026-01-01"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/SREE SWITCH GEARS/SSG1.jpg",
+      "/project/commercial/SREE SWITCH GEARS/SSG2.jpg",
+      "/project/commercial/SREE SWITCH GEARS/SSG3.jpg",
+      "/project/commercial/SREE SWITCH GEARS/SSG4.jpg",
+      "/project/commercial/SREE SWITCH GEARS/SSG5.jpg",
+      "/project/commercial/SREE SWITCH GEARS/SSG6.jpg",
+      "/project/commercial/SREE SWITCH GEARS/SSG7.jpg"
+    ]
   },  {
     slug: "sri-kumaran-hall-46",
     name: "SRI KUMARAN HALL",
     category: "Commercial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/SRI KUMARAN HALL/Kumaran1-800x400.jpg",
     status: "Completed",
     description: "Construction of SRI KUMARAN HALL in COIMBATORE.",
     details: {
@@ -1731,13 +1923,28 @@ export const projectsList: Project[] = [
       startDate: "2017-06-01",
       completionDate: "Deccember 2018"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/SRI KUMARAN HALL/Kumaran1-800x400.jpg",
+      "/project/commercial/SRI KUMARAN HALL/Kumaran2-800x393.jpg",
+      "/project/commercial/SRI KUMARAN HALL/adithya-mahal-800x425.jpg",
+      "/project/commercial/SRI KUMARAN HALL/img-1-8.jpg",
+      "/project/commercial/SRI KUMARAN HALL/img-10-1.jpg",
+      "/project/commercial/SRI KUMARAN HALL/img-11-1.jpg",
+      "/project/commercial/SRI KUMARAN HALL/img-2-8.jpg",
+      "/project/commercial/SRI KUMARAN HALL/img-3-7.jpg",
+      "/project/commercial/SRI KUMARAN HALL/img-4-6.jpg",
+      "/project/commercial/SRI KUMARAN HALL/img-5-6.jpg",
+      "/project/commercial/SRI KUMARAN HALL/img-6-5.jpg",
+      "/project/commercial/SRI KUMARAN HALL/img-7-3.jpg",
+      "/project/commercial/SRI KUMARAN HALL/img-8-2.jpg",
+      "/project/commercial/SRI KUMARAN HALL/img-9-1.jpg"
+    ]
   },  {
     slug: "the-echo-point-plaza-47",
     name: "THE ECHO POINT – PLAZA",
     category: "Commercial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/THE ECHO POINT – PLAZA/ECHO-POINT-FRONT-VIEW-800x554.jpg",
     status: "Completed",
     description: "Construction of THE ECHO POINT – PLAZA in COIMBATORE.",
     details: {
@@ -1747,13 +1954,39 @@ export const projectsList: Project[] = [
       startDate: "Jan’ 2019",
       completionDate: "Sep ‘2021"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/THE ECHO POINT – PLAZA/ECHO-POINT-FRONT-VIEW-800x554.jpg",
+      "/project/commercial/THE ECHO POINT – PLAZA/ECO-1-800x641.jpeg",
+      "/project/commercial/THE ECHO POINT – PLAZA/ECO-4-800x1067.jpeg",
+      "/project/commercial/THE ECHO POINT – PLAZA/ECO-5-800x600.jpeg",
+      "/project/commercial/THE ECHO POINT – PLAZA/FINAL-ECHO-POINT-SIDE-VIEW-800x554.jpg",
+      "/project/commercial/THE ECHO POINT – PLAZA/IMG-2505-800x600.jpg",
+      "/project/commercial/THE ECHO POINT – PLAZA/IMG-2506-800x600.jpg",
+      "/project/commercial/THE ECHO POINT – PLAZA/IMG-2508-800x600.jpg",
+      "/project/commercial/THE ECHO POINT – PLAZA/Image-11.jpeg",
+      "/project/commercial/THE ECHO POINT – PLAZA/Image-2-800x453.jpeg",
+      "/project/commercial/THE ECHO POINT – PLAZA/Image-3.jpeg",
+      "/project/commercial/THE ECHO POINT – PLAZA/Image-4.jpeg",
+      "/project/commercial/THE ECHO POINT – PLAZA/Image-5-800x600.jpeg",
+      "/project/commercial/THE ECHO POINT – PLAZA/Image-7.jpeg",
+      "/project/commercial/THE ECHO POINT – PLAZA/NHEPP-800x547.jpeg",
+      "/project/commercial/THE ECHO POINT – PLAZA/PLAZA1-800x600.jpeg",
+      "/project/commercial/THE ECHO POINT – PLAZA/PLAZA2-800x600.jpeg",
+      "/project/commercial/THE ECHO POINT – PLAZA/PLAZA3-800x600.jpeg",
+      "/project/commercial/THE ECHO POINT – PLAZA/PLAZA4-800x600.jpeg",
+      "/project/commercial/THE ECHO POINT – PLAZA/PLAZA5-800x600.jpeg",
+      "/project/commercial/THE ECHO POINT – PLAZA/PLAZA6-800x600.jpeg",
+      "/project/commercial/THE ECHO POINT – PLAZA/img-1.png",
+      "/project/commercial/THE ECHO POINT – PLAZA/img-2.png",
+      "/project/commercial/THE ECHO POINT – PLAZA/img-3.png",
+      "/project/commercial/THE ECHO POINT – PLAZA/img-4.png"
+    ]
   },  {
     slug: "vasanth-co-48",
     name: "VASANTH & CO",
     category: "Commercial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/VASANTH & CO/VASANTH-CO.jpg",
     status: "Completed",
     description: "Construction of VASANTH & CO in COIMBATORE.",
     details: {
@@ -1763,7 +1996,9 @@ export const projectsList: Project[] = [
       startDate: "JUN’ 2013",
       completionDate: "OCT’ 2014"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/VASANTH & CO/VASANTH-CO.jpg"
+    ]
   },  {
     slug: "civil-structural-finishing-works-and-external-development-excl-earthwork-49",
     name: "Civil, Structural & Finishing works and External development (Excl Earthwork)",
