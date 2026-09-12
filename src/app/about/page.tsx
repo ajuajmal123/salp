@@ -244,13 +244,10 @@ export default function AboutPage() {
                       Robust Machinery Fleet
                     </h3>
                   </div>
-                  <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[10px] font-extrabold tracking-wider bg-sapl-light text-sapl-blue uppercase border border-sapl-blue/10">
-                    <FileText className="w-3 h-3" />
-                    pg. 17-19
-                  </span>
+
                 </div>
                 <p className="text-xs !text-[#6D675E] leading-relaxed">
-                  SAPL boasts a very strong fleet of plant and machinery equipment (pg. 17-19). Our asset base allows us to quote competitive item rate tenders to our clients and execute projects in a very timely manner.
+                  SAPL boasts a very strong fleet of plant and machinery equipment . Our asset base allows us to quote competitive item rate tenders to our clients and execute projects in a very timely manner.
                 </p>
               </div>
 
