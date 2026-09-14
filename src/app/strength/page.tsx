@@ -2,6 +2,9 @@
 
 import React, { useState, useEffect, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
+import Link from "next/link";
+import Image from "next/image";
+import logosData from "./logosData.json";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Users2,
@@ -67,6 +70,17 @@ const collaborations = [
     metric: "Strict National Safety Conformance"
   }
 ];
+
+const getClientLogo = (clientName: string) => {
+  const lowerName = clientName.toLowerCase();
+  // Attempt substring match against uploaded graphic files
+  const match = logosData.find(filename => {
+    const bareName = filename.toLowerCase().replace(/\.(jpg|jpeg|png)$/, '');
+    return lowerName.includes(bareName) || bareName.includes(lowerName);
+  });
+  if (match) return `/Client Logos/${match}`;
+  return null;
+};
 
 function StrengthPageContent() {
   const searchParams = useSearchParams();
@@ -280,22 +294,34 @@ function StrengthPageContent() {
                     {/* High-Fidelity Client Showcase Grid (Shows only when not searching) */}
                     {searchQuery.trim() === "" && selectedCategory === "all" && (
                       <div className="border-t border-[#eae7e3] pt-6 grid grid-cols-1 sm:grid-cols-2 gap-4 animate-[fadeIn_0.5s_ease-out]">
-                        {clientsList.map((client, idx) => (
-                          <div key={idx} className="border border-[#eae7e3] p-4 rounded-sm relative overflow-hidden bg-[#f7f6f4] hover:bg-white hover:shadow-sm transition-all group">
-                            <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
-                            <div className="flex justify-between items-start">
-                              <h4 className="text-xs font-extrabold uppercase tracking-wider text-[#1c1a17]">
-                                {client.name}
-                              </h4>
-                              <span className="inline-flex items-center text-[9px] font-extrabold uppercase tracking-wider text-sapl-blue bg-white border border-[#eae7e3] px-2 py-0.5 rounded-full">
-                                {client.industry}
-                              </span>
-                            </div>
-                            <p className="text-[10px] !text-[#6D675E] leading-relaxed mt-2">
-                              {client.desc}
-                            </p>
-                          </div>
-                        ))}
+                        {clientsList.map((client, idx) => {
+                          const logo = getClientLogo(client.name);
+                          return (
+                            <Link href={`/projects?client=${encodeURIComponent(client.name)}`} key={idx} className="block border border-[#eae7e3] p-4 rounded-sm relative overflow-hidden bg-[#f7f6f4] hover:bg-white hover:shadow-sm transition-all group cursor-pointer flex flex-col h-full">
+                              <div className="absolute top-0 left-0 w-[3px] h-full bg-sapl-blue" />
+                              <div className="flex justify-between items-start flex-1 gap-2">
+                                <div className="flex items-center gap-3">
+                                  {logo && (
+                                    <div className="relative w-11 h-11 bg-white rounded-md border border-[#eae7e3] shrink-0 overflow-hidden group-hover:border-sapl-blue/30 transition-colors">
+                                      <Image src={logo} alt={client.name} fill className="object-contain p-1.5" sizes="44px" />
+                                    </div>
+                                  )}
+                                  <div>
+                                    <h4 className="text-[11px] font-extrabold uppercase tracking-wider text-[#1c1a17]">
+                                      {client.name}
+                                    </h4>
+                                    <span className="block text-[8px] font-extrabold uppercase tracking-wider text-sapl-blue mt-0.5">
+                                      {client.industry}
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                              <p className="text-[10px] !text-[#6D675E] leading-relaxed mt-3 pt-3 border-t border-[#eae7e3]/60">
+                                {client.desc}
+                              </p>
+                            </Link>
+                          )
+                        })}
                       </div>
                     )}
 
@@ -371,12 +397,17 @@ function StrengthPageContent() {
                             else if (client.categoryId === "corporate") IconComponent = Briefcase;
 
                             return (
-                              <div
+                              <Link
+                                href={`/projects?client=${encodeURIComponent(client.name)}`}
                                 key={client.id}
-                                className="flex items-center gap-3 bg-[#f7f6f4] hover:bg-white border border-[#eae7e3] hover:border-sapl-blue/40 p-3.5 rounded-sm hover:shadow-xs transition-all duration-300 group"
+                                className="flex items-center gap-3 bg-[#f7f6f4] hover:bg-white border border-[#eae7e3] hover:border-sapl-blue/40 p-3.5 rounded-sm hover:shadow-xs transition-all duration-300 group cursor-pointer"
                               >
-                                <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center border border-[#eae7e3] text-[#6D675E] group-hover:text-sapl-blue group-hover:border-sapl-blue/20 transition-all shrink-0">
-                                  <IconComponent className="w-3.5 h-3.5" />
+                                <div className="w-10 h-10 rounded-sm bg-white flex items-center justify-center border border-[#eae7e3] text-[#6D675E] group-hover:border-sapl-blue/30 transition-all shrink-0 relative overflow-hidden">
+                                  {(() => {
+                                    const logo = getClientLogo(client.name);
+                                    if (logo) return <Image src={logo} alt={client.name} fill className="object-contain p-1.5" sizes="40px" />;
+                                    return <IconComponent className="w-4 h-4 group-hover:text-sapl-blue transition-colors" />;
+                                  })()}
                                 </div>
                                 <div className="min-w-0">
                                   <h4 className="text-[11px] font-extrabold uppercase tracking-wide text-[#1c1a17] truncate" title={client.name}>
@@ -386,7 +417,7 @@ function StrengthPageContent() {
                                     {client.category}
                                   </span>
                                 </div>
-                              </div>
+                              </Link>
                             );
                           })}
                         </div>
@@ -521,9 +552,10 @@ function StrengthPageContent() {
                             else if (item.categoryId === "advisory") IconComponent = Users2;
 
                             return (
-                              <div
+                              <Link
+                                href={`/projects?architect=${encodeURIComponent(item.name)}`}
                                 key={item.id}
-                                className="flex items-center gap-3 bg-[#f7f6f4] hover:bg-white border border-[#eae7e3] hover:border-sapl-blue/40 p-3.5 rounded-sm hover:shadow-xs transition-all duration-300 group"
+                                className="flex items-center gap-3 bg-[#f7f6f4] hover:bg-white border border-[#eae7e3] hover:border-sapl-blue/40 p-3.5 rounded-sm hover:shadow-xs transition-all duration-300 group cursor-pointer"
                               >
                                 <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center border border-[#eae7e3] text-[#6D675E] group-hover:text-sapl-blue group-hover:border-sapl-blue/20 transition-all shrink-0">
                                   <IconComponent className="w-3.5 h-3.5" />
@@ -536,7 +568,7 @@ function StrengthPageContent() {
                                     {item.category}
                                   </span>
                                 </div>
-                              </div>
+                              </Link>
                             );
                           })}
                         </div>

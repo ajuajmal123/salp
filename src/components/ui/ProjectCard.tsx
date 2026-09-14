@@ -43,8 +43,8 @@ export default function ProjectCard({
               </span>
             </div>
           )}
-          {/* High-Contrast Premium Gradient Overlay for Guaranteed 100% Readability */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#1c1a17] via-[#1c1a17]/85 to-[#1c1a17]/25 opacity-95 group-hover:opacity-98 transition-opacity duration-500" />
+          {/* Refined Gradient Overlay - Pushed downwards to reveal maximum image area while protecting text baseline */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent opacity-90 group-hover:opacity-95 transition-opacity duration-500" />
         </div>
 
         {/* Floating Status Badge (Solid High-Contrast Backgrounds for 100% Legibility) */}
@@ -71,21 +71,21 @@ export default function ProjectCard({
         {/* Details Container */}
         <div className="relative z-10 p-4 flex flex-col gap-3 transition-transform duration-500 group-hover:translate-y-[-4px]">
           {/* Location & Category Header */}
-          <div className="flex items-center justify-between text-[10px] font-bold tracking-widest uppercase text-navy-200 gap-2">
-            <span className="flex items-center gap-1 text-[#d5d1c8] flex-1 min-w-0">
-              <MapPin className="w-3 h-3 text-sapl-blue shrink-0" />
+          <div className="flex items-center justify-between text-[10px] font-bold tracking-widest uppercase text-navy-200 gap-2 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
+            <span className="flex items-center gap-1 text-[#e8e4db] flex-1 min-w-0">
+              <MapPin className="w-3 h-3 text-sapl-blue shrink-0 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]" />
               <span className="truncate">{location}</span>
             </span>
-            <span className="text-sapl-blue font-extrabold shrink-0 max-w-[45%] truncate text-right">{category}</span>
+            <span className="text-sapl-blue font-extrabold shrink-0 max-w-[45%] truncate text-right drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">{category}</span>
           </div>
 
           {/* Project Name */}
-          <h3 className="font-sans text-xl font-extrabold tracking-tight text-white leading-tight line-clamp-2 min-h-[50px]" title={name}>
+          <h3 className="font-sans text-xl font-bold tracking-tight text-white leading-tight line-clamp-2 min-h-[50px] drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]" title={name}>
             {name}
           </h3>
 
-          {/* Description (Crisp white/cream text with line clamping for neatness) */}
-          <p className="text-[#eae7e3]/90 text-xs leading-relaxed transition-all duration-500 line-clamp-2 group-hover:line-clamp-none min-h-[39px] opacity-90 group-hover:opacity-100">
+          {/* Description */}
+          <p className="text-[#ffffff] font-medium text-[11px] sm:text-xs leading-relaxed transition-all duration-500 line-clamp-2 group-hover:line-clamp-none min-h-[39px] drop-shadow-[0_3px_5px_rgba(0,0,0,1)] [text-shadow:0px_1px_2px_black,0px_2px_4px_black] opacity-95 group-hover:opacity-100">
             {description}
           </p>
         </div>

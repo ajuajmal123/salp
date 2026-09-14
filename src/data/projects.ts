@@ -479,7 +479,7 @@ export const projectsList: Project[] = [
     name: "M/s. GOVEL TRUST, DR.G.VENKATASAMY RESEARCH INSTITUTE",
     category: "Healthcare",
     location: "MADURAI",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/healthcare/M-s. GOVEL TRUST, DR.G.VENKATASAMY RESEARCH INSTITUTE MADURAI 1/GVRI-1-800x600.jpg",
     status: "Completed",
     description: "Construction of M/s. GOVEL TRUST, DR.G.VENKATASAMY RESEARCH INSTITUTE in MADURAI.",
     details: {
@@ -490,7 +490,19 @@ export const projectsList: Project[] = [
       completionDate: "APR’ 2009",
       consultant: "M/s. Auroservice Consultants Private Limited"
     },
-    gallery: []
+    gallery: [
+      "/project/healthcare/M-s. GOVEL TRUST, DR.G.VENKATASAMY RESEARCH INSTITUTE MADURAI 1/GVRI-1-800x600.jpg",
+      "/project/healthcare/M-s. GOVEL TRUST, DR.G.VENKATASAMY RESEARCH INSTITUTE MADURAI 1/GVRI-10.jpg",
+      "/project/healthcare/M-s. GOVEL TRUST, DR.G.VENKATASAMY RESEARCH INSTITUTE MADURAI 1/GVRI-11.jpg",
+      "/project/healthcare/M-s. GOVEL TRUST, DR.G.VENKATASAMY RESEARCH INSTITUTE MADURAI 1/GVRI-2-800x531.jpg",
+      "/project/healthcare/M-s. GOVEL TRUST, DR.G.VENKATASAMY RESEARCH INSTITUTE MADURAI 1/GVRI-3-800x531.jpg",
+      "/project/healthcare/M-s. GOVEL TRUST, DR.G.VENKATASAMY RESEARCH INSTITUTE MADURAI 1/GVRI-4.jpg",
+      "/project/healthcare/M-s. GOVEL TRUST, DR.G.VENKATASAMY RESEARCH INSTITUTE MADURAI 1/GVRI-5-800x600.jpg",
+      "/project/healthcare/M-s. GOVEL TRUST, DR.G.VENKATASAMY RESEARCH INSTITUTE MADURAI 1/GVRI-6-800x600.jpg",
+      "/project/healthcare/M-s. GOVEL TRUST, DR.G.VENKATASAMY RESEARCH INSTITUTE MADURAI 1/GVRI-7-800x600.jpg",
+      "/project/healthcare/M-s. GOVEL TRUST, DR.G.VENKATASAMY RESEARCH INSTITUTE MADURAI 1/GVRI-8-800x600.jpg",
+      "/project/healthcare/M-s. GOVEL TRUST, DR.G.VENKATASAMY RESEARCH INSTITUTE MADURAI 1/GVRI-9-800x600.jpg"
+    ]
   },  {
     slug: "m-s-govel-trust-dr-g-venkatasamy-research-institute-14",
     name: "M/s. GOVEL TRUST, DR.G.VENKATASAMY RESEARCH INSTITUTE",
@@ -541,7 +553,7 @@ export const projectsList: Project[] = [
     name: "Ortho One SPINE ARTHOSCOPIC & JOINT REPLACEMENT CENTRE",
     category: "Healthcare",
     location: "COIMBATORE",
-    imageUrl: "/project/healthcare/Ortho One SPINE ARTHOSCOPIC & JOINT REPLACEMENT CENTRE 2/Ortho11.jpg",
+    imageUrl: "/project/healthcare/Ortho One SPINE ARTHOSCOPIC & JOINT REPLACEMENT CENTRE 1/1-2-800x513.jpg",
     status: "Completed",
     description: "Construction of Ortho One SPINE ARTHOSCOPIC & JOINT REPLACEMENT CENTRE in COIMBATORE.",
     details: {
@@ -553,12 +565,13 @@ export const projectsList: Project[] = [
       consultant: "SUNDAR SUNDARAM ARCHTECTS"
     },
     gallery: [
-      "/project/healthcare/Ortho One SPINE ARTHOSCOPIC & JOINT REPLACEMENT CENTRE 2/Ortho11.jpg",
-      "/project/healthcare/Ortho One SPINE ARTHOSCOPIC & JOINT REPLACEMENT CENTRE 2/Ortho12.jpg",
-      "/project/healthcare/Ortho One SPINE ARTHOSCOPIC & JOINT REPLACEMENT CENTRE 2/Ortho14.jpg",
-      "/project/healthcare/Ortho One SPINE ARTHOSCOPIC & JOINT REPLACEMENT CENTRE 2/Ortho15.jpg",
-      "/project/healthcare/Ortho One SPINE ARTHOSCOPIC & JOINT REPLACEMENT CENTRE 2/Ortho16.jpg",
-      "/project/healthcare/Ortho One SPINE ARTHOSCOPIC & JOINT REPLACEMENT CENTRE 2/Ortho17.jpg"
+      "/project/healthcare/Ortho One SPINE ARTHOSCOPIC & JOINT REPLACEMENT CENTRE 1/1-2-800x513.jpg",
+      "/project/healthcare/Ortho One SPINE ARTHOSCOPIC & JOINT REPLACEMENT CENTRE 1/Ortho-1-800x600.jpg",
+      "/project/healthcare/Ortho One SPINE ARTHOSCOPIC & JOINT REPLACEMENT CENTRE 1/Ortho-2-800x600.jpg",
+      "/project/healthcare/Ortho One SPINE ARTHOSCOPIC & JOINT REPLACEMENT CENTRE 1/Ortho-3-800x531.jpg",
+      "/project/healthcare/Ortho One SPINE ARTHOSCOPIC & JOINT REPLACEMENT CENTRE 1/Ortho-4-800x600.jpg",
+      "/project/healthcare/Ortho One SPINE ARTHOSCOPIC & JOINT REPLACEMENT CENTRE 1/Ortho-5-800x600.jpg",
+      "/project/healthcare/Ortho One SPINE ARTHOSCOPIC & JOINT REPLACEMENT CENTRE 1/Ortho-6-800x600.jpg"
     ]
   },  {
     slug: "m-s-sri-balaji-vidyapeeth-at-mahatma-gandhi-medical-college-and-research-institute-campus-17",
@@ -593,7 +606,7 @@ export const projectsList: Project[] = [
     name: "M/s. VADAMALAYAN HOSPITALS PVT LTD",
     category: "Healthcare",
     location: "MADURAI",
-    imageUrl: "/project/healthcare/M-s. VADAMALAYAN HOSPITALS PVT LTD/IMG-20160909-WA0002.jpg",
+    imageUrl: "/project/healthcare/VADAMALAYAN HOSPITAL/img-1-22-800x600.jpg",
     status: "Completed",
     description: "Construction of M/s. VADAMALAYAN HOSPITALS PVT LTD in MADURAI.",
     details: {
@@ -605,9 +618,22 @@ export const projectsList: Project[] = [
       consultant: "M/s. Infrabees Management Consultancy services"
     },
     gallery: [
-      "/project/healthcare/M-s. VADAMALAYAN HOSPITALS PVT LTD/IMG-20160909-WA0002.jpg",
-      "/project/healthcare/M-s. VADAMALAYAN HOSPITALS PVT LTD/IMG-20160909-WA0007.jpg",
-      "/project/healthcare/M-s. VADAMALAYAN HOSPITALS PVT LTD/VADAMALAIYN1.jpg"
+      "/project/healthcare/VADAMALAYAN HOSPITAL/img-1-22-800x600.jpg",
+      "/project/healthcare/VADAMALAYAN HOSPITAL/img-2-22-800x600.jpg",
+      "/project/healthcare/VADAMALAYAN HOSPITAL/img-3-21-800x600.jpg",
+      "/project/healthcare/VADAMALAYAN HOSPITAL/img-4-19-800x600.jpg",
+      "/project/healthcare/VADAMALAYAN HOSPITAL/V-1-800x450.jpeg",
+      "/project/healthcare/VADAMALAYAN HOSPITAL/V-2-800x461.jpeg",
+      "/project/healthcare/VADAMALAYAN HOSPITAL/Vada-2-800x422.jpeg",
+      "/project/healthcare/VADAMALAYAN HOSPITAL/Vada-3-800x439.jpeg",
+      "/project/healthcare/VADAMALAYAN HOSPITAL/Vada-5-800x448.jpeg",
+      "/project/healthcare/VADAMALAYAN HOSPITAL/Vada-8-800x438.jpeg",
+      "/project/healthcare/VADAMALAYAN HOSPITAL/Vada-9-800x450.jpeg",
+      "/project/healthcare/VADAMALAYAN HOSPITAL/Vadam-1-800x976.jpeg",
+      "/project/healthcare/VADAMALAYAN HOSPITAL/Vadam-2-800x543 (1).jpeg",
+      "/project/healthcare/VADAMALAYAN HOSPITAL/Vadam-2-800x543.jpeg",
+      "/project/healthcare/VADAMALAYAN HOSPITAL/Vadam-3-800x985.jpeg",
+      "/project/healthcare/VADAMALAYAN HOSPITAL/Vadamalayan-1-800x577.jpeg"
     ]
   },  {
     slug: "psg-ims-r-a-block-extension-19",
@@ -1414,9 +1440,22 @@ export const projectsList: Project[] = [
       "/project/commercial/HOTEL RAJPARK (P) LTD/HRP-2-800x600.jpg",
       "/project/commercial/HOTEL RAJPARK (P) LTD/HRP-3-800x600.jpeg",
       "/project/commercial/HOTEL RAJPARK (P) LTD/HRP-5-800x600.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/img-1-38-800x600.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/img-3-37-800x600.jpg",
       "/project/commercial/HOTEL RAJPARK (P) LTD/IMG_20210206_091559-800x325.jpg",
       "/project/commercial/HOTEL RAJPARK (P) LTD/IMG_20210212_091852-800x352.jpg",
       "/project/commercial/HOTEL RAJPARK (P) LTD/IMG_20210405_164745-800x377.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-1-800x600.jpeg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-11-800x600.jpeg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-12.jpeg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-3-800x600.jpeg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-4-800x600.jpeg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-5-800x600.jpeg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-6-800x600.jpeg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-7-800x600.jpeg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-9-800x600.jpeg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/Rajpark-3-800x378.jpg",
+      "/project/commercial/HOTEL RAJPARK (P) LTD/Rajpark-5-800x378.jpg",
       "/project/commercial/HOTEL RAJPARK (P) LTD/RP-2-800x360.jpg",
       "/project/commercial/HOTEL RAJPARK (P) LTD/RP-3-800x360.jpg",
       "/project/commercial/HOTEL RAJPARK (P) LTD/RP-6-800x378.jpg",
@@ -1430,20 +1469,7 @@ export const projectsList: Project[] = [
       "/project/commercial/HOTEL RAJPARK (P) LTD/RPH-7-800x593.jpg",
       "/project/commercial/HOTEL RAJPARK (P) LTD/RPH-8-800x600.jpg",
       "/project/commercial/HOTEL RAJPARK (P) LTD/RPH-800x600.jpg",
-      "/project/commercial/HOTEL RAJPARK (P) LTD/Rajpark-3-800x378.jpg",
-      "/project/commercial/HOTEL RAJPARK (P) LTD/Rajpark-5-800x378.jpg",
-      "/project/commercial/HOTEL RAJPARK (P) LTD/SHEET-1-800x566.jpg",
-      "/project/commercial/HOTEL RAJPARK (P) LTD/img-1-38-800x600.jpg",
-      "/project/commercial/HOTEL RAJPARK (P) LTD/img-3-37-800x600.jpg",
-      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-1-800x600.jpeg",
-      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-11-800x600.jpeg",
-      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-12.jpeg",
-      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-3-800x600.jpeg",
-      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-4-800x600.jpeg",
-      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-5-800x600.jpeg",
-      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-6-800x600.jpeg",
-      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-7-800x600.jpeg",
-      "/project/commercial/HOTEL RAJPARK (P) LTD/rajp-9-800x600.jpeg"
+      "/project/commercial/HOTEL RAJPARK (P) LTD/SHEET-1-800x566.jpg"
     ]
   },  {
     slug: "indian-cotton-federation-26",
@@ -1802,7 +1828,7 @@ export const projectsList: Project[] = [
     name: "SARADHA GREENS –",
     category: "Commercial",
     location: "COIMBATORE",
-    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    imageUrl: "/project/commercial/SARADHA GREENS/GREENS-34-800x450.jpeg",
     status: "Completed",
     description: "Construction of SARADHA GREENS – in COIMBATORE.",
     details: {
@@ -1812,13 +1838,34 @@ export const projectsList: Project[] = [
       startDate: "Nov’ 2019",
       completionDate: "Oct’ 2020"
     },
-    gallery: []
+    gallery: [
+      "/project/commercial/SARADHA GREENS/GREENS-34-800x450.jpeg",
+      "/project/commercial/SARADHA GREENS/NHSG1-800x369.jpg",
+      "/project/commercial/SARADHA GREENS/NHSG2-800x419.jpg",
+      "/project/commercial/SARADHA GREENS/NHSG4.jpg",
+      "/project/commercial/SARADHA GREENS/NHSG5-800x542.jpg",
+      "/project/commercial/SARADHA GREENS/NSG-1-800x410.jpg",
+      "/project/commercial/SARADHA GREENS/NSG-2-800x600.jpg",
+      "/project/commercial/SARADHA GREENS/NSG-3-800x600.jpg",
+      "/project/commercial/SARADHA GREENS/NSG-800x450.jpeg",
+      "/project/commercial/SARADHA GREENS/SG-1-1-800x600.jpg",
+      "/project/commercial/SARADHA GREENS/SG-1.jpeg",
+      "/project/commercial/SARADHA GREENS/SG-2-1-800x600.jpg",
+      "/project/commercial/SARADHA GREENS/SG-3-1-800x600.jpg",
+      "/project/commercial/SARADHA GREENS/SG-4-1-800x600.jpg",
+      "/project/commercial/SARADHA GREENS/SG-5-1-800x600.jpg",
+      "/project/commercial/SARADHA GREENS/SG-6-1-800x600.jpg",
+      "/project/commercial/SARADHA GREENS/SG-7-1-800x600.jpg",
+      "/project/commercial/SARADHA GREENS/slide-1-800x395.jpg",
+      "/project/commercial/SARADHA GREENS/slide-2-800x395.jpg",
+      "/project/commercial/SARADHA GREENS/slide-3-800x395.jpg"
+    ]
   },  {
     slug: "shoeline-palmyra-42",
     name: "Shoeline – PALMYRA",
     category: "Commercial",
     location: "CHENNAI",
-    imageUrl: "/project/commercial/Shoeline – PALMYRA/Pal-1-800x369.jpeg",
+    imageUrl: "/project/commercial/Shoeline – PALMYRA/pal-1-1-800x600.jpeg",
     status: "Completed",
     description: "Construction of Shoeline – PALMYRA in CHENNAI.",
     details: {
@@ -1829,6 +1876,7 @@ export const projectsList: Project[] = [
       completionDate: "Aug’ 2020"
     },
     gallery: [
+      "/project/commercial/Shoeline – PALMYRA/pal-1-1-800x600.jpeg",
       "/project/commercial/Shoeline – PALMYRA/Pal-1-800x369.jpeg",
       "/project/commercial/Shoeline – PALMYRA/Pal-2-800x484.jpeg",
       "/project/commercial/Shoeline – PALMYRA/Pal-3.jpeg",
@@ -1845,8 +1893,7 @@ export const projectsList: Project[] = [
       "/project/commercial/Shoeline – PALMYRA/Plamy-2-800x601.jpg",
       "/project/commercial/Shoeline – PALMYRA/Plamy-3-800x601.jpg",
       "/project/commercial/Shoeline – PALMYRA/Plamy-4-800x601.jpg",
-      "/project/commercial/Shoeline – PALMYRA/Plamy-7-800x601.jpg",
-      "/project/commercial/Shoeline – PALMYRA/pal-1-1-800x600.jpeg"
+      "/project/commercial/Shoeline – PALMYRA/Plamy-7-800x601.jpg"
     ]
   },  {
     slug: "snr-auditorium-43",
@@ -1913,7 +1960,7 @@ export const projectsList: Project[] = [
     name: "SRI KUMARAN HALL",
     category: "Commercial",
     location: "COIMBATORE",
-    imageUrl: "/project/commercial/SRI KUMARAN HALL/Kumaran1-800x400.jpg",
+    imageUrl: "/project/commercial/SRI KUMARAN HALL/adithya-mahal-800x425.jpg",
     status: "Completed",
     description: "Construction of SRI KUMARAN HALL in COIMBATORE.",
     details: {
@@ -1924,8 +1971,6 @@ export const projectsList: Project[] = [
       completionDate: "Deccember 2018"
     },
     gallery: [
-      "/project/commercial/SRI KUMARAN HALL/Kumaran1-800x400.jpg",
-      "/project/commercial/SRI KUMARAN HALL/Kumaran2-800x393.jpg",
       "/project/commercial/SRI KUMARAN HALL/adithya-mahal-800x425.jpg",
       "/project/commercial/SRI KUMARAN HALL/img-1-8.jpg",
       "/project/commercial/SRI KUMARAN HALL/img-10-1.jpg",
@@ -1937,7 +1982,9 @@ export const projectsList: Project[] = [
       "/project/commercial/SRI KUMARAN HALL/img-6-5.jpg",
       "/project/commercial/SRI KUMARAN HALL/img-7-3.jpg",
       "/project/commercial/SRI KUMARAN HALL/img-8-2.jpg",
-      "/project/commercial/SRI KUMARAN HALL/img-9-1.jpg"
+      "/project/commercial/SRI KUMARAN HALL/img-9-1.jpg",
+      "/project/commercial/SRI KUMARAN HALL/Kumaran1-800x400.jpg",
+      "/project/commercial/SRI KUMARAN HALL/Kumaran2-800x393.jpg"
     ]
   },  {
     slug: "the-echo-point-plaza-47",
@@ -1960,26 +2007,26 @@ export const projectsList: Project[] = [
       "/project/commercial/THE ECHO POINT – PLAZA/ECO-4-800x1067.jpeg",
       "/project/commercial/THE ECHO POINT – PLAZA/ECO-5-800x600.jpeg",
       "/project/commercial/THE ECHO POINT – PLAZA/FINAL-ECHO-POINT-SIDE-VIEW-800x554.jpg",
-      "/project/commercial/THE ECHO POINT – PLAZA/IMG-2505-800x600.jpg",
-      "/project/commercial/THE ECHO POINT – PLAZA/IMG-2506-800x600.jpg",
-      "/project/commercial/THE ECHO POINT – PLAZA/IMG-2508-800x600.jpg",
       "/project/commercial/THE ECHO POINT – PLAZA/Image-11.jpeg",
       "/project/commercial/THE ECHO POINT – PLAZA/Image-2-800x453.jpeg",
       "/project/commercial/THE ECHO POINT – PLAZA/Image-3.jpeg",
       "/project/commercial/THE ECHO POINT – PLAZA/Image-4.jpeg",
       "/project/commercial/THE ECHO POINT – PLAZA/Image-5-800x600.jpeg",
       "/project/commercial/THE ECHO POINT – PLAZA/Image-7.jpeg",
+      "/project/commercial/THE ECHO POINT – PLAZA/img-1.png",
+      "/project/commercial/THE ECHO POINT – PLAZA/img-2.png",
+      "/project/commercial/THE ECHO POINT – PLAZA/IMG-2505-800x600.jpg",
+      "/project/commercial/THE ECHO POINT – PLAZA/IMG-2506-800x600.jpg",
+      "/project/commercial/THE ECHO POINT – PLAZA/IMG-2508-800x600.jpg",
+      "/project/commercial/THE ECHO POINT – PLAZA/img-3.png",
+      "/project/commercial/THE ECHO POINT – PLAZA/img-4.png",
       "/project/commercial/THE ECHO POINT – PLAZA/NHEPP-800x547.jpeg",
       "/project/commercial/THE ECHO POINT – PLAZA/PLAZA1-800x600.jpeg",
       "/project/commercial/THE ECHO POINT – PLAZA/PLAZA2-800x600.jpeg",
       "/project/commercial/THE ECHO POINT – PLAZA/PLAZA3-800x600.jpeg",
       "/project/commercial/THE ECHO POINT – PLAZA/PLAZA4-800x600.jpeg",
       "/project/commercial/THE ECHO POINT – PLAZA/PLAZA5-800x600.jpeg",
-      "/project/commercial/THE ECHO POINT – PLAZA/PLAZA6-800x600.jpeg",
-      "/project/commercial/THE ECHO POINT – PLAZA/img-1.png",
-      "/project/commercial/THE ECHO POINT – PLAZA/img-2.png",
-      "/project/commercial/THE ECHO POINT – PLAZA/img-3.png",
-      "/project/commercial/THE ECHO POINT – PLAZA/img-4.png"
+      "/project/commercial/THE ECHO POINT – PLAZA/PLAZA6-800x600.jpeg"
     ]
   },  {
     slug: "vasanth-co-48",
@@ -2309,7 +2356,7 @@ export const projectsList: Project[] = [
     name: "ADITHYA INSTITUTE OF TECHNOLOGY- ACADEMIC   BUILDING",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY- ACADEMIC BUILDING/AIT1-800x479.jpg",
+    imageUrl: "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/ADD_00381-800x534.jpg",
     status: "Completed",
     description: "Construction of ADITHYA INSTITUTE OF TECHNOLOGY- ACADEMIC   BUILDING in COIMBATORE.",
     details: {
@@ -2320,10 +2367,16 @@ export const projectsList: Project[] = [
       completionDate: "MAR;2025"
     },
     gallery: [
-      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY- ACADEMIC BUILDING/AIT1-800x479.jpg",
-      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY- ACADEMIC BUILDING/AIT2-800x515.jpg",
-      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY- ACADEMIC BUILDING/AIT3-800x489.jpg",
-      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY- ACADEMIC BUILDING/AIT4-800x580.jpg"
+      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/ADD_00381-800x534.jpg",
+      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/ADD_0191-800x534.jpg",
+      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/ADD_0233-800x534.jpg",
+      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/AIT-1-800x531.jpg",
+      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/AIT-2-800x531.jpg",
+      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/AIT-4-800x531.jpg",
+      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/AIT-5-800x531.jpg",
+      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/AIT-6-800x531.jpg",
+      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/DSC_0210-800x531.jpg",
+      "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/DSC_0214-800x531.jpg"
     ]
   },  {
     slug: "adithya-matriculation-school-4",
@@ -2351,7 +2404,7 @@ export const projectsList: Project[] = [
     name: "ADITYA SCHOOL HOSTEL BUILDING",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/IMG_20190531_152035-800x600.jpg",
+    imageUrl: "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/img-1-12.jpg",
     status: "Completed",
     description: "Construction of ADITYA SCHOOL HOSTEL BUILDING in COIMBATORE.",
     details: {
@@ -2362,7 +2415,6 @@ export const projectsList: Project[] = [
       completionDate: "DEC’ 2018"
     },
     gallery: [
-      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/IMG_20190531_152035-800x600.jpg",
       "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/img-1-12.jpg",
       "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/img-10-4-800x600.jpg",
       "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/img-2-12.jpg",
@@ -2372,7 +2424,8 @@ export const projectsList: Project[] = [
       "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/img-6-8.jpg",
       "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/img-7-6-800x600.jpg",
       "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/img-8-5-800x600.jpg",
-      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/img-9-4-800x600.jpg"
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/img-9-4-800x600.jpg",
+      "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/IMG_20190531_152035-800x600.jpg"
     ]
   },  {
     slug: "aditya-school-hostel-building-phase-ii-6",
@@ -2692,6 +2745,7 @@ export const projectsList: Project[] = [
     },
     gallery: [
       "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-1-800x236.jpg",
+      "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/kct-1.jpg",
       "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-10-800x450.jpg",
       "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-11-800x450.jpg",
       "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-12-800x450.jpg",
@@ -2701,13 +2755,12 @@ export const projectsList: Project[] = [
       "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-16-800x600.jpg",
       "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-17-800x600.jpg",
       "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-3-800x600.jpg",
+      "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/kct-3.jpg",
       "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-4-800x600.jpg",
       "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-6-800x600.jpg",
       "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-7-800x600.jpg",
       "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-8-800x600.jpg",
-      "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-9-800x450.jpg",
-      "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/kct-1.jpg",
-      "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/kct-3.jpg"
+      "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-9-800x450.jpg"
     ]
   },  {
     slug: "m-s-d-j-academy-for-managerial-excellence-22",
@@ -2788,7 +2841,7 @@ export const projectsList: Project[] = [
     name: "MEPCO SCHLENK ENGINEERING COLLEGE",
     category: "Institutional",
     location: "SIVAKASI",
-    imageUrl: "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/IMG-20221231-WA0000-800x600.jpg",
+    imageUrl: "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-1-23-800x450.jpg",
     status: "Completed",
     description: "Construction of MEPCO SCHLENK ENGINEERING COLLEGE in SIVAKASI.",
     details: {
@@ -2799,11 +2852,22 @@ export const projectsList: Project[] = [
       completionDate: "JAN’ 2020"
     },
     gallery: [
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-1-23-800x450.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-10-9-800x450.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-2-23-800x450.jpg",
       "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/IMG-20221231-WA0000-800x600.jpg",
       "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/IMG-20221231-WA0001.jpg",
       "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/IMG-20221231-WA0002-800x600.jpg",
       "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/IMG-20221231-WA0003-800x600.jpg",
       "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/IMG-20221231-WA0004-800x600.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-3-21-800x600.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-3-22-800x450.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-4-20-800x450.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-5-19-800x450.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-6-16-800x450.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-7-12-800x450.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-8-10-800x450.jpg",
+      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-9-9-800x450.jpg",
       "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/Mepco-1-800x450.jpeg",
       "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/Mepco-13-800x450.jpeg",
       "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/Mepco-14-800x450.jpeg",
@@ -2817,17 +2881,6 @@ export const projectsList: Project[] = [
       "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/Mepco-6-800x450.jpeg",
       "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/Mepco-7-800x450.jpeg",
       "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/Mepco-8-800x450.jpeg",
-      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-1-23-800x450.jpg",
-      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-10-9-800x450.jpg",
-      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-2-23-800x450.jpg",
-      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-3-21-800x600.jpg",
-      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-3-22-800x450.jpg",
-      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-4-20-800x450.jpg",
-      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-5-19-800x450.jpg",
-      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-6-16-800x450.jpg",
-      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-7-12-800x450.jpg",
-      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-8-10-800x450.jpg",
-      "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-9-9-800x450.jpg",
       "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/mepco-800x600.jpeg"
     ]
   },  {
@@ -2862,8 +2915,11 @@ export const projectsList: Project[] = [
     gallery: [
       "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/22e7ed7a-0812-4a79-9a00-efa2ffa64989.jpeg",
       "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/983e34be-b413-4852-a8f7-31182adc27d2-800x600.jpeg",
+      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/onc-7-800x389.jpeg",
+      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/oncb2-800x523.jpg",
       "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/Onco-1-800x534.jpg",
       "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/Oncolo-3-800x361.jpeg",
+      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/oncology-800x450.jpeg",
       "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/Oncology-800x451.jpg",
       "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/Oncology1-800x517.jpg",
       "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/Oncology2-800x511.jpg",
@@ -2872,13 +2928,10 @@ export const projectsList: Project[] = [
       "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/Oncology5-800x510.jpg",
       "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/Oncology6-800x502.jpg",
       "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/Oncology7-800x489.jpg",
-      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/PSGOncology-4-800x452.jpg",
-      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/onc-7-800x389.jpeg",
-      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/oncb2-800x523.jpg",
-      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/oncology-800x450.jpeg",
       "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/psgo-1-800x452.jpg",
       "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/psgo-2-800x452.jpg",
-      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/psgo-3-800x452.jpg"
+      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/psgo-3-800x452.jpg",
+      "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/PSGOncology-4-800x452.jpg"
     ]
   },  {
     slug: "psg-institute-of-medical-sciences-research-ladies-and-gents-hostel-28",
@@ -2953,14 +3006,14 @@ export const projectsList: Project[] = [
       "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/RMV-8-800x370.jpg",
       "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/SRKV-1-1-800x400.jpg",
       "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/SRKV-2-1-800x400.jpg",
+      "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/srkv-2-800x361.jpg",
       "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/SRKV-3-1-800x400.jpg",
       "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/SRKV-4-1-800x400.jpg",
+      "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/srkv-4-800x400.jpg",
+      "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/srkv-5-800x400.jpg",
       "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/SRMV-1-800x448.jpg",
       "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/SRMV-2-800x448.jpg",
-      "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/SRMV-4-800x459.jpg",
-      "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/srkv-2-800x361.jpg",
-      "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/srkv-4-800x400.jpg",
-      "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/srkv-5-800x400.jpg"
+      "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/SRMV-4-800x459.jpg"
     ]
   },  {
     slug: "renovation-work-in-d-block-and-boys-hostel-2-31",
@@ -3034,7 +3087,7 @@ export const projectsList: Project[] = [
     name: "SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/SRIT-1-800x600.jpg",
+    imageUrl: "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/Sri-Ramakrishna-Institute-of-Technology-800x600.jpg",
     status: "Completed",
     description: "Construction of SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY in COIMBATORE.",
     details: {
@@ -3045,6 +3098,7 @@ export const projectsList: Project[] = [
       completionDate: "2002"
     },
     gallery: [
+      "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/Sri-Ramakrishna-Institute-of-Technology-800x600.jpg",
       "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/SRIT-1-800x600.jpg",
       "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/SRIT-10-800x600.jpg",
       "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/SRIT-2-800x600.jpg",
@@ -3054,8 +3108,7 @@ export const projectsList: Project[] = [
       "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/SRIT-6-800x600.jpg",
       "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/SRIT-7-800x600.jpg",
       "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/SRIT-8-800x600.jpg",
-      "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/SRIT-9-800x600.jpg",
-      "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/Sri-Ramakrishna-Institute-of-Technology-800x600.jpg"
+      "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/SRIT-9-800x600.jpg"
     ]
   },  {
     slug: "sri-ramakrishna-polytechnic-35",
@@ -3323,16 +3376,16 @@ export const projectsList: Project[] = [
     },
     gallery: [
       "/project/industrial/AKG INDIA PVT LTD/AKG-1-1-800x534.jpg",
+      "/project/industrial/AKG INDIA PVT LTD/akg-1.jpg",
       "/project/industrial/AKG INDIA PVT LTD/AKG-2-800x534.jpg",
+      "/project/industrial/AKG INDIA PVT LTD/akg-2.jpg",
       "/project/industrial/AKG INDIA PVT LTD/AKG-3-800x534.jpg",
+      "/project/industrial/AKG INDIA PVT LTD/akg-3.jpg",
       "/project/industrial/AKG INDIA PVT LTD/AKG-4-800x535.jpg",
+      "/project/industrial/AKG INDIA PVT LTD/akg-4.jpg",
       "/project/industrial/AKG INDIA PVT LTD/AKG-5-800x600.jpg",
       "/project/industrial/AKG INDIA PVT LTD/AKG-6-800x600.jpg",
-      "/project/industrial/AKG INDIA PVT LTD/AKG-7-800x600.jpg",
-      "/project/industrial/AKG INDIA PVT LTD/akg-1.jpg",
-      "/project/industrial/AKG INDIA PVT LTD/akg-2.jpg",
-      "/project/industrial/AKG INDIA PVT LTD/akg-3.jpg",
-      "/project/industrial/AKG INDIA PVT LTD/akg-4.jpg"
+      "/project/industrial/AKG INDIA PVT LTD/AKG-7-800x600.jpg"
     ]
   },  {
     slug: "aqua-flow-3",
@@ -3353,6 +3406,11 @@ export const projectsList: Project[] = [
     gallery: [
       "/project/industrial/AQUA FLOW/2-800x369 (1).jpeg",
       "/project/industrial/AQUA FLOW/2-800x369.jpeg",
+      "/project/industrial/AQUA FLOW/Aqflo-10-800x600.jpeg",
+      "/project/industrial/AQUA FLOW/Aqflo-14-800x600.jpeg",
+      "/project/industrial/AQUA FLOW/Aqflo-2-800x600.jpeg",
+      "/project/industrial/AQUA FLOW/Aqflo-3-800x600.jpeg",
+      "/project/industrial/AQUA FLOW/Aqflo-8-800x600.jpeg",
       "/project/industrial/AQUA FLOW/AQUA-FLOW-1-800x600.jpeg",
       "/project/industrial/AQUA FLOW/AQUA-FLOW-10-800x600.jpeg",
       "/project/industrial/AQUA FLOW/AQUA-FLOW-11-800x600.jpeg",
@@ -3367,11 +3425,6 @@ export const projectsList: Project[] = [
       "/project/industrial/AQUA FLOW/AQUA-FLOW-7-800x600.jpeg",
       "/project/industrial/AQUA FLOW/AQUA-FLOW-8-800x600.jpeg",
       "/project/industrial/AQUA FLOW/AQUA-FLOW-9-800x600.jpeg",
-      "/project/industrial/AQUA FLOW/Aqflo-10-800x600.jpeg",
-      "/project/industrial/AQUA FLOW/Aqflo-14-800x600.jpeg",
-      "/project/industrial/AQUA FLOW/Aqflo-2-800x600.jpeg",
-      "/project/industrial/AQUA FLOW/Aqflo-3-800x600.jpeg",
-      "/project/industrial/AQUA FLOW/Aqflo-8-800x600.jpeg",
       "/project/industrial/AQUA FLOW/Aquaflow-1-800x600.jpg",
       "/project/industrial/AQUA FLOW/Aquaflow-2-800x600.jpg",
       "/project/industrial/AQUA FLOW/Aquaflow-3-800x600.jpg"
@@ -4317,12 +4370,12 @@ export const projectsList: Project[] = [
       "/project/industrial/COSMIK INDUSTRY/COSM-3-800x600.jpg",
       "/project/industrial/COSMIK INDUSTRY/COSM-4-800x600.jpg",
       "/project/industrial/COSMIK INDUSTRY/COSMIK-1-1-800x600.jpg",
+      "/project/industrial/COSMIK INDUSTRY/cosmik-1.jpg",
       "/project/industrial/COSMIK INDUSTRY/COSMIK-2-800x600.jpg",
       "/project/industrial/COSMIK INDUSTRY/COSMIK-3-800x600.jpg",
       "/project/industrial/COSMIK INDUSTRY/COSMIK-4-800x600.jpg",
       "/project/industrial/COSMIK INDUSTRY/COSMIK-5-800x600.jpg",
-      "/project/industrial/COSMIK INDUSTRY/COSMIK-6-800x600.jpg",
-      "/project/industrial/COSMIK INDUSTRY/cosmik-1.jpg"
+      "/project/industrial/COSMIK INDUSTRY/COSMIK-6-800x600.jpg"
     ]
   },  {
     slug: "cri-pumps-private-limited-57",
@@ -4344,10 +4397,10 @@ export const projectsList: Project[] = [
       "/project/industrial/CRI PUMPS PRIVATE LIMITED/DSC02517-800x534.jpg",
       "/project/industrial/CRI PUMPS PRIVATE LIMITED/DSC02519-800x534.jpg",
       "/project/industrial/CRI PUMPS PRIVATE LIMITED/DSC02520-800x534.jpg",
-      "/project/industrial/CRI PUMPS PRIVATE LIMITED/WhatsApp-Image-2019-01-21-at-15.20.08-800x400.jpeg",
       "/project/industrial/CRI PUMPS PRIVATE LIMITED/img-1-35-800x400.jpg",
       "/project/industrial/CRI PUMPS PRIVATE LIMITED/img-2-35-800x400.jpg",
-      "/project/industrial/CRI PUMPS PRIVATE LIMITED/img-3-34-800x400.jpg"
+      "/project/industrial/CRI PUMPS PRIVATE LIMITED/img-3-34-800x400.jpg",
+      "/project/industrial/CRI PUMPS PRIVATE LIMITED/WhatsApp-Image-2019-01-21-at-15.20.08-800x400.jpeg"
     ]
   },  {
     slug: "cri-pumps-private-limited-58",
@@ -4391,6 +4444,7 @@ export const projectsList: Project[] = [
     },
     gallery: [
       "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-1-1-800x600.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/exotic-1-800x450.jpg",
       "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-10-800x600.jpg",
       "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-11-800x600.jpg",
       "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-12-800x600.jpg",
@@ -4402,22 +4456,21 @@ export const projectsList: Project[] = [
       "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-18-800x600.jpg",
       "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-19-800x450.jpg",
       "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-2-800x600.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/exotic-2.jpg",
       "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-20-800x450.jpg",
       "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-21-800x450.jpg",
       "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-22-800x450.jpg",
       "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-23-800x450.jpg",
       "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-24-800x600.jpg",
       "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-3-800x600.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/exotic-3.jpg",
       "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-4-800x600.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/exotic-4.jpg",
       "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-5-800x600.jpg",
+      "/project/industrial/EXOTIC FRUITS PVT LTD/exotic-5.jpg",
       "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-6-800x600.jpg",
       "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-7-1.jpg",
-      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-8-800x600.jpg",
-      "/project/industrial/EXOTIC FRUITS PVT LTD/exotic-1-800x450.jpg",
-      "/project/industrial/EXOTIC FRUITS PVT LTD/exotic-2.jpg",
-      "/project/industrial/EXOTIC FRUITS PVT LTD/exotic-3.jpg",
-      "/project/industrial/EXOTIC FRUITS PVT LTD/exotic-4.jpg",
-      "/project/industrial/EXOTIC FRUITS PVT LTD/exotic-5.jpg"
+      "/project/industrial/EXOTIC FRUITS PVT LTD/Exotic-8-800x600.jpg"
     ]
   },  {
     slug: "extention-of-factory-building-60",
@@ -4454,16 +4507,16 @@ export const projectsList: Project[] = [
     },
     gallery: [
       "/project/industrial/GTN EXPORTS LTD/GTN-1-1-800x529.jpg",
+      "/project/industrial/GTN EXPORTS LTD/gtn-1.jpg",
       "/project/industrial/GTN EXPORTS LTD/GTN-10-800x535.jpg",
       "/project/industrial/GTN EXPORTS LTD/GTN-11-800x535.jpg",
       "/project/industrial/GTN EXPORTS LTD/GTN-12-800x338.jpg",
+      "/project/industrial/GTN EXPORTS LTD/gtn-2.jpg",
       "/project/industrial/GTN EXPORTS LTD/GTN-5-800x533.jpg",
       "/project/industrial/GTN EXPORTS LTD/GTN-6-800x535.jpg",
       "/project/industrial/GTN EXPORTS LTD/GTN-7-800x535.jpg",
       "/project/industrial/GTN EXPORTS LTD/GTN-8-800x535.jpg",
-      "/project/industrial/GTN EXPORTS LTD/GTN-9-800x535.jpg",
-      "/project/industrial/GTN EXPORTS LTD/gtn-1.jpg",
-      "/project/industrial/GTN EXPORTS LTD/gtn-2.jpg"
+      "/project/industrial/GTN EXPORTS LTD/GTN-9-800x535.jpg"
     ]
   },  {
     slug: "integra-automation-pvt-ltd-unit-iv-62",
@@ -4498,17 +4551,17 @@ export const projectsList: Project[] = [
       "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/DSC03565-800x534.jpg",
       "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/DSC03566-800x534.jpg",
       "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/DSC03574-800x534.jpg",
-      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/IMG-20190603-WA0045-800x450.jpg",
-      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/IMG_20210624_153653-800x351.jpg",
       "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/img-1-25-800x405.jpg",
       "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/img-2-25-800x388.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/IMG-20190603-WA0045-800x450.jpg",
       "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/img-3-24-800x388.jpg",
       "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/img-4-21-800x388.jpg",
       "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/img-5-20-800x388.jpg",
       "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/img-6-17-800x388.jpg",
       "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/img-7-13-800x388.jpg",
       "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/img-8-11-800x388.jpg",
-      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/img-9-10-800x388.jpg"
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/img-9-10-800x388.jpg",
+      "/project/industrial/INTEGRA AUTOMATION PVT LTD UNIT–IV/IMG_20210624_153653-800x351.jpg"
     ]
   },  {
     slug: "international-aerospace-manufacturing-63",
@@ -4635,7 +4688,7 @@ export const projectsList: Project[] = [
     name: "KRISHNAVENI CARBON",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "/project/industrial/KRISHNAVENI CARBON/KV-1-800x369.jpeg",
+    imageUrl: "/project/industrial/KRISHNAVENI CARBON/Krish-11-800x370.jpg",
     status: "Completed",
     description: "Construction of KRISHNAVENI CARBON in COIMBATORE.",
     details: {
@@ -4647,6 +4700,9 @@ export const projectsList: Project[] = [
       consultant: "M/s. M. Dharmalingam Associates"
     },
     gallery: [
+      "/project/industrial/KRISHNAVENI CARBON/Krish-11-800x370.jpg",
+      "/project/industrial/KRISHNAVENI CARBON/KrishCar-33-800x371.jpg",
+      "/project/industrial/KRISHNAVENI CARBON/Krishnaveni-800x450.jpg",
       "/project/industrial/KRISHNAVENI CARBON/KV-1-800x369.jpeg",
       "/project/industrial/KRISHNAVENI CARBON/KV-10-800x369.jpeg",
       "/project/industrial/KRISHNAVENI CARBON/KV-2-800x369.jpeg",
@@ -4657,17 +4713,14 @@ export const projectsList: Project[] = [
       "/project/industrial/KRISHNAVENI CARBON/KV-7-800x400.jpeg",
       "/project/industrial/KRISHNAVENI CARBON/KV-8-800x369.jpeg",
       "/project/industrial/KRISHNAVENI CARBON/KV-9-800x369 (1).jpeg",
-      "/project/industrial/KRISHNAVENI CARBON/KV-9-800x369.jpeg",
-      "/project/industrial/KRISHNAVENI CARBON/Krish-11-800x370.jpg",
-      "/project/industrial/KRISHNAVENI CARBON/KrishCar-33-800x371.jpg",
-      "/project/industrial/KRISHNAVENI CARBON/Krishnaveni-800x450.jpg"
+      "/project/industrial/KRISHNAVENI CARBON/KV-9-800x369.jpeg"
     ]
   },  {
     slug: "l-g-balakrishnan-bro-s-ltd-68",
     name: "L G BALAKRISHNAN & BRO’s LTD",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/Untitled.jpg",
+    imageUrl: "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/img-1-2.jpg",
     status: "Completed",
     description: "Construction of L G BALAKRISHNAN & BRO’s LTD in COIMBATORE.",
     details: {
@@ -4679,10 +4732,6 @@ export const projectsList: Project[] = [
       consultant: "Client Engineer"
     },
     gallery: [
-      "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/Untitled.jpg",
-      "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/WhatsApp-Image-2019-05-28-at-11.51.59-1-800x450.jpeg",
-      "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/WhatsApp-Image-2019-05-28-at-12.28.15-1-800x600.jpeg",
-      "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/WhatsApp-Image-2019-05-28-at-12.28.15-3-800x600.jpeg",
       "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/img-1-2.jpg",
       "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/img-2-2.jpg",
       "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/img-3-2.jpg",
@@ -4690,7 +4739,11 @@ export const projectsList: Project[] = [
       "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/img-5-2.jpg",
       "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/img-6-1.jpg",
       "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/img-7.jpg",
-      "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/production-vdf-2-800x450.jpg"
+      "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/production-vdf-2-800x450.jpg",
+      "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/Untitled.jpg",
+      "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/WhatsApp-Image-2019-05-28-at-11.51.59-1-800x450.jpeg",
+      "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/WhatsApp-Image-2019-05-28-at-12.28.15-1-800x600.jpeg",
+      "/project/industrial/L G BALAKRISHNAN & BRO’s LTD/WhatsApp-Image-2019-05-28-at-12.28.15-3-800x600.jpeg"
     ]
   },  {
     slug: "l-g-balakrishnan-bros-limited-69",
@@ -4738,11 +4791,6 @@ export const projectsList: Project[] = [
       "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/Che-3-800x450.jpg",
       "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/Che-4-800x450.jpg",
       "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/Che-5-800x450.jpg",
-      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/LGB-CHENNAI-2-800x534.jpg",
-      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/LGB-CHENNAI-3-800x450.jpg",
-      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/LGB-CHENNAI-800x534.jpg",
-      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/WhatsApp-Image-2019-05-28-at-16.38.47-800x600.jpeg",
-      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/WhatsApp-Image-2019-05-28-at-16.38.58-800x600.jpeg",
       "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/img-1-34-800x600.jpg",
       "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/img-2-34-800x600.jpg",
       "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/img-3-33-800x600.jpg",
@@ -4751,7 +4799,12 @@ export const projectsList: Project[] = [
       "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/img-6-23-800x600.jpg",
       "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/img-7-18-800x600.jpg",
       "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/img-8-16-800x600.jpg",
-      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/img-9-15-800x600.jpg"
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/img-9-15-800x600.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/LGB-CHENNAI-2-800x534.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/LGB-CHENNAI-3-800x450.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/LGB-CHENNAI-800x534.jpg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/WhatsApp-Image-2019-05-28-at-16.38.47-800x600.jpeg",
+      "/project/industrial/L.G.BALAKRISHNAN & BROS LIMITED 2/WhatsApp-Image-2019-05-28-at-16.38.58-800x600.jpeg"
     ]
   },  {
     slug: "l-g-balakrishnan-bros-limited-oht-71",
@@ -4967,24 +5020,24 @@ export const projectsList: Project[] = [
     gallery: [
       "/project/industrial/MARK ENGINEERING WORKS/1WhatsApp-Image-2020-07-08-at-13.25.51.jpeg",
       "/project/industrial/MARK ENGINEERING WORKS/2WhatsApp-Image-2020-07-08-at-13.25.52-800x521.jpeg",
+      "/project/industrial/MARK ENGINEERING WORKS/img-1.jpg",
+      "/project/industrial/MARK ENGINEERING WORKS/img-2.jpg",
+      "/project/industrial/MARK ENGINEERING WORKS/img-3.jpg",
+      "/project/industrial/MARK ENGINEERING WORKS/img-4.jpg",
+      "/project/industrial/MARK ENGINEERING WORKS/img-5.jpg",
       "/project/industrial/MARK ENGINEERING WORKS/MARK-1-800x534.jpg",
       "/project/industrial/MARK ENGINEERING WORKS/MARK-2-800x524.jpg",
       "/project/industrial/MARK ENGINEERING WORKS/MARK-3-800x534.jpg",
       "/project/industrial/MARK ENGINEERING WORKS/MARK-4-800x600.jpg",
       "/project/industrial/MARK ENGINEERING WORKS/MARK-5-800x600.jpg",
-      "/project/industrial/MARK ENGINEERING WORKS/WhatsApp-Image-2020-07-08-at-13.25.51.jpeg",
-      "/project/industrial/MARK ENGINEERING WORKS/img-1.jpg",
-      "/project/industrial/MARK ENGINEERING WORKS/img-2.jpg",
-      "/project/industrial/MARK ENGINEERING WORKS/img-3.jpg",
-      "/project/industrial/MARK ENGINEERING WORKS/img-4.jpg",
-      "/project/industrial/MARK ENGINEERING WORKS/img-5.jpg"
+      "/project/industrial/MARK ENGINEERING WORKS/WhatsApp-Image-2020-07-08-at-13.25.51.jpeg"
     ]
   },  {
     slug: "mark-engineering-works-80",
     name: "MARK ENGINEERING WORKS",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "/project/industrial/MARK ENGINEERING WORKS 2/MarksNew-1-800x600.jpeg",
+    imageUrl: "/project/industrial/MARK ENGINEERING WORKS 2/mar-1-800x389.jpeg",
     status: "Completed",
     description: "Construction of MARK ENGINEERING WORKS in COIMBATORE.",
     details: {
@@ -4996,15 +5049,15 @@ export const projectsList: Project[] = [
       consultant: "Ms/. Vesta Architects"
     },
     gallery: [
+      "/project/industrial/MARK ENGINEERING WORKS 2/mar-1-800x389.jpeg",
+      "/project/industrial/MARK ENGINEERING WORKS 2/mar-2-800x600.jpeg",
+      "/project/industrial/MARK ENGINEERING WORKS 2/mar-3-800x1067.jpeg",
+      "/project/industrial/MARK ENGINEERING WORKS 2/mar-4.jpeg",
       "/project/industrial/MARK ENGINEERING WORKS 2/MarksNew-1-800x600.jpeg",
       "/project/industrial/MARK ENGINEERING WORKS 2/MarksNew-2-800x600.jpeg",
       "/project/industrial/MARK ENGINEERING WORKS 2/MarksNew-4-800x600.jpeg",
       "/project/industrial/MARK ENGINEERING WORKS 2/MarksNew-5-800x600.jpeg",
       "/project/industrial/MARK ENGINEERING WORKS 2/MarksNew-6-800x600.jpeg",
-      "/project/industrial/MARK ENGINEERING WORKS 2/mar-1-800x389.jpeg",
-      "/project/industrial/MARK ENGINEERING WORKS 2/mar-2-800x600.jpeg",
-      "/project/industrial/MARK ENGINEERING WORKS 2/mar-3-800x1067.jpeg",
-      "/project/industrial/MARK ENGINEERING WORKS 2/mar-4.jpeg",
       "/project/industrial/MARK ENGINEERING WORKS 2/mrk-1-800x370.jpg",
       "/project/industrial/MARK ENGINEERING WORKS 2/mrk-2-800x370.jpg",
       "/project/industrial/MARK ENGINEERING WORKS 2/mrk-3-1-800x370.jpg",
@@ -5161,17 +5214,17 @@ export const projectsList: Project[] = [
       "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/DSC02566-800x533.jpg",
       "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/DSC02572-800x533.jpg",
       "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/DSC02574-800x533.jpg",
-      "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/IMG-20171208-WA0009-800x600.jpg",
-      "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/IMG-20190524-WA0013-800x450.jpg",
-      "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/IMG_20190511_171437-800x600.jpg",
       "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/img-1-32-800x600.jpg",
       "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/img-2-32-800x600.jpg",
+      "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/IMG-20171208-WA0009-800x600.jpg",
+      "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/IMG-20190524-WA0013-800x450.jpg",
       "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/img-3-31-800x600.jpg",
       "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/img-4-28-800x600.jpg",
       "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/img-5-26-800x600.jpg",
       "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/img-6-21-800x598.jpg",
       "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/img-7-16-800x598.jpg",
-      "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/img-9-13-800x598.jpg"
+      "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/img-9-13-800x598.jpg",
+      "/project/industrial/PROPEL INDUSTRIES PRIVATE LIMITED/IMG_20190511_171437-800x600.jpg"
     ]
   },  {
     slug: "propel-industries-pvt-ltd-86",
@@ -5337,15 +5390,15 @@ export const projectsList: Project[] = [
       "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/DSC02669-800x534.jpg",
       "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/DSC02671-800x534.jpg",
       "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/DSC02672-800x534.jpg",
-      "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/WhatsApp-Image-2019-05-30-at-13.06.58-800x389.jpeg",
-      "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/WhatsApp-Image-2019-05-30-at-13.07.01-800x389.jpeg",
-      "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/WhatsApp-Image-2019-05-30-at-13.08.20-800x389.jpeg",
-      "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/WhatsApp-Image-2019-05-30-at-13.26.10-800x389.jpeg",
       "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/img-1-36-800x389.jpg",
       "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/img-2-36-800x389.jpg",
       "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/img-3-35-800x389.jpg",
       "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/img-4-31-800x389.jpg",
-      "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/img-5-29-800x389.jpg"
+      "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/img-5-29-800x389.jpg",
+      "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/WhatsApp-Image-2019-05-30-at-13.06.58-800x389.jpeg",
+      "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/WhatsApp-Image-2019-05-30-at-13.07.01-800x389.jpeg",
+      "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/WhatsApp-Image-2019-05-30-at-13.08.20-800x389.jpeg",
+      "/project/industrial/SNF COMPONENTS PRIVATE LIMITED/WhatsApp-Image-2019-05-30-at-13.26.10-800x389.jpeg"
     ]
   },  {
     slug: "sri-ranganather-valves-controls-p-ltd-unit-ii-94",
@@ -5398,7 +5451,7 @@ export const projectsList: Project[] = [
     name: "SRI SRINIVASA TEXTILES",
     category: "Industrial",
     location: "TIRPUR",
-    imageUrl: "/project/industrial/SRI SRINIVASA TEXTILES/SST-1-800x600.jpg",
+    imageUrl: "/project/industrial/SRI SRINIVASA TEXTILES/Srinivasa-1-800x375.jpg",
     status: "Completed",
     description: "Construction of SRI SRINIVASA TEXTILES in TIRPUR.",
     details: {
@@ -5410,6 +5463,10 @@ export const projectsList: Project[] = [
       consultant: "Ms/. Vesta Architects"
     },
     gallery: [
+      "/project/industrial/SRI SRINIVASA TEXTILES/Srinivasa-1-800x375.jpg",
+      "/project/industrial/SRI SRINIVASA TEXTILES/Srinivasa-14-800x375.jpg",
+      "/project/industrial/SRI SRINIVASA TEXTILES/Srinivasa-6-800x375.jpg",
+      "/project/industrial/SRI SRINIVASA TEXTILES/Srinivasa-9-800x375.jpg",
       "/project/industrial/SRI SRINIVASA TEXTILES/SST-1-800x600.jpg",
       "/project/industrial/SRI SRINIVASA TEXTILES/SST-10-800x600.jpg",
       "/project/industrial/SRI SRINIVASA TEXTILES/SST-11-800x600.jpg",
@@ -5425,11 +5482,7 @@ export const projectsList: Project[] = [
       "/project/industrial/SRI SRINIVASA TEXTILES/SST-7-800x600.jpg",
       "/project/industrial/SRI SRINIVASA TEXTILES/SST-8-800x600.jpg",
       "/project/industrial/SRI SRINIVASA TEXTILES/SST-9-800x600.jpg",
-      "/project/industrial/SRI SRINIVASA TEXTILES/ST-3-800x369.jpeg",
-      "/project/industrial/SRI SRINIVASA TEXTILES/Srinivasa-1-800x375.jpg",
-      "/project/industrial/SRI SRINIVASA TEXTILES/Srinivasa-14-800x375.jpg",
-      "/project/industrial/SRI SRINIVASA TEXTILES/Srinivasa-6-800x375.jpg",
-      "/project/industrial/SRI SRINIVASA TEXTILES/Srinivasa-9-800x375.jpg"
+      "/project/industrial/SRI SRINIVASA TEXTILES/ST-3-800x369.jpeg"
     ]
   },  {
     slug: "sri-unit-2-knock-out-pattern-storage-and-machine-foundation-96",
@@ -5481,7 +5534,7 @@ export const projectsList: Project[] = [
     name: "THARUN BALAJI SPINNERS",
     category: "Industrial",
     location: "COIMBATORE",
-    imageUrl: "/project/industrial/THARUN BALAJI SPINNERS/TB-1.jpg",
+    imageUrl: "/project/industrial/THARUN BALAJI SPINNERS/img-1-6.jpg",
     status: "Completed",
     description: "Construction of THARUN BALAJI SPINNERS in COIMBATORE.",
     details: {
@@ -5493,12 +5546,12 @@ export const projectsList: Project[] = [
       consultant: "Ms/. Vesta Architects"
     },
     gallery: [
+      "/project/industrial/THARUN BALAJI SPINNERS/img-1-6.jpg",
+      "/project/industrial/THARUN BALAJI SPINNERS/img-2-5.jpg",
       "/project/industrial/THARUN BALAJI SPINNERS/TB-1.jpg",
       "/project/industrial/THARUN BALAJI SPINNERS/TB-2-800x468.jpg",
       "/project/industrial/THARUN BALAJI SPINNERS/TB-3-800x600.jpg",
-      "/project/industrial/THARUN BALAJI SPINNERS/TB-4-800x600.jpg",
-      "/project/industrial/THARUN BALAJI SPINNERS/img-1-6.jpg",
-      "/project/industrial/THARUN BALAJI SPINNERS/img-2-5.jpg"
+      "/project/industrial/THARUN BALAJI SPINNERS/TB-4-800x600.jpg"
     ]
   },  {
     slug: "velmurugan-heavy-engineering-industries-99",
@@ -5532,7 +5585,7 @@ export const projectsList: Project[] = [
     name: "VENKATALAKSHMI PAPER AND BOARDS",
     category: "Industrial",
     location: "UDUMALPET",
-    imageUrl: "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLM-14-800x600.jpg",
+    imageUrl: "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/Ven-1-800x600.jpg",
     status: "Completed",
     description: "Construction of VENKATALAKSHMI PAPER AND BOARDS in UDUMALPET.",
     details: {
@@ -5544,10 +5597,12 @@ export const projectsList: Project[] = [
       consultant: "M/s. M. Dharmalingam Associates"
     },
     gallery: [
+      "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/Ven-1-800x600.jpg",
       "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLM-14-800x600.jpg",
       "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLM-20-800x600.jpg",
       "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLM-32-800x600.jpg",
       "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLM-9-800x600.jpg",
+      "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VlP-3-1-800x600.jpg",
       "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLP-3-800x600.jpg",
       "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLP-5-800x600.jpg",
       "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLPM-2-800x600.jpg",
@@ -5555,9 +5610,7 @@ export const projectsList: Project[] = [
       "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLPM-4-800x600.jpg",
       "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLPM-5-800x600.jpg",
       "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLPM-7-800x600.jpg",
-      "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLPM-8-800x600.jpg",
-      "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/Ven-1-800x600.jpg",
-      "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VlP-3-1-800x600.jpg"
+      "/project/industrial/VENKATALAKSHMI PAPER AND BOARDS/VLPM-8-800x600.jpg"
     ]
   },  {
     slug: "construction-of-a-factory-building-101",
@@ -5844,10 +5897,10 @@ export const projectsList: Project[] = [
       "/project/residential/ALAKA PALAZZO/Alaka-7.jpg",
       "/project/residential/ALAKA PALAZZO/Alaka-8-800x600.jpg",
       "/project/residential/ALAKA PALAZZO/Alaka-9-800x600.jpg",
-      "/project/residential/ALAKA PALAZZO/IMG-20191116-WA0021-800x417.jpg",
-      "/project/residential/ALAKA PALAZZO/IMG-20191116-WA0022-800x600.jpg",
       "/project/residential/ALAKA PALAZZO/img-1-5.jpg",
-      "/project/residential/ALAKA PALAZZO/img-2-4.jpg"
+      "/project/residential/ALAKA PALAZZO/img-2-4.jpg",
+      "/project/residential/ALAKA PALAZZO/IMG-20191116-WA0021-800x417.jpg",
+      "/project/residential/ALAKA PALAZZO/IMG-20191116-WA0022-800x600.jpg"
     ]
   },  {
     slug: "apartment-building-govel-trust-5",
@@ -6347,7 +6400,7 @@ export const projectsList: Project[] = [
     name: "ICON APARTMENTS",
     category: "Residential",
     location: "COIMBATORE",
-    imageUrl: "/project/residential/ICON APARTMENTS/IMG_2916-800x600.jpg",
+    imageUrl: "/project/residential/ICON APARTMENTS/img-1-14.jpg",
     status: "Completed",
     description: "Construction of ICON APARTMENTS in COIMBATORE.",
     details: {
@@ -6359,7 +6412,6 @@ export const projectsList: Project[] = [
       consultant: "M/s. Aparajithan,"
     },
     gallery: [
-      "/project/residential/ICON APARTMENTS/IMG_2916-800x600.jpg",
       "/project/residential/ICON APARTMENTS/img-1-14.jpg",
       "/project/residential/ICON APARTMENTS/img-10-5.jpg",
       "/project/residential/ICON APARTMENTS/img-2-14.jpg",
@@ -6370,6 +6422,7 @@ export const projectsList: Project[] = [
       "/project/residential/ICON APARTMENTS/img-7-8.jpg",
       "/project/residential/ICON APARTMENTS/img-8-6.jpg",
       "/project/residential/ICON APARTMENTS/img-9-5.jpg",
+      "/project/residential/ICON APARTMENTS/IMG_2916-800x600.jpg",
       "/project/residential/ICON APARTMENTS/picture2-800x875.jpg",
       "/project/residential/ICON APARTMENTS/picture3-800x831.jpg"
     ]
@@ -6587,9 +6640,9 @@ export const projectsList: Project[] = [
       "/project/residential/MEADOWS APARTMENTS/Meadows-6-800x600.jpg",
       "/project/residential/MEADOWS APARTMENTS/Meadows-7-800x600.jpg",
       "/project/residential/MEADOWS APARTMENTS/Meadows-8-800x818.jpg",
+      "/project/residential/MEADOWS APARTMENTS/meadows-800x600.jpg",
       "/project/residential/MEADOWS APARTMENTS/Meadows-9-800x405.jpg",
-      "/project/residential/MEADOWS APARTMENTS/Medow-800x450.jpeg",
-      "/project/residential/MEADOWS APARTMENTS/meadows-800x600.jpg"
+      "/project/residential/MEADOWS APARTMENTS/Medow-800x450.jpeg"
     ]
   },  {
     slug: "new-megala-hostel-at-psg-college-of-arts-and-science-40",
@@ -6676,6 +6729,7 @@ export const projectsList: Project[] = [
       "/project/residential/NIVASAN UDHYANA/2-800x444.jpg",
       "/project/residential/NIVASAN UDHYANA/5.jpg",
       "/project/residential/NIVASAN UDHYANA/6.jpg",
+      "/project/residential/NIVASAN UDHYANA/slide-2-800x395.jpg",
       "/project/residential/NIVASAN UDHYANA/U1.jpg",
       "/project/residential/NIVASAN UDHYANA/U2.jpg",
       "/project/residential/NIVASAN UDHYANA/U3.jpg",
@@ -6686,8 +6740,7 @@ export const projectsList: Project[] = [
       "/project/residential/NIVASAN UDHYANA/U9.jpg",
       "/project/residential/NIVASAN UDHYANA/UDHYANA1-800x474.jpg",
       "/project/residential/NIVASAN UDHYANA/UDHYANA2-800x469.jpg",
-      "/project/residential/NIVASAN UDHYANA/UDHYANA3-800x498.jpg",
-      "/project/residential/NIVASAN UDHYANA/slide-2-800x395.jpg"
+      "/project/residential/NIVASAN UDHYANA/UDHYANA3-800x498.jpg"
     ]
   },  {
     slug: "nivasan-viveka-enclave-44",
@@ -6712,21 +6765,21 @@ export const projectsList: Project[] = [
       "/project/residential/NIVASAN-VIVEKA ENCLAVE/V-4-800x531.jpeg",
       "/project/residential/NIVASAN-VIVEKA ENCLAVE/V-5.jpeg",
       "/project/residential/NIVASAN-VIVEKA ENCLAVE/Viveka-1-1-800x534.jpg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/viveka-1.jpg",
       "/project/residential/NIVASAN-VIVEKA ENCLAVE/Viveka-10-800x531.jpg",
       "/project/residential/NIVASAN-VIVEKA ENCLAVE/Viveka-11-800x531.jpg",
       "/project/residential/NIVASAN-VIVEKA ENCLAVE/Viveka-13-800x534.jpg",
       "/project/residential/NIVASAN-VIVEKA ENCLAVE/Viveka-14-800x529.jpg",
       "/project/residential/NIVASAN-VIVEKA ENCLAVE/Viveka-2-1-800x588.jpg",
-      "/project/residential/NIVASAN-VIVEKA ENCLAVE/Viveka-3-1-800x534.jpg",
-      "/project/residential/NIVASAN-VIVEKA ENCLAVE/Viveka-5-1-800x534.jpg",
-      "/project/residential/NIVASAN-VIVEKA ENCLAVE/Viveka-6-1-800x436.jpg",
-      "/project/residential/NIVASAN-VIVEKA ENCLAVE/Viveka-9-800x531.jpg",
-      "/project/residential/NIVASAN-VIVEKA ENCLAVE/viveka-1.jpg",
       "/project/residential/NIVASAN-VIVEKA ENCLAVE/viveka-2.jpg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/Viveka-3-1-800x534.jpg",
       "/project/residential/NIVASAN-VIVEKA ENCLAVE/viveka-3.jpg",
       "/project/residential/NIVASAN-VIVEKA ENCLAVE/viveka-4.jpg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/Viveka-5-1-800x534.jpg",
       "/project/residential/NIVASAN-VIVEKA ENCLAVE/viveka-5.jpg",
-      "/project/residential/NIVASAN-VIVEKA ENCLAVE/viveka-6.jpg"
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/Viveka-6-1-800x436.jpg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/viveka-6.jpg",
+      "/project/residential/NIVASAN-VIVEKA ENCLAVE/Viveka-9-800x531.jpg"
     ]
   },  {
     slug: "pacifica-aurum-villas-45",
@@ -6977,6 +7030,7 @@ export const projectsList: Project[] = [
       "/project/residential/SINDUR PRISTINE/1-800x600.jpg",
       "/project/residential/SINDUR PRISTINE/4-1-800x316.jpg",
       "/project/residential/SINDUR PRISTINE/5-1-800x450.jpg",
+      "/project/residential/SINDUR PRISTINE/banner-pristine-800x365.jpg",
       "/project/residential/SINDUR PRISTINE/Pristine-1-800x1067.jpg",
       "/project/residential/SINDUR PRISTINE/Pristine-1-800x600.jpg",
       "/project/residential/SINDUR PRISTINE/Pristine-12-800x1067.jpg",
@@ -6991,7 +7045,6 @@ export const projectsList: Project[] = [
       "/project/residential/SINDUR PRISTINE/Pristine-8-800x600 (1).jpg",
       "/project/residential/SINDUR PRISTINE/Pristine-8-800x600.jpg",
       "/project/residential/SINDUR PRISTINE/Pristine2.jpg",
-      "/project/residential/SINDUR PRISTINE/banner-pristine-800x365.jpg",
       "/project/residential/SINDUR PRISTINE/sp-1-800x600.jpeg",
       "/project/residential/SINDUR PRISTINE/sp-2-800x1067.jpeg"
     ]
@@ -7179,23 +7232,23 @@ export const projectsList: Project[] = [
       "/project/residential/TVS EMERALD – LIGHT HOUSE/DSC_5597-800x534.jpg",
       "/project/residential/TVS EMERALD – LIGHT HOUSE/DSC_5599-800x534.jpg",
       "/project/residential/TVS EMERALD – LIGHT HOUSE/DSC_5601-800x534.jpg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/img-1-17.jpg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/img-4-14.jpg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/img-5-14.jpg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/img-6-13.jpg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/img-8-8-800x389.jpg",
       "/project/residential/TVS EMERALD – LIGHT HOUSE/TVS-1-800x600.jpg",
       "/project/residential/TVS EMERALD – LIGHT HOUSE/TVS-5-800x369.jpeg",
       "/project/residential/TVS EMERALD – LIGHT HOUSE/TVS-7-800x369.jpeg",
       "/project/residential/TVS EMERALD – LIGHT HOUSE/TVS-8-800x369.jpeg",
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/tvs-emerald-lighthouse-pallavaram-chennai-tvs-emerald.jpg",
       "/project/residential/TVS EMERALD – LIGHT HOUSE/TVSE-3-800x600.jpeg",
       "/project/residential/TVS EMERALD – LIGHT HOUSE/TVSE-6-800x600.jpeg",
       "/project/residential/TVS EMERALD – LIGHT HOUSE/TVSE-7-800x600.jpeg",
       "/project/residential/TVS EMERALD – LIGHT HOUSE/TVSE-8-800x600.jpeg",
       "/project/residential/TVS EMERALD – LIGHT HOUSE/TVSELH-10-800x452.jpeg",
       "/project/residential/TVS EMERALD – LIGHT HOUSE/TVSELH-2.jpeg",
-      "/project/residential/TVS EMERALD – LIGHT HOUSE/TVSELH-3-800x452.jpeg",
-      "/project/residential/TVS EMERALD – LIGHT HOUSE/img-1-17.jpg",
-      "/project/residential/TVS EMERALD – LIGHT HOUSE/img-4-14.jpg",
-      "/project/residential/TVS EMERALD – LIGHT HOUSE/img-5-14.jpg",
-      "/project/residential/TVS EMERALD – LIGHT HOUSE/img-6-13.jpg",
-      "/project/residential/TVS EMERALD – LIGHT HOUSE/img-8-8-800x389.jpg",
-      "/project/residential/TVS EMERALD – LIGHT HOUSE/tvs-emerald-lighthouse-pallavaram-chennai-tvs-emerald.jpg"
+      "/project/residential/TVS EMERALD – LIGHT HOUSE/TVSELH-3-800x452.jpeg"
     ]
   },  {
     slug: "white-house-sri-hari-63",
