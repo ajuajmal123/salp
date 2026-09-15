@@ -85,7 +85,7 @@ export default function ProjectCard({
           </h3>
 
           {/* Description */}
-          <p className="text-[#ffffff] font-medium text-[11px] sm:text-xs leading-relaxed transition-all duration-500 line-clamp-2 group-hover:line-clamp-none min-h-[39px] drop-shadow-[0_3px_5px_rgba(0,0,0,1)] [text-shadow:0px_1px_2px_black,0px_2px_4px_black] opacity-95 group-hover:opacity-100">
+          <p className="text-white font-medium text-[11px] sm:text-xs leading-relaxed transition-all duration-500 line-clamp-2 group-hover:line-clamp-none min-h-[39px] drop-shadow-[0_3px_5px_rgba(0,0,0,1)] [text-shadow:0px_1px_2px_black,0px_2px_4px_black] opacity-95 group-hover:opacity-100">
             {description}
           </p>
         </div>
