@@ -2356,7 +2356,7 @@ export const projectsList: Project[] = [
     name: "ADITHYA INSTITUTE OF TECHNOLOGY- ACADEMIC   BUILDING",
     category: "Institutional",
     location: "COIMBATORE",
-    imageUrl: "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/ADD_00381-800x534.jpg",
+    imageUrl: "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY- ACADEMIC BUILDING/AIT1-800x479.jpg",
     status: "Completed",
     description: "Construction of ADITHYA INSTITUTE OF TECHNOLOGY- ACADEMIC   BUILDING in COIMBATORE.",
     details: {
