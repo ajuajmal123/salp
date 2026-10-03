@@ -9,6 +9,10 @@ export default function InfiniteMarquee({
   children,
   speedClass = "animate-marquee-infinite",
 }: InfiniteMarqueeProps) {
+  const count = React.Children.count(children);
+  // Default speed was roughly 2.5s per item (e.g. 25s for 10 items)
+  const duration = count > 0 ? `${count * 2.5}s` : "25s";
+
   return (
     <div className="w-full overflow-hidden relative py-3">
       {/* Absolute fades on edges for premium gradient blending */}
@@ -17,7 +21,10 @@ export default function InfiniteMarquee({
 
       {/* Marquee Wrapper */}
       <div className="flex w-full">
-        <div className={`${speedClass} flex gap-12 items-center`}>
+        <div
+          className={`${speedClass} flex gap-12 items-center`}
+          style={{ animationDuration: duration }}
+        >
           {/* Primary items */}
           <div className="flex gap-12 items-center shrink-0">{children}</div>
           {/* Secondary duplicate items for seamless loop */}

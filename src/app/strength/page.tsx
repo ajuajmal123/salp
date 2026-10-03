@@ -39,10 +39,10 @@ const clientsList = [
   { name: "ITC Limited", desc: "Long-term partnership delivering industrial storage and premium hospitality infrastructure.", industry: "Conglomerate" },
   { name: "PSG Institutions", desc: "Executing state-of-the-art educational campuses and specialized scientific research blocks.", industry: "Education & Research" },
   { name: "The Ramco Cements Limited", desc: "Structural execution of massive industrial grinding, manufacturing, and warehouse structures.", industry: "Manufacturing" },
-  { name: "Lakshmi Machine Works (LMW)", desc: "Delivering heavy structural machine fabrication yards and large warehouse floors.", industry: "Industrial Engineering" },
+
   { name: "Raj Park Hotel Group", desc: "Structural construction of premium hospitality wings and complex multistory buildings.", industry: "Hospitality" },
   { name: "Nivasan Homes", desc: "Collaborating on high-end residential apartment towers with premium aesthetic specifications.", industry: "Residential Real Estate" },
-  { name: "S.M. Hospital & Surgicare", desc: "Executing high-tech cleanroom hospital structures, patient wings, and surgical zones.", industry: "Healthcare" },
+
   { name: "Akshaya", desc: "Partnering to build landmark commercial spaces with rigorous quality and structural standards.", industry: "Commercial Construction" },
   { name: "Stanes", desc: "Delivering durable retail, commercial, and administrative workspaces across the region.", industry: "Retail & Commerce" },
   { name: "Lancor", desc: "Building enduring premium housing and mixed-use commercial landmarks.", industry: "Mixed-Use Real Estate" },
@@ -72,13 +72,13 @@ const collaborations = [
 ];
 
 const getClientLogo = (clientName: string) => {
-  const lowerName = clientName.toLowerCase();
+  const lowerName = clientName.toLowerCase().trim();
   // Attempt substring match against uploaded graphic files
   const match = logosData.find(filename => {
-    const bareName = filename.toLowerCase().replace(/\.(jpg|jpeg|png)$/, '');
+    const bareName = filename.toLowerCase().replace(/\.(jpg|jpeg|png|avif|webp|gif)$/, '').replace(/[_-]/g, ' ').replace(/\slogo$/, '').trim();
     return lowerName.includes(bareName) || bareName.includes(lowerName);
   });
-  if (match) return `/Client Logos/${match}`;
+  if (match) return `/Client Logos/${encodeURIComponent(match)}`;
   return null;
 };
 

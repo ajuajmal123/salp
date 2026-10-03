@@ -4,18 +4,13 @@ import React from "react";
 import Image from "next/image";
 import InfiniteMarquee from "../ui/InfiniteMarquee";
 
-const clients = [
-  { name: "Aravind Eye Care System", path: "/Client Logos/Aravind.jpg" },
-  { name: "ITC Limited", path: "/Client Logos/ITC.jpg" },
-  { name: "Nivasan Homes", path: "/Client Logos/Nivasan.jpg" },
-  { name: "Ramco Cements", path: "/Client Logos/Ramco.jpg" },
-  { name: "Shoeline", path: "/Client Logos/Shoeline.jpg" },
-  { name: "Velammal", path: "/Client Logos/Velammal.jpg" },
-  { name: "Bannari Amman", path: "/Client Logos/Bannari Amman.jpg" },
-  { name: "Decathlon", path: "/Client Logos/Decathlon.jpg" },
-  { name: "Honeywell", path: "/Client Logos/Honeywell.jpg" },
-  { name: "LGB", path: "/Client Logos/LGB.jpg" },
-];
+import logosData from "@/app/strength/logosData.json";
+
+// Map over all logos to create a dynamic marquee list
+const clients = logosData.map((filename: string) => ({
+  name: filename.replace(/\.(jpg|jpeg|png|avif|webp|gif)$/, '').replace(/[_-]/g, ' '),
+  path: `/Client Logos/${encodeURIComponent(filename)}`
+}));
 
 export default function ClientMarquee({ hideTitle = false }: { hideTitle?: boolean }) {
   return (
