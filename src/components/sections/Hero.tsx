@@ -2,27 +2,41 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 export default function Hero() {
+  const [loadVideo, setLoadVideo] = useState(false);
+
+  useEffect(() => {
+    // Load heavy background video after a slight delay to allow text paint and improve LCP/performance
+    const timer = setTimeout(() => {
+      setLoadVideo(true);
+    }, 500);
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
-    <section className="relative min-h-[650px] h-[90vh] lg:h-screen flex items-center justify-center overflow-hidden bg-navy-100">
+    <section className="relative min-h-[650px] h-[90vh] lg:h-screen flex items-center justify-center overflow-hidden bg-[#1c1a17]">
 
       {/* =========================================================
           CINEMATIC BACKGROUND VIDEO (FULL OPACITY, UNBLURRED, NO OVERLAYS)
       ========================================================== */}
       <div className="absolute inset-0 z-0 select-none pointer-events-none">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="w-full h-full object-cover opacity-100"
-        >
-          <source
-            src="/Vesta Work new.mp4"
-            type="video/mp4"
-          />
-        </video>
+        {loadVideo && (
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="none"
+            className="w-full h-full object-cover opacity-100 transition-opacity duration-1000"
+          >
+            <source
+              src="/Vesta Work new.mp4"
+              type="video/mp4"
+            />
+          </video>
+        )}
       </div>
 
       {/* =========================================================

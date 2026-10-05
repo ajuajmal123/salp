@@ -1,10 +1,22 @@
 import React from "react";
+import dynamic from "next/dynamic";
 import Hero from "@/components/sections/Hero";
-import Stats from "@/components/sections/Stats";
-import ProjectsSection from "@/components/sections/ProjectsSection";
-import CoreValues from "@/components/sections/CoreValues";
-import ClientMarquee from "@/components/sections/ClientMarquee";
-import LegacySection from "@/components/sections/LegacySection/LegacySection";
+
+const Stats = dynamic(() => import("@/components/sections/Stats"), {
+  ssr: true,
+});
+const ProjectsSection = dynamic(() => import("@/components/sections/ProjectsSection"), {
+  ssr: true,
+});
+const CoreValues = dynamic(() => import("@/components/sections/CoreValues"), {
+  ssr: true,
+});
+const LegacySection = dynamic(() => import("@/components/sections/LegacySection/LegacySection"), {
+  ssr: true,
+});
+const ClientMarquee = dynamic(() => import("@/components/sections/ClientMarquee"), {
+  ssr: true,
+});
 
 export default function Home() {
   return (

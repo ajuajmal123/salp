@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { MapPin, ArrowUpRight } from "lucide-react";
 
 interface ProjectCardProps {
@@ -30,11 +31,12 @@ export default function ProjectCard({
         {/* Background Image Container */}
         <div className="absolute inset-0 z-0 overflow-hidden">
           {imageUrl && imageUrl !== "MANUAL_MAPPING_REQUIRED" ? (
-            /* eslint-disable-next-line @next/next/no-img-element */
-            <img
+            <Image
               src={imageUrl}
               alt={imageAlt || name}
-              className="w-full h-full object-cover transition-transform duration-750 ease-out group-hover:scale-105"
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              className="object-cover transition-transform duration-750 ease-out group-hover:scale-105"
             />
           ) : (
             <div className="w-full h-full bg-[#1c1a17] flex items-center justify-center border border-white/5 relative">
