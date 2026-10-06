@@ -72,12 +72,79 @@ const collaborations = [
 ];
 
 const getClientLogo = (clientName: string) => {
-  const lowerName = clientName.toLowerCase().trim();
-  // Attempt substring match against uploaded graphic files
+  const normalize = (str: string) => {
+    return str.toLowerCase()
+      .replace(/\.(jpg|jpeg|png|avif|webp|gif)$/, '') // remove extension
+      .replace(/^[0-9]+/, '') // remove leading numbers
+      .replace(/[^a-z0-9]/g, ' ') // replace special chars with space
+      .replace(/\b(m s|mrs|ms|mr|dr|pvt|ltd|private|limited|llp|co|inc|m|s)\b/g, '') // remove common terms
+      .replace(/\slogo\b/g, '') // remove "logo" word
+      .replace(/\s+/g, '') // FINALLY strip all spaces for contiguous token matching
+      .trim();
+  };
+
+  const normalizedClient = normalize(clientName);
+
+  if (normalizedClient.length < 2) return null; // Avoid tiny false positives
+
+  // Custom manual overrides for known complex mismatches or complete name differences
+  const overrides: Record<string, string> = {
+    'kovaimedical': 'kmch',
+    'lgbalakrishnan': 'lgb',
+    'olympia': 'olmpia',
+    'arjuneducational': 'arjun',
+    'mahatmagandhi': 'mahatmamontessori',
+    'mepcoschlenk': 'mepco',
+    'rakspallikkoodam': 'raks',
+    'rakspallikoodam': 'raks',
+    'ngpschool': 'ngp',
+    'empeedistilleries': 'empeedistellery',
+    'exoticfruits': 'exotic',
+    'sandhyaspinning': 'sandhya',
+    'srivishnushankar': 'srivishnu',
+    'imperialspirits': 'imperial',
+    'orientalplant': 'opel',
+    'markengineering': 'marks',
+    'marksengineering': 'marks',
+    'sriranganather': 'sriranganathar',
+    'gtnexports': 'gtn',
+    'karurkcp': 'karurkcp',
+    'madrascements': 'ramco', // Madras cements was rebranded to Ramco
+    'mothersongroups': 'motherson',
+    'schufspeciality': 'schuf',
+    'secanengineering': 'secan',
+    'snfcomponents': 'snf',
+    'superspinning': 'superspinning',
+    'venkatalakshmipaper': 'venkatalakshmi',
+    'amalgamation': 'amalgamations',
+    'antaraprasn': 'parsn',
+    'veeyes': 'veeyes',
+    'velmuruga': 'velmurugan',
+  };
+
+  let searchTarget = normalizedClient;
+  for (const [key, val] of Object.entries(overrides)) {
+    if (normalizedClient.includes(key)) {
+      searchTarget = val;
+      break;
+    }
+  }
+
   const match = logosData.find(filename => {
-    const bareName = filename.toLowerCase().replace(/\.(jpg|jpeg|png|avif|webp|gif)$/, '').replace(/[_-]/g, ' ').replace(/\slogo$/, '').trim();
-    return lowerName.includes(bareName) || bareName.includes(lowerName);
+    const rawName = filename.toLowerCase().replace(/\.(jpg|jpeg|png|avif|webp|gif)$/, '');
+    const normalizedFile = normalize(filename);
+
+    if (!normalizedFile || normalizedFile.length < 3) {
+      // Fallback for very short names like "S&S"
+      if (clientName.toLowerCase().includes(rawName)) return true;
+      return false;
+    }
+
+    return normalizedClient.includes(normalizedFile) ||
+      normalizedFile.includes(searchTarget) ||
+      searchTarget.includes(normalizedFile);
   });
+
   if (match) return `/Client Logos/${encodeURIComponent(match)}`;
   return null;
 };

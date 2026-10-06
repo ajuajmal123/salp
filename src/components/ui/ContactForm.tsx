@@ -79,18 +79,35 @@ export default function ContactForm() {
     if (!validate()) return;
 
     setIsSubmitting(true);
-    // Simulate API request delay
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-    setIsSubmitting(false);
-    setIsSuccess(true);
-    setFormData({
-      name: "",
-      email: "",
-      phone: "",
-      service: "",
-      message: "",
-      consentAccepted: false,
-    });
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to send message');
+      }
+
+      setIsSuccess(true);
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        service: "",
+        message: "",
+        consentAccepted: false,
+      });
+    } catch (error) {
+      console.error(error);
+      alert('There was an error sending your message. Please try emailing tender@sapl.in directly.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (

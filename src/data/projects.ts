@@ -2311,7 +2311,7 @@ export const projectsList: Project[] = [
     status: "Completed",
     description: "Construction of ADITHYA   CBSE SCHOOL in COIMBATORE.",
     details: {
-      client: "ADITYA   EDUCATIONAL TRUST",
+      client: "ADITYA EDUCATIONAL TRUST",
       area: "141000   SFT",
       floors: "2",
       startDate: "MAR’2014",
@@ -3338,7 +3338,7 @@ export const projectsList: Project[] = [
     status: "Completed",
     description: "Construction of ADITHYA   WAREHOUSE in COIMBATORE.",
     details: {
-      client: "ADITYA   EDUCATIONAL TRUST",
+      client: "ADITYA EDUCATIONAL TRUST",
       area: "140000   SFT",
       floors: "GF",
       startDate: "2019-06-01",
@@ -6678,7 +6678,7 @@ export const projectsList: Project[] = [
     status: "Completed",
     description: "Construction of NIVASAN-MEENAKSHI VISHRANTH in COIMBATORE.",
     details: {
-      client: "NIVASAN   HOMES PVT LTD",
+      client: "NIVASAN HOMES PVT LTD",
       area: "20720 SFT",
       floors: "4",
       startDate: "MAR’ 2014",
@@ -6962,7 +6962,7 @@ export const projectsList: Project[] = [
     status: "Completed",
     description: "Construction of SARADHA GREENS – in COIMBATORE.",
     details: {
-      client: "NIVASAN   HOMES PVT LTD",
+      client: "NIVASAN HOMES PVT LTD",
       area: "39000 SFT",
       floors: "2",
       startDate: "Nov’ 2019",
