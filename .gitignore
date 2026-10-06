@@ -1,9 +1,4 @@
-﻿
-# See https://help.gi
-thub.com/articles/ign
-oring-files/ for 
-more about ignoring 
-files.
+﻿# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
 /node_modules
@@ -21,24 +16,28 @@ files.
 # next.js
 /.next/
 /out/
-
-# production
-/build
+build/
+dist/
 
 # misc
 .DS_Store
 *.pem
+*.log
 
 # debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 .pnpm-debug.log*
+out.log
 
-# env files (can 
-opt-in for 
-committing if needed)
-.env*
+# env files (NEVER commit these)
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
 
 # vercel
 .vercel
@@ -47,10 +46,25 @@ committing if needed)
 *.tsbuildinfo
 next-env.d.ts
 
-# unwanted markdown 
-files
-/AGENTS.md
-/CLAUDE.md
+# Editor directories and files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
-
-
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
