@@ -1,4 +1,4 @@
-export interface Project {
+﻿export interface Project {
   slug: string;
   name: string;
   category: string;
@@ -918,7 +918,7 @@ export const projectsList: Project[] = [
     details: {
       client: "M/s. GOVEL Trust – Aravind Eye Hospitals",
       startDate: "NOV'2025",
-      completionDate: "SEP'2026",
+      completionDate: "OCT'2026",
       consultant: "Design collaborative Consultant, Pondichery"
     },
     gallery: []
@@ -952,7 +952,7 @@ export const projectsList: Project[] = [
       area: "910 MTRS",
       floors: "Compound Wall -910 MTRS",
       startDate: "NOV'2025",
-      completionDate: "SEP''2026",
+      completionDate: "OCT''2026",
       consultant: "Madurai ES consultancy services (P) Ltd"
     },
     gallery: []
@@ -986,7 +986,7 @@ export const projectsList: Project[] = [
       area: "10200 SFT",
       floors: "Ground Floor+ First floor",
       startDate: "NOV'2025",
-      completionDate: "AUG' 2026",
+      completionDate: "OCT' 2026",
       consultant: "M/s. Mithran Structures (P) Ltd., Dr. L.S Jayagopal. No:1, Jawahar nagar, S.A.H.S (POST) Coimbatore - 641 043"
     },
     gallery: []
@@ -1008,19 +1008,88 @@ export const projectsList: Project[] = [
     },
     gallery: []
   },  {
-    slug: "the-construction-of-proposed-pediatric-hospital-k-block-alteration-additional-work-in-the-existing-hospital-premises-at-coimbatore-for-m-s-kovai-medical-center-and-hospital-coimbatore-35",
-    name: "The Construction Of Proposed Pediatric Hospital ‘K’ Block & Alteration, Additional Work In The Existing Hospital Premises At Coimbatore For M/S.Kovai Medical Center And Hospital, Coimbatore",
+    slug: "construction-of-proposed-hospital-building-annexure-2-connecting-bridge-pump-room-fire-tank-collection-tank-109",
+    name: "Construction of Proposed Hospital Building Annexure-2, Connecting Bridge, Pump Room, Fire Tank, Collection Tank",
+    category: "Healthcare",
+    location: "Puducherry",
+    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    status: "Ongoing",
+    description: "Construction of the proposed hospital building, Annexure-2, connecting bridge, pump room, fire tank, and collection tank at Mahatma Gandhi Medical College and Research Institute Campus, Puducherry.",
+    details: {
+      client: "M/s. Sri Balaji Vidyapeeth, Mahatma Gandhi Medical College and Research Institute Campus, Pillaiyarkuppam, Puducherry - 607 402",
+      area: "2,37,000.00",
+      floors: "GF+ 9 FLOORS",
+      startDate: "SEP' 2022",
+      completionDate: "OCT' 2026",
+      consultant: "M/s. SANKAR & ASSOCIATES, 27, Sengupta Street, Ramnagar, Coimbatore - 641 009"
+    },
+    gallery: []
+  },  {
+    slug: "construction-of-a-block-extension-building-110",
+    name: "Construction of A Block Extension Building",
+    category: "Healthcare",
+    location: "Coimbatore",
+    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    status: "Ongoing",
+    description: "Construction of the A Block extension building at PSG Institute of Medical Science & Research, Avinashi Road, Peelamedu, Coimbatore.",
+    details: {
+      client: "PSG Institute of Medical Science & Research, Avinashi Road, Peelamedu - 641 004",
+      area: "2,00,000.00",
+      floors: "2nd + 8 floors",
+      startDate: "DEC' 2022",
+      completionDate: "NOV' 2026",
+      consultant: "M/s. Mithran Structures (P) Ltd., Dr. L.S. Jayagopal, No. 1, Jawahar Nagar, S.A.H.S. (Post), Coimbatore - 641 043"
+    },
+    gallery: []
+  },  {
+    slug: "construction-of-proposed-pediatric-hospital-k-block-alteration-additional-work-115",
+    name: "Construction of Proposed Pediatric Hospital 'K' Block & Alteration, Additional Work in Existing Hospital Premises",
     category: "Healthcare",
     location: "Sitra, Coimbatore",
     imageUrl: "MANUAL_MAPPING_REQUIRED",
     status: "Ongoing",
-    description: "Construction of The Construction Of Proposed Pediatric Hospital ‘K’ Block & Alteration, Additional Work In The Existing Hospital Premises At Coimbatore For M/S.Kovai Medical Center And Hospital, Coimbatore in Sitra, Coimbatore.",
+    description: "Construction of the proposed Pediatric Hospital K Block, along with alterations and additional work within the existing Kovai Medical Center and Hospital premises in Coimbatore.",
     details: {
-      client: "M/s. Kovai Medical Center and Hospital",
-      area: "3,40,000.",
-      startDate: "JUN'2026",
-      completionDate: "MAY'2028",
-      consultant: "M/s.Sankar Associates"
+      client: "M/s. Kovai Medical Center and Hospital, Coimbatore",
+      area: "3,40,000.00",
+      floors: "3 Basement + Ground Floor + Seven Floors",
+      startDate: "JUN' 2026",
+      completionDate: "MAY' 2028",
+      consultant: "M/s. Sankar Associates"
+    },
+    gallery: []
+  },  {
+    slug: "golden-jubilee-block-gjb-bangalore-baptist-hospital-116",
+    name: "Proposed Project - Golden Jubilee Block (GJB)",
+    category: "Healthcare",
+    location: "Bellary Road, Hebbal, Bangalore",
+    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    status: "Ongoing",
+    description: "Construction of the proposed Golden Jubilee Block (GJB) at Bangalore Baptist Hospital, Bellary Road, Hebbal, Bangalore.",
+    details: {
+      client: "M/s. Bangalore Baptist Hospital, Bellary Road, Hebbal, Bangalore - 560 024",
+      area: "1,50,500.00",
+      floors: "Basement + Ground Floor + 8 Floors",
+      startDate: "SEP' 2026",
+      completionDate: "JULY' 2028",
+      consultant: "M/s. C R Narayana Rao (Consultants) Private Limited, No. 10, Karpagambal Nagar, Mylapore, Chennai - 600 004"
+    },
+    gallery: []
+  },  {
+    slug: "living-and-learning-centre-llc-extension-bangalore-baptist-hospital-117",
+    name: "Proposed Project - Living & Learning Centre (LLC) Extension",
+    category: "Healthcare",
+    location: "Bellary Road, Hebbal, Bangalore",
+    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    status: "Ongoing",
+    description: "Extension of the Living & Learning Centre (LLC) at Bangalore Baptist Hospital, Bellary Road, Hebbal, Bangalore.",
+    details: {
+      client: "M/s. Bangalore Baptist Hospital, Bellary Road, Hebbal, Bangalore - 560 024",
+      area: "38,300.00",
+      floors: "3rd Floor to 8th Floor",
+      startDate: "DEC' 2026",
+      completionDate: "SEP' 2027",
+      consultant: "M/s. Chandroo Iyer Associates, No. 701, Brigade Rubix, 20 HMT Main Road, Bengaluru - 560 013"
     },
     gallery: []
   },  {
@@ -5625,7 +5694,7 @@ export const projectsList: Project[] = [
       area: "71,300.",
       floors: "GF + MEZZANINE FLOOR",
       startDate: "FEB' 2025",
-      completionDate: "SEP' 2026",
+      completionDate: "OCT' 2026",
       consultant: "Ms/. Vesta Architects, No: 252, Avinashi road,   Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
@@ -5682,19 +5751,19 @@ export const projectsList: Project[] = [
     gallery: []
   },  {
     slug: "construction-of-factory-building-and-allied-buildings-including-land-development-works-105",
-    name: "Construction of Factory Building and Allied   Buildings including Land Development works",
+    name: "Construction of Factory Building and Allied Buildings including Land Development works",
     category: "Industrial",
     location: "SIPCOT Industrial Estate, Shoolagiri, Hosur",
     imageUrl: "MANUAL_MAPPING_REQUIRED",
     status: "Ongoing",
-    description: "Construction of Construction of Factory Building and Allied   Buildings including Land Development works in SIPCOT Industrial Estate, Shoolagiri, Hosur.",
+    description: "Construction of Factory Building and Allied Buildings including Land Development works in SIPCOT Industrial Estate, Shoolagiri, Hosur.",
     details: {
-      client: "M/s. L.G.Balakrishnan & Bros Limited",
-      area: "2,73,155.375886",
+      client: "L.G.Balakrishnan & Bros Limited Corporate 6/16/13 Krishnarayapuram road, Ganapathy, Coimbatore - 641006",
+      area: "2,73,155.38",
       floors: "GROUND FLOOR",
       startDate: "SEP'2025",
       completionDate: "MAY'2027",
-      consultant: "Ms/. Vesta Architects, No: 252, Avinashi road,   Peelamedu, Coimbatore - 641 004"
+      consultant: "Ms/. Vesta Architects, No: 252, Avinashi road, Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
   },  {
@@ -5738,13 +5807,14 @@ export const projectsList: Project[] = [
     location: "Selakarichal Village, Sulur, Coimbatore",
     imageUrl: "MANUAL_MAPPING_REQUIRED",
     status: "Ongoing",
-    description: "Construction of Construction of Proposed Manufacturing Facility in Selakarichal Village, Sulur, Coimbatore.",
+    description: "Construction of Proposed Manufacturing Facility in Selakarichal Village, Sulur, Coimbatore.",
     details: {
       client: "M/s. STYLCOVE MODULARS PVT LIMITED",
-      area: "5,50,000.",
+      area: "5,50,000.00",
+      floors: "GROUND+FF",
       startDate: "JAN' 2026",
       completionDate: "DEC'2026",
-      consultant: "M/s. Gleeds Consulting (India) Pvt Ltd,   Bangalore"
+      consultant: "M/s. Gleeds Consulting (India) Pvt Ltd, Bangalore"
     },
     gallery: []
   },  {
