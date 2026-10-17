@@ -7,7 +7,7 @@ import ProjectCard from "@/components/ui/ProjectCard";
 import { ChevronDown, Search } from "lucide-react";
 import { projectsList, featuredProjectsList } from "@/data/projects";
 
-const sectors = ["IT Park", "Industrial", "Healthcare", "Institutional", "Residential"];
+const sectors = ["Commercial", "Healthcare", "Industrial", "Institutional", "IT Park", "Residential"];
 const statuses = ["All", "Completed", "Ongoing"];
 
 // Extract unique clients and architects dynamically from all projects

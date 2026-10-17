@@ -1105,7 +1105,8 @@ export const projectsList: Project[] = [
       area: "140000   SFT",
       floors: "1",
       startDate: "JAN’   2016",
-      completionDate: "JAN’   2018"
+      completionDate: "JAN’   2018",
+      consultant: "M/s.Sundar   Sundaram Architects"
     },
     gallery: []
   },  {
@@ -1121,7 +1122,8 @@ export const projectsList: Project[] = [
       area: "16000 SFT",
       floors: "4",
       startDate: "MAY’ 2013",
-      completionDate: "NOV’ 2014"
+      completionDate: "NOV’ 2014",
+      consultant: "M/s. Prabu"
     },
     gallery: [
       "/project/commercial/ARPUTHAM PILLAI COMPLEX/arputham-pillai.jpg"
@@ -1139,7 +1141,8 @@ export const projectsList: Project[] = [
       area: "43,700.",
       floors: "GROUND FLOOR",
       startDate: "FEB'2009",
-      completionDate: "SEP'2011"
+      completionDate: "SEP'2011",
+      consultant: "M/s. Semac Private Limited, B-6/23, Shopping   Centre, B4 Block, Safdarjung Enclave, Ansari Nagar, New Delhi - 110 029"
     },
     gallery: []
   },  {
@@ -1155,7 +1158,8 @@ export const projectsList: Project[] = [
       area: "38000 SFT",
       floors: "9",
       startDate: "JUN’2006",
-      completionDate: "JUN’2008"
+      completionDate: "JUN’2008",
+      consultant: "M/s.Britto Ilango and Associates"
     },
     gallery: [
       "/project/commercial/CLASSIC TOWERS/Classic-1.jpg",
@@ -1176,7 +1180,8 @@ export const projectsList: Project[] = [
       area: "3,400.",
       floors: "GROUND + 1FLOOR",
       startDate: "AUG' 2023",
-      completionDate: "JAN' 2024"
+      completionDate: "JAN' 2024",
+      consultant: "Ms/. Vesta Architects, No: 252, Avinashi road,   Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
   },  {
@@ -1192,7 +1197,8 @@ export const projectsList: Project[] = [
       area: "6,000.",
       floors: "GF + 1 Floors",
       startDate: "NOV' 2023",
-      completionDate: "SEP' 2024"
+      completionDate: "SEP' 2024",
+      consultant: "Ms/. Vesta Architects, No: 252, Avinashi road,   Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
   },  {
@@ -1208,7 +1214,8 @@ export const projectsList: Project[] = [
       area: "42,000.",
       floors: "GROUND + 3FLOORS",
       startDate: "APR'2004",
-      completionDate: "APR'2005"
+      completionDate: "APR'2005",
+      consultant: "M/s.Britto Ilango and Associates, 167, West   Sambandam Road, R.S.Puram, Coimbatore - 641 002"
     },
     gallery: []
   },  {
@@ -1224,7 +1231,8 @@ export const projectsList: Project[] = [
       area: "19,500.",
       floors: "GROUND + 3 FLOORS",
       startDate: "SEP' 2019",
-      completionDate: "NOV' 2021"
+      completionDate: "NOV' 2021",
+      consultant: "Ms/. Vesta Architects, No: 252, Avinashi road,   Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
   },  {
@@ -1240,7 +1248,8 @@ export const projectsList: Project[] = [
       area: "8,000.",
       floors: "THIRD FLOOR",
       startDate: "MAY' 2022",
-      completionDate: "JUN' 2023"
+      completionDate: "JUN' 2023",
+      consultant: "M/s. Arun & Associates, 1289, Trichy road,   Coimbatore - 641 018"
     },
     gallery: []
   },  {
@@ -1256,7 +1265,8 @@ export const projectsList: Project[] = [
       area: "29,700.",
       floors: "BASEMENT + GROUND + 3 FLOORS",
       startDate: "APR' 2016",
-      completionDate: "FEB' 2018"
+      completionDate: "FEB' 2018",
+      consultant: "M/s. Design n Architectural Studio India Pvt   Ltd, 111 West Venkatasamy Road, RS Puram, Coimbatore - 641 002"
     },
     gallery: []
   },  {
@@ -1272,7 +1282,8 @@ export const projectsList: Project[] = [
       area: "42,000.",
       floors: "GROUND + 3 FLOORS",
       startDate: "SEPT'2011",
-      completionDate: "MAR'2014"
+      completionDate: "MAR'2014",
+      consultant: "M/s.M.Dharmalingam Associates,Raka   complex,First floor,162-H,East Ponnurangam road,Coimbatore - 641 002"
     },
     gallery: []
   },  {
@@ -1288,7 +1299,8 @@ export const projectsList: Project[] = [
       area: "2,07,151.",
       floors: "SB + Add GF + FF + New SF + TF",
       startDate: "MAR' 2023",
-      completionDate: "APR' 2024"
+      completionDate: "APR' 2024",
+      consultant: "M/s. Sundar Sundaram Architects 126 - A,   Renaissance terrace, Thiruganasambandam road, Race course, Coimbatore - 18"
     },
     gallery: []
   },  {
@@ -1304,7 +1316,8 @@ export const projectsList: Project[] = [
       area: "1,20,000.",
       floors: "GROUND + 3 FLOORS",
       startDate: "APR'2005",
-      completionDate: "APR'2006"
+      completionDate: "APR'2006",
+      consultant: "Client Engineer"
     },
     gallery: []
   },  {
@@ -1320,7 +1333,8 @@ export const projectsList: Project[] = [
       area: "1,80,000.",
       floors: "2 BASEMENT + GROUND + 8 FLOORS",
       startDate: "JUNE' 2017",
-      completionDate: "NOV' 2019"
+      completionDate: "NOV' 2019",
+      consultant: "M/s. Mithran Structures (P) Ltd., Dr. L.S   Jayagopal. No:1, Jawahar nagar, S.A.H.S (POST) Coimbatore - 641 043"
     },
     gallery: []
   },  {
@@ -1336,7 +1350,8 @@ export const projectsList: Project[] = [
       area: "2,61,600.",
       floors: "GF + 11 Floors",
       startDate: "SEP' 2023",
-      completionDate: "JAN' 2025"
+      completionDate: "JAN' 2025",
+      consultant: "M/s. Taamaesek Engineering Consortium (TMA) No:   5, First Floor, Bishop Wallers Avenue West, Mylapore, Chennai â€“ 600 004"
     },
     gallery: []
   },  {
@@ -1352,7 +1367,8 @@ export const projectsList: Project[] = [
       area: "25,000.",
       floors: "GROUND + 2 FLOORS",
       startDate: "FEB'2011",
-      completionDate: "MAY'2012"
+      completionDate: "MAY'2012",
+      consultant: "Client Engineer"
     },
     gallery: []
   },  {
@@ -1368,7 +1384,8 @@ export const projectsList: Project[] = [
       area: "36,000.",
       floors: "GROUND + 4FLOORS",
       startDate: "SEP'2004",
-      completionDate: "SEP'2005"
+      completionDate: "SEP'2005",
+      consultant: "M/s.Britto Ilango and Associates, 167, West   Sambandam Road, R.S.Puram, Coimbatore - 641 002"
     },
     gallery: []
   },  {
@@ -1384,7 +1401,8 @@ export const projectsList: Project[] = [
       area: "4,200.",
       floors: "GROUND + 2 FLOORS",
       startDate: "JUL' 2015",
-      completionDate: "JUL' 2016"
+      completionDate: "JUL' 2016",
+      consultant: "M/s. Dharmalingham Associates, 6 Syrian Church   Raod, No:1, Coimbatore - 641 001"
     },
     gallery: []
   },  {
@@ -1400,7 +1418,8 @@ export const projectsList: Project[] = [
       area: "26,500.",
       floors: "GROUND + 2FLOORS",
       startDate: "MAR' 2023",
-      completionDate: "JAN' 2024"
+      completionDate: "JAN' 2024",
+      consultant: "Ms/. Vesta Architects, No: 252, Avinashi road,   Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
   },  {
@@ -1416,7 +1435,8 @@ export const projectsList: Project[] = [
       area: "36,000.",
       floors: "GROUND + 3FLOORS",
       startDate: "APR' 2004",
-      completionDate: "SEP'2005"
+      completionDate: "SEP'2005",
+      consultant: "M/s.Britto Ilango and Associates, 167, West   Sambandam Road, R.S.Puram, Coimbatore - 641 002"
     },
     gallery: []
   },  {
@@ -1432,7 +1452,8 @@ export const projectsList: Project[] = [
       area: "32,000.",
       floors: "GROUND FLOOR",
       startDate: "SEP'2007",
-      completionDate: "SEP'2009"
+      completionDate: "SEP'2009",
+      consultant: "M/s.Britto Ilango and Associates, 167, West   Sambandam Road, R.S.Puram, Coimbatore - 641 002"
     },
     gallery: []
   },  {
@@ -1448,7 +1469,8 @@ export const projectsList: Project[] = [
       area: "15,100.",
       floors: "GROUND +2FLOORS",
       startDate: "JUN' 2023",
-      completionDate: "JAN' 2024"
+      completionDate: "JAN' 2024",
+      consultant: "M/s. SG structural Engineers, 53 M.A Palanisamy   street, K.K Pudur, Coimbatore - 38"
     },
     gallery: []
   },  {
@@ -1464,7 +1486,8 @@ export const projectsList: Project[] = [
       area: "15,000.",
       floors: "GROUND + 1FLOOR",
       startDate: "APRIL' 2021",
-      completionDate: "JULY' 2022"
+      completionDate: "JULY' 2022",
+      consultant: "Ms/. Vesta Architects, No: 252, Avinashi road,   Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
   },  {
@@ -1480,7 +1503,8 @@ export const projectsList: Project[] = [
       area: "23000 SFT",
       floors: "GF",
       startDate: "APR’2014",
-      completionDate: "OCT’ 2014"
+      completionDate: "OCT’ 2014",
+      consultant: "M/s. Design Forum India Pvt Ltd."
     },
     gallery: [
       "/project/commercial/DECATHLON SPORTS INDIA PVT LTD/decathlon-1.jpg"
@@ -1498,7 +1522,8 @@ export const projectsList: Project[] = [
       area: "320000 SFT",
       floors: "8",
       startDate: "Mar’ 2019",
-      completionDate: "May’ 2023"
+      completionDate: "May’ 2023",
+      consultant: "M/s. V.K Thyagarajan & Associates"
     },
     gallery: [
       "/project/commercial/HOTEL RAJPARK (P) LTD/DSC02279-800x534.jpg",
@@ -1553,7 +1578,8 @@ export const projectsList: Project[] = [
       area: "25,000 SFT",
       floors: "3",
       startDate: "2017-12-01",
-      completionDate: "2020-07-09"
+      completionDate: "2020-07-09",
+      consultant: "M/s. ARUN & ASSOCIATES"
     },
     gallery: [
       "/project/commercial/INDIAN COTTON FEDERATION/DSC02705-800x534.jpg",
@@ -1578,7 +1604,8 @@ export const projectsList: Project[] = [
       area: "14200 SFT",
       floors: "3",
       startDate: "FEB’ 2015",
-      completionDate: "JUN’ 2016"
+      completionDate: "JUN’ 2016",
+      consultant: "M/s. S.G.Structural Engineers"
     },
     gallery: [
       "/project/commercial/KPM COMMERCIAL CENTRE/04SGSE_KPMtowersPRINT-800x495.jpg",
@@ -1597,7 +1624,8 @@ export const projectsList: Project[] = [
       client: "PSG & SONS’ Charities",
       area: "1,80,000.",
       startDate: "NOV' 2021",
-      completionDate: "MAR' 2022"
+      completionDate: "MAR' 2022",
+      consultant: "M/s. G.K Associates, 603, 100 Feet road,   (opp.muthumariyamman temple) , Gandhi puram, Coimbatore - 641 012"
     },
     gallery: []
   },  {
@@ -1613,7 +1641,8 @@ export const projectsList: Project[] = [
       area: "78,800 SFT",
       floors: "2",
       startDate: "MAR'2023",
-      completionDate: "MAR'2025"
+      completionDate: "MAR'2025",
+      consultant: "Ms/. Vesta Architects"
     },
     gallery: [
       "/project/commercial/LGB CORPORATE OFFICE BUILDING/LGBCO1.jpg",
@@ -1637,7 +1666,8 @@ export const projectsList: Project[] = [
       area: "81000 SFT",
       floors: "GF",
       startDate: "JUN’2007",
-      completionDate: "OCT’2008"
+      completionDate: "OCT’2008",
+      consultant: "M/s. Gayathri and Namith Architects (P) Ltd"
     },
     gallery: [
       "/project/commercial/Ms.CODISSIA INTECH TECHNOLOGY CENTRE/Codi-1-800x353.jpg",
@@ -1666,7 +1696,8 @@ export const projectsList: Project[] = [
       area: "27500 SFT",
       floors: "4",
       startDate: "Nov’ 2018",
-      completionDate: "Aug’ 2020"
+      completionDate: "Aug’ 2020",
+      consultant: "Ms/. Vesta Architects"
     },
     gallery: [
       "/project/commercial/MS. PARVATHY AGENCIES/DSC02478-800x534.jpg",
@@ -1701,7 +1732,8 @@ export const projectsList: Project[] = [
       area: "31,700 SFT",
       floors: "4",
       startDate: "JAN’ 2022",
-      completionDate: "2025-01-01"
+      completionDate: "2025-01-01",
+      consultant: "M/s. Inform Archtects"
     },
     gallery: [
       "/project/commercial/Ms. PNR Prime Reality Limited “PNR EDIFICE”/PNR-EDIFICE-1-800x601.jpg",
@@ -1722,7 +1754,8 @@ export const projectsList: Project[] = [
       area: "12000 SFT",
       floors: "3",
       startDate: "JUN’ 2014",
-      completionDate: "AUG’ 2016"
+      completionDate: "AUG’ 2016",
+      consultant: "M/s. Gowtham Architects"
     },
     gallery: [
       "/project/commercial/Ms. SAP PROMOTERS LTD/IMG-20170524-WA0045.jpg",
@@ -1742,7 +1775,8 @@ export const projectsList: Project[] = [
       area: "25000 SFT",
       floors: "3",
       startDate: "JUN’2011",
-      completionDate: "DEC’2012"
+      completionDate: "DEC’2012",
+      consultant: "M/s. Arun & Associates"
     },
     gallery: [
       "/project/commercial/Ms. SAROJA VELUSAMY AND THALES TRUST/thales-1.png",
@@ -1762,7 +1796,8 @@ export const projectsList: Project[] = [
       area: "57300 SFT",
       floors: "GF",
       startDate: "JAN’2010",
-      completionDate: "DEC’2010"
+      completionDate: "DEC’2010",
+      consultant: "Mr. Arivudai Nambi"
     },
     gallery: [
       "/project/commercial/Ms. TOYOTA ANAMALLAIS AGENCIES/DSC_0024-800x532.jpg",
@@ -1794,7 +1829,8 @@ export const projectsList: Project[] = [
       area: "57300 SFT",
       floors: "GF",
       startDate: "JAN’2010",
-      completionDate: "DEC’2010"
+      completionDate: "DEC’2010",
+      consultant: "Mr. Arivudai Nambi"
     },
     gallery: []
   },  {
@@ -1810,7 +1846,8 @@ export const projectsList: Project[] = [
       area: "204,700 SFT",
       floors: "6",
       startDate: "JUL’ 2023",
-      completionDate: "2025-01-01"
+      completionDate: "2025-01-01",
+      consultant: "M/s. Taamaesek Engineering Consortium (TMA)"
     },
     gallery: [
       "/project/commercial/Ms. Velmuruga Enterprises Private Limited “SVB MLCP”/SVB-MLCP-800x600.jpg",
@@ -1832,7 +1869,8 @@ export const projectsList: Project[] = [
       area: "42800 SFT",
       floors: "3",
       startDate: "OCT’ 2018",
-      completionDate: "MAR’ 2020"
+      completionDate: "MAR’ 2020",
+      consultant: "M/s. Arun & Associates"
     },
     gallery: [
       "/project/commercial/MURUHANANDAM COMPLEX/Anand-1-800x600.jpg",
@@ -1863,7 +1901,8 @@ export const projectsList: Project[] = [
       area: "30,000.",
       floors: "GROUND FLOOR + 4 FLOORS",
       startDate: "OCT' 2021",
-      completionDate: "APR' 2024"
+      completionDate: "APR' 2024",
+      consultant: "M/s. PTK Project Consultants LLP, 19/1, Haddows   Road, Chennai - 600 006"
     },
     gallery: [
       "/project/commercial/Ms. Velmuruga Enterprises Private Limited “SVB MLCP”/SVB-MLCP-800x600.jpg",
@@ -1885,7 +1924,8 @@ export const projectsList: Project[] = [
       area: "30000 SFT",
       floors: "4",
       startDate: "MAR’ 2013",
-      completionDate: "NOV’ 2014"
+      completionDate: "NOV’ 2014",
+      consultant: "M/s.Vybogam"
     },
     gallery: [
       "/project/commercial/SAPTHARISHI PRASANNA COMPLEX/DSC_7597.jpg",
@@ -1905,7 +1945,8 @@ export const projectsList: Project[] = [
       area: "7800 SFT",
       floors: "3",
       startDate: "Nov’ 2019",
-      completionDate: "Oct’ 2020"
+      completionDate: "Oct’ 2020",
+      consultant: "M/s. ARUN & ASSOCIATES"
     },
     gallery: [
       "/project/commercial/SARADHA GREENS/GREENS-34-800x450.jpeg",
@@ -1942,7 +1983,8 @@ export const projectsList: Project[] = [
       area: "26000 SFT",
       floors: "4",
       startDate: "Oct’ 2019",
-      completionDate: "Aug’ 2020"
+      completionDate: "Aug’ 2020",
+      consultant: "M/s. Green Evolution"
     },
     gallery: [
       "/project/commercial/Shoeline – PALMYRA/pal-1-1-800x600.jpeg",
@@ -1977,7 +2019,8 @@ export const projectsList: Project[] = [
       area: "116000 SFT",
       floors: "3",
       startDate: "AUG '2003",
-      completionDate: "DEC'2005"
+      completionDate: "DEC'2005",
+      consultant: "Client Engineer"
     },
     gallery: [
       "/project/commercial/SNR AUDITORIUM/3.jpg"
@@ -1995,7 +2038,8 @@ export const projectsList: Project[] = [
       area: "116000 SFT",
       floors: "3",
       startDate: "AUG '2003",
-      completionDate: "DEC'2005"
+      completionDate: "DEC'2005",
+      consultant: "Client Engineer"
     },
     gallery: [
       "/project/commercial/SNR HALL/DSC_0086-SNR.jpg"
@@ -2013,7 +2057,8 @@ export const projectsList: Project[] = [
       area: "27,024 SFT",
       floors: "4",
       startDate: "DEC’ 2022",
-      completionDate: "2026-01-01"
+      completionDate: "2026-01-01",
+      consultant: "Mahesh Architect & Interior Designers"
     },
     gallery: [
       "/project/commercial/SREE SWITCH GEARS/SSG1.jpg",
@@ -2037,7 +2082,8 @@ export const projectsList: Project[] = [
       area: "30,000 SFT",
       floors: "GF",
       startDate: "2017-06-01",
-      completionDate: "Deccember 2018"
+      completionDate: "Deccember 2018",
+      consultant: "Ms/. Vesta Architects"
     },
     gallery: [
       "/project/commercial/SRI KUMARAN HALL/adithya-mahal-800x425.jpg",
@@ -2068,7 +2114,8 @@ export const projectsList: Project[] = [
       area: "89000 SFT",
       floors: "5",
       startDate: "Jan’ 2019",
-      completionDate: "Sep ‘2021"
+      completionDate: "Sep ‘2021",
+      consultant: "Ms/. Vesta Architects"
     },
     gallery: [
       "/project/commercial/THE ECHO POINT – PLAZA/ECHO-POINT-FRONT-VIEW-800x554.jpg",
@@ -2110,7 +2157,8 @@ export const projectsList: Project[] = [
       area: "21000 SFT",
       floors: "3",
       startDate: "JUN’ 2013",
-      completionDate: "OCT’ 2014"
+      completionDate: "OCT’ 2014",
+      consultant: "M/s. Yellow Architect"
     },
     gallery: [
       "/project/commercial/VASANTH & CO/VASANTH-CO.jpg"
@@ -2128,7 +2176,8 @@ export const projectsList: Project[] = [
       area: "5,15,000.",
       floors: "3 Basement + GF + 14 Floors",
       startDate: "JAN'2026",
-      completionDate: "OCT'2028"
+      completionDate: "NOV'2028",
+      consultant:"Infinus Tech Engineering & Architecture, Coimbatore"
     },
     gallery: []
   },  {
@@ -2140,11 +2189,12 @@ export const projectsList: Project[] = [
     status: "Ongoing",
     description: "Construction of Civil, Structural, Architectural, Finishing including Plumbing works for Commercial Building in GD Street, Race Course, Coimbatore.",
     details: {
-      client: "M/s. Annamalai Enterprise Pvt Ltd",
+      client: "M/s. Annamalai Enterprise Pvt Ltd, No. 1212, Trichy Road, Coimbatore - 641 018",
       area: "99,500.",
       floors: "BF + GF + 6 Floors + Terrace",
       startDate: "SEP'2025",
-      completionDate: "APR'2027"
+      completionDate: "APR'2027",
+      consultant:"M/s  Shri Lakshmi Project Management & Consultancy Services, 9th street , Tatabad- Gandhipuram– Coimbatore -641 012"
     },
     gallery: []
   },  {
@@ -2160,7 +2210,8 @@ export const projectsList: Project[] = [
       area: "2,85,000.",
       floors: "B1+B2+GF+13 Floors",
       startDate: "SEP' 2025",
-      completionDate: "MAY' 2027"
+      completionDate: "MAY' 2027",
+      consultant:"M/s Rajinder Kumar Associates, B-6/17 Shopping Centre, Safdarjung Enclave, New Delhi – 110 029."
     },
     gallery: []
   },  {
@@ -2172,11 +2223,12 @@ export const projectsList: Project[] = [
     status: "Ongoing",
     description: "Construction of Civil, Strurctural, Finishing, External and Plumbing works - Construction of Commercial Building in Saravanampatti Village, Saravanampatti-Thudiyalur Road, Coimbatore.",
     details: {
-      client: "Mr. K. Ramasamy",
+      client: "Mr.K.RamasamySF No. 351/ 1B1B, Saravanampatti Village , Saravanampatti-Thudiyalur Road – Coimbatore ",
       area: "88,000.",
       floors: "BF + GF + 3 Floors + Terrace",
       startDate: "SEP' 2025",
-      completionDate: "JAN' 2027"
+      completionDate: "JAN' 2027",
+      consultant:"M/s  Shri Lakshmi Project Management & Consultancy Services, 9th street , Tatabad- Gandhipuram– Coimbatore -641 012"
     },
     gallery: []
   },  {
@@ -2192,7 +2244,8 @@ export const projectsList: Project[] = [
       area: "11,500.",
       floors: "GF + 3 Floors",
       startDate: "MAR' 2024",
-      completionDate: "SEPT' 2026"
+      completionDate: "OCT' 2026",
+      consultant:"Ms/. Vesta Architects, No: 252, Avinashi road, Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
   },  {
@@ -2208,7 +2261,8 @@ export const projectsList: Project[] = [
       area: "96,200.",
       floors: "B+ GF + 9 Floors",
       startDate: "SEP' 2023",
-      completionDate: "AUG' 2026"
+      completionDate: "AUG' 2026",
+      consultant:"Architecture Plus Value, No: 165, Arcot road, Arcot Plaza, United India Colony, Chennai - 600 024"
     },
     gallery: []
   },  {
@@ -2224,7 +2278,8 @@ export const projectsList: Project[] = [
       area: "69,000.",
       floors: "BF + STILT + 4 Floors",
       startDate: "MAR' 2025",
-      completionDate: "JAN' 2026"
+      completionDate: "JAN' 2026",
+      consultant:"M/s Shri Lakshmi Project Management & Consultancy Services, 9th street , Tatabad- Gandhipuram– Coimbatore -641 012"
     },
     gallery: []
   },  {
@@ -2240,7 +2295,8 @@ export const projectsList: Project[] = [
       area: "1,44,000.",
       floors: "BF+GF+ 6 Floors",
       startDate: "OCT' 2024",
-      completionDate: "SEPT 2026"
+      completionDate: "OCT 2026",
+      consultant:"M/s.RSP design consultants (India) Private ltd, Olympia tech park building, Plot: 01, sidco industrial estate, guindy Chennai - 32"
     },
     gallery: []
   },  {
@@ -2256,7 +2312,8 @@ export const projectsList: Project[] = [
       area: "10,000.",
       floors: "GF+ 3 Floors",
       startDate: "NOV' 2025",
-      completionDate: "SEP' 2026"
+      completionDate: "OCT' 2026",
+      consultant:"M/s. Interface Archtecture, B-41, TNHB Colony, Murugan Nagar, Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
   },  {
@@ -2272,7 +2329,8 @@ export const projectsList: Project[] = [
       area: "80,000.",
       floors: "2 Floors (2rd and Third - 2 Buildings)",
       startDate: "APR'2026",
-      completionDate: "DEC'2026"
+      completionDate: "DEC'2026",
+      consultant:"Isha engineering"
     },
     gallery: []
   },  {
@@ -2288,7 +2346,8 @@ export const projectsList: Project[] = [
       area: "7,000.",
       floors: "GF",
       startDate: "JAN' 2025",
-      completionDate: "AUG' 2026"
+      completionDate: "OCT' 2026",
+      consultant:"M/s. Innerspace, 748/ 35, Third floor Gowtham centre Annexe, Avinashi road, Coimbatore - 641 018"
     },
     gallery: []
   },  {
@@ -2304,7 +2363,8 @@ export const projectsList: Project[] = [
       area: "6,918.68",
       floors: "Ground Floor",
       startDate: "NOV'2025",
-      completionDate: "FEB'2026"
+      completionDate: "FEB'2026",
+      consultant:"M/s. Simpson"
     },
     gallery: []
   },  {
@@ -2320,23 +2380,25 @@ export const projectsList: Project[] = [
       area: "4,81,280.",
       floors: "2 Basement+ Ground +9 Floors",
       startDate: "MAY 2026",
-      completionDate: "MAY'2028"
+      completionDate: "MAY'2028",
+      consultant:"M/s.pragathi consultats, Bangalore"
     },
     gallery: []
   },  {
-    slug: "proposed-construction-of-it-building-cast-in-situ-precast-building-olympia-vidagara-at-porur-chennai-for-m-s-alwarpet-properties-pvt-ltd-62",
-    name: "Proposed Construction Of It Building (Cast In Situ) & Precast Building \"Olympia Vidagara” At Porur, Chennai For M/S. Alwarpet Properties Pvt Ltd",
+    slug: "proposed-construction-of-it-building-olympia-vidagara-120",
+    name: "Proposed Construction of IT Building (Cast in Situ) & Precast Building - Olympia Vidagara",
     category: "Commercial",
     location: "Porur, Chennai",
     imageUrl: "MANUAL_MAPPING_REQUIRED",
     status: "Ongoing",
-    description: "Construction of Proposed Construction Of It Building (Cast In Situ) & Precast Building \"Olympia Vidagara” At Porur, Chennai For M/S. Alwarpet Properties Pvt Ltd in Porur, Chennai.",
+    description: "Construction of the proposed IT building, including cast-in-situ and precast structures, at Olympia Vidagara, Porur, Chennai, for M/s. Alwarpet Properties Pvt Ltd.",
     details: {
       client: "M/s. Alwarpet Properties Pvt Ltd",
-      area: "14,60,000.",
-      floors: "3 Basement+ Ground +6 Floors (Basement 3 Cast in Situ)",
-      startDate: "JUN'2026",
-      completionDate: "JULY'2027"
+      area: "",
+      floors: "3 Basement + Ground + 6 Floors (Basement 3 Cast in Situ)",
+      startDate: "JUN' 2026",
+      completionDate: "JULY' 2027",
+      consultant: "M/s. RSB Design Consultants (India) Private Limited"
     },
     gallery: []
   },  {
@@ -2348,11 +2410,12 @@ export const projectsList: Project[] = [
     status: "Ongoing",
     description: "Construction of Proposed Construction of Precast IT Building “Olympia” at porur, Chennai for M/s. Alwarpet Properties Pvt Ltd – reg. in Porur Chennai.",
     details: {
-      client: "Olympia",
+      client: "M/s. Alwarpet Properties Pvt Ltd",
       area: "34,216.8",
       floors: "GROUND+4 FLOORS",
       startDate: "JAN'2026",
-      completionDate: "APR'2026"
+      completionDate: "APR'2026",
+      consultant:"M/s.RSB Design Consultants. Chennai"
     },
     gallery: []
   },  {
@@ -2368,7 +2431,26 @@ export const projectsList: Project[] = [
       area: "15,500.",
       floors: "GROUND+2 FLOORS",
       startDate: "DEC'2025",
-      completionDate: "SEP'2026"
+      completionDate: "OCT'2026",
+      consultant:"Design Tech, Chennai"
+
+    },
+    gallery: []
+  },  {
+    slug: "civil-structure-and-finishes-works-brigade-wtc-tower-b-carnival-121",
+    name: "Civil Structure and Finishes Works for Brigade WTC Tower-B (Carnival)",
+    category: "Commercial",
+    location: "Thiruvananthapuram, Kerala",
+    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    status: "Ongoing",
+    description: "Civil structure and finishing works for Brigade WTC Tower-B (Carnival) in Thiruvananthapuram, Kerala.",
+    details: {
+      client: "Brigade Kerala Private Limited, Kerala",
+      area: "7,55,000.00",
+      floors: "4 Basement + Ground + 20 Floors",
+      startDate: "OCT' 2026",
+      completionDate: "28.02.2029",
+      consultant: "M/s. Rajinder Kumar Associates, New Delhi"
     },
     gallery: []
   },  {
@@ -2384,7 +2466,8 @@ export const projectsList: Project[] = [
       area: "141000   SFT",
       floors: "2",
       startDate: "MAR’2014",
-      completionDate: "JAN’   2015"
+      completionDate: "JAN’   2015",
+      consultant: "M/s.Sundar Sundaram Architects"
     },
     gallery: [
       "/project/institutional/ADITHYA CBSE SCHOOL/Adithya-Idikarai-800x412.jpg",
@@ -2406,7 +2489,8 @@ export const projectsList: Project[] = [
       area: "325000 SFT",
       floors: "4",
       startDate: "FEB’ 2008",
-      completionDate: "AUG’2009"
+      completionDate: "AUG’2009",
+      consultant: "M/s. Jeyakumar Associates"
     },
     gallery: [
       "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/ADD_00381-800x534.jpg",
@@ -2433,7 +2517,8 @@ export const projectsList: Project[] = [
       area: "37900 SFT",
       floors: "2",
       startDate: "JUL’ 2023",
-      completionDate: "MAR;2025"
+      completionDate: "MAR;2025",
+      consultant: "Ms/. Vesta Architects"
     },
     gallery: [
       "/project/institutional/ADITHYA INSTITUTE OF TECHNOLOGY/ADD_00381-800x534.jpg",
@@ -2460,7 +2545,8 @@ export const projectsList: Project[] = [
       area: "100000 SFT",
       floors: "2",
       startDate: "MAR’2014",
-      completionDate: "JAN’ 2015"
+      completionDate: "JAN’ 2015",
+      consultant: "M/s.Sundar Sundaram Architects"
     },
     gallery: [
       "/project/institutional/ADITHYA MATRICULATION SCHOOL/aditya-1.jpg",
@@ -2481,7 +2567,8 @@ export const projectsList: Project[] = [
       area: "37000 SFT",
       floors: "2",
       startDate: "NOV’ 2017",
-      completionDate: "DEC’ 2018"
+      completionDate: "DEC’ 2018",
+      consultant: "Ms/. Vesta Architects"
     },
     gallery: [
       "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING/img-1-12.jpg",
@@ -2509,7 +2596,8 @@ export const projectsList: Project[] = [
       area: "34000 SFT",
       floors: "2",
       startDate: "DEC’ 2019",
-      completionDate: "JAN’ 2021"
+      completionDate: "JAN’ 2021",
+      consultant: "Ms/. Vesta Architects"
     },
     gallery: [
       "/project/institutional/ADITYA SCHOOL HOSTEL BUILDING PHASE II/AH-1-800x600.jpeg",
@@ -2541,7 +2629,8 @@ export const projectsList: Project[] = [
       area: "100000 SFT",
       floors: "3",
       startDate: "OCT’2012",
-      completionDate: "NOV’ 2014"
+      completionDate: "NOV’ 2014",
+      consultant: "M/s. Jeyakumar Associates"
     },
     gallery: [
       "/project/institutional/ARJUN COLLEGE OF TECHNOLOGY/Arjun-1-800x384.jpeg",
@@ -2575,7 +2664,9 @@ export const projectsList: Project[] = [
       area: "8,000.",
       floors: "GF FLOOR",
       startDate: "JUN' 2024",
-      completionDate: "MAR' 2025"
+      completionDate: "MAR' 2025",
+      consultant: "M/s. Arvind gupta Consulatnts, E - 296, Ground floor, East kailash New delhi"
+      
     },
     gallery: []
   },  {
@@ -2591,7 +2682,8 @@ export const projectsList: Project[] = [
       area: "72,000.",
       floors: "GROUND + 3 FLOORS",
       startDate: "MAR'2009",
-      completionDate: "MAR'2011"
+      completionDate: "MAR'2011",
+      consultant: "Client Engineer"
     },
     gallery: []
   },  {
@@ -2607,7 +2699,8 @@ export const projectsList: Project[] = [
       area: "49,000.",
       floors: "GF + 2 Floors",
       startDate: "SEP' 2023",
-      completionDate: "MAR' 2025"
+      completionDate: "MAR' 2025",
+      consultant: "Ms/. Vesta Architects, No: 252, Avinashi road, Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
   },  {
@@ -2623,7 +2716,8 @@ export const projectsList: Project[] = [
       area: "40,000.",
       floors: "GROUND + FIRST FLOOR",
       startDate: "FEB'2015",
-      completionDate: "AUG' 2015"
+      completionDate: "AUG' 2015",
+      consultant: "M/s. JP Associates, No: 69, KPN Colony, 4th street, Union Nill road, Tiruppur - 1"
     },
     gallery: []
   },  {
@@ -2639,7 +2733,8 @@ export const projectsList: Project[] = [
       area: "30,000.",
       floors: "GF + 2 Floors",
       startDate: "SEP' 2023",
-      completionDate: "MAR' 2025"
+      completionDate: "MAR' 2025",
+      consultant: "M/s. M. Dharmalingam Associates, 6 Syrian church road, No:1, Coimbatore - 641 001"
     },
     gallery: []
   },  {
@@ -2655,7 +2750,8 @@ export const projectsList: Project[] = [
       area: "24,000.",
       floors: "GROUND + 1 FLOORS",
       startDate: "JUN' 2021",
-      completionDate: "DEC' 2021"
+      completionDate: "DEC' 2021",
+      consultant: "Ms/. Vesta Architects, No: 252, Avinashi road, Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
   },  {
@@ -2671,7 +2767,8 @@ export const projectsList: Project[] = [
       area: "4,500.",
       floors: "Ground + FF",
       startDate: "OCT'2023",
-      completionDate: "DEC2024"
+      completionDate: "DEC2024",
+      consultant: "Ms/. Vesta Architects, No: 252, Avinashi road, Peelamedu, Coimbatore - 641 004"
     },
     gallery: []
   },  {
@@ -2687,7 +2784,8 @@ export const projectsList: Project[] = [
       area: "90,500.",
       floors: "GROUND + 5 FLOORS",
       startDate: "MAR' 2016",
-      completionDate: "MAY' 2018"
+      completionDate: "MAY' 2018",
+      consultant: "M/s.Sundar Sundaram Architects, Rennaissance Terrace no: 126 A, Thiruganasambandam road, Race course, Coimbatore - 641 108"
     },
     gallery: []
   },  {
@@ -2703,7 +2801,8 @@ export const projectsList: Project[] = [
       area: "2,70,000.",
       floors: "GROUND + 3 FLOORS",
       startDate: "APR' 2007",
-      completionDate: "APR' 2008"
+      completionDate: "APR' 2008",
+      consultant: "M/s. Prasad N Yadav, 7, Ashok Road, Near Abhiramapuram Junction, Teynampet, Chennai - 600 018"
     },
     gallery: []
   },  {
@@ -2719,7 +2818,8 @@ export const projectsList: Project[] = [
       area: "4,756.",
       floors: "GF +1 Floors",
       startDate: "JUN' 2023",
-      completionDate: "MAR' 2025"
+      completionDate: "MAR' 2025",
+      consultant: "M/s. M. Dharmalingam Associates, 6 Syrian church road, No:1, Coimbatore - 641 001"
     },
     gallery: []
   },  {
@@ -2735,7 +2835,8 @@ export const projectsList: Project[] = [
       area: "78,500.",
       floors: "GROUND + 5 FLOORS",
       startDate: "FEB'2015",
-      completionDate: "MAR' 2018"
+      completionDate: "MAR' 2018",
+      consultant: "M/s. S.D.Sharma Associates, Sco-541, Swastik Vihar, Mansa Devi Complex, Panchkula, Sector 4, Panchkula Urban Estate, Haryana - 134 112"
     },
     gallery: []
   },  {
@@ -2751,7 +2852,8 @@ export const projectsList: Project[] = [
       area: "28000 SFT",
       floors: "5",
       startDate: "MAR’ 2016",
-      completionDate: "APR’ 2019"
+      completionDate: "APR’ 2019",
+      consultant: "M/s.Sundar Sundaram Architects"
     },
     gallery: [
       "/project/institutional/HINDUSTHAN COLLEGE OF ARTS & SCIENCE/1-1-800x1318.jpg",
@@ -2775,7 +2877,8 @@ export const projectsList: Project[] = [
       area: "55500 SFT",
       floors: "2",
       startDate: "JUN’ 2017",
-      completionDate: "SEP’ 2018"
+      completionDate: "SEP’ 2018",
+      consultant: "M/s. Green Evolution"
     },
     gallery: [
       "/project/institutional/KFI-THE SCHOOL/01-1.jpg",
@@ -2810,7 +2913,8 @@ export const projectsList: Project[] = [
       area: "97000 SFT",
       floors: "3",
       startDate: "NOV’2011",
-      completionDate: "MAR’2013"
+      completionDate: "MAR’2013",
+      consultant: "M/s. PTK Architects"
     },
     gallery: [
       "/project/institutional/KUMARAGURU COLLEGE OF TECHNOLOGY/KCT-1-800x236.jpg",
@@ -2844,7 +2948,8 @@ export const projectsList: Project[] = [
       area: "21000 SFT",
       floors: "2 & 3",
       startDate: "MAR’ 2006",
-      completionDate: "MAR’2007"
+      completionDate: "MAR’2007",
+      consultant: "Client Engineer"
     },
     gallery: [
       "/project/institutional/Ms.D.J. ACADEMY FOR MANAGERIAL EXCELLENCE/DJ-1-800x446.jpeg",
@@ -2873,7 +2978,8 @@ export const projectsList: Project[] = [
       area: "52500 SFT",
       floors: "2",
       startDate: "MAY’ 2004",
-      completionDate: "AUG’ 2005"
+      completionDate: "AUG’ 2005",
+      consultant: "M/s. Environmental Creations"
     },
     gallery: [
       "/project/institutional/Ms. GKD CHARITY TRUST/DSCN0073-800x600.jpg",
@@ -2895,7 +3001,8 @@ export const projectsList: Project[] = [
       area: "203000 SFT",
       floors: "3",
       startDate: "2010-08-01",
-      completionDate: "2012-07-01"
+      completionDate: "2012-07-01",
+      consultant: "M/s. Prasad N Yadav"
     },
     gallery: [
       "/project/institutional/MAHATMA MONTESSORI SCHOOL/Maha-1-800x534.jpg",
@@ -2918,7 +3025,8 @@ export const projectsList: Project[] = [
       area: "204400 SFT",
       floors: "2",
       startDate: "FEB’ 2018",
-      completionDate: "JAN’ 2020"
+      completionDate: "JAN’ 2020",
+      consultant: "M/s. Trinity Associates"
     },
     gallery: [
       "/project/institutional/MEPCO SCHLENK ENGINEERING COLLEGE/img-1-23-800x450.jpg",
@@ -2963,7 +3071,8 @@ export const projectsList: Project[] = [
     details: {
       client: "M/s. Sri Krishna college of Technology, Coimbatore",
       startDate: "JUL' 2022",
-      completionDate: "Dec' 2022"
+      completionDate: "Dec' 2022",
+      consultant: "M/s. PTK Project Consultants LLP, 19/1, Haddows Road, Chennai - 600 006"
     },
     gallery: []
   },  {
@@ -2979,7 +3088,8 @@ export const projectsList: Project[] = [
       area: "220000 SFT",
       floors: "8",
       startDate: "AUG’ 2020",
-      completionDate: "FEB’ 2024"
+      completionDate: "FEB’ 2024",
+      consultant: "M/s. Mithran Structures (P) Ltd"
     },
     gallery: [
       "/project/institutional/PSG IMS&R ONCOLOGY BLOCK/22e7ed7a-0812-4a79-9a00-efa2ffa64989.jpeg",
@@ -3015,7 +3125,8 @@ export const projectsList: Project[] = [
       area: "285600 SFT",
       floors: "8",
       startDate: "MAR’ 2016",
-      completionDate: "NOV’ 2017"
+      completionDate: "NOV’ 2017",
+      consultant: "Client Engineer"
     },
     gallery: [
       "/project/institutional/PSG INSTITUTE OF MEDICAL SCIENCES & RESEARCH (LADIES AND GENTS HOSTEL)/DSC03503-800x534.jpg",
@@ -3039,7 +3150,8 @@ export const projectsList: Project[] = [
       area: "75000 SFT",
       floors: "GROUND FLOOR",
       startDate: "JUN’ 2015",
-      completionDate: "JUN’ 2017"
+      completionDate: "JUN’ 2017",
+      consultant: "M/s. S.D.Sharma Associates"
     },
     gallery: [
       "/project/institutional/PSG INSTITUTE OF TECHNOLOGY & APPLIED RESEARCH/DSCF9105-800x600.jpg",
@@ -3064,7 +3176,8 @@ export const projectsList: Project[] = [
       area: "10500 SFT",
       floors: "GF",
       startDate: "Jan’ 2020",
-      completionDate: "Apr’ 2022"
+      completionDate: "Apr’ 2022",
+      consultant: "Ms/. Vesta Architects"
     },
     gallery: [
       "/project/institutional/RAMAKRISHNA MISSION VIDYALAYA/20200808_105443-800x370.jpg",
@@ -3097,7 +3210,8 @@ export const projectsList: Project[] = [
       area: "22,300.",
       floors: "RENOVATION",
       startDate: "MAY'2013",
-      completionDate: "OCT'2013"
+      completionDate: "OCT'2013",
+      consultant: "M/s. PTK Architects, No. 1, Second Street, Wallace Garden, Chennai - 600 006."
     },
     gallery: []
   },  {
@@ -3113,7 +3227,8 @@ export const projectsList: Project[] = [
       area: "106100 SFT",
       floors: "3",
       startDate: "JAN’ 2022",
-      completionDate: "DEC’2022"
+      completionDate: "DEC’2022",
+      consultant: "M/s. PTK Project Consultants"
     },
     gallery: [
       "/project/institutional/SRI KRISHNA COLLEGE OF TECHNOLOGY- BOYS HOSTEL 2/Krishna-1-800x450.jpeg",
@@ -3142,7 +3257,8 @@ export const projectsList: Project[] = [
       area: "1,84,000 SFT",
       floors: "2",
       startDate: "1996",
-      completionDate: "1998"
+      completionDate: "1998",
+      consultant: "M/s.Sankar & Associates"
     },
     gallery: [
       "/project/institutional/SRI RAMAKRISHNA ENGINEERING COLLEGE/SREC1.jpg",
@@ -3164,7 +3280,8 @@ export const projectsList: Project[] = [
       area: "1,75,000 SFT",
       floors: "3",
       startDate: "2000",
-      completionDate: "2002"
+      completionDate: "2002",
+      consultant: "M/s.Britto Ilango Associates"
     },
     gallery: [
       "/project/institutional/SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY/Sri-Ramakrishna-Institute-of-Technology-800x600.jpg",
@@ -3192,7 +3309,8 @@ export const projectsList: Project[] = [
       area: "70,000 SFT",
       floors: "3",
       startDate: "1996",
-      completionDate: "1997"
+      completionDate: "1997",
+      consultant: "Client Engineers"
     },
     gallery: [
       "/project/institutional/SRI RAMAKRISHNA POLYTECHNIC/Sri-Ramakrishna-Polytechnic-College.jpg"
@@ -3210,7 +3328,8 @@ export const projectsList: Project[] = [
       area: "150,000 SFT",
       floors: "5",
       startDate: "DEC’ 2022",
-      completionDate: "MAR’ 2024"
+      completionDate: "MAR’ 2024",
+      consultant: "M/S. FEEL & BARI"
     },
     gallery: [
       "/project/institutional/SRM INSTITUTE OF SCIENCE AND TECHNOLOGY/SRM-10-800x452.jpeg",
@@ -3235,7 +3354,8 @@ export const projectsList: Project[] = [
       area: "203000 SFT",
       floors: "3",
       startDate: "SEP’ 2010",
-      completionDate: "JUL’2013"
+      completionDate: "JUL’2013",
+      consultant: "Client Engineer"
     },
     gallery: [
       "/project/institutional/VELAMMAL CBSE & MATRICULATION SCHOOL/velammal-1.jpg",
@@ -3257,7 +3377,8 @@ export const projectsList: Project[] = [
       area: "1,70,000.",
       floors: "BF+ GF + 7 Floors",
       startDate: "AUG' 2024",
-      completionDate: "JAN' 2027"
+      completionDate: "JAN' 2027",
+      consultant:"M/s. Senthil Associates, Consultants Architects, 166/302, Canara bank Building, III floor, TV Samy road (W), R.S Puram, Coimbatore - 2"
     },
     gallery: []
   },  {
@@ -3273,7 +3394,8 @@ export const projectsList: Project[] = [
       area: "1,31,800.",
       floors: "GF + 6 Floors",
       startDate: "DEC' 2024",
-      completionDate: "SEP '2026"
+      completionDate: "OCT'2026",
+      consultant:"M/s. Mithran Structures (P) Ltd., Dr. L.S Jayagopal. No:1, Jawahar nagar, S.A.H.S (POST) Coimbatore - 641 043"
     },
     gallery: []
   },  {
@@ -3289,7 +3411,8 @@ export const projectsList: Project[] = [
       area: "51,000.",
       floors: "GF + 1 Floors",
       startDate: "JUNE' 2024",
-      completionDate: "NOV' 2026"
+      completionDate: "NOV' 2026",
+    consultant:"M/s. Amace Projects (P) Ltd., No:63, Durairaj stret, Thirunagar valasarvakkam, Chennai - 600 087"
     },
     gallery: []
   },  {
@@ -3305,7 +3428,8 @@ export const projectsList: Project[] = [
       area: "81000 SFT",
       floors: "GF+3",
       startDate: "SEP’ 2024",
-      completionDate: "SEP' 2026"
+      completionDate: "SEP' 2026",
+      consultant:"M/s.INGENIO"
     },
     gallery: [
       "/project/institutional/RAK’S Pallikkoodam/Raks-1.png",
@@ -3332,7 +3456,8 @@ export const projectsList: Project[] = [
       area: "84200 SFT",
       floors: "4",
       startDate: "JAN’ 2023",
-      completionDate: "SEP '2025"
+      completionDate: "SEP '2025",
+      consultant:"M/s. PTK Project Consultants"
     },
     gallery: [
       "/project/institutional/SRI KRISHNA COLLEGE OF TECHNOLOGY- GIRLS HOSTEL/SKCET-2-800x523.jpg",
@@ -3354,7 +3479,8 @@ export const projectsList: Project[] = [
       area: "81000 SFT",
       floors: "2",
       startDate: "JUL’ 2023",
-      completionDate: "JUL’ 2025"
+      completionDate: "JUL’ 2025",
+      consultant:"M/s.INGENIO"
     },
     gallery: [
       "/project/institutional/The NGP School/Ngp1-800x468.png",
@@ -3383,7 +3509,8 @@ export const projectsList: Project[] = [
       area: "10,400 SFT",
       floors: "3",
       startDate: "JUN’ 2023",
-      completionDate: "JUL' 2023"
+      completionDate: "JUL' 2023",
+      consultant:"M/s. M. Dharmalingam Associate"
     },
     gallery: [
       "/project/institutional/WORLD COMMUNITY SERVICE CENTRE/WCS-1.jpg",
@@ -3398,6 +3525,40 @@ export const projectsList: Project[] = [
       "/project/institutional/WORLD COMMUNITY SERVICE CENTRE/WCSC5.jpg",
       "/project/institutional/WORLD COMMUNITY SERVICE CENTRE/WCSC6.jpg"
     ]
+  },  {
+    slug: "construction-of-school-building-118",
+    name: "Construction of School Building",
+    category: "Institutional",
+    location: "Codissia Trade Fair Complex Road, Coimbatore",
+    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    status: "Ongoing",
+    description: "Construction of a school building for M/s. RAKS Pallikkoodam on Codissia Trade Fair Complex Road, Coimbatore.",
+    details: {
+      client: "M/s. RAKS Pallikkoodam",
+      area: "81,000.00",
+      floors: "GF + 3 Floors",
+      startDate: "SEP' 2024",
+      completionDate: "OCT' 2026",
+      consultant: "M/s. INGENIO, 204, 4th D Cross, HRBR Layout, Kacharakanahalli, Kalyan Nagar, P.O. Bangalore - 560 043"
+    },
+    gallery: []
+  },  {
+    slug: "proposed-construction-of-admin-academic-block-119",
+    name: "Proposed Construction of Admin & Academic Block",
+    category: "Institutional",
+    location: "Nallattipalayam, Kinathukadavu, Coimbatore",
+    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    status: "Ongoing",
+    description: "Construction of the proposed Admin & Academic Block at Nallattipalayam, Kinathukadavu, Coimbatore, for M/s. Karpagam Academy of Higher Education.",
+    details: {
+      client: "M/s. Karpagam Academy of Higher Education, Coimbatore",
+      area: "",
+      floors: "GF + 4 Floors",
+      startDate: "SEP' 2026",
+      completionDate: "JUNE' 2028",
+      consultant: "M/s. Venkataramanan Associates, Bangalore"
+    },
+    gallery: []
   },  {
     slug: "adithya-warehouse-1",
     name: "ADITHYA   WAREHOUSE",
@@ -5830,7 +5991,7 @@ export const projectsList: Project[] = [
       area: "16,000.",
       floors: "GROUND FLOOR",
       startDate: "JUN 2025",
-      completionDate: "OCT''2026",
+      completionDate: "OCT 2026",
       consultant: "M/s. M. Dharmalingam Associates, 6 Syrian   church road, No:1, Coimbatore - 641 001"
     },
     gallery: []
@@ -7352,8 +7513,8 @@ export const projectsList: Project[] = [
       client: "M/s. GOVEL Trust – Aravind Eye Hospitals",
       area: "3,21,300.",
       floors: "Housing G+10 Floors, Hostel G+12 Floors",
-      startDate: "2026-07-01",
-      completionDate: "2029-01-01",
+      startDate: "JUL-26",
+      completionDate: "JAN-29",
       consultant: "M/s. Design Collaborative Private Limited,   Pondicherry"
     },
     gallery: []
@@ -7387,7 +7548,7 @@ export const projectsList: Project[] = [
       area: "3,826.",
       floors: "GROUND FLOOR",
       startDate: "NOV'2025",
-      completionDate: "SEP'2026",
+      completionDate: "OCT'2026",
       consultant: "K2LD Architects & Interior Designer,   Singapore"
     },
     gallery: []
@@ -7432,8 +7593,8 @@ export const projectsList: Project[] = [
       client: "PSG & SONS’   Charities",
       area: "1,92,500.",
       floors: "GF+6 Floors",
-      startDate: "2026-04-01",
-      completionDate: "2027-07-01",
+      startDate: "APR-26",
+      completionDate: "JUL-27",
       consultant: "M/s. Mithran Structures Pvt Ltd, Coimbatore"
     },
     gallery: []
@@ -7450,7 +7611,7 @@ export const projectsList: Project[] = [
       area: "4,000.",
       floors: "GF+1",
       startDate: "MAY'25",
-      completionDate: "SEP'2026",
+      completionDate: "OCT'2026",
       consultant: "Metras Design , 4, 1st Floor, 3rd Avenue,   Harington Road, Chetpet, Chennai 31"
     },
     gallery: []
@@ -7466,7 +7627,7 @@ export const projectsList: Project[] = [
       client: "M/s. Revantha Services Private Limited",
       area: "37,000.",
       floors: "GF+5 Floors",
-      startDate: "2026-04-01",
+      startDate: "JAN-26",
       completionDate: "FEB-28",
       consultant: "Interface Architecture, Coimbatore"
     },
@@ -7572,7 +7733,7 @@ export const projectsList: Project[] = [
       client: "NIVASAN HOMES PVT LTD",
       area: "53,430.",
       floors: "1 Semi Basement + Stilt+GF+3 Floors",
-      startDate: "2026-02-01",
+      startDate: "FEB-26",
       completionDate: "FEB-27",
       consultant: "M/s.Vesta Architects, Coimbatore"
     },
@@ -7581,7 +7742,7 @@ export const projectsList: Project[] = [
     slug: "residential-development-mysore-toys-at-kalidasar-road-mysore-77",
     name: "Residential development \" Mysore Toys at   Kalidasar road,Mysore",
     category: "Residential",
-    location: "Mysore, Bangalore",
+    location: "Mysore",
     imageUrl: "MANUAL_MAPPING_REQUIRED",
     status: "Ongoing",
     description: "Construction of Residential development \" Mysore Toys at   Kalidasar road,Mysore in Mysore, Bangalore.",
@@ -7589,7 +7750,7 @@ export const projectsList: Project[] = [
       client: "M/s.Mysore Toys Company",
       area: "1,23,200.",
       floors: "LB+UB+GF+19Floors",
-      startDate: "2026-02-01",
+      startDate:"FEB-26",
       completionDate: "JAN-29",
       consultant: "M/s.Urban Frame Pvt Ltd, No. 27/9,   \"Sankalpa\", CunninghamRoad, Vasanth Nagar, Bangalore - 560 052."
     },
@@ -7615,6 +7776,91 @@ export const projectsList: Project[] = [
       "/project/residential/SHRIRAM 122/Srivision1-800x408.jpg",
       "/project/residential/SHRIRAM 122/Srivision2-800x404.jpg"
     ]
+  },  {
+    slug: "construction-of-residential-building-dd-avenue-coimbatore-122",
+    name: "Construction of a Residential Building",
+    category: "Residential",
+    location: "DD Avenue, Sungam to Ukkadam Bypass Road, Coimbatore",
+    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    status: "Ongoing",
+    description: "Construction of a residential building at DD Avenue, Sungam to Ukkadam Bypass Road, Coimbatore.",
+    details: {
+      client: "Mr. C. S. Siddharth, Krishnasamy Towers, 172, Dr. Rajendra Prasad Road, Tatabad, Coimbatore - 641 012",
+      area: "11,400.00",
+      floors: "GF + 1 Floors",
+      startDate: "MAR' 2024",
+      completionDate: "JULY' 2027",
+      consultant: "Mrs. Bharathi Sengottuvel, No. 77, 6th Avenue, S-Block, Anna Nagar, Chennai - 600 040"
+    },
+    gallery: []
+  },  {
+    slug: "construction-of-residential-villas-swarnapura-coimbatore-123",
+    name: "Construction of Residential Villas - SWARNAPURA",
+    category: "Residential",
+    location: "Goldwins, Coimbatore",
+    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    status: "Ongoing",
+    description: "Construction of residential villas for SWARNAPURA at Goldwins, Coimbatore.",
+    details: {
+      client: "M/s. Nivasan Homes Pvt Ltd, No. 252, Avinashi Road, Peelamedu, Coimbatore - 641 004",
+      area: "93,500.00",
+      floors: "GF + 1 Floors",
+      startDate: "MAY' 2024",
+      completionDate: "OCT' 2026",
+      consultant: "M/s. Vesta Architects, No. 252, Avinashi Road, Peelamedu, Coimbatore - 641 004"
+    },
+    gallery: []
+  },  {
+    slug: "construction-of-residential-building-kalapatti-coimbatore-124",
+    name: "Construction of Residential Building at Kalapatti, Coimbatore",
+    category: "Residential",
+    location: "Kalapatti, Coimbatore",
+    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    status: "Ongoing",
+    description: "Construction of a residential building at Kalapatti, Coimbatore.",
+    details: {
+      client: "Mrs. Kanagarathinam, No. 142, Main Road, Lakshmi Puram, Palani - 624 601",
+      area: "9,500.00",
+      floors: "GF + 2 Floors",
+      startDate: "AUG' 2024",
+      completionDate: "OCT' 2026",
+      consultant: "M/s. SANKAR & ASSOCIATES, 27, Sengupta Street, Ramnagar, Coimbatore - 641 009"
+    },
+    gallery: []
+  },  {
+    slug: "construction-of-residential-apartment-shriram-122-chennai-125",
+    name: "Construction of Residential Apartment - Shriram 122",
+    category: "Residential",
+    location: "West Mangadu, Chennai",
+    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    status: "Ongoing",
+    description: "Construction of the Shriram 122 residential apartment project at West Mangadu, Chennai.",
+    details: {
+      client: "M/s. Shrivision Elevation Pvt Ltd, Mangadu, Chennai",
+      area: "",
+      floors: "2 Basement + GF + 19 Floors",
+      startDate: "JUN' 2025",
+      completionDate: "JUN' 2028",
+      consultant: "Design Realm, Chennai"
+    },
+    gallery: []
+  },  {
+    slug: "proposed-residential-building-brigade-silver-crest-tower-a-bangalore-126",
+    name: "Proposed Residential Building - Brigade Silver Crest, Tower A",
+    category: "Residential",
+    location: "Raghuvanahalli Village, Kanakapura Main Road, Bengaluru South, Bengaluru",
+    imageUrl: "MANUAL_MAPPING_REQUIRED",
+    status: "Ongoing",
+    description: "Construction of the proposed Brigade Silver Crest Tower A residential building at Doddakallasandra, Kanakapura Main Road, Bengaluru South.",
+    details: {
+      client: "M/s. Brigade Enterprises Ltd, 29th & 30th Floor, World Trade Center, 26/1, Brigade Gateway Campus, Dr. Rajkumar Road, Bangalore",
+      area: "3,99,475",
+      floors: "2 Basement + G + 28 Floors",
+      startDate: "SEP' 2026",
+      completionDate: "NOV' 2028",
+      consultant: "M/s. Pragathi Consultants, #2127/16, 9th Main, D Block, CQAL Layout, Sahakarnagar, Bangalore"
+    },
+    gallery: []
   }
 
 ];
